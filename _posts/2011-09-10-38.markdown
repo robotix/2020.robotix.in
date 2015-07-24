@@ -1,0 +1,23 @@
+---
+author: robotixiitkgp
+comments: true
+date: 2011-09-10T11:11:20.000Z
+layout: post
+slug: '38'
+title: 'R.A.F.T. : A Revisit'
+wordpress_id: 230
+categories:
+  - 'Robotix 2011 : Revisited!'
+---
+
+**RAFT** was one of the most successful mechanical events in Robotix 2011. Receiving participation from robot lovers all over the country, this event was one of a kind. Based on a practical and industry derived problem statement, the simplicity yet the unique nature of the event received wide acceptance. First years from IIT Kharagpur also showed deep interest in the event right from the start when Team Robotix conducted the first fresher workshop, submitting hundreds of mechanical designs for the event.
+
+_Trivia : The name RAFT was decided and then its full form (Robot Aided Flood Transportation) was concieved._
+
+[youtube [http://www.youtube.com/watch?v=4ZuvYuIPOmU&w=420&h=345](http://www.youtube.com/watch?v=4ZuvYuIPOmU&w=420&h=345)]
+
+In brief the event comprised of 3 rounds: **Round one**: Navigation of a raft on water through a pre-defined course. The raft was provided to the participants making the entire more practical and flexible. **Round two**: Retrieve people (in our case, cubes) from flood affected areas (platforms) and bring them to safety (Victory zone). **Round three** was left to be disclosed at the time of the event.
+
+To read more about the event click [here](http://robotix.in/rbtx11/events/raft)
+
+To view pictures from the event click [here](http://picasaweb.google.com/rbtx11/Robotix2011)

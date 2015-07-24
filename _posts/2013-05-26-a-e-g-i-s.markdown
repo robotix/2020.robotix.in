@@ -1,0 +1,27 @@
+---
+author: rbtxadmin
+comments: true
+date: 2013-05-26T09:45:53.000Z
+layout: post
+slug: a-e-g-i-s
+title: A.E.G.I.S.
+wordpress_id: 910
+categories:
+  - Around the World
+---
+
+AEGIS uses a beam of antiprotons from the Antiproton Decelerator to measure the value of Earth's gravitational acceleration.
+
+![](http://home.web.cern.ch/sites/home.web.cern.ch/files/styles/medium/public/image/experiment/2012/11/Aegis.jpg?itok=pyH5e9RH)
+
+The primary scientific goal of the Antihydrogen Experiment: Gravity, Interferometry, Spectroscopy (AEGIS) is the direct measurement of the Earth's gravitational acceleration, g, on antihydrogen.
+
+AEGIS is a collaboration of physicists from all over Europe. In the first phase of the experiment, the AEGIS team is using antiprotons from the Antiproton Decelerator to make a beam of antihydrogen atoms. They then pass the antihydrogen beam through an instrument called a Moire deflectometer coupled to a position-sensitive detector to measure the strength of the gravitational interaction between matter and antimatter to a precision of 1%.
+
+![](http://aegis.web.cern.ch/aegis/images/antih.jpg)
+
+A system of gratings in the deflectometer splits the antihydrogen beam into parallel rays, forming a periodic pattern. From this pattern, the physicists can measure how much the antihydrogen beam drops during its horizontal flight. Combining this shift with the time each atom takes to fly and fall, the AEGIS team can then determine the strength of the gravitational force between the Earth and the antihydrogen atoms.
+
+The AEGIS experiment will represent the first direct measurement of a gravitational effect on an antimatter system.
+
+Source: CERN
