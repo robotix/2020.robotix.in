@@ -63,19 +63,19 @@ After reading the accelerometer tutorial, you will get an idea about how an acce
 
 Let the accelerometer be placed on the top of the palm with the palm parallel to the ground. Consider the x axis output values of the accelerometer. Here X axis is along your hand as indicated by the horizontal dashed line in the following images. The ADC values of x-out pin in accelerometer will vary from one extreme to another extreme corresponding to the following two extreme positions of the palm (i.e. forward tilt and backward tilt) and would lie somewhere in between the two when the palm is parallel to the ground. -Say the ADC values from the output pin "x-out" vary from 100 to 450 between the extremes and is around 250 in the middle.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image02.jpg) Fig 1 : One extreme(adc value is minimum, say 100)
+![](http://www.robotix.in/Images/Tuts/Minefield/image02.jpg){:class="img-responsive"} Fig 1 : One extreme(adc value is minimum, say 100)
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image03.jpg)
+![](http://www.robotix.in/Images/Tuts/Minefield/image03.jpg){:class="img-responsive"}
 
 Fig 2 : Other extreme(adc value is maximum, say 450)
 
 Similarly,  along the y-axis let the values of the "y-out" pin vary from 100 to 450 during left extreme tilt to right extreme tilt respectively. The y-axis is as shown in the figure, perpendicular to the x-axis, in the plane parallel to the ground.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image01.jpg)
+![](http://www.robotix.in/Images/Tuts/Minefield/image01.jpg){:class="img-responsive"}
 
 Fig 3: One extreme("y-out" adc value is minimum, say 100)
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image05.jpg)
+![](http://www.robotix.in/Images/Tuts/Minefield/image05.jpg){:class="img-responsive"}
 
 Fig 4: One extreme("y-out" adc value is maximum, say 450)
 
@@ -97,11 +97,11 @@ Clasping victims/objects:
 
 Clasping of objects can be done in a similar way using another accelerometer using the ADC values of any one of the axis. we used a servo operated gripper for gripping the objects. Let the accelerometer be placed on the inside ot the palm being perpendicular to the ground as shown.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image04.jpg)
+![](http://www.robotix.in/Images/Tuts/Minefield/image04.jpg){:class="img-responsive"}
 
 Fig: Orientation 1
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image00.jpg) Fig: Orientation 2
+![](http://www.robotix.in/Images/Tuts/Minefield/image00.jpg){:class="img-responsive"} Fig: Orientation 2
 
 Let the ADC values of the reference axis pins be 50-150 (For Orientation 1) and 300-400(For Orientation 2). Now a simple code can be used to operate the gripper corresponding to the values of the the output pin of the reference axis.
 
@@ -120,13 +120,13 @@ For getting an insight into how these methods work you can visit this [link](htt
 
 For our testing we used a BFO metal detector. CIRCUIT DIAGRAM:
 
-![](https://lh5.googleusercontent.com/9BJKfidRQ1SpOLex1XPS0o053xTRx5H9JVZCDwCApsfbxScU1952NMMAEvxYIg0nU-7R3r4_APEf3PJ1SR1C0W7majZDnF0c7if-8tXZ-xN4Njm8RQbmWSxaW40pqXfcag) COMPONENTS:
+![](https://lh5.googleusercontent.com/9BJKfidRQ1SpOLex1XPS0o053xTRx5H9JVZCDwCApsfbxScU1952NMMAEvxYIg0nU-7R3r4_APEf3PJ1SR1C0W7majZDnF0c7if-8tXZ-xN4Njm8RQbmWSxaW40pqXfcag){:class="img-responsive"} COMPONENTS:
 
-![](https://lh3.googleusercontent.com/fUYrBGkW9x5kthRUxxqFhYERiTFqWJKRXgX2INCznDa06OMnudt-zXqd3yqPTqae9r4CH-iLxo9LIg-iMrXvfP0AlXP70UZLGr6L4nNp_cubEeNgKru2Mynv--gHpq1XOQ)
+![](https://lh3.googleusercontent.com/fUYrBGkW9x5kthRUxxqFhYERiTFqWJKRXgX2INCznDa06OMnudt-zXqd3yqPTqae9r4CH-iLxo9LIg-iMrXvfP0AlXP70UZLGr6L4nNp_cubEeNgKru2Mynv--gHpq1XOQ){:class="img-responsive"}
 
-[![DIY](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY.jpg)
+[![DIY](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY.jpg){:class="img-responsive"}
 
-[![DIY Back](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back.jpg)
+[![DIY Back](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back.jpg){:class="img-responsive"}
 
 Here is the [Event Video Tutorial](https://www.youtube.com/watch?v=-CECP3yWKSo&index=4&list=PLzio60ZRzGwZmI8WDMXtylcg4KYOohmP9).
 
