@@ -56,9 +56,9 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Technology <typeout> 2014"
+heroTitle: "<typeout>"
 eventDate: "September - November, 2014"
-typeoutTextValues: '"Technology", "Robotix", "Society"'
+typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUP"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
