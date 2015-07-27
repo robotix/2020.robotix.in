@@ -89,13 +89,13 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - The dimension of each stair is 50 cm x 7.5 cm x 7.5 cm.
 
 ####Top View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/top.jpg">
+![]({{ site.baseurl }}/img/event/summit/top.jpg){:class="img-responsive"}
 
 ####Front View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/front.jpg">
+![]({{ site.baseurl }}/img/event/summit/front.jpg){:class="img-responsive"}
 
 ####Isometric View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/isometric.jpg">
+![]({{ site.baseurl }}/img/event/summit/isometric.jpg){:class="img-responsive"}
 
 ####Task
 - The robot has to climb up the staircases using a suitable mechanism.
@@ -125,13 +125,13 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - The dimension of each object is 3cm x 3cm x 3cm
 
 ####Top View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/top2.jpg">
+![]({{ site.baseurl }}/img/event/summit/top2.jpg){:class="img-responsive"}
 
 ####Front View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/front2.jpg">
+![]({{ site.baseurl }}/img/event/summit/front2.jpg){:class="img-responsive"}
 
 ####Isometric View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/isometric2.jpg">
+![]({{ site.baseurl }}/img/event/summit/isometric2.jpg){:class="img-responsive"}
 
 ####Task
 - The robot has to climb up the staircases using a suitable mechanism.

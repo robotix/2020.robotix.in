@@ -27,11 +27,11 @@ Build a pair of manually controlled robots that interact with each other to rebu
 
 ####First Round
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/round1.png">
+![]({{ site.baseurl }}/img/event/amphibots/round1.png){:class="img-responsive"}
 
 ####Second Round
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/round2.png">
+![]({{ site.baseurl }}/img/event/amphibots/round2.png){:class="img-responsive"}
 
 ####Plank Specification
 
@@ -39,7 +39,7 @@ Build a pair of manually controlled robots that interact with each other to rebu
 - The upper surface of the plank will be provided with a hook.
 - The weight of the plank would be less than 900 g.
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/plank.png">
+![]({{ site.baseurl }}/img/event/amphibots/plank.png){:class="img-responsive"}
 
 ####Victim Specification
 
@@ -48,7 +48,7 @@ Build a pair of manually controlled robots that interact with each other to rebu
 - The victims are colour-coded and have to be placed accordingly.
 - The weight of the object will be less than 90 g.
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/victim.png">
+![]({{ site.baseurl }}/img/event/amphibots/victim.png){:class="img-responsive"}
 
 ####Safe Zone Specification
 
@@ -56,7 +56,7 @@ Build a pair of manually controlled robots that interact with each other to rebu
 - These safe zones will be coloured semicircular platforms of radius 40 cm and height 2cm.
 - The safe zone will be 60 cm above the water level.
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/safezone.png">
+![]({{ site.baseurl }}/img/event/amphibots/safezone.png){:class="img-responsive"}
 
 ###Rules
 
@@ -129,15 +129,15 @@ Build a pair of manually controlled robots that interact with each other to rebu
 
 ####Top View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/top.png">
+![]({{ site.baseurl }}/img/event/amphibots/top.png){:class="img-responsive"}
 
 ####Front View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/front.png">
+![]({{ site.baseurl }}/img/event/amphibots/front.png){:class="img-responsive"}
 
 ####Isometric View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/isometric.png">
+![]({{ site.baseurl }}/img/event/amphibots/isometric.png){:class="img-responsive"}
 
 ####Task
 
@@ -182,15 +182,15 @@ Build a pair of manually controlled robots that interact with each other to rebu
 
 ####Top View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/top2.jpg">
+![]({{ site.baseurl }}/img/event/amphibots/top2.jpg){:class="img-responsive"}
 
 ####Front View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/front2.jpg">
+![]({{ site.baseurl }}/img/event/amphibots/front2.jpg){:class="img-responsive"}
 
 ####Isometric View
 
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/amphibots/isometric2.jpg">
+![]({{ site.baseurl }}/img/event/amphibots/isometric2.jpg){:class="img-responsive"}
 
 ####Task
 
