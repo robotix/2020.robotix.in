@@ -2,10 +2,15 @@
 layout: post
 title: "Flank'Em"
 subTitle: 'Autonomous Event'
+logo: /img/event/flankem/logo.png
+social:
+  - {name: "facebook", link: ""}
+excerpt_separator: <!--more-->
 ---
 
 ###Introduction
 A platoon of army soldiers is being subjected to heavy fire, only a skilled commander can command the troop to victory.  
+<!--more-->
 
 ###USP
  - Wall Following

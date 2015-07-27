@@ -5,7 +5,7 @@
             {% for event in site.events %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
                 <div class="zoe-effect ribbon-activator">
-                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: event.thumbnailUrl }})">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: event.logo }})">
                         <div class="overlay solid-overlay"></div>
                         <ul class="ribbon-wrapper">
                             <li class="{{ ribbon["abbr"] | downcase }}">
@@ -27,7 +27,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                        <p class="bio">{{ post.content | strip_html | truncate: 250 }}</p>
                     </figure>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 layout: post
 title: 'Amphi-Bots'
 subTitle: 'Manual Event'
-logo: img/event/amphibots/
+logo: /img/event/amphibots/logo.png
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->
@@ -11,7 +11,6 @@ excerpt_separator: <!--more-->
 ###Problem Statement
 
 Build a pair of manually controlled robots that interact with each other to rebuild the broken bridge and rescue the victims.
-
 <!--more-->
 
 ###Task 

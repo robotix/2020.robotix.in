@@ -2,11 +2,16 @@
 layout: post
 title: "Fork'Em"
 subTitle: 'Semi Autonomous Event'
+logo: /img/event/forkem/logo.png
+social:
+  - {name: "facebook", link: ""}
+excerpt_separator: <!--more-->
 ---
 
 ###Introduction
 
 Time is money. Efficiency defines our lives, and in the future, menial work must be automated.
+<!--more-->
 
 ###Problem statement
 

@@ -2,10 +2,15 @@
 layout: post
 title: 'Summit'
 subTitle: 'Manual Event'
+logo: /img/event/summit/logo.png
+social:
+  - {name: "facebook", link: ""}
+excerpt_separator: <!--more-->
 ---
 
 ###Problem Statement
 Build a manually controlled robot capable of climbing staircases, whilst picking storing and placing objects  on its way.
+<!--more-->
 
 ###Task
 - Climb stairs of uniform height to reach a higher level platform.
