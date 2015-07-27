@@ -35,15 +35,7 @@ layout: compress
     {% include analytics.html %}
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
-    </script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-    if (typeof($.fn.modal) === 'undefined') {
-        document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
-    }
-    </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
     <script>
         Waves.displayEffect();
@@ -60,27 +52,6 @@ layout: compress
                         });
                     }
                 });
-                var rockstarSpeakers = [
-                    {% for speaker in site.data.speakers %}
-                        {% if speaker.rockstar %}
-                        {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
-                        {% endif %}
-                    {% endfor %}
-                ];
-                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
-                if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1500,
-                        count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-                        colWidth = 12/count;
-                    for(i=0; i<count; i++) {
-                        var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if ((i)%2 != 0) {
-                            clearfix = ""
-                        }
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
-                        animationDelay -= 500;
-                    }
-                }
             });
         {% endif %} 
     </script>

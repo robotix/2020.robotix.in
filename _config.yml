@@ -20,6 +20,9 @@ collections:
   events:
     output: true
     permalink: "/event/:path/"
+  tutorials:
+    output: true
+    permalink: "/tutorial/:path/"
 
 # Analytics
 googleAnalyticsTrackingId: "UA-33668522-1"
@@ -112,7 +115,6 @@ footerBlocks:
    - {link: "mailto:contact@robotix.in", text: "contact@robotix.in"}
 
 # Blog
-blogTitle: "Latest news"
 blogCommentsEnabled: true
 discusShortName: "robotix"
 
