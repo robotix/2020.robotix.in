@@ -21,7 +21,6 @@
         }
         if ($(window).scrollTop() >= 100) {
             $('#top-header').addClass('after-scroll');
-            $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
         }
 
         $(window).scroll(function() {
@@ -33,10 +32,8 @@
 
             if (scroll >= 100) {
                 header.addClass('after-scroll');
-                logo.removeClass('logo-light').addClass('logo-dark');
             } else {
                 header.removeClass('after-scroll');
-                logo.removeClass('logo-dark').addClass('logo-light');
             }
 
             if (scroll >= $('.top-section').height() && $(window).width() > 767) {

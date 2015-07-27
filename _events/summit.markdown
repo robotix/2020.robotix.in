@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Summit"
+title: 'Summit'
 subTitle: 'Manual Event'
-permalink: 'event/summit/'
 ---
 
 ###Problem Statement

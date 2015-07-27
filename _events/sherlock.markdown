@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Sherlock"
+title: 'Sherlock'
 subTitle: 'Autonomous Event'
-permalink: 'event/sherlock/'
 ---
 
 ###Problem Statement

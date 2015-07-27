@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "S.H.E.L.D.O.N."
+title: 'S.H.E.L.D.O.N.'
 subTitle: 'Computer Vision Event'
-permalink: 'event/sheldon/'
 ---
 
 ###Problem Statement

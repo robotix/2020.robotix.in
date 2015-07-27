@@ -2,7 +2,6 @@
 layout: post
 title: "Flank'Em"
 subTitle: 'Autonomous Event'
-permalink: 'event/flankem/'
 ---
 
 ###Introduction

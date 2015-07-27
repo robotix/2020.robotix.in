@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Fork 'Em"
+title: "Fork'Em"
 subTitle: 'Semi Autonomous Event'
-permalink: 'event/forkem/'
 ---
 
 ###Introduction
