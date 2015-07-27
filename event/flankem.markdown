@@ -42,21 +42,26 @@ The task is achieved by two autonomous bots, let us say A and B. The bot A is in
 ###Arena
 
 ####Depictive Arena of Round 1 for B
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/flankem/round1-B.png">
+
+![]({{ site.baseurl }}/img/event/flankem/round1-B.png){:class="img-responsive"}
 
 ####Depictive Arena of Round 2 for B
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/flankem/round2-B.png">
+
+![]({{ site.baseurl }}/img/event/flankem/round2-B.png){:class="img-responsive"}
 The following 2-D graphic is a possible configuration for the actual arena:
 The graphic assumes 5 Green, 4 Red, 3 Blue and 2 Yellow Doors at the beginning
 
 ####Arena for B
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/flankem/arena-B.png">
+
+![]({{ site.baseurl }}/img/event/flankem/arena-B.png){:class="img-responsive"}
 
 ####Arena for A
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/flankem/arena-A.png">
+
+![]({{ site.baseurl }}/img/event/flankem/arena-A.png){:class="img-responsive"}
 
 ####Depictive Arena of both rounds for A
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/flankem/arena-both-A.png">
+
+![]({{ site.baseurl }}/img/event/flankem/arena-both-A.png){:class="img-responsive"}
 
 ###Dimensions and Specifications
 - Both A and B should fit in a 25cm x 25cm x 25cm box. 

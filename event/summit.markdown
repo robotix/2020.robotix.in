@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summit"
-subTitle: 'Manual Robotics Event'
+subTitle: 'Manual Event'
 permalink: 'event/summit/'
 ---
 
@@ -89,13 +89,13 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - The dimension of each stair is 50 cm x 7.5 cm x 7.5 cm.
 
 ####Top View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/top.jpg">
+![]({{ site.baseurl }}/img/event/summit/top.jpg){:class="img-responsive"}
 
 ####Front View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/front.jpg">
+![]({{ site.baseurl }}/img/event/summit/front.jpg){:class="img-responsive"}
 
 ####Isometric View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/isometric.jpg">
+![]({{ site.baseurl }}/img/event/summit/isometric.jpg){:class="img-responsive"}
 
 ####Task
 - The robot has to climb up the staircases using a suitable mechanism.
@@ -114,7 +114,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - 100 points will be deducted for each restart(1 allowed) (R)
 
 ####Formula
-75*(F) + t’(t)*time remaining + 50*(P) - 25*(B) - 25*(T) - 50*(Q)- 100*(R)
+75 * (F) + (t) * time remaining + 50 * (P) - 25 * (B) - 25 * (T) - 50 * (Q)- 100 * (R)
 
 ###ROUND 2
 
@@ -125,13 +125,13 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - The dimension of each object is 3cm x 3cm x 3cm
 
 ####Top View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/top2.jpg">
+![]({{ site.baseurl }}/img/event/summit/top2.jpg){:class="img-responsive"}
 
 ####Front View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/front2.jpg">
+![]({{ site.baseurl }}/img/event/summit/front2.jpg){:class="img-responsive"}
 
 ####Isometric View
-<img class="img-responsive" src="{{ site.baseurl }}/img/event/summit/isometric2.jpg">
+![]({{ site.baseurl }}/img/event/summit/isometric2.jpg){:class="img-responsive"}
 
 ####Task
 - The robot has to climb up the staircases using a suitable mechanism.
@@ -158,4 +158,4 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - 25 points deducted if the block falls from the robot (BF)
 
 ####Formula 
-75*(F) + t’(t)*time left + 50*(P)+50*(BP)+75*(BD) - 25*(B) -25*(BF)- 25*(T) - 50*(Q)- 100*(R)
+75 * (F) + (t)*time left + 50 * (P) + 50 * (BP) + 75 * (BD) - 25 * (B) -25 * (BF)- 25 * (T) - 50 * (Q)- 100 * (R)
