@@ -11,7 +11,7 @@ categories:
   - Robotix Workshops
 ---
 
-[caption id="attachment_194" align="alignleft" width="300" caption="Indian Express"][![](http://robotix.in/blog/wp-content/uploads/2011/11/article11.png?w=300)](http://robotix.in/blog/wp-content/uploads/2011/11/article11.png)[/caption]
+[caption id="attachment_194" align="alignleft" width="300" caption="Indian Express"][![]({{ site.baseurl }}/img/blog/2011/11/article11.png?w=300)]({{ site.baseurl }}/img/blog/2011/11/article11.png)[/caption]
 
 In the run – up to the annual fiesta that is Robotix held at Kshitij, Technology Robotix Society has lined up a series of events, workshops and exhibitions at various locations in the country.  With the team spreading out to all corners of India, vast turnouts were witnessed at Bangalore, Nagpur and Ludhiana workshops held during the DP holidays. At the Kalyani hands-on workshop, students learnt to build a  autonomous line following robot in a span of one day.
 
@@ -19,7 +19,7 @@ In more recent news, the annual eagerly awaited Kolkata workshop, held at GD Bir
 
 Check out the pictures from the workshop [here](http://robotix.in/node/901)
 
-[caption id="attachment_195" align="alignright" width="300" caption="Hindustan Times"][![](http://robotix.in/blog/wp-content/uploads/2011/11/article21.png?w=300)](http://robotix.in/blog/wp-content/uploads/2011/11/article21.png)[/caption]
+[caption id="attachment_195" align="alignright" width="300" caption="Hindustan Times"][![]({{ site.baseurl }}/img/blog/2011/11/article21.png?w=300)]({{ site.baseurl }}/img/blog/2011/11/article21.png)[/caption]
 
 And we aren't even close to the finish line! A hands – on Image processing Workshop will be held at Techno India, Salt Lake on 6th November 2011 and we're in the final rungs of preparation.
 

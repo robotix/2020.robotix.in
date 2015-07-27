@@ -8,7 +8,7 @@ title: 'Romo 3 | A Gadget that will Transform your iPhone into a Robot'
 wordpress_id: 1166
 ---
 
-[![image-172365-full](http://robotix.in/blog/wp-content/uploads/2013/12/image-172365-full.jpg)](http://robotix.in/blog/wp-content/uploads/2013/12/image-172365-full.jpg)
+[![image-172365-full]({{ site.baseurl }}/img/blog/2013/12/image-172365-full.jpg)]({{ site.baseurl }}/img/blog/2013/12/image-172365-full.jpg)
 
 Photo from: _Kickstarter.com_
 
@@ -42,7 +42,7 @@ You don't have to be an expert to train the Android. It only uses your mobile ca
 <tbody >
 <tr >
 
-<td width="10%" > [![myMINIavy](http://robotix.in/blog/wp-content/uploads/2013/12/myMINIavy.jpg)](http://robotix.in/blog/wp-content/uploads/2013/12/myMINIavy.jpg)
+<td width="10%" > [![myMINIavy]({{ site.baseurl }}/img/blog/2013/12/myMINIavy.jpg)]({{ site.baseurl }}/img/blog/2013/12/myMINIavy.jpg)
 </td>
 
 <td width="90%" >

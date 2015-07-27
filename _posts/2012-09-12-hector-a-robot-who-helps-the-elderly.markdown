@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/09/7972584670_31e121759a-300x199.jpg)](http://robotix.in/blog/wp-content/uploads/2012/09/7972584670_31e121759a.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/09/7972584670_31e121759a-300x199.jpg)]({{ site.baseurl }}/img/blog/2012/09/7972584670_31e121759a.jpg)
 
 Hector is a robot designed to assist elderly people who suffer from mild cognitive impairment (MCI). Developed as part of the [CompanionAble project](http://www.companionable.net/) by researchers at the [Smart Homes foundation](http://www.smart-homes.nl) in the Netherlands. Herjan van den Heuvel of Smart Homes writes:
 <blockquote>"The developed care robot acts as a coach and companion, and supports the user by means of suggestions, encouragements and reminders on a physical, cognitive and social level. Think about offering structure by eating and drinking suggestions and medicines reminders, proposing activities such as going for a walk, playing a game, or calling someone, and reminding about appointments and tasks. It is expected that this will contribute to a more active, enjoyable and healthier life, not only for the end-user, but also for the partner or social carer. The robot can be considered as an helping hand for both."</blockquote>

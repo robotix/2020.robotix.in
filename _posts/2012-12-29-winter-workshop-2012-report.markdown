@@ -186,6 +186,6 @@ Build a robot capable of line following by normal implementation and by PID.
 * Link to Project Documentation: [Discern](https://docs.google.com/file/d/0B2q6W7yZgHPucmJrYTJsNktMMms/edit)
 ```
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/603245_3551858815704_1161883033_n-300x225.jpg)](http://robotix.in/blog/wp-content/uploads/2012/12/603245_3551858815704_1161883033_n.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/12/603245_3551858815704_1161883033_n-300x225.jpg)]({{ site.baseurl }}/img/blog/2012/12/603245_3551858815704_1161883033_n.jpg)
 
 --------------------------------------------------------------------------------

@@ -20,19 +20,19 @@ P.C.B. Soldering is a process which involves making a blob of solder on each of 
 
 Kraig 104 started off with teaching about rectifiers which are an effective replacement of adapters. They convert A.C. voltage into regulated D.C voltage. A rectifier uses the polar property of a diode i.e. a diode allows only unidirectional current to pass through it which happens when the P- terminal is at higher voltage then the N- terminal of the diode. This configuration is known as forward bias of the diode. The following shows a basic circuit for the rectifier circuit.
 
-[![Kraig103](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig103.png)](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig103.png)
+[![Kraig103]({{ site.baseurl }}/img/blog/2014/09/Kraig103.png)]({{ site.baseurl }}/img/blog/2014/09/Kraig103.png)
 
 The diodes at the right top and left bottom are in forward bias in the positive half cycle and the diodes at the left top and the bottom right are in forward bias in the negative half cycle of the voltage. Hence current always flows in one direction in the circuit. The first capacitor is known as filter which converts the varying signals (as shown below) to ripple voltage.
 
-[![Kraig103](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1031.png)](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1031.png)
+[![Kraig103]({{ site.baseurl }}/img/blog/2014/09/Kraig1031.png)]({{ site.baseurl }}/img/blog/2014/09/Kraig1031.png)
 
-[![Kraig103](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1032.png)](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1032.png)
+[![Kraig103]({{ site.baseurl }}/img/blog/2014/09/Kraig1032.png)]({{ site.baseurl }}/img/blog/2014/09/Kraig1032.png)
 
 Fig 1 shows voltage after only rectifier and fig 2 shows voltage after filtering the voltage using a capacitor. The filtering works on the property of capacitor to store charge when voltage across terminals is increasing and give it away when the reverse happens i.e. the voltage across its terminals decreases.
 
 This is followed by a 78xx I.C. which is voltage regulator, where xx denotes its output voltage. It removes the ripples from the voltage and the voltage looks like:
 
-[![Kraig103](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1033.png)](http://robotix.in/blog/wp-content/uploads/2014/09/Kraig1033.png)
+[![Kraig103]({{ site.baseurl }}/img/blog/2014/09/Kraig1033.png)]({{ site.baseurl }}/img/blog/2014/09/Kraig1033.png)
 
 Hence we arrive at a regulated voltage as we wished to. The capacitor after this I.C. is used to take away whatever little ripples are left.
 

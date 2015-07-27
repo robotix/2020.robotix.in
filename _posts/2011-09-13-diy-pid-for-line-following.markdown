@@ -30,7 +30,7 @@ Let's say our robot has 3 sensors- Left, Centre and Right. When the Centre senso
 
 The "Control" variable, which helps in precise motion of the bot is essentially a combination of the P, I and D elements with coefficients Kp, Kd and Ki,
 
-[![](http://robotix.in/blog/wp-content/uploads/2011/09/pid_1.png?w=217)](http://robotix.in/blog/wp-content/uploads/2011/09/pid_1.png)
+[![]({{ site.baseurl }}/img/blog/2011/09/pid_1.png?w=217)]({{ site.baseurl }}/img/blog/2011/09/pid_1.png)
 
 In order for your line follower to attain optimum performance, tuning is the most important last step to be followed :
 - Kp = 1, Kd = Ki = 0. The goal is to get the robot to follow the line even if it is very wobbly

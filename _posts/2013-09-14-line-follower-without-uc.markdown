@@ -58,7 +58,7 @@ Similarly, when the sensor pair is on a black line,
 
 Similarly,  for the IR LED-Photodiode sensor pair,
 
-[![sensor](http://robotix.in/blog/wp-content/uploads/2013/09/sensor.jpg)](http://robotix.in/blog/wp-content/uploads/2013/09/sensor.jpg)
+[![sensor]({{ site.baseurl }}/img/blog/2013/09/sensor.jpg)]({{ site.baseurl }}/img/blog/2013/09/sensor.jpg)
 
 The voltage across the IR Photodiode will vary as per the intensity of light falling on it.
 
@@ -66,7 +66,7 @@ More the reflected light, lesser the voltage across ir receiver.
 
 Here is your sensor circuit:
 
-[![sensor](http://robotix.in/blog/wp-content/uploads/2013/09/sensor.png)](http://robotix.in/blog/wp-content/uploads/2013/09/sensor.png)
+[![sensor]({{ site.baseurl }}/img/blog/2013/09/sensor.png)]({{ site.baseurl }}/img/blog/2013/09/sensor.png)
 
 The 10k component is your potentiometer which you might have to set to the maximum range. This resistance, ideally should be near ( R(light) * R(dark) )^1/2 where, R(light) is the approximate resistance of LDR during light and R(dark) is the resistance of the same in dark.
 
@@ -76,7 +76,7 @@ Now for analysing the sensor output, we use a comparator to get a digital output
 
 Click [here](http://www.robotix.in/tutorials/category/kraig/1.2) to understand the basics of comparators.
 
-[![op amp ckt](http://robotix.in/blog/wp-content/uploads/2013/09/op-amp-ckt.png)](http://robotix.in/blog/wp-content/uploads/2013/09/op-amp-ckt.png)
+[![op amp ckt]({{ site.baseurl }}/img/blog/2013/09/op-amp-ckt.png)]({{ site.baseurl }}/img/blog/2013/09/op-amp-ckt.png)
 
 Now, the LED-LDR is connected to a comparator LM358. LM358 is an operational amplifier IC which is being used as a comparator. The non inverting terminal of op-amp (The + terminal) reads the voltage across resistor R4. And, the inverting terminal of op-amp (The - terminal) reads the voltage that has been set at the potentiometer.
 

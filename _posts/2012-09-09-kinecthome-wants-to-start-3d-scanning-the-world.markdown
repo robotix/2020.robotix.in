@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/09/kinectathome-13462326486002-300x238.jpg)](http://robotix.in/blog/wp-content/uploads/2012/09/kinectathome-13462326486002.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/09/kinectathome-13462326486002-300x238.jpg)]({{ site.baseurl }}/img/blog/2012/09/kinectathome-13462326486002.jpg)
 
 Back in January, Adept's Erin Rapacki told that [it's time to start 3D scanning the world](http://spectrum.ieee.org/automaton/robotics/robotics-software/its-time-to-start-3d-scanning-the-world).  But it's not an easy thing to actually go and, you know, _do_. There are approximately 975 bajillion different objects out there in the world that robots need to know how to interact with, and the only way we're going to learn about them all (short of Google throwing approximately 975 bajillion dollars at the problem) is through a cooperative, crowdsourced effort like this new project called Kinect@Home.
 

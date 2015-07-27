@@ -196,7 +196,7 @@ Apart from these, we will need 1 sensor for node detection. This node detecting 
 
 The figure below shows soldered circuit of line following sensor circuit.
 
-[![Line following sensor array](http://robotix.in/blog/wp-content/uploads/2014/01/Line-following-sensor-array-1024x576.jpg)](http://robotix.in/blog/wp-content/uploads/2014/01/Line-following-sensor-array.jpg)
+[![Line following sensor array]({{ site.baseurl }}/img/blog/2014/01/Line-following-sensor-array-1024x576.jpg)]({{ site.baseurl }}/img/blog/2014/01/Line-following-sensor-array.jpg)
 
 To learn the complete way of making it, you can refer to our [line following](http://www.robotix.in/tutorials/category/auto/lfr) and [grid following](http://www.robotix.in/tutorials/category/auto/grid) tutorials.
 
@@ -204,15 +204,15 @@ Block detection
 
 Here, we are using simple IR sensors to detect the presence of block. This sensor circuit will be placed on front of the robot as shown.
 
-[![Img1](http://robotix.in/blog/wp-content/uploads/2014/01/Img1.png)](http://robotix.in/blog/wp-content/uploads/2014/01/Img1.png)
+[![Img1]({{ site.baseurl }}/img/blog/2014/01/Img1.png)]({{ site.baseurl }}/img/blog/2014/01/Img1.png)
 
-[![Object Sensor](http://robotix.in/blog/wp-content/uploads/2014/01/Object-Sensor-1024x576.jpg)](http://robotix.in/blog/wp-content/uploads/2014/01/Object-Sensor.jpg)
+[![Object Sensor]({{ site.baseurl }}/img/blog/2014/01/Object-Sensor-1024x576.jpg)]({{ site.baseurl }}/img/blog/2014/01/Object-Sensor.jpg)
 
 Void detection
 
 We can use an IR sensor to detect void. This IR sensor will be placed at the bottom of the robot as shown. The circuit diagram for this will be same as above.
 
-[![Depth sensor final](http://robotix.in/blog/wp-content/uploads/2014/01/Depth-sensor-final-1024x385.jpg)](http://robotix.in/blog/wp-content/uploads/2014/01/Depth-sensor-final.jpg)
+[![Depth sensor final]({{ site.baseurl }}/img/blog/2014/01/Depth-sensor-final-1024x385.jpg)]({{ site.baseurl }}/img/blog/2014/01/Depth-sensor-final.jpg)
 
 Node detection (while moving the block to void)
 
@@ -242,7 +242,7 @@ The Brute Force algorithm for this is very simple. Since, mapping the whole grid
 
 The grid is shown as follows
 
- [![Image1](http://robotix.in/blog/wp-content/uploads/2014/01/Image1.png)](http://robotix.in/blog/wp-content/uploads/2014/01/Image1.png)
+ [![Image1]({{ site.baseurl }}/img/blog/2014/01/Image1.png)]({{ site.baseurl }}/img/blog/2014/01/Image1.png)
 
 'C' represents the cube
 
@@ -254,15 +254,15 @@ The grid is shown as follows
 
 suppose we select the cube located at (1,2)(when top left node is considered as 0,0).
 
-[![Image2](http://robotix.in/blog/wp-content/uploads/2014/01/Image2.png)](http://robotix.in/blog/wp-content/uploads/2014/01/Image2.png)
+[![Image2]({{ site.baseurl }}/img/blog/2014/01/Image2.png)]({{ site.baseurl }}/img/blog/2014/01/Image2.png)
 
 Now we will scan diametrically for void
 
-[![Image3](http://robotix.in/blog/wp-content/uploads/2014/01/Image3.png)](http://robotix.in/blog/wp-content/uploads/2014/01/Image3.png)
+[![Image3]({{ site.baseurl }}/img/blog/2014/01/Image3.png)]({{ site.baseurl }}/img/blog/2014/01/Image3.png)
 
 As you can see that the node surrounding the selected cube are scanned for voids. In the loop just outside the cube there are no voids present. So, we increase our radius
 
-[![Image4](http://robotix.in/blog/wp-content/uploads/2014/01/Image4.png)](http://robotix.in/blog/wp-content/uploads/2014/01/Image4.png)
+[![Image4]({{ site.baseurl }}/img/blog/2014/01/Image4.png)]({{ site.baseurl }}/img/blog/2014/01/Image4.png)
 
 So, while scanning the next layer the void was found out at (0,3). Now, the robot will pick the cube from (1,2) and place it at the position (0,3).
 

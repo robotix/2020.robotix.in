@@ -12,7 +12,7 @@ categories:
 
 COMPUTER virus destroyed your hard drive? Don't worry, some day bacteria might build you a bigger and better one.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/07/mg21428636_500-1_300.jpg)](http://robotix.in/blog/wp-content/uploads/2012/07/mg21428636_500-1_300.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/07/mg21428636_500-1_300.jpg)]({{ site.baseurl }}/img/blog/2012/07/mg21428636_500-1_300.jpg)
 
 Hard drives store data on discs coated with a metallic film divided into tiny magnetic regions, each of which stores a single bit - the more regions you can squeeze on to a disc, the bigger the capacity. Now, a team at the University of Leeds, UK, have borrowed a trick from nature to build a new kind of hard drive.
 

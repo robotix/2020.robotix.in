@@ -41,7 +41,7 @@ Now, click on the '**MYKTJ**' tab in a list on the left hand side. Your profile 
 ![](https://lh6.googleusercontent.com/uN5-86oTIXPtqHJ4ZkccvyhJjaYl3q0NnLK1LOZ4XE1FM6f4lxNsMZBuzJBt1syW-NAeYh3jYih18jgxmGvsYE0t1svc_mT58QPk1TnNrjR7btNd3rHhKSbyug)
 1. The following window will appear for every successful registration.
 
-[![Screen Shot 2013-12-08 at 12.29.28 am](http://robotix.in/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-08-at-12.29.28-am.png)](http://robotix.in/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-08-at-12.29.28-am.png)
+[![Screen Shot 2013-12-08 at 12.29.28 am]({{ site.baseurl }}/img/blog/2013/12/Screen-Shot-2013-12-08-at-12.29.28-am.png)]({{ site.baseurl }}/img/blog/2013/12/Screen-Shot-2013-12-08-at-12.29.28-am.png)
 1. You can add team member by searching their name in the search tab .
 
 ![](https://lh3.googleusercontent.com/kHqQoEG5V53mDxHRFCEtf_8Lvt77-0KsD4bLOnBFejmcwe2gGNXOz-xwORK1wGdKSjn3OHU5W60CtcvDJKE7YDeca4KbcaNZIo0bXkYHbSIHJGnca7FdtW1-xg)

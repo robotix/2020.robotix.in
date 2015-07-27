@@ -124,9 +124,9 @@ For our testing we used a BFO metal detector. CIRCUIT DIAGRAM:
 
 ![](https://lh3.googleusercontent.com/fUYrBGkW9x5kthRUxxqFhYERiTFqWJKRXgX2INCznDa06OMnudt-zXqd3yqPTqae9r4CH-iLxo9LIg-iMrXvfP0AlXP70UZLGr6L4nNp_cubEeNgKru2Mynv--gHpq1XOQ){:class="img-responsive"}
 
-[![DIY](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY.jpg){:class="img-responsive"}
+[![DIY]({{ site.baseurl }}/img/blog/2014/11/DIY-724x1024.jpg)]({{ site.baseurl }}/img/blog/2014/11/DIY.jpg){:class="img-responsive"}
 
-[![DIY Back](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back-724x1024.jpg)](http://robotix.in/blog/wp-content/uploads/2014/11/DIY-Back.jpg){:class="img-responsive"}
+[![DIY Back]({{ site.baseurl }}/img/blog/2014/11/DIY-Back-724x1024.jpg)]({{ site.baseurl }}/img/blog/2014/11/DIY-Back.jpg){:class="img-responsive"}
 
 Here is the [Event Video Tutorial](https://www.youtube.com/watch?v=-CECP3yWKSo&index=4&list=PLzio60ZRzGwZmI8WDMXtylcg4KYOohmP9).
 

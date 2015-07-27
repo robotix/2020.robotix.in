@@ -172,7 +172,7 @@ void uturn()
 
 **Declaring and fixing grid constants**
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/image0051.png)](http://robotix.in/blog/wp-content/uploads/2013/01/image0051.png)[![](http://robotix.in/blog/wp-content/uploads/2013/01/image007.png)](http://robotix.in/blog/wp-content/uploads/2013/01/image007.png)
+[![]({{ site.baseurl }}/img/blog/2013/01/image0051.png)]({{ site.baseurl }}/img/blog/2013/01/image0051.png)[![]({{ site.baseurl }}/img/blog/2013/01/image007.png)]({{ site.baseurl }}/img/blog/2013/01/image007.png)
 
 (0, 0) is fixed at lower left corner and directions according to the picture on the right. Thus positive y direction corresponds to N.
 
@@ -357,4 +357,4 @@ void move_general(int gx, int gy)
 
 **Looking Ahead**
 
-Since the recursive backtracker algorithm requires the bot to move one step at a time and that too along the axis, we can easily implement it using the above code and an additional obstacle sensor. The only change would be to check if the node in front is free using the obstacle sensor, before the bot tries to move to it. For the Arduino code file, click [sketch_jan05a.ino](http://robotix.in/blog/wp-content/uploads/2013/01/sketch_jan05a.ino_.zip) For doubts, suggestions and feedback send a mail to aditya@robotix.in
+Since the recursive backtracker algorithm requires the bot to move one step at a time and that too along the axis, we can easily implement it using the above code and an additional obstacle sensor. The only change would be to check if the node in front is free using the obstacle sensor, before the bot tries to move to it. For the Arduino code file, click [sketch_jan05a.ino]({{ site.baseurl }}/img/blog/2013/01/sketch_jan05a.ino_.zip) For doubts, suggestions and feedback send a mail to aditya@robotix.in

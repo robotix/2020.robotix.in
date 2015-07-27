@@ -100,12 +100,12 @@ You need to decide here, as to what mechanism you are going to use to traverse t
 
 The completed Traversal Mechanism.
 
-[![DSC_0021](http://robotix.in/blog/wp-content/uploads/2013/12/DSC_0021-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/12/DSC_0021.jpg)
+[![DSC_0021]({{ site.baseurl }}/img/blog/2013/12/DSC_0021-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/12/DSC_0021.jpg)
 
 # Arm and Popping Mechanism
 The **C-shaped** rotatory mechanism allows the attached popping mechanism to rotate around the robot.
 
-[![DSC_0048](http://robotix.in/blog/wp-content/uploads/2013/12/DSC_0048-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/12/DSC_0048.jpg)
+[![DSC_0048]({{ site.baseurl }}/img/blog/2013/12/DSC_0048-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/12/DSC_0048.jpg)
 
 The popping mechanism consists of a rack and pinion system. The rack also acts as part of the arm and can be pushed to the right and left by the pinion.
 
@@ -117,7 +117,7 @@ When attached as shown, that is tangential to the end of the C rotatory mechanis
 # Control Box
 As we are using 5 motors we need 5 three way switches. ![](https://lh4.googleusercontent.com/qEDdIZF6jnijkh9GaZAFzsiZkD93fJ8g3EbzuhalFIzwsnUiYos3vzeBMQUmlpX2aP2mm04rWrsGPQhG1VjpoIXn8d017jCi6Pf_ITsUnbafiwDm0cc)
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3559-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3559.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3559-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3559.jpg)
 
 The control box used in this robot
 

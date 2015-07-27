@@ -93,7 +93,7 @@ This discussion has been divided in 4 parts:
 # Locomotion
 For the locomotion, different drives can be used but  the most common drive mechanism is a Differential Drive. Its is the basic design of 4 DC Motors each connected to a wheel. However, it will be better. if you can use other better mechanisms for locomotion like Rocker Bogie mechanism, conveyor belts, and even springs for more stability while traversing the different terrains.
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3511-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3511.jpg) For detailed information on constructing a differential drive, you may check the video tutorial[ Differential Drive](http://www.youtube.com/watch?v=kFoGBIqIqoM).
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3511-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3511.jpg) For detailed information on constructing a differential drive, you may check the video tutorial[ Differential Drive](http://www.youtube.com/watch?v=kFoGBIqIqoM).
 
 ## Picking up Joints and Victims
 The primary goal of the robot is to lift the Bridging parts (Joints) and save the victims. Your robot should have a Flexible Gripper (for grasping) or an arm (for extension) attached with a hook that collects the Joints and places them into the missing track, and the same goes with the victims. You may consider using the following approach:
@@ -104,31 +104,31 @@ Your robot can have a flexible arm to lift victims kept at the base of the creva
 
 A mechanical arm is [robotic](http://en.wikipedia.org/wiki/Robotic), with similar functions to a human [arm](http://en.wikipedia.org/wiki/Arm). The arms  are controlled by DC motors.The pictures below show a pretty good description of the working of this mechanism.
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3503-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3503.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3503-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3503.jpg)
 
 We have used two 10 rpm motors in the robotic arm. The total length of the arm is around 40 cms, long enough to pick up the victims. A hook is attached at the end of the robotic arm to lift the Joints and the victims.
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3550-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3550.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3550-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3550.jpg)
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3563-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3563.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3563-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3563.jpg)
 
 **Storing and Dumping of Victims:**
 
 For storing the victims, a large space has been provided on the chassis. Once the robot is in safe zone, you can drop the victims in the safe zone at once. For this we have used a mechanism which uses two motors. One motor (60 rpm) opens a shutter at the back end of the chassis, while the other motor (30/60 rpm) controls a hand that pushes out the victims from the chassis onto the safe zone.
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3506-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3506.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3506-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3506.jpg)
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3565-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3565.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3565-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3565.jpg)
 
 # Control Box
 As we are using 5/6 motors we need 5/6 three way switches. ![](https://lh4.googleusercontent.com/qEDdIZF6jnijkh9GaZAFzsiZkD93fJ8g3EbzuhalFIzwsnUiYos3vzeBMQUmlpX2aP2mm04rWrsGPQhG1VjpoIXn8d017jCi6Pf_ITsUnbafiwDm0cc)
 
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3559-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC3559.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC3559-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC3559.jpg)
 
 The control box used in this robot
 
 # Completed robot
-[![](http://robotix.in/blog/wp-content/uploads/2013/01/DSC35031-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/01/DSC35031.jpg)
+[![]({{ site.baseurl }}/img/blog/2013/01/DSC35031-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/01/DSC35031.jpg)
 
 **Refer to the [video tutorial](http://www.youtube.com/watch?v=Q_pIKhwH2OM) for more details.**
 

@@ -8,7 +8,7 @@ title: ROBOTIX 2012- An Unforgettable Journey
 wordpress_id: 168
 ---
 
-[![ROBOTIX 2012](http://robotix.in/blog/wp-content/uploads/2012/07/428278_10150661918878969_1839621469_n.jpg)](http://robotix.in/blog/wp-content/uploads/2012/07/428278_10150661918878969_1839621469_n.jpg)
+[![ROBOTIX 2012]({{ site.baseurl }}/img/blog/2012/07/428278_10150661918878969_1839621469_n.jpg)]({{ site.baseurl }}/img/blog/2012/07/428278_10150661918878969_1839621469_n.jpg)
 
 The 2012 edition of our annual technological fest, held during the extravaganza that is Kshitij, was a resounding success, with several hundreds of teams from across the country and beyond, turning up to tackle our challenging and innovative problem statements. As is our tradition, there were manual, autonomous and image processing events to test all the fundamental abilities needed for designing and operating robots. From the 27th to the 30th of January, the area around the TRS laboratory, which served as the site of the events, was filled to the brim with enthusiastic students working to tune and perfect their creations. And the six events lived up to the expectations.
 

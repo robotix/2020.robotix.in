@@ -8,7 +8,7 @@ title: "Here's That Extra Pair of Robot Arms You've Always Wanted"
 wordpress_id: 1392
 ---
 
-[![sra-mit-shoulder-robot-arm-icra-img1-1401715150100](http://robotix.in/blog/wp-content/uploads/2014/06/sra-mit-shoulder-robot-arm-icra-img1-1401715150100.png)](http://robotix.in/blog/wp-content/uploads/2014/06/sra-mit-shoulder-robot-arm-icra-img1-1401715150100.png)
+[![sra-mit-shoulder-robot-arm-icra-img1-1401715150100]({{ site.baseurl }}/img/blog/2014/06/sra-mit-shoulder-robot-arm-icra-img1-1401715150100.png)]({{ site.baseurl }}/img/blog/2014/06/sra-mit-shoulder-robot-arm-icra-img1-1401715150100.png)
 
 Supernumerary Robotic Limbs (SRLs) are robotic limbs that, when worn, give you more limbs than you'd normally have. In other words, they're not robotic limbs designed to replace biological limbs that you might be missing, but rather robotic limbs designed to augment the number of limbs that you have already.
 

@@ -12,7 +12,7 @@ As always during the autumn mid-semester break, Technology Robotix Society in co
 
 The venues are shown here:
 
-[![png;base649854abf87b6da3af](http://robotix.in/blog/wp-content/uploads/2013/10/pngbase649854abf87b6da3af.png)](http://robotix.in/blog/wp-content/uploads/2013/10/pngbase649854abf87b6da3af.png)
+[![png;base649854abf87b6da3af]({{ site.baseurl }}/img/blog/2013/10/pngbase649854abf87b6da3af.png)]({{ site.baseurl }}/img/blog/2013/10/pngbase649854abf87b6da3af.png)
 
 7/10/13 - Bhubaneswar - College of Engineering and Technology
 

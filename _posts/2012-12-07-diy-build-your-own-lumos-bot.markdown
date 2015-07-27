@@ -40,21 +40,21 @@ _For this DIY, let us divide the discussion into 3 parts. The locomotion, sensor
 
 _**_The locomotion system we are using here is the differential drive. It is a basic design with two motors, two wheels and a castor wheel. The chassis is a ready-made steel chassis that can be bought of the internet.
 
-[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Chassis for the differential Drive"][![](http://robotix.in/blog/wp-content/uploads/2012/12/1-300x225.png)](http://robotix.in/blog/wp-content/uploads/2012/12/1.png)[/caption]
+[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Chassis for the differential Drive"][![]({{ site.baseurl }}/img/blog/2012/12/1-300x225.png)]({{ site.baseurl }}/img/blog/2012/12/1.png)[/caption]
 
-[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Rectifier Circuit with 7805 and 7812 ICs"][![](http://robotix.in/blog/wp-content/uploads/2012/12/image12.jpg)](http://robotix.in/blog/wp-content/uploads/2012/12/image12.jpg)[/caption]
+[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Rectifier Circuit with 7805 and 7812 ICs"][![]({{ site.baseurl }}/img/blog/2012/12/image12.jpg)]({{ site.baseurl }}/img/blog/2012/12/image12.jpg)[/caption]
 
 **Sensor:**
 
 _**_This is the most important part of the robot. We have used here a three sensor layout which enables the robot to sense any light source in front of it. Of course, there can be several more different layouts to optimize the performance of the robot. Below is the picture of the sensory circuit mounted on the robot.
 
-[caption id="attachment_455" align="aligncenter" width="300" caption="Fig: Sensor circuit and its placement on the chassis"][![](http://robotix.in/blog/wp-content/uploads/2012/12/image09.jpg)](http://robotix.in/blog/wp-content/uploads/2012/12/image09.jpg)[/caption]
+[caption id="attachment_455" align="aligncenter" width="300" caption="Fig: Sensor circuit and its placement on the chassis"][![]({{ site.baseurl }}/img/blog/2012/12/image09.jpg)]({{ site.baseurl }}/img/blog/2012/12/image09.jpg)[/caption]
 
-[caption id="attachment_454" align="aligncenter" width="300" caption="Fig: Sensor circuit and its placement on the chassis"][![](http://robotix.in/blog/wp-content/uploads/2012/12/4-300x225.png)](http://robotix.in/blog/wp-content/uploads/2012/12/4.png)[/caption]
+[caption id="attachment_454" align="aligncenter" width="300" caption="Fig: Sensor circuit and its placement on the chassis"][![]({{ site.baseurl }}/img/blog/2012/12/4-300x225.png)]({{ site.baseurl }}/img/blog/2012/12/4.png)[/caption]
 
 Let us mark these sensors as left(L), right(R) and centre(C) sensors. The ultimate goal of our code is to find which sensor receives maximum intensity and to face the robot in that direction. Below diagram shows the circuitry in the sensor circuits:
 
-[caption id="attachment_453" align="aligncenter" width="300" caption="Fig: Circuitry of the sensor circuit"]![](http://robotix.in/blog/wp-content/uploads/2012/12/2-300x220.png)[/caption]
+[caption id="attachment_453" align="aligncenter" width="300" caption="Fig: Circuitry of the sensor circuit"]![]({{ site.baseurl }}/img/blog/2012/12/2-300x220.png)[/caption]
 
 Each sensor has to be provided a 5V Vcc supply and a data(D) output has to be taken out from it.  Three sensor circuits as shown in fig 2 will complete our sensory part of the robot.
 
@@ -62,7 +62,7 @@ Each sensor has to be provided a 5V Vcc supply and a data(D) output has to be ta
 
 We are here using an Atmega 16A microcontroller running at 16Mhz. The development board and programmer that are used here are available at [www.robokits.in](http://www.robokits.in). Of course there are several other sites too from where development boards and programmers can be acquired.
 
-[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Development Board for the microprocessor"][![](http://robotix.in/blog/wp-content/uploads/2012/12/image11.jpg)](http://robotix.in/blog/wp-content/uploads/2012/12/image11.jpg)[/caption]
+[caption id="attachment_450" align="aligncenter" width="300" caption="Fig: Development Board for the microprocessor"][![]({{ site.baseurl }}/img/blog/2012/12/image11.jpg)]({{ site.baseurl }}/img/blog/2012/12/image11.jpg)[/caption]
 
 For the basics regarding the Atmega 16A microcontroller, refer to its datasheet which is available online.
 
@@ -70,9 +70,9 @@ So let's get down to the connections. Here we have 3 sets of inputs coming from 
 
 As the motor driver consists of two enable pins we have to provide a high to both these pins. So we use the pins PB0 and PB1 to do this. The other 4 inputs to the motor driver we provide using the pins PB3, PB4, PB5, and PB6. Below is a circuit diagram showing the connections for a motor driver circuit.
 
-[caption id="attachment_456" align="aligncenter" width="300" caption="Fig: Connections of a motor driver IC L293D"][![](http://robotix.in/blog/wp-content/uploads/2012/12/6-300x164.png)](http://robotix.in/blog/wp-content/uploads/2012/12/6.png)[/caption]
+[caption id="attachment_456" align="aligncenter" width="300" caption="Fig: Connections of a motor driver IC L293D"][![]({{ site.baseurl }}/img/blog/2012/12/6-300x164.png)]({{ site.baseurl }}/img/blog/2012/12/6.png)[/caption]
 
-[caption id="attachment_456" align="aligncenter" width="300" caption="Fig: Motor driver IC L293D Circuit"][![](http://robotix.in/blog/wp-content/uploads/2012/12/image13.jpg)](http://robotix.in/blog/wp-content/uploads/2012/12/image13.jpg)[/caption]
+[caption id="attachment_456" align="aligncenter" width="300" caption="Fig: Motor driver IC L293D Circuit"][![]({{ site.baseurl }}/img/blog/2012/12/image13.jpg)]({{ site.baseurl }}/img/blog/2012/12/image13.jpg)[/caption]
 
 The voltage supply at Vs is used for running the 12V 100rpm motors while the 5V supply at Vss is used for powering the internal circuitry of the IC. Here one can easily see that according to these connections, the robot follows the following motions:
 <table cellpadding="0" cellspacing="0" border="1" >

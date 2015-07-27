@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![Robo Resto](http://robotix.in/blog/wp-content/uploads/2012/07/robo-resto-300x238.jpg)](http://robotix.in/blog/wp-content/uploads/2012/07/robo-resto.jpg)
+[![Robo Resto]({{ site.baseurl }}/img/blog/2012/07/robo-resto-300x238.jpg)]({{ site.baseurl }}/img/blog/2012/07/robo-resto.jpg)
 
 They say robots will one day serve mankind - in which case you can consider this an entrée. For if you pay a visit to this restaurant, in downtown Harbin, China, you will find 18 robots - from a waitress to a cooker to an usher - ready to ensure your dining experience is perfect. The restaurant has 18 types of robots, each gliding out of the kitchen to provide your dish, with specialty robots including a dumpling robot and a noodle robot.
 

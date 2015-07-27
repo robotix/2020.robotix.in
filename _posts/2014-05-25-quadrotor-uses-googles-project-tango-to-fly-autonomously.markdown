@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![upenn-quadrotor-project-tango-1400704200345](http://robotix.in/blog/wp-content/uploads/2014/05/upenn-quadrotor-project-tango-1400704200345.png)](http://robotix.in/blog/wp-content/uploads/2014/05/upenn-quadrotor-project-tango-1400704200345.png)
+[![upenn-quadrotor-project-tango-1400704200345]({{ site.baseurl }}/img/blog/2014/05/upenn-quadrotor-project-tango-1400704200345.png)]({{ site.baseurl }}/img/blog/2014/05/upenn-quadrotor-project-tango-1400704200345.png)
 
 Early this year, Google unveiled its Project Tango smartphone, a mobile device equipped with a depth sensor, a motion tracking camera, and two vision processors that let the phone track its position in space and create 3D maps in real time. The device is particularly useful for robots, which have to navigate and locate themselves in the world. Indeed, a video showed how Google and its partners were putting the smartphone on different kinds of robots, including mobile platforms and manipulator arms.
 

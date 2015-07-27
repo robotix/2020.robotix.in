@@ -128,30 +128,30 @@ Breaking Condition
 </td> </tr> </tbody> </table> **SWITCHES**
 - **DPDT:** DPDT stands for Double Pole Double Throw switch. It makes or breaks two connections at the same time, in two different directions. That is, it has six terminals in total, with the middle two terminals being able to connect to either the two upper terminals or two lower terminals at a time, but not both
 - **Relay:** A relay is a five terminal device that works on the principle of electromagnetism. When given some potential difference across the two terminals of the electromagnet, the connection is made in one direction (NO) and broken in another (NC). It works as a single pole, double throw switch, but doesn't require manual tapping.
-- [![Untitled](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled.png)](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled.png)
+- [![Untitled]({{ site.baseurl }}/img/blog/2014/08/Untitled.png)]({{ site.baseurl }}/img/blog/2014/08/Untitled.png)
 - **SPST: **An SPST which stands for single pole single throw is what a regular light switch is. It completes or breaks one connection at a time, that too only in a single direction. They are also known as push button switches.
 
 **DIFFERENTIAL DRIVE MECHANICS**
 
 A Differential drive consists of two motorized wheels that can spin in same or opposite directions, or can entirely be stopped. Thus forward backward movements along with turns can be achieved, and also it can be used perform a 360 degree turn while keeping static at the original position.
 
-[![Untitled](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled1.png)](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled1.png)
+[![Untitled]({{ site.baseurl }}/img/blog/2014/08/Untitled1.png)]({{ site.baseurl }}/img/blog/2014/08/Untitled1.png)
 
 **DIODES**
 
 Diodes are semiconductor devices with very low resistance for flow of current in one direction and very high for flow of current in another, so it allows unidirectional flow of current only.  Ideally resistance is zero for one direction and infinite for the other.
 
-[![Untitled](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled2.png)](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled2.png)
+[![Untitled]({{ site.baseurl }}/img/blog/2014/08/Untitled2.png)]({{ site.baseurl }}/img/blog/2014/08/Untitled2.png)
 
 **CONTROL BOX FOR THE ROBOT**
 
 The demonstrated control box consisted of 2 relays, two push button switches, power source along with the motor that needed to be controlled using the box. The robot controls were similar to the WSAD configuration used for playing PC games (W-forward, S-Backward, A-Strafe Left, D-Strafe Right). The speakers also drew the circuit line by line and explained everything clearly. The circuit diagram of the box was as follows:
 
-[![Untitled](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled3.png)](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled3.png)
+[![Untitled]({{ site.baseurl }}/img/blog/2014/08/Untitled3.png)]({{ site.baseurl }}/img/blog/2014/08/Untitled3.png)
 
 The final circuit that was to be used for controlling the robot for the robosoccer event was also shown. It looked like:
 
-[![Untitled](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled4.png)](http://robotix.in/blog/wp-content/uploads/2014/08/Untitled4.png)
+[![Untitled]({{ site.baseurl }}/img/blog/2014/08/Untitled4.png)]({{ site.baseurl }}/img/blog/2014/08/Untitled4.png)
 
 This pretty much summed up the meeting. In the end, some of the inquisitive learners tried to clarify their doubts and members of TRS were happy doing that. The session ended at about 8:00PM and the audience departed, elated and fascinated.
 

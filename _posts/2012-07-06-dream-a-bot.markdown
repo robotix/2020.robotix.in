@@ -14,7 +14,7 @@ categories:
 
 The idea Dream-A-Bot initiative is to empower budding enthusiasts to pursue robotics projects that they have conceived and designed, while Technology Robotix Society supports them through mentorship, and technical and financial assistance. There were already a few high-profile robotics projects going on in campus, and all of them have been successful and reputable. We want to foster more such innovation and enterprise, which often gets lost amidst the need for resources and facilities. With this initiative however, students will be able to have both and can pursue their goals confidently.
 
-[![Concept Robot](http://robotix.in/blog/wp-content/uploads/2012/07/HoalohaRobotics_Concept_Robot1.jpg)](http://robotix.in/blog/wp-content/uploads/2012/07/HoalohaRobotics_Concept_Robot1.jpg)
+[![Concept Robot]({{ site.baseurl }}/img/blog/2012/07/HoalohaRobotics_Concept_Robot1.jpg)]({{ site.baseurl }}/img/blog/2012/07/HoalohaRobotics_Concept_Robot1.jpg)
 
 The official announcement for Dream-A-Bot was made in campus a few months ago. Interested students were asked to send in a brief description of their idea along with an estimate of the expenditure, the materials required, the tentative duration of the project, long-term applications and also possible milestones. Several worthy entries were received, and it was quite a task to narrow down the list to the ones that would finally be taken.
 

@@ -11,7 +11,7 @@ categories:
   - Latest From The Campus
 ---
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/08/582739_263861993725611_470192612_n1-200x300.jpg)](http://robotix.in/blog/wp-content/uploads/2012/08/582739_263861993725611_470192612_n1.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/08/582739_263861993725611_470192612_n1-200x300.jpg)]({{ site.baseurl }}/img/blog/2012/08/582739_263861993725611_470192612_n1.jpg)
 
 It's that time of the year again for the newest members of IIT Kharagpur! **Technology Robotix Society** brings to them its first event of the academic calendar, the** Freshers' Robosoccer Challenge**, from the 24th to the 26th of August. Teams are required to build and operate a manual robot to play one-on-one football in a knockout tournament. Robosoccer combines the universal excitement and amusement inspired by football, with the thrill and satisfaction of making a working robot from scratch, so as to provide a unique and memorable experience for all the participants.
 

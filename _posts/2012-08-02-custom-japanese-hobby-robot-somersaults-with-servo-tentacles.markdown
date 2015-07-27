@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/08/metallic_vaio_1-1343007808291-300x220.jpg)](http://robotix.in/blog/wp-content/uploads/2012/08/metallic_vaio_1-1343007808291.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/08/metallic_vaio_1-1343007808291-300x220.jpg)]({{ site.baseurl }}/img/blog/2012/08/metallic_vaio_1-1343007808291.jpg)
 
 Straight from Japan comes this robot called "[Metallic Vaio 2012](http://www.youtube.com/watch?v=xOdHWSlCAFU&feature=player_embedded)," which has a style of locomotion that we've never seen before. Instead of using arms or legs, it's got a sort of combination of both: two long tentacles made out of chains of servos that it uses to crawl around and rapidly somersault from place to place.
 

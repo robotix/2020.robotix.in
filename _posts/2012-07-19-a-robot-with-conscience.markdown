@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/07/aisoy1.jpg)](http://robotix.in/blog/wp-content/uploads/2012/07/aisoy1.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/07/aisoy1.jpg)]({{ site.baseurl }}/img/blog/2012/07/aisoy1.jpg)
 
 Spain has designed the world's first robot with its own "conscience" and "life", which will "entertain, teach and be a companion" to humans who purchase it. The AISoy 1 is the first social android developed by Spanish firm AISoy Robotics, which is now bringing its creation out of the laboratory.
 

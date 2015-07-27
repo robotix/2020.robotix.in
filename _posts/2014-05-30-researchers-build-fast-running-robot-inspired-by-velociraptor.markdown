@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![raptor-kaist-2-1401292999992](http://robotix.in/blog/wp-content/uploads/2014/05/raptor-kaist-2-1401292999992.jpg)](http://robotix.in/blog/wp-content/uploads/2014/05/raptor-kaist-2-1401292999992.jpg)
+[![raptor-kaist-2-1401292999992]({{ site.baseurl }}/img/blog/2014/05/raptor-kaist-2-1401292999992.jpg)]({{ site.baseurl }}/img/blog/2014/05/raptor-kaist-2-1401292999992.jpg)
 
 Researchers have long been interested in fast-running robots with powerful, agile legs. In particular, several groups have focused on bio-inspired designs based on cheetahs.
 
@@ -24,7 +24,7 @@ And it's almost as fast as the world's fastest legged robot, Cheetah, built by B
 
 But before you suggest a robot race between the two machines, note that both Raptor and Cheetah are attached to beams that keep them steady and prevent them from running off the treadmill--and crashing through a wall.
 
-[![kaist-raptor-3-1401292992533](http://robotix.in/blog/wp-content/uploads/2014/05/kaist-raptor-3-1401292992533.png)](http://robotix.in/blog/wp-content/uploads/2014/05/kaist-raptor-3-1401292992533.png)
+[![kaist-raptor-3-1401292992533]({{ site.baseurl }}/img/blog/2014/05/kaist-raptor-3-1401292992533.png)]({{ site.baseurl }}/img/blog/2014/05/kaist-raptor-3-1401292992533.png)
 
 And despite their similar speeds, the two robots are very different. Cheetah is a hefty quadruped, powered by hydraulic actuators. Raptor is a compact, 3-kilogram machine, with two legs made of lightweight composite material.
 

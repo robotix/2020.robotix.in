@@ -14,11 +14,11 @@ ROBOTIX 2013, conducted during Kshitij, IIT Kharagpur's annual technical fest, w
 
 It comprised 7 events; 2 Manual Robotics Events, 2 Autonomous Robotics Events, an Image Processing Event, one workshop and an Online Coding Event.
 
-[![abyss](http://robotix.in/blog/wp-content/uploads/2013/04/abyss.png)](http://robotix.in/blog/wp-content/uploads/2013/04/abyss.png)
+[![abyss]({{ site.baseurl }}/img/blog/2013/04/abyss.png)]({{ site.baseurl }}/img/blog/2013/04/abyss.png)
 
 The two Manual events were Abyss and Overhaul. Witnessing a combined participation of almost 300 teams, they were a huge hit among both the audience and the participants. Overhaul was an event where the robot was required to traverse an uneven terrain, while bridging gaps and saving victims. It simulated a mountain rescue situation. It was a real crowd puller and saw a participation of almost 200 teams.  Abyss was an event where the robot was required to travel down a rope and save victims. This simulated a rescue from a well or canyon. It was the first time in the country, that a rope traversal event had been tried in any robotics fest. A participation of almost a hundred teams was observed, even though it was an unorthodox and relatively challenging event.
 
-[![lumos](http://robotix.in/blog/wp-content/uploads/2013/04/lumos1.png)](http://robotix.in/blog/wp-content/uploads/2013/04/lumos1.png)
+[![lumos]({{ site.baseurl }}/img/blog/2013/04/lumos1.png)]({{ site.baseurl }}/img/blog/2013/04/lumos1.png)
 
 The two autonomous events were Lumos and A.C.R.O.S.S. The event Lumos, involved a light sensing robot that would switch off light sources while avoiding objects, much like a firefly. This event saw nearly a whopping 100 teams, a number quite rare for an autonomous event in any robotics fest. The event A.C.R.O.S.S. or Automated Constructions Robot Operation Systems was a test of communication and planning, where one robot acted as a bridge for another to enable it to complete its path. This simulated automated construction. This saw participation by almost 40 teams, and considering the sheer complexity of the event, it was a decent number.
 
@@ -36,7 +36,7 @@ All in all, upon looking back at Robotix '13, one might say that Technology Robo
 
 Robotix '13. Enough said.
 
-[![577798_346357575476052_1397314253_n](http://robotix.in/blog/wp-content/uploads/2013/05/577798_346357575476052_1397314253_n.jpg)](http://robotix.in/blog/wp-content/uploads/2013/05/577798_346357575476052_1397314253_n.jpg)
+[![577798_346357575476052_1397314253_n]({{ site.baseurl }}/img/blog/2013/05/577798_346357575476052_1397314253_n.jpg)]({{ site.baseurl }}/img/blog/2013/05/577798_346357575476052_1397314253_n.jpg)
 
 FOLLOW US!
 

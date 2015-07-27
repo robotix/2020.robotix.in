@@ -13,7 +13,7 @@ categories:
 
 As with every year, **Technology Robotix Society** arranged for a grand welcome to the new students of IIT Kharagpur through the introductory workshop held at Kalidas Auditorium on Wednesday, the 25thof July. And what a welcome it was! The auditorium, one of the largest in thecampus, was filled to overflowing with eager freshmen curious to know what thissociety was all about. We are sure that all their questions would be answeredby the time we were done.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/08/021-300x258.jpg)](http://robotix.in/blog/wp-content/uploads/2012/08/021.jpg)
+[![]({{ site.baseurl }}/img/blog/2012/08/021-300x258.jpg)]({{ site.baseurl }}/img/blog/2012/08/021.jpg)
 
 It started off with an introduction to the societyand what we do every year. The students got to know about our workshops allacross the country, our in-house events, the projects we had helped to build,and of course, our technological extravaganza _ROBOTIX_ held each January. Therewere some excellent videos and pictorials showcasing the robotics scene in Kharagpur in all its glory. It was heartening to see the interest that theaudience was taking.
 

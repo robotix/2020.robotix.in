@@ -8,7 +8,7 @@ title: Fly -Sized Robot
 wordpress_id: 1030
 ---
 
-[![RoboticInsect](http://robotix.in/blog/wp-content/uploads/2013/10/RoboticInsect.jpg)](http://robotix.in/blog/wp-content/uploads/2013/10/RoboticInsect.jpg)
+[![RoboticInsect]({{ site.baseurl }}/img/blog/2013/10/RoboticInsect.jpg)]({{ site.baseurl }}/img/blog/2013/10/RoboticInsect.jpg)
 
 Flies have tiny wings and even tinier brains, yet they are capable of flying swiftly and agilely through even turbulent air. How do they do it?
 

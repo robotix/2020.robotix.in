@@ -12,13 +12,13 @@ categories:
 
 As it does every year, Technology Robotix Society organised a grand introductory workshop for the enthusiastic freshmen of IIT Kharagpur who turned out in huge numbers, occupying every nook and cranny of Kalidas Auditorium to witness the magic of robotics. The workshop  began with a look into the work done by the society all through the years.They were informed about the workshops conducted by the society all across the country ,the in- house events , the projects that have been initiated and the technological extravaganza ROBOTIX which is held every year in January-February.Videos and photos of the previous edition of the fest fascinated the students and gave them a peek into the impact and outreach of Team Robotix.
 
-**** [![TRS1](http://robotix.in/blog/wp-content/uploads/2013/08/TRS1.png)](http://robotix.in/blog/wp-content/uploads/2013/08/TRS1.png)****
+**** [![TRS1]({{ site.baseurl }}/img/blog/2013/08/TRS1.png)]({{ site.baseurl }}/img/blog/2013/08/TRS1.png)****
 
 There were demonstrations of some robots that left the audience awestruck. These demonstrations were just a small sample of the engaging work done by the society all through the year. It started with an augmented reality game in which a volunteer from the audience played with the Kinect which can sense and map movements. This was followed by a demonstration of a light following robot . The robot could detect light and move towards it, turning it off as it touched it. This demonstration left the audience startled.
 
 --------------------------------------------------------------------------------
 
-[![BLOGPIC3](http://robotix.in/blog/wp-content/uploads/2013/08/BLOGPIC3-1024x678.jpg)](http://robotix.in/blog/wp-content/uploads/2013/08/BLOGPIC3.jpg)
+[![BLOGPIC3]({{ site.baseurl }}/img/blog/2013/08/BLOGPIC3-1024x678.jpg)]({{ site.baseurl }}/img/blog/2013/08/BLOGPIC3.jpg)
 
 --------------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ Another exposition was of a robot following a human upto a certain extent, using
 
 --------------------------------------------------------------------------------
 
-[![TRS2](http://robotix.in/blog/wp-content/uploads/2013/08/TRS2.png)](http://robotix.in/blog/wp-content/uploads/2013/08/TRS2.png)
+[![TRS2]({{ site.baseurl }}/img/blog/2013/08/TRS2.png)]({{ site.baseurl }}/img/blog/2013/08/TRS2.png)
 
 --------------------------------------------------------------------------------
 

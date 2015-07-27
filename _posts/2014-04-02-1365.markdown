@@ -12,9 +12,9 @@ categories:
 
 The Defense Advanced Research Projects Agency (DARPA), the arm of the U.S. Department of Defense responsible for advancing military technology, is celebrating the 10th anniversary of the DARPA Grand Challenge, an ambitious, first-of-its-kind race between robotic, self-driving cars.
 
-[![darpa-grand-challenge-car](http://robotix.in/blog/wp-content/uploads/2014/04/darpa-grand-challenge-car.jpeg)](http://robotix.in/blog/wp-content/uploads/2014/04/darpa-grand-challenge-car.jpeg)
+[![darpa-grand-challenge-car]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg)]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg)
 
-The Grand Challenge, which occurred on March 13, 2004, involved 15 self-driving cars[ ](http://robotix.in/blog/wp-content/uploads/2014/04/darpa-grand-challenge-car.jpeg) trying to navigate a 142-mile (228 kilometers) course between Barstow, Calif., and Primm, Nev. The contest, while seemingly primitive at the time, has since led to vast improvements in robotic technology, and has demonstrated the value of competitions as a way to drive innovation and collaboration among scientists and engineers.
+The Grand Challenge, which occurred on March 13, 2004, involved 15 self-driving cars[ ]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg) trying to navigate a 142-mile (228 kilometers) course between Barstow, Calif., and Primm, Nev. The contest, while seemingly primitive at the time, has since led to vast improvements in robotic technology, and has demonstrated the value of competitions as a way to drive innovation and collaboration among scientists and engineers.
 
 The DARPA Grand Challenge was designed to foster and accelerate the development of autonomous vehicles that could one day be used to transport cargo and other military supplies into combat zones without endangering the lives of human drivers, according agency officials. The contest was also DARPA's first major attempt to use prize money as an incentive for innovation within the research community.
 

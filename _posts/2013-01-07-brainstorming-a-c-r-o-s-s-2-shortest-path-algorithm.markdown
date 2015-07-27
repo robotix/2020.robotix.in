@@ -74,17 +74,17 @@ void Pathfind(starting point)
 }
 ```
 
-![](http://robotix.in/blog/wp-content/uploads/2013/01/image005.png)
+![]({{ site.baseurl }}/img/blog/2013/01/image005.png)
 
 Let us assume that the code is at a point (0, 4) using this function. Now it is required to check all the four directions. This point is at 3 steps away from the starting point so now (0, 3) (1, 4) and (0, 5) will be 4 steps away from the starting point. This will be stored in the corresponding distance steps variables of the points Note that the ending point is not required anywhere in this function as the code finds the least number of steps required to reach any node on the grid from the designated starting point. The above function continuously scans the grid until all squares have been marked with the lowest distances from the starting point. When that happens madeProgress variable remains false and the program exits from the loop.
 
 **Runs of the Pathfinder loop through the map look something like this : **
 
-[caption id="attachment_674" align="alignleft" width="203" caption="First pass through the map"][![](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-1.png)](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-1.png)[/caption]
+[caption id="attachment_674" align="alignleft" width="203" caption="First pass through the map"][![]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-1.png)]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-1.png)[/caption]
 
-[caption id="attachment_672" align="alignleft" width="203" caption="Second Pass"][![](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-2.png)](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-2.png)[/caption]
+[caption id="attachment_672" align="alignleft" width="203" caption="Second Pass"][![]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-2.png)]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-2.png)[/caption]
 
-[caption id="attachment_673" align="alignleft" width="203" caption="Third Pass"][![](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-3.png)](http://robotix.in/blog/wp-content/uploads/2013/01/ACROSS-Grid-3.png)[/caption]
+[caption id="attachment_673" align="alignleft" width="203" caption="Third Pass"][![]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-3.png)]({{ site.baseurl }}/img/blog/2013/01/ACROSS-Grid-3.png)[/caption]
 
 **Marking the path from start to finish requires another function :**
 

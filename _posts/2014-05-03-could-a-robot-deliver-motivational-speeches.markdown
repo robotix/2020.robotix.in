@@ -10,7 +10,7 @@ categories:
   - Around the World
 ---
 
-[![AI_XPRIZE_800x450](http://robotix.in/blog/wp-content/uploads/2014/05/AI_XPRIZE_800x450.jpg)](http://robotix.in/blog/wp-content/uploads/2014/05/AI_XPRIZE_800x450.jpg)
+[![AI_XPRIZE_800x450]({{ site.baseurl }}/img/blog/2014/05/AI_XPRIZE_800x450.jpg)]({{ site.baseurl }}/img/blog/2014/05/AI_XPRIZE_800x450.jpg)
 
 Imagine a day when a form of artificial intelligence could deliver a speech as compelling as one given by a human.
 
