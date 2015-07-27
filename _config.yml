@@ -30,7 +30,7 @@ organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
 metaKeywords: "robotix, robotics, iit, kgp"
-twitterAccount: "@DevFest"
+twitterAccount: "@robotixiitkgp"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -58,7 +58,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 eventDate: "29th Jan - 31st Jan, 2016"
-typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUP"'
+typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUp"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
  - {permalink: "/#event", text: "Explore our events"}
