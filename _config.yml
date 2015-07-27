@@ -7,7 +7,10 @@ safe: false
 markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
-
+collections:
+  event:
+    output: true
+    permalink: /event/:path/
 
 # Site Settings
 title: "Technology Robotix Society"
@@ -44,9 +47,9 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/event/", text: "Events"}
  - {permalink: "/team/", text: "Team"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
