@@ -1,3 +1,9 @@
+---
+layout: post
+title: "shaftencoders"
+categories:
+  - avr
+---
 # Tutorials
 
 #### Basic Concept

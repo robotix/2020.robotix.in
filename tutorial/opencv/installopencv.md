@@ -1,3 +1,9 @@
+---
+layout: post
+title: "installopencv"
+categories:
+  - opencv
+---
 # Tutorials
 
 #### Introduction

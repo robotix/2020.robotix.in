@@ -1,3 +1,9 @@
+---
+layout: post
+title: "anaout"
+categories:
+  - arduino
+---
 # Tutorials
 
 #### Circuitry

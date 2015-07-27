@@ -1,3 +1,9 @@
+---
+layout: post
+title: "shape_detection"
+categories:
+  - opencv
+---
 # Tutorials
 
 #### Introduction

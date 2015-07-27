@@ -1,3 +1,9 @@
+---
+layout: post
+title: "hist"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Introduction

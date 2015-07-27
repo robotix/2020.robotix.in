@@ -1,3 +1,9 @@
+---
+layout: post
+title: "blob"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Blob Detection

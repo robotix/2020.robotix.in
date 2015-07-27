@@ -1,3 +1,9 @@
+---
+layout: post
+title: "aughit"
+categories:
+  - eventtutes
+---
 # Tutorials
 
 #### AugHit Tutorial

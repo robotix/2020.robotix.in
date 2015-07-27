@@ -1,3 +1,9 @@
+---
+layout: post
+title: "digin"
+categories:
+  - arduino
+---
 # Tutorials
 
 #### Circuitry

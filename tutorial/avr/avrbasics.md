@@ -1,3 +1,9 @@
+---
+layout: post
+title: "avrbasics"
+categories:
+  - avr
+---
 # Tutorials
 
 #### AVR Basics

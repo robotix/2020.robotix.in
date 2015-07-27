@@ -1,3 +1,9 @@
+---
+layout: post
+title: "contrast"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Introduction

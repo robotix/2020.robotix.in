@@ -1,3 +1,9 @@
+---
+layout: post
+title: "wheelstut"
+categories:
+  - mechanical
+---
 # Tutorials
 
 #### Mecanum Wheel

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "dcmotors"
+categories:
+  - auto
+---
 # Tutorials
 
 #### Introduction

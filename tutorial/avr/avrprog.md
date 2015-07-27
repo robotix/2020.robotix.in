@@ -1,3 +1,9 @@
+---
+layout: post
+title: "avrprog"
+categories:
+  - avr
+---
 # Tutorials
 
 #### Introduction

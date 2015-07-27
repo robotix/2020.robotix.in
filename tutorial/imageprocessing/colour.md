@@ -1,3 +1,9 @@
+---
+layout: post
+title: "colour"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Colour Detection

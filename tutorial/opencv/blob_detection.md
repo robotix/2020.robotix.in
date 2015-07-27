@@ -1,3 +1,9 @@
+---
+layout: post
+title: "blob_detection"
+categories:
+  - opencv
+---
 # Tutorials
 
 #### Introduction

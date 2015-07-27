@@ -1,3 +1,9 @@
+---
+layout: post
+title: "gearsuspensiontut"
+categories:
+  - mechanical
+---
 # Tutorials
 
 #### Introduction To Gears

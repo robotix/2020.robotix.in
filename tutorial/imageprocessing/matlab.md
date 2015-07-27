@@ -1,3 +1,9 @@
+---
+layout: post
+title: "matlab"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### MATLAB: A Start

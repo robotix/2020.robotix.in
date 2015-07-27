@@ -1,3 +1,9 @@
+---
+layout: post
+title: "pickngrabtut"
+categories:
+  - mechanical
+---
 # Tutorials
 
 #### Hand Gripping Mechanism

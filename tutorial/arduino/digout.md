@@ -1,3 +1,9 @@
+---
+layout: post
+title: "digout"
+categories:
+  - arduino
+---
 # Tutorials
 
 #### Circuitry

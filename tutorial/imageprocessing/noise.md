@@ -1,3 +1,9 @@
+---
+layout: post
+title: "noise"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Introduction

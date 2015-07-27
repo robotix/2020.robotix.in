@@ -1,3 +1,9 @@
+---
+layout: post
+title: "imagetypes"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Image Types

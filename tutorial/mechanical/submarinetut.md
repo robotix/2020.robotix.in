@@ -1,3 +1,9 @@
+---
+layout: post
+title: "submarinetut"
+categories:
+  - mechanical
+---
 # Tutorials
 
 #### Submarine Dive Technology

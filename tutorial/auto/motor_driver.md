@@ -1,3 +1,9 @@
+---
+layout: post
+title: "motor_driver"
+categories:
+  - auto
+---
 # Tutorials
 
 #### What Is Motor Driver IC?

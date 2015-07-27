@@ -1,3 +1,9 @@
+---
+layout: post
+title: "edge"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Introduction

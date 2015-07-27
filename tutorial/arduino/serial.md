@@ -1,3 +1,9 @@
+---
+layout: post
+title: "serial"
+categories:
+  - arduino
+---
 # Tutorials
 
 #### Introduction

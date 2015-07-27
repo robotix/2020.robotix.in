@@ -1,3 +1,9 @@
+---
+layout: post
+title: "webcam"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Webcam Interface

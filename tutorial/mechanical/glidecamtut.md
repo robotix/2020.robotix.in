@@ -1,3 +1,9 @@
+---
+layout: post
+title: "glidecamtut"
+categories:
+  - mechanical
+---
 # Tutorials
 
 #### Introduction

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "geometrictrans"
+categories:
+  - imageprocessing
+---
 # Tutorials
 
 #### Interpolation

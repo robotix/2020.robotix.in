@@ -1,3 +1,9 @@
+---
+layout: post
+title: "lcd"
+categories:
+  - auto
+---
 # Tutorials
 
 #### Introduction

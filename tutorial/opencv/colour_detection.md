@@ -1,3 +1,9 @@
+---
+layout: post
+title: "colour_detection"
+categories:
+  - opencv
+---
 # Tutorials
 
 #### Video Tutorial

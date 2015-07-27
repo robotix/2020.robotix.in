@@ -1,3 +1,9 @@
+---
+layout: post
+title: "adc"
+categories:
+  - avr
+---
 # Tutorials
 
 #### Introduction

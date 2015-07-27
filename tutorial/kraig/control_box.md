@@ -1,3 +1,9 @@
+---
+layout: post
+title: "control_box"
+categories:
+  - kraig
+---
 # Tutorials
 
 #### Introduction

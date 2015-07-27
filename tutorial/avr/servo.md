@@ -1,3 +1,9 @@
+---
+layout: post
+title: "servo"
+categories:
+  - avr
+---
 # Tutorials
 
 #### Basics and Parts
