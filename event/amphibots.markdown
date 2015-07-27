@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Amphi-Bots"
-subTitle: 'Manual Robotics Event'
+subTitle: 'Manual Event'
 permalink: 'event/amphibots/'
 ---
 
@@ -227,4 +227,18 @@ Build a pair of manually controlled robots that interact with each other to rebu
 
 ####Formula
 
-25*(victims picked from water)+25*(victims picked up to the bridge)+25*(victims placed at the correct safe zone)+40*(planks picked from water)+40*(planks picked up by the bridge robot)+40*(planks placed on the void)-100*(robot falls)-100*(no. of restarts)-50*(no. of timeouts)-15*(dropping of victim during transfer from one robot to the other)-25*(dropping of plank during transfer from one robot to the other)-25*(victims deposited in incorrect zone)-40*(victims dropped in water by the bridge robot)-50*(planks dropped in water by the bridge robot)+t’(time factor)*Time remaining(in seconds)
+25 * (victims picked from water) + 
+25 * (victims picked up to the bridge) + 
+25 *(victims placed at the correct safe zone) +
+40 * (planks picked from water) + 
+40 * (planks picked up by the bridge robot) + 
+40 * (planks placed on the void) - 
+100 * (robot falls) - 
+100 * (no. of restarts) - 
+50 * (no. of timeouts) - 
+15 * (dropping of victim during transfer from one robot to the other) - 
+25 * (dropping of plank during transfer from one robot to the other) - 
+25 * (victims deposited in incorrect zone) - 
+40 * (victims dropped in water by the bridge robot) - 
+50 * (planks dropped in water by the bridge robot) + 
+t (time factor) * Time remaining(in seconds)

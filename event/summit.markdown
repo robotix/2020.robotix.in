@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summit"
-subTitle: 'Manual Robotics Event'
+subTitle: 'Manual Event'
 permalink: 'event/summit/'
 ---
 
@@ -114,7 +114,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - 100 points will be deducted for each restart(1 allowed) (R)
 
 ####Formula
-75*(F) + t’(t)*time remaining + 50*(P) - 25*(B) - 25*(T) - 50*(Q)- 100*(R)
+75 * (F) + (t) * time remaining + 50 * (P) - 25 * (B) - 25 * (T) - 50 * (Q)- 100 * (R)
 
 ###ROUND 2
 
@@ -158,4 +158,4 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - 25 points deducted if the block falls from the robot (BF)
 
 ####Formula 
-75*(F) + t’(t)*time left + 50*(P)+50*(BP)+75*(BD) - 25*(B) -25*(BF)- 25*(T) - 50*(Q)- 100*(R)
+75 * (F) + (t)*time left + 50 * (P) + 50 * (BP) + 75 * (BD) - 25 * (B) -25 * (BF)- 25 * (T) - 50 * (Q)- 100 * (R)
