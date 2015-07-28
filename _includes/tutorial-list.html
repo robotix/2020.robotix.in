@@ -1,0 +1,33 @@
+<!-- Begin tutorials List-->
+<section id="speakers">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
+            {% for tutorial in site.tutorials %}
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
+                <div class="zoe-effect ribbon-activator">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: tutorial.logo }})">
+                        <div class="overlay solid-overlay"></div>
+                        <ul class="ribbon-wrapper">
+                            {% for category in tutorial.categories %}
+                            <li class="{{ ribbon["abbr"] | downcase }}">
+                                <p class="ribbon abbr"></p>
+                                <p class="ribbon full-title">{{ category }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name"><a href="{{ site.baseurl }}{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">{{ tutorial.subTitle }}</span>
+                            </div>
+                        </figcaption>
+                        <p class="bio">{{ tutorial.content | strip_html | truncate: 250 }}</p>
+                    </figure>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End tutorials List
