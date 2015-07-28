@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Technology Robotix Society"
 email: "contact@robotix.in"
 description: "Technology Robotix Society"
-baseurl: "/"
+baseurl: "http://robotix.in"
 url: "http://robotix.in"
 permalink: "/blog/:title"
 collections:
