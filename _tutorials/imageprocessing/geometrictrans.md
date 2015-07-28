@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "geometrictrans"
+title: "Geometric Transformations"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Interpolation
 

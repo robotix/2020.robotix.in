@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lfrbjt"
+title: "Line Follower without uC"
 categories:
   - kraig
 ---

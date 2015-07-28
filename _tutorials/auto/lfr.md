@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "lfr"
+title: "Line Follower"
 categories:
   - auto
 ---
-# Tutorials
 
 #### Introduction
 

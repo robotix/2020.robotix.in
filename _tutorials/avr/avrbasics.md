@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "avrbasics"
+title: "AVR Basics"
 categories:
   - avr
 ---
-# Tutorials
 
 #### AVR Basics
 

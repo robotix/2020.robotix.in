@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "ipstart"
+title: "IP in MATLAB: Taking Off"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

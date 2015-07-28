@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "serial"
+title: "Serial Communication"
 categories:
   - arduino
 ---
-# Tutorials
 
 #### Introduction
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "hist"
+title: "Histograms"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

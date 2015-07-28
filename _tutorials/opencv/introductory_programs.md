@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "introductory_programs"
+title: "Introductory Programs using OpenCV"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

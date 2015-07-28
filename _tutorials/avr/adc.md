@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "adc"
+title: "ADC"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Introduction
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "shaftencoders"
+title: "Shaft Encoders"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Basic Concept
 

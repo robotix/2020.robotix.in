@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "digin"
+title: "Digital Input"
 categories:
   - arduino
 ---
-# Tutorials
 
 #### Circuitry
 

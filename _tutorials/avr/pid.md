@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "pid"
+title: "PID Control"
 categories:
   - avr
 ---
-# Tutorials
 
 #### What is PID?
 

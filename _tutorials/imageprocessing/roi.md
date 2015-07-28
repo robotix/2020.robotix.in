@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "roi"
+title: "ROI Based Processing"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Specify a ROI
 

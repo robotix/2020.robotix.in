@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "usart"
+title: "USART-UART"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Introduction
 

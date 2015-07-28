@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "lcd"
+title: "LCD Interfacing with ATmega16"
 categories:
   - auto
 ---
-# Tutorials
 
 #### Introduction
 

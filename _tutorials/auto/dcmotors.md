@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "dcmotors"
+title: "DC Motors"
 categories:
   - auto
 ---
-# Tutorials
 
 #### Introduction
 

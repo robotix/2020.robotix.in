@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "imagetypes"
+title: "Image Types & Data Classes"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Image Types
 

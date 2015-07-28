@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "control_box"
+title: "WSAD Control Box"
 categories:
   - kraig
 ---
-# Tutorials
 
 #### Introduction
 

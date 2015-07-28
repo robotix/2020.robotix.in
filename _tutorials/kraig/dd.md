@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "dd"
+title: "Differential Drive"
 categories:
   - kraig
 ---
-# Tutorials
 
 #### Introduction
 

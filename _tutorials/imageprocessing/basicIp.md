@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "basicIp"
+title: "Basic Image Processing"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

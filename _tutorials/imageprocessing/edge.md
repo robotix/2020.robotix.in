@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "edge"
+title: "Edge Detection"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 
