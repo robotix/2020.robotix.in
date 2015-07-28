@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "servo"
+title: "Servo"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Basics and Parts
 

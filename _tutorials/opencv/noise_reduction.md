@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "noise_reduction"
+title: "Noise Reduction"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

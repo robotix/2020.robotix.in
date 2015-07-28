@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "filtering"
+title: "Filtering"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

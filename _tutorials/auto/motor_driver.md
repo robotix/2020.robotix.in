@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "motor_driver"
+title: "Motor Driver IC"
 categories:
   - auto
 ---
-# Tutorials
 
 #### What Is Motor Driver IC?
 

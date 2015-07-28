@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "blob_detection"
+title: "Blob Detection"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Introduction
 

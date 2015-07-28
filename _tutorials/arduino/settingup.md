@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "settingup"
+title: "Setting Up the Arduino"
 categories:
   - arduino
 ---
-# Tutorials
 
 #### Setting Up
 

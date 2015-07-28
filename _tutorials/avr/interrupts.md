@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "interrupts"
+title: "Interrupts in AVR"
 categories:
   - avr
 ---
-# Tutorials
 
 #### What are Interrupts?
 

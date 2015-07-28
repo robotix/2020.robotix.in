@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "accelero"
+title: "Accelerometer"
 categories:
   - auto
 ---
-# Tutorials
 
 #### Introduction
 

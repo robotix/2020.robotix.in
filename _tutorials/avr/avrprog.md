@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "avrprog"
+title: "AVR Programming"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Introduction
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "enhance"
+title: "Image Enhancement"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

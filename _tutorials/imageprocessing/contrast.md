@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "contrast"
+title: "Contrast Adjustment"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

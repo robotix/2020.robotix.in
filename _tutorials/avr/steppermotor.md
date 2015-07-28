@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "steppermotor"
+title: "Stepper Motors"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Overview
 

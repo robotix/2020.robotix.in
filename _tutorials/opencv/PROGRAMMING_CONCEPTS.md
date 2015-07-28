@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "PROGRAMMING_CONCEPTS"
+title: "Basic Programming Concepts"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Introduction
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "grid"
+title: "Grid Follower"
 categories:
   - auto
 ---
-# Tutorials
 
 #### Introduction
 

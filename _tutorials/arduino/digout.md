@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "digout"
+title: "Digital Output"
 categories:
   - arduino
 ---
-# Tutorials
 
 #### Circuitry
 

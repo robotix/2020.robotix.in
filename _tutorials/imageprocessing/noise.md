@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "noise"
+title: "Noise Reduction"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### Introduction
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "timers"
+title: "Timers"
 categories:
   - avr
 ---
-# Tutorials
 
 #### Introduction
 

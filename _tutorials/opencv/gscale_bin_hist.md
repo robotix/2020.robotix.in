@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "gscale_bin_hist"
+title: "Grayscale, Binary and Histogram"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

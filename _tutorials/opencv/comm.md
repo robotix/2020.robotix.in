@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "comm"
+title: "Serial Communication"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

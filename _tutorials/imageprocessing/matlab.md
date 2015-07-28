@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "matlab"
+title: "MATLAB Working Environment"
 categories:
   - imageprocessing
 ---
-# Tutorials
 
 #### MATLAB: A Start
 

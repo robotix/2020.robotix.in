@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "anaout"
+title: "Analog Output (PWM)"
 categories:
   - arduino
 ---
-# Tutorials
 
 #### Circuitry
 

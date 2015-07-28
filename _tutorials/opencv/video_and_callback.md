@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "video_and_callback"
+title: "Video and Callback"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "edge_detection"
+title: "Edge Detection"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Video Tutorial
 

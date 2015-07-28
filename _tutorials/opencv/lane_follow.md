@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "lane_follow"
+title: "Lane Following"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Introduction
 

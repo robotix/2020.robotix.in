@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "installopencv"
+title: "Introduction and Integrating OpenCV"
 categories:
   - opencv
 ---
-# Tutorials
 
 #### Introduction
 
