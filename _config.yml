@@ -52,11 +52,11 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 eventDate: "29th Jan - 31st Jan, 2016"
-typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUp"'
+typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
- - {permalink: "/#event", text: "Explore our events"}
- - {permalink: "/#tutorial", text: "Explore our tutorials"}
+ - {permalink: "/event", text: "Explore our events"}
+ - {permalink: "/#latest-blog", text: "Explore our blog"}
 
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
@@ -78,14 +78,7 @@ latestNewsTitle: "Latest blog articles"
 latestNewsCount: 2
 latestNewsButtonText: "Explore our blog"
 
-# Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
-
 # Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "robotixiitkgp"
 twitterFeed: ""
