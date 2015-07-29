@@ -119,47 +119,6 @@ time {
         opacity: 1;
     }
 }
-.preloader {
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-}
-.loader-gplus {
-    display: inline-block;
-    position: absolute;
-    top: calc(50% - 20px);
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    border-radius: 20px;
-    animation: base 3s steps(1) 0s infinite;
-    &::before, &::after {
-        content: ' ';
-        display: block;
-        width: 50%;
-        height: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        z-index: 1;
-        border-radius: 0 20px 20px 0;
-        transform-origin: 0 50%;
-    }
-    &::before {
-        z-index: 2;
-        transform-style: preserve-3d;
-        animation: flip 3s linear 0s infinite;
-    }
-    &::after {
-        animation: reveal 3s steps(1) 0s infinite;
-    }
-}
 @keyframes base {
     0% {
         transform: rotate(0deg);
