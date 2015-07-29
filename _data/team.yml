@@ -1,223 +1,210 @@
-- 
-  id: 0
-  name: "Yogesh"
-  surname: "Poddar"
-  title: "Coordinator"
-  thumbnailUrl: yogesh_poddar.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/yogesh.poddar.77"}
-- 
-  id: 1
-  name: "Soumyadeep"
-  surname: "Mukherjee"
-  title: "Coordinator"
-  thumbnailUrl: soumyadeep_mukherjee.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/soumyadeep.mukherjee17"}
-- 
-  id: 2
-  name: "Shushman"
-  surname: "Choudhury"
-  title: "Coordinator"
-  thumbnailUrl: shushman_choudhury.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
-- 
-  id: 3
-  name: "Rahul"
-  surname: "Jhawar"
-  title: "Coordinator"
-  thumbnailUrl: rahul_jhawar.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/rahuljhawar.iitkgp"}
-- 
-  id: 4
-  name: "Payal"
-  surname: "Priyadarshini"
-  title: "Coordinator"
-  thumbnailUrl: payal_priyadarshini.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/payal.priyadarshini.3"}
-- 
-  id: 5
-  name: "Mrinal"
-  surname: "Mohit"
-  title: "Coordinator"
-  thumbnailUrl: mrinal_mohit.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/wowitsmrinal"}
-- 
-  id: 6
-  name: "Monika"
-  surname: "Pani"
-  title: "Coordinator"
-  thumbnailUrl: monika_pani.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/monika.pani"}
-- 
-  id: 7
-  name: "Githin"
-  surname: "John"
-  title: "Coordinator"
-  thumbnailUrl: githin_john.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/githin.john.1"}
-- 
-  id: 8
-  name: "Deepak"
-  surname: "Agarwal"
-  title: "Coordinator"
-  thumbnailUrl: deepak_agarwal.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/Deepak0306"}
-- 
-  id: 9
-  name: "Anushka"
-  surname: "Gupta"
-  title: "Coordinator"
-  thumbnailUrl: anushka_gupta.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/#!/anushkalakshmi"}
-- 
-  id: 10
-  name: "Anchit"
-  surname: "Navelkar"
-  title: "Coordinator"
-  thumbnailUrl: anchit_navelkar.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
-- 
-  id: 11
-  name: "Ashutosh"
-  surname: "Baheti"
-  title: "Coordinator"
-  thumbnailUrl: ashutush_baheti.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/ashutosh.baheti.33?fref=ts"}
-- 
-  id: 12
-  name: "Ayush"
-  surname: "Garg"
-  title: "Coordinator"
-  thumbnailUrl: ayush_garg.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
-- 
-  id: 13
-  name: "Harsheel"
-  surname: "Soin"
-  title: "Coordinator"
-  thumbnailUrl: harsheel_soin.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/harsheel.soin?fref=ts"}
-- 
-  id: 14
-  name: "Ruchita"
-  surname: "Kachhap"
-  title: "Coordinator"
-  thumbnailUrl: ruchita_kachhap.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/ruchita.kachhap?fref=ts"}
-- 
-  id: 15
-  name: "Sudeshna"
-  surname: "Trilok"
-  title: "Coordinator"
-  thumbnailUrl: sudeshna_trilok.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/sudutri?fref=ts"}
-- 
-  id: 16
-  name: "Vipasha"
-  surname: "Jain"
-  title: "Coordinator"
-  thumbnailUrl: vipasha_jain.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/vipasha.jain.73"}
-- 
-  id: 17
-  name: "Abhinav"
-  surname: "Jain"
-  title: "Head"
-  thumbnailUrl: abhinav.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
-- 
-  id: 18
-  name: "Aditya"
-  surname: "Narayan"
-  title: "Head"
-  thumbnailUrl: aditya_narayan.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
-- 
-  id: 19
-  name: "Apoorva"
-  surname: "Sharma"
-  title: "Head"
-  thumbnailUrl: apoorva_sharma.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/apoorva.sharma.96343405?fref=ts"}
-- 
-  id: 20
-  name: "Mratunjay"
-  surname: "Gupta"
-  title: "Head"
-  thumbnailUrl: mratunjay.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
-- 
-  id: 21
-  name: "Nikhil Angad"
-  surname: "Bakshi"
-  title: "Head"
-  thumbnailUrl: bakshi.jpg
-  team: true
-- 
-  id: 22
-  name: "Riya"
-  surname: "Bubna"
-  title: "Head"
-  thumbnailUrl: riya.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/riya.bubna?fref=ts"}
-- 
-  id: 23
-  name: "Rohan"
-  surname: "Lohia"
-  title: "Head"
-  thumbnailUrl: rohan.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
-- 
-  id: 24
-  name: "Sakshi"
-  surname: "Agarwal"
-  title: "Head"
-  thumbnailUrl: sakshi.jpg
-  team: true
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/sakshi.agarwal.5682944?fref=ts"}
+- title: "Coordinator"
+  team:
+    -
+      id: 0
+      name: "Yogesh"
+      surname: "Poddar"
+      thumbnailUrl: yogesh_poddar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/yogesh.poddar.77"}
+    -
+      id: 1
+      name: "Soumyadeep"
+      surname: "Mukherjee"
+      thumbnailUrl: soumyadeep_mukherjee.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/soumyadeep.mukherjee17"}
+    -
+      id: 2
+      name: "Shushman"
+      surname: "Choudhury"
+      thumbnailUrl: shushman_choudhury.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
+    -
+      id: 3
+      name: "Rahul"
+      surname: "Jhawar"
+      thumbnailUrl: rahul_jhawar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rahuljhawar.iitkgp"}
+    -
+      id: 4
+      name: "Payal"
+      surname: "Priyadarshini"
+      thumbnailUrl: payal_priyadarshini.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/payal.priyadarshini.3"}
+    -
+      id: 5
+      name: "Mrinal"
+      surname: "Mohit"
+      thumbnailUrl: mrinal_mohit.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/wowitsmrinal"}
+    -
+      id: 6
+      name: "Monika"
+      surname: "Pani"
+      thumbnailUrl: monika_pani.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/monika.pani"}
+    -
+      id: 7
+      name: "Githin"
+      surname: "John"
+      thumbnailUrl: githin_john.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/githin.john.1"}
+    -
+      id: 8
+      name: "Deepak"
+      surname: "Agarwal"
+      thumbnailUrl: deepak_agarwal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/Deepak0306"}
+    -
+      id: 9
+      name: "Anushka"
+      surname: "Gupta"
+      thumbnailUrl: anushka_gupta.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/anushkalakshmi"}
+    -
+      id: 10
+      name: "Anchit"
+      surname: "Navelkar"
+      thumbnailUrl: anchit_navelkar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
+    -
+      id: 11
+      name: "Ashutosh"
+      surname: "Baheti"
+      thumbnailUrl: ashutosh_baheti.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ashutosh.baheti.33?fref=ts"}
+    -
+      id: 12
+      name: "Ayush"
+      surname: "Garg"
+      thumbnailUrl: ayush_garg.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
+    -
+      id: 13
+      name: "Harsheel"
+      surname: "Soin"
+      thumbnailUrl: harsheel_soin.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/harsheel.soin?fref=ts"}
+    -
+      id: 14
+      name: "Ruchita"
+      surname: "Kachhap"
+      thumbnailUrl: ruchita_kachhap.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ruchita.kachhap?fref=ts"}
+    -
+      id: 15
+      name: "Sudeshna"
+      surname: "Trilok"
+      thumbnailUrl: sudeshna_trilok.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/sudutri?fref=ts"}
+    -
+      id: 16
+      name: "Vipasha"
+      surname: "Jain"
+      thumbnailUrl: vipasha_jain.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/vipasha.jain.73"}
+- title: "Head"
+  team:
+    -
+      id: 17
+      name: "Abhinav"
+      surname: "Jain"
+      title: "Head"
+      thumbnailUrl: abhinav.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
+    -
+      id: 18
+      name: "Aditya"
+      surname: "Narayan"
+      title: "Head"
+      thumbnailUrl: aditya_narayan.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
+    -
+      id: 19
+      name: "Apoorva"
+      surname: "Sharma"
+      title: "Head"
+      thumbnailUrl: apoorva_sharma.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/apoorva.sharma.96343405?fref=ts"}
+    -
+      id: 20
+      name: "Mratunjay"
+      surname: "Gupta"
+      title: "Head"
+      thumbnailUrl: mratunjay.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
+    -
+      id: 21
+      name: "Nikhil Angad"
+      surname: "Bakshi"
+      title: "Head"
+      thumbnailUrl: bakshi.jpg
+      team: true
+    -
+      id: 22
+      name: "Riya"
+      surname: "Bubna"
+      title: "Head"
+      thumbnailUrl: riya.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/riya.bubna?fref=ts"}
+    -
+      id: 23
+      name: "Rohan"
+      surname: "Lohia"
+      title: "Head"
+      thumbnailUrl: rohan.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
+    -
+      id: 24
+      name: "Sakshi"
+      surname: "Agarwal"
+      title: "Head"
+      thumbnailUrl: sakshi.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/sakshi.agarwal.5682944?fref=ts"}
