@@ -1,5 +1,9 @@
-# Tutorials
-
+---
+layout: post
+title: "sprinklertut"
+categories:
+  - mechanical
+---
 #### Syringe Mechanism
 
 **A mechanism replicating the use of a Syringe may be used.                                                       **

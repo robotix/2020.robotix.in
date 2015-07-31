@@ -156,6 +156,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
+        - {name: "github", link: "https://github.com/narayanaditya95"}
     -
       id: 19
       name: "Apoorva"

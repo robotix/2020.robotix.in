@@ -2,7 +2,7 @@
 layout: post
 title: "Flank'Em"
 subTitle: 'Autonomous Event'
-logo: /img/event/flankem/logo.png
+logo: /img/event/flankem/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

@@ -2,7 +2,7 @@
 layout: post
 title: 'Summit'
 subTitle: 'Manual Event'
-logo: /img/event/summit/logo.png
+logo: /img/event/summit/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

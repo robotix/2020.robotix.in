@@ -2,7 +2,7 @@
 layout: post
 title: 'Sherlock'
 subTitle: 'Autonomous Event'
-logo: /img/event/sherlock/logo.png
+logo: /img/event/sherlock/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

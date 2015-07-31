@@ -4,8 +4,6 @@ title: "rockerbogie"
 categories:
   - mechanical
 ---
-# Tutorials
-
 #### Introduction
 
 **The Rocker-Bogie design has no [springs][1] and [stub axles][2] for each wheel, allowing the rover to climb over obstacles, such as rocks, that are up to twice the wheel's diameter in size while keeping all six wheels on the ground. As with any suspension system, the tilt stability is limited by the height of the center of gravity. Systems using springs tend to tip more easily as the loaded side yields. The system is designed to be used at slow speeds of around 10 cm/s, so as to minimize dynamic shocks and consequential damage to the vehicle when surmounting sizable obstacles.**

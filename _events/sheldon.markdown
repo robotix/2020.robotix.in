@@ -2,7 +2,7 @@
 layout: post
 title: 'S.H.E.L.D.O.N.'
 subTitle: 'Computer Vision Event'
-logo: /img/event/sheldon/logo.png
+logo: /img/event/sheldon/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

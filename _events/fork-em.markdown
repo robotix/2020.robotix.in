@@ -2,7 +2,7 @@
 layout: post
 title: "Fork'Em"
 subTitle: 'Semi Autonomous Event'
-logo: /img/event/forkem/logo.png
+logo: /img/event/forkem/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

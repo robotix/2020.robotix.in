@@ -2,7 +2,7 @@
 layout: post
 title: 'Amphi-Bots'
 subTitle: 'Manual Event'
-logo: /img/event/amphibots/logo.png
+logo: /img/event/amphibots/logo.jpg
 social:
   - {name: "facebook", link: ""}
 excerpt_separator: <!--more-->

@@ -8,8 +8,8 @@
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: event.logo }})">
                         <div class="overlay solid-overlay"></div>
                         <ul class="ribbon-wrapper">
-                            <li class="{{ ribbon["abbr"] | downcase }}">
-                                <p class="ribbon abbr"></p>
+                            <li>
+                                <p class="ribbon abbr">{{ event.subTitle | truncate: 1 }}</p>
                                 <p class="ribbon full-title">{{ event.subTitle }}</p>
                             </li>
                         </ul>
