@@ -43,6 +43,7 @@ navigationLinks:
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
+ - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
  - {link: "https://docs.google.com/spreadsheet/viewform?formkey=dHRMTVBfemdCaUZyX24zN3dkUkJwZGc6MQ#gid=0", text: "Contact Us"}
 rightNavigationButtons:
