@@ -6,7 +6,7 @@
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
                 <div class="zoe-effect ribbon-activator">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: event.logo }})">
-                        <div class="overlay solid-overlay"></div>
+                        <a class="overlay solid-overlay" href="{{ site.baseurl }}{{ event.url }}"></a>
                         <ul class="ribbon-wrapper">
                             <li>
                                 <p class="ribbon abbr">{{ event.subTitle | truncate: 1 }}</p>
