@@ -6,7 +6,7 @@
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 appear-animation">
                 <div class="zoe-effect ribbon-activator">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: tutorial.logo }})">
-                        <div class="overlay solid-overlay"></div>
+                        <a class="overlay solid-overlay" href="{{ site.baseurl }}{{ tutorial.url }}"></a>
                         <ul class="ribbon-wrapper">
                             {% for category in tutorial.categories %}
                             <li class="{{ ribbon["abbr"] | downcase }}">
@@ -22,7 +22,6 @@
                                 <span class="position">{{ tutorial.subTitle }}</span>
                             </div>
                         </figcaption>
-                        <p class="bio">{{ tutorial.content | strip_html | truncate: 250 }}</p>
                     </figure>
                 </div>
             </div>
