@@ -3,9 +3,8 @@ layout: post
 title: "drivemechtut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/drivemechtut/"
 ---
-# Tutorials
-
 #### Differential Drive
 
   
