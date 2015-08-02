@@ -7,15 +7,7 @@ slug: brainstorming-a-c-r-o-s-s-1-grid-solving-algorithms
 title: Brainstorming A.C.R.O.S.S 1 - Grid Solving Algorithms
 wordpress_id: 578
 categories:
-  - The DIY Series
   - The Do It Yourself Series
-tags:
-  - ACROSS
-  - depth first search
-  - grid solving algorithms
-  - Maze solving
-  - recursive backtracker
-  - Robotix 2013
 ---
 
 Welcome to Brainstorming ACROSS. This is a series of articles that will cover various aspects of the problem statement of the autonomous event [ACROSS](http://robotix.in/across) and their possible solutions. This particular article will cover the _Recursive Backtracker_ algorithm that can be used by a bot to navigate on an 8x8 grid containing obstacles at unknown locations. Note that the article does not cover on how to implement this algorithm in an autonomous robot. That will be covered in future articles. At the end you can also find the link to a software for testing grid solving algorithms. If you are a lazy reader, download the offline pdf here [Brainstorming ACROSS](http://robotix.in/blog/wp-content/uploads/2012/12/Brainstorming-ACROSS1.pdf) before you begin.

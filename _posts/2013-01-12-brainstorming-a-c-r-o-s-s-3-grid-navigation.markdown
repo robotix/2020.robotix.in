@@ -7,11 +7,7 @@ slug: brainstorming-a-c-r-o-s-s-3-grid-navigation
 title: Brainstorming A.C.R.O.S.S 3 -  Grid Navigation
 wordpress_id: 721
 categories:
-  - The DIY Series
   - The Do It Yourself Series
-tags:
-  - Autonomous robotics
-  - Grid Navigation
 ---
 
 **Introduction**

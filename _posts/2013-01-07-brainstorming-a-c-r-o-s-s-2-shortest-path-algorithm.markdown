@@ -7,7 +7,6 @@ slug: brainstorming-a-c-r-o-s-s-2-shortest-path-algorithm
 title: 'Brainstorming A.C.R.O.S.S 2 – Shortest Path Algorithm '
 wordpress_id: 662
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

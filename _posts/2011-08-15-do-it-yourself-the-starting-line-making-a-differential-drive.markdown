@@ -7,7 +7,7 @@ slug: do-it-yourself-the-starting-line-making-a-differential-drive
 title: '(Do It Yourself) The Starting Line : Making a Differential Drive'
 wordpress_id: 114
 categories:
-  - The DIY Series
+  - The Do It Yourself Series
 ---
 
 In the first issue of the new session, we dedicate a special section to all the new entrants into the robotics bandwagon as we race into what will be another glorious year of robotic achievement. The starting point is fairly basic : Build a manual robot which moves forward, backward, left and right according to your instruction. So, here's what you need:

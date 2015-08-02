@@ -8,7 +8,6 @@ title: 'DIY : Build your own InspiralOn Robot'
 wordpress_id: 1179
 categories:
   - Dream-A-Bot
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

@@ -9,7 +9,6 @@ wordpress_id: 644
 categories:
   - K.R.A.I.G.
   - Robotix Workshops
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

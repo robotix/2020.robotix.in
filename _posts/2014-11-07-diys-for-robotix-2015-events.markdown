@@ -6,12 +6,8 @@ layout: post
 slug: diys-for-robotix-2015-events
 title: DIYs for Robotix 2015 events
 wordpress_id: 1459
-tags:
-  - Cascade
-  - DIY
-  - Minefield
-  - Robotix 2015
-  - Skyfall
+categories:
+  - The Do It Yourself Series
 ---
 
 Now participating in our events has become even easier. Presenting the do-it-yourself sheets for 3 of our events including a first-ever autonomous event DIY for 'Minefield'.

@@ -7,7 +7,6 @@ slug: romancing-python-part-3
 title: 'Romancing Python : Part 3'
 wordpress_id: 241
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

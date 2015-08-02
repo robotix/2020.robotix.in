@@ -7,7 +7,7 @@ slug: do-it-yourself-pid
 title: 'Do It Yourself : PID '
 wordpress_id: 151
 categories:
-  - The DIY Series
+  - The Do It Yourself Series
 ---
 
 **![](http://blog.robotix.in/wp-content/uploads/2011/08/PID_picture-217x300.png)**

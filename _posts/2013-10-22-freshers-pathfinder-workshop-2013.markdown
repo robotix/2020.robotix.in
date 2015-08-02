@@ -10,7 +10,6 @@ categories:
   - K.R.A.I.G.
   - Latest From The Campus
   - Robotix Workshops
-  - The DIY Series
   - The Do It Yourself Series
   - Workshops
 ---

@@ -7,7 +7,6 @@ slug: diy-build-your-own-canyon-rush-robot
 title: 'DIY : Build your own Canyon Rush Robot'
 wordpress_id: 1188
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

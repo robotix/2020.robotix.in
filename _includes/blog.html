@@ -9,7 +9,7 @@
                         <div class="post-header">
                             <div class="published col-md-6 col-xs-6 pull-left">
                                 <span class="caption">Posted:</span>
-                                <span class="publish-date" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</span>
+                                <span class="publish-date" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% for category in post.categories %} #{{ category }}{% endfor %}</span>
                             </div>
                             <div class="share col-md-6 col-xs-6 pull-right">
                                 <ul class="social-links">

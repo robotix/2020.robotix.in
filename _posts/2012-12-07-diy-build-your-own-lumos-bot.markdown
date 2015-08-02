@@ -7,7 +7,7 @@ slug: diy-build-your-own-lumos-bot
 title: 'DIY : Build your own Lumos Bot'
 wordpress_id: 449
 categories:
-  - The DIY Series
+  - The Do It Yourself Series
 ---
 
 **Tools:**

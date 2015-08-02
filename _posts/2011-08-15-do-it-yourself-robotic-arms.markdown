@@ -7,7 +7,7 @@ slug: do-it-yourself-robotic-arms
 title: 'Do It Yourself : Robotic Arms'
 wordpress_id: 120
 categories:
-  - The DIY Series
+  - The Do It Yourself Series
 ---
 
 _Jacob took that coke in his hand, the Herald919, what he named his other "arm", made of tinker and junk mimicked the same. As he undid the wrapping, Herald broke the other one."_

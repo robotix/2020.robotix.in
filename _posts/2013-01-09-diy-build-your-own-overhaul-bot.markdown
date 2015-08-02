@@ -7,7 +7,6 @@ slug: diy-build-your-own-overhaul-bot
 title: 'DIY: Build your own Overhaul Bot'
 wordpress_id: 684
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

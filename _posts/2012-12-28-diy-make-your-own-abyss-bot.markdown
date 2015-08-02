@@ -7,7 +7,6 @@ slug: diy-make-your-own-abyss-bot
 title: 'DIY : Build your own Abyss Bot'
 wordpress_id: 632
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

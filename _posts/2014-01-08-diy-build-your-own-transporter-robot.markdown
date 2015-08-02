@@ -7,7 +7,6 @@ slug: diy-build-your-own-transporter-robot
 title: 'DIY : Build your own Transporter robot'
 wordpress_id: 1233
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 

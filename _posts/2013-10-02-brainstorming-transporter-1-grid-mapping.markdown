@@ -7,7 +7,6 @@ slug: brainstorming-transporter-1-grid-mapping
 title: Brainstorming Transporter 1- Grid Mapping
 wordpress_id: 1090
 categories:
-  - The DIY Series
   - The Do It Yourself Series
 ---
 
