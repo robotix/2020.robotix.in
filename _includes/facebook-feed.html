@@ -1,0 +1,25 @@
+<!-- Begin Facebook Feed Section -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<section id="twitter-feed" class="twitter-feed image-section parallax">
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <svg class="icon" viewBox="0 0 30 32">
+                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
+            </svg>
+            <h3>{{ site.FbFeedTitle }} <a href="https://facebook.com/hashtag/{{ site.FbHashTag }}" target="_blank">#{{ site.FbHashTag }}</a>
+            </h3>
+            <br>
+            <div class="fb-page" data-href="https://www.facebook.com/robotixiitkgp" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/robotixiitkgp"><a href="https://www.facebook.com/robotixiitkgp">Technology Robotix Society</a></blockquote></div></div>
+        </div>
+    </div>
+</section>
+<!-- End Facebook Feed Section -->

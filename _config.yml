@@ -78,10 +78,9 @@ latestNewsTitle: "Latest blog articles"
 latestNewsCount: 2
 latestNewsButtonText: "Explore our blog"
 
-# Tweets Feed Block
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "robotixiitkgp"
-twitterFeed: ""
+# Facebook Feed Block
+FbFeedTitle: "Are You Geared Up?"
+FbHashTag: "robotix"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
