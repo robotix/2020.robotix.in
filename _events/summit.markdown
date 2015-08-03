@@ -104,10 +104,12 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 ####Task
 - The robot has to climb up the staircases using a suitable mechanism.
 - It has to avoid bumping into the obstruction and the surrounding wall while taking a 90 degree turn.
+
 ####Round Rules
 - Maximum time: 3 minutes.
 - Maximum number of Time-outs allowed :1(1 min)
 - Restarts allowed : 1 NOTE: Restarts will be given only for technical fault in the bot.
+
 ####Scoring Formula
 - 75 points awarded for reaching a new floor (F)
 - Time factor (t)
