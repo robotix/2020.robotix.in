@@ -3,6 +3,7 @@ layout: post
 title: "gearsuspensiontut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/gearsuspensiontut/"
 ---
 # Tutorials
 

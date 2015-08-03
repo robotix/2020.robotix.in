@@ -3,6 +3,7 @@ layout: post
 title: "Digital Output"
 categories:
   - arduino
+redirect_from: "/tutorials/category/arduino/digout/"
 ---
 
 #### Circuitry

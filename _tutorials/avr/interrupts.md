@@ -3,6 +3,7 @@ layout: post
 title: "Interrupts in AVR"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/interrupts/"
 ---
 
 #### What are Interrupts?

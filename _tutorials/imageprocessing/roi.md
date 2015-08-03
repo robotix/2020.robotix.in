@@ -3,6 +3,7 @@ layout: post
 title: "ROI Based Processing"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/roi/"
 ---
 
 #### Specify a ROI

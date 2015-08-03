@@ -3,6 +3,7 @@ layout: post
 title: "sprinklertut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/sprinklertut/"
 ---
 #### Syringe Mechanism
 

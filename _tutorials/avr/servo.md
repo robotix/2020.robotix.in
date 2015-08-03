@@ -3,6 +3,7 @@ layout: post
 title: "Servo"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/servo/"
 ---
 
 #### Basics and Parts

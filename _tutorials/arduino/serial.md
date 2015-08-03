@@ -3,6 +3,7 @@ layout: post
 title: "Serial Communication"
 categories:
   - arduino
+redirect_from: "/tutorials/category/arduino/serial/"
 ---
 
 #### Introduction

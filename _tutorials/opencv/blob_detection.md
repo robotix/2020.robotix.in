@@ -3,6 +3,7 @@ layout: post
 title: "Blob Detection"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/blob_detection/"
 ---
 
 #### Introduction

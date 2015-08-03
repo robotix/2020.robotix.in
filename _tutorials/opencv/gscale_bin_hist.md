@@ -3,6 +3,7 @@ layout: post
 title: "Grayscale, Binary and Histogram"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/gscale_bin_hist/"
 ---
 
 #### Video Tutorial

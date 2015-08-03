@@ -3,6 +3,7 @@ layout: post
 title: "rockerbogie"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/rockerbogie/"
 ---
 #### Introduction
 

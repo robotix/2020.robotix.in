@@ -3,6 +3,7 @@ layout: post
 title: "Digital Input"
 categories:
   - arduino
+redirect_from: "/tutorials/category/arduino/digin/"
 ---
 
 #### Circuitry

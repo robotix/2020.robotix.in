@@ -3,6 +3,7 @@ layout: post
 title: "ADC"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/adc/"
 ---
 
 #### Introduction

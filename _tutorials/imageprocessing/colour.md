@@ -3,6 +3,7 @@ layout: post
 title: "Colour Detection"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/colour/"
 ---
 
 #### Colour Detection

@@ -3,6 +3,7 @@ layout: post
 title: "Serial Communication"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/serial/"
 ---
 
 #### Serial Communication

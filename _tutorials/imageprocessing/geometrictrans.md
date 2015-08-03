@@ -3,6 +3,7 @@ layout: post
 title: "Geometric Transformations"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/geometrictrans/"
 ---
 
 #### Interpolation

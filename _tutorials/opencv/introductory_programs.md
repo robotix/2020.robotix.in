@@ -3,6 +3,7 @@ layout: post
 title: "Introductory Programs using OpenCV"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/introductory_programs/"
 ---
 
 #### Video Tutorial

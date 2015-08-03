@@ -3,6 +3,7 @@ layout: post
 title: "Line Follower"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/lfr/"
 ---
 
 #### Introduction

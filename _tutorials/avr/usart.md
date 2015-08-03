@@ -3,6 +3,7 @@ layout: post
 title: "USART-UART"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/usart/"
 ---
 
 #### Introduction

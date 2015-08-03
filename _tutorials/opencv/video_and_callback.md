@@ -3,6 +3,7 @@ layout: post
 title: "Video and Callback"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/video_and_callback/"
 ---
 
 #### Video Tutorial

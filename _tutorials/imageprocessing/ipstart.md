@@ -3,6 +3,7 @@ layout: post
 title: "IP in MATLAB: Taking Off"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/ipstart/"
 ---
 
 #### Introduction

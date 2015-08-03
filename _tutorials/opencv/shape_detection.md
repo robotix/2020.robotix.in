@@ -3,6 +3,7 @@ layout: post
 title: "Shape Detection"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/shape_detection/"
 ---
 
 #### Introduction

@@ -3,6 +3,7 @@ layout: post
 title: "Introduction and Integrating OpenCV"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/installopencv/"
 ---
 
 #### Introduction

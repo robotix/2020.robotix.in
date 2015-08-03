@@ -3,6 +3,7 @@ layout: post
 title: "Image Types & Data Classes"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/imagetypes/"
 ---
 
 #### Image Types

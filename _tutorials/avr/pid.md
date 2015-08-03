@@ -3,6 +3,7 @@ layout: post
 title: "PID Control"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/pid/"
 ---
 
 #### What is PID?
