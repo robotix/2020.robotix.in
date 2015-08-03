@@ -3,6 +3,7 @@ layout: post
 title: "LCD Interfacing with ATmega16"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/lcd/"
 ---
 
 #### Introduction

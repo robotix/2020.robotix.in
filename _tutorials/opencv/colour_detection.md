@@ -3,6 +3,7 @@ layout: post
 title: "Colour Detection"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/colour_detection/"
 ---
 
 #### Video Tutorial

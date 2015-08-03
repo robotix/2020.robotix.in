@@ -3,6 +3,7 @@ layout: post
 title: "Image Enhancement"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/enhance/"
 ---
 
 #### Introduction

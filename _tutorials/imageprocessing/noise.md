@@ -3,6 +3,7 @@ layout: post
 title: "Noise Reduction"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/noise/"
 ---
 
 #### Introduction

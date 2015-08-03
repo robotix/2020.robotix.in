@@ -3,6 +3,7 @@ layout: post
 title: "Analog Output (PWM)"
 categories:
   - arduino
+redirect_from: "/tutorials/category/arduino/anaout/"
 ---
 
 #### Circuitry

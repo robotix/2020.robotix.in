@@ -3,6 +3,7 @@ layout: post
 title: "WSAD Control Box"
 categories:
   - kraig
+redirect_from: "/tutorials/category/kraig/control_box/"
 ---
 
 #### Introduction

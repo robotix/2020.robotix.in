@@ -3,6 +3,7 @@ layout: post
 title: "pickngrabtut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/pickngrabtut/"
 ---
 # Tutorials
 

@@ -3,6 +3,7 @@ layout: post
 title: "Differential Drive"
 categories:
   - kraig
+redirect_from: "/tutorials/category/kraig/dd/"
 ---
 
 #### Introduction

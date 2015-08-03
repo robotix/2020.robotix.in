@@ -3,6 +3,7 @@ layout: post
 title: "Shaft Encoders"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/shaftencoders/"
 ---
 
 #### Basic Concept

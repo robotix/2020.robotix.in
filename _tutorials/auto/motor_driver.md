@@ -3,6 +3,7 @@ layout: post
 title: "Motor Driver IC"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/motor_driver/"
 ---
 
 #### What Is Motor Driver IC?

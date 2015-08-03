@@ -3,6 +3,7 @@ layout: post
 title: "Histograms"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/hist/"
 ---
 
 #### Introduction

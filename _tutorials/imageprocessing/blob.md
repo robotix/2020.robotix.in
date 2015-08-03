@@ -3,6 +3,7 @@ layout: post
 title: "Blob Detection"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/blob/"
 ---
 
 #### Blob Detection

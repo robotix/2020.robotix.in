@@ -3,6 +3,7 @@ layout: post
 title: "Contrast Adjustment"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/contrast/"
 ---
 
 #### Introduction

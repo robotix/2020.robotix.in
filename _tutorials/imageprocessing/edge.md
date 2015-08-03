@@ -3,6 +3,7 @@ layout: post
 title: "Edge Detection"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/edge/"
 ---
 
 #### Introduction

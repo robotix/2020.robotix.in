@@ -3,6 +3,7 @@ layout: post
 title: "Serial Communication"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/comm/"
 ---
 
 #### Video Tutorial

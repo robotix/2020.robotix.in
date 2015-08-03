@@ -3,6 +3,7 @@ layout: post
 title: "Grid Follower"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/grid/"
 ---
 
 #### Introduction

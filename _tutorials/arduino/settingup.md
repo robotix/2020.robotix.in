@@ -3,6 +3,7 @@ layout: post
 title: "Setting Up the Arduino"
 categories:
   - arduino
+redirect_from: "/tutorials/category/arduino/settingup/"
 ---
 
 #### Setting Up

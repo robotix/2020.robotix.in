@@ -3,6 +3,7 @@ layout: post
 title: "AVR Basics"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/avrbasics/"
 ---
 
 #### AVR Basics

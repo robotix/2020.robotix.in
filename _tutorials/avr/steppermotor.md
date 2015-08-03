@@ -3,6 +3,7 @@ layout: post
 title: "Stepper Motors"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/steppermotor/"
 ---
 
 #### Overview

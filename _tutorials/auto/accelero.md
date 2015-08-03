@@ -3,6 +3,7 @@ layout: post
 title: "Accelerometer"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/accelero/"
 ---
 
 #### Introduction

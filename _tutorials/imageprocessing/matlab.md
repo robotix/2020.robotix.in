@@ -3,6 +3,7 @@ layout: post
 title: "MATLAB Working Environment"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/matlab/"
 ---
 
 #### MATLAB: A Start

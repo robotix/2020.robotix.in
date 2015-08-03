@@ -3,6 +3,7 @@ layout: post
 title: "Noise Reduction"
 categories:
   - opencv
+redirect_from: "/tutorials/category/opencv/noise_reduction/"
 ---
 
 #### Video Tutorial

@@ -3,6 +3,7 @@ layout: post
 title: "AVR Programming"
 categories:
   - avr
+redirect_from: "/tutorials/category/avr/avrprog/"
 ---
 
 #### Introduction

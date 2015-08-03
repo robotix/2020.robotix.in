@@ -3,6 +3,7 @@ layout: post
 title: "glidecamtut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/glidecamtut/"
 ---
 # Tutorials
 

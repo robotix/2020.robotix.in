@@ -3,6 +3,7 @@ layout: post
 title: "wheelstut"
 categories:
   - mechanical
+redirect_from: "/tutorials/category/mechanical/wheelstut/"
 ---
 # Tutorials
 

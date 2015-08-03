@@ -3,6 +3,7 @@ layout: post
 title: "Basic Image Processing"
 categories:
   - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/basicIp/"
 ---
 
 #### Introduction

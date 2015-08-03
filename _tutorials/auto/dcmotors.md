@@ -3,6 +3,7 @@ layout: post
 title: "DC Motors"
 categories:
   - auto
+redirect_from: "/tutorials/category/auto/dcmotors/"
 ---
 
 #### Introduction
