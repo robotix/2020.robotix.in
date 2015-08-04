@@ -156,7 +156,8 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
-        - {name: "github", link: "https://github.com/narayanaditya95"}
+        - {name: "site", link: "http:///narayanaditya.me"}
+        - {name: "email", link: "mailto:aditya.narayan@robotix.in"}
     -
       id: 19
       name: "Apoorva"
