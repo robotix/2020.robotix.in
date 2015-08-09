@@ -214,34 +214,15 @@
   team:
     -
       id: 25
-      name: "Sourish"
-      surname: "Ghosh"
+      name: "Aayushman"
+      surname: "Sharma"
       title: "Sub Head"
-      thumbnailUrl: sourish.jpg
+      thumbnailUrl: aayushman.jpg
       team: true
       social:
-        - {name: "facebook", link: "https://www.facebook.com/Sourish69"}
-        - {name: "github", link: "https://github.com/sourishg"}
+        - {name: "facebook", link: "https://www.facebook.com/aayushman.sharma.5"}
     -
       id: 26
-      name: "Shashwat"
-      surname: "Gupta"
-      title: "Sub Head"
-      thumbnailUrl: shashwat.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
-    -
-      id: 27
-      name: "Vraj"
-      surname: "Parikh"
-      title: "Sub Head"
-      thumbnailUrl: vraj.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
-    -
-      id: 28
       name: "Aditya Sanjay"
       surname: "Boob"
       title: "Sub Head"
@@ -250,14 +231,32 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001453733595"}
     -
-      id: 29
-      name: "Siddharth"
-      surname: "Jha"
+      id: 27
+      name: "Manash Pratim"
+      surname: "Das"
       title: "Sub Head"
-      thumbnailUrl: siddharth.jpg
+      thumbnailUrl: manash.jpg
       team: true
       social:
-        - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
+        - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
+    -
+      id: 28
+      name: "Rajat"
+      surname: "Chaurasia"
+      title: "Sub Head"
+      thumbnailUrl: rajat.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
+    -
+      id: 29
+      name: "Shashwat"
+      surname: "Gupta"
+      title: "Sub Head"
+      thumbnailUrl: shashwat.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
     -
       id: 30
       name: "Shubhangi"
@@ -278,28 +277,29 @@
         - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
     -
       id: 32
-      name: "Rajat"
-      surname: "Chaurasia"
+      name: "Siddharth"
+      surname: "Jha"
       title: "Sub Head"
-      thumbnailUrl: rajat.jpg
+      thumbnailUrl: siddharth.jpg
       team: true
       social:
-        - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
+        - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
     -
       id: 33
-      name: "Manash Pratim"
-      surname: "Das"
+      name: "Sourish"
+      surname: "Ghosh"
       title: "Sub Head"
-      thumbnailUrl: manash.jpg
+      thumbnailUrl: sourish.jpg
       team: true
       social:
-        - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
+        - {name: "facebook", link: "https://www.facebook.com/Sourish69"}
+        - {name: "github", link: "https://github.com/sourishg"}
     -
       id: 34
-      name: "Aayushman"
-      surname: "Sharma"
+      name: "Vraj"
+      surname: "Parikh"
       title: "Sub Head"
-      thumbnailUrl: aayushman.jpg
+      thumbnailUrl: vraj.jpg
       team: true
       social:
-        - {name: "facebook", link: "https://www.facebook.com/aayushman.sharma.5"}
+        - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
