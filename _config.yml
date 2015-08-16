@@ -8,7 +8,7 @@ safe: false
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Technology Robotix Society"
@@ -52,7 +52,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "29th Jan - 31st Jan, 2016"
+eventDate: "22nd Jan - 24th Jan, 2016"
 typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
