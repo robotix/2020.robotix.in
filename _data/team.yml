@@ -156,7 +156,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
-        - {name: "site", link: "http:///narayanaditya.me"}
+        - {name: "site", link: "http:///narayanaditya.in"}
         - {name: "email", link: "mailto:aditya.narayan@robotix.in"}
     -
       id: 19
