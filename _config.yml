@@ -24,11 +24,6 @@ collections:
     output: true
     permalink: "/tutorial/:path/"
 
-# Analytics
-googleAnalyticsTrackingId: "UA-33668522-1"
-googleAnalyticsSiteUrl: "robotix.in"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
-
 # Head
 metaKeywords: "robotix, robotics, iit, kgp"
 twitterAccount: "@robotixiitkgp"
