@@ -1,3 +1,86 @@
+- title: "2015"
+  team:
+    -
+      id: 68
+      name: "Aditya"
+      surname: "Agarwal"
+      thumbnailUrl: aditya_agarwal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/aditya259"}
+    -
+      id: 69
+      name: "Ayush"
+      surname: "Goel"
+      thumbnailUrl: ayush_goel.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/akshat.goyal07"}
+    -
+      id: 70
+      name: "Githin"
+      surname: "John"
+      thumbnailUrl: githin_john.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/githin.john.1"}
+    -
+      id: 71
+      name: "Ishan"
+      surname: "Garg"
+      thumbnailUrl: ishan_garg.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/nahsi"}
+    -
+      id: 72
+      name: "Kalyani"
+      surname: "Nimbalkar"
+      thumbnailUrl: kalyani_nimbalkar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/kalyani.nimbalkar"}
+    -
+      id: 73
+      name: "Monika"
+      surname: "Pani"
+      thumbnailUrl: monika_pani.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/monika.pani"}
+    -
+      id: 74
+      name: "Mrinal"
+      surname: "Mohit"
+      thumbnailUrl: mrinal_mohit.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/wowitsmrinal"}
+    -
+      id: 75
+      name: "Prateek"
+      surname: "Rastogi"
+      thumbnailUrl: prateek_rastogi.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/baegoo"}
+    -
+      id: 76
+      name: "Rahul"
+      surname: "Koshal"
+      thumbnailUrl: rahul_koshal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rahul.koshal"}
+    -
+      id: 77
+      name: "Shushman"
+      surname: "Choudhury"
+      thumbnailUrl: shushman_choudhury.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
+
 - title: "2014"
   team:
     -

@@ -17,14 +17,6 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/soumyadeep.mukherjee17"}
     -
-      id: 2
-      name: "Shushman"
-      surname: "Choudhury"
-      thumbnailUrl: shushman_choudhury.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
-    -
       id: 3
       name: "Rahul"
       surname: "Jhawar"
@@ -40,30 +32,6 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/payal.priyadarshini.3"}
-    -
-      id: 5
-      name: "Mrinal"
-      surname: "Mohit"
-      thumbnailUrl: mrinal_mohit.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/wowitsmrinal"}
-    -
-      id: 6
-      name: "Monika"
-      surname: "Pani"
-      thumbnailUrl: monika_pani.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/#!/monika.pani"}
-    -
-      id: 7
-      name: "Githin"
-      surname: "John"
-      thumbnailUrl: githin_john.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/githin.john.1"}
     -
       id: 8
       name: "Deepak"
