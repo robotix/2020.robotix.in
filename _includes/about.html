@@ -10,7 +10,9 @@
                 <div class="col-sm-{{ colWidth }} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
-                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
+                        <a href="{{ about.link }}">
+                            <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
+                        </a>
                         <p>{{ about.text }}</p>
                     </div>
                 </div>

@@ -62,9 +62,21 @@ heroButtons:
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
 aboutBlock:
- - {title: "K.R.A.I.G.", image: "conference.jpg", text: "Kickstart your journey into the world of hobby robotics." }
- - {title: "K.R.I.S.S.", image: "workshop.jpg", text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics." }
- - {title: "Workshops", image: "hackathon.jpg", text: "Contact us, Invite us, Get a workshop organized at your college/university!" }
+  - 
+    title: "K.R.A.I.G."
+    image: "conference.jpg"
+    text: "Kickstart your journey into the world of hobby robotics."
+    link: "/kraig/"
+  - 
+    title: "K.R.I.S.S."
+    image: "workshop.jpg"
+    text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics."
+    link: "/kriss/"
+  - 
+    title: "Workshops"
+    image: "hackathon.jpg"
+    text: "Contact us, Invite us, Get a workshop organized at your college/university!"
+    link: ""
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
