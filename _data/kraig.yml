@@ -11,3 +11,14 @@ schedule:
         endTime: "20:00",
         sessionIds: [001]
       }
+  - 
+    date: "2015-8-20"
+    dateReadable: "August 20"
+    tracks: 
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [002]
+      }
