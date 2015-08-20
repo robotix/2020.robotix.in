@@ -10,11 +10,13 @@
 -
   id: 002
   title: "KRAIG 102"
-  description: "Building your own robosoccer bot!<br> Coming soon."
+  description: "Building your own robosoccer bot!"
   subtype: presentation
-  speakers: []
+  speakers: [21, 18]
   language: en
   complexity: "Intermediate" 
+  presentation: "https://prezi.com/rvfji2afblir/kraig-102/"
+  video: "https://123d.circuits.io/circuits/957000-relays/embed#breadboard"
 -
   id: 003
   title: "Android L Animation"
