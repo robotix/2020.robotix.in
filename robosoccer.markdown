@@ -20,7 +20,7 @@ Build a manually controlled robot capable of competing in a one on one game of s
 - Each team can consist of a maximum of 3 members.
 - Each team should have unique participants i.e. no two teams can have even a single participant common.
 - The right spirit of participation is expected from the participants.
-- A 2120V power supply will be provided near the arena.
+- A 220V AC power supply will be provided near the arena.
 - Maximum amperage of the adapter will be limited to 1A.
 - A golf ball will be used for the game. The weight of the ball will be 50gm approximately and will have a diameter of 5cm.
 - Use of LEGO kits or ready made basis will lead to disqualification.
@@ -52,8 +52,7 @@ Build a manually controlled robot capable of competing in a one on one game of s
 - The bot can be wired or wireless
 - The controlling wires should be bound into a single strip and long enough (preferably erected upto a certain height so that it does not entangle with the opponent's wires or robot
 - The wires must remain slack throughout the event.
-- The potential difference between any two points should not exceed 20V.
-- The total weight of bot should not exceed 5 kgs. The weight of the bot includes the remote control, batteries etc.
+- The total weight of bot should not exceed 2 kgs. The weight of the bot includes the remote control, batteries etc.
 
 ###Tutorials
 
