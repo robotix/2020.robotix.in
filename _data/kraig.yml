@@ -26,7 +26,7 @@ schedule:
     date: "2015-8-22"
     dateReadable: "August 22"
     tracks: 
-      - {title: "Soldering Hands-On", color: "#90be4e"}
+      - {title: "Hands-On", color: "#90be4e"}
     timeslots:
       - {
         startTime: "15:00",
@@ -37,7 +37,7 @@ schedule:
     date: "2015-8-23"
     dateReadable: "August 23"
     tracks: 
-      - {title: "Soldering Hands-On", color: "#90be4e"}
+      - {title: "Hands-On", color: "#90be4e"}
     timeslots:
       - {
         startTime: "15:00",
