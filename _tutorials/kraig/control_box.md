@@ -72,13 +72,6 @@ Therefore **R** needs to activate **L2** and **R1**
 | Left(**L**)     | 1  | 0  | 0  | 1  |
 | Right(**R**)    | 0  | 1  | 1  | 0  |
 
- 
-
- 
-
- 
-
- 
 
 #### The Final Control Box
 
