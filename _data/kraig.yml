@@ -42,5 +42,5 @@ schedule:
       - {
         startTime: "15:00",
         endTime: "19:00",
-        sessionIds: [004]
+        sessionIds: [003]
       }
