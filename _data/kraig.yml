@@ -22,3 +22,25 @@ schedule:
         endTime: "20:00",
         sessionIds: [002]
       }
+  - 
+    date: "2015-8-22"
+    dateReadable: "August 22"
+    tracks: 
+      - {title: "Hands-On", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "15:00",
+        endTime: "19:00",
+        sessionIds: [003]
+      }
+  - 
+    date: "2015-8-23"
+    dateReadable: "August 23"
+    tracks: 
+      - {title: "Hands-On", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "15:00",
+        endTime: "19:00",
+        sessionIds: [003]
+      }
