@@ -24,7 +24,7 @@ This is a small tutorial on how to make a control box for a simple Differential 
 
 Basically we need to make a H-bridge kind of working circuit for each motor. The circuit diagram for the relay circuit is as given below :
 
-![][1]
+![][1]{:class="img-responsive"}
 
   
 Here the pole (common) of each relay is connected to the terminals of the MOTOR. The pole is connected to two terminals- the NC and NO.  
@@ -37,13 +37,13 @@ This way, the circuit of the motor is complete and by controlling the relays wit
 
 #### Push Button Circuit
 
-![][2]
+![][2]{:class="img-responsive"}
 
 This is the Circuit of the four push buttons will be in the controlling person's hands.
 
 #### The Controller Circuit
 
-![][3]
+![][3]{:class="img-responsive"}
 
 #### How do we control the motor ?
 
@@ -75,7 +75,7 @@ Therefore **R** needs to activate **L2** and **R1**
 
 #### The Final Control Box
 
-![][4]
+![][4]{:class="img-responsive"}
 
 #### Why Diodes?
 
@@ -87,7 +87,7 @@ If we directly connect the output from push buttons to relays without the diodes
 
 If you press L then the robot will take a zero degree Left turn and press R then the robot will take zero degree right turn. But, if you press F and R together then R1=1, R2=1 and L1=1 which means that it would simply take a right turn. All the combinations of F+L, B+R, B+L are also possible. If you press F and B together, then both the motors will stop. This is an additional feature in the four push button control box.
 
-[1]: https://lh4.googleusercontent.com/CTdsfR-5S0r6Q8LBEZQcZjR0NyqlQ3XbRhmh0yvmHuMXvU0ADqX-TTcNZwRRHU4LGw6a4rPiuZ9-hREdvuskFSQFgmA4ftwtuR2oTDV2SA6hyCcaU40xMVBG
-[2]: https://lh5.googleusercontent.com/J55Q16ICqJWaP8ZxbGBY82dYo97qtcVby8skJ5MR4ACATTNjV9lYZZUL4WCpIyh31T7Pr1Yqkfb7zgyByMafaEc9hj4GQqqi2R_v8gj6aB_1flIUKZ6z_imJ
-[3]: https://lh5.googleusercontent.com/qhX9r0uZqh0ChEjUFpFs47egiAzmpuihZyLjeOOUmbtTPQasokChJQ5igwoZsdjkucyOETQFSc3HL1Ag4IJsxzPemOsyHmOekrmlXrPUo_OasLY49hF1NSuo
-[4]: https://lh5.googleusercontent.com/Z1_64cF547aAiVLfqnzLzOU3ZscEzTLE8wW4CUwD38NIqe-lIAOoP3g7Pe7pb6WsccMGRt35cuKiZ3y4RGCp0h7CtH5eTjTGtbZSmtjBG3OtJoPyKNlDD3bt
+[1]: {{ site.baseurl }}/img/tutorial/kraig/control_box/relay_with_motor.png
+[2]: {{ site.baseurl }}/img/tutorial/kraig/control_box/circuit_relay.png
+[3]: {{ site.baseurl }}/img/tutorial/kraig/control_box/controller.png
+[4]: {{ site.baseurl }}/img/tutorial/kraig/control_box/control_box.jpg
