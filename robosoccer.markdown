@@ -18,6 +18,7 @@ Build a manually controlled robot capable of competing in a one on one game of s
 ####General
 
 - Each team can consist of a maximum of 3 members.
+- For driving mechanism, a maximum of 2 motors can be used. However, additional motors can be used for kicker, striker, dribbler etc.
 - Each team should have unique participants i.e. no two teams can have even a single participant common.
 - The right spirit of participation is expected from the participants.
 - A 220V AC power supply will be provided near the arena.
