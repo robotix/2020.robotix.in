@@ -18,7 +18,6 @@ Build a manually controlled robot capable of competing in a one on one game of s
 ####General
 
 - Each team can consist of a maximum of 3 members.
-- For driving mechanism, a maximum of 2 motors can be used. However, additional motors can be used for kicker, striker, dribbler etc.
 - Each team should have unique participants i.e. no two teams can have even a single participant common.
 - The right spirit of participation is expected from the participants.
 - A 220V AC power supply will be provided near the arena.
@@ -49,8 +48,9 @@ Build a manually controlled robot capable of competing in a one on one game of s
 
 ####Robot Specifications
 
-- The size of the robot must be within the size limit- width = 25 cm, length = 25 cm, height = 25 cm
-- The bot can be wired or wireless
+- The size of the robot must be within the size limit- width = 25 cm, length = 25 cm, height = 25 cm.
+- - For driving mechanism, a maximum of 2 motors can be used. However, additional motors can be used for kicker, striker, dribbler etc.
+- The bot can be wired or wireless.
 - The controlling wires should be bound into a single strip and long enough (preferably erected upto a certain height so that it does not entangle with the opponent's wires or robot
 - The wires must remain slack throughout the event.
 - The total weight of bot should not exceed 2 kgs. The weight of the bot includes the remote control, batteries etc.
