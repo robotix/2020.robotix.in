@@ -49,7 +49,7 @@ Build a manually controlled robot capable of competing in a one on one game of s
 ####Robot Specifications
 
 - The size of the robot must be within the size limit- width = 25 cm, length = 25 cm, height = 25 cm.
-- - For driving mechanism, a maximum of 2 motors can be used. However, additional motors can be used for kicker, striker, dribbler etc.
+- For driving mechanism, a maximum of 2 motors can be used. However, additional motors can be used for kicker, striker, dribbler etc.
 - The bot can be wired or wireless.
 - The controlling wires should be bound into a single strip and long enough (preferably erected upto a certain height so that it does not entangle with the opponent's wires or robot
 - The wires must remain slack throughout the event.
