@@ -1,11 +1,7 @@
 ---
-author: rbtxadmin
-comments: false
 date: 2012-08-12T13:35:42.000Z
 layout: post
-slug: introductory-freshers-workshop
-title: Introductory Freshers’ Workshop
-wordpress_id: 352
+title: Introductory Freshers’ Workshop 2012
 categories:
   - Latest From The Campus
   - Robotix Workshops
