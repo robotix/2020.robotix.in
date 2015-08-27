@@ -25,9 +25,12 @@
   language: en
   complexity: "Beginner"
 -
-  id: 004
-  title: "KRAIG Hands-On: Soldering"
-  description: "Learn how to solder like a pro!"
+  id: 005
+  title: "Day 1 of RoboSoccer"
+  description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
   language: en
-  subtype: presentation
-  complexity: "Beginner"
+-
+  id: 006
+  title: "Day 2 of RoboSoccer"
+  description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
+  language: en
