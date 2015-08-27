@@ -8,6 +8,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/yogesh.poddar.77"}
+        - {name: "email", link: "mailto:yogesh@robotix.in"}
     -
       id: 1
       name: "Soumyadeep"
@@ -16,6 +17,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/soumyadeep.mukherjee17"}
+        - {name: "email", link: "mailto:soumyadeep@robotix.in"}
     -
       id: 3
       name: "Rahul"
@@ -24,6 +26,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/rahuljhawar.iitkgp"}
+        - {name: "email", link: "mailto:rahuljhawar@robotix.in"}
     -
       id: 4
       name: "Payal"
@@ -32,6 +35,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/payal.priyadarshini.3"}
+        - {name: "email", link: "mailto:payal@robotix.in"}
     -
       id: 8
       name: "Deepak"
@@ -40,6 +44,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/Deepak0306"}
+        - {name: "email", link: "mailto:deepak@robotix.in"}
     -
       id: 9
       name: "Anushka"
@@ -48,6 +53,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/anushkalakshmi"}
+        - {name: "email", link: "mailto:anushka@robotix.in"}
     -
       id: 10
       name: "Anchit"
@@ -56,6 +62,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
+        - {name: "email", link: "mailto:anchitn@robotix.in"}
     -
       id: 11
       name: "Ashutosh"
@@ -64,6 +71,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/ashutosh.baheti.33?fref=ts"}
+        - {name: "email", link: "mailto:ashutosh@robotix.in"}
     -
       id: 12
       name: "Ayush"
@@ -72,6 +80,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
+        - {name: "email", link: "mailto:ayush.garg@robotix.in"}
     -
       id: 13
       name: "Harsheel"
@@ -80,6 +89,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/harsheel.soin?fref=ts"}
+        - {name: "email", link: "mailto:harsheel@robotix.in"}
     -
       id: 14
       name: "Ruchita"
@@ -88,6 +98,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/ruchita.kachhap?fref=ts"}
+        - {name: "email", link: "mailto:ruchita@robotix.in"}
     -
       id: 15
       name: "Sudeshna"
@@ -96,6 +107,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/sudutri?fref=ts"}
+        - {name: "email", link: "mailto:sudeshna@robotix.in"}
     -
       id: 16
       name: "Vipasha"
@@ -104,6 +116,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/vipasha.jain.73"}
+        - {name: "email", link: "mailto:vipasha@robotix.in"}
 - title: "Head"
   team:
     -
@@ -115,6 +128,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
+        - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
     -
       id: 18
       name: "Aditya"
@@ -135,6 +149,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/apoorva.sharma.96343405?fref=ts"}
+        - {name: "email", link: "mailto:apoorva.sharma@robotix.in"}
     -
       id: 20
       name: "Mratunjay"
@@ -144,6 +159,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
+        - {name: "email", link: "mailto:mratunjay@robotix.in"}
     -
       id: 21
       name: "Nikhil Angad"
@@ -151,6 +167,8 @@
       title: "Head"
       thumbnailUrl: bakshi.jpg
       team: true
+      social:
+        - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
     -
       id: 22
       name: "Riya"
@@ -160,6 +178,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/riya.bubna?fref=ts"}
+        - {name: "email", link: "mailto:riya@robotix.in"}
     -
       id: 23
       name: "Rohan"
@@ -169,6 +188,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
+        - {name: "email", link: "mailto:rohan@robotix.in"}
     -
       id: 24
       name: "Sakshi"
@@ -178,6 +198,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/sakshi.agarwal.5682944?fref=ts"}
+        - {name: "email", link: "mailto:sakshi.agarwal@robotix.in"}
 - title: "Sub Head"
   team:
     -
@@ -189,6 +210,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/aayushman.sharma.5"}
+        - {name: "email", link: "mailto:aayushman@robotix.in"}
     -
       id: 26
       name: "Aditya Sanjay"
@@ -198,6 +220,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001453733595"}
+        - {name: "email", link: "mailto:adityasanjay@robotix.in"}
     -
       id: 27
       name: "Manash Pratim"
@@ -207,6 +230,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
+        - {name: "email", link: "mailto:manash@robotix.in"}
     -
       id: 28
       name: "Rajat"
@@ -216,6 +240,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
+        - {name: "email", link: "mailto:rajat@robotix.in"}
     -
       id: 29
       name: "Shashwat"
@@ -225,6 +250,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
+        - {name: "email", link: "mailto:shashwat@robotix.in"}
     -
       id: 30
       name: "Shubhangi"
@@ -234,6 +260,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/shubhangi.bhushan"}
+        - {name: "email", link: "mailto:shubhangi@robotix.in"}
     -
       id: 31
       name: "Shweta"
@@ -243,6 +270,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
+        - {name: "email", link: "mailto:shweta@robotix.in"}
     -
       id: 32
       name: "Siddharth"
@@ -252,6 +280,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
+        - {name: "email", link: "mailto:siddharth@robotix.in"}
     -
       id: 33
       name: "Sourish"
@@ -262,6 +291,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/Sourish69"}
         - {name: "github", link: "https://github.com/sourishg"}
+        - {name: "email", link: "mailto:sourish@robotix.in"}
     -
       id: 34
       name: "Vraj"
@@ -271,3 +301,4 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
+        - {name: "email", link: "mailto:vraj@robotix.in"}
