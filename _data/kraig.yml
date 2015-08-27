@@ -48,21 +48,21 @@ schedule:
     date: "2015-8-29"
     dateReadable: "August 29"
     tracks: 
-      - {title: "Freshers' RoboSoccer Challenge", color: "#90be4e"}
+      - {title: "Event", color: "#90be4e"}
     timeslots:
       - {
         startTime: "10:00",
         endTime: "18:00",
-        sessionIds: [005]
+        sessionIds: [004]
       }
   - 
     date: "2015-8-30"
     dateReadable: "August 30"
     tracks: 
-      - {title: "Freshers' RoboSoccer Challenge", color: "#90be4e"}
+      - {title: "Event", color: "#90be4e"}
     timeslots:
       - {
         startTime: "10:00",
         endTime: "18:00",
-        sessionIds: [006]
+        sessionIds: [005]
       }
