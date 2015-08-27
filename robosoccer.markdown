@@ -21,7 +21,6 @@ Build a manually controlled robot capable of competing in a one on one game of s
 - Each team should have unique participants i.e. no two teams can have even a single participant common.
 - The right spirit of participation is expected from the participants.
 - A 220V AC power supply will be provided near the arena.
-- Maximum amperage of the adapter will be limited to 1A.
 - A golf ball will be used for the game. The weight of the ball will be 50gm approximately and will have a diameter of 5cm.
 - Use of LEGO kits or ready made basis will lead to disqualification.
 - The organizers reserve the right to change the rules as they deem fit. Changes in rules, if any will be notified on the website.
