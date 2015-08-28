@@ -7,6 +7,7 @@
   team: true
   social:
     - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
+    - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
 -
   id: 18
   name: "Aditya"
@@ -25,3 +26,5 @@
   title: "Head"
   thumbnailUrl: bakshi.jpg
   team: true
+  social:
+    - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
