@@ -51,8 +51,8 @@ schedule:
       - {title: "Event", color: "#90be4e"}
     timeslots:
       - {
-        startTime: "10:00",
-        endTime: "18:00",
+        startTime: "14:00",
+        endTime: "17:00",
         sessionIds: [004]
       }
   - 
@@ -62,7 +62,7 @@ schedule:
       - {title: "Event", color: "#90be4e"}
     timeslots:
       - {
-        startTime: "10:00",
-        endTime: "18:00",
+        startTime: "14:00",
+        endTime: "23:00",
         sessionIds: [005]
       }
