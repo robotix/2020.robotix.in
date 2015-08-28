@@ -7,6 +7,7 @@
   language: en
   complexity: "Beginner"
   presentation: "https://prezi.com/szxhej2caflb/kraig-101-2015/"
+  banner: "/img/session/001/poster.jpg"
 -
   id: 002
   title: "KRAIG 102"
@@ -29,8 +30,10 @@
   title: "RoboSoccer: Day 1"
   description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
   language: en
+  banner: "/img/session/004/banner.jpg"
 -
   id: 005
   title: "RoboSoccer: Day 2"
   description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
   language: en
+  banner: "/img/session/004/banner.jpg"
