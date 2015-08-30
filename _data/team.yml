@@ -240,7 +240,6 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
-        - {name: "email", link: "mailto:rajat@robotix.in"}
     -
       id: 29
       name: "Shashwat"
