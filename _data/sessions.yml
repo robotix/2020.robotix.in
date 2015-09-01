@@ -43,3 +43,14 @@
   links:
     - { title: "Register your team", src: "http://goo.gl/forms/AIqsL2cPCg"}
   banner: "/img/session/004/banner.jpg"
+-
+  id: 006
+  title: "KRAIG 101"
+  description: "Dive into the world of hobby robotics."
+  subtype: presentation
+  speakers: [21, 17, 18]
+  language: en
+  complexity: "Beginner"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/szxhej2caflb/kraig-101-2015/"}
+  banner: "/img/session/001/poster.jpg"
