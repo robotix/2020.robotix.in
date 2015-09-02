@@ -28,3 +28,12 @@
   team: true
   social:
     - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
+-
+  id: 10
+  name: "Anchit"
+  surname: "Navelkar"
+  thumbnailUrl: anchit_navelkar.jpg
+  team: true
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
+    - {name: "email", link: "mailto:anchitn@robotix.in"}
