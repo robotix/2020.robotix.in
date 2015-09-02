@@ -67,6 +67,7 @@
   description: "Visual Attributes for Enhanced Human-Machine Communication and 'Modeling the shape of a scene : A holistic representation of the spatial envelope', by Anchit Navelkar"
   subtype: presentation
   language: en
+  speakers: [10]
   links:
     - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
   complexity: "Intermediate"
