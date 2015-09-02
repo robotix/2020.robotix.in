@@ -50,7 +50,7 @@
   subtype: presentation
   language: en
   links:
-    - { title: "View presentation", src: "{{ site.baseurl }}/assets/kriss/13-08-2014/KRISS01.pdf"}
+    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/13-08-2014/KRISS01.pdf"}
   complexity: "Intermediate"
 -
   id: 007
@@ -59,7 +59,7 @@
   subtype: presentation
   language: en
   links:
-    - { title: "View presentation", src: "{{ site.baseurl }}/assets/kriss/04-09-2014/KRISS02.pdf"}
+    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/04-09-2014/KRISS02.pdf"}
   complexity: "Intermediate"
 -
   id: 008
@@ -68,7 +68,7 @@
   subtype: presentation
   language: en
   links:
-    - { title: "View presentation", src: "{{ site.baseurl }}/assets/kriss/04-09-2014/KRISS02.pdf"}
+    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
   complexity: "Intermediate"
 -
   id: 009
@@ -77,7 +77,7 @@
   subtype: presentation
   language: en
   links:
-    - { title: "View presentation", src: "{{ site.baseurl }}/assets/kriss/16-10-2014/KRISS03.pdf"}
+    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/16-10-2014/KRISS03.pdf"}
   complexity: "Intermediate"
 -
   id: 010
