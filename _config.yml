@@ -36,6 +36,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/tutorial", text: "Tutorials"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
  - {permalink: "/alumni/", text: "Alumni"}
