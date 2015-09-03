@@ -1,5 +1,5 @@
 -
-  id: 17
+  id: 1
   name: "Abhinav"
   surname: "Jain"
   title: "Head"
@@ -9,7 +9,7 @@
     - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
     - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
 -
-  id: 18
+  id: 2
   name: "Aditya"
   surname: "Narayan"
   title: "Head"
@@ -20,7 +20,7 @@
     - {name: "site", link: "http:///narayanaditya.in"}
     - {name: "email", link: "mailto:aditya.narayan@robotix.in"}
 -
-  id: 21
+  id: 3
   name: "Nikhil Angad"
   surname: "Bakshi"
   title: "Head"
@@ -29,7 +29,7 @@
   social:
     - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
 -
-  id: 10
+  id: 4
   name: "Anchit"
   surname: "Navelkar"
   thumbnailUrl: anchit_navelkar.jpg
@@ -37,3 +37,34 @@
   social:
     - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
     - {name: "email", link: "mailto:anchitn@robotix.in"}
+-
+  id: 5
+  name: "Aditya"
+  surname: "Agarwal"
+  thumbnailUrl: aditya_agarwal.jpg
+  team: true
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/aditya259"}
+-
+  id: 6
+  name: "Shushman"
+  surname: "Choudhury"
+  thumbnailUrl: shushman_choudhury.jpg
+  team: true
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
+-
+  id: 7
+  name: "Kumar Krishna"
+  surname: "Agarwal"
+  team: true
+-
+  id: 8
+  name: "Ayush"
+  surname: "Pandey"
+  team: true
+-
+  id: 9
+  name: "Ashish"
+  surname: "Daga"
+  team: true

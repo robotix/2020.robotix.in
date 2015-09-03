@@ -43,3 +43,14 @@ schedule:
         endTime: "20:00",
         sessionIds: [010]
       }
+  - 
+    date: "2015-09-01"
+    dateReadable: "September 1, 2015"
+    tracks: 
+      - {title: "Keynote", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [011]
+      }
