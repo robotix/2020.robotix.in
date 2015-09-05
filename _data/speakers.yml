@@ -13,8 +13,7 @@
   name: "Aditya"
   surname: "Narayan"
   title: "Head"
-  thumbnailUrl: aditya_narayan.jpg
-  team: true
+  thumbnailUrl: aditya-narayan.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
     - {name: "site", link: "http:///narayanaditya.in"}
@@ -25,15 +24,13 @@
   surname: "Bakshi"
   title: "Head"
   thumbnailUrl: bakshi.jpg
-  team: true
   social:
     - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
 -
   id: 4
   name: "Anchit"
   surname: "Navelkar"
-  thumbnailUrl: anchit_navelkar.jpg
-  team: true
+  thumbnailUrl: anchit-navelkar.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
     - {name: "email", link: "mailto:anchitn@robotix.in"}
@@ -41,30 +38,30 @@
   id: 5
   name: "Aditya"
   surname: "Agarwal"
-  thumbnailUrl: aditya_agarwal.jpg
-  team: true
+  thumbnailUrl: aditya-agarwal.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/aditya259"}
 -
   id: 6
   name: "Shushman"
   surname: "Choudhury"
-  thumbnailUrl: shushman_choudhury.jpg
-  team: true
+  thumbnailUrl: shushman-choudhury.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
 -
   id: 7
   name: "Kumar Krishna"
   surname: "Agarwal"
-  team: true
+  thumbnailUrl: kk-agarwal.jpg
 -
   id: 8
   name: "Ayush"
   surname: "Pandey"
-  team: true
+  thumbnailUrl: ayush-pandey.jpg
+  social:
+    - {name: "site", link: "http://ayushpandey.tk"}
 -
   id: 9
   name: "Ashish"
   surname: "Daga"
-  team: true
+  thumbnailUrl: ashish-daga.jpg
