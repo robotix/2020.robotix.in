@@ -10,19 +10,19 @@ categories:
   - The Do It Yourself Series
 ---
 
-Welcome to Brainstorming ACROSS. This is a series of articles that will cover various aspects of the problem statement of the autonomous event [ACROSS](http://robotix.in/across) and their possible solutions. This particular article will cover the _Recursive Backtracker_ algorithm that can be used by a bot to navigate on an 8x8 grid containing obstacles at unknown locations. Note that the article does not cover on how to implement this algorithm in an autonomous robot. That will be covered in future articles. At the end you can also find the link to a software for testing grid solving algorithms. If you are a lazy reader, download the offline pdf here [Brainstorming ACROSS](http://robotix.in/blog/wp-content/uploads/2012/12/Brainstorming-ACROSS1.pdf) before you begin.
+Welcome to Brainstorming ACROSS. This is a series of articles that will cover various aspects of the problem statement of the autonomous event [ACROSS](http://robotix.in/across) and their possible solutions. This particular article will cover the _Recursive Backtracker_ algorithm that can be used by a bot to navigate on an 8x8 grid containing obstacles at unknown locations. Note that the article does not cover on how to implement this algorithm in an autonomous robot. That will be covered in future articles. At the end you can also find the link to a software for testing grid solving algorithms. If you are a lazy reader, download the offline pdf here [Brainstorming ACROSS](http://robotix.in/img/blog/2012/12/Brainstorming-ACROSS1.pdf) before you begin.
 
 # **Objective**
 The objective is to go from point on the 8x8 to any other point. As an additional constraint, we consider that the arena in unknown to the bot. In other words, when the bot starts moving, it has no knowledge of the location of obstacles on the grid. It knows only its starting position and the required ending position.
 
 # **Location**
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image001.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image001.png)
+[![](http://robotix.in/img/blog/2012/12/image001.png)](http://robotix.in/img/blog/2012/12/image001.png)
 
 Figure 1 The 8x8 ACROSS Grid
 
 Let the location of bot at any point be denoted by the 2D coordinate system that is by X and Y coordinates. In the arena shown below, each square denotes one such point. The _point (0, 0)_ is denoted by the _top leftmost square_.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image003.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image003.png)
+[![](http://robotix.in/img/blog/2012/12/image003.png)](http://robotix.in/img/blog/2012/12/image003.png)
 
 Figure 2 The ACROSS Round 1 Arena
 - Grey denotes an obstacle in this case raised platforms
@@ -45,7 +45,7 @@ At each coordinate of the grid, the basic roles of the bot remain the same. As a
 # **Recursive Parts**
 Let's start by assuming there is already some algorithm that finds a path from some point in a maze to the goal and call it _RecurPath (x, y)_.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image006.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image006.png)Let us assume that the robot managed to reach a point (0, 4) using this function. Now it is required to check all the four directions to find the path ahead. Thus we place four calls:
+[![](http://robotix.in/img/blog/2012/12/image006.png)](http://robotix.in/img/blog/2012/12/image006.png)Let us assume that the robot managed to reach a point (0, 4) using this function. Now it is required to check all the four directions to find the path ahead. Thus we place four calls:
 - _RecurPath (0, 3) - North_
 - _RecurPath (1, 4) - East_
 - _RecurPath (0, 5) – South_
@@ -99,7 +99,7 @@ To use to find and mark a path from the start to the goal with our given represe
 1. Call _RecurPath(startx, starty)_
 1. Re-mark the start position.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image008.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image008.png)
+[![](http://robotix.in/img/blog/2012/12/image008.png)](http://robotix.in/img/blog/2012/12/image008.png)
 
 Figure 4 Sample Run
 
@@ -107,7 +107,7 @@ You can verify that each colored square that is part of the final path satisfies
 
 First lets go one step backward to position (0, 1).  At this position:
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image010.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image010.png)
+[![](http://robotix.in/img/blog/2012/12/image010.png)](http://robotix.in/img/blog/2012/12/image010.png)
 
 Figure 5 At position (0, 1)
 
@@ -138,7 +138,7 @@ return false
 
 Since none of the base cases are satisfied, code reaches the highlighted step, placing a call to _RecurPath (0, 0). _Note that the call has not yet finished executing.
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image012.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image012.png)
+[![](http://robotix.in/img/blog/2012/12/image012.png)](http://robotix.in/img/blog/2012/12/image012.png)
 
 Figure 6 At position (0, 0)
 
@@ -173,7 +173,7 @@ Thus the robot moves to (0, 0). Reaches the code highlighted in Red, placing a c
 # **Dead Ends and Backtracking**
 So what happens if the bot takes a wrong turn, a path, which leads to a dead end, or a path, which we know wont reach, the end point? Let us consider this run again:
 
-[![](http://robotix.in/blog/wp-content/uploads/2012/12/image014.png)](http://robotix.in/blog/wp-content/uploads/2012/12/image014.png)
+[![](http://robotix.in/img/blog/2012/12/image014.png)](http://robotix.in/img/blog/2012/12/image014.png)
 
 Figure 7 At position (5,4)
 
@@ -236,7 +236,7 @@ return false
 Again the code reaches Move robot (5,4) moving the bot from (6,4). In this way the bot backtracks on reaching a dead end.
 
 # **Resources**
-Software that demonstrates the above algorithm can be found here [MinotaurPathfinder](http://robotix.in/blog/wp-content/uploads/2012/12/MinotaurPathfinder.zip) Extract the zip file.  You can find more information on how to use in the Readme file contained within. For a source code of the software, written in C# (using Visual Studio 2012), click [MinotaurPathfinder_Source](http://robotix.in/blog/wp-content/uploads/2012/12/MinotaurPathfinder_Source.zip). Note that the software only marks the final valid path. The robot might have to move to additional squares and backtracked on finding a dead end.
+Software that demonstrates the above algorithm can be found here [MinotaurPathfinder](http://robotix.in/img/blog/2012/12/MinotaurPathfinder.zip) Extract the zip file.  You can find more information on how to use in the Readme file contained within. For a source code of the software, written in C# (using Visual Studio 2012), click [MinotaurPathfinder_Source](http://robotix.in/img/blog/2012/12/MinotaurPathfinder_Source.zip). Note that the software only marks the final valid path. The robot might have to move to additional squares and backtracked on finding a dead end.
 
 This tutorial has been compiled using the following resources:
 

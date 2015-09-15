@@ -41,7 +41,7 @@
   description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
   language: en
   links:
-    - { title: "Register your team", src: "http://goo.gl/forms/AIqsL2cPCg"}
+    - { title: "Register your team", src: "https://goo.gl/forms/AIqsL2cPCg"}
   banner: "/img/session/004/banner.jpg"
 -
   id: 006
@@ -51,7 +51,7 @@
   language: en
   speakers: [6]
   links:
-    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/13-08-2014/KRISS01.pdf"}
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/13-08-2014/KRISS01.pdf"}
   complexity: "Intermediate"
 -
   id: 007
@@ -61,7 +61,7 @@
   language: en
   speakers: [5]
   links:
-    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/04-09-2014/KRISS02.pdf"}
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02.pdf"}
   complexity: "Intermediate"
 -
   id: 008
@@ -71,7 +71,7 @@
   language: en
   speakers: [4]
   links:
-    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
   complexity: "Intermediate"
 -
   id: 009
@@ -81,7 +81,7 @@
   language: en
   speakers: [9]
   links:
-    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/16-10-2014/KRISS03.pdf"}
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/16-10-2014/KRISS03.pdf"}
   complexity: "Intermediate"
 -
   id: 010
@@ -99,5 +99,5 @@
   language: en
   speakers: [8]
   links:
-    - { title: "View presentation", src: "http://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
   complexity: "Intermediate"
