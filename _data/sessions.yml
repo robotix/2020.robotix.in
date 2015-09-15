@@ -33,7 +33,7 @@
   description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
   language: en
   links:
-    - { title: "Register your team", src: "http://goo.gl/forms/AIqsL2cPCg"}
+    - { title: "Register your team", src: "https://goo.gl/forms/AIqsL2cPCg"}
   banner: "/img/session/004/banner.jpg"
 -
   id: 005

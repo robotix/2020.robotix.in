@@ -34,7 +34,7 @@ i) Sensor Circuit
 
 The sensor circuit will basically tell you whether your robot is on the line or out of line. The sensors suitable for this purpose are LED-LDR sensor, or IR LED-Photodiode sensor pair.
 
-Click [here](http://www.robotix.in/tutorials/category/kraig/1.2) to understand the basics of these sensor pairs.
+Click [here]({{ site.baseurl }}/tutorials/category/kraig/1.2) to understand the basics of these sensor pairs.
 
 Now, let us see how it'll help to differentiate the line from the surface. We know the fact that a white surface will anytime reflect more rays than a black surface. This is the basic principle that we use to judge whether the sensor pair is on white line or black line.
 
@@ -74,7 +74,7 @@ The 10k component is your potentiometer which you might have to set to the maxim
 
 Now for analysing the sensor output, we use a comparator to get a digital output.
 
-Click [here](http://www.robotix.in/tutorials/category/kraig/1.2) to understand the basics of comparators.
+Click [here]({{ site.baseurl }}/tutorials/category/kraig/1.2) to understand the basics of comparators.
 
 [![op amp ckt]({{ site.baseurl }}/img/blog/2013/09/op-amp-ckt.png)]({{ site.baseurl }}/img/blog/2013/09/op-amp-ckt.png)
 

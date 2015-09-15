@@ -164,5 +164,5 @@ The motors connection will be done with the motor-driver IC and the control line
 [1]: https://lh3.googleusercontent.com/vC8X6ef5eZ_BYfLHcZeB2ty5OPBaUePsxRXoaDI7EZ4wUNG3a8XXkaYVgtXcQ5sqDb9Si0pwktmzmUptzc-t3U7K5eF_Iuo0WWo2k9OfrF7rxZD6Og3bD2Hp
 [2]: https://lh3.googleusercontent.com/DbpUUskKlK-8xmirR7WIReD47ARYU3p_xOZSsS0XFXnvm6cPeNp5FTBVPXrKGiwnB533H3-123Y4B38b9Tct7v39IJ4ZvHXSrzeteDwNPh-zQIRLTiDP9xjuqg
 [3]: https://lh4.googleusercontent.com/bpzbTsW5LSNQsgs7pATEr9QEJT7y02v89U0oc5qWCKSl7XALQurs5CfHN219-m6jdrAdTGbzmgKI7X76bNZ_A4G-6v5PZVK9HhtL919J7k1k_CxSDZZ8Esg-vg
-[4]: http://www.robotix.in/tutorials/category/auto/motor_driver
-[5]: http://www.robotix.in/tutorials/category/avr/linefollower
+[4]: {{ site.baseurl }}/tutorials/category/auto/motor_driver
+[5]: {{ site.baseurl }}/tutorials/category/avr/linefollower

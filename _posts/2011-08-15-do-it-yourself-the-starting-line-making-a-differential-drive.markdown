@@ -14,7 +14,7 @@ In the first issue of the new session, we dedicate a special section to all the 
 
 **Chassis** : To use your base to make bots for manual robotics events later use 4 Wheels, 4 DC Motors, Wooden Base. If you just want a bot that can move around on plain ground, the quickest option is to break open two toy cars and use the motors along with the wheels attached)
 
-** [![](http://blog.robotix.in/wp-content/uploads/2011/08/DIY-300x181.jpg)](http://blog.robotix.in/wp-content/uploads/2011/08/DIY.jpg)**
+** [![](https://www.robotix.in/img/blog/2011/08/DIY-300x181.jpg)](https://www.robotix.in/img/blog/2011/08/DIY.jpg)**
 
 **Power Supply** : Your motors need a 12 V DC supply to run. If you are into soldering circuits yourself, you might want to make your own rectifier circuit (think back to your XIIth standard Physics textbook-Bridge Rectifier). Add an IC 7812 across the rectified output to get a stable 12 V input into your motors.  Or else, just get an adaptor which gives a 12V DC output or a set of batteries.
 

@@ -32,4 +32,4 @@ categories:
   A good number of fresher groups managed to solder their circuits,while a few groups managed to integrate them onto their line followers. Debugging the robot at the final stage was a challenge, nevertheless a few groups emerged victorious, and their line followers saw the light of the day. The workshop  was an enriching experience for all the freshers present, and we were glad that at the end of the day, all the freshers had working knowledge about making a line follower and  were confident about implementing the same, which is definitely an achievement for them, at this stage. The workshop was definitely a success with the results reflecting our efforts to make it possible.
 ```
 
-If you want to make your own line follower robot, check out the 'line follower without micro-controller' tutorial on our [website](http://www.robotix.in/tutorials/category/kraig/lfrbjt).
+If you want to make your own line follower robot, check out the 'line follower without micro-controller' tutorial on our [website]({{ site.baseurl }}/tutorials/category/kraig/lfrbjt).

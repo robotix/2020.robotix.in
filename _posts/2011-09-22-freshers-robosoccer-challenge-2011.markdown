@@ -20,10 +20,10 @@ This challenge had a Knock-Out format with the number of matches being the logar
 
 The Winners of this challenge have also been given a direct entry into the second round of the next event being conducted by Team Robotix!
 
-To know more about who we are and what we do, visit our website @ [www.robotix.in](http://www.robotix.in) . Be sure NOT to miss out on the next event .
+To know more about who we are and what we do, visit our website @ [www.robotix.in]({{ site.baseurl }}) . Be sure NOT to miss out on the next event .
 
 Exciting things are bound to happen..  Where Machines  Dare!!!
 
 [youtube [http://www.youtube.com/watch?v=nkaVu1EsK_s](http://www.youtube.com/watch?v=nkaVu1EsK_s)]
 
-To know more logon to our site [www.robotix.in](www.robotix.in) or check out [http://www.robotix.in/robosoccer](http://www.robotix.in/robosoccer) .
+To know more logon to our site [www.robotix.in](www.robotix.in) or check out [{{ site.baseurl }}/robosoccer]({{ site.baseurl }}/robosoccer) .

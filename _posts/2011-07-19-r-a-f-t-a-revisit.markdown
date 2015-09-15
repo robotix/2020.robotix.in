@@ -12,7 +12,7 @@ categories:
 
 **RAFT** was one of the most successful mechanical events in Robotix 2011. Receiving participation from robot lovers all over the country, this event was one of a kind. Based on a practical and industry derived problem statement, the simplicity yet the unique nature of the event received wide acceptance. First years from IIT Kharagpur also showed deep interest in the event right from the start when Team Robotix conducted the first fresher workshop, submitting hundreds of mechanical designs for the event.
 
-![](http://blog.robotix.in/wp-content/uploads/2011/07/raft.png) The event was conducted in 3 rounds:
+![](https://www.robotix.in/img/blog/2011/07/raft.png) The event was conducted in 3 rounds:
 
 **Round 1 **: Navigation of a raft on water through a pre-defined course. The raft was provided to the  participants making the entire more practical and flexible . ** Round 2** : Retrieve people (in our case, cubes) from flood affected areas (platforms) and bring them to   safety (Victory zone). ** Round 3** : was left to be disclosed at the time of the event.
 

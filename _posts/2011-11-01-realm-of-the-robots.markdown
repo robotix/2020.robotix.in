@@ -23,6 +23,6 @@ Check out the pictures from the workshop [here](http://robotix.in/node/901)
 
 And we aren't even close to the finish line! A hands – on Image processing Workshop will be held at Techno India, Salt Lake on 6th November 2011 and we're in the final rungs of preparation.
 
-As a mark of the high standards in which our workshops are regarded, the yearly inhouse Winter Workshop to be held at this year in December has received IEEE certification. 1st years at IIT Kharagpur interested in attending the workshop are requested to look out for announcements at [www.robotix.in](http://www.robotix.in/)
+As a mark of the high standards in which our workshops are regarded, the yearly inhouse Winter Workshop to be held at this year in December has received IEEE certification. 1st years at IIT Kharagpur interested in attending the workshop are requested to look out for announcements at [www.robotix.in]({{ site.baseurl }}/)
 
 Meanwhile, registration for our events at Robotix to be held during Kshitij 2012 have begun! Register your team at [http://www.ktj.in/#teams](http://www.ktj.in/#teams)

@@ -12,7 +12,7 @@ categories:
 ---
 
 # Problem Statement
-Build a manually controlled robot capable of traversing a broken pipe and repairing it on the way, in this case, popping corks plugged in the pipe. For more details on the event refer to our [website](http://www.robotix.in/events/event/inspiralon).
+Build a manually controlled robot capable of traversing a broken pipe and repairing it on the way, in this case, popping corks plugged in the pipe. For more details on the event refer to our [website]({{ site.baseurl }}/events/event/inspiralon).
 
 # Required Material
 <table align="center" > 
@@ -125,6 +125,6 @@ The control box used in this robot
 
 Body, traversal, and arm come together in one entity to take on the challenge: **InspiralOn | Robotix 2014**.
 
-**Refer to the [video tutorial](http://www.youtube.com/watch?v=K2Ru1SH3Z0U) for more details. You can also view the DIY in a pictorial and step-by-step manner [here](http://www.robotix.in/uploads/DIY.pdf).**
+**Refer to the [video tutorial](http://www.youtube.com/watch?v=K2Ru1SH3Z0U) for more details. You can also view the DIY in a pictorial and step-by-step manner [here]({{ site.baseurl }}/uploads/DIY.pdf).**
 
 --------------------------------------------------------------------------------

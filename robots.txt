@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: http://www.robotix.in/sitemap
+Sitemap: {{ site.baseurl }}/sitemap

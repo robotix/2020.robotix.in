@@ -40,7 +40,7 @@ Fig: An actual differential drive
 
 **MICROCONTROLLER**
 
-Conceived to be the brain of the robot, the microcontroller is the device that allows us to control the robot and make it autonomous. By pre-programming it, we can make it give different outputs based on different inputs and instructions received, and thereby the robot acts accordingly. For a more elaborate understanding of the working of an AVR microcontroller, please visit [here](http://www.robotix.in/tutorials/category/avr/avrprog). Essentially you only need to program the microcontroller on your robot, to move in a particular direction, based on the character received by it from the laptop.
+Conceived to be the brain of the robot, the microcontroller is the device that allows us to control the robot and make it autonomous. By pre-programming it, we can make it give different outputs based on different inputs and instructions received, and thereby the robot acts accordingly. For a more elaborate understanding of the working of an AVR microcontroller, please visit [here]({{ site.baseurl }}/tutorials/category/avr/avrprog). Essentially you only need to program the microcontroller on your robot, to move in a particular direction, based on the character received by it from the laptop.
 
 ![](https://lh3.googleusercontent.com/KyOrYuwXtukuAW7CwCD0YNtEl91-UbybSXjLu864D3S0tMJmyjyOz8QPJNIwzzDrPISOoMcpBv_pNVKWTkp7W-4palVFyHQOuvkvm8vCGPmXSTSMVBBjc-tbWxbiMK9JkVo)
 
@@ -67,11 +67,11 @@ Once we have linked our computer to the microcontroller via the connections we d
 
 These files are available for download from our website. After being downloaded, they need to be included in the Visual Studio project you are using. What you need to do is gather all these three files in a directory and add the path of that directory in Project-> Properties->C/C++->General->Additional Include Directories, and apply the changes to the settings. Also, Project-> Properties->Configuration Properties->General->Character set should be changed to Not Set.
 
-As you can see, all of the above will help you to create a robot that is capable of moving in response to commands that you send to it from the laptop. In Seeker, of course, these commands will have to be sent autonomously from your program. What commands will be sent, will depend on the image processing done by your program on the video feed received. We will discuss how to do that now. N.B – All of the above which we accomplished with an AVR microcontroller can also be done through Arduino, another very popular framework for microcontroller programming. Please look[ here](http://www.robotix.in/tutorials) for tutorials on general usage and communication using Arduino.
+As you can see, all of the above will help you to create a robot that is capable of moving in response to commands that you send to it from the laptop. In Seeker, of course, these commands will have to be sent autonomously from your program. What commands will be sent, will depend on the image processing done by your program on the video feed received. We will discuss how to do that now. N.B – All of the above which we accomplished with an AVR microcontroller can also be done through Arduino, another very popular framework for microcontroller programming. Please look[ here]({{ site.baseurl }}/tutorials) for tutorials on general usage and communication using Arduino.
 
 The program [here](https://gist.github.com/anonymous/7890458) is a standard one which shows how to send characters through the serial communication device, via the code in your Visual Studio project.
 
-**PART 2 – COMPUTER VISION** Before proceeding with this module, we would request you to go through the set of general[ tutorials ](http://www.robotix.in/tutorials)for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
+**PART 2 – COMPUTER VISION** Before proceeding with this module, we would request you to go through the set of general[ tutorials ]({{ site.baseurl }}/tutorials)for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
 
 The major sub-tasks that the computer vision will have to take care of are: TRAVERSING THE CORRIDOR
 
@@ -199,7 +199,7 @@ There are some more difficult aspects to the event that some of you may feel par
 
 **TUNNELS**
 
-Rounds 2 and 3 will have tunnels in the arena. They will be shortcuts through inaccessible areas that will not be visible from above but will exist in the arena, and, if taken correctly, can greatly reduce the time you spend in the run. Look at the two images Round 2 tab of our event [here](http://www.robotix.in/events/event/geoaware) to spot the tunnel and understand how it will appear.
+Rounds 2 and 3 will have tunnels in the arena. They will be shortcuts through inaccessible areas that will not be visible from above but will exist in the arena, and, if taken correctly, can greatly reduce the time you spend in the run. Look at the two images Round 2 tab of our event [here]({{ site.baseurl }}/events/event/geoaware) to spot the tunnel and understand how it will appear.
 
 This is where the idea at the end of the previous section becomes important. If you map out your path before the run and simply have your robot follow it without any real-time correlation, it will miss the tunnel entirely as it will have no reason to consider its existence.
 
@@ -213,4 +213,4 @@ Another possibility is to do nothing with the map before the run – let the rob
 
 You can discuss your doubts regarding this event at our Geo Aware Forum
 
-Tutorials for Image Processing can be found[ here ](http://www.robotix.in/tutorials)(using OpenCV & MATLAB).
+Tutorials for Image Processing can be found[ here ]({{ site.baseurl }}/tutorials)(using OpenCV & MATLAB).

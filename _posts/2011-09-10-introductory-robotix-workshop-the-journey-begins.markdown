@@ -14,4 +14,4 @@ categories:
 
 [![]({{ site.baseurl }}/img/blog/2011/09/wrksp.jpg)]({{ site.baseurl }}/img/blog/2011/09/wrksp.jpg)With a one and a half hour session on building a manual differential drive, which of course is the base for most of the ground – based robots, the first challenge thrown open to all first years is the **Mechanical Design Contest** which requires participants, in groups of three or less, to "_design a robot which can traverse on zip lines while shooting down balls into bulls eye targets below_". In a few weeks' time, first years will get to fight it out at the RoboSoccer Challenge with their DDs tweaked to play soccer.
 
-Meanwhile, events for ROBOTIX 2012 have been announced on our website. To all you robotics enthusiasts, buck up for a grand challenge! Visit [www.robotix.in](http://www.robotix.in/) for details.
+Meanwhile, events for ROBOTIX 2012 have been announced on our website. To all you robotics enthusiasts, buck up for a grand challenge! Visit [www.robotix.in]({{ site.baseurl }}/) for details.

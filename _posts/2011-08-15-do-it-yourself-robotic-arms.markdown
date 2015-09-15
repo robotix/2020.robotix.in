@@ -12,7 +12,7 @@ categories:
 
 _Jacob took that coke in his hand, the Herald919, what he named his other "arm", made of tinker and junk mimicked the same. As he undid the wrapping, Herald broke the other one."_
 
-[![](http://blog.robotix.in/wp-content/uploads/2011/08/robotic-arm.gif)](http://blog.robotix.in/wp-content/uploads/2011/08/robotic-arm.gif)
+[![](https://www.robotix.in/img/blog/2011/08/robotic-arm.gif)](https://www.robotix.in/img/blog/2011/08/robotic-arm.gif)
 
 Take a look at your hand and now replace (mentally) every moving part of it with metal segments and joints and there you go! you have your very own robotic arm. Usually a robotic  arm has six degrees of freedom, is made with over seven segments of metal framework, having over six joints and as most robots are made for, are designed for repetitive heavy manufacturing work.
 
@@ -30,7 +30,7 @@ You'll need:
 
 The base of the arm is a disk mounted on a motor fit at its center. The arm can now move in all directions about that base. Now fit a motor to the base with its axis horizontal, this motor should have been pre fit within two planks of appropriate lengths. The other end of the two planks now hold the third motor which in turn is fit within two more shorter planks . This segment holds your gripping arm at its end.  It has the last motor fit with the four bar mechanism (and preferably the one with the least rpm). Four bar mechanism involves the use of four short rods connected as seen in the pic below.
 
-[![](http://blog.robotix.in/wp-content/uploads/2011/08/arm1.jpg)](http://blog.robotix.in/wp-content/uploads/2011/08/arm1.jpg)           [![](http://blog.robotix.in/wp-content/uploads/2011/08/arm2.gif)](http://blog.robotix.in/wp-content/uploads/2011/08/arm2.gif)
+[![](https://www.robotix.in/img/blog/2011/08/arm1.jpg)](https://www.robotix.in/img/blog/2011/08/arm1.jpg)           [![](https://www.robotix.in/img/blog/2011/08/arm2.gif)](https://www.robotix.in/img/blog/2011/08/arm2.gif)
 
 Now that we have made the chassis you can now move on to making better and more accurate arms using stepper motors, giving them a life of their own using micro controllers  and even make a bot that simulates your arm using image processing. We at Robotix had our very own robotic arm built under the project "Michelangelo" where the arm drew graphs of functions .
 

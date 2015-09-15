@@ -18,6 +18,6 @@ We also conducted a 2-hour interactive learning session in which we gave a compr
 
  The exhausting preparations and the huge amount of time and effort that we had put in to the Kolkata workshop has not depleted our reserves of energy as we come close to the Annual Winter Workshop at IIT Kharagpur. Every year the Winter Workshop, organised exclusively for the students of IIT Kharagpur, witnesses a large number of enthusiastic students who are divided into groups and guided by a mentor. Each of these groups is given a problem statement in autonomous robotics for which they need to make robot within a week. There are separate groups for image processing as well. Our workshops are regarded to be of very high standards and lay a strong foundation in robotics.
 
-Students at IIT Kharagpur interested in attending the workshop are requested to look out for announcements at [www.robotix.in](http://www.robotix.in/)
+Students at IIT Kharagpur interested in attending the workshop are requested to look out for announcements at [www.robotix.in]({{ site.baseurl }}/)
 
  Meanwhile, registration for our events at Robotix to be held during Kshitij 2014 have begun! Register for the events you plan to participate in at [http://www.ktj.in](http://www.ktj.in/#teams)

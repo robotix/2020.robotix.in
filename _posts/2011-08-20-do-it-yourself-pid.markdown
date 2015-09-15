@@ -10,7 +10,7 @@ categories:
   - The Do It Yourself Series
 ---
 
-**![](http://blog.robotix.in/wp-content/uploads/2011/08/PID_picture-217x300.png)**
+**![](https://www.robotix.in/img/blog/2011/08/PID_picture-217x300.png)**
 
 The simplest example to understand PID is a [Line Follower](http://en.wikipedia.org/wiki/Mobile_robot#Line-following_robot), which we shall consider here.
 

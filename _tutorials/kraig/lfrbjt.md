@@ -167,7 +167,7 @@ Assembled bot.
 
 [1]: http://learning.media.mit.edu/projects/gogo/documents/images/light_reflective_LED_LDR.jpg
 [2]: http://robotix.in/img/blog/2013/09/sensor.jpg
-[3]: http://www.robotix.in/tutorials/categ/kraig/kraig301
+[3]: {{ site.baseurl }}/tutorials/categ/kraig/kraig301
 [4]: http://robotix.in/img/blog/2013/09/op-amp-ckt.png
 [5]: https://lh5.googleusercontent.com/zfYodcIU0p_agqyGhRL8KhCHwcPRy0UCw_B8Nc9Nqe30JjqVS-K5gsr1uIhjW7QCZzG409tO_7esb3mIhIzWCaC83fw7OtA7eY4qu6CEWaIyDgw8zf_RUns7
 [6]: https://lh4.googleusercontent.com/jxjhp1PiCIgwMtBZan9maY-W6ZsAhxIOXfDPsPJOPFfh3_9rKYtEEwSPghnfkWu6b8H0TyA85ctsTMvVkLaaE2W_gjz1LnIRUD730fueKB7lTJ_jULQvFCnD

@@ -10,9 +10,9 @@ categories:
   - The Do It Yourself Series
 ---
 
-**[Problem Statement of Transporter](http://www.robotix.in/events/event/transporter):**
+**[Problem Statement of Transporter]({{ site.baseurl }}/events/event/transporter):**
 
-Build an autonomous robot which can traverse a grid and place blocks in voids on the grid such that it optimises its path while completing this task. For more details about the event, refer to our[ website](http://www.robotix.in/events/event/transporter).
+Build an autonomous robot which can traverse a grid and place blocks in voids on the grid such that it optimises its path while completing this task. For more details about the event, refer to our[ website]({{ site.baseurl }}/events/event/transporter).
 
 As per the Problem Statement, the robot has to guide its locomotion and perform the tasks of
 
@@ -173,7 +173,7 @@ Braking
 
 ** 1 ->Motor movement in front direction 0 ->Motor movement in backward direction
 
-You can also check our detailed tutorial on[ Differential drives](http://www.robotix.in/tutorials/category/kraig/dd).
+You can also check our detailed tutorial on[ Differential drives]({{ site.baseurl }}/tutorials/category/kraig/dd).
 
 **Chassis:**
 
@@ -197,7 +197,7 @@ The figure below shows soldered circuit of line following sensor circuit.
 
 [![Line following sensor array]({{ site.baseurl }}/img/blog/2014/01/Line-following-sensor-array-1024x576.jpg)]({{ site.baseurl }}/img/blog/2014/01/Line-following-sensor-array.jpg)
 
-To learn the complete way of making it, you can refer to our [line following](http://www.robotix.in/tutorials/category/auto/lfr) and [grid following](http://www.robotix.in/tutorials/category/auto/grid) tutorials.
+To learn the complete way of making it, you can refer to our [line following]({{ site.baseurl }}/tutorials/category/auto/lfr) and [grid following]({{ site.baseurl }}/tutorials/category/auto/grid) tutorials.
 
 Block detection
 
@@ -229,7 +229,7 @@ Rhino board has inbuilt facility of motor driver. So, here we didn't have to mak
 
 You can take output from any port of microcontroller and connect it to the input pins of the motor driver. You'll require 2 L293Ds or 1 quadruple motor driver ICs because we need to run 3 motors here.
 
-Check out tutorial on[ Motor Driver](http://www.robotix.in/tutorials/category/auto/motor_driver) for further assistance.
+Check out tutorial on[ Motor Driver]({{ site.baseurl }}/tutorials/category/auto/motor_driver) for further assistance.
 
 **Algorithm:**
 

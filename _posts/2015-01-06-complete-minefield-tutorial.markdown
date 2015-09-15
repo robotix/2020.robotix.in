@@ -18,9 +18,9 @@ Video Tutorial for robot
 Introduction:
 
 This tutorial assumes basic prerequisite knowledge of differential drive and microcontrollers. Otherwise, the following tutorials can be referred:
-1. [Differential Drive](http://www.robotix.in/tutorials/category/kraig/dd)
-2. [AVR / Arduino](http://www.robotix.in/tutorials/category/avr/avrbasics)
-3. [ADC](http://www.robotix.in/tutorials/categ/avr/adc)
+1. [Differential Drive]({{ site.baseurl }}/tutorials/category/kraig/dd)
+2. [AVR / Arduino]({{ site.baseurl }}/tutorials/category/avr/avrbasics)
+3. [ADC]({{ site.baseurl }}/tutorials/categ/avr/adc)
 
 What the robot requires to do?
 - Traverse arena using hand gestures.
@@ -55,7 +55,7 @@ Using gesture control we need to accomplish two things:
 - Locomotion/traversal
 - Clasping victims/objects
 
-In order to understand how an accelerometer works and get an insight into how it can be used to fulfill our purpose, you might want to first go through the [accelerometer tutorial](http://www.robotix.in/tutorials/categ/auto/accelero) on our website and read it thoroughly.
+In order to understand how an accelerometer works and get an insight into how it can be used to fulfill our purpose, you might want to first go through the [accelerometer tutorial]({{ site.baseurl }}/tutorials/categ/auto/accelero) on our website and read it thoroughly.
 
 Locomotion/traversal:
 
@@ -63,19 +63,19 @@ After reading the accelerometer tutorial, you will get an idea about how an acce
 
 Let the accelerometer be placed on the top of the palm with the palm parallel to the ground. Consider the x axis output values of the accelerometer. Here X axis is along your hand as indicated by the horizontal dashed line in the following images. The ADC values of x-out pin in accelerometer will vary from one extreme to another extreme corresponding to the following two extreme positions of the palm (i.e. forward tilt and backward tilt) and would lie somewhere in between the two when the palm is parallel to the ground. -Say the ADC values from the output pin "x-out" vary from 100 to 450 between the extremes and is around 250 in the middle.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image02.jpg){:class="img-responsive"} Fig 1 : One extreme(adc value is minimum, say 100)
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image02.jpg){:class="img-responsive"} Fig 1 : One extreme(adc value is minimum, say 100)
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image03.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image03.jpg){:class="img-responsive"}
 
 Fig 2 : Other extreme(adc value is maximum, say 450)
 
 Similarly,  along the y-axis let the values of the "y-out" pin vary from 100 to 450 during left extreme tilt to right extreme tilt respectively. The y-axis is as shown in the figure, perpendicular to the x-axis, in the plane parallel to the ground.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image01.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image01.jpg){:class="img-responsive"}
 
 Fig 3: One extreme("y-out" adc value is minimum, say 100)
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image05.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image05.jpg){:class="img-responsive"}
 
 Fig 4: One extreme("y-out" adc value is maximum, say 450)
 
@@ -97,11 +97,11 @@ Clasping victims/objects:
 
 Clasping of objects can be done in a similar way using another accelerometer using the ADC values of any one of the axis. we used a servo operated gripper for gripping the objects. Let the accelerometer be placed on the inside ot the palm being perpendicular to the ground as shown.
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image04.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image04.jpg){:class="img-responsive"}
 
 Fig: Orientation 1
 
-![](http://www.robotix.in/Images/Tuts/Minefield/image00.jpg){:class="img-responsive"} Fig: Orientation 2
+![]({{ site.baseurl }}/Images/Tuts/Minefield/image00.jpg){:class="img-responsive"} Fig: Orientation 2
 
 Let the ADC values of the reference axis pins be 50-150 (For Orientation 1) and 300-400(For Orientation 2). Now a simple code can be used to operate the gripper corresponding to the values of the the output pin of the reference axis.
 
@@ -130,4 +130,4 @@ For our testing we used a BFO metal detector. CIRCUIT DIAGRAM:
 
 Here is the [Event Video Tutorial](https://www.youtube.com/watch?v=-CECP3yWKSo&index=4&list=PLzio60ZRzGwZmI8WDMXtylcg4KYOohmP9).
 
-Event Details can be found [here](http://www.robotix.in/minefield). Tutorial can also be found [here](http://www.robotix.in/tutorials/categ/eventtutes/minefield). Pictorial Do It Yourself Tutorial (DIY) is [here](http://www.robotix.in/Images/DIYminefield.pdf). Facebook Discussion Group for any doubts and queries is [here](https://www.facebook.com/groups/minefieldevent/). Register now for the event [here](http://www.ktj.in/events/minefield).
+Event Details can be found [here]({{ site.baseurl }}/minefield). Tutorial can also be found [here]({{ site.baseurl }}/tutorials/categ/eventtutes/minefield). Pictorial Do It Yourself Tutorial (DIY) is [here]({{ site.baseurl }}/Images/DIYminefield.pdf). Facebook Discussion Group for any doubts and queries is [here](https://www.facebook.com/groups/minefieldevent/). Register now for the event [here](http://www.ktj.in/events/minefield).

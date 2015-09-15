@@ -11,7 +11,7 @@ categories:
 ---
 
 # Problem Statement
-Build a manually controlled robot capable of traversing an arena similar to a canyon and save  victims stranded at certain depths. For more details on the event refer to our [website](http://www.robotix.in/events/event/canyonrush).
+Build a manually controlled robot capable of traversing an arena similar to a canyon and save  victims stranded at certain depths. For more details on the event refer to our [website]({{ site.baseurl }}/events/event/canyonrush).
 
 # Required Material
 <table align="center" > 
@@ -122,4 +122,4 @@ The control box used in this robot
 
 Body, traversal, and arm come together in one entity to take on the challenge:** Canyon Rush | Robotix 2014**.
 
-**Refer to the [video tutorial](http://www.youtube.com/watch?v=CeRC6oIMya8) for more details. You can also view the DIY in a pictorial and step-by-step manner [here](http://www.robotix.in/uploads/DIY.pdf).**
+**Refer to the [video tutorial](http://www.youtube.com/watch?v=CeRC6oIMya8) for more details. You can also view the DIY in a pictorial and step-by-step manner [here]({{ site.baseurl }}/uploads/DIY.pdf).**
