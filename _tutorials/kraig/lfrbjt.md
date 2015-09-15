@@ -166,9 +166,9 @@ sensor circuit
 Assembled bot.
 
 [1]: http://learning.media.mit.edu/projects/gogo/documents/images/light_reflective_LED_LDR.jpg
-[2]: http://robotix.in/blog/wp-content/uploads/2013/09/sensor.jpg
+[2]: http://robotix.in/img/blog/2013/09/sensor.jpg
 [3]: http://www.robotix.in/tutorials/categ/kraig/kraig301
-[4]: http://robotix.in/blog/wp-content/uploads/2013/09/op-amp-ckt.png
+[4]: http://robotix.in/img/blog/2013/09/op-amp-ckt.png
 [5]: https://lh5.googleusercontent.com/zfYodcIU0p_agqyGhRL8KhCHwcPRy0UCw_B8Nc9Nqe30JjqVS-K5gsr1uIhjW7QCZzG409tO_7esb3mIhIzWCaC83fw7OtA7eY4qu6CEWaIyDgw8zf_RUns7
 [6]: https://lh4.googleusercontent.com/jxjhp1PiCIgwMtBZan9maY-W6ZsAhxIOXfDPsPJOPFfh3_9rKYtEEwSPghnfkWu6b8H0TyA85ctsTMvVkLaaE2W_gjz1LnIRUD730fueKB7lTJ_jULQvFCnD
 [7]: https://lh5.googleusercontent.com/edBlJrjfbW7IyJVrDQSvQ3SWhY9PlC-KioxenOhUpkYT8uT6FWWyoQ2SO8ZwjY_Jy711NYA6wVmKaH6DK2n8YTCh766AyENkvc_PYWJE9H2toIN3CjeBVZaK
