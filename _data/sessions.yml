@@ -101,3 +101,10 @@
   links:
     - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
   complexity: "Intermediate"
+-
+  id: 012
+  title: "KRAIG 201"
+  description: "Dive into the world of hobby robotics."
+  subtype: presentation
+  language: en
+  complexity: "Beginner"
