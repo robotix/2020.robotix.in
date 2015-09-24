@@ -66,3 +66,14 @@ schedule:
         endTime: "23:00",
         sessionIds: [005]
       }
+  - 
+    date: "2015-9-26"
+    dateReadable: "September 26"
+    tracks: 
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [012]
+      }
