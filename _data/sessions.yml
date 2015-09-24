@@ -104,7 +104,7 @@
 -
   id: 012
   title: "KRAIG 201"
-  description: "Dive into the world of hobby robotics."
+  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms."
   subtype: presentation
   language: en
   complexity: "Beginner"
