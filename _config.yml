@@ -48,7 +48,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "22nd Jan - 24th Jan, 2016"
+eventDate: "21st Jan - 24th Jan, 2016"
 typeoutTextValues: '"Technology Robotics^250 er..^250", "Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
