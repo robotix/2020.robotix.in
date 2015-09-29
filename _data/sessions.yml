@@ -108,5 +108,6 @@
   subtype: presentation
   language: en
   complexity: "Beginner"
+  speakers: [10, 11]
   links:
     - { title: "View presentation", src: "https://prezi.com/fubi9zpwrw56/kraig-201-202/"}

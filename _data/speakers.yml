@@ -65,3 +65,13 @@
   name: "Ashish"
   surname: "Daga"
   thumbnailUrl: ashish-daga.jpg
+-
+  id: 10
+  name: "Vraj"
+  surname: "Parikh"
+  thumbnailUrl: vraj.jpg
+-
+  id: 11
+  name: "Siddharth"
+  surname: "Jha"
+  thumbnailUrl: siddharth.jpg
