@@ -30,5 +30,7 @@ An RSE works in close contact with some of the best roboticists the country has 
 - Certification from Technology Robotix Society
 - The tag itself, and the reputation that comes with holding such a valued position.
 
-The deadline for the application is **28th September, 23:59 hrs**.
-[Apply Now](https://docs.google.com/forms/d/10FCBYJHAdFhcmXUJnfin2duG4tZ5L8iXe3axYFLiajU/viewform){:class="right-nav-button btn btn-primary waves-effect waves-button waves-light waves-float"}
+The deadline for the application was **28th September, 23:59 hrs**.
+The list of selected RSEs will be declared shortly.
+Keep watching this space for further notice.
+
