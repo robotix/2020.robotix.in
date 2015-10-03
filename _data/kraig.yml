@@ -77,7 +77,7 @@ schedule:
         endTime: "20:00",
         sessionIds: [012]
       }
-    - 
+  - 
     date: "2015-10-4"
     dateReadable: "October 4"
     tracks: 
