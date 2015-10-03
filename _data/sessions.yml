@@ -111,3 +111,13 @@
   speakers: [10, 11]
   links:
     - { title: "View presentation", src: "https://prezi.com/fubi9zpwrw56/kraig-201-202/"}
+-  
+  id: 013
+  title: "KRAIG 301"
+  description: "Workshop on introduction to autonomous robotics. LED LDR sensors, IR LED Photodiode Pairs, Comparators and Op Amps ."
+  subtype: presentation
+  language: en
+  complexity: "Beginner"
+  speakers: [3]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/nyvqm0ffs1a7/presentation-2-module-1a/"}
