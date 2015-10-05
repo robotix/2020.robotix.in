@@ -8,9 +8,9 @@ social:
 excerpt_separator: <!--more-->
 ---
 
-###Introduction
 
-Time is money. Efficiency defines our lives, and in the future, menial work must be automated.
+###Introduction
+Even after modernization, the one thing that still ails industries is efficient storage in adverse conditions. Consider a storage that handles tonnes of toxic but useful industrial material, thus being human-inaccessible but economically very important. Hence everything must be sorted and always readily available. That’s where robots come in, with the event Warehouse, the entire scenario is brought to life. The challenge of building a semi autonomous robot capable of identifying items and sorting them in storage, while being gesture controlled, is yours to overcome.
 <!--more-->
 
 ###Problem statement

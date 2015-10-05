@@ -8,8 +8,9 @@ social:
 excerpt_separator: <!--more-->
 ---
 
+
 ###Introduction
-A platoon of army soldiers is being subjected to heavy fire, only a skilled commander can command the troop to victory.  
+With emerging trends of swarm robotics surveillance and intelligence and even robotic defense lines, AI is slowly taking over the job of keeping us safe. Robots that intelligently communicate while helping each other in hostile conditions are one step towards this growth, and by small-scaling the exact situation, the event Flank’Em involves two communicating autonomous robots helping each other navigate an unknown area. With algorithmic skills on the test, this event is sure to draw in brainiacs from all across the region.  
 <!--more-->
 
 ###USP

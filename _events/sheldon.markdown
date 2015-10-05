@@ -8,9 +8,9 @@ social:
 excerpt_separator: <!--more-->
 ---
 
-###Introduction
 
-Build an image processing robot which can recognize characters using feed from an overhead camera and solve an equation or arrive at a meaningful expression. The numbers and the operators are all scattered over the floor. Help Sheldon solve the puzzle by putting them all together and score the highest on his math homework.
+###Introduction
+Google’s successful Ground Truth project allowed them to extract data from road signs using satellite and on-ground imagery. Here’s a chance to solve that very problem at the ground level with Surprisingly Helpful Equation Linked Differential Optimised Numerator (S.H.E.L.D.O.N.) Imagine if all those road signs could be used by an autonomous vehicle to navigate in the unknown environment. That’s exactly what this event is all about, building a robot which can intelligently track characters spread out in a region using image processing, deciphering the puzzle and thus arriving at a meaningful expression.
 <!--more-->
 
 ###USP
