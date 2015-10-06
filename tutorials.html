@@ -2,8 +2,10 @@
 layout: default
 title: Tutorials
 permalink: /tutorial/
+redirect_from: "/tutorials/"
 ---
 
 {% include top-section.html %}
 
+{% assign categories = "avr,arduino,auto,imageprocessing,kraig,mechanical,opencv" | split: ',' %}
 {% include tutorial-list.html %}
