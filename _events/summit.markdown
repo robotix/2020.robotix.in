@@ -8,6 +8,10 @@ social:
 excerpt_separator: <!--more-->
 ---
 
+
+###Introduction
+Stair Climbing has always been one area that roboticists have wanted to conquer, considering the ease with which humans do it and the same degree of technical difficulties robots face while doing so. Adding a competitive edge to an already challenging research area, manual event Summit brings an opportunity for the best innovators across the region to aid the design and development of such mechanisms.
+
 ###Problem Statement
 Build a manually controlled robot capable of climbing staircases, whilst picking storing and placing objects  on its way.
 <!--more-->
