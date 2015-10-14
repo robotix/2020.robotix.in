@@ -111,10 +111,10 @@
   speakers: [10, 11]
   links:
     - { title: "View presentation", src: "https://prezi.com/fubi9zpwrw56/kraig-201-202/"}
--  
+-
   id: 013
   title: "KRAIG 301"
-  description: "Workshop on introduction to autonomous robotics. LED LDR sensors, IR LED Photodiode Pairs, Comparators and Op Amps ."
+  description: "Workshop on introduction to autonomous robotics. LED LDR sensors, IR LED Photodiode Pairs, Comparators and Op Amps."
   subtype: presentation
   language: en
   complexity: "Beginner"
@@ -122,4 +122,13 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/nyvqm0ffs1a7/presentation-2-module-1a/"}
   video: "https://123d.circuits.io/circuits/1079064-ldr-motor-control-with-op-amp/embed#breadboard"
-
+-
+  id: 014
+  title: "KRAIG 302"
+  description: "Workshop on autonomous robotics: Timers and Motor Drivers."
+  subtype: presentation
+  language: en
+  complexity: "Intermediate"
+  speakers: [2]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/4ty8g2y4d1gf/timer-and-motor-driver/"}
