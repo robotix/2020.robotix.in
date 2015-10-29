@@ -116,3 +116,9 @@ One of the most optimized path (Yellow)
 
 ####Scoring Formula:
 1000 + 100*F + S - 5*LT - 30*IT - 10*L - 50*NF - NS - 150*T - 250*R
+
+###Contact
+
+####Manash Pratim Das
+**(91) 9933890509**  
+**manash@robotix.in**

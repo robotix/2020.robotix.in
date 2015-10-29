@@ -92,3 +92,13 @@ The graphic assumes 5 Green, 4 Red, 3 Blue and 2 Yellow Doors at the beginning
 - Mapping Arena in more than 2 Minutes: -100
 - Score for turns (Bot B) (Round 2): (Min. Turns Possible-No. of Turns Taken )* 50
 - Score for turns (Bot A) (Round 1 & 2): (-No. of Turns Taken )* 50
+
+###Contact
+
+####Siddharth Jha
+**(91) 9316058276**  
+**siddharth@robotix.in**
+
+####Vraj Parikh
+**(91) 8000981472**  
+**vraj@robotix.in**

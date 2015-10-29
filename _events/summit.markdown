@@ -169,3 +169,13 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 ####Formula 
 75 * (F) + (t)*time left + 50 * (P) + 50 * (BP) + 75 * (BD) - 25 * (B) -25 * (BF)- 25 * (T) - 50 * (Q)- 100 * (R)
+
+###Contact
+
+####Aayushman Sharma
+**(91) 8768725731**  
+**aayushman@robotix.in**
+
+####Rajat Chaurasia
+**(91) 9369781423**  
+**rajatchaurasia2210@gmail.com**

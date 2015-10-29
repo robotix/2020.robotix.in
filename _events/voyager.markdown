@@ -218,3 +218,13 @@ Deposited Objects: Objects placed at the safe zones.
 ####Formula
 
 25*(puddle covers picked from water)+50*(puddle covers picked from water and placed on the pathway)+25*(puddle covers placed at the correct location)+25*(planks picked from water)+25*(planks picked from water and placed on the pathway)+25*(planks picked up by the pathway robot)+50*(planks placed on the void)-100*(robot falls)-100*(no. of restarts)-50*(no. of timeouts)-25*(dropping of puddle cover by the pathway robot)-25*(puddle covers deposited in incorrect locations)-50*(planks dropped in water by the pathway robot)+t’(time factor)*Time remaining(in seconds)
+
+###Contact
+
+####Shubhangi Bhushan
+**(91) 9933909355**  
+**shubhangi@robotix.in**
+
+####Shweta Gupta
+**(91) 7872814560**  
+**shweta@robotix.in**

@@ -161,3 +161,13 @@ With the help of a tracker the robot has to detect its position throughout its r
 - For traversing the block not according to the equation : -50
 - For not concluding at the end zone : -20
 - Time penalty : -1 x Number of Seconds Taken
+
+###Contact
+
+####Sourish Ghosh
+**(91) 8902234618**  
+**sourish@robotix.in**
+
+####Aditya Sanjay Boob
+**(91) 7709119333**  
+**adityasanjay@robotix.in**
