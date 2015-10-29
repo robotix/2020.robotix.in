@@ -27,7 +27,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 - The bot traversal has to be a manual, gesture controlled (buttonless control), preferably using a Touchpad. The control must be devoid of any buttons, and the robot must move simply according to the gesture 
 - There will be 5 cm blocks, each with a particular RFID tag that has to be read.
-- The blocks are initially arranged either on a two-tiered platform in the centre or on incorrect shelves. The platform consists of three parts. There are two lower platforms which are 1 cm above ground level each and 18 cm X 6 cm in dimension each. The middle raised platform is at a height of 10 cm above ground level and 18 cm X 12 cm as well. The shelves are on the four corners of the arena. They are also two-tiered. The lower shelf is called ‘A’ and it is 1 cm above ground level. The upper shelf is called ‘B’ and it is 10 cm above ground level. Depending on the corner, they are named 1A, 1B, 2A, 2B, 3A, 3B and 4A, 4B. Each shelf is 10 cm X 10 cm.
+- The blocks are initially arranged either on a two-tiered platform in the centre or on incorrect shelves. The platform consists of three parts. There are two lower platforms which are 1 cm above ground level each and 20 cm X 8 cm in dimension each. The middle raised platform is at a height of 10 cm above ground level and 20 cm X 15 cm as well. The shelves are on the four corners of the arena. They are also two-tiered. The lower shelf is called ‘A’ and it is 1 cm above ground level. The upper shelf is called ‘B’ and it is 12 cm above ground level. Depending on the corner, they are named 1A, 1B, 2A, 2B, 3A, 3B and 4A, 4B. Each shelf is 20 cm X 20 cm.
 - The bot must have a gripping mechanism which is capable of accessing both the levels. (Preferably a forklift).
 - The blocks will have two thin wooden strips beneath it on the two opposite sides which will be of 0.5 cm by 1 cm cross-section and the same length as the block. This will create and vacant space of 4 cm by 1 cm beneath the block for the forks of the forklift to enter.
 - The RFID tag on each block will contain information as to which shelf the block belongs to among 1A, 1B, 2A, 2B, 3A, 3B, 4A, 4B.
@@ -38,37 +38,33 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 - The user must use the picking mechanism, to pick up that block and traverse the arena to the corresponding shelf and place the block on that shelf.
 - This continues for all the other blocks.
 - Two of the corners will have shelves with gates.
-- The button must be activated to open the gates of the corresponding shelf.
-- On activating a certain button, the shelf’s gate opens and the user can interact with the shelf and the blocks on it/to be places there.
-- The user must activate the button again to close the gate of the shelf.
+- The gates open when their corresponding Infra-Red button is activated.
+- The button consists of a Infra Red proximity based sensor. It is activated when the bot stops in front of it for 3 seconds. Once activated, the corresponding gates of the both shelves of the corresponding corner are opened for a total of 30 seconds each. The bot must pick/drop the block in that duration and should not touch the gates at any time.
+- The 30 second timer can be reset back to 30 seconds if the bot goes and stops before the button for another 3 seconds within that 30 second countdown. If the timer is not reset then the gates will close after 30 seconds and the bot must move away. The gate can be reopened after it has been closed by activating the button.
 - The event ends when the user has placed all the blocks correctly on their corresponding shelves and leaving those blocks which do not correspond to any shelf on the central platform. All the gates must also be closed.
 
 
 ###Arena
 
-####Front
+####Front View
 
-![]({{ site.baseurl }}/img/event/warehouse/1.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/warehouse/front.jpg){:class="img-responsive"}
 
-####Isometric
+####Isometric View
 
-![]({{ site.baseurl }}/img/event/warehouse/2.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/warehouse/iso.jpg){:class="img-responsive"}
 
-####Side
+####Top View
 
-![]({{ site.baseurl }}/img/event/warehouse/3.jpg){:class="img-responsive"}
-
-####Top
-
-![]({{ site.baseurl }}/img/event/warehouse/4.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/warehouse/top.jpg){:class="img-responsive"}
 
 ###Block
 
-###Isometric
+####Isometric View
 
 ![]({{ site.baseurl }}/img/event/warehouse/5.jpg){:class="img-responsive"}
 
-####Front
+####Front View
 
 ![]({{ site.baseurl }}/img/event/warehouse/6.jpg){:class="img-responsive"}
 
@@ -103,13 +99,14 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 - For incorrect RFID reading and indication: -100 (NS)
 - For placing block on an incorrect platform: -50 (NP)
 - For dropping the block each time: -50 (D)
-- Collision with the walls: -50 (W)
+- Collision with the walls each time: -50 (W)
+- Collision with the gates each time: -50 (G)
 - Negative marks for each timeout: -150 (T)
 - Negative marks for restart: -250 (R)
 
 
 ####Scoring Formula 
-1000 + 100*L + 150*S + 100*P + B - 50*(NP + D + W) - 100*NS - 150*T - 250*R
+1000 + 100*L + 150*S + 100*P + B - 50*(NP + D + W + G) - 100*NS - 150*T - 250*R
 
 ####Round 2
 
@@ -127,9 +124,16 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 - For incorrect RFID reading and indication: -100 (NS)
 - For placing block on an incorrect platform: -50 (NP)
 - For dropping the block each time: -50 (D)
-- Collision with the walls: -50 (W)
+- Collision with the walls each time: -50 (W)
+- Collision with the gates each time: -50 (G)
 - Negative marks for each timeout: -150 (T)
 - Negative marks for restart: -250 (R)
 
 ####Scoring Formula
-1000 + 100*L + 150*(U+S) + 100*P + B - 50*(NP + D + W) - 100*NS - 150*T - 250*R
+1000 + 100*L + 150*(U+S) + 100*P + B - 50*(NP + D + W + G) - 100*NS - 150*T - 250*R
+
+###Contact
+
+####Shashwat Gupta
+**(91) 7278275550**  
+**shashwat@robotix.in**
