@@ -221,10 +221,10 @@ Deposited Objects: Objects placed at the safe zones.
 
 ###Contact
 
-####Shubhangi Bhushan
-**(91) 9933909355**  
-**shubhangi@robotix.in**
+####Rohan Lohia
+**(91) 7872846690**  
+**rohan@robotix.in**
 
-####Rajat Chaurasia
-**(91) 9369781423**  
-**rajatchaurasia2210@gmail.com**
+####Apoorva Sharma
+**(91) 9800105345**  
+**apoorva.sharma@robotix.in**

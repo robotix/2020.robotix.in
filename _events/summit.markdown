@@ -187,10 +187,10 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 ###Contact
 
-####Aayushman Sharma
-**(91) 8768725731**  
-**aayushman@robotix.in**
+####Rohan Lohia
+**(91) 7872846690**  
+**rohan@robotix.in**
 
-####Shweta Gupta
-**(91) 7872814560**  
-**shweta@robotix.in**
+####Apoorva Sharma
+**(91) 9800105345**  
+**apoorva.sharma@robotix.in**
