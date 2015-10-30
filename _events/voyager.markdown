@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 
 ###Introduction
-With terrestrial natural resources depleting by the day, humanity is turning its face towards the much unexplored aquatic realm, with hope of harnessing the huge resource bank in the form of the oceans. That’d require efficient transfer mechanisms between land and sea and heavy duty transmission jobs which would require mechanized skills in the future. So here’s Amphi-Bots, a manual event involving terrestrial and floating robots for Robotix 2016 that asks for great degree of mechanical prowess, efficient mechanisms and hence paving way for more such complex machines for the future.
+With terrestrial natural resources depleting by the day, humanity is turning its face towards the much unexplored aquatic realm, with hope of harnessing the huge resource bank in the form of the oceans. That’d require efficient transfer mechanisms between land and sea and heavy duty transmission jobs which would require mechanized skills in the future. So here’s Voyager, a manual event involving terrestrial and floating robots for Robotix 2016 that asks for great degree of mechanical prowess, efficient mechanisms and hence paving way for more such complex machines for the future.
 
 ###Problem Statement
 
