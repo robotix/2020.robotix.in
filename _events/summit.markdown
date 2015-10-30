@@ -191,6 +191,6 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 **(91) 8768725731**  
 **aayushman@robotix.in**
 
-####Rajat Chaurasia
-**(91) 9369781423**  
-**rajatchaurasia2210@gmail.com**
+####Shweta Gupta
+**(91) 7872814560**  
+**shweta@robotix.in**

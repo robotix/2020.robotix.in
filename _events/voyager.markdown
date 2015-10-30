@@ -225,6 +225,6 @@ Deposited Objects: Objects placed at the safe zones.
 **(91) 9933909355**  
 **shubhangi@robotix.in**
 
-####Shweta Gupta
-**(91) 7872814560**  
-**shweta@robotix.in**
+####Rajat Chaurasia
+**(91) 9369781423**  
+**rajatchaurasia2210@gmail.com**
