@@ -119,6 +119,6 @@ One of the most optimized path (Yellow)
 
 ###Contact
 
-####Manash Pratim Das
-**(91) 9933890509**  
-**manash@robotix.in**
+####Aditya Narayan
+**(91) 8609283200**  
+**aditya.narayan@robotix.in**

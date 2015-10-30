@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flank'Em"
+title: "Matrix"
 subTitle: 'Autonomous Event'
 logo: /img/event/flankem/logo.jpg
 social:
@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 
 ###Introduction
-With emerging trends of swarm robotics surveillance and intelligence and even robotic defense lines, AI is slowly taking over the job of keeping us safe. Robots that intelligently communicate while helping each other in hostile conditions are one step towards this growth, and by small-scaling the exact situation, the event Flank’Em involves two communicating autonomous robots helping each other navigate an unknown area. With algorithmic skills on the test, this event is sure to draw in brainiacs from all across the region.  
+With emerging trends of swarm robotics surveillance and intelligence and even robotic defense lines, AI is slowly taking over the job of keeping us safe. Robots that intelligently communicate while helping each other in hostile conditions are one step towards this growth, and by small-scaling the exact situation, the event Matrix involves two communicating autonomous robots helping each other navigate an unknown area. With algorithmic skills on the test, this event is sure to draw in brainiacs from all across the region.  
 <!--more-->
 
 ###USP
@@ -95,10 +95,6 @@ The graphic assumes 5 Green, 4 Red, 3 Blue and 2 Yellow Doors at the beginning
 
 ###Contact
 
-####Siddharth Jha
-**(91) 9316058276**  
-**siddharth@robotix.in**
-
-####Vraj Parikh
-**(91) 8000981472**  
-**vraj@robotix.in**
+####Nikhil Angad Bakshi
+**(91) 7872834241**  
+**nikhil.angad@robotix.in**

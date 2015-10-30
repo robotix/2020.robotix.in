@@ -164,10 +164,6 @@ With the help of a tracker the robot has to detect its position throughout its r
 
 ###Contact
 
-####Sourish Ghosh
-**(91) 8902234618**  
-**sourish@robotix.in**
-
-####Aditya Sanjay Boob
-**(91) 7709119333**  
-**adityasanjay@robotix.in**
+####Abhinav Jain
+**(91) 7872835053**  
+**abhinav.jain@robotix.in**
