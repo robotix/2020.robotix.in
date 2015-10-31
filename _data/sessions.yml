@@ -132,3 +132,4 @@
   speakers: [2]
   links:
     - { title: "View presentation", src: "https://prezi.com/4ty8g2y4d1gf/timer-and-motor-driver/"}
+  video: "https://123d.circuits.io/circuits/1118027-l293d/embed#breadboard"
