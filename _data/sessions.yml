@@ -133,3 +133,13 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/4ty8g2y4d1gf/timer-and-motor-driver/"}
   video: "https://123d.circuits.io/circuits/1118027-l293d/embed#breadboard"
+-
+  id: 015
+  title: "KRAIG 303"
+  description: "Workshop on autonomous robotics: Line following without using a micro-controller."
+  subtype: presentation
+  language: en
+  complexity: "Intermediate"
+  speakers: [2]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/irbwtabuj2yv/kraig-line-follower-without-microcontroller"}

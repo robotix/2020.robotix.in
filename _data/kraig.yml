@@ -99,3 +99,14 @@ schedule:
         endTime: "20:30",
         sessionIds: [014]
       }
+  -
+    date: "2015-10-31"
+    dateReadable: "October 31"
+    tracks:
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "19:30",
+        endTime: "20:30",
+        sessionIds: [015]
+      }
