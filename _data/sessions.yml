@@ -143,3 +143,14 @@
   speakers: [2]
   links:
     - { title: "View presentation", src: "https://prezi.com/irbwtabuj2yv/kraig-line-follower-without-microcontroller"}
+-
+  id: 016
+  title: "Fresher's Pathfinder Workshop"
+  description: "<b>'Make your bot walk the line'</b><br>With this prelude to the winter workshop,take your first step into the world of autonomous robotics, by learning how to create a robot that can follow a white line on a black surface. Join us as we help you to make your first autonomous robot."
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+  speakers: []
+  banner: "/img/session/016/pathfinder.jpg"
+  links:
+    - { title: "Register your team", src: "https://www.facebook.com/events/793813150729845/"}

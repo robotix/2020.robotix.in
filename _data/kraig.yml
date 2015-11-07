@@ -110,3 +110,14 @@ schedule:
         endTime: "20:30",
         sessionIds: [015]
       }
+  -
+    date: "2015-11-7"
+    dateReadable: "November 7"
+    tracks:
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "15:00",
+        endTime: "",
+        sessionIds: [016]
+      }
