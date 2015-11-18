@@ -17,6 +17,9 @@ description: "Technology Robotix Society"
 baseurl: "https://www.robotix.in"
 permalink: "/blog/:title"
 collections:
+  events:
+    output: true
+    permalink: "/event/:path/"
   tutorials:
     output: true
     permalink: "/tutorial/:path/"
@@ -31,6 +34,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+ - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
  - {permalink: "/team/", text: "Team"}
@@ -44,10 +48,11 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "Time for a change!"
-typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp"'
+eventDate: "21st Jan - 24th Jan, 2016"
+typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
+ - {permalink: "/event", text: "Explore our events"}
  - {permalink: "/#latest-blog", text: "Explore our blog"}
 
 # About Block
@@ -103,7 +108,7 @@ footerBlocks:
   title: "Links"
   links:
    - {link: "https://play.google.com/store/apps/details?id=in.robotix.robotixapp", text: "Robotix App"}
-   - {link: "https://robotix.in/blog/", text: "Blog"}
+   - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
  -
   title: "Contacts"
