@@ -161,15 +161,6 @@
         - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
         - {name: "email", link: "mailto:mratunjay@robotix.in"}
     -
-      id: 21
-      name: "Nikhil Angad"
-      surname: "Bakshi"
-      title: "Head"
-      thumbnailUrl: bakshi.jpg
-      team: true
-      social:
-        - {name: "email", link: "mailto:nikhil.angad@robotix.in"}
-    -
       id: 22
       name: "Riya"
       surname: "Bubna"
@@ -189,16 +180,6 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
         - {name: "email", link: "mailto:rohan@robotix.in"}
-    -
-      id: 24
-      name: "Sakshi"
-      surname: "Agarwal"
-      title: "Head"
-      thumbnailUrl: sakshi.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/sakshi.agarwal.5682944?fref=ts"}
-        - {name: "email", link: "mailto:sakshi.agarwal@robotix.in"}
 - title: "Sub Head"
   team:
     -
