@@ -95,6 +95,6 @@ The graphic assumes 5 Green, 4 Red, 3 Blue and 2 Yellow Doors at the beginning
 
 ###Contact
 
-####Nikhil Angad Bakshi
-**(91) 7872834241**  
-**nikhil.angad@robotix.in**
+####Aditya Narayan
+**(91) 8609283200**  
+**aditya.narayan@robotix.in**
