@@ -21,6 +21,8 @@ In the next program we will discuss a very simple method for detecting one of th
 PROGRAM  
 The function below detects the red-coloured portions of the loaded image and marks those portions white in the resultant image
 
+<script src="https://gist.github.com/anonymous/bf9aa69a3318d0abb958.js"></script>
+
 **UNDERSTANDING THE CODE  
 There are two more parameters to the above function. These are the two thresholds we had discussed before. One is the minimum value which the channel we are interested in, should be greater than, and the other is the maximum value that the other two channels should be less than. ;j++){;i++){****Inside the function, after declaring the variables, we cycle through each image pixel-by-pixel. We then check the value of each channel of the pixel. Since in this case we are looking for the red coloured pixels, we check that the value of the red channel (channel number 2) is more than the minimum threshold (min_thresh), and that the values of the blue and green channels (channels 0 and 1 respectively) are less than the maximum threshold (max_thresh).;j++){;i++){**
 
@@ -37,7 +39,10 @@ What does tolerance mean? Well, if the hue value is say, X, and the tolerance is
 We will allow pixels which have a hue value in a small range around that value. Thus the tolerance for the hue value will be small. The tolerance for saturation is kept a little higher, to allow for different shades of the colour of varying intensity. Finally, to account for varied lighting conditions which affect the brightness of the colour, we keep an even larger tolerance for the value. A decent set of tolerances are 5, 100 and 150 for hue, saturation and value respectively.**
 
 PROGRAM  
-The function below detects colours using the HSV system, assuming a set of HSV values for one such pixel is known  
+The function below detects colours using the HSV system, assuming a set of HSV values for one such pixel is known 
+
+<script src="https://gist.github.com/anonymous/3913832.js"></script>
+
 UNDERSTANDING THE CODE  
 For this particular function, the parameters are the image to be operated on, in RBG format, and the set of HSV values for the type of colour we are looking for. Inside the function, we create the HSV version of the RGB image, using the predefined function cvCvtColor, as we have seen before. The second parameter for this function is the macro CV_BGR2HSV, which directs it to return an HSV image. We then cycle through each pixel of the hsv image, and check to see that the values of its various channels are within the specified ranges. If that is the case, then we demarcate that pixel as white in the resultant image, or else we make it black.  
 N.B – When we show the function in the video tutorial, the HSV values were...........+150))+100)>+5)>;j++){;i++){

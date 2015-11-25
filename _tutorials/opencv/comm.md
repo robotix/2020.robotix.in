@@ -40,6 +40,8 @@ These files are available for download from our website. After being downloaded,
 
 The program below is a standard one which shows how to send characters through the serial communication device, via the code in your Visual Studio project.
 
+<script src="https://gist.github.com/anonymous/3914370.js"></script>
+
 #### Understanding the Code
 
 The initial directives at the top are necessary for properly using the various functions for serial communication. In this program there is no image processing part, but in the final project you use, you will have to include these directives along with the ones you have done for accessing the OpenCV library. The variable comm is an object of the class serial, which is defined in the bot_control.h file. This class has the member functions which we need to access for starting and closing the communication device, among other tasks.
@@ -49,6 +51,8 @@ Inside the main function, the user is first asked for the input – the characte
 This is just a sample program which accepts the input as a character and sends that. In the final image processing program you make, there will be a lot of other functions and code snippets in the program which deal with the image processing and the algorithm of the problem in general. But the essential method for sending data will be the same. In the final program that you write, you will have to include all of these files, declare an object of the class serial and somewhere in your code, specify the initialization of the serial communication device. Thereafter, based on the appropriate situation you will have to send a particular character through the send_data() function. At the end of the program you will have to close the device.
 
 #### Microcontroller Code
+
+<script src="https://gist.github.com/anonymous/b185e0284649f3f03e6b.js"></script>
 
 The microcontroller on the robot receives instructions from the processor in the form of characters, and, based on those instructions, sends signals to the motor drivers which make the motors rotate in a particular manner. For more details on how this is done, do refer to the tutorials on motor drivers and microcontrollers.  
 For the purpose of a demonstration, we will show the sample code for WSAD robot, which basically means a robot that can move forward and back, and turn left and right, when the keys w, s, a and d respectively, are pressed – the basic movements of a differential drive.

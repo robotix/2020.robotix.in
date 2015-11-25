@@ -89,6 +89,8 @@ opencv_legacy246.lib;opencv_ml246.lib;opencv_objdetect246.lib;opencv_ts246.lib;o
 
 10.   Test your OpenCV installation with the following code. Include the given header files for all your OpenCV projects.
 
+<script src="https://gist.github.com/abhinavjain241/87d2a41a4277a098dc9f.js"></script>
+
 [1]: https://lh3.googleusercontent.com/f9V_rmykTCTCF316M2cLggJsh7kNCeKihmNtiuEYr3XZExAa5lXgSZ3LERpbYtDGece9cD6xCLvORFCFWE5jPznWjOZX3AylUgGWQUeobhsRrWw7-pM
 [2]: https://lh5.googleusercontent.com/ffMI5SgBelW40jXR3TJ2kwzvSKDdfuKCDw8kO85pboGEItQQpovkvfMPLkisap9DQwBihfhYhogH97a-9PNV0XyFQK0yLOOmtSJhnJdShKRv3nu5tec
 [3]: https://lh6.googleusercontent.com/ZVkW50MRpd88VAJWM6HHGNwyYW-E1VcSd1AkZ_avSsL_e7kSp--VlJOyk03k1Zxiezldq8QuBmJYog2XigLdhEmGE6a0JW7nbSfJukh9-PJ-jlkNlOQ

@@ -32,6 +32,8 @@ With that, we have made our first proper program using OpenCV!
 
 **The next program we will observe is a slightly more complicated one. It will generate an image where there are 3 bands of blue, green and red from top to bottom, of equal dimensions. The program in and of itself does not have any further use, but through it we will see how to access and manipulate an image, which will be of prime importance in further modules.**
 
+<script src="https://gist.github.com/abhinavjain241/005cedca49b96faa18b3.js"></script>
+
 #### Understanding The Code
 
 **The directives at the top are same as before, as are the declarations of the IplImage pointer variable and the window name. This time, however, the variable img is not used to refer to an image loaded from the computer, but a new one. This is specified using the function cvCreateImage(). The parameter cvSize() is yet another function that is used to specify the dimensions of the image. The function cvSize() takes two values, the first one being the width and the second the height, and returns it in a manner that is required by the cvCreateImage function. The macro IPL_DEPTH_8U is used to refer to the pixel depth in bits. By default we use a depth of 8 bits, and that is specified with this macro. Finally, the last parameter refers to the number of channels the image is supposed to have. Since this is a colour image, we need to specify 3 here. So this statement basically creates a blank image of dimensions [200X300], of depth 8 bits, and 3 channels and refers the pointer img to it.**
