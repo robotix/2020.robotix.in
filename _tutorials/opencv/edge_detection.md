@@ -22,6 +22,8 @@ The figure shown below shows a rather rudimentary example of edge detection:
 
 **PROGRAM  
 Given below is a function which takes as parameters an image and the threshold, and returns the image with only edges, based on the threshold  
+
+<script src="https://gist.github.com/anonymous/42373ad2578b12cd764a.js"></script>
   
 UNDERSTANDING THE CODE  
 The above function is a modular one, for the purpose of edge detection. The image to be worked upon is given as a parameter, as is the threshold which will be used for our algorithm. In the function, we accept these parameters and create the other variables needed for it.  
@@ -37,6 +39,7 @@ Finally, the resultant image is returned to the calling function.);j++){;i++){**
 **PROGRAM  
 The program below utilizes Canny edge detection on the frames of a video**
 
+<script src="https://gist.github.com/anonymous/ba72772f03ca9ec6a919.js"></script>
   
 **![][2]**
 
@@ -51,6 +54,8 @@ The gradients in the direction of each axis are used for determining whether the
 
 PROGRAM  
 The program given below depicts the utilisation of the Sobel Edge detection method
+
+<script src="https://gist.github.com/anonymous/3378878.js"></script>
 
 **![][3]**  
  

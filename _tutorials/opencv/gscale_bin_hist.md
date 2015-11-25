@@ -24,7 +24,9 @@ Grayscale value = 0.33*(Value of blue channel) + 0.56*(Value of green channel) +
 Therefore the program would involve cycling through each pixel of the 3-channel image, computing the grayscale equivalent of the pixel, and assigning it to the single channel of the pixel at the same position in the output image. This will generate the gray-scale equivalent of the image, as we shall observe in the program.
 
 PROGRAM:  
-The function below returns the grayscale equivalent of a BGR image provided to it  
+The function below returns the grayscale equivalent of a BGR image provided to it:
+
+<script src="https://gist.github.com/wowitsmrinal/4246173.js"></script>
   
 ![][1]  
 UNDERSTANDING THE CODE:  
@@ -37,6 +39,9 @@ As was explained previously, a binary image is one where the pixels can only hav
 For conversion to binary, we need to pass through the gray-scale intermediate. Pixels that are of and above a certain brightness level in the gray-scale equivalent will be designated white for the binary image, and the rest will be designated black. Now, what is of prime importance here is the threshold value, which is the value of that particular brightness level. The threshold is usually predefined by the programmer, and the best threshold is determined through trial and error. Of course, there are also developed programs for having dynamic thresholds. This concept of a threshold is very important for other parts of image processing as well.**
 
 PROGRAM:  
+
+<script src="https://gist.github.com/wowitsmrinal/4246207.js"></script>
+
 ![][2]  
 UNDERSTANDING THE CODE  
 This  being another function that returns a single-channel image, the structure is similar to the previous function for gray-scale. Only in this case, the extra parameter is the threshold value whose importance had been discussed prior to this. As explained, we cycle through each pixel [i,j] of the BGR image and get its gray-scale equivalent. If that value is larger than the threshold, we designate the corresponding pixel of the resultant image white, or else we make it black. After doing that, we return the image.  ;j++){;i++){
@@ -50,6 +55,8 @@ Moreover, since even that number might be in the thousands (a 'small' image like
 
 **PROGRAM  
 The function given below returns the histogram for the gray-scale equivalent of an image, depicting the frequencies of the various intensities**  
+
+<script src="https://gist.github.com/anonymous/3378762.js"></script>
 
 **![][3]**
 
@@ -72,7 +79,9 @@ CV_BGR2HSV – For converting BGR images to HSV images
 CV_HSV2BGR – For converting HSV images to BGR images**
 
 PROGRAM  
-The program below shows the usage of the cvCvtColor function  
+The program below shows the usage of the cvCvtColor function:
+
+<script src="https://gist.github.com/anonymous/3378770.js"></script>
 
 **UNDERSTANDING THE CODE  
 Most of the program is as we have seen before. The directives are specified, the variables are initialized and the image file is loaded from the disk. In the cvCvtColor function, the first parameter is the image we wish to convert to gray-scale, the second is the variable that will store the gray-scale image. Finally, we use the macro CV_BGR2HSV, which as we mentioned earlier in the tutorial, directs the function to convert the image from BGR format to the gray-scale equivalent.  

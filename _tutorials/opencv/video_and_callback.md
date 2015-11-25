@@ -20,6 +20,9 @@ Well, a video is after all a collection of a large number of images, shown at su
 
 PROGRAM  
 The following program takes a video file as input, and displays it frame by frame.  
+
+<script src="https://gist.github.com/wowitsmrinal/4246009.js"></script>
+
 UNDERSTANDING THE CODE  
 The variables required are declared and initialized. The concept of looping through each frame of the video is applied via a while loop which runs continuously. One important thing to note is that here, though the video is finite in length, we are using an infinite while loop (the condition of the 'while' is 1, which is always true). This is because an infinite while loop is required while taking feed from a camera during a particular operation. We may not know when to stop the loop, so generally we make it infinite while we place the 'break' command in a particular condition so that the loop terminates when that condition is encountered. This makes our program easier to understand.  
 In each iteration of the loop, the current frame of the video is taken as an image in the variable frame, using the function cvQueryFrame(), whose only parameter is the video stream to capture frames from. Then the image is shown on screen through the window, followed by a time interval which is roughly equal to the actual interval between frames of the video. This is found by dividing 1000 by the FPS of the video and rounding it off. Since the parameter of cvWaitKey() is in milliseconds, if there are f frames per second in the original video, then each frame moves to the next after 1/f seconds or 1000/f milliseconds.  
@@ -34,6 +37,9 @@ There is a particular format and a function that deals with this task, and we wi
 
 PROGRAM  
 The following program displays a video, like the program mentioned above. Only here it prints the co-ordinates of the point which is clicked using the pointer  
+
+<script src="https://gist.github.com/wowitsmrinal/4246070.js"></script>
+
 UNDERSTANDING THE CODE  
 After the initial inclusions, we have the global variables declared for storing the co-ordinates, and a flag to check if the mouse event is called or not. The reason for having these variables as global becomes clear when we observe the next declaration, the function void mouse_callback(). This function will be called every time a mouse event occurs in the specified window. The first parameter of it is the event itself, and each event is an integer which is referenced by a particular macro (in this case the left button click). A list of the valid macros, along with other necessary details of the required function can be found in the section under cvSetMouseCallback in the online OpenCV documentation. The last two parameters are not so important right now.  
 Inside the function, we check if the event returned is indeed the clicking of the left button of the mouse. If that is the case, then the co-ordinates of the event are stored in our global variables and our own flag which checks for the event is set to 1. We will see how this is significant inside the main function.  
@@ -49,6 +55,9 @@ The above function returns a CvCapture* pointer just as the cvCreateFileCapture(
 
 PROGRAM  
 The program below will show how to take input from a camera connected to the computer, and output the video stream  
+
+<script src="https://gist.github.com/wowitsmrinal/4246131.js"></script>
+
 UNDERSTANDING THE CODE  
 The program is very simple. We start by declaring the CvCapture pointer capture and assigning to it the value returned by the function CvCreateCameraCapture() with the parameter -1. In the case shown in the video tutorial, there is only one camera connected, and that will be activated.  
 The rest of the program is exactly the one shown above for an existing video. Each frame is captured, shown on screen, and after a wait time of 33 milliseconds, the next frame is taken.
