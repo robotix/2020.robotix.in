@@ -63,6 +63,6 @@ Thereafter, based on the value of data, a particular output is sent to the PORT 
 [1]: http://robotix.in/tutorials/category/avr/usart
 [2]: https://lh6.googleusercontent.com/75vKpBwr7FrFmQhMVC4irAldmQsF9y_PA3tIAIm94icVoKmut8fb43NgiX5n_sxYPDkLKdOZF9wmqneIEKd2m30o4jPMVKZJfZXECfdqxVMBf2De8MU
 [3]: https://lh5.googleusercontent.com/TlFs3uYIcYzoms784M07ibZmRdd7KUux5PUDCp7bhnV2GaSL4ttzhrqGNtpEL9fLXaSfbsc3HB1VLm3a0awgfT3FXKJf8Xvn1JuotytbZc2sS9Za5qA
-[4]: http://robotix.in/samplecode/tserial.h
-[5]: http://robotix.in/samplecode/tserial.cpp
-[6]: http://robotix.in/samplecode/bot_control.h
+[4]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/tserial.h
+[5]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/tserial.cpp
+[6]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/bot_control.h
