@@ -30,7 +30,60 @@ An RSE works in close contact with some of the best roboticists the country has 
 - Certification from Technology Robotix Society
 - The tag itself, and the reputation that comes with holding such a valued position.
 
-The deadline for the application was **28th September, 23:59 hrs**.
-The list of selected RSEs will be declared shortly.
-Keep watching this space for further notice.
+####List of selected RSEs for Robotix 2016
 
+| Name of Executive       |            Name of College                    |
+|-------------------------|--------------------------------------------------------------|
+| ABHIJIT DAS             | CVRAMAN COLLEGE OF ENGINEERING                                 |
+| akshay kusumkar         | jabalpur engineering college                                 |
+| Ankit Chowdhury         | Heritage Institute Of Technology                             |
+| Ankush Bose             | Narula Institute of Technology                               |
+| Anurag Verma            | Rungta college of engineering and technology, Bhilai         |
+| Arindam Ray             | Institute of Engineering And Management, Kolkata               |
+| Arkadipta Bandyopadhyay | Haldia Institute of Technology, Haldia                       |
+| ARSHAD NAWAZ            | HALDIA INSTITUTE OF TECHNOLOGY                               |
+| Bhagat Shubham          | Centurion University Of Technology And Management, Bhubaneswar |
+| Bidhan Chandra Jena     | Gandhi Institute for Technological Advancement               |
+| chaitanya modi          | JEC                                                          |
+| dibyajyoti hazra        | meghnad saha institute of technology, kolkata                |
+| Geeta Kumari            | Haldia institute of technology                               |
+| Gourab Ghosh            | Neotia Institute of Technology Management And Science        |
+| k sudheer reddy         | Siddhartha institute of science and technology               |
+| Kaushalkhetan           | LNMIIT JAIPUR                                                |
+| kulakarni prathamesh    | Mahatma Gandhi Institute of Technology                       |
+| N LALITH KUMAR          | LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING                  |
+| nagendra gupta          | vasavi college of engineering                                |
+| PARUL PRINCE            | BENGAL COLLEGE OF ENGINEERING AND TECHNOLOGY                 |
+| Parvej Ali Mondal       | Future Institute of Engineering And Management                 |
+| Pratyay Roy             | Neotia Institute of Technology, Management and Science       |
+| Pratyya Basu            | Academy Of Technology                                        |
+| R.Akanksha Reddy        | NIT Warangal                                                 |
+| Rahul Singh             | Seacom engineering college                                   |
+| RANAJAY ROY             | JIS COLLEGE OF ENGINEERING                                   |
+| Rishi Ranjan Dash       | Indira Gandhi Institute of Technology,Sarang                 |
+| Rohan Kumar Sethy       | PARALA MAHARAJA ENGG.COLLEGE                                 |
+| Rohit Suri              | National Institute of Technology, Rourkela                   |
+| SACHIN MOHEY            | IDEAL INSTITUTE OF TECHNOLGY                                 |
+| SAGAR BHARDWAJ          | D.A.V UNIVERSITY                                             |
+| Sagnik Basu             | N.I.T. Rourkela                                              |
+| Sanat talwar            | BIT MESRA                                                    |
+| Sasank Sekhar Panda     | National Institute of Technology Rourkela                    |
+| Shantanu Gupta          | SRMCEM                                                       |
+| SHIVAM SINGH            | NETAJI SUBHASH ENGINEERING COLLEGE                           |
+| Shouvik Das             | Academy of Technology                                        |
+| shubham kr shukla       | shree ram institute of science and technology                  |
+| SHUBHAM KUMAR           | GULZAR GROUP OF INSTITUTES                                   |
+| siddhartha paul         | academy of technology                                        |
+| Subhasis Mukhopadhyay   | Seacom Engineering College,Sankrail                          |
+| Subhasis Mukhopadhyay   | Seacom Engineering College,Sankrail                          |
+| SUDIP HALDER            | ACADEMY OF TECHNOLOGY                                        |
+| Suprakash Mukherjee     | Heritage Institute of Technology,Kolkata.                    |
+| Suraj Bathina           | GITAM University                                             |
+| sushant kumar           | BENGAL COLLEGE OF ENGINEERING AND TECHNOLOGY                 |
+| TANMAY BISWAS           | Heritage Institute of technology, kolkata                    |
+| TAUSEEF RASUL           | IIEST , SHIBPUR                                              |
+| Uday Ramchandra Patil   | Sandip Institute Of Technology and Research Center, Nashik     |
+| Vignesh prabhu          | Gujarat technical university                                 |
+| Vipin dwivedi           | uit rgpv                                                     |
+| vishwadeep paul         | Chhatrapati Shivaji Institute of Technology                  |
+| Vivek kumar             | HALDIA INSTITUTE OF TECHNOLOGY                               |
