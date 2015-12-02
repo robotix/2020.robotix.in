@@ -132,6 +132,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 ####Scoring Formula
 1000 + 100*L + 150*(U+S) + 100*P + B - 50*(NP + D + W + G) - 100*NS - 150*T - 250*R
 
+####Tutorial
+Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/warehouse).
+
 ###Contact
 
 ####Mratunjay Gupta

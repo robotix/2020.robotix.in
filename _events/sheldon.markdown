@@ -162,6 +162,10 @@ With the help of a tracker the robot has to detect its position throughout its r
 - For not concluding at the end zone : -20
 - Time penalty : -1 x Number of Seconds Taken
 
+####Tutorial
+
+Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/sheldon).
+
 ###Contact
 
 ####Abhinav Jain

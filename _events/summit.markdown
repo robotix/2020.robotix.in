@@ -185,6 +185,9 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 - This will be a One-vs-One tournament-styled event
 - No extra mechanical changes will be required for the bot.
 
+####Tutorial
+Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/summit).
+
 ###Contact
 
 ####Rohan Lohia
