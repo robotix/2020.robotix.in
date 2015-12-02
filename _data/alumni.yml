@@ -389,6 +389,8 @@
       surname: "Roy"
       thumbnailUrl: sneha_roy.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/sneha-roy-28a83043"}
 - title: "2009"
   team:
     -
@@ -405,36 +407,48 @@
       surname: "Sasmal"
       thumbnailUrl: abhishek_s.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/abhishek-sasmal-5b25208b"}
     -
       id: 40
       name: "Aamir"
       surname: "Ahmed"
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: Amir.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/ahmadaamir"}
     -
       id: 41
       name: "Prithviraj"
       surname: "Banerjee"
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: pritviraj_b.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/prithvirajb"}
     -
       id: 42
       name: "Hema"
       surname: "Shweta"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: hema.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/hemakoppula"}
     -
       id: 43
       name: "Tathagata"
       surname: "Das"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: tathagata_das.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/tathadas"}
     -
       id: 44
       name: "Tanmoy"
       surname: "Banerjee"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: tanmoy_b.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/banerjeetanmoy"}
 - title: "2007"
   team:
     -
@@ -443,24 +457,32 @@
       surname: "Banerjee"
       thumbnailUrl: sumandeep_b.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/sumandeep-banerjee-1436a17"}
     -
       id: 46
       name: "Chintan"
       surname: "Thakkar"
       thumbnailUrl: chintan_t.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/chintan-thakkar-021947a"}
     -
       id: 47
       name: "Anant"
       surname: "Choubey"
       thumbnailUrl: anant_c.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/anant-choubey-ab18091"}
     -
       id: 48
       name: "Sabyasachi"
       surname: "Das"
       thumbnailUrl: sabyasachi_d.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/sabyasachidas15"}
     -
       id: 49
       name: "Vaibhav"
@@ -475,12 +497,16 @@
       surname: "Kala"
       thumbnailUrl: puneet_k.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/puneet-kala-bba8607"}
     -
       id: 51
       name: "Aneesh"
       surname: "Reddy"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: aneesh.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/aneesh-reddy-38b176b"}
     -
       id: 52
       name: "Subhroz"
@@ -492,7 +518,9 @@
       name: "Nitin"
       surname: "Mohta"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: nithin_m.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/nitinmohta"}
     -
       id: 54
       name: "Rahul"
@@ -518,13 +546,17 @@
       name: "Abhimanyu"
       surname: "Raibhadur"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: abhimanyu-raib.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/abhimanyuraibahadur"}
     -
       id: 58
       name: "Sophia"
       surname: "Randhawa"
       team: true
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: sophia-r.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/sophiarandhawa"}
 - title: "2004"
   team:
     -
@@ -533,18 +565,24 @@
       surname: "Mishra"
       thumbnailUrl: vivek_m.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/misravivek"}
     -
       id: 60
       name: "Sandeep"
       surname: "Prabhakara"
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: sandeep-prabhakara.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/sandeep-prabhakara-8640337"}
     -
       id: 61
       name: "Dushyant"
       surname: "Giri"
-      thumbnailUrl: generic-profile.jpg
+      thumbnailUrl: dushyant.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/dushyantgiri"}
     -
       id: 62
       name: "Alex"
@@ -559,6 +597,8 @@
       surname: "Dutta"
       team: true
       thumbnailUrl: generic-profile.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/bdonline"}
     -
       id: 64
       name: "Aruleshan"
@@ -573,15 +613,21 @@
       surname: "Sinha"
       thumbnailUrl: kunal_s.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/ksinha"}
     -
       id: 66
       name: "Pallavi"
       surname: "Payal"
       thumbnailUrl: payal_p.jpg
       team: true
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/payal-pallavi-b76a8426"}
     -
       id: 67
       name: "Saurabh"
       surname: "Prasad"
       team: true
       thumbnailUrl: generic-profile.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/saurabhprasad81"}
