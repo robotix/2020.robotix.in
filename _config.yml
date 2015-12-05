@@ -41,9 +41,9 @@ navigationLinks:
  - {permalink: "/about-us/", text: "About Us"}
  - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
- - {link: "https://docs.google.com/spreadsheet/viewform?formkey=dHRMTVBfemdCaUZyX24zN3dkUkJwZGc6MQ#gid=0", text: "Contact Us"}
+ - {link: "https://robotix.typeform.com/to/JJwogm", text: "Contact Us"}
 rightNavigationButtons:
- - {link: "https://docs.google.com/spreadsheet/viewform?formkey=dHRMTVBfemdCaUZyX24zN3dkUkJwZGc6MQ#gid=0", text: "Contact Us"}
+ - {link: "https://robotix.typeform.com/to/JJwogm", text: "Contact Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
