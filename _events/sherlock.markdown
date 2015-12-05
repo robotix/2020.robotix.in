@@ -58,21 +58,21 @@ Blue POI: Waypoints
 Green POI: Finish point
 Green Lines: Valid paths
 
-![]({{ site.baseurl }}/img/event/sherlock/image00.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/sherlock/image00.png){:class="img-responsive"}
 
 ####Sample Arena
 
 #####Round 1
 
-![]({{ site.baseurl }}/img/event/sherlock/image01.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/sherlock/image01.png){:class="img-responsive"}
 
 #####Round 2
 
-![]({{ site.baseurl }}/img/event/sherlock/image02.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/sherlock/image02.png){:class="img-responsive"}
 
 #####Actual Arena
 
-![]({{ site.baseurl }}/img/event/sherlock/image03.jpg){:class="img-responsive"}
+![]({{ site.baseurl }}/img/event/sherlock/image03.png){:class="img-responsive"}
 
 
 ###Rounds
