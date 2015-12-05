@@ -105,10 +105,10 @@ Green Lines: Valid paths
 - Restart: -250 (R)
 
 ####Scoring Formula:
--Score = S-A*(no of nodes traversed)-B*(TC)-Penalties (X,T,R)
-  -So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
-  -Score = S-9A-250B-2*100-1*150-1*250
--Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
+- Score = S-A*(no of nodes traversed)-B*(TC)-Penalties (X,T,R)
+  - So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
+  - Score = S-9A-250B-2*100-1*150-1*250
+- Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
 
 
 ####Tutorial
