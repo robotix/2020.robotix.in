@@ -9,13 +9,13 @@
             {% for tutorial in site.tutorials %}
             {% if tutorial.categories contains category %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                <div class="zoe-effect ribbon-activator">
-                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl }}/img/tutorial/common/tut-logo.jpg)">
+                <div class="zoe-effect ribbon-activator" style="height: 90px;">
+                    <figure class="waves-effect waves-block waves-light">
                         <a class="overlay solid-overlay" href="{{ site.baseurl }}{{ tutorial.url }}"></a>
                         <ul class="ribbon-wrapper">
                             {% for category in tutorial.categories %}
                             <li class="{{ ribbon["abbr"] | downcase }}">
-                                <p class="ribbon abbr"></p>
+                                <p class="ribbon abbr">{{ category }}</p>
                                 <p class="ribbon full-title">{{ category }}</p>
                             </li>
                             {% endfor %}
