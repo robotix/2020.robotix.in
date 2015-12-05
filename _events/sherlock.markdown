@@ -10,13 +10,14 @@ excerpt_separator: <!--more-->
 
 ###Introduction
 
-A test of wits between nemeses is an age-old story, and as the story goes the two rivals never actually defeat one another, they just make it harder and harder for the other one to survive. In one such turn of events, Moriarty has captured Sherlock and left him stranded in a desert wasteland with nothing but a compass in his pocket. Sherlock has to make his way out of the desert in the shortest path given that he has no supplies at hand. The problem is simple, but the solution is complex, those who like a good challenge have a chance to prove their mettle.
+Sherlock is stuck in a featureless desert wasteland with nothing but a compass in his pocket. He must find his way out using the clues scattered in the desert.
 
 ###USP
 
-- IR signal receive and decode
-- Path planning
+- IR signal reception and decoding 
+- Path optimisation
 - Magnetic heading following
+
 
 ###Problem Statement
 
@@ -24,11 +25,6 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
 <!--more-->
 
-###USP
-
-- HEX decoding
-- Unlocalizable Environment
-- Path optimization
 
 ###Description
 - The arena consists of multiple start and finish points. Other points are termed as waypoints. Start, finish and waypoints are collectively referred here as (points of interest: POI).
@@ -36,31 +32,31 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - The information is transmitted through messages using NEC IR protocol. 
 - A message starts with “400” as start code ends with “500” as end code. “450” is the code used as separator in between the messages.
 - A POI may transmit multiple such messages (max 9). Then each message will be tagged with a two digit “message_tag”. 1st digit = present message id. 2nd digit = total messages to be transmitted from that POI.
-- The POIs will have ids. Each POI will provide heading to single or multiple different other POIs, for eg. waypoint 1 transmits the info for waypoint 2,6,5 in                                         (start message_tag own_id [id heading]s stop) format as follows. 400 11 1 2 260 6 180 5 300 500
+- The POIs will have ids. Each POI will provide heading to single or multiple different other POIs. Waypoint 3 transmits the info for waypoint 2,6,5 in  format as follows:
+(start message_tag own_id [id heading costs] stop) (400 11 3 2 260 10 6 180 90 5 300 40 500)
 - When the participant’s run starts, the bot is placed on start point. The start point will provide the following information:
   - A1:                                                                            
-POIs each waypoint directs to. Eg                                                                                     (start msg_tag own_id [waypoint [waypoint_it_directs to]s separator]s stop)  (400 13 51 1 2 6 5 450 2 5 3 7 450 500)
+POIs each waypoint directs to. Eg (start msg_tag own_id [waypoint [waypoint_it_directs to]s separator]s stop) (400 13 51 2 3 6 5 450 3 5 2 7 450 500)
   - A2: 
-Finish point for that particular run. Eg. 
-(start msg_tag own_id finish_id stop)     
-(400 23 51 72 500)
+Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 23 51 72 500) where 51 is start ID and 72 is finish ID.
   - A3:
-Heading for only the first possible waypoints after itself. Eg.                                  (start msg_tag own_id [id heading]s stop)                                                                      (400 33 51 2 260 6 180 5 300 500)
-- The bot has to plan its route passing through the minimum number of POIs from its start to a predefined finish point traversing through only the allowed paths. Consider the above eg. data: the bot can only go to 2,6,5 from 1 and to only 5,3,7 from 2. If it violates this then there will be negative scoring.
-- As organisers we will have the allowed paths printed on a sheet and will show it to the participants, if they want, after their run. There will be no explicit markings on the arena to indicate allowed paths.
-- Once the bot plans the route (52,2,5,10,15,18,20,21,19,22,73) it then takes the heading of 2 from the start point(52) and goes there. It will get heading info for other waypoints only from previous waypoints on the path. So when it has to go to 20 from 18, it will know the heading of 20 from 18 only when it is on 18.
-- In case the bot goes on wrong path then there will be fail safe black lines to guide it to nearest waypoint so that it can plan its path from that waypoint and travel forward again.
+Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 33 51 2 260 24 500)
+- So the bot gets to know the entire connected graph on the start POI.
+- The bot has to plan its route passing through the minimum number of POIs from its start and minimising the cost of travel along its way to reach a predefined finish point while, traversing through only the valid paths. Valid path means, if POI 1, publishes heading for 2, 3, 6. Then it should go to any of the three only, otherwise there will be a penalty.
+- The bot has to minimize the score given by A*(number of POIs traversed) + B*cost. Where A and B will be given during the run.
+- There will be no explicit markings on the arena to indicate valid paths.
+- If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid paths. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
+
 
 ###Arena
 
 ####Depictive Arena
 
 Legend:
-Red POI: Start points
-Blue POI: waypoints
-Green POI: Finish points
-Black Lines: Fail safe lines
-Green Lines: Allowed paths
+Red POI: Start point
+Blue POI: Waypoints
+Green POI: Finish point
+Green Lines: Valid paths
 
 ![]({{ site.baseurl }}/img/event/sherlock/image00.jpg){:class="img-responsive"}
 
@@ -74,7 +70,7 @@ Green Lines: Allowed paths
 
 ![]({{ site.baseurl }}/img/event/sherlock/image02.jpg){:class="img-responsive"}
 
-One of the most optimized path (Yellow)
+#####Actual Arena
 
 ![]({{ site.baseurl }}/img/event/sherlock/image03.jpg){:class="img-responsive"}
 
@@ -85,37 +81,37 @@ One of the most optimized path (Yellow)
 
 - Each waypoint will send the bot to only one other waypoint
 - The bot must simply follow the directions to the end point
-- Round will be 3 minutes.
-- If finish point is reached then flash an LED
+- The round will be of 3 minutes duration.
+- If finish point is reached then the bot has to flash a LED
 - There is 1 timeout and 1 restart allowed.
 
 ####Round 2
 
 - Waypoints will be transmitting heading information for single or multiple other waypoints.
-- Start points will transmit the bearing for ‘A1’ , ‘A2’ and ‘A3’ and providing referencing information for the entire arena, i.e. which waypoints each waypoint on the arena provides the bearings for.
+- Start points will transmit the bearing for its immediate neighbour POIs  and providing referencing information for the entire arena, i.e. which waypoints each waypoint on the arena provides the bearings for.
 - Robot has to plan its best optimized path with the information being given from the start point as mentioned above.
-- Once the bot reaches the finish point it must flash an LED.
-- Round will be 5 minutes.
+- Once the bot reaches the finish point it must flash a LED.
+- The round will be of 5 minutes duration.
 - There are 2 timeouts and 1 restart allowed.
+
 
 ###Scoring
 
-####Positives
-- Base score: 1000
-- Reach correct Finish Point: 100 (F)
-- Time bonus: time left in seconds (S)
-
-####Negatives
-- For each legal traversal between POIs: -5 (LT)
-- For each illegal traversal between POIs: -30 (IT)
-- Each time the bot misses and encounter a black line: -10 (L)
-- Reach incorrect Finish Point: -50 (NF)
-- Extra time taken in seconds (NS)
-- Negative marks for each timeout: -150 (T)
-- Negative marks for restart: -250 (R)
+Base Score: S
+Reach each POI: -A (as mentioned description)
+Traversing an invalid path each time: -100 (X)
+Total Cost incurred in reaching the end point: TC
+For each timeout: -150 (T)
+Restart: -250 (R)
 
 ####Scoring Formula:
-1000 + 100*F + S - 5*LT - 30*IT - 10*L - 50*NF - NS - 150*T - 250*R
+Score = S-A*(no of nodes traversed)-B*(TC)-Penalties (X,T,R)
+
+So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
+Score = S-9A-250B-2*100-1*150-1*250
+Target is to maximize the score.
+If two participants manage to get the same score, then the participant with lowest time is declared the winner.
+
 
 ####Tutorial
 Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/sherlock).
