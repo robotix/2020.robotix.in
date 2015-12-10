@@ -17,6 +17,7 @@
             {% assign check = forloop.index | modulo:2 %}
             {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
             {% endfor %}
+            <div class="stat-info">{{ site.statisticQuirk }}</div>
 		</div>
 	</div>
 </section>

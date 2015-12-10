@@ -81,6 +81,7 @@ statisticBlock:
  - {count: "500", specialCharacter: "+", info: "teams"}
  - {count: "6", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
+statisticQuirk: "Robotix 2015 in numbers"
 
 # Latest News Block
 latestNewsTitle: "Latest blog articles"
