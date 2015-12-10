@@ -41,9 +41,9 @@ navigationLinks:
  - {permalink: "/about-us/", text: "About Us"}
  - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
- - {link: "https://robotix.typeform.com/to/JJwogm", text: "Contact Us"}
+ - {link: "/form/", text: "Contact Us"}
 rightNavigationButtons:
- - {link: "https://robotix.typeform.com/to/JJwogm", text: "Contact Us"}
+ - {link: "/form/", text: "Contact Us"}
 
 # Hero Block
 heroImage: "hero.jpg"
