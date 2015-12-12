@@ -75,21 +75,21 @@ The code to be burnt on Arduino is as follows :
 
 **PART 2 – COMPUTER VISION**
 
-Before proceeding with this module, we would request you to go through the set of general[ tutorials](http://www.robotix.in/tutorials) for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
+Before proceeding with this module, we would request you to go through the set of general [tutorials](http://www.robotix.in/tutorials) for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
 
 **Detecting Contours**
 
-We need to first scan the characters present in the arena using an overhead camera.For that we would need to distinguish them separately as images containing only each one of them as single characters.We will be using [contours](http://docs.opencv.org/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.html) for the same.Contours are basically an outline representing or bounding the shape or form of something.You can learn about how to find contours and draw contours over [here](http://docs.opencv.org/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html) .
+We need to first scan the characters present in the arena using an overhead camera. A good approach to solve this problem would be to segment out the characters from the image that is taken by the camera. Use bounding rectangles to take out the portion of the image containing the character. A method called contour detection can be used to figure out the bounding rectangle.
 
 ![]({{ site.baseurl }}/img/tutorial/event/sheldon/image_3.png){:class="img-responsive"}
 
-Note that during the run your image would also contain the robot and marker , start and end zones and noise.Hence you cannot directly feed this image for finding contours.You will need to remove noise by [thresholding](http://docs.opencv.org/2.4.10/doc/tutorials/imgproc/threshold/threshold.html).
+Note that the video feed will contain some noise. Therefore you will not have a perfect image, and hence character detection may become really difficult or you might get wrong predictions. Therefore it is advised to use filters to smoothen your image.
 
-Also note that the contours might not be perfect rectangles.Use [ApproxPloyDp](http://docs.opencv.org/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html) for the same.
+Also note that the contours might not be straight rectangles as viewed by the camera. You should take into account skewed rectangles too.
 
 **Predicting Characters Using OCR**
 
-Now given that you have n contours where n are the number of characters you will have to process them so that they return these characters as strings and their positions.A standard way to do it is using [Tesseract - OCR](http://opencv-code.com/tutorials/how-to-integrate-tesseract-ocr-and-opencv/) .It will return you a string for every character recognition.Also positions of the contours can fairly estimated by finding the midpoint of the largest rectangle encompassing the contour.
+Now given that you have `n` contours where `n` is the number of characters, you will have to process them so that they return these characters as strings and their positions in the arena. Optical Character Recognition (OCR) is a machine learning problem, which can be solved using a Naive Bayes Classifier. Read more about OCR using OpenCV (an image processing library) in this [tutorial](http://www.robotix.in/tutorial/other/bayes_ocr). You're free to train your own classifier to solve the prediction problem. Also usage of OCR libraries is allowed.
 
 **Finding a valid expression**
 

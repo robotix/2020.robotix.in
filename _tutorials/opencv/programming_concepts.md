@@ -3,7 +3,7 @@ layout: post
 title: "Basic Programming Concepts"
 categories:
   - opencv
-redirect_from: "/tutorials/category/opencv/programming_concepts/"
+redirect_from: "/tutorials/category/opencv/PROGRAMMING_CONCEPTS/"
 ---
 
 #### Introduction
@@ -172,3 +172,5 @@ The syntax for these classes is simple. First, you put the keyword '**class**' t
 protected restriction prevents functions outside the class to access the variable. The private restriction is similar to protected (we'll see the difference later when we look at inheritance. The syntax for declaring these access restrictions is merely the restriction keyword (public, private, protected) and then a colon. Finally, you put the different variables and functions (You usually will only put the function prototype[s]) you want to be part of the class. Then you put a closing bracket and semicolon. Keep in mind that you still must end the function prototype(s) with a semi-colon.
 
 The code for a C++ program involving class is given here:
+
+<script src="https://gist.github.com/abhinavjain241/0144c9161a0996ba7afb.js"></script>
