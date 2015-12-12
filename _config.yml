@@ -42,8 +42,7 @@ navigationLinks:
  - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
  - {link: "/form/", text: "Contact Us"}
-rightNavigationButtons:
- - {link: "/form/", text: "Contact Us"}
+
 
 # Hero Block
 heroImage: "hero.jpg"

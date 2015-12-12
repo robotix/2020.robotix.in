@@ -13,25 +13,23 @@
         }
         if ($(window).scrollTop() >= 100) {
             $('#top-header').addClass('after-scroll');
+            $('.btn-fab').removeClass('btn-fab-hidden');
         }
 
         $(window).scroll(function() {
             var scroll = $(this).scrollTop();
             var header = $('#top-header');
             var logo = $('#logo-header .logo');
-            var buyButton = $('.right-nav-button');
             var topOffset = header.height() + $('.track-header').height();
+            var fabButton = $('.btn-fab');
 
             if (scroll >= 100) {
                 header.addClass('after-scroll');
+                fabButton.removeClass('btn-fab-hidden');
+
             } else {
                 header.removeClass('after-scroll');
-            }
-
-            if (scroll >= $('.top-section').height() && $(window).width() > 767) {
-                buyButton.removeClass('right-nav-button-hidden');
-            } else if (scroll < $('.top-section').height() && $(window).width() > 767){
-                buyButton.addClass('right-nav-button-hidden');
+                fabButton.addClass('btn-fab-hidden');
             }
 
             $('.slot').each(function() {
@@ -58,7 +56,6 @@
                     container.removeClass('st-menu-open');
                     $('body').css('overflow', 'auto');
                 }
-                equalheight('.same-height');
             }
             if ($(window).height() < 512) {
                 $('.st-menu').addClass('scrollable');
@@ -134,35 +131,6 @@
         }, {
             accY: -150
         });
-
-        equalheight = function(container) {
-            var currentTallest = 0,
-                currentRowStart = 0,
-                rowDivs = new Array(),
-                $el,
-                topPosition = 0;
-            $(container).each(function() {
-                $el = $(this);
-                $($el).height('auto')
-                topPostion = $el.position().top;
-                if (currentRowStart != topPostion) {
-                    for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
-                        rowDivs[currentDiv].height(currentTallest);
-                    }
-                    rowDivs.length = 0; // empty the array
-                    currentRowStart = topPostion;
-                    currentTallest = $el.height();
-                    rowDivs.push($el);
-                } else {
-                    rowDivs.push($el);
-                    currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
-                }
-                for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
-                    rowDivs[currentDiv].height(currentTallest);
-                }
-            });
-        }
-
 
         //Side menu
         var container = $('.st-container');
