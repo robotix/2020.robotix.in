@@ -23,4 +23,9 @@
     border-radius: 50%;
     background: #4285F4 none repeat scroll 0% 0% !important;
     z-index: 9999;
+    transition: $long-transition;
+    &.btn-fab-hidden {
+        opacity: 0;
+        transform: translateY(75px);
+    }
 }

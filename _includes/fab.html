@@ -1,0 +1,10 @@
+<!-- Begin Floating Action button-->
+<a class="btn-fab btn-fab-hidden btn waves-effect waves-light waves-float" style="color: {{ page.action.color }}; background: {{ page.action.bgcolor }};" href="{{ page.action.url }}" target="{{ page.action.target }}" title="{{ page.action.caption }}">
+{% if page.action.icon %}
+    <svg class="icon icon-fab icon-{{ page.action.icon }}" style="fill: {{ page.action.color }};" viewBox="0 0 32 32">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ page.action.icon }}"></use>
+    </svg>
+{% else %}
+    {{ page.action.text }}
+{% endif %}
+</a>

@@ -73,7 +73,7 @@ nav {
         transform: translate(0);
     }
     ul {
-        float: left;
+        float: right;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -135,22 +135,6 @@ nav {
                 }
             }
         }
-    }
-}
-.right-nav-button {
-    margin: 11px 11px 0 0;
-    transition: $base-transition;
-    opacity: 1;
-    display: block;
-    &:nth-of-type(1) {
-        margin-right: 65px;
-    }
-    a {
-        font-size: $base-font-size * 90 / 100;
-    }
-    &.right-nav-button-hidden {
-        opacity: 0;
-        transform: translateY(-50px);
     }
 }
 .icon-menu {
