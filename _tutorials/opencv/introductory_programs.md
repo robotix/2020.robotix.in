@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introductory Programs using OpenCV"
+title: "Introductory Programs"
 categories:
   - opencv
 redirect_from: "/tutorials/category/opencv/introductory_programs/"
