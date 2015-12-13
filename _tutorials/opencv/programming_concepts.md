@@ -3,7 +3,7 @@ layout: post
 title: "Basic Programming Concepts"
 categories:
   - opencv
-redirect_from: "/tutorials/category/opencv/PROGRAMMING_CONCEPTS/"
+redirect_from: "/tutorials/category/opencv/programming_concepts/"
 ---
 
 #### Introduction
