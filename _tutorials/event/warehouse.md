@@ -61,7 +61,37 @@ WORM tags can have additional data (like another serial number) added once, but 
 
 **Sample code for RFID detection**
 
-<script src="https://gist.github.com/sourishg/a98e3ff37cf5fe483f11.js"></script>
+{% highlight cpp %}
+/*the following code is to print the RFID value of the card.
+we have used the Arduino Mega and put the RFID reader Tx pin in Rx1 */
+#include <SoftwareSerial.h>
+
+// The following is the card no. for 3 cards. You will be provided these numbers.
+String c1="29003359BBF8";
+String c2="29003358A0E2";
+String c3="2900336893E1";
+
+String a="";
+String s="";
+void setup()
+{
+   Serial.begin(9600);
+   Serial1.begin(9600);
+}
+void loop()
+{
+  if(Serial1.available())
+  a=a+(char)Serial1.read();
+  s=a;
+
+  if(s.equalsIgnoreCase(c1))
+    Serial.println(s+" p1");
+  else if(s.equalsIgnoreCase(c2))
+    Serial.println(s+" p2");
+  else if(s.equalsIgnoreCase(c3))
+    Serial.println(s+" p3");
+}
+{% endhighlight %}
 
 ###Forklift Mechanism
 
@@ -143,19 +173,21 @@ The laws of motion tell us that your body tries to keep going at a steady speed,
 
 **Sample Code for RFID detection**
 
-	/*the following code is to print the RFID value of the card.
-	we have used the Arduino Mega and put the RFID reader Tx pin in Rx1 */
+{% highlight cpp %}
+/*the following code is to print the RFID value of the card.
+we have used the Arduino Mega and put the RFID reader Tx pin in Rx1 */
 
-	//we connect the Accelerometer pin x to A2 and y to A3   
-	  
-	void setup()
-	{
-	  Serial.begin(9600);
-	}
-	void loop()
-	{
-	  awx = analogRead(A2);
-	  awy = analogRead(A3);
-	}
+//we connect the Accelerometer pin x to A2 and y to A3   
+  
+void setup()
+{
+  Serial.begin(9600);
+}
+void loop()
+{
+  awx = analogRead(A2);
+  awy = analogRead(A3);
+}
 
-	//Now awx and awy have the analog value corresponding to the orientation of the accelerometer.
+//Now awx and awy have the analog value corresponding to the orientation of the accelerometer.
+{% endhighlight %}
