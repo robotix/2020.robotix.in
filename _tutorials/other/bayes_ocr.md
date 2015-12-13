@@ -29,22 +29,115 @@ Now that we have a fairly good idea about Normal Bayes Classifier, we will imple
 
 First we inlcude all the necessary header files and set some constants. Our dataset contains 3823 training examples and 1797 test examples.
 
-	#include <iostream>
-	#include <stdio.h>
-	#include <opencv2/highgui/highgui.hpp>
-	#include <opencv2/core/core.hpp>
-	#include <opencv2/imgproc/imgproc.hpp>
-	#include <opencv2/ml/ml.hpp>
+{% highlight cpp %}
+#include <iostream>
+#include <stdio.h>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/ml/ml.hpp>
 
-	using namespace std;
-	using namespace cv;
+using namespace std;
+using namespace cv;
 
-	const int TRAINING_EXAMPLES = 3823;
-	const int TEST_EXAMPLES = 1797;
-	const int NUM_FEATURES = 64;
+const int TRAINING_EXAMPLES = 3823;
+const int TEST_EXAMPLES = 1797;
+const int NUM_FEATURES = 64;
+{% endhighlight %}
 
 Now we need to load the data to our program. The training data is stored in a file called `optdigits.tra` and the test data is store in `optdigits.tes`. We will not use file IO in this example but instead we will pipe the input files while calling the executable. So here is the code for reading the datasets. We will create the four necessary `Mat` variables; `trainingData`, `trainingClasses`, `testData`, `testClasses` and load all the data into these variables.
 
+{% highlight cpp %}
+float feature, cls;
+Mat trainingData(TRAINING_EXAMPLES, NUM_FEATURES, DataType<float>::type);
+Mat trainingClasses(TRAINING_EXAMPLES, 1, DataType<float>::type);
+Mat testData(TEST_EXAMPLES, NUM_FEATURES, DataType<float>::type);
+Mat testClasses(TEST_EXAMPLES, 1, DataType<float>::type);
+
+for (int i = 0; i < TRAINING_EXAMPLES; i++) {
+	for (int j = 0; j < NUM_FEATURES; j++) {
+		scanf("%f,", &feature);
+		trainingData.at<float>(i, j) = feature;
+	}
+	cin >> cls;
+	trainingClasses.at<float>(i, 0) = cls;
+}
+for (int i = 0; i < TEST_EXAMPLES; i++) {
+	for (int j = 0; j < NUM_FEATURES; j++) {
+		scanf("%f,", &feature);
+		testData.at<float>(i, j) = feature;
+	}
+	cin >> cls;
+	testClasses.at<float>(i, 0) = cls;
+}
+{% endhighlight %}
+
+Now that our data is loaded we will train the classifier. We will create a separate function for this and call it `bayes` and make use of the class `CvNormalBayesClassifier` and its `train` method. This function will create a new `Mat` variable called `predicted` and in it store the predicted labels of the test dataset. Here is the function.
+
+{% highlight cpp %}
+void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClasses) {
+    CvNormalBayesClassifier bayes(trainingData, trainingClasses);
+    Mat predicted(testClasses.rows, 1, DataType<float>::type);
+    for (int i = 0; i < testData.rows; i++) {
+        const Mat sample = testData.row(i);
+        predicted.at<float>(i, 0) = bayes.predict(sample);
+    }
+}
+{% endhighlight %}
+
+Now that we have trained and predicted from the respective datasets, we need an evaluation metric to determine how good the classifier performed. For this we will create another function to check the accuracy. We will keep a count of how many times we predicted the data correctly and then we will return this count divided by the number of test examples to get the accuracy.
+
+{% highlight cpp %}
+float evaluate(Mat& predicted, Mat& actual) {
+    int t = 0;
+    for(int i = 0; i < actual.rows; i++) {
+        float p = predicted.at<float>(i,0);
+        float a = actual.at<float>(i,0);
+        if (p == a) t++;
+    }
+    return t / (float)actual.rows;
+}
+{% endhighlight %}
+
+That is pretty much it. Here is complete code.
+
+{% highlight cpp %}
+#include <iostream>
+#include <stdio.h>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/ml/ml.hpp>
+
+using namespace std;
+using namespace cv;
+
+const int TRAINING_EXAMPLES = 3823;
+const int TEST_EXAMPLES = 1797;
+const int NUM_FEATURES = 64;
+
+float evaluate(Mat& predicted, Mat& actual) {
+    int t = 0;
+    for(int i = 0; i < actual.rows; i++) {
+        float p = predicted.at<float>(i,0);
+        float a = actual.at<float>(i,0);
+        if (p == a) t++;
+    }
+    return t / (float)actual.rows;
+}
+
+void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClasses) {
+    CvNormalBayesClassifier bayes(trainingData, trainingClasses);
+    Mat predicted(testClasses.rows, 1, DataType<float>::type);
+    for (int i = 0; i < testData.rows; i++) {
+        const Mat sample = testData.row(i);
+        predicted.at<float>(i, 0) = bayes.predict(sample);
+    }
+    cout << "Accuracy = " << evaluate(predicted, testClasses) << endl;
+}
+
+int main(int argc, char const *argv[])
+{
 	float feature, cls;
 	Mat trainingData(TRAINING_EXAMPLES, NUM_FEATURES, DataType<float>::type);
 	Mat trainingClasses(TRAINING_EXAMPLES, 1, DataType<float>::type);
@@ -68,93 +161,10 @@ Now we need to load the data to our program. The training data is stored in a fi
 		testClasses.at<float>(i, 0) = cls;
 	}
 
-Now that our data is loaded we will train the classifier. We will create a separate function for this and call it `bayes` and make use of the class `CvNormalBayesClassifier` and its `train` method. This function will create a new `Mat` variable called `predicted` and in it store the predicted labels of the test dataset. Here is the function.
-
-	void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClasses) {
-	    CvNormalBayesClassifier bayes(trainingData, trainingClasses);
-	    Mat predicted(testClasses.rows, 1, DataType<float>::type);
-	    for (int i = 0; i < testData.rows; i++) {
-	        const Mat sample = testData.row(i);
-	        predicted.at<float>(i, 0) = bayes.predict(sample);
-	    }
-	}
-
-Now that we have trained and predicted from the respective datasets, we need an evaluation metric to determine how good the classifier performed. For this we will create another function to check the accuracy. We will keep a count of how many times we predicted the data correctly and then we will return this count divided by the number of test examples to get the accuracy.
-
-	float evaluate(Mat& predicted, Mat& actual) {
-	    int t = 0;
-	    for(int i = 0; i < actual.rows; i++) {
-	        float p = predicted.at<float>(i,0);
-	        float a = actual.at<float>(i,0);
-	        if (p == a) t++;
-	    }
-	    return t / (float)actual.rows;
-	}
-
-That is pretty much it. Here is complete code.
-
-	#include <iostream>
-	#include <stdio.h>
-	#include <opencv2/highgui/highgui.hpp>
-	#include <opencv2/core/core.hpp>
-	#include <opencv2/imgproc/imgproc.hpp>
-	#include <opencv2/ml/ml.hpp>
-
-	using namespace std;
-	using namespace cv;
-
-	const int TRAINING_EXAMPLES = 3823;
-	const int TEST_EXAMPLES = 1797;
-	const int NUM_FEATURES = 64;
-
-	float evaluate(Mat& predicted, Mat& actual) {
-	    int t = 0;
-	    for(int i = 0; i < actual.rows; i++) {
-	        float p = predicted.at<float>(i,0);
-	        float a = actual.at<float>(i,0);
-	        if (p == a) t++;
-	    }
-	    return t / (float)actual.rows;
-	}
-
-	void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClasses) {
-	    CvNormalBayesClassifier bayes(trainingData, trainingClasses);
-	    Mat predicted(testClasses.rows, 1, DataType<float>::type);
-	    for (int i = 0; i < testData.rows; i++) {
-	        const Mat sample = testData.row(i);
-	        predicted.at<float>(i, 0) = bayes.predict(sample);
-	    }
-	    cout << "Accuracy = " << evaluate(predicted, testClasses) << endl;
-	}
-
-	int main(int argc, char const *argv[])
-	{
-		float feature, cls;
-		Mat trainingData(TRAINING_EXAMPLES, NUM_FEATURES, DataType<float>::type);
-		Mat trainingClasses(TRAINING_EXAMPLES, 1, DataType<float>::type);
-		Mat testData(TEST_EXAMPLES, NUM_FEATURES, DataType<float>::type);
-		Mat testClasses(TEST_EXAMPLES, 1, DataType<float>::type);
-
-		for (int i = 0; i < TRAINING_EXAMPLES; i++) {
-			for (int j = 0; j < NUM_FEATURES; j++) {
-				scanf("%f,", &feature);
-				trainingData.at<float>(i, j) = feature;
-			}
-			cin >> cls;
-			trainingClasses.at<float>(i, 0) = cls;
-		}
-		for (int i = 0; i < TEST_EXAMPLES; i++) {
-			for (int j = 0; j < NUM_FEATURES; j++) {
-				scanf("%f,", &feature);
-				testData.at<float>(i, j) = feature;
-			}
-			cin >> cls;
-			testClasses.at<float>(i, 0) = cls;
-		}
-
-		bayes(trainingData, trainingClasses, testData, testClasses);
-		return 0;
-	}
+	bayes(trainingData, trainingClasses, testData, testClasses);
+	return 0;
+}
+{% endhighlight %}
 
 After compiling the above program an executable called `bayes` was created. For supplying the input files in order, we should run the executable like this:
 
