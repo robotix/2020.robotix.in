@@ -112,3 +112,50 @@ A rack and pinion is a type of linear actuator that comprises a pair of gears wh
   - Force on platform = Force on button x (Area of button / Area of output nozzle)
 - Due to this push, the platform moves down, and hence there is a downward tension in the string of pulley.
 - Due to this tension, the forklift rises up.
+
+####ACCELEROMETER
+
+As the name suggests, Accelerometer is a device which measures acceleration.
+Accelerometers are of different sensitivities and ranges. There are accelerometers which measure acceleration in only 2 axes or only 1 axis. Accelerometers with lower ranges such as the ones with 1.5g or 2 g are more sensitive than the ones which have 16 g as their range. The more sensitive accelerometers can be used for measuring tilt whereas the less sensitive ones (such as the one which has range 16 g) can be used to measure shock.
+For understanding what accelerometer exactly measures and how it works, one must have basic knowledge of vectors and its resultant.
+In this tutorial, we’ll be working on accelerometer IC called ADXL335. This is MEMS which stands for micro electro-mechanical system. This accelerometer has a 3-dimensional measurement. That means it can measure acceleration along 3 axes. It has a range of +3g with a typical sensitivity of 300mV/g at 3V supply. Refer to its datasheet for more information on sensitivity and zero voltage.
+
+Our world is a 3-dimensional world. So, whatever force of gravity you have can be resolved into 3 components – The X component (Ax), the Y component (Ay) and the Z component (Az). The resultant of these 3 components gives the total amount of force acting. However, it won’t give you the acceleration in m/s2 directly. The output from the accelerometer will be in V which will vary within a certain range as you move it in the possible directions. The voltage obtained is to be multiplied with the sensitivity so as to get the amount of gravitational acceleration acting.
+In this tutorial, we’ll be observing the variation in the ADC value as we tilt the accelerometer. The more the tilt, more must be the ADC value.
+
+**Pin Explanation**
+
+Any accelerometer chip has the following pins at least:
+Pin X: O/P pin which gives voltage corresponding to the acceleration sensed along the X axis.
+Pin Y: O/P pin which gives voltage corresponding to the acceleration sensed along the Y axis.
+Pin Z: O/P pin which gives voltage corresponding to the acceleration sensed along the Z axis.
+Vcc: Supply Voltage
+Gnd: Ground
+ST: Stands for self test.
+
+**Working**
+
+They measure acceleration not by calculating how speed changes over time but by measuring force. How do they do that? Generally speaking, by sensing how much a mass presses on something when a force acts on it.
+
+This is something we're all very familiar with when we're in cars. Imagine you're sitting in the back seat of a car, happily minding your own business, and the driver accelerates suddenly to pass a slow-moving truck. You feel yourself thumping back into the seat. Why? Because the car's acceleration makes it move forward suddenly. You might think you move backward when a car accelerates forward, but that's an illusion: really what you experience is the car trying to move off without you and your seat catching you up from behind!
+
+The laws of motion tell us that your body tries to keep going at a steady speed, but the seat is constantly pushing into you with a force and making you accelerate instead. The more the car accelerates, the more force you feel from your seat—and you really can feel it! Your brain and body work together to make a reasonably effective accelerometer: the more force your body experiences, the more acceleration your brain registers from the difference between your body's movements and those of the car. (And it picks up useful clues from other sensations, including the rate at which moving objects pass by the window, the change in sound of the car's engine, the noise of the air rushing past, and so on.) Moment by moment, you sense changes in acceleration from changes in sensations on your body, not by calculating how far you've traveled and how long it took. And accelerometers work in broadly the same way.
+
+**Sample Code for RFID detection**
+
+	/*the following code is to print the RFID value of the card.
+	we have used the Arduino Mega and put the RFID reader Tx pin in Rx1 */
+
+	//we connect the Accelerometer pin x to A2 and y to A3   
+	  
+	void setup()
+	{
+	  Serial.begin(9600);
+	}
+	void loop()
+	{
+	  awx = analogRead(A2);
+	  awy = analogRead(A3);
+	}
+
+	//Now awx and awy have the analog value corresponding to the orientation of the accelerometer.
