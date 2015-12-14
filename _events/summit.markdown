@@ -3,9 +3,12 @@ layout: post
 title: 'Summit'
 subTitle: 'Manual Event'
 logo: /img/event/summit/logo.jpg
-social:
-  - {name: "facebook", link: ""}
-excerpt_separator: <!--more-->
+action:
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/summit'
+    color: '#FFFFFF'
+    target: '_blank'
 ---
 
 
@@ -258,9 +261,6 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 * This will be a **One-vs-One** tournament-styled event
 
 * No extra mechanical changes will be required for the bot.
-
-####Tutorial
-Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/summit).
 
 ###Contact
 

@@ -3,9 +3,12 @@ layout: post
 title: 'Sherlock'
 subTitle: 'Autonomous Event'
 logo: /img/event/sherlock/logo.jpg
-social:
-  - {name: "facebook", link: ""}
-excerpt_separator: <!--more-->
+action:
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/sherlock'
+    color: '#FFFFFF'
+    target: '_blank'
 ---
 
 ###Introduction
@@ -18,13 +21,9 @@ Sherlock is stuck in a featureless desert wasteland with nothing but a compass i
 - Path optimisation
 - Magnetic heading following
 
-
 ###Problem Statement
 
 Build an autonomous robot that can follow compass headings to go from start to finish via minimum waypoints using IR receiver to receive arena and waypoint information.
-
-<!--more-->
-
 
 ###Description
 - The arena consists of multiple start and finish points. Other points are termed as waypoints. Start, finish and waypoints are collectively referred here as (points of interest: POI).
@@ -109,10 +108,6 @@ Green Lines: Valid paths
   - So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
   - Score = S-9A-250B-2*100-1*150-1*250
 - Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
-
-
-####Tutorial
-Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/sherlock).
 
 ###Contact
 

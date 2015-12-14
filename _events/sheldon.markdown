@@ -3,15 +3,17 @@ layout: post
 title: 'S.H.E.L.D.O.N.'
 subTitle: 'Computer Vision Event'
 logo: /img/event/sheldon/logo.jpg
-social:
-  - {name: "facebook", link: ""}
-excerpt_separator: <!--more-->
+action:
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/sheldon'
+    color: '#FFFFFF'
+    target: '_blank'
 ---
 
 
 ###Introduction
 Google’s successful Ground Truth project allowed them to extract data from road signs using satellite and on-ground imagery. Here’s a chance to solve that very problem at the ground level with Surprisingly Helpful Equation Linked Differential Optimised Numerator (S.H.E.L.D.O.N.) Imagine if all those road signs could be used by an autonomous vehicle to navigate in the unknown environment. That’s exactly what this event is all about, building a robot which can intelligently track characters spread out in a region using image processing, deciphering the puzzle and thus arriving at a meaningful expression.
-<!--more-->
 
 ###USP
 
@@ -161,10 +163,6 @@ With the help of a tracker the robot has to detect its position throughout its r
 - For traversing the block not according to the equation : -50
 - For not concluding at the end zone : -20
 - Time penalty : -1 x Number of Seconds Taken
-
-####Tutorial
-
-Find the detailed tutorial [here]({{ site.baseurl }}/tutorial/event/sheldon).
 
 ###Contact
 
