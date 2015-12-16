@@ -16,16 +16,27 @@
 }
 .btn-fab {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    right: 24px;
+    width: 40px;
+    height: 40px;
+    right: 27px;
     bottom: 24px;
+    color: #FFFFFF;
     border-radius: 50%;
     background: #4285F4 none repeat scroll 0% 0% !important;
-    z-index: 9999;
+    z-index: 9998;
     transition: $long-transition;
     &.btn-fab-hidden {
         opacity: 0;
-        transform: translateY(75px);
+        transform: translateY(200px);
+    }
+}
+.btn-fab-primary {
+    width: 60px;
+    height: 60px;
+    right: 18px;
+    background: #E74C3C none repeat scroll 0% 0% !important;
+    z-index: 9999;
+    &.rotate {
+        transform: rotate(45deg);
     }
 }

@@ -1,10 +1,17 @@
 <!-- Begin Floating Action button-->
-<a class="btn-fab btn-fab-hidden btn waves-effect waves-light waves-float" style="color: {{ page.action.color }}; background: {{ page.action.bgcolor }};" href="{{ page.action.url }}" target="{{ page.action.target }}" title="{{ page.action.caption }}">
-{% if page.action.icon %}
-    <svg class="icon icon-fab icon-{{ page.action.icon }}" style="fill: {{ page.action.color }};" viewBox="0 0 32 32">
-        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ page.action.icon }}"></use>
+<btn class="btn-fab-primary btn-fab-hidden btn-fab btn waves-effect waves-light waves-float">
+    <h5><b>+</b></h5>
+</btn>
+{% assign height = 95 %}
+{% for action in page.actions %}
+<a class="btn-fab btn-fab-hidden btn waves-effect waves-light waves-float" style="bottom: {{ height }}px; color: {{ action.color }}; background: {{ action.bgcolor }};" href="{{ action.url }}" target="{{ action.target }}" title="{{ action.caption }}">
+{% if action.icon %}
+    <svg class="icon icon-fab icon-{{ action.icon }}" style="fill: {{ action.color }};" viewBox="0 0 40 40">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ action.icon }}"></use>
     </svg>
 {% else %}
-    <h5 class="text-center"><b>{{ page.action.text }}</b></h5>
+    <h5><b>{{ action.text }}</b></h5>
 {% endif %}
 </a>
+{% assign height = height | plus:50 %}
+{% endfor %}
