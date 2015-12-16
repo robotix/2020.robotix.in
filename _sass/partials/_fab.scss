@@ -1,0 +1,43 @@
+.fab {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9998;
+    .btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #4285F4 none repeat scroll 0% 0% !important;
+        transition: $long-transition;
+        &.primary {
+            width: 60px;
+            height: 60px;
+            right: 10px;
+            position: relative;
+            background: #E74C3C none repeat scroll 0% 0% !important;
+            z-index: 9999;
+            &.rotate {
+                transform: rotate(45deg);
+            }
+        }
+        .fab-text {
+            display: inline;
+        }
+    }
+    .secondary {
+        position: absolute;
+        .tooltip {
+            position: absolute;
+            opacity: 0.8;
+            right: 45px;
+            bottom: 10px;
+            .tooltip-inner {
+                white-space: pre;
+            }
+        }
+    }
+    .hide {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+}
