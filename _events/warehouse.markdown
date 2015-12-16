@@ -3,7 +3,8 @@ layout: post
 title: "Warehouse"
 subTitle: 'Semi Autonomous Event'
 logo: /img/event/warehouse/logo.jpg
-action:
+actions:
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/warehouse'

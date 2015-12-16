@@ -3,7 +3,8 @@ layout: post
 title: 'S.H.E.L.D.O.N.'
 subTitle: 'Computer Vision Event'
 logo: /img/event/sheldon/logo.jpg
-action:
+actions:
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sheldon'

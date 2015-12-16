@@ -3,7 +3,8 @@ layout: post
 title: 'Sherlock'
 subTitle: 'Autonomous Event'
 logo: /img/event/sherlock/logo.jpg
-action:
+actions:
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sherlock'

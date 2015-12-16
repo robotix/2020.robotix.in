@@ -3,7 +3,8 @@ layout: post
 title: 'Summit'
 subTitle: 'Manual Event'
 logo: /img/event/summit/logo.jpg
-action:
+actions:
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/summit'
