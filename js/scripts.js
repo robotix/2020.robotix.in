@@ -28,7 +28,7 @@
 
             } else {
                 header.removeClass('after-scroll');
-                $('.fab>.primary').addClass('hide');
+                $('.fab>.primary').addClass('hide').removeClass('rotate');
                 $('.fab>.secondary').addClass('hide');
             }
 
