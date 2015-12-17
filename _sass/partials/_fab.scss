@@ -23,6 +23,10 @@
         .fab-text {
             display: inline;
         }
+        &.fab-hide {
+            opacity: 0;
+            transform: translateY(50px);
+        }
     }
     .secondary {
         position: absolute;
@@ -35,9 +39,5 @@
                 white-space: pre;
             }
         }
-    }
-    .hide {
-        opacity: 0;
-        transform: translateY(200px);
     }
 }
