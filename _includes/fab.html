@@ -6,7 +6,7 @@
 	{% assign height = 70 %}
 	{% for action in page.actions %}
 	<div class="secondary hide" style="bottom: {{ height }}px;">
-		<a role="button" class="btn btn-primary waves-effect waves-light waves-float"{% if action.color and action.bgcolor %} style="{% if action.color %}color: {{ action.color }};{% endif %}{% if action.bgcolor %}background: {{ action.bgcolor }};{% endif %}"{% endif %} href="{{ action.url }}"{% if action.target %} target="{{ action.target }}"{% endif %}>
+		<a role="button" class="btn btn-primary waves-effect waves-light waves-float"{% if action.color or action.bgcolor %} style="{% if action.color %}color: {{ action.color }};{% endif %}{% if action.bgcolor %}background: {{ action.bgcolor }};{% endif %}"{% endif %} href="{{ action.url }}"{% if action.target %} target="{{ action.target }}"{% endif %}>
 		{% if action.icon %}
 		    <svg class="icon icon-fab icon-{{ action.icon }}" style="fill: {{ action.color }};" viewBox="0 0 40 40">
 		        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ action.icon }}"></use>
