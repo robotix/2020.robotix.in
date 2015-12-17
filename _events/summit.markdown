@@ -5,10 +5,12 @@ subTitle: 'Manual Event'
 logo: /img/event/summit/logo.jpg
 actions:
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 40,000'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/summit'
-    color: '#FFFFFF'
     target: '_blank'
 ---
 

@@ -5,10 +5,12 @@ subTitle: 'Semi Autonomous Event'
 logo: /img/event/warehouse/logo.jpg
 actions:
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 44,000'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/warehouse'
-    color: '#FFFFFF'
     target: '_blank'
   -
     text: 'D'
