@@ -95,6 +95,6 @@ Apoorva Sharma - +91-9800105345
 
 Email Id - [apoorva.sharma@robotix.in](mailto:apoorva.sharma@robotix.in)
 
-Aditya Narayan - +91-9471463832
+Aditya Narayan - +91-9757215470
 
 Email Id - [aditya.narayan@robotix.in](mailto:aditya.narayan@robotix.in)
