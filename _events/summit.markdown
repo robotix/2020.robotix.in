@@ -12,6 +12,11 @@ actions:
     caption: 'Tutorial'
     url: '/tutorial/event/summit'
     target: '_blank'
+  -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/summit-event'
+    target: '_blank'
 ---
 
 

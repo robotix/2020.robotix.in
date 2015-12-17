@@ -17,6 +17,11 @@ actions:
     caption: 'Do-It-Yourself'
     url: '/img/event/warehouse/warehouse-diy.jpg'
     target: '_blank'
+  -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/warehouse-event'
+    target: '_blank'
 ---
 
 ###Introduction

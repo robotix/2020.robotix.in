@@ -12,6 +12,11 @@ actions:
     caption: 'Tutorial'
     url: '/tutorial/event/sheldon'
     target: '_blank'
+  -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/sheldon-event'
+    target: '_blank'
 ---
 
 
