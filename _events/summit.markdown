@@ -13,6 +13,11 @@ actions:
     url: '/tutorial/event/summit'
     target: '_blank'
   -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    url: '/img/event/summit/DIY.jpg'
+    target: '_blank'
+  -
     text: 'F'
     caption: 'Discussion Forum'
     url: 'http://bit.do/summit-event'
