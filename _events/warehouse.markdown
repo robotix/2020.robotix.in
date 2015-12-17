@@ -10,6 +10,11 @@ actions:
     url: '/tutorial/event/warehouse'
     color: '#FFFFFF'
     target: '_blank'
+  -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    url: '/img/event/warehouse/warehouse-diy.jpg'
+    target: '_blank'
 ---
 
 ###Introduction
