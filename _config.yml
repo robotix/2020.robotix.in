@@ -12,7 +12,6 @@ exclude: ['/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Technology Robotix Society"
-email: "contact@robotix.in"
 description: "Technology Robotix Society"
 baseurl: "https://www.robotix.in"
 permalink: "/blog/:title"
@@ -114,7 +113,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:contact@robotix.in", text: "contact@robotix.in"}
+   - {link: "/form", text: "Contact Us"}
 
 # Blog
 blogCommentsEnabled: true
