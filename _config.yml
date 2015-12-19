@@ -102,6 +102,7 @@ socialLinks:
  - {link: "https://plus.google.com/102868621563384739622/", icon: "google-plus"}
  - {link: "https://twitter.com/RobotixIITKgp", icon: "twitter"}
  - {link: "https://facebook.com/robotixiitkgp", icon: "facebook"}
+ - {link: "http://www.youtube.com/robotixiitkgp", icon: "youtube"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
