@@ -8,6 +8,11 @@ actions:
     text: 'P'
     caption: 'Total prize money worth Rs 40,000'
   -
+    text: 'M'
+    caption: 'Nationwide Mechanical Design Competition'
+    url: '/mechdesign/'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/summit'
