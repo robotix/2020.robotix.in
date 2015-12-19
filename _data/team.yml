@@ -59,6 +59,7 @@
       name: "Anchit"
       surname: "Navelkar"
       thumbnailUrl: anchit_navelkar.jpg
+      tag: Governor
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
@@ -78,6 +79,7 @@
       surname: "Garg"
       thumbnailUrl: ayush_garg.jpg
       team: true
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
         - {name: "email", link: "mailto:ayush.garg@robotix.in"}
@@ -96,6 +98,7 @@
       surname: "Kachhap"
       thumbnailUrl: ruchita_kachhap.jpg
       team: true
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/ruchita.kachhap?fref=ts"}
         - {name: "email", link: "mailto:ruchita@robotix.in"}
@@ -126,6 +129,7 @@
       title: "Head"
       thumbnailUrl: abhinav.jpg
       team: true
+      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
         - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
@@ -136,6 +140,7 @@
       title: "Head"
       thumbnailUrl: aditya_narayan.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
         - {name: "site", link: "http:///narayanaditya.in"}
@@ -147,6 +152,7 @@
       title: "Head"
       thumbnailUrl: apoorva_sharma.jpg
       team: true
+      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/apoorva.sharma.96343405?fref=ts"}
         - {name: "email", link: "mailto:apoorva.sharma@robotix.in"}
@@ -157,6 +163,7 @@
       title: "Head"
       thumbnailUrl: mratunjay.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
         - {name: "email", link: "mailto:mratunjay@robotix.in"}
@@ -167,6 +174,7 @@
       title: "Head"
       thumbnailUrl: riya.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/riya.bubna?fref=ts"}
         - {name: "email", link: "mailto:riya@robotix.in"}
@@ -177,6 +185,7 @@
       title: "Head"
       thumbnailUrl: rohan.jpg
       team: true
+      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
         - {name: "email", link: "mailto:rohan@robotix.in"}

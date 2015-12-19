@@ -9,12 +9,14 @@
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
+                        {% if teamMember.tag %}
                         <ul class="ribbon-wrapper">
                             <li class="{{ ribbon["abbr"] | downcase }}">
-                                <p class="ribbon abbr">{{ hierarchy.title }}</p>
-                                <p class="ribbon full-title">{{ hierarchy.title }}</p>
+                                <p class="ribbon abbr">{{ teamMember.tag }}</p>
+                                <p class="ribbon full-title">{{ teamMember.tag }}</p>
                             </li>
                         </ul>
+                        {% endif %}
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
                                 <h2 class="name">{{ teamMember.name }} <span>{{ teamMember.surname }}</span></h2>
