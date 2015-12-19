@@ -1,8 +1,9 @@
 about: The annual winter workshop is conducted each year after the conclusion of the autumn semester. The workshops are mentored by second year robotics enthusiasts including TRS members and interested students are taught the concepts of either autonomous robotics or computer vision, and through that knowledge, attempt to tackle a relevant problem statement. Students are selected through a common test organized by TRS, based on the results of which problem statements and mentors are assigned to the students, which they try to tackle together in one week of time.
 ps:
   -
+    id: 001
     title: "Step Counter and Heading Follower (Wireless Robot)"
-    category: "Autonomous"
+    category: "auto"
     doc: /assets/wws/2015/docs/step_follower.pdf
     attendees: /assets/wws/2015/docs/step_follower_people.pdf
-    video: https://youtu.be/pElm_PjUD1A
+    video: https://www.youtube.com/embed/pElm_PjUD1A
