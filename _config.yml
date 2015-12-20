@@ -1,7 +1,7 @@
 # Plugins
 gems:
-- jekyll-sitemap
 - jekyll-redirect-from
+- jekyll-sitemap
 safe: false
 
 # Build Settings
@@ -40,7 +40,7 @@ navigationLinks:
  - {permalink: "/about-us/", text: "About Us"}
  - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
- - {link: "/form/", text: "Contact Us"}
+ - {link: "http://contact.robotix.in", text: "Contact Us"}
 
 
 # Hero Block
@@ -113,7 +113,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "/form", text: "Contact Us"}
+   - {link: "http://contact.robotix.in", text: "Contact Us"}
 
 # Blog
 blogCommentsEnabled: true
