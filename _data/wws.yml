@@ -11,7 +11,7 @@ ps:
   -
     id: 002
     title: "Autonomous Person Follower Turret"
-    description: 
+    description: Build a turret that follows a person using a sonar sensor and targets him using a laser pointer.
     category: "auto"
     doc: /assets/wws/docs/person_follower.pdf
     attendees: /assets/wws/attendees/person_follower_people.pdf
