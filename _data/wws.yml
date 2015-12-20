@@ -28,6 +28,7 @@ ps:
     title: "Gesture Controlled Robot"
     description: Control the relative movement and speed of a robot using your fingers / some object which is tracked by a camera feed.
     category: "ip"
+    doc: /assets/wws/docs/gesture_robot.pdf
     attendees: /assets/wws/attendees/gesture_robot_people.pdf
   -
     id: 005
