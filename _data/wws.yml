@@ -3,6 +3,7 @@ ps:
   -
     id: 001
     title: "Step Counter and Heading Follower (Wireless Robot)"
+    description: To count the number of steps taken by a person using difference in acceleration components and following magnetic headings WRT north of the person wirelessly.
     category: "auto"
     doc: /assets/wws/2015/docs/step_follower.pdf
     attendees: /assets/wws/2015/attendees/step_follower_people.pdf
@@ -10,6 +11,28 @@ ps:
   -
     id: 002
     title: "Autonomous Person Follower Turret"
+    description: 
     category: "auto"
     doc: /assets/wws/2015/docs/person_follower.pdf
     attendees: /assets/wws/2015/attendees/person_follower_people.pdf
+  -
+    id: 003
+    title: "Signal Following Robot"
+    description: To read a video which instructs the bot to move in 3 directions or stop based on a lighted arrow or circle.
+    category: "ip"
+    doc: /assets/wws/2015/docs/signal_follower.pdf
+    attendees: /assets/wws/2015/attendees/signal_follower_people.pdf
+    video: https://www.youtube.com/embed/4vNinnJdKI8
+  -
+    id: 004
+    title: "Gesture Controlled Robot"
+    description: Control the relative movement and speed of a robot using your fingers / some object which is tracked by a camera feed.
+    category: "ip"
+    attendees: /assets/wws/2015/attendees/gesture_robot_people.pdf
+  -
+    id: 005
+    title: "Corridor Following Robot"
+    description: Make an omni-wheeled robot which can move in any direction and follow corridors using sonars as sensors.
+    category: "auto"
+    doc: /assets/wws/2015/docs/corridor_following.pdf
+    attendees: /assets/wws/2015/attendees/corridor_following_people.pdf
