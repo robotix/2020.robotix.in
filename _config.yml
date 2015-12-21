@@ -12,7 +12,7 @@ exclude: ['/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Technology Robotix Society"
-description: "Technology Robotix Society"
+description: "Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."
 baseurl: "https://www.robotix.in"
 permalink: "/blog/:title"
 collections:
@@ -24,8 +24,9 @@ collections:
     permalink: "/tutorial/:path/"
 
 # Head
-metaKeywords: "robotix, robotics, iit, kgp"
+metaKeywords: "robotix, robotics, iit, kgp, team, events, society, technology, tutorial"
 twitterAccount: "@robotixiitkgp"
+siteVerification: "ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
