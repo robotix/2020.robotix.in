@@ -30,6 +30,7 @@ ps:
     category: "ip"
     doc: /assets/wws/docs/gesture_robot.pdf
     attendees: /assets/wws/attendees/gesture_robot_people.pdf
+    video: https://www.youtube.com/embed/c1H536V8BKY
   -
     id: 005
     title: "Corridor Following Robot"
