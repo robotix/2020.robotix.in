@@ -26,10 +26,9 @@ collections:
 # Head
 metaKeywords: "robotix, robotics, iit, kgp, team, events, society, technology, tutorial"
 twitterAccount: "@robotixiitkgp"
+google-plus-page: "https://plus.google.com/102868621563384739622"
 siteVerification: "ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImage: "/img/favicons/favicon-196x196.png"
 
 # Navigation
 navigationLinks:
