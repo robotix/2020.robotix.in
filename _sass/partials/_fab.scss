@@ -1,44 +1,40 @@
-.fab {
+ul.fab {
     position: fixed;
-    right: 15px;
-    bottom: 15px;
-    z-index: 9998;
+    right: 30px;
+    bottom: 10px;
+    z-index: 9999;
+    list-style: none;
     .btn {
         width: 40px;
         height: 40px;
-        border-radius: 50%;
-        background: #4285F4 none repeat scroll 0% 0% !important;
         transition: $long-backward-transition;
-        &.primary {
+        &.btn-danger {
             width: 60px;
             height: 60px;
-            right: 10px;
-            position: relative;
-            background: #E74C3C none repeat scroll 0% 0% !important;
-            z-index: 9999;
+            right: -10px;
             &.rotate {
                 transform: rotate(45deg);
+            }
+            &.fab-hide {
+                transform: translateY(50px);
+                opacity: 0;
             }
         }
         .fab-text {
             display: inline;
         }
-        &.fab-hide {
-            opacity: 0;
-            transform: translateY(50px);
-        }
     }
-    .secondary {
-        position: absolute;
-        .tooltip {
-            position: absolute;
-            opacity: 0.8;
-            right: 45px;
-            bottom: 10px;
-            .tooltip-inner {
-                white-space: pre;
-                max-width: none;
-            }
+    li {
+        text-align: right;
+        padding-top: 8px;
+    }
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        opacity: 0.8;
+        .tooltip-inner {
+            white-space: pre;
+            max-width: none;
         }
     }
 }

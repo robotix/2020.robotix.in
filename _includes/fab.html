@@ -1,25 +1,25 @@
 <!-- Begin Floating Action button-->
-<div class="fab">
-	<button class="primary btn fab-hide btn-primary waves-effect waves-light waves-float">
-	    <h4 class="fab-text"><b>+</b></h4>
-	</button>
-	{% assign height = 70 %}
+<ul class="fab">
 	{% for action in page.actions %}
-	<div class="secondary hide" style="bottom: {{ height }}px;">
-		<a role="button" class="btn btn-primary waves-effect waves-light waves-float"{% if action.color or action.bgcolor %} style="{% if action.color %}color: {{ action.color }};{% endif %}{% if action.bgcolor %}background: {{ action.bgcolor }};{% endif %}"{% endif %} href="{{ action.url }}"{% if action.target %} target="{{ action.target }}"{% endif %}>
+	<li class="hide">
+		<div class="tooltip left" role="tooltip">
+			<div class="tooltip-arrow"></div>
+			<div class="tooltip-inner">{{ action.caption }}</div>
+		</div>
+		<a class="btn btn-primary waves-circle waves-effect waves-light waves-float"{% if action.bgcolor %} style="background: {{ action.bgcolor }};"{% endif %} href="{{ action.url }}"{% if action.target %} target="{{ action.target }}"{% endif %}>
 		{% if action.icon %}
-		    <svg class="icon icon-fab icon-{{ action.icon }}" style="fill: {{ action.color }};" viewBox="0 0 40 40">
+		    <svg class="icon icon-fab icon-{{ action.icon }}" viewBox="0 0 40 40">
 		        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-{{ action.icon }}"></use>
 		    </svg>
 		{% else %}
 		    <h6 class="fab-text"><b>{{ action.text }}</b></h6>
 		{% endif %}
 		</a>
-		<div class="tooltip left" role="tooltip">
-			<div class="tooltip-arrow"></div>
-			<div class="tooltip-inner">{{ action.caption }}</div>
-		</div>
-	</div>
-	{% assign height = height | plus:50 %}
+	</li>
 	{% endfor %}
-</div>
+	<li>
+		<button class="btn btn-danger waves-circle waves-effect waves-light waves-float fab-hide">
+		    <h4 class="fab-text"><b>+</b></h4>
+		</button>
+	</li>
+</ul>
