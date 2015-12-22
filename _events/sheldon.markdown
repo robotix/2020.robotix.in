@@ -5,18 +5,18 @@ subTitle: 'Computer Vision Event'
 logo: /img/event/sheldon/logo.jpg
 actions:
   -
-    text: 'P'
-    caption: 'Total prize money worth Rs 42,000'
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/sheldon-event'
+    target: '_blank'
   -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sheldon'
     target: '_blank'
   -
-    text: 'F'
-    caption: 'Discussion Forum'
-    url: 'http://bit.do/sheldon-event'
-    target: '_blank'
+    text: 'P'
+    caption: 'Total prize money worth Rs 42,000'
 ---
 
 

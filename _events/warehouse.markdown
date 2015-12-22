@@ -5,12 +5,9 @@ subTitle: 'Semi Autonomous Event'
 logo: /img/event/warehouse/logo.jpg
 actions:
   -
-    text: 'P'
-    caption: 'Total prize money worth Rs 44,000'
-  -
-    text: 'T'
-    caption: 'Tutorial'
-    url: '/tutorial/event/warehouse'
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/warehouse-event'
     target: '_blank'
   -
     text: 'D'
@@ -18,10 +15,13 @@ actions:
     url: '/img/event/warehouse/warehouse-diy.jpg'
     target: '_blank'
   -
-    text: 'F'
-    caption: 'Discussion Forum'
-    url: 'http://bit.do/warehouse-event'
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/warehouse'
     target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 44,000'
 ---
 
 ###Introduction

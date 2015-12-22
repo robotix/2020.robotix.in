@@ -5,17 +5,9 @@ subTitle: 'Manual Event'
 logo: /img/event/summit/logo.jpg
 actions:
   -
-    text: 'P'
-    caption: 'Total prize money worth Rs 40,000'
-  -
-    text: 'M'
-    caption: 'Nationwide Mechanical Design Competition'
-    url: '/mechdesign/'
-    target: '_blank'
-  -
-    text: 'T'
-    caption: 'Tutorial'
-    url: '/tutorial/event/summit'
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/summit-event'
     target: '_blank'
   -
     text: 'D'
@@ -23,10 +15,18 @@ actions:
     url: '/img/event/summit/DIY.jpg'
     target: '_blank'
   -
-    text: 'F'
-    caption: 'Discussion Forum'
-    url: 'http://bit.do/summit-event'
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/summit'
     target: '_blank'
+  -
+    text: 'M'
+    caption: 'Nationwide Mechanical Design Competition'
+    url: '/mechdesign/'
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 40,000'
 ---
 
 

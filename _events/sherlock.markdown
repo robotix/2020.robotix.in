@@ -5,18 +5,18 @@ subTitle: 'Autonomous Event'
 logo: /img/event/sherlock/logo.jpg
 actions:
   -
-    text: 'P'
-    caption: 'Total prize money worth Rs 44,000'
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/sherlock-event'
+    target: '_blank'
   -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sherlock'
     target: '_blank'
   -
-    text: 'F'
-    caption: 'Discussion Forum'
-    url: 'http://bit.do/sherlock-event'
-    target: '_blank'
+    text: 'P'
+    caption: 'Total prize money worth Rs 44,000'
 ---
 
 ###Introduction
