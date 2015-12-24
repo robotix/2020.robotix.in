@@ -38,3 +38,10 @@ ps:
     category: "auto"
     doc: /assets/wws/docs/corridor_following.pdf
     attendees: /assets/wws/attendees/corridor_following_people.pdf
+  -
+    id: 006
+    title: "Wireless Gesture Recognition with Obstacle Avoidance"
+    description: "To make a wireless gesture controlled robot, with inputs from an accelerometer, using two Atmega16 boards, with USART and Bluetooth modules as the mode of communication between the microcontrollers."
+    category: "auto"
+    doc: /assets/wws/docs/wireless_gesture.pdf
+    attendees: /assets/wws/attendees/wireless_gesture_people.pdf
