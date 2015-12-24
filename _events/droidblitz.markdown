@@ -3,6 +3,10 @@ layout: post
 title: 'Droid Blitz'
 subTitle: 'Manual Event'
 logo: /img/event/droidblitz/logo.jpg
+actions:
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 50,000'
 ---
 
 ###Problem Statement
@@ -20,7 +24,7 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 * Complete broken pathways by placing blocks kept on land in the given slots.
 
-####Robot specification
+###Robot specification
 
 * Participants can bring two separate robots one that travels on land and one that moves on water or they can bring a single amphibious robot that can travel both on land as well as water.
 
