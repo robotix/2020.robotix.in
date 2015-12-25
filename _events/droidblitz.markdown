@@ -5,6 +5,10 @@ subTitle: 'Manual Event'
 logo: /img/event/droidblitz/logo.jpg
 actions:
   -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/droidblitz-event'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 50,000'
 ---
