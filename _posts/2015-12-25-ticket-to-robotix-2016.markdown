@@ -27,6 +27,16 @@ To build a manually controlled robot capable of climbing stairs whilst picking, 
 - Do It Yourself: [http://tinyurl.com/z9358ga](http://tinyurl.com/z9358ga)
 - Facebook Discussion Forum: [http://bit.do/summit-event](http://bit.do/summit-event)
 
+![]({{ site.baseurl }}/img/event/droidblitz/banner.jpg){:class="img-responsive"}
+
+#####DROIDBLITZ
+
+To build a remote controlled electric-powered robot that can be used to complete broken pathways and transfer packages by running on land as well as water.
+
+- Prizes worth: **Rs 50,000/-**
+- Event: [www.robotix.in/event/droidblitz/](https://www.robotix.in/event/droidblitz/)
+- Facebook Discussion Forum: [http://bit.do/droidblitz-event](http://bit.do/summit-event)
+
 ![]({{ site.baseurl }}/img/event/warehouse/banner.jpg){:class="img-responsive"}
 
 #####WAREHOUSE
