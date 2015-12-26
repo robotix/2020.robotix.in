@@ -8,6 +8,7 @@ actions:
     text: 'F'
     caption: 'Discussion Forum'
     url: 'http://bit.do/droidblitz-event'
+    target: '_blank'
   -
     text: 'P'
     caption: 'Total prize money worth Rs 50,000'
