@@ -35,7 +35,7 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 - Prizes worth: **Rs 50,000/-**
 - Event: [www.robotix.in/event/droidblitz/](https://www.robotix.in/event/droidblitz/)
-- Facebook Discussion Forum: [http://bit.do/droidblitz-event](http://bit.do/summit-event)
+- Facebook Discussion Forum: [http://bit.do/droidblitz-event](http://bit.do/droidblitz-event)
 
 ![]({{ site.baseurl }}/img/event/warehouse/banner.jpg){:class="img-responsive"}
 
