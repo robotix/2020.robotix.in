@@ -17,6 +17,11 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 42,000'
+  -
+    icon: 'flag'
+    caption: 'Register Now!'
+    url: '/blog/registration-process-for-robotix-2016/'
+    target: '_blank'
 ---
 
 
