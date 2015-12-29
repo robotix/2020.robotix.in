@@ -37,4 +37,10 @@ ul.fab {
             max-width: none;
         }
     }
+    .search {
+        &.form-control {
+            width: auto;
+            display: inline;
+        }
+    }
 }

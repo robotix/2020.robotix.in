@@ -19,10 +19,12 @@
         //FAB buttons
         var primaryFAB = $('ul.fab>li:last-child>button');
         var FAB = $('ul.fab>li:not(:last-child)');
+        var searchBar = $('.search')
 
         primaryFAB.click(function() {
             primaryFAB.toggleClass('rotate');
             FAB.toggleClass('hide');
+            searchBar.toggleClass('hide');
         });
 
         $(window).scroll(function() {
@@ -38,6 +40,7 @@
                 header.removeClass('after-scroll');
                 primaryFAB.addClass('fab-hide').removeClass('rotate');
                 FAB.addClass('hide');
+                searchBar.addClass('hide');
             }
 
             $('.slot').each(function() {
