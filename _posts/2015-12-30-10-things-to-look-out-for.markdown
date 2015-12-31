@@ -10,7 +10,7 @@ categories:
   - Robotix 2016
 ---
 
-With less than a month left for the annual Robotix festival, Team Robotix presents to you 10 things to keep youself prepared updated with Robotix 2016.
+With less than a month left for the annual Robotix festival, Team Robotix presents to you 10 things to keep yourself prepared and updated with Robotix 2016.
 
 #### **New and exiciting events**
 
