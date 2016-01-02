@@ -295,6 +295,7 @@ String encode_hex(int input)
 {% endhighlight %}
 
 **Sample code for IR Transmistter**
+
 The following is the Arduino Code to transmit encoded angle values through IR LED. This is a sample code for the IR transmitters that we would be using in the arena.
 
 {% highlight cpp %}
