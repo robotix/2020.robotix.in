@@ -44,7 +44,7 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - The information is transmitted through messages using NEC IR protocol. For more information, take a look at the tutorial document.
 - A message starts with “400” as start code ends with “500” as end code. “450” is the code used as separator in between the messages.
 - A POI may transmit multiple such messages (max 9). Then each message will be tagged with a two digit “message_tag”. 1st digit = present message id. 2nd digit = total messages to be transmitted from that POI.
-- Heading and magnetic heading as mentioned here, refer to the direction with respect to the north direction (0 degrees) that the compass would show if kept at that position. So if heading to a point is 90 degrees, it is at right angle to the point wrt north.
+- Heading and magnetic heading as mentioned here, refer to the direction with respect to the north direction (0 degrees) that the compass would show if kept at that position. So if heading to a point is 90 degrees, it is at right angle to the point wrt north. 
 
 ###Rounds
 
@@ -52,10 +52,10 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
 - When the participant’s run starts, the bot is placed on start point. The start point will provide the following information:
   - A1: 
-Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 12 0 21 500) where 51 is start ID and 72 is finish ID. Here 400 is the start code, 12 is the message_id (1st of the 2 total messages),0 is own_id and 21 is the id of the finish point, 500 at the end being the stop code.
+Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 12 0 21 500) where 0 is start ID and 72 is finish ID. Here 400 is the start code, 12 is the message_id (1st of the 2 total messages),0 is own_id and 21 is the id of the finish point, 500 at the end being the stop code.
   - A2:
 Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 22 0 2 260 20 500). Here 400 is the start bit, 22 is the message_id (2nd of the 2 total messages), 0 is the own_id of POI and the information is that 2 is the next POI at heading of 260 and cost 20, and finally 500 is the stop code.
-- The POIs will have ids. Each POI will provide heading to a single POI. Waypoint 2 transmits the info for waypoint 4 in  format as follows:
+- All the POIs will have ids. Each POI will provide heading to a single POI. Waypoint 2 transmits the info for waypoint 4 in  format as follows:
 (start message_tag own_id [id heading costs] stop) (400 11 2 4 260 20 500). Here 400 is the start code, 11 is message_tag (1st of the 1 total messages), 2 is the own_id of POI, and it is connected to 4 at headings of 260 via paths of costs 20.
 - In Round 1, all the costs are set by default to 20.
 - The bot has to reach the final POI, which is 21 in the above example.
@@ -78,9 +78,10 @@ Heading for only the first possible waypoint after itself. Eg.  (start msg_tag o
 - The bot has to plan its route passing through the minimum number of POIs from its start and minimising the cost of travel along its way to reach a predefined finish point while, traversing through only the valid paths. Valid path means, if POI 1, publishes heading for 2, 3, 6. Then it should go to any of the three only, otherwise there will be a penalty.
 - The bot has to minimize the score given by A x (number of POIs traversed) + B x cost. A and B will be given on day 1 of the event. The final score would be as described in scoring below, which would be used to evaluate the winner.
 - There will be no explicit markings on the arena to indicate valid paths.
-- The cost between two edges is a biquadratic function of the difference in their IDs modulo 3. The cost between POIs with ids m,n is defined thus as:
-  - cost(m,n) = a x^4 + b x^3 + c x^2 + d x + e , where x is (m-n)%3 and % is the modulo operator as in C/C++
-  - Thus cost of an edge between POI 2 and 16 is 16a+8b+4c+2d+e, as (16-2)%3 is 2.
+- The cost between two edges is a biquadratic function of the absolute value of their difference in their IDs modulo 4. The cost between POIs with ids m,n is defined thus as:
+  - cost(m,n) = a x^4 + b x^3 + c x^2 + d x + e , where x is |(m-n)|%4 and % is the modulo operator as in C/C++, denoting the remainder when |m-n| is divided by 4, which can be 0,1,2 or 3.
+  - Thus cost of an edge between POI 2 and 16 is 16a+8b+4c+2d+e, as (16-2)%4 is 2. Cost between 0 and 1 would be a+b+c+d+e, as (1-0)%4=1
+  - All the constants a,b,c,d,e are all positive integers. The a,b mentioned are different from the A,B as mentioned earlier.
   - The constants a,b,c,d,e are unknown and the bot has to find them itself using techniques of simulaneous equations. The robot knows the edge IDs and can solve five equations after getting sufficient information.
   - Please note that this biquadratic edge cost term comes into play only in round 2, round 1 has all edge costs are 20.
 - If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid paths. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
@@ -112,7 +113,7 @@ Green Lines: Valid paths
 ![]({{ site.baseurl }}/img/event/sherlock/image03.png){:class="img-responsive"}
 
 
-###Specifications in Rounds
+###Specifications
 
 ####Round 1
 
@@ -196,7 +197,7 @@ Green Lines: Valid paths
 - Restart: -250 (R)
 
 ####Scoring Formula:
-- Score = S-A*(no of nodes traversed)-B*(TC)-Penalties (X,T,R)
+- Score = S- A x (no of nodes traversed)- B x (TC)-Penalties (X,T,R)
   - So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
   - Score = S-(9 x A)-(250 x B)-(2 x 100)-(1 x 150)-(1 x 250)
 - Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
