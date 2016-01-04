@@ -30,9 +30,7 @@ layout: compress
         {% include wws-ps-modals.html %}
     {% endif %}
 
-    {% if page.actions %}
-        {% include fab.html %}
-    {% endif %}
+    {% include fab.html %}
 
     <script>
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"><\/script>')
@@ -72,7 +70,23 @@ layout: compress
             });
         </script>
     {% endif %}
-
+    <script>
+        (function(){
+            var handle = '{{ site.twitterAccount }}';
+            var a = document.createElement('script');
+            var m = document.getElementsByTagName('script')[0];
+            a.async = 1;
+            a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+            m.parentNode.insertBefore(a, m);
+        })();
+    </script>
+    <script>
+        (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+            (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+            e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+        })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+        _st('install','a_iioDrTs6zXmqH8x5Yr','2.0.0');
+    </script>
 </body>
 
 </html>

@@ -1,4 +1,3 @@
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +6,6 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.metaKeywords }}">
     <meta name="google-site-verification" content="{{ site.siteVerification }}" />
-    <link rel="canonical" href="{{ site.baseurl }}">
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ site.twitterAccount }}">
@@ -18,8 +16,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
     <meta property="og:site_name" content="{{ site.title }}" /> 
     <meta property="og:type" content="website" /> 
-    <meta property="og:url" content="{{ site.baseurl }}" />
-    <meta property="og:image" content="{{ site.socialImage | prepend: site.baseurl }}" />
+    <meta property="og:image" content="{% if page.image %}{{ site.baseurl }}/{{ page.image }}{% else %}{{ site.socialImage | prepend: site.baseurl }}{% endif %}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="fb:admins" content="{{ site.fbAdmin }}" />
     <!-- Social: Google+ -->

@@ -17,6 +17,11 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 44,000'
+  -
+    icon: 'flag'
+    caption: 'Register Now!'
+    url: '/blog/registration-process-for-robotix-2016/'
+    target: '_blank'
 ---
 
 ###Introduction
@@ -102,7 +107,9 @@ Green Lines: Valid paths
 - There are 2 timeouts and 1 restart allowed.
 
 ###Rules and Specifications
+
 ####General Rules
+
 - The robot should be completely autonomous.
 - All arena dimensions have a tolerance of 10%.
 - Each team can consist of a maximum of 4 members.
@@ -110,14 +117,18 @@ Green Lines: Valid paths
 - The team members can be from different institutes or colleges.
 - The right spirit of participation is expected from the participants.
 - The decision of the Team ROBOTIX will be final and binding.
+
 ####Technical Rules
+
 - A standard 220 volt AC supply will be provided by Team Robotix in the arena.
 - All circuitry and sensory equipment should be placed on the robot adhering to the ROBOT SPECIFICATIONS.
 - Participants will have to bring their own programmers, cables and softwares. No programmers will be supplied.
 - Hard coding is NOT allowed. Hard coding is defined [here](http://en.wikipedia.org/wiki/Hard_coding).
 - The robot can be powered on-board as well as off-board.
 - No kind of external control will be allowed.
+
 ####Robot Specifications
+
 - Each robot can have maximum dimension of 25*25*20 cm3 (L*B*H) respectively. 
 - No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences.
 - The autonomous robots should be on-board processing robots, i.e., the robots cannot be controlled by a remotely kept computer.
@@ -125,26 +136,30 @@ Green Lines: Valid paths
 - Ready-made gearboxes, sensors, development boards can be used but no other part of the robot should contain any ready-made components. Simple car bases with no extra features may be used.
 - The bots should not harm the Sherlock event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 - Processors of less than 16-bits are allowed. ARM processors are not allowed.
+
 ####Event Rules
+
 #####Robot:
+
 - The robot should be completely autonomous.
 - The robot needs to traverse a 2.5m x 2.5m arena for both rounds
 - The arena has multiple number of IR LEDs (POIs) that transmit information according the NEC IR Protocol.
+
 #####POIs:
+
 - The POIs are small holes in the arena that have an IR LED inserted into each of them. The range is such that the TSOP1738 IR Receiver can detect a POI from a distance of about 2 cm from the POI.
 - The POIs would transmit binary data at 38KHz frequency in strictly NEC IR format. The format as detailed in the [tutorial on the website](https://www.robotix.in/tutorial/event/sherlock/). 
 #####Magnetic Heading:
 - The magnetic heading would strictly be calculated with respect to north pole of earth wrt IIT Kharagpur campus. Although, the code doesn’t require calibration as long as it is written anywhere in India/neighbours
 - We have used [Adafruit HMC5883L library](https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor/wiring-and-test) for calibration. Usage of other compass modules or other libraries is not recommended and any discrepancies thus caused would not be the responsibility of Team Robotix.
 - The Magnetic Heading would be given in degrees from 0 to 359 and not in radians.
+
 #####Restarts/Timeouts:
+
 - A maximum of 1 Timeout of 2 minutes each in round 1 and 2 timeouts in round 2 may be taken. Penalty will be imposed for each timeout and robot will start from the last node crossed.
 - The participant's robots can have a maximum of 1 restarts. A penalty will be imposed on the team for every restart that they take.
 - In case of a restart the participant's robots will be set to their initial positions. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
 - If the robot goes off track or outside the arena, then the team has to take a restart or call off their run.
-
-
-
 
 ###Scoring
 
@@ -164,5 +179,5 @@ Green Lines: Valid paths
 ###Contact
 
 ####Aditya Narayan
-**(91) 9757215470**  
+**(91) 8609283200**  
 **aditya.narayan@robotix.in**
