@@ -52,7 +52,7 @@ POIs each waypoint directs to. Eg (start msg_tag own_id [waypoint [waypoint_it_d
   - A2: 
 Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 23 51 72 500) where 51 is start ID and 72 is finish ID. Here 400 is the start code, 23 is the message_id(2nd of the 3 total messages),51 is own_id and 72 is the id of the finish point, 500 at the end being the stop code.
   - A3:
-Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 33 51 2 260 20 500). Here 400 is the start bit, 33 is the message_id (3rd of the 3 total messages), 51 is the own_id of POI and the information is that 2 is the next POI at heading of 260 and cost 20, and finally 500 is the stop code.
+Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 33 51 2 260 20 500). Here 400 is the start bit, 33 is the message_id (3rd of the 3 total messages), 51 is the own_id of POI and the information is that 2 is the next POI at heading of 260 degrees (from magnetic north) and cost 20, and finally 500 is the stop code.
 - So the bot gets to know the entire connected graph on the start POI.
 - The bot has to plan its route passing through the minimum number of POIs from its start and minimising the cost of travel along its way to reach a predefined finish point while, traversing through only the valid paths. Valid path means, if POI 1, publishes heading for 2, 3, 6. Then it should go to any of the three only, otherwise there will be a penalty.
 - The bot has to minimize the score given by A*(number of POIs traversed) + B*cost. Where A and B will be given during the run.
