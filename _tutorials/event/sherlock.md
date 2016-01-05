@@ -294,3 +294,84 @@ String encode_hex(int input)
 }
 {% endhighlight %}
 
+**Sample code for IR Transmistter**
+
+The following is the Arduino Code to transmit encoded angle values through IR LED. This is a sample code for the IR transmitters that we would be using in the arena.
+
+{% highlight cpp %}
+#include <IRremote.h>
+
+IRsend  irsend;
+
+int heading = 340;
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop() {
+  String hex = encode_hex(heading);
+  Serial.println("\n\n\n");
+  Serial.println(hex);
+
+  //Write the above serial printed hex value from the serial monitor, below in the following send command. 
+  irsend.sendNEC(0x00ff16e9, 32);
+  
+  delay(500);
+}
+
+int decode_hex(String input)
+{
+  int zeros = 8-input.length();
+  for(int i=0; i<zeros;i++)
+  {
+    input = "0" + input;    
+  }
+  String hex_data = input.substring(0,2) + input.substring(4,6);  
+  Serial.print("Real Hex data: ");
+  Serial.println(hex_data); 
+  const char * c = hex_data.c_str();
+  int output = (int) strtol(c, NULL, 16);
+  return output;
+}
+
+String encode_hex(int input)
+{
+  String real_hex = String(input,HEX);
+  int zeros = 4-real_hex.length();
+  for(int i=0; i<zeros;i++)
+  {
+    real_hex = "0" + real_hex;    
+  }
+  
+  char HEXADECIMAL[17] = "0123456789abcdef";
+  
+  String final_hex = real_hex.substring(0,2);
+  for(int i = 0; i<2; i++)
+  {
+    for(int j = 0; j<16; j++)
+    {
+      if(real_hex.substring(0+i,1+i) == String(HEXADECIMAL[j]))
+      {
+        final_hex += String(HEXADECIMAL[15-j]);
+      }
+    }
+  }
+  
+  final_hex += real_hex.substring(2);
+  
+  for(int i = 0; i<2; i++)
+  {
+    for(int j = 0; j<16; j++)
+    {
+      if(real_hex.substring(2+i,3+i) == String(HEXADECIMAL[j]))
+      {
+        final_hex += String(HEXADECIMAL[15-j]);
+      }
+    }
+  }
+  return final_hex;
+   
+}
+{% endhighlight %}

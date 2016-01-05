@@ -59,6 +59,7 @@ Build an image processing robot capable of detecting characters, using an overhe
 
 ####Logical Arithmetic Equation
 
+- Digits to be used are from **1 - 9**.
 - Only one arithmetic operator should be present between any two operands (**this is only true for Round 1**). Arithmetic operators which will be used: 
     - Addition:  **+** 
     - Subtraction:  **-** 
