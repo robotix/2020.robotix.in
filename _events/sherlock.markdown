@@ -175,7 +175,9 @@ Green Lines: Valid paths
 
 - The POIs are small holes in the arena that have an IR LED inserted into each of them. The range is such that the TSOP1738 IR Receiver can detect a POI from a distance of about 2 cm from the POI.
 - The POIs would transmit binary data at 38KHz frequency in strictly NEC IR format. The format as detailed in the [tutorial on the website](https://www.robotix.in/tutorial/event/sherlock/). 
+
 #####Magnetic Heading:
+
 - The magnetic heading would strictly be calculated with respect to north pole of earth wrt IIT Kharagpur campus. Although, the code doesn’t require calibration as long as it is written anywhere in India/neighbours
 - We have used [Adafruit HMC5883L library](https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor/wiring-and-test) for calibration. Usage of other compass modules or other libraries is not recommended and any discrepancies thus caused would not be the responsibility of Team Robotix.
 - The Magnetic Heading would be given in degrees from 0 to 359 and not in radians.
