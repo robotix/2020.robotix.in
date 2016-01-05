@@ -183,7 +183,7 @@ This is the circuit design for differential drive.
 
 The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors.
 
-####MECHANISM 4 |Robotic Arm
+####MECHANISM 4 | Robotic Arm
 
 **Design:**
 
@@ -244,3 +244,51 @@ The gripping mechanism is to be used to pick up objects from the pier and place 
 [Mechanism video](https://youtu.be/itFsXPtNboA)
 
 ![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_19.png){:class="img-responsive"}
+
+####MECHANISM 5 | Amphibious Bot
+
+**Design:**
+
+This mechanism covers the description of mechanical design of amphibian robot capable of both land and water locomotion driven by motors.
+
+The part where we need to build a robot that can transverse on land is quite easy. But as we need it to float on water, we design the bot in such a way that it is slightly positive buoyant.
+
+**ACRYLIC BODY:**
+
+![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_20.jpg){:class="img-responsive"}
+
+The robot’s body is made of acrylic, as we need to make it positively buoyant, so a light weight material like acrylic, having density of 1.18g/cm3, is best. Acrylic sheet is cut into different parts of the robot using water jet or laser cutter. Each part of the robot has grooves in it, so that each part fits in properly. This provides extra strength to the robot. Acrylic parts are joined together using chloroform, which works as an adhesive for acrylic.
+
+**TERRESTRIAL LOCOMOTION:**
+
+The Robot moves on land simply with wheels. Four wheels are attached at each corner of the robot. Two wheels at each side move in same direction always. The robot moves in front and back when each pair moves in same side. It turns right when right pair moves in back and left in front direction and vice versa.
+
+**WHEELS:**
+
+The wheels are made of wood, having a diameter of 16 cm. Wheels of large radius are needed for better ground clearance, so that bot can travel in rough terrain without damaging any of its parts. The wheels have aluminum angles screwed to it. They help the robot to push water effectively.
+
+![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_21.png){:class="img-responsive"}
+
+**AQUATIC LOCOMOTION:**
+
+The robot can easily move on water surface with the help of propellers present at its back. To make the robot advance on water surface we need to keep it floating. Thus, the buoyant force should be greater than weight of the body.
+
+**BACK PROPELLERS**
+
+There are two propellers present at the rear of the robot, made of plastic and having a diameter of 11cm. They help in locomotion on the water surface. As the ground clearance is small we are not able to use large diameter propellers at back, otherwise they will touch the ground. 
+
+![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_22.png){:class="img-responsive"}
+
+**UNDERWATER LOCOMOTION:**
+
+Underwater locomotion is achieved by taking the robot inside water using a central propeller. The Aluminium angles attached to the wheels provide enough thrust to change the direction satisfactorily. The central propeller pushes the water upwards which provides a downward thrust to the robot and it goes inside water. The most basic problem with this design is the conservation of angular momentum. As the central propeller rotates, the robot rotates in opposite direction to counter the angular momentum. 
+
+**CENTRAL PROPELLOR:**
+
+![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_23.png){:class="img-responsive"}
+
+Here are certain video links to explain the working further.
+
+[Link 1](https://www.youtube.com/watch?v=tJTEenKNHco)
+
+[Link 2](https://www.youtube.com/watch?v=iUVxuQbEy-8)
