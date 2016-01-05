@@ -36,29 +36,55 @@ Sherlock is stuck in a featureless desert wasteland with nothing but a compass i
 
 ###Problem Statement
 
-Build an autonomous robot that can follow compass headings to go from start to finish via minimum waypoints using IR receiver to receive arena and waypoint information.
+Build an autonomous robot that can follow compass headings to go from start to finish using IR receiver to receive arena and waypoint information, while optimizing its path.
 
 ###Description
 - The arena consists of multiple start and finish points. Other points are termed as waypoints. Start, finish and waypoints are collectively referred here as (points of interest: POI).
 - These POIs have a circular area of 5 cm radius with IR transmitters on the center. The IR transmitter transmits ID of the respective POI and other information as stated below.
-- The information is transmitted through messages using NEC IR protocol. 
+- The information is transmitted through messages using NEC IR protocol. For more information, take a look at the tutorial document.
 - A message starts with “400” as start code ends with “500” as end code. “450” is the code used as separator in between the messages.
 - A POI may transmit multiple such messages (max 9). Then each message will be tagged with a two digit “message_tag”. 1st digit = present message id. 2nd digit = total messages to be transmitted from that POI.
-- The POIs will have ids. Each POI will provide heading to single or multiple different other POIs. Waypoint 3 transmits the info for waypoint 2,6,5 in  format as follows:
-(start message_tag own_id [id heading costs] stop) (400 11 3 2 260 10 6 180 90 5 300 40 500). Here 400 is the start code, 11 is message_tag (1st of the 1 total messages), 3 is the own_id of POI, and it is connected to 2,6 and 5 at headings of 260, 180 and 300 via paths of costs 10,5 and 40 respectively.
+- Heading and magnetic heading as mentioned here, refer to the direction with respect to the north direction (0 degrees) that the compass would show if kept at that position. So if heading to a point is 90 degrees, it is at right angle to the point wrt north. 
+
+###Rounds
+
+####Round 1
+
 - When the participant’s run starts, the bot is placed on start point. The start point will provide the following information:
-  - A1:                                                                            
-POIs each waypoint directs to. Eg (start msg_tag own_id [waypoint [waypoint_it_directs to]s separator]s stop) (400 13 51 2 3 6 5 450 3 5 2 7 450 500). Here 400 is the start bit, 13 is the message_id (1st of the 3 total messages), 51 is the own_id of POI and the information is that 2 is connected to 3,6 and 5, 3 is connected to 5,2 and 7, and finally 500 is the stop code. The 450s as mentioned are separators.
-  - A2: 
-Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 23 51 72 500) where 51 is start ID and 72 is finish ID. Here 400 is the start code, 23 is the message_id(2nd of the 3 total messages),51 is own_id and 72 is the id of the finish point, 500 at the end being the stop code.
-  - A3:
-Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 33 51 2 260 20 500). Here 400 is the start bit, 33 is the message_id (3rd of the 3 total messages), 51 is the own_id of POI and the information is that 2 is the next POI at heading of 260 degrees (from magnetic north) and cost 20, and finally 500 is the stop code.
-- So the bot gets to know the entire connected graph on the start POI.
-- The bot has to plan its route passing through the minimum number of POIs from its start and minimising the cost of travel along its way to reach a predefined finish point while, traversing through only the valid paths. Valid path means, if POI 1, publishes heading for 2, 3, 6. Then it should go to any of the three only, otherwise there will be a penalty.
-- The bot has to minimize the score given by A*(number of POIs traversed) + B*cost. Where A and B will be given during the run.
+  - A1: 
+Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 12 0 21 500) where 0 is start ID and 72 is finish ID. Here 400 is the start code, 12 is the message_id (1st of the 2 total messages),0 is own_id and 21 is the id of the finish point, 500 at the end being the stop code.
+  - A2:
+Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 22 0 2 260 20 500). Here 400 is the start bit, 22 is the message_id (2nd of the 2 total messages), 0 is the own_id of POI and the information is that 2 is the next POI at heading of 260 degrees (from magnetic north) and cost 20, and finally 500 is the stop code.
+- All the POIs will have ids. Each POI will provide heading to a single POI. Waypoint 2 transmits the info for waypoint 4 in  format as follows:
+(start message_tag own_id [id heading costs] stop) (400 11 2 4 260 20 500). Here 400 is the start code, 11 is message_tag (1st of the 1 total messages), 2 is the own_id of POI, and it is connected to 4 at headings of 260 via paths of costs 20.
+- In Round 1, all the costs are set by default to 20.
+- The bot has to reach the final POI, which is 21 in the above example.
+- The bot has to follow only the valid paths. If POI 2 gives the information that it is connected to 3 via a path of cost 20 and heading 140, then it has to go to POI 3 only, otherwise there would be a penalty
 - There will be no explicit markings on the arena to indicate valid paths.
 - If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid paths. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
 
+####Round 2
+
+- The POIs will have ids. Each POI will provide heading to single or multiple different other POIs. Waypoint 3 transmits the info for waypoint 2,6,5 in  format as follows:
+(start message_tag own_id [id heading costs] stop) (400 11 3 2 260 10 6 180 45 5 300 39 500). Here 400 is the start code, 11 is message_tag (1st of the 1 total messages), 3 is the own_id of POI, and it is connected to 2,6 and 5 at headings of 260, 180 and 300 via paths of costs 10,45 and 39 respectively.
+- When the participant’s run starts, the bot is placed on start point. The start point will provide the following information:
+  - A1:                                                                            
+POIs each waypoint directs to. Eg (start msg_tag own_id [waypoint [waypoint_it_directs to]s separator]s stop) (400 13 0 2 3 6 5 450 3 5 2 7 450 500). Here 400 is the start bit, 13 is the message_id (1st of the 3 total messages), 0 is the own_id of POI and the information is that 2 is connected to 3,6 and 5, 3 is connected to 5,2 and 7, and finally 500 is the stop code. The 450s as mentioned are separators.
+  - A2: 
+Finish point for that particular run. Eg. (start msg_tag own_id finish_id stop) (400 23 0 21 500) where 0 is start ID and 21 is finish ID. Here 400 is the start code, 23 is the message_id(2nd of the 3 total messages),0 is own_id and 21 is the id of the finish point, 500 at the end being the stop code.
+  - A3:
+Heading for only the first possible waypoint after itself. Eg.  (start msg_tag own_id [id heading cost] stop) (400 33 0 2 260 25 500). Here 400 is the start bit, 33 is the message_id (3rd of the 3 total messages), 0 is the own_id of POI and the information is that 2 is the next POI at heading of 260 and cost 25, and finally 500 is the stop code.
+- So the bot gets to know the entire connected graph on the start POI.
+- The bot has to plan its route passing through the minimum number of POIs from its start and minimising the cost of travel along its way to reach a predefined finish point while, traversing through only the valid paths. Valid path means, if POI 1, publishes heading for 2, 3, 6. Then it should go to any of the three only, otherwise there will be a penalty.
+- The bot has to minimize the score given by A x (number of POIs traversed) + B x cost. A and B will be given on day 1 of the event. The final score would be as described in scoring below, which would be used to evaluate the winner.
+- There will be no explicit markings on the arena to indicate valid paths.
+- The cost between two edges is a biquadratic function of the absolute value of their difference in their IDs modulo 4. The cost between POIs with ids m,n is defined thus as:
+  - cost(m,n) = a x^4 + b x^3 + c x^2 + d x + e , where x is |(m-n)|%4 and % is the modulo operator as in C/C++, denoting the remainder when |m-n| is divided by 4, which can be 0,1,2 or 3.
+  - Thus cost of an edge between POI 2 and 16 is 16a+8b+4c+2d+e, as (16-2)%4 is 2. Cost between 0 and 1 would be a+b+c+d+e, as (1-0)%4=1
+  - All the constants a,b,c,d,e are all positive integers. The a,b mentioned are different from the A,B as mentioned earlier.
+  - The constants a,b,c,d,e are unknown and the bot has to find them itself using techniques of simulaneous equations. The robot knows the edge IDs and can solve five equations after getting sufficient information.
+  - Please note that this biquadratic edge cost term comes into play only in round 2, round 1 has all edge costs are 20.
+- If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid paths. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
 
 ###Arena
 
@@ -87,7 +113,7 @@ Green Lines: Valid paths
 ![]({{ site.baseurl }}/img/event/sherlock/image03.png){:class="img-responsive"}
 
 
-###Rounds
+###Specifications
 
 ####Round 1
 
@@ -171,7 +197,7 @@ Green Lines: Valid paths
 - Restart: -250 (R)
 
 ####Scoring Formula:
-- Score = S-A*(no of nodes traversed)-B*(TC)-Penalties (X,T,R)
+- Score = S- A x (no of nodes traversed)- B x (TC)-Penalties (X,T,R)
   - So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid path traversals, 1 timeout and 1 restart, his score would be:
   - Score = S-(9 x A)-(250 x B)-(2 x 100)-(1 x 150)-(1 x 250)
 - Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
