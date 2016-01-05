@@ -79,7 +79,7 @@ Heading for only the first possible waypoint after itself. Eg.  (start msg_tag o
 - The bot has to minimize the score given by A x (number of POIs traversed) + B x cost. A and B will be given on day 1 of the event. The final score would be as described in scoring below, which would be used to evaluate the winner.
 - There will be no explicit markings on the arena to indicate valid paths.
 - The cost between two edges is a biquadratic function of the absolute value of their difference in their IDs modulo 4. The cost between POIs with ids m,n is defined thus as:
-  - cost(m,n) = a x^4 + b x^3 + c x^2 + d x + e , where x is |(m-n)|%4 and % is the modulo operator as in C/C++, denoting the remainder when |m-n| is divided by 4, which can be 0,1,2 or 3.
+  - cost(m,n) = a x^4 + b x^3 + c x^2 + d x + e , where x is abs(m-n)%4 and % is the modulo operator as in C/C++, denoting the remainder when absolute value of m-n is divided by 4, which can be 0,1,2 or 3. Please note that the difference between m and n is m-n or n-m respectively if m is larger than n or n is larger than m.
   - Thus cost of an edge between POI 2 and 16 is 16a+8b+4c+2d+e, as (16-2)%4 is 2. Cost between 0 and 1 would be a+b+c+d+e, as (1-0)%4=1
   - All the constants a,b,c,d,e are all positive integers. The a,b mentioned are different from the A,B as mentioned earlier.
   - The constants a,b,c,d,e are unknown and the bot has to find them itself using techniques of simulaneous equations. The robot knows the edge IDs and can solve five equations after getting sufficient information.
@@ -175,7 +175,9 @@ Green Lines: Valid paths
 
 - The POIs are small holes in the arena that have an IR LED inserted into each of them. The range is such that the TSOP1738 IR Receiver can detect a POI from a distance of about 2 cm from the POI.
 - The POIs would transmit binary data at 38KHz frequency in strictly NEC IR format. The format as detailed in the [tutorial on the website](https://www.robotix.in/tutorial/event/sherlock/). 
+
 #####Magnetic Heading:
+
 - The magnetic heading would strictly be calculated with respect to north pole of earth wrt IIT Kharagpur campus. Although, the code doesn’t require calibration as long as it is written anywhere in India/neighbours
 - We have used [Adafruit HMC5883L library](https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor/wiring-and-test) for calibration. Usage of other compass modules or other libraries is not recommended and any discrepancies thus caused would not be the responsibility of Team Robotix.
 - The Magnetic Heading would be given in degrees from 0 to 359 and not in radians.
