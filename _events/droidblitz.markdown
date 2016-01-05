@@ -10,6 +10,11 @@ actions:
     url: 'http://bit.do/droidblitz-event'
     target: '_blank'
   -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/droidblitz'
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 50,000'
   -
