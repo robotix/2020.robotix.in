@@ -10,6 +10,11 @@ actions:
     url: 'http://bit.do/sherlock-event'
     target: '_blank'
   -
+    text: 'F'
+    caption: 'FAQs'
+    url: '/tutorial/event/sherlock/faq'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sherlock'
