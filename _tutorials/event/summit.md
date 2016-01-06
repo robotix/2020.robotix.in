@@ -3,6 +3,17 @@ layout: post
 title: "Summit Tutorial"
 categories:
   - event
+actions:
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: 'https://www.youtube.com/watch?v=o5-tw7k_gbA'
+    target: '_blank'
+  -
+    icon: 'flag'
+    caption: 'Register Now!'
+    url: '/blog/registration-process-for-robotix-2016/'
+    target: '_blank'
 ---
 
 ###MECHANISMS FOR TRAVERSALS

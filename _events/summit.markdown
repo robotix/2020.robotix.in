@@ -20,9 +20,9 @@ actions:
     url: '/tutorial/event/summit'
     target: '_blank'
   -
-    text: 'M'
-    caption: 'Nationwide Mechanical Design Competition'
-    url: '/mechdesign/'
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: 'https://www.youtube.com/watch?v=o5-tw7k_gbA'
     target: '_blank'
   -
     text: 'P'
