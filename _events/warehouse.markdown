@@ -221,7 +221,6 @@ Restarts and Timeouts:
 * After the restart, the participant's robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
 
 ####Technical Rules:
-* It is suggested that the participant try to make a wireless robot. In which case the wireless bot should be battery powered on-board.
 * All Circuitry and sensory equipment placed on the robot should be adhering to the ROBOT SPECIFICATIONS.
 * Participants will have to bring their own programmers, cables and software. No Programmers will be supplied.
 * Hard Coding [(http://en.wikipedia.org/wiki/Hard_coding)](http://en.wikipedia.org/wiki/Hard_coding) is not allowed.
@@ -231,7 +230,6 @@ Restarts and Timeouts:
 * Each robot can have maximum dimension of 25 x 25 x 25 cubic cm (L x B x H) respectively. 
 * No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences.
 * There is no weight restriction on the robot.
-* The gesture controlled semi-autonomous robots should be on-board processing robots, i.e., the robots cannot be controlled by a remotely kept computer.
 * LEGO kits or its spare parts or pre-made mechanical parts are not allowed. [(http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms)
 * Ready-made gearboxes, sensors, development boards can be used but no other part of the robot should contain any ready-made components. Simple car bases with no extra features may be used.
 * The bots should not damage the Warehouse event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
