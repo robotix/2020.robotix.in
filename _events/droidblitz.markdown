@@ -10,6 +10,16 @@ actions:
     url: 'http://bit.do/droidblitz-event'
     target: '_blank'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    url: '/assets/event/droidblitz.pdf'
+    target: '_blank'
+  -
+    text: 'F'
+    caption: 'FAQs'
+    url: '/event/droidblitz/faq'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/droidblitz'
