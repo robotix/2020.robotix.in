@@ -10,6 +10,11 @@ actions:
     url: 'http://bit.do/sheldon-event'
     target: '_blank'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    url: '/assets/event/sheldon.pdf'
+    target: '_blank'
+  -
     text: 'F'
     caption: 'FAQs'
     url: '/event/sheldon/faq'
