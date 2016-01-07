@@ -50,7 +50,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 * **Gesture Controlled Traversal.**
 
-###General Arena Description & Event Setup
+####General Arena Description & Event Setup
 
 1. The semi-autonomous robot movement and traversal has to be a **gesture controlled** (with no buttons or any keyboard), preferably using a Touchpad.
 2. There will be multiple **5 cm blocks**, each with a particular **RFID tag**.
@@ -274,13 +274,6 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 * This is the RFID reader we have used for testing: [Link](http://robokits.co.in/wireless-solutions/rfid/rfid-reader-module-with-antenna-usb-uart?zenid=8c1v3l8upd40op6npo9732sgh3)
 * This is the RFID tag we will be using during the event: [Link](http://www.amazon.in/RFID-Tag-keychain-5-Pcs/dp/B00U3VDMGK/ref=sr_1_1?ie=UTF8&qid=1451925749&sr=8-1&keywords=rfid+tags)
 * It is suggested that the participant try to make a wireless robot. In which case the wireless bot should be battery powered on-board.
-
-####Tutorial & Resources
-
-* Read our Tutorial for Warehouse.
-* Look at our Do It Yourself (DIY) for Warehouse.
-* Watch the Demonstration Video for this event.
-* Join the Event Facebook Group for latest updates and doubt sessions.
 
 ###Contact
 
