@@ -6,7 +6,7 @@ permalink: '/event/sheldon/faq/'
 
 Q: How do I register for the event?
 
-`Registration for the events has to be done from Kshitij’s website. For the exact procedure, check [www.ktj.in](www.ktj.in).`
+`Registration for the events has to be done from Kshitij’s website. For the exact procedure, check` [www.ktj.in](www.ktj.in)
 
 Q: Is there any abstract submission for the event?
 
