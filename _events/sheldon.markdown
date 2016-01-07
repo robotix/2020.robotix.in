@@ -20,6 +20,11 @@ actions:
     url: '/tutorial/event/sheldon'
     target: '_blank'
   -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: 'https://youtu.be/WstmuZIIhvM'
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 42,000'
   -
