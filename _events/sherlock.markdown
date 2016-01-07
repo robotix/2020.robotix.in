@@ -12,7 +12,7 @@ actions:
   -
     text: 'F'
     caption: 'FAQs'
-    url: '/tutorial/event/sherlock/faq'
+    url: '/event/sherlock/faq'
     target: '_blank'
   -
     text: 'T'
