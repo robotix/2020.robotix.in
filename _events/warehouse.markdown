@@ -10,6 +10,11 @@ actions:
     url: 'http://bit.do/warehouse-event'
     target: '_blank'
   -
+    text: 'F'
+    caption: 'FAQs'
+    url: '/event/warehouse/faq'
+    target: '_blank'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     url: '/img/event/warehouse/warehouse-diy.jpg'
