@@ -10,6 +10,11 @@ actions:
     url: 'http://bit.do/summit-event'
     target: '_blank'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    url: '/assets/event/summit.pdf'
+    target: '_blank'  
+  -
     text: 'F'
     caption: 'FAQs'
     url: '/event/summit/faq'
