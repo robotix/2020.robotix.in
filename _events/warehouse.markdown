@@ -25,6 +25,11 @@ actions:
     url: '/tutorial/event/warehouse'
     target: '_blank'
   -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: 'https://www.youtube.com/watch?v=X_Oti76zowo'
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 44,000'
   -
