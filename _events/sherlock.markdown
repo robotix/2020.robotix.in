@@ -22,7 +22,7 @@ actions:
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
-    url: 'https://youtu.be/tDrIcklUsEc'
+    url: 'https://youtu.be/bn1wUmNwWbo'
     target: '_blank'
   -
     text: 'P'
