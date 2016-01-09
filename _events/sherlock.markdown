@@ -20,6 +20,11 @@ actions:
     url: '/tutorial/event/sherlock'
     target: '_blank'
   -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: 'https://youtu.be/tDrIcklUsEc'
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 44,000'
   -
