@@ -144,6 +144,7 @@ Build an image processing robot capable of detecting characters, using an overhe
 
 ####General Rules
 
+- All arena dimensions may have a tolerance (error) of up to 10%.
 - The maximum number of participants allowed per team: 4 people
 - The participants will be provided with 220 Volts, 50 Hz standard AC supply.
 - Participants will have to themselves arrange for any other power supply required for their robot.
@@ -194,6 +195,7 @@ Build an image processing robot capable of detecting characters, using an overhe
 - For every Restart : *-50*
 - For traversing the block not according to the equation : *-50*
 - For not concluding at the end zone : *-20*
+- For stepping over every 
 - Time penalty : *-1 x Number of Seconds Taken*
 
 ###Contact

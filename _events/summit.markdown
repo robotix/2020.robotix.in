@@ -109,6 +109,8 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 ####General Rules
 
+* All arena dimensions may have a tolerance (error) of up to 10%.
+
 * Maximum number of participants allowed per team: **4 people.**
 
 * The participants will be provided with **220 Volts, 50 Hz** standard AC supply.

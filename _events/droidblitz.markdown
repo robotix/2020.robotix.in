@@ -59,6 +59,8 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 ###General Rules
 
+* All arena dimensions may have a tolerance (error) of up to 10%.
+
 * Maximum number of participants allowed per team:** 5 people.**
 
 * The participants will be provided with **220 Volts, 50 Hz** standard AC supply.
