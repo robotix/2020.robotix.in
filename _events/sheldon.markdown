@@ -80,7 +80,6 @@ Build an image processing robot capable of detecting characters, using an overhe
     - Subtraction:  **-** 
     - Multiplication:  **x** 
     - Division:  **/**
-    - Factorial:  **!** 
     - Exponentiation:  **^**
     - Equals:  **=** 
     - Parenthesis:  **( )**
