@@ -193,9 +193,8 @@ Build an image processing robot capable of detecting characters, using an overhe
 
 - For every timeout : *-30*
 - For every Restart : *-50*
-- For traversing the block not according to the equation : *-50*
+- For traversing the character not according to the equation : *-50*
 - For not concluding at the end zone : *-20*
-- For stepping over every 
 - Time penalty : *-1 x Number of Seconds Taken*
 
 ###Contact
