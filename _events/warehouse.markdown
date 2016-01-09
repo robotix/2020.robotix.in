@@ -196,7 +196,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 ####Robot Specifications
 
-1. Each robot can have maximum dimension of 25 x 25 x 25 cubic cm (L x B x H) respectively. 
+1. Each robot can have maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively. 
 2. No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift.
 3. There is no weight restriction on the robot.
 4. LEGO kits or its spare parts or pre-made mechanical parts are not allowed. [(http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms)
