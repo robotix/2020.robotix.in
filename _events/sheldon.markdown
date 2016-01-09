@@ -64,7 +64,7 @@ Build an image processing robot capable of detecting characters, using an overhe
 
 - Green Zone: Start Zone
 - Red Zone: End Zone
-- Black Squares: Numbers or characters representing operands/operators respectively
+- White Squares: Containing numbers or characters representing operands/operators respectively
 
 ![]({{ site.baseurl }}/img/event/sheldon/image01.jpg){:class="img-responsive"}
 
