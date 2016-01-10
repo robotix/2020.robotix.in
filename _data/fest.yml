@@ -1,0 +1,156 @@
+-
+  id: 001
+  title: "KRAIG 101"
+  description: "Dive into the world of hobby robotics."
+  subtype: presentation
+  speakers: [1, 2, 3]
+  language: en
+  complexity: "Beginner"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/szxhej2caflb/kraig-101-2015/"}
+  banner: "/img/session/001/poster.jpg"
+-
+  id: 002
+  title: "KRAIG 102"
+  description: "Building your own robosoccer bot!"
+  subtype: presentation
+  speakers: [2, 3]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/rvfji2afblir/kraig-102/"} 
+  video: "https://123d.circuits.io/circuits/957000-relays/embed#breadboard"
+-
+  id: 003
+  title: "KRAIG Hands-On: Soldering"
+  description: "Learn how to solder like a pro!"
+  subtype: presentation
+  language: en
+  complexity: "Beginner"
+-
+  id: 004
+  title: "RoboSoccer: Day 1"
+  description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
+  language: en
+  links:
+    - { title: "Register your team", src: "https://goo.gl/forms/AIqsL2cPCg"}
+  banner: "/img/session/004/banner.jpg"
+-
+  id: 005
+  title: "RoboSoccer: Day 2"
+  description: "Build your RoboSoccer robot and challenge your fellow fresher to a one-on-one match."
+  language: en
+  links:
+    - { title: "Register your team", src: "https://goo.gl/forms/AIqsL2cPCg"}
+  banner: "/img/session/004/banner.jpg"
+-
+  id: 006
+  title: "Visual Pose Estimation for a Mobile Manipulator"
+  description: "Visual Pose Estimation for a Mobile Manipulator, by Shushman Chowdhury"
+  subtype: presentation
+  language: en
+  speakers: [6]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/13-08-2014/KRISS01.pdf"}
+  complexity: "Intermediate"
+-
+  id: 007
+  title: "Visual odometry in smoke-occluded environments"
+  description: "Visual odometry in smoke-occluded environments, by Aditya Agarwal"
+  subtype: presentation
+  language: en
+  speakers: [5]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02.pdf"}
+  complexity: "Intermediate"
+-
+  id: 008
+  title: "Visual Attributes for Enhanced Human-Machine Communication"
+  description: "Visual Attributes for Enhanced Human-Machine Communication and 'Modeling the shape of a scene : A holistic representation of the spatial envelope', by Anchit Navelkar"
+  subtype: presentation
+  language: en
+  speakers: [4]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
+  complexity: "Intermediate"
+-
+  id: 009
+  title: "Fuzzy based PID Motor Control"
+  description: "Fuzzy based PID Motor Control, by Ashish Daga"
+  subtype: presentation
+  language: en
+  speakers: [9]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/16-10-2014/KRISS03.pdf"}
+  complexity: "Intermediate"
+-
+  id: 010
+  title: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots"
+  description: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots, by Kumar Krishna Agarwal"
+  subtype: presentation
+  language: en
+  speakers: [7]
+  complexity: "Intermediate"
+-
+  id: 011
+  title: "Quantization Noise in Advanced LIGO Digital Control Systems"
+  description: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots, by Ayush Pandey"
+  subtype: presentation
+  language: en
+  speakers: [8]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
+  complexity: "Intermediate"
+-
+  id: 012
+  title: "KRAIG 201"
+  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms."
+  subtype: presentation
+  language: en
+  complexity: "Beginner"
+  speakers: [10, 11]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/fubi9zpwrw56/kraig-201-202/"}
+-
+  id: 013
+  title: "KRAIG 301"
+  description: "Workshop on introduction to autonomous robotics. LED LDR sensors, IR LED Photodiode Pairs, Comparators and Op Amps."
+  subtype: presentation
+  language: en
+  complexity: "Beginner"
+  speakers: [2]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/nyvqm0ffs1a7/presentation-2-module-1a/"}
+  video: "https://123d.circuits.io/circuits/1079064-ldr-motor-control-with-op-amp/embed#breadboard"
+-
+  id: 014
+  title: "KRAIG 302"
+  description: "Workshop on autonomous robotics: Timers and Motor Drivers."
+  subtype: presentation
+  language: en
+  complexity: "Intermediate"
+  speakers: [2]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/4ty8g2y4d1gf/timer-and-motor-driver/"}
+  video: "https://123d.circuits.io/circuits/1118027-l293d/embed#breadboard"
+-
+  id: 015
+  title: "KRAIG 303"
+  description: "Workshop on autonomous robotics: Line following without using a micro-controller."
+  subtype: presentation
+  language: en
+  complexity: "Intermediate"
+  speakers: [2]
+  links:
+    - { title: "View presentation", src: "https://prezi.com/irbwtabuj2yv/kraig-line-follower-without-microcontroller"}
+-
+  id: 016
+  title: "Fresher's Pathfinder Workshop"
+  description: "<b>'Make your bot walk the line'</b><br>With this prelude to the winter workshop,take your first step into the world of autonomous robotics, by learning how to create a robot that can follow a white line on a black surface. Join us as we help you to make your first autonomous robot."
+  subtype: workshop
+  language: en
+  complexity: "Intermediate"
+  speakers: []
+  banner: "/img/session/016/pathfinder.jpg"
+  links:
+    - { title: "Register your team", src: "https://www.facebook.com/events/793813150729845/"}
