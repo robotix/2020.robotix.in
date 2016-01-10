@@ -15,6 +15,11 @@ actions:
     url: '/event/sherlock/faq'
     target: '_blank'
   -
+    text: 'D'
+    caption: 'Decoding Sherlock'
+    url: '/blog/decoding-sherlock'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/sherlock'
@@ -49,15 +54,41 @@ Sherlock is stuck in a featureless desert wasteland with nothing but a compass i
 Build an autonomous robot that can follow compass headings to go from start to finish using IR receiver to receive arena and waypoint information, while optimizing its path.
 
 ###Description
- -  The arena consists of multiple start and finish points. Other points are termed as waypoints. Start, finish and waypoints are collectively referred here as *POI* (points of interest).
- -  Each POIs is identified by its unique ID. 
- -  These POIs have a circular area of 5 cm radius with IR transmitters on the center. The IR transmitter transmits ID of the respective POI and other information as stated below.
+ -  The arena consists of a start, a finish points and other intermediate waypoints. The start, finish and waypoints are collectively referred here as *POI* (points of interest).  
+ Each POIs is identified by its unique ID.
+ -  These POIs have a circular area of 5 cm radius with IR transmitters on the centre. The IR transmitter transmits ID of the respective POI and other information as stated below.
  -  The information is transmitted through messages using *NEC IR* protocol. For more information, refer the [Tutorial](/tutorial/event/sherlock).
  -  A message starts with `400` as start code ends with `500` as end code. `450` is the code used as separator in between the messages.
  -  A POI may transmit multiple such messages (max 9). Then each message will be tagged with a two digit *message_tag*.  
  The first digit denotes the present message id, while the second digit denotes the total number of messages to be transmitted from that POI.
  -  Heading and magnetic heading as mentioned henceforth, refer to the direction with respect to the magnetic north direction of the Earth at that position.  
  So if heading to a point is 90 degrees, it points towards East. 
+
+###Arena
+
+####Depictive Arena
+
+ -  Legend:
+     -  Red POI: Start POI
+     -  Blue POI: Intermediate POIs
+     -  Green POI: Finish POI
+     -  Green Lines: Valid edges
+
+![](/img/event/sherlock/image00.png){:.img-responsive}
+
+####Sample Arena
+
+#####Round 1
+
+![Round 1](/img/event/sherlock/image01.png){:.img-responsive}
+
+#####Round 2
+
+![Round 2](/img/event/sherlock/image02.png){:.img-responsive}
+
+#####Actual Arena
+
+![Actual Arena](/img/event/sherlock/image03.png){:.img-responsive}
 
 ###Task
 
@@ -70,7 +101,7 @@ Build an autonomous robot that can follow compass headings to go from start to f
     400 11 2 4 260 20 500  
     ~~~
 
-    Here `400` is the start code, `11` is message_tag *(1st of the 1 total messages)*, `2` is the ID of the current waypoint, and it is connected to waypoint `4` at headings of `260` degress via an edge of costs `20`.
+    Here `400` is the start code, `11` is message_tag *(1st of the 1 total messages)*, `2` is the ID of the current waypoint, and it is connected to waypoint `4` at headings of `260` degrees via an edge of costs `20`.
  -  When the participant’s run starts, the bot is placed on start point. The start point will provide the following information:
      -  A1:  Finish POI for that particular run. Eg:
 
@@ -93,7 +124,8 @@ Build an autonomous robot that can follow compass headings to go from start to f
  -  The bot has to reach the final POI, which is `21` in the above example.
  -  The bot has to follow only the valid edges. If waypoint `2` directs the bot to waypoint `3`, then it has to head towards waypoint `3` only, otherwise there would be a penalty.
  -  There will be no explicit markings on the arena to indicate valid edges.
- -  If the bot gets lost in the arena and stumbles upon a POI, then it has to plan a way to continue its pre planned path going through valid edges. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
+ -  If the bot gets lost in the arena and stumbles upon a POI, then it has to plan a way to continue its pre planned path going through valid edges.
+
 
 ####Round 2
 
@@ -131,15 +163,8 @@ Build an autonomous robot that can follow compass headings to go from start to f
         ~~~
 
         Here `400` is the start code, `33` is the message_id *(3rd of the 3 total messages)*, `0` is the ID of the current POI and the next POI is the POI with ID `2` at heading of `260`degrees and cost `25`, with `500` being the stop code.
- - So the bot gets to know the entire connected graph on the start POI.
- - The bot has to plan its route passing through the minimum number of POIs from the start POI and minimising the cost of travel along its way to reach the predefined finish POI while, traversing through only the valid edges.
- -  The bot has to minimize the score given by:
-
-    ~~~
-    A*(number of POIs traversed) + B*(sum of edge costs traversed)
-    ~~~
-
-    A and B are constants that will be declared during the fest.
+ -  So the bot gets to know the entire connected graph on the start POI.
+ -  The bot has to plan its route passing through the minimum number of POIs from the start POI and minimising the cost of travel along its way to reach the predefined finish POI while, traversing through only the valid edges.
  -  There will be no explicit markings on the arena to indicate valid edges.
  -  The edge cost between two POIs is a biquadratic function of the absolute value of their difference in their IDs modulo 5. The cost between POIs with ids `m` and `n` is defined thus as:
 
@@ -150,57 +175,35 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
     Where `%` is the modulo operator, denoting the remainder when absolute value of `m - n` is divided by 5, which can be 0, 1, 2, 3 or 4.
 
-       -  Thus cost of an edge between POI 2 and 16 is `256a + 64b + 16c + 4d + e`, as (16 - 2) % 5 is 4. Cost between 0 and 1 would be a + b + c + d + e, as (1 - 0) % 5 = 1
-       -  All the constants a,b,c,d,e are all positive integers. The a,b mentioned are different from the A,B as mentioned earlier.
-       -  The constants a,b,c,d,e are unknown and the bot has to find them itself using techniques of simulaneous equations. The robot knows the edge IDs and can solve five equations after getting sufficient information.
-       -  Please note that this biquadratic edge cost term comes into play only in round 2, round 1 has all edge costs are 20.
- -  If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid edges. It may take help from the walls in the arena to stumble upon a POI if it gets lost.
+     -  Thus cost of an edge between POI 2 and 16 is 
 
-###Arena
+        ~~~
+        256a + 64b + 16c + 4d + e
+        ~~~
 
-####Depictive Arena
-
- -  Legend:
-     -  Red POI: Start point 
-     -  Blue POI: Waypoints 
-     -  Green POI: Finish point
-     -  Green Lines: Valid edges
-
-![](/img/event/sherlock/image00.png){:class="img-responsive"}
-
-####Sample Arena
-
-#####Round 1
-
-![](/img/event/sherlock/image01.png){:class="img-responsive"}
-
-#####Round 2
-
-![](/img/event/sherlock/image02.png){:class="img-responsive"}
-
-#####Actual Arena
-
-![](/img/event/sherlock/image03.png){:class="img-responsive"}
+        as `(16-2)%5=4`.
+       -  All the constants `a`, `b`, `c`, `d`, `e` are all non-negative integers.
+       -  The constants `a`, `b`, `c`, `d`, `e` are unknown and the bot has to find them itself using techniques of simultaneous equations. The robot knows the edge IDs and can solve five equations after getting sufficient information.
+       -  Please note that this biquadratic edge cost term comes into play only in round 2, round 1 has all edge costs equal to `20`.
+ -  If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid edges.
 
 
-###Specifications
+###Rounds
 
 ####Round 1
 
-- Each waypoint will send the bot to only one other waypoint
-- The bot must simply follow the directions to the end point
+- Each waypoint will send the bot to only one other waypoint.
+- The bot must simply follow the directions to the finish POI.
 - The round will be of 3 minutes duration, after which the run would be stopped immediately and score would be calculated.
-- If finish point is reached then the bot has to flash a LED
-- There is 1 timeout and 1 restart allowed.
+- If finish point is reached then the bot has to flash an LED.
 
 ####Round 2
 
 - Waypoints will be transmitting heading and cost information for single or multiple other waypoints.
-- Start points will transmit the heading and cost for its immediate neighbour POIs  and providing referencing information for the entire arena, i.e. which waypoints each waypoint on the arena provides the headings for.
-- Robot has to plan its best optimized path with the information being given from the start point as mentioned in "Task" above.
-- Once the bot reaches the finish point it must flash a LED.
+- Start POI will transmit the heading and cost for its immediate neighbour POIs and providing referencing information for the entire arena, i.e. which waypoints each waypoint on the arena provides the headings for.
+- Robot has to plan its best optimized path with the information being given from the start POI as mentioned in *Task* above.
+- Once the bot reaches the finish point it must flash an LED.
 - The round will be of 5 minutes duration, after which the run would be stopped immediately and score would be calculated.
-- There are 2 timeouts and 1 restart allowed.
 
 ###Rules and Specifications
 
@@ -248,27 +251,63 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
 #####Restarts/Timeouts:
 
-- A maximum of 1 Timeout of 2 minutes each in round 1 and 2 timeouts in round 2 may be taken. Penalty will be imposed for each timeout and robot will start from the last node crossed.
-- The participant's robots can have a maximum of 1 restarts. A penalty will be imposed on the team for every restart that they take.
-- In case of a restart the participant's robots will be set to their initial positions. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
-- Restarts will only be awarded to the participant in case of a technical failure of the bot.
-- If the robot goes off track or outside the arena, then the team has to take a restart or call off their run.
+ -  In Round 1, the participant can take a maximum of 1 timeout of 2 minutes. In Round 2, 2 such timeouts may be taken.
+    Penalty will be imposed for each timeout and the robot will start from the last POI crossed.
+ -  In Round 1, the participant's robot can have a maximum of 2 restarts. In Round 2, the participant's robot can take 2 such restarts. A penalty will be imposed on the team for every restart that they take.
+    In case of a restart the participant's robots will be placed on the start POI. The timer will be reset to zero and the run will start afresh with the addition of the penalty for the restart.
+ -  Restarts will only be awarded to the participant in case of a technical failure of the bot.
+ -  If the robot goes outside the arena, then the team has to take a restart or call off their run.
 
 ###Scoring
 
-- Base Score: S
-- Reach Finish Point: 500
-- Reach each POI: -A (as mentioned description)
-- Traversing an invalid edge each time: -100 (X)
-- Total Cost incurred in reaching the end point: TC
-- For each timeout: -150 (T)
-- Restart: -250 (R)
+####Round 1
 
-####Scoring Formula:
-- Score = `S - A x (no of nodes traversed) - B x (TC) - Penalties (X, T, R)`
-  - So if a participant reaches the end point traversing 9 nodes, with 250 total cost incurred and with 2 invalid edge traversals, 1 timeout and 1 restart, his score would be:
-  - Score = `S - (9 x A) - (250 x B) - (2 x 100) - (1 x 150) - (1 x 250) + 500`
-- Target is to maximize the score. If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
+######Base Score: `1000`
+
+#####Rewards
+
+ -  Reaching the Finish POI: `500` **(F)**
+ -  Reaching each valid POI: `100` **(P)**
+
+#####Penalties
+ -  Traversing an invalid edge once: `-200` **(X)**
+ -  Timeout: `-250` **(T)**
+ -  Restart: `-400` **(R)**
+
+#####Scoring Formula:
+ -  The final score is given by:
+
+    ~~~
+    1000 + 500*(F) + 100*(P) - 200*(X) -250*(T) - 400*(R)
+    ~~~
+
+####Round 2
+
+######Base Score: `2000`
+
+#####Rewards
+
+ -  Reach Finish POI: `1000` **(F)**
+
+#####Penalties
+
+ -  Traversing an invalid edge once: `-200` **(X)**
+ -  Traversing each POI: `-A` **(P)** 
+ -  Sum of edge costs incurred in reaching the Finish POI: `-B` **(TC)**
+ -  Timeout: `-500` **(T)**
+ -  Restart: `-800` **(R)**
+
+The constants `A` and `B` will be declared during the fest.
+
+#####Scoring Formula:
+ -  The final score is given by:
+
+    ~~~
+    2000 + 1000*(F) - 200*(X) - A*(P) -B*(TC) -500*(T) - 800*(R)
+    ~~~
+
+ -  The team with the maximum score wins.  
+    If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
 
 ###Contact
 
