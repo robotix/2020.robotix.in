@@ -18,35 +18,23 @@
         endTime: "11:45",
         sessionIds: [003, 404, 004, 003, 003]
     }
-    - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [404, 404, 404, 002, 002]
-    }
 - 
-  date: "2014-10-25"
-  dateReadable: "October 25"
+  date: "2016-01-22"
+  dateReadable: "January 22"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-  timeslots: 
+    - {title: "Droid Blitz", color: "#90be4e"}
+    - {title: "Summit", color: "#03a9f4"}
+    - {title: "Warehouse", color: "#e91e63"}
+    - {title: "Sherlock", color: "#e91e63"}
+    - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
+  timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
+        startTime: "10:00",
+        endTime: "10:45",
+        sessionIds: [003, 003, 003, 003, 003]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
+        startTime: "11:00",
+        endTime: "11:45",
+        sessionIds: [003, 404, 004, 003, 003]
     }
