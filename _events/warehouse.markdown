@@ -171,7 +171,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 1. The robot has to start from the **Start Zone**, which will be adjacent to one of the edges of the arena.
 2. The bot has to go to complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
-3. The gesture control mechanism **shouldn’t use any physical buttons.** The general methods of gesture control are Accelerometer, IMU, touch phone, Touch Screen Sensor, Flex Sensors. The types of sensors that must not be used include IR LED photodiode pairs, Proximity Sensors, and buttons. Permission for using any method for Gesture control other than the above mentioned ones must be taken from Team ROBOTIX beforehand.
+3. The gesture control mechanism **shouldn’t use any physical buttons.** The general methods of gesture control are Accelerometer, IMU, touch phone, Touch Screen Sensor, Flex Sensors. Permission for using any method for Gesture control other than the above mentioned ones must be taken from Team ROBOTIX beforehand.
 4. The Block must be placed on the platform safezone. Sliding the block on the platform is allowed but if the block falls from the platform while picking or placing, it will incur negative points.
 5. Time will be kept by Team ROBOTIX and their decision will be final and binding.
 6. Gesture Control is to be used for **locomotion aswell as block controlling.**
