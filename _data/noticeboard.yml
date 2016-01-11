@@ -1,0 +1,31 @@
+schedule:
+  -
+    date: "2015-8-16"
+    dateReadable: "August 16"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        sessionIds: [001]
+      }
+  -
+    date: "2015-8-20"
+    dateReadable: "August 20"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        sessionIds: [002]
+      }
+  -
+    date: "2015-8-22"
+    dateReadable: "August 22"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "15:00",
+        sessionIds: [003]
+      }
