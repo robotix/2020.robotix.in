@@ -1,0 +1,18 @@
+-
+  id: 001
+  title: "KRAIG 101"
+  description: "Dive into the world of hobby robotics."
+  links:
+    - { title: "View presentation", src: "https://prezi.com/szxhej2caflb/kraig-101-2015/"}
+  banner: "/img/session/001/poster.jpg"
+-
+  id: 002
+  title: "KRAIG 102"
+  description: "Building your own robosoccer bot!"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/rvfji2afblir/kraig-102/"} 
+  video: "https://123d.circuits.io/circuits/957000-relays/embed#breadboard"
+-
+  id: 003
+  title: "KRAIG Hands-On: Soldering"
+  description: "Learn how to solder like a pro!"
