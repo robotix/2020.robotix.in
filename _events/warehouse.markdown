@@ -256,9 +256,11 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 3. For successful RFID reading and indication of each block: 150 (**S**)
 
-4. For placing the block on the correct platform: 150 (**P**)
+4. For placing the block on the correct platform which doesn't have gates: 150 (**P**)
 
-5. Time bonus: time left in seconds (provided the task is complete)(**B**)
+5. For placing the block on the correct platform which has a gate: 200 (**P**)
+
+6. Time bonus: time left in seconds (provided the task is complete)(**B**)
 
 **Negatives**
 
