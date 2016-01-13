@@ -10,11 +10,11 @@ Q: How do I register for the event? Is there any abstract submission for the eve
 
 Q: Is picking/gripping compulsory or can the block be pushed?
 
-	Yes a picking/gripper mechanism is Compulsory, since the block needs to be lifted to a height of 12 cm to be placed on the top shelf. The block can be dragged or pushed on the shelf but it should not fall down or go beyond the safe zone. The gripper must, however, be controlled to gestures only using no buttons or explicit contacts to act as switching circuits.
+	Yes a picking/gripper mechanism is Compulsory, since the block needs to be lifted to a height of 12 cm to be placed on the top shelf. The block can be dragged or pushed on the shelf but it should not fall down or go beyond the safe zone. The gripper must, however, be controlled to gestures only using no physical buttons or explicit contacts to act as switching circuits.
 
 Q: Can we use smartphone or camera for gesture recognition? What other sensors can be used?
 
-	Yes, you can use a smartphone, camera or any other sensor for gesture recognition but make sure you use a 16 bit microcontroller for locomotion and gripping mechanisms. Other sensors that can be used are tilt sensors, accelerometers, gyroscope etc. You cannot use any buttons or IR proximity sensors and operate them as gesture controlled.
+	Yes, you can use a smartphone, camera or any other sensor for gesture recognition but make sure you use a 16 bit microcontroller for locomotion and gripping mechanisms. Other sensors that can be used are tilt sensors, accelerometers, gyroscope etc. You cannot use any buttons as a means for the gesture control.
 
 Q: Is it very necessary to operate the robot with two different accelerometer sensors as shown in the tutorial video? 
 
@@ -59,3 +59,7 @@ Q: Where is the starting zone?
 Q: Does the robot have to return to the starting zone to mark the end of the run? If no, how do we know when the run ends?
 
 	Yes you have to return to the starting zone. The run will end as soon as the task is complete within the time limit and is placed in the safe zone or when the team wants the run to end or when the time runs out.
+
+Q: Is there any wall surrounding the arena?
+
+	Yes there will be a wall surrounding the arean from all the four sides and you will be penalized if the robot hits it during the run.

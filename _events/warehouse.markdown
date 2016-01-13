@@ -175,6 +175,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 4. The Block must be placed on the platform safezone. Sliding the block on the platform is allowed but if the block falls from the platform while picking or placing, it will incur negative points.
 5. Time will be kept by Team ROBOTIX and their decision will be final and binding.
 6. Gesture Control is to be used for **locomotion aswell as block controlling.**
+7. There will be a **Wall** surrounding the arena from all four sides.
 
 ####Initial Orientation of Robot
 
