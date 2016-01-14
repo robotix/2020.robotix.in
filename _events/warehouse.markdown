@@ -244,7 +244,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 ####Scoring Formula
 
-1000 + 100 x L + 150 x (S + P) + B - 50 x (NS + NP + D + W + G) - 100 x T - 150 x R
+{% highlight ruby %}
+1000 + 100*L + 150*(S+P) + B - 50*(NS+NP+D+W+G) - 100*T - 150*R
+{% endhighlight %}
 
 ####Round 2
 
@@ -258,7 +260,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 4. For placing the block on the correct platform which doesn't have gates: 150 (**P**)
 
-5. For placing the block on the correct platform which has a gate: 200 (**P**)
+5. For placing the block on the correct platform which has a gate: 200 (**Q**)
 
 6. Time bonus: time left in seconds (provided the task is complete)(**B**)
 
@@ -280,7 +282,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 ####Scoring Formula
 
-1000 + 100 x L + 150 x (S + P) + B - 50 x (NS + NP + D + W + G) - 100 x T - 150 x R
+{% highlight ruby %}
+1000 + 100*L + 150*(S+P) + 200*Q + B - 50*(NS+NP+D+W+G) - 100*T - 150*R
+{% endhighlight %}
 
 ####Note
 * You will be provided with the unique RFID number for each shelf before the start of the event and you can feed it into your robot.
