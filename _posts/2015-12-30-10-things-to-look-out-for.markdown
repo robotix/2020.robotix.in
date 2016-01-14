@@ -12,13 +12,13 @@ categories:
 
 With less than a month left for the annual Robotix festival, Team Robotix presents to you 10 things to keep yourself prepared and updated with Robotix 2016.
 
-#### **New and exiciting events**
+#### **New and exciting events**
 
 ##### This year we present to you 5 events with all unique and exciting problem statements.
 
 [![Events](/img/blog/2015/07/image02.jpg){:.img-responsive}](/event/)
 
-This Robotix edition will see one of its kind Manual, Autonomous, Semi Autonomous and Computer Vision events. In Manual category we have Summit and Droid Blitz. Warehouse in Semi-Autonomous, Sherlock in Autonomous and SHELDON in Computer Vision.
+This Robotix edition will see one of its kind Manual, Autonomous, Semi Autonomous and Computer Vision events. In Manual category we have Summit and Droid Blitz. Warehouse in Semi-Autonomous, Sherlock in Autonomous and S.H.E.L.D.O.N in Computer Vision.
 
 #### **Facebook Page**
 
@@ -49,7 +49,7 @@ Join at:
 
 [![Tutorials](/img/blog/2015/07/image09.jpg){:.img-responsive}](/tutorial/)
 
-We provide you with numerous tutorials,  starting right from the very basics of robotics. categorized under several headings like autonomous, manual, image processing etc. they are sure to embark you upon this wonderful journey into the world of robotics, successfully.
+We provide you with numerous tutorials,  starting right from the very basics of robotics. Categorized under several headings like autonomous, manual, image processing etc. they are sure to embark you upon this wonderful journey into the world of robotics, successfully.
 
 #### **Event Tutorials**
 
@@ -90,7 +90,7 @@ Do not forget to click on the [Subscribe vis RSS](/feed.xml) button.
 In case you missed the red floating icon at the bottom right of this page, make sure to click on it!  
 The Event pages contains important links to the Tutorial, DIY’s, Discussion Forum and also information about Prize Money.
 
-#### **Youtube Channel**
+#### **YouTube Channel**
 
 ##### One place for all videos related to our events, tutorials, simulations.
 
