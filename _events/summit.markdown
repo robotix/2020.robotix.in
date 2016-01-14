@@ -72,7 +72,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * There are staircases of **varying** number of stairs.
 
-* Height, length and width of the stairs is **8 cm, 75 cm and 15 cm** respectively
+* Height, length and width of the stairs is **8 cm, 60 cm and 15 cm** respectively
 
 * The height of the staircase may vary from ± 1 cm.
 
@@ -80,7 +80,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 **Object Specification:**
 
-* These will be wooden cubes of dimension 3 cm * 3 cm * 3 cm (lxbxh).
+* These will be wooden cubes of dimension 3.5 cm * 3.5 cm * 3.5 cm (lxbxh).
 
 * The upper surface of the object will be provided with a hook for the corresponding lifting mechanism.
 
@@ -163,7 +163,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * In this round, the length, breadth and height of the arena is **4.5****m X 3.5m** respectively.
 
-* The dimension of each stair is **75cm x 15 cm x 8 cm (lxbxh)**
+* The dimension of each stair is **60cm x 15 cm x 8 cm (lxbxh)**
 
 * The height of stair may vary from ± 1 cm.
 
@@ -196,7 +196,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * 25 points deducted for bumping into the obstruction (B)
 
-* 25 points will be deducted for each time out(1 allowed) (T)
+* 50 points will be deducted for each time out(1 allowed) (T)
 
 * 50 points deducted if the robot falls down the stairs (Q)
 
@@ -204,7 +204,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 ####Formula
 
-75(F) + t’(t) x time remaining + 50(D) - 25(B) - 25(T) - 50(Q)- 100(R)
+75(F) + t’(t) x time remaining + 50(D) - 25(B) - 50(T) - 50(Q)- 100(R)
 
 ####ROUND 2
 
@@ -229,11 +229,11 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * In this round the dimensions of the arena is 4.55m x 3.5m (l*b).
 
-* The dimension of each stair is 75 cm x 15 cm x 8 cm(lxbxh).
+* The dimension of each stair is 60 cm x 15 cm x 8 cm(lxbxh).
 
 * The height of stair might vary from ± 1cm.**
 
-* The dimension of each object is 3cm x 3cm x 3cm
+* The dimension of each object is 3.5cm x 3.5cm x 3.5cm
 
 **Task:**
 
@@ -267,11 +267,9 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * Time factor (t)
 
-* 50 points awarded for completing each 90 degree turn (P)
-
 * 25 points deducted for bumping into the obstruction or wall (B)
 
-* 25 points will be deducted for each time out(2 allowed) (T)
+* 50 points will be deducted for each time out(2 allowed) (T)
 
 * 50 points deducted if the robot falls down the stairs (Q)
 
@@ -285,7 +283,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 ####Formula
 
-75(F) + t’(t) x time left + 50(P) + 50(BP) + 75(BD) - 25(B) - 25(BF) - 25(T) - 50(Q)- 100(R)
+75(F) + t’(t) x time left + 50(BP) + 75(BD) - 25(B) - 25(BF) - 50(T) - 50(Q)- 100(R)
 
 ####ROUND 3
 
