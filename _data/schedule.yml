@@ -2,7 +2,6 @@
   date: "2016-01-21"
   dateReadable: "January 21"
   tracks: 
-    - {title: "Droid Blitz", color: "#90be4e"}
     - {title: "Summit", color: "#03a9f4"}
     - {title: "Warehouse", color: "#e91e63"}
     - {title: "Sherlock", color: "#e91e63"}
@@ -10,17 +9,16 @@
   timeslots:
     - {
     	startTime: "16:00",
-    	sessionIds: [010, 010, 010, 010, 010]
+    	sessionIds: [010, 010, 010, 010]
     }
     - {
         startTime: "18:00",
-        sessionIds: [404, 001, 404, 404, 404]
+        sessionIds: [001, 404, 404, 404]
     }
 - 
   date: "2016-01-22"
   dateReadable: "January 22"
   tracks: 
-    - {title: "Droid Blitz", color: "#90be4e"}
     - {title: "Summit", color: "#03a9f4"}
     - {title: "Warehouse", color: "#e91e63"}
     - {title: "Sherlock", color: "#e91e63"}
@@ -28,17 +26,16 @@
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [404, 004, 007, 004, 004]
+        sessionIds: [004, 007, 004, 004]
     }
     - {
         startTime: "22:00",
-        sessionIds: [404, 002, 404, 404, 404]
+        sessionIds: [002, 404, 404, 404]
     }
 - 
   date: "2016-01-23"
   dateReadable: "January 23"
   tracks: 
-    - {title: "Droid Blitz", color: "#90be4e"}
     - {title: "Summit", color: "#03a9f4"}
     - {title: "Warehouse", color: "#e91e63"}
     - {title: "Sherlock", color: "#e91e63"}
@@ -46,17 +43,16 @@
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [404, 005, 008, 005, 005]
+        sessionIds: [005, 008, 005, 005]
     }
     - {
         startTime: "20:00",
-        sessionIds: [404, 003, 404, 404, 404]
+        sessionIds: [003, 404, 404, 404]
     }
 - 
   date: "2016-01-24"
   dateReadable: "January 24"
   tracks: 
-    - {title: "Droid Blitz", color: "#90be4e"}
     - {title: "Summit", color: "#03a9f4"}
     - {title: "Warehouse", color: "#e91e63"}
     - {title: "Sherlock", color: "#e91e63"}
@@ -64,9 +60,9 @@
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [404, 404, 009, 006, 006]
+        sessionIds: [404, 009, 006, 006]
     }
     - {
         startTime: "10:00",
-        sessionIds: [404, 006, 404, 404, 404]
+        sessionIds: [006, 404, 404, 404]
     }
