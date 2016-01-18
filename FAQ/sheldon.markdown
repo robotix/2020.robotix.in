@@ -50,4 +50,4 @@ Q: Do I have to make the robot wired / wireless?
 
 Q: What is the model of the overhead camera?
 
-	Logitech B910 HD Webcam
+	Logitech B910 HD Webcam / Genius WideCam F100
