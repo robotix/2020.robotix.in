@@ -26,8 +26,10 @@
                         {{ startTime[0] }}<span>{{ startTime[1] }}</span>
                     </time>
                     <time class="end-time" itemprop="endDate" datetime="{{ day.dateReadable }}T{{ timeslot.endTime }}">
+                        {% if timeslot.endTime != null %}
                         {% assign endTime = timeslot.endTime | split: ":" %}
                         {{ endTime[0] }}<span>{{ endTime[1] }}</span>
+                        {% endif %}
                     </time>
                 </div>
                 <div class="timeslot-elements flexbox-wrapper">
@@ -41,6 +43,7 @@
                                     <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <p style="font-size: 10pt;">{{ session.place }}</p>
                                     </div>
                                 </div>
                                 {% elsif slot == session.id and session.service != null %}
@@ -48,8 +51,8 @@
                                     <div class="color-line"></div>
                                     <div class="slot-content">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        {% if session.description != null %}
-                                        <p class="service-description">{{ session.description }}</p>
+                                        {% if session.place != null %}
+                                        <p class="service-description">{{ session.place }}</p>
                                         {% endif %}
                                     </div>
                                 </div>

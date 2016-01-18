@@ -9,14 +9,12 @@
     - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [003, 003, 003, 003, 003]
+    	startTime: "16:00",
+    	sessionIds: [010, 010, 010, 010, 010]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [003, 404, 004, 003, 003]
+        startTime: "18:00",
+        sessionIds: [404, 001, 404, 404, 404]
     }
 - 
   date: "2016-01-22"
