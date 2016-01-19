@@ -3,9 +3,9 @@
   dateReadable: "January 21"
   tracks: 
     - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#e91e63"}
-    - {title: "Sherlock", color: "#e91e63"}
-    - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
+    - {title: "Warehouse", color: "#03a9f4"}
+    - {title: "Sherlock", color: "#03a9f4"}
+    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
   timeslots:
     - {
     	startTime: "16:00",
@@ -20,13 +20,13 @@
   dateReadable: "January 22"
   tracks: 
     - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#e91e63"}
-    - {title: "Sherlock", color: "#e91e63"}
-    - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
+    - {title: "Warehouse", color: "#03a9f4"}
+    - {title: "Sherlock", color: "#03a9f4"}
+    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [004, 007, 004, 004]
+        sessionIds: [004, 007, 014, 011]
     }
     - {
         startTime: "22:00",
@@ -37,13 +37,13 @@
   dateReadable: "January 23"
   tracks: 
     - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#e91e63"}
-    - {title: "Sherlock", color: "#e91e63"}
-    - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
+    - {title: "Warehouse", color: "#03a9f4"}
+    - {title: "Sherlock", color: "#03a9f4"}
+    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [005, 008, 005, 005]
+        sessionIds: [005, 008, 015, 012]
     }
     - {
         startTime: "20:00",
@@ -54,13 +54,13 @@
   dateReadable: "January 24"
   tracks: 
     - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#e91e63"}
-    - {title: "Sherlock", color: "#e91e63"}
-    - {title: "S.H.E.L.D.O.N.", color: "#e91e63"}
+    - {title: "Warehouse", color: "#03a9f4"}
+    - {title: "Sherlock", color: "#03a9f4"}
+    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
   timeslots:
     - {
         startTime: "09:00",
-        sessionIds: [404, 009, 006, 006]
+        sessionIds: [404, 009, 016, 013]
     }
     - {
         startTime: "10:00",
