@@ -13,4 +13,13 @@ schedule:
         startTime: "21:30",
         sessionIds: [002]
       }
-
+  -
+    date: "2016-1-22"
+    dateReadable: "January 22"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "01:00",
+        sessionIds: [003]
+      }

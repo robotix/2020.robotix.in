@@ -6,4 +6,7 @@
   id: 002
   title: "Practice rounds for Summit"
   description: "Participants are requested to proceed to the Summit arena for their practice rounds"
-
+-
+  id: 003
+  title: "RFID tags have been released for the event Sherlock"
+  banner: /img/event/warehouse/rfid.jpg
