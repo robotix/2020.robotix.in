@@ -1,0 +1,11 @@
+schedule:
+  -
+    date: "2016-1-21"
+    dateReadable: "January 21"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "17:30",
+        sessionIds: [001]
+      }

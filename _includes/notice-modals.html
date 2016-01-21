@@ -1,0 +1,35 @@
+<!-- Begin Sessions Modals -->
+<div class="modals" class="modals">
+	{% for session in site.data.notices %}
+		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icn icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						<h4>{{ session.title }}</h4>
+						{% if session.video %}
+						<div class="theme-video embed-responsive embed-responsive-16by9">
+						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
+						</div>
+						{% endif %}
+						{% if session.banner %}
+						<img class="img-responsive" src="{{ session.banner }}">
+						</img>
+						{% endif %}
+						<p class="theme-description">{{ session.description }}</p>
+						{% for link in session.links %}
+						<a class="theme-link" href="{{ link.src }}" title="{{ link.title }}" target="_blank">{{ link.title }}</a>
+						{% endfor %}
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+<!-- End Speakers Modals -->
