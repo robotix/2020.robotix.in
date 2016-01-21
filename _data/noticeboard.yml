@@ -9,3 +9,8 @@ schedule:
         startTime: "17:30",
         sessionIds: [001]
       }
+      - {
+        startTime: "21:30",
+        sessionIds: [002]
+      }
+

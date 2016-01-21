@@ -3,9 +3,7 @@
   title: "Registrations will begin from 5:30 PM at Robotix Arena"
   description: "Please bring your robots along with you for registration."
 -
-  id: 353
-  title: "KRAIG 102"
-  description: "Building your own robosoccer bot!"
-  links:
-    - { title: "View presentation", src: "https://prezi.com/rvfji2afblir/kraig-102/"} 
-  video: "https://123d.circuits.io/circuits/957000-relays/embed#breadboard"
+  id: 002
+  title: "Practice rounds for Summit"
+  description: "Participants are requested to proceed to the Summit arena for their practice rounds"
+
