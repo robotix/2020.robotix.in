@@ -50,8 +50,8 @@ eventDate: "21st Jan - 24th Jan, 2016"
 typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
- - {permalink: "/event", text: "Explore our events"}
- - {permalink: "/#latest-blog", text: "Explore our blog"}
+ - {permalink: "/schedule", text: "Event Schedule"}
+ - {permalink: "/noticeboard", text: "Fest Noticeboard"}
 
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
