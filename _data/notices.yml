@@ -22,3 +22,8 @@
 -
   id: 007
   title: "Round 1 fir the events Summit and S.H.E.L.D.O.N. have begun. Participants must proceed to the respective arenas."
+-
+  id: 008
+  title: "IMPORTANT NOTICE for S.H.E.L.D.O.N. participants."
+  description: "Scoring rules and information about further rounds."
+  banner: /img/event/sheldon/rules.jpg
