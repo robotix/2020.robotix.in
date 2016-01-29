@@ -67,10 +67,10 @@ aboutBlock:
     text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics."
     link: "/kriss/"
   - 
-    title: "R.S.E."
+    title: "Winter Workshop"
     image: "rse.jpg"
-    text: "#GearUp and apply now to be a part of the Team Robotix!"
-    link: "/rse/"
+    text: "See the complete documentation of the winter workshop we conduct anually for first and second year undergraduates of IIT Kharagpur."
+    link: "/winter-workshop/"
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
