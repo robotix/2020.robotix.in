@@ -154,3 +154,14 @@
   banner: "/img/session/016/pathfinder.jpg"
   links:
     - { title: "Register your team", src: "https://www.facebook.com/events/793813150729845/"}
+-
+  id: 017
+  title: "Robot Operating System (ROS) Talk"
+  description: "Robot Operating System (ROS) is a collection of software frameworks for robot software development, providing operating system-like functionality on a heterogeneous computer cluster."
+  subtype: workshop
+  language: en
+  complexity: "Advanced"
+  speakers: [12]
+  banner: "/img/session/017/notice.jpg"
+  links:
+    - { title: "View presentation", src: "http://prezi.com/kphcfvbfv502/?utm_campaign=share&utm_medium=copy"}

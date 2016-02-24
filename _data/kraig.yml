@@ -121,3 +121,14 @@ schedule:
         endTime: "",
         sessionIds: [016]
       }
+  -
+    date: "2016-2-24"
+    dateReadable: "February 24"
+    tracks:
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [017]
+      }
