@@ -1,7 +1,7 @@
 <!-- Begin Floating Action button-->
 <ul class="fab">
 	{% for action in page.actions %}
-	<li>
+	<li class="hide">
 		<div class="tooltip left" role="tooltip">
 			<div class="tooltip-arrow"></div>
 			<div class="tooltip-inner">{{ action.caption }}</div>
@@ -18,8 +18,8 @@
 	</li>
 	{% endfor %}
 	<li>
-		<input type="text" class="search input-sm form-control" placeholder="Search the site...">
-		<button class="btn btn-danger waves-circle waves-effect waves-light waves-float rotate">
+		<input type="text" class="search input-sm form-control hide" placeholder="Search the site...">
+		<button class="btn btn-danger waves-circle waves-effect waves-light waves-float fab-hide">
 		    <h4 class="fab-text media-middle"><b>+</b></h4>
 		</button>
 	</li>
