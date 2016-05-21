@@ -53,6 +53,7 @@
       title: "Head"
       thumbnailUrl: abhinav.jpg
       team: true
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
         - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
@@ -63,6 +64,7 @@
       title: "Head"
       thumbnailUrl: aditya_narayan.jpg
       team: true
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
         - {name: "site", link: "http:///narayanaditya.in"}
@@ -84,6 +86,7 @@
       title: "Head"
       thumbnailUrl: mratunjay.jpg
       team: true
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
         - {name: "email", link: "mailto:mratunjay@robotix.in"}
