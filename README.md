@@ -12,7 +12,7 @@ Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, 
 ### Quick-start guide
 1. [Fork](https://github.com/gdg-x/zeppelin/fork) this repo
 2. Clone locally
-3. Update ```_config.yml``` 
+3. Update ```_config.yml```
 4. Select what content blocks do you need
 5. Push changes to ```gh-pages``` branch
 6. Enjoy your awesome Robotix site at ```http://[your github name].github.io/```
@@ -72,4 +72,6 @@ Quick-start guide is not enough? Checkout [full documentation](https://github.co
 ### Contributors
 * Aditya Narayan
 * Abhinav Jain
+* Pranit Bauva
+* Shivang Agrawal
 * Sourish Ghosh
