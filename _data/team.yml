@@ -122,16 +122,6 @@
 - title: "Sub Head"
   team:
     -
-      id: 25
-      name: "Aayushman"
-      surname: "Sharma"
-      title: "Sub Head"
-      thumbnailUrl: aayushman.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/aayushman.sharma.5"}
-        - {name: "email", link: "mailto:aayushman@robotix.in"}
-    -
       id: 26
       name: "Aditya Sanjay"
       surname: "Boob"
