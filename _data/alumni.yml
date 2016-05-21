@@ -1,3 +1,80 @@
+- title: "2016"
+  team:
+    -
+      id: 0
+      name: "Yogesh"
+      surname: "Poddar"
+      thumbnailUrl: yogesh_poddar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/yogesh.poddar.77"}
+        - {name: "email", link: "mailto:yogesh@robotix.in"}
+
+    -
+      id: 1
+      name: "Soumyadeep"
+      surname: "Mukherjee"
+      thumbnailUrl: soumyadeep_mukherjee.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/soumyadeep.mukherjee17"}
+        - {name: "email", link: "mailto:soumyadeep@robotix.in"}
+    -
+      id: 3
+      name: "Rahul"
+      surname: "Jhawar"
+      thumbnailUrl: rahul_jhawar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rahuljhawar.iitkgp"}
+        - {name: "email", link: "mailto:rahuljhawar@robotix.in"}
+    -
+      id: 4
+      name: "Payal"
+      surname: "Priyadarshini"
+      thumbnailUrl: payal_priyadarshini.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/payal.priyadarshini.3"}
+        - {name: "email", link: "mailto:payal@robotix.in"}
+    -
+      id: 8
+      name: "Deepak"
+      surname: "Agarwal"
+      thumbnailUrl: deepak_agarwal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/Deepak0306"}
+        - {name: "email", link: "mailto:deepak@robotix.in"}
+    -
+      id: 9
+      name: "Anushka"
+      surname: "Gupta"
+      thumbnailUrl: anushka_gupta.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/#!/anushkalakshmi"}
+        - {name: "email", link: "mailto:anushka@robotix.in"}
+    -
+      id: 11
+      name: "Ashutosh"
+      surname: "Baheti"
+      thumbnailUrl: ashutosh_baheti.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ashutosh.baheti.33?fref=ts"}
+        - {name: "email", link: "mailto:ashutosh@robotix.in"}
+    -
+      id: 12
+      name: "Ayush"
+      surname: "Garg"
+      thumbnailUrl: ayush_garg.jpg
+      team: true
+      tag: Governor
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
+        - {name: "email", link: "mailto:ayush.garg@robotix.in"}
+    -
 - title: "2015"
   team:
     -
