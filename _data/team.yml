@@ -117,7 +117,7 @@
       id: 26
       name: "Aditya Sanjay"
       surname: "Boob"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: aditya_boob.jpg
       team: true
       tag: Computer Vision
@@ -128,7 +128,7 @@
       id: 27
       name: "Manash Pratim"
       surname: "Das"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: manash.jpg
       team: true
       tag: Autonomous
@@ -139,7 +139,7 @@
       id: 28
       name: "Rajat"
       surname: "Chaurasia"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: rajat.jpg
       team: true
       tag: Manual
@@ -149,7 +149,7 @@
       id: 29
       name: "Shashwat"
       surname: "Gupta"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: shashwat.jpg
       team: true
       tag: Autonomous
@@ -160,7 +160,7 @@
       id: 30
       name: "Shubhangi"
       surname: "Bhushan"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: shubhangi.jpg
       team: true
       tag: Manual
@@ -171,7 +171,7 @@
       id: 31
       name: "Shweta"
       surname: "Gupta"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: shweta.jpg
       team: true
       tag: Manual
@@ -182,7 +182,7 @@
       id: 32
       name: "Siddharth"
       surname: "Jha"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: siddharth.jpg
       team: true
       tag: Autonomous
@@ -193,7 +193,7 @@
       id: 33
       name: "Sourish"
       surname: "Ghosh"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: sourish.jpg
       team: true
       tag: Computer Vision
@@ -205,7 +205,7 @@
       id: 34
       name: "Vraj"
       surname: "Parikh"
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: vraj.jpg
       team: true
       tag: Autonomous
