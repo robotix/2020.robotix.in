@@ -48,8 +48,6 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/vipasha.jain.73"}
         - {name: "email", link: "mailto:vipasha@robotix.in"}
-- title: "Head"
-  team:
     -
       id: 17
       name: "Abhinav"
@@ -117,6 +115,10 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
         - {name: "email", link: "mailto:rohan@robotix.in"}
+
+- title: "Head"
+  team:
+
 - title: "Sub Head"
   team:
     -
