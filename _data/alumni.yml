@@ -70,7 +70,6 @@
       surname: "Garg"
       thumbnailUrl: ayush_garg.jpg
       team: true
-      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/gargayush792?fref=ts"}
         - {name: "email", link: "mailto:ayush.garg@robotix.in"}
