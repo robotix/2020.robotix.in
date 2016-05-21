@@ -50,7 +50,6 @@
       id: 17
       name: "Abhinav"
       surname: "Jain"
-      title: "Head"
       thumbnailUrl: abhinav.jpg
       team: true
       tag: Governor
@@ -61,7 +60,6 @@
       id: 18
       name: "Aditya"
       surname: "Narayan"
-      title: "Head"
       thumbnailUrl: aditya_narayan.jpg
       team: true
       tag: Governor
@@ -73,7 +71,6 @@
       id: 19
       name: "Apoorva"
       surname: "Sharma"
-      title: "Head"
       thumbnailUrl: apoorva_sharma.jpg
       team: true
       social:
@@ -83,7 +80,6 @@
       id: 20
       name: "Mratunjay"
       surname: "Gupta"
-      title: "Head"
       thumbnailUrl: mratunjay.jpg
       team: true
       tag: Governor
@@ -94,7 +90,6 @@
       id: 22
       name: "Riya"
       surname: "Bubna"
-      title: "Head"
       thumbnailUrl: riya.jpg
       team: true
       social:
@@ -104,7 +99,6 @@
       id: 23
       name: "Rohan"
       surname: "Lohia"
-      title: "Head"
       thumbnailUrl: rohan.jpg
       team: true
       social:
