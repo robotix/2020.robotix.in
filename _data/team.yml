@@ -120,6 +120,7 @@
       title: "Sub Head"
       thumbnailUrl: aditya_boob.jpg
       team: true
+      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001453733595"}
         - {name: "email", link: "mailto:adityasanjay@robotix.in"}
@@ -130,6 +131,7 @@
       title: "Sub Head"
       thumbnailUrl: manash.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
         - {name: "email", link: "mailto:manash@robotix.in"}
@@ -140,6 +142,7 @@
       title: "Sub Head"
       thumbnailUrl: rajat.jpg
       team: true
+      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
     -
@@ -149,6 +152,7 @@
       title: "Sub Head"
       thumbnailUrl: shashwat.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
         - {name: "email", link: "mailto:shashwat@robotix.in"}
@@ -159,6 +163,7 @@
       title: "Sub Head"
       thumbnailUrl: shubhangi.jpg
       team: true
+      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/shubhangi.bhushan"}
         - {name: "email", link: "mailto:shubhangi@robotix.in"}
@@ -169,6 +174,7 @@
       title: "Sub Head"
       thumbnailUrl: shweta.jpg
       team: true
+      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
         - {name: "email", link: "mailto:shweta@robotix.in"}
@@ -179,6 +185,7 @@
       title: "Sub Head"
       thumbnailUrl: siddharth.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
         - {name: "email", link: "mailto:siddharth@robotix.in"}
@@ -189,6 +196,7 @@
       title: "Sub Head"
       thumbnailUrl: sourish.jpg
       team: true
+      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/Sourish69"}
         - {name: "github", link: "https://github.com/sourishg"}
@@ -200,6 +208,7 @@
       title: "Sub Head"
       thumbnailUrl: vraj.jpg
       team: true
+      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
         - {name: "email", link: "mailto:vraj@robotix.in"}
