@@ -5,7 +5,7 @@ safe: false
 
 # Build Settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 exclude: ['/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
 
