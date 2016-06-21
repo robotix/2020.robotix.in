@@ -297,10 +297,8 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 ###Contact
 
-####Rohan Lohia
-**(91) 7872846690**  
+####Rohan Lohia  
 **rohan@robotix.in**
 
-####Apoorva Sharma
-**(91) 9800105345**  
+####Apoorva Sharma  
 **apoorva.sharma@robotix.in**

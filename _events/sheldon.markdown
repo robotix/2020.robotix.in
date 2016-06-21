@@ -201,6 +201,5 @@ Build an image processing robot capable of detecting characters, using an overhe
 
 ###Contact
 
-####Abhinav Jain
-**(91) 7872835053**  
+####Abhinav Jain  
 **abhinav.jain@robotix.in**

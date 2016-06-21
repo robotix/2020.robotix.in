@@ -316,10 +316,8 @@ The constants `A` and `B` will be declared during the fest.
 
 ###Contact
 
-####Aditya Narayan
-**(91) 8609283200**  
+####Aditya Narayan  
 **aditya.narayan@robotix.in**
 
-####Mratunjay Gupta
-**(91) 8609266778**  
+####Mratunjay Gupta  
 **mratunjay@robotix.in**

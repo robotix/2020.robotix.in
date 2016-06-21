@@ -294,10 +294,8 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 ###Contact
 
-####Mratunjay Gupta
-**(91) 8609266778**  
+####Mratunjay Gupta  
 **mratunjay@robotix.in**
 
-####Riya Bubna
-**(91) 9007388802**  
+####Riya Bubna  
 **riya@robotix.in**
