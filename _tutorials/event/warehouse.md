@@ -5,7 +5,7 @@ categories:
   - event
 ---
 
-###RFID Reader
+### RFID Reader
 
 Radio-Frequency IDentification (RFID) is the wireless use of electromagnetic fields to transfer data, for the purposes of automatically identifying and tracking tags attached to objects. The tags contain electronically stored information.
 
@@ -93,7 +93,7 @@ void loop()
 }
 {% endhighlight %}
 
-###Forklift Mechanism
+### Forklift Mechanism
 
 **Introduction:**
 
@@ -143,7 +143,7 @@ A rack and pinion is a type of linear actuator that comprises a pair of gears wh
 - Due to this push, the platform moves down, and hence there is a downward tension in the string of pulley.
 - Due to this tension, the forklift rises up.
 
-####ACCELEROMETER
+#### ACCELEROMETER
 
 As the name suggests, Accelerometer is a device which measures acceleration.
 Accelerometers are of different sensitivities and ranges. There are accelerometers which measure acceleration in only 2 axes or only 1 axis. Accelerometers with lower ranges such as the ones with 1.5g or 2 g are more sensitive than the ones which have 16 g as their range. The more sensitive accelerometers can be used for measuring tilt whereas the less sensitive ones (such as the one which has range 16 g) can be used to measure shock.

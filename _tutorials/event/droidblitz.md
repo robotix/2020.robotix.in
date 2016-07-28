@@ -5,7 +5,7 @@ categories:
   - event
 ---
 
-###Problem Statement
+### Problem Statement
 
 **"Build a pair of manually controlled robots that coordinate with each other to rebuild the broken pathway and fill the water puddles."**
 
@@ -17,11 +17,11 @@ Therefore your robot needs to have the following abilities-
 
 * Robotic arm mechanism
 
-###How this Tutorial works
+### How this Tutorial works
 
 This is a guide for an enthusiast like you to explore your own imagination and incorporate  them in your robot for ROBOTIX '16 edition.The tutorial lists out all the skills that the event requires your bot to have and tells you exactly how you can implement each of them. And finally, find our ‘Tips’ to put together all your mechanisms and build a winning robot!
 
-####MECHANISM 1 | Water Traversal( Paddle)
+#### MECHANISM 1 | Water Traversal( Paddle)
 
 **Designing a Robot Boat**
 
@@ -59,7 +59,7 @@ The method used here was to take a **wooden dowel**, bandsaw a slit into it, pla
 
 **[This](https://www.youtube.com/watch?v=GhYmtSW7TNI)** link shows the paddle mechanism.
 
-####MECHANISM 2 | Water Traversal (Propeller)
+#### MECHANISM 2 | Water Traversal (Propeller)
 
 Working Principle:
 
@@ -101,7 +101,7 @@ We have used a polymorph extruded tube to pass, give structure and pass the moto
 
 ![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_6.png){:class="img-responsive"}
 
-####MECHANISM 3| Differential Drive
+#### MECHANISM 3| Differential Drive
 
 ![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_7.jpg){:class="img-responsive"}
 
@@ -183,7 +183,7 @@ This is the circuit design for differential drive.
 
 The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors.
 
-####MECHANISM 4 | Robotic Arm
+#### MECHANISM 4 | Robotic Arm
 
 **Design:**
 
@@ -245,7 +245,7 @@ The gripping mechanism is to be used to pick up objects from the pier and place 
 
 ![]({{ site.baseurl }}/img/tutorial/event/droidblitz/image_19.png){:class="img-responsive"}
 
-####MECHANISM 5 | Amphibious Bot
+#### MECHANISM 5 | Amphibious Bot
 
 **Design:**
 

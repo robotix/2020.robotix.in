@@ -5,7 +5,7 @@ categories:
   - event
 ---
 
-####Magnetic Heading Sensor
+#### Magnetic Heading Sensor
 
 Hardware Required:
 
@@ -134,7 +134,7 @@ void loop(void)
 }
 {% endhighlight %}
 
-####IR signal receiver and Decoder
+#### IR signal receiver and Decoder
 
 *Hardware Required: A TSOP1738 IR receiver*
 

@@ -45,18 +45,18 @@ actions:
 ---
 
 
-###Introduction
+### Introduction
 Stair Climbing has always been one area that roboticists have wanted to conquer, considering the ease with which humans do it and the same degree of technical difficulties robots face while doing so. Adding a competitive edge to an already challenging research area, manual event Summit brings an opportunity for the best innovators across the region to aid the design and development of such mechanisms.
 
-###USP
+### USP
 
 - Stair climbing
 
-###PROBLEM STATEMENT
+### PROBLEM STATEMENT
 
 Build a manually controlled robot capable of climbing staircases, whilst picking, storing and placing objects  on its way.
 
-###TASK
+### TASK
 
 * Climb stairs of **uniform height** to reach a higher level platform.
 
@@ -64,9 +64,9 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * Deposit the objects to the respective deposit zones based on their color.
 
-###ARENA
+### ARENA
 
-####ARENA COMPONENTS
+#### ARENA COMPONENTS
 
 **Stair Specification:**
 
@@ -105,9 +105,9 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * Dimensions of the arena are to be considered with a maximum tolerance of 10%.
 
-###RULES
+### RULES
 
-####General Rules
+#### General Rules
 
 * All arena dimensions may have a tolerance (error) of up to 10%.
 
@@ -125,7 +125,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * **The rules are subject to change.**
 
-####Event Rules
+#### Event Rules
 
 * The robot can have any suitable mechanism to climb up the stairs without damaging the arena.
 
@@ -140,7 +140,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 
 * The third round will be One-on-One whose arena will be disclosed during the event. No additional mechanism will be required for it.
 
-####ROUND 1
+#### ROUND 1
 
 **Arena:**
 
@@ -186,7 +186,7 @@ Build a manually controlled robot capable of climbing staircases, whilst picking
 * Restarts allowed : 1
 NOTE: Restarts will be given only for **technical fault** in the bot.
 
-####Scoring Formula
+#### Scoring Formula
 
 * 75 points awarded for reaching a new floor (F)
 
@@ -202,11 +202,11 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * 100 points will be deducted for each restart(1 allowed) (R)
 
-####Formula
+#### Formula
 
 75(F) + t’(t) x time remaining + 50(D) - 25(B) - 50(T) - 50(Q)- 100(R)
 
-####ROUND 2
+#### ROUND 2
 
 **Arena:**
 
@@ -249,7 +249,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * After the all the blocks are placed the bot has to reach the end zone to finish the round.
 
-####Round rules
+#### Round rules
 
 * Maximum time: **5** minutes.
 
@@ -261,7 +261,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 NOTE: Restarts will be given only for **technical fault** in the bot.
 
-####Scoring Formula:
+#### Scoring Formula:
 
 * 75 points awarded for reaching a new floor (F)
 
@@ -281,11 +281,11 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * 25 points deducted if the block falls from the robot (BF)
 
-####Formula
+#### Formula
 
 75(F) + t’(t) x time left + 50(BP) + 75(BD) - 25(B) - 25(BF) - 50(T) - 50(Q)- 100(R)
 
-####ROUND 3
+#### ROUND 3
 
 **Round Rules:**
 
@@ -295,10 +295,10 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * No extra mechanical changes will be required for the bot.
 
-###Contact
+### Contact
 
-####Rohan Lohia  
+#### Rohan Lohia  
 **rohan@robotix.in**
 
-####Apoorva Sharma  
+#### Apoorva Sharma  
 **apoorva.sharma@robotix.in**

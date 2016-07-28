@@ -44,21 +44,21 @@ actions:
     target: '_blank'
 ---
 
-###Introduction
+### Introduction
 
 Sherlock is stuck in a featureless desert wasteland with nothing but a compass in his pocket. He must find his way out using the clues scattered in the desert.
 
-###USP
+### USP
 
  -  IR signal reception and decoding 
  -  Path optimisation
  -  Magnetic heading following
 
-###Problem Statement
+### Problem Statement
 
 Build an autonomous robot that can follow compass headings to go from start to finish using IR receiver to receive arena and waypoint information, while optimizing its path.
 
-###Description
+### Description
  -  The arena consists of a start, a finish points and other intermediate waypoints. The start, finish and waypoints are collectively referred here as *POI* (points of interest).  
  Each POIs is identified by its unique ID.
  -  These POIs have a circular area of 5 cm radius with IR transmitters on the centre. The IR transmitter transmits ID of the respective POI and other information as stated below.
@@ -69,9 +69,9 @@ Build an autonomous robot that can follow compass headings to go from start to f
  -  Heading and magnetic heading as mentioned henceforth, refer to the direction with respect to the magnetic north direction of the Earth at that position.  
  So if heading to a point is 90 degrees, it points towards East. 
 
-###Arena
+### Arena
 
-####Depictive Arena
+#### Depictive Arena
 
  -  Legend:
      -  Red POI: Start POI
@@ -81,23 +81,23 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
 ![](/img/event/sherlock/image00.png){:.img-responsive}
 
-####Sample Arena
+#### Sample Arena
 
-#####Round 1
+##### Round 1
 
 ![Round 1](/img/event/sherlock/image01.png){:.img-responsive}
 
-#####Round 2
+##### Round 2
 
 ![Round 2](/img/event/sherlock/image02.png){:.img-responsive}
 
-#####Actual Arena
+##### Actual Arena
 
 ![Actual Arena](/img/event/sherlock/image03.png){:.img-responsive}
 
-###Task
+### Task
 
-####Round 1
+#### Round 1
 
  -  Each waypoint will provide heading to a single POI. For example, waypoint 2 transmits the info for waypoint 4 in format as follows:  
 
@@ -132,7 +132,7 @@ Build an autonomous robot that can follow compass headings to go from start to f
  -  If the bot gets lost in the arena and stumbles upon a POI, then it has to plan a way to continue its pre planned path going through valid edges.
 
 
-####Round 2
+#### Round 2
 
  -  Each POI will provide heading to a single or multiple different other POIs. For example, waypoint 3 transmits that it's connected to waypoint 2,6 and 5 in  format as follows:
 
@@ -193,16 +193,16 @@ Build an autonomous robot that can follow compass headings to go from start to f
  -  If the bot gets lost in the arena and comes back to a POI, then it has to plan a way to continue its pre planned path going through valid edges.
 
 
-###Rounds
+### Rounds
 
-####Round 1
+#### Round 1
 
 - Each waypoint will send the bot to only one other waypoint.
 - The bot must simply follow the directions to the finish POI.
 - The round will be of 3 minutes duration, after which the run would be stopped immediately and score would be calculated.
 - If finish point is reached then the bot has to flash an LED.
 
-####Round 2
+#### Round 2
 
 - Waypoints will be transmitting heading and cost information for single or multiple other waypoints.
 - Start POI will transmit the heading and cost for its immediate neighbour POIs and providing referencing information for the entire arena, i.e. which waypoints each waypoint on the arena provides the headings for.
@@ -210,9 +210,9 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - Once the bot reaches the finish point it must flash an LED.
 - The round will be of 5 minutes duration, after which the run would be stopped immediately and score would be calculated.
 
-###Rules and Specifications
+### Rules and Specifications
 
-####General Rules
+#### General Rules
 
 - The robot should be completely autonomous.
 - All arena dimensions have a tolerance of 10%.
@@ -222,7 +222,7 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - The right spirit of participation is expected from the participants.
 - The decision of the Team ROBOTIX will be final and binding.
 
-####Technical Rules
+#### Technical Rules
 
 - A standard 220 volt AC supply will be provided by Team Robotix in the arena.
 - All circuitry and sensory equipment should be placed on the robot adhering to the ROBOT SPECIFICATIONS.
@@ -231,9 +231,9 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - The robot can be powered on-board as well as off-board.
 - No kind of external control will be allowed.
 
-####Event Rules
+#### Event Rules
 
-#####Robot Specifications
+##### Robot Specifications
 
 - Each robot can have maximum dimension of `25cm * 25cm * 20cm` (L*B*H) respectively. 
 - No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences.
@@ -243,18 +243,18 @@ Build an autonomous robot that can follow compass headings to go from start to f
 - The bots should not harm the Sherlock event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 - Processors of less than 16-bits are allowed. ARM processors are not allowed.
 
-#####POIs:
+##### POIs:
 
 - The POIs are small holes in the arena that have an IR LED inserted into each of them. The range is such that the TSOP1738 IR Receiver can detect a POI from a distance of about 2 cm from the POI.
 - The POIs would transmit binary data at 38KHz frequency in strictly *NEC IR* format. The format has been detailed in the [Sherlock tutorial](/tutorial/event/sherlock/). 
 
-#####Magnetic Heading:
+##### Magnetic Heading:
 
 - The magnetic heading would strictly be calculated with respect to north pole of earth wrt IIT Kharagpur campus. Although, the code doesn’t require calibration as long as it is written anywhere in India/neighbours
 - We have used [Adafruit HMC5883L library](https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor/wiring-and-test) for calibration. Usage of other compass modules or other libraries is not recommended and any discrepancies thus caused would not be the responsibility of Team Robotix.
 - The magnetic heading would be given in degrees from 0 to 359 and not in radians.
 
-#####Restarts/Timeouts:
+##### Restarts/Timeouts:
 
  -  In Round 1, the participant can take a maximum of 1 timeout of 2 minutes. In Round 2, 2 such timeouts may be taken.
     Penalty will be imposed for each timeout and the robot will start from the last POI crossed.
@@ -263,38 +263,38 @@ Build an autonomous robot that can follow compass headings to go from start to f
  -  Restarts will only be awarded to the participant in case of a technical failure of the bot.
  -  If the robot goes outside the arena, then the team has to take a restart or call off their run.
 
-###Scoring
+### Scoring
 
-####Round 1
+#### Round 1
 
-######Base Score: `1000`
+###### Base Score: `1000`
 
-#####Rewards
+##### Rewards
 
  -  Reaching the Finish POI: `500` **(F)**
  -  Reaching each valid POI: `100` **(P)**
 
-#####Penalties
+##### Penalties
  -  Traversing an invalid edge once: `-200` **(X)**
  -  Timeout: `-250` **(T)**
  -  Restart: `-400` **(R)**
 
-#####Scoring Formula:
+##### Scoring Formula:
  -  The final score is given by:
 
     ~~~
     1000 + 500*(F) + 100*(P) - 200*(X) -250*(T) - 400*(R)
     ~~~
 
-####Round 2
+#### Round 2
 
-######Base Score: `2000`
+###### Base Score: `2000`
 
-#####Rewards
+##### Rewards
 
  -  Reach Finish POI: `1000` **(F)**
 
-#####Penalties
+##### Penalties
 
  -  Traversing an invalid edge once: `-200` **(X)**
  -  Traversing each POI: `-A` **(P)** 
@@ -304,7 +304,7 @@ Build an autonomous robot that can follow compass headings to go from start to f
 
 The constants `A` and `B` will be declared during the fest.
 
-#####Scoring Formula:
+##### Scoring Formula:
  -  The final score is given by:
 
     ~~~
@@ -314,10 +314,10 @@ The constants `A` and `B` will be declared during the fest.
  -  The team with the maximum score wins.  
     If two participants manage to get the same score, then the participant with lowest time taken is declared the winner.
 
-###Contact
+### Contact
 
-####Aditya Narayan  
+#### Aditya Narayan  
 **aditya.narayan@robotix.in**
 
-####Mratunjay Gupta  
+#### Mratunjay Gupta  
 **mratunjay@robotix.in**
