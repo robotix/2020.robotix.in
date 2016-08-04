@@ -34,22 +34,22 @@ actions:
     target: '_blank'
 ---
 
-###Problem Statement
+### Problem Statement
 
 To build a remote controlled electric-powered robot that can be used to complete broken pathways and transfer packages by running on land as well as water.
 
-###USP
+### USP
 
 - Amphibious robot
 - Coordination between two robots
 
-###Task
+### Task
 
 * Build a robot/a pair of robots that can be used to perform tasks on land and water.
 
 * Complete broken pathways by placing blocks kept on land in the given slots.
 
-###Robot specification
+### Robot specification
 
 * Participants can bring two separate robots one that travels on land and one that moves on water or they can bring a single amphibious robot that can travel both on land as well as water.
 
@@ -57,7 +57,7 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 * A pair of receiver and transmitter (Rx and Tx) will be provided by organizers, on prior request of the participants. The Tx-Rx pair has 4 channels. It can be used to control a maximum of 3 servomotors. Participants who wish to use Rx and Tx provided by us, will have to make provision for this receiver on their robot. The participants can bring their own set of Rx and Tx if they want.
 
-###General Rules
+### General Rules
 
 * All arena dimensions may have a tolerance (error) of up to 10%.
 
@@ -75,7 +75,7 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 * **No submissions prior to the event are required.**
 
-###Event Rules
+### Event Rules
 
 * The participants can use any suitable mechanism for water, land traversal and for their amphibious robots.
 
@@ -87,7 +87,7 @@ To build a remote controlled electric-powered robot that can be used to complete
 
 * Robot has to move in specified channels and bumping into the arena will be penalised with negative points.
 
-####Round 1
+#### Round 1
 
 **Arena Image:**
 
@@ -164,7 +164,7 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * Timeout: -50 points
 
-####Round 2
+#### Round 2
 
 **Arena Image:**
 
@@ -242,10 +242,10 @@ NOTE: Restarts will be given only for **technical fault** in the bot.
 
 * Timeout: -50 points
 
-###Contact
+### Contact
 
-####Rohan Lohia  
+#### Rohan Lohia  
 **rohan@robotix.in**
 
-####Apoorva Sharma  
+#### Apoorva Sharma  
 **apoorva.sharma@robotix.in**

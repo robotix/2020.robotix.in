@@ -44,15 +44,15 @@ actions:
     target: '_blank'
 ---
 
-###Introduction
+### Introduction
 
 Time is money, efficiency defines our lives, yet menial work is a necessary evil. What if all menial work could be completed by a literal flick of your wrist or snap of your fingers?
 
-###Problem statement
+### Problem statement
 
 Build a gesture controlled semi-autonomous robot that is capable of sorting blocks on multi-layered platforms according to their RFID tags.
 
-###USP
+### USP
 
 * **RFID Tag Detection.**
 
@@ -60,7 +60,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 * **Gesture Controlled Traversal.**
 
-####General Arena Description & Event Setup
+#### General Arena Description & Event Setup
 
 1. The semi-autonomous robot movement and traversal has to be a **gesture controlled** (with no buttons or any keyboard), preferably using a Touchpad.
 2. There will be multiple **5 cm blocks**, each with a particular **RFID tag**.
@@ -79,9 +79,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 15. The event ends when the user has placed **all the blocks correctly** on their corresponding shelves and leaving those blocks which do not correspond to any shelf on the central platform. **All the gates must also be closed.**
 16. Some blocks will be placed on a shelf at the start of the event and they must be **checked if they are on the correct shelf.** They must be moved to the centre-platform if their RFID number belongs to none of the eight shelves and if it does belong to a certain shelf then it must be placed on that shelf.
 
-###Rounds
+### Rounds
 
-####Round 1
+#### Round 1
 
 1. The Bot will start from the Start zone which will be a **30 cm x 30 cm** square on any one adjacent side of the Arena.
 2. The bot then has to pick and place all the 6 given blocks from their initial position to whichever shelf it belongs to.
@@ -94,7 +94,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 9. A maximum of **4** minutes will be given to complete this round. The restart will only be given before **3** minutes into the round.
 10. The round ends when the bot **returns** to the start zone after completing the task.
 
-####Round 2
+#### Round 2
 
 1. The Bot will start from the Start zone which will be a **30 cm x 30 cm** square on any side of the square Arena.
 2. The bot then has to pick and place all the **9** given blocks from their initial position to whatever shelf it belongs to.
@@ -107,7 +107,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 9. A maximum of **6** minutes will be given to complete this round. The restart will only be given before **4:30** into the round.
 10. The round ends when the bot **returns** to the start zone after completing the task.
 
-###Arena
+### Arena
 
 **Descriptive View**
 
@@ -129,9 +129,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 ![]({{ site.baseurl }}/img/event/warehouse/image_4.png){:class="img-responsive"}
 
-###Rules And Specifications
+### Rules And Specifications
 
-####General Rules
+#### General Rules
 
 1. All arena dimensions may have a tolerance (error) of up to 10%.
 2. Each team can consist of a maximum of 4 members.
@@ -144,9 +144,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 9. The right spirit of participation is expected from the participants.
 10. **The decision of Team ROBOTIX will be final and binding.**
 
-####Event Rules:
+#### Event Rules:
 
-####Block
+#### Block
 
 **Isometric:**
 
@@ -161,13 +161,13 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 3. The weight of the block will not exceed 50 gms.
 4. The position of all the blocks will be decided by Team ROBOTIX.
 
-####Picking and placing up the Block
+#### Picking and placing up the Block
 
 1. Gesture controlled mechanism is compulsory.
 2. The blocks have to be picked from the shelves as **neatly** as possible and dragging must be avoided if possible.
 3. If the block falls down, there will be **penalties** and unless it has been replaced onto the shelf, no points for placement will be given.
 
-####Arena and Locomotion
+#### Arena and Locomotion
 
 1. The robot has to start from the **Start Zone**, which will be adjacent to one of the edges of the arena.
 2. The bot has to go to complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
@@ -177,12 +177,12 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 6. Gesture Control is to be used for **locomotion aswell as block controlling.**
 7. There will be a **Wall** surrounding the arena from all four sides.
 
-####Initial Orientation of Robot
+#### Initial Orientation of Robot
 
 1.  The participant is allowed to decide the initial orientation of his robot on the start zone.
 2. Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the  starting  zone  if  it  gives  the  participant  an  undue advantage, solely based on the judge's discretion.
 
-####Restarts and Timeouts
+#### Restarts and Timeouts
 
 1. A maximum of 2 Timeouts of **1 minute** each may be taken. Penalty will be awarded for each timeout and robot will start from its last position on the arena.
 2. The participant's robots can have a maximum of 2 restarts. A penalty will be imposed on the team for every restart that they take.
@@ -190,7 +190,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 4. A timeout can be taken anytime at the users discretion.
 5. A restart can only be taken if there is a genuine technical fault in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
 
-####Technical Rules
+#### Technical Rules
 
 1. All Circuitry and sensory equipment placed on the robot should be adhering to the ROBOT SPECIFICATIONS.
 2. Participants will have to bring their own programmers, cables and software. No Programmers will be supplied.
@@ -200,7 +200,7 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 6. A laptop will be allowed to be connected with the microcontroller and the bot during the run only if the user is using the laptop camera for the gesture recognition. However the user must ensure that all on board calculations except the gesture recognition are done on the 16 bit microcontroller.
 7.  Processors of more than 16-bits are not allowed. ARM processors are not allowed.
 
-####Robot Specifications
+#### Robot Specifications
 
 1. Each robot can have maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively. 
 2. No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift.
@@ -210,9 +210,9 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 6. The bots should not damage the Warehouse event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 7. Ready-made gripper is also allowed but it should be controlled using gesture only.
 
-###Scoring
+### Scoring
 
-####Round 1
+#### Round 1
 
 **Positives**
 
@@ -242,13 +242,13 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 7. Negative marks for restart: -150 (**R**)
 
-####Scoring Formula
+#### Scoring Formula
 
 {% highlight ruby %}
 1000 + 100*L + 150*(S+P) + B - 50*(NS+NP+D+W+G) - 100*T - 150*R
 {% endhighlight %}
 
-####Round 2
+#### Round 2
 
 **Positives**
 
@@ -280,22 +280,22 @@ Build a gesture controlled semi-autonomous robot that is capable of sorting bloc
 
 7. Negative marks for restart:  -150 (**R**)
 
-####Scoring Formula
+#### Scoring Formula
 
 {% highlight ruby %}
 1000 + 100*L + 150*(S+P) + 200*Q + B - 50*(NS+NP+D+W+G) - 100*T - 150*R
 {% endhighlight %}
 
-####Note
+#### Note
 * You will be provided with the unique RFID number for each shelf before the start of the event and you can feed it into your robot.
 * This is the RFID reader we have used for testing: [Link](http://robokits.co.in/wireless-solutions/rfid/rfid-reader-module-with-antenna-usb-uart?zenid=8c1v3l8upd40op6npo9732sgh3)
 * This is the RFID tag we will be using during the event: [Link](http://www.amazon.in/RFID-Tag-keychain-5-Pcs/dp/B00U3VDMGK/ref=sr_1_1?ie=UTF8&qid=1451925749&sr=8-1&keywords=rfid+tags)
 * It is suggested that the participant try to make a wireless robot. In which case the wireless bot should be battery powered on-board.
 
-###Contact
+### Contact
 
-####Mratunjay Gupta  
+#### Mratunjay Gupta  
 **mratunjay@robotix.in**
 
-####Riya Bubna  
+#### Riya Bubna  
 **riya@robotix.in**

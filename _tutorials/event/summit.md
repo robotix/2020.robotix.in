@@ -16,7 +16,7 @@ actions:
     target: '_blank'
 ---
 
-###MECHANISMS FOR TRAVERSALS
+### MECHANISMS FOR TRAVERSALS
 
 **MECHANISM 1 : Four Legged Mechanism**
 

@@ -181,6 +181,8 @@
       tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
+        - {name: "github", link: "https://www.github.com/thesidjway"}
+        - {name: "site", link: "https://www.sidj.in/"}
         - {name: "email", link: "mailto:siddharth@robotix.in"}
     -
       id: 33
@@ -204,6 +206,7 @@
       tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
+        - {name: "github", link: "https://www.github.com/vrjparikh"}
         - {name: "email", link: "mailto:vraj@robotix.in"}
 
 - title: "Sub Head"
@@ -226,7 +229,7 @@
       title: "Sub Head"
       thumbnailUrl: amanchandra.jpg
       team: true
-      tag: "Sub Head"
+      tag: "Autonomous"
       social:
         - {name: "facebook", link: "https://www.facebook.com/amanchandra333"}
         - {name: "email", link: "mailto:aman.chandra@robotix.in"}
@@ -263,7 +266,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/pranit.bauva"}
         - {name: "github", link: "https://github.com/pranitbauva1997"}
-        - {name: "website", link: "http://bauva.in"}
+        - {name: "site", link: "http://bauva.com"}
         - {name: "email", link: "mailto:pranit.bauva@robotix.in"}
     -
       id: 40
@@ -308,6 +311,7 @@
       tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/crazyshivang"}
+        - {name: "github", link: "https://www.github.com/shivangag"}
         - {name: "email", link: "mailto:shivang.agarwal@robotix.in"}
     -
       id: 44
