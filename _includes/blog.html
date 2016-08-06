@@ -3,7 +3,7 @@
     <div class="content-wrapper text-left">
         <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
             <div class="col-lg-8 col-md-10 col-xs-12">
-                {% for post in site.posts %}
+                {% for post in paginator.posts %}
                     <article class="row post">
                         <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}"><h4>{{ post.title }}</h4></a>
                         <div class="post-header">
@@ -42,29 +42,18 @@
                     </article>
                 {% endfor %} 
 
-                {% if paginator.total_pages > 1 %}
-                <div class="row">
-                    <div class="pagination">
-                        {% if paginator.previous_page %}
-                        <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-                        {% else %}
-                        <span class="previous">Previous</span>
-                        {% endif %}
-                        <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-                        {% if paginator.next_page %}
-                        <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-                        {% else %}
-                        <span class="next ">Next</span>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endif %}
-
-                <div class="row text-center">
-                    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
-                    </p>
-                </div>
-
+                  <ul class="pager col-lg-12">
+                    {% if paginator.previous_page %}
+                    <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    {% else %}
+                    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    {% endif %}
+                    {% if paginator.next_page %}
+                    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                    {% else %}
+                    <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                    {% endif %}
+                  </ul>
             </div>
         </div>
     </div>
