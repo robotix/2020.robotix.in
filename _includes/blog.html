@@ -44,14 +44,14 @@
 
                   <ul class="pager col-lg-12">
                     {% if paginator.previous_page %}
-                    <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    <li class="previous btn-lg"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Previous</a></li>
                     {% else %}
-                    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    <li class="previous btn-lg disabled"><a><span aria-hidden="true">&larr;</span> Previous</a></li>
                     {% endif %}
                     {% if paginator.next_page %}
-                    <li class="next"><a href="{{ paginator.next_page_path }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                    <li class="next btn-lg"><a href="{{ paginator.next_page_path }}">Next <span aria-hidden="true">&rarr;</span></a></li>
                     {% else %}
-                    <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                    <li class="next btn-lg disabled"><a>Next <span aria-hidden="true">&rarr;</span></a></li>
                     {% endif %}
                   </ul>
             </div>
