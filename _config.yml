@@ -16,9 +16,6 @@ description: "Technology Robotix Society is an official society under the Techno
 baseurl: "https://www.robotix.in"
 permalink: "/blog/:title/"
 collections:
-  events:
-    output: true
-    permalink: "/event/:path/"
   tutorials:
     output: true
     permalink: "/tutorial/:path/"
@@ -38,7 +35,6 @@ socialImage: "/img/favicons/favicon-196x196.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
  - {permalink: "/team/", text: "Team"}
@@ -51,12 +47,8 @@ bottomNavigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "21st Jan - 24th Jan, 2016"
 typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2016"'
 typeoutFallback: "Technology Robotix Society"
-heroButtons:
- - {permalink: "/schedule", text: "Event Schedule"}
- - {permalink: "/noticeboard", text: "Fest Noticeboard"}
 
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
@@ -119,6 +111,10 @@ footerBlocks:
   title: "Contacts"
   links:
    - {link: "http://contact.robotix.in", text: "Contact Us"}
+ -
+  title: "Archive"
+  links:
+   - {link: "http://2016.robotix.in/", text: "Robotix 2016"}
 
 # Blog
 blogCommentsEnabled: true
