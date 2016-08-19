@@ -80,3 +80,41 @@
   name: "Soumyadeep"
   surname: "Mukherjee"
   thumbnailUrl: soumyadeep_mukherjee.jpg
+-
+  id: 13
+  name: "Shivang"
+  surname: "Agarwal"
+  title: "Sub-Head"
+  thumbnailUrl: shivangagrawal.jpg
+  social:
+        - {name: "facebook", link: "https://www.facebook.com/crazyshivang"}
+        - {name: "github", link: "https://www.github.com/shivangag"}
+        - {name: "email", link: "mailto:shivang.agarwal@robotix.in"}
+-
+  id: 14
+  name: "Amit"
+  surname: "Pathak"
+  title: "Sub-Head"
+  thumbnailUrl: amitpathak.jpg
+  social:
+        - {name: "facebook", link: "https://www.facebook.com/amitpathak.iitkgp"}
+        - {name: "email", link: "mailto:amit.pathak@robotix.in"}
+-
+  id: 15
+  name: "Vivek"
+  surname: "Mudgal"
+  title: "Sub-Head"
+  thumbnailUrl: vivekmudgal.jpg
+  social:
+        - {name: "facebook", link: "https://www.facebook.com/vivekmudgal10"}
+        - {name: "email", link: "mailto:vivek.mudgal@robotix.in"}
+-
+  id: 16
+  name: "Aman"
+  surname: "Chandra"
+  title: "Sub-Head"
+  thumbnailUrl: amanchandra.jpg
+  social:
+        - {name: "facebook", link: "https://www.facebook.com/amanchandra333"}
+        - {name: "email", link: "mailto:aman.chandra@robotix.in"}
+        
