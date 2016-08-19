@@ -9,3 +9,14 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/nisa23s1efrv/kraig-101"}
   banner: "/img/session/001/poster.jpg"
+-
+  id: 002
+  title: "KRAIG 102"
+  description: "Building your own robosoccer bot!"
+  subtype: presentation
+  speakers: [14, 13, 15, 16]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/sh5ksfhq9vuc/kraig-102/"} 
+  video: "https://circuits.io/circuits/2578473-relay-example-with-motor/embed#breadboard"
