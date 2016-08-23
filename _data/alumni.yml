@@ -292,20 +292,6 @@
   team:
     -
       id: 16
-      name: "Amal"
-      surname: "Sinha"
-      thumbnailUrl: amal.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/amaleshwarsinha"}
-    -
-      id: 17
-      name: "Girish"
-      surname: "Nivarti"
-      thumbnailUrl: girish.jpg
-      team: true
-    -
-      id: 18
       name: "Mahtab"
       surname: "Soin"
       thumbnailUrl: mahtab.jpg
@@ -313,7 +299,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/mahtabsoin"}
     -
-      id: 19
+      id: 17
       name: "Palkush Rai"
       surname: "Chawla"
       thumbnailUrl: palkush.jpg
@@ -321,7 +307,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/palkush"}
     -
-      id: 20
+      id: 18
       name: "Parth"
       surname: "Govil"
       thumbnailUrl: parth.jpg
@@ -329,7 +315,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/parth.govil.9"}
     -
-      id: 21
+      id: 19
       name: "Samar Rehman"
       surname: "Patel"
       thumbnailUrl: samar.jpg
@@ -337,7 +323,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/samarrp"}
     -
-      id: 22
+      id: 20
       name: "Saurya"
       surname: "Mishra"
       thumbnailUrl: saurya.jpg
@@ -346,6 +332,20 @@
         - {name: "facebook", link: "https://www.facebook.com/sauryamishra"}
 - title: "2011"
   team:
+    -
+      id: 21
+      name: "Amal"
+      surname: "Sinha"
+      thumbnailUrl: amal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/amaleshwarsinha"}
+    -
+      id: 22
+      name: "Girish"
+      surname: "Nivarti"
+      thumbnailUrl: girish.jpg
+      team: true
     -
       id: 23
       name: "Aditi"
