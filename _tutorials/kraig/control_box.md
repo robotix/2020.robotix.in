@@ -77,6 +77,10 @@ Therefore **R** needs to activate **L2** and **R1**
 
 ![][4]{:class="img-responsive"}
 
+Here is an image of a complete control circuit.
+![][5]{:class="img-responsive"}
+![][6]{:class="img-responsive"}
+
 #### Why Diodes?
 
 If we directly connect the output from push buttons to relays without the diodes, effectively every relay and all the push buttons get shorted so the diodes help to refrain current going from one push button to other push button
@@ -91,3 +95,5 @@ If you press L then the robot will take a zero degree Left turn and press R then
 [2]: {{ site.baseurl }}/img/tutorial/kraig/control_box/circuit_relay.png
 [3]: {{ site.baseurl }}/img/tutorial/kraig/control_box/controller.png
 [4]: {{ site.baseurl }}/img/tutorial/kraig/control_box/control_box.jpg
+[5]: {{ site.baseurl }}/img/tutorial/kraig/control_box/circuittop.jpg
+[6]: {{ site.baseurl }}/img/tutorial/kraig/control_box/circuitback.jpg
