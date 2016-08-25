@@ -13,12 +13,11 @@
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image:src" content="{{ site.socialImage | prepend: site.baseurl }}">
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
-    <meta property="og:site_name" content="{{ site.title }}" /> 
-    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
     <meta property="og:image" content="{% if page.image %}{{ site.baseurl }}/{{ page.image }}{% else %}{{ site.socialImage | prepend: site.baseurl }}{% endif %}" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="fb:admins" content="{{ site.fbAdmin }}" />
     <!-- Social: Google+ -->
     <link href="{{ site.google-plus-page }}" rel="publisher">
 
@@ -43,7 +42,7 @@
 
     <meta name="theme-color" content="#2b5797">
 
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
