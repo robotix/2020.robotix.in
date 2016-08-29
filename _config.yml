@@ -105,7 +105,6 @@ footerBlocks:
   title: "Links"
   links:
    - {link: "https://play.google.com/store/apps/details?id=in.robotix.robotixapp", text: "Robotix App"}
-   - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
  -
   title: "Contacts"
