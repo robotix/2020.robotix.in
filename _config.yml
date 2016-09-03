@@ -53,17 +53,17 @@ typeoutFallback: "Technology Robotix Society"
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
 aboutBlock:
-  - 
+  -
     title: "K.R.A.I.G."
     image: "hackathon.jpg"
     text: "Kickstart your journey into the world of hobby robotics."
     link: "/kraig/"
-  - 
+  -
     title: "K.R.I.S.S."
     image: "workshop.jpg"
     text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics."
     link: "/kriss/"
-  - 
+  -
     title: "Winter Workshop"
     image: "rse.jpg"
     text: "See the complete documentation of the winter workshop we conduct anually for first and second year undergraduates of IIT Kharagpur."
@@ -121,6 +121,8 @@ discusShortName: "robotix"
 
 # Speakers List Block
 showSessions: true
+
+google_analytics: UA-83617238-1
 
 #AboutUs
 whoAreWe: "Technology Robotix Society is an official society under the Technology Students' Gymkhana, IIT Kharagpur, and is a focal point for activities and projects related to robotics in the campus. With its reach expanding steadily each year, it has also cemented its position as one of the nerve centres of amateur robotics in India."
