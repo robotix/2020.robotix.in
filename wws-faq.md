@@ -4,29 +4,36 @@ title: "Winter Workshop FAQs"
 permalink: /winter-workshop/faq
 ---
 
-#### Frequently Asked Questions
+#### **Frequently Asked Questions**
+-----------------------------------
 
-##### What is the winter workshop?
+##### 1. What is the winter workshop?
 The annual winter workshop is organized each year, after the conclusion of the autumn semester, by Technology Robotix Society where in the interested students are taught the concepts of either autonomous robotics or computer vision, and through that knowledge,they attempt to tackle a relevant problem statement.
+<br><br>
 
-##### When is the winter workshop?
-The winter workshop is conducted in two phases to include students having NSS/NCC camps. Therefore the dates for both the phases are as follow-
+##### 2. When is the winter workshop?
+The winter workshop is conducted in two phases to include students having NSS/NCC camps. Therefore the dates for both the phases are as follows -:
 
  - **Phase One** - 1<sup>st</sup> December - 7<sup>th</sup> December.
  - **Phase Two** - 10<sup>th</sup> December - 16<sup>th</sup> December.
 
-##### Who is eligible to attend the winter workshop?
-Each and Every 1<sup>st</sup> and 2<sup>nd</sup> year student of IIT Kharagpur, enrolled in any course, is eligible to attend the winter workshop.
+<br>
 
-##### What is winter workshop test and do we need to pass it in order to attend the winter workshop?
+##### 3. Who is eligible to attend the winter workshop?
+Each and Every 1<sup>st</sup> and 2<sup>nd</sup> year student of IIT Kharagpur, enrolled in any course, is eligible to attend the winter workshop.
+<br><br>
+
+##### 4. What is winter workshop test and do we need to pass it in order to attend the winter workshop?
 Winter workshop test is not a qualifying test for the winter workshop, but is an assessment test to help us assign competent group and problem statement to you.
 **Please note that writing winter workshop test is mandatory for attending winter workshop.**
+<br><br>
 
-##### What are the prerequisites, if any, for attending the winter workshop?
+##### 5. What are the prerequisites, if any, for attending the winter workshop?
 There are no prerequisites for attending the winter workshop.Though we reccomend attending KRAIG classes.
+<br><br>
 
-##### What is the course content of the winter workshop?
-Course Contents are as follows-
+##### 6. What is the course content of the winter workshop?
+Course Contents are as follows -:
 
 **Autonomous Robotics Group**
 
@@ -44,5 +51,7 @@ Course Contents are as follows-
 - Hough Transform.
 - Creating Histogram and detecting shape. 
 
-##### Do I get a certificate for attending the winter workshop?
+<br>
+
+##### 7. Do I get a certificate for attending the winter workshop?
 Yes! Every student who successfully completes the workshop gets an IEEE certification.
