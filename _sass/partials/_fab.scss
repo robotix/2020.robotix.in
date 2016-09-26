@@ -8,6 +8,9 @@ ul.fab {
         width: 40px;
         height: 40px;
         transition: $long-backward-transition;
+        &:focus {
+            outline: none;
+        }
         &.btn-danger {
             width: 60px;
             height: 60px;
