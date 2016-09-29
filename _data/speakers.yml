@@ -117,4 +117,12 @@
   social:
         - {name: "facebook", link: "https://www.facebook.com/amanchandra333"}
         - {name: "email", link: "mailto:aman.chandra@robotix.in"}
-        
+-
+  id: 17
+  name: Aditi
+  surname: Kambli
+  title: "Sub Head"
+  thumbnailUrl: aditikambli.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/aditi1997"}
+    - {name: "email", link: "mailto:aditi.kambli@robotix.in"}
