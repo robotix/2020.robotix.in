@@ -78,3 +78,13 @@
   links:
     - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
   complexity: "Intermediate"
+-
+  id: 003
+  title: "KRAIG 201"
+  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
+  subtype: presentation
+  speakers: [11, 17]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/nug_jpjtcmtc/kraig-201-202"}
