@@ -20,11 +20,11 @@ Your job is to build a miniature version of such a bot. Sounds fun, doesn’t it
 
 * Wireless data communication.
 
-### PROBLEM STATEMENT
+### Problem Statement
 
 To build a robot that is capable of making a building by successfully receiving the number of blocks required sent using wireless communication and differentiating between hollow and solid bricks by successful autonomous weight detection.
 
-### TASK
+### Task
 
 * The robot will be controlled without the use of buttons, i.e, using methods such as gesture control, touch pad traversal, etc.
 
@@ -42,7 +42,7 @@ To build a robot that is capable of making a building by successfully receiving 
 
 * Traversal has to be done without hitting the obstacles.
 
-### ARENA
+### Arena
 
 ![](/img/event/botthebuilder/image00.jpg){:.img-responsive}
 
@@ -50,7 +50,7 @@ To build a robot that is capable of making a building by successfully receiving 
 
 ![](/img/event/botthebuilder/image03.jpg){:.img-responsive}
 
-#### ARENA COMPONENTS
+#### Arena Components
 
 All the heights are with respect to the corresponding floor
 
@@ -74,7 +74,7 @@ All the heights are with respect to the corresponding floor
 Correct identification: Whether block is useful or waste (according to weight).
 Deposited Objects: Blocks on the correct deposit zone.
 
-#### ROUND 1
+#### Round 1
 
 **Task:**
 
@@ -121,7 +121,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 `30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S`
 
-#### ROUND 2
+#### Round 2
 
 **Task:**
 
