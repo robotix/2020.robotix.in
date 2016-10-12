@@ -119,7 +119,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Formula:**
 
-30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S
+`30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S`
 
 #### ROUND 2
 
@@ -166,7 +166,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Formula: **
 
-30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S
+`30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S`
 
 **RULES:**
 

@@ -259,7 +259,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 #### Scoring Formula
 
-**1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS**
+**`1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS`**
 
 #### Round 2
 
@@ -289,7 +289,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 #### Scoring Formula
 
-**1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS**
+**`1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS`**
 
 **Tutorial & Resources**
 
