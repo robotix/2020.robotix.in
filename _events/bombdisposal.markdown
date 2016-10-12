@@ -107,7 +107,7 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 **Hanging Pole Specification:**
 
-* The bomb will be hung from a height of** 15 cm.**
+* The bomb will be hung from a height of **15 cm**.
 
 **Barriers (Rubber Bands):**
 
