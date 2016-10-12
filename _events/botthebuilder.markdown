@@ -44,11 +44,11 @@ To build a robot that is capable of making a building by successfully receiving 
 
 ### ARENA
 
-![]({{ site.baseurl }}/img/event/botthebuilder/image00.jpg){:class="img-responsive"}
+![](/img/event/botthebuilder/image00.jpg){:.img-responsive}
 
-![]({{ site.baseurl }}/img/event/botthebuilder/image02.jpg){:class="img-responsive"}
+![](/img/event/botthebuilder/image02.jpg){:.img-responsive}
 
-![]({{ site.baseurl }}/img/event/botthebuilder/image03.jpg){:class="img-responsive"}
+![](/img/event/botthebuilder/image03.jpg){:.img-responsive}
 
 #### ARENA COMPONENTS
 

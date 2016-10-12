@@ -58,11 +58,11 @@ That resource is exhausted after the resource is collected twice. The bot will g
 
 **Top View**
 
-![]({{ site.baseurl }}/img/event/conquest/image_1.png){:class="img-responsive"}
+![](/img/event/conquest/image_1.png){:.img-responsive}
 
 **Isometric View**
 
-![]({{ site.baseurl }}/img/event/conquest/image_2.png){:class="img-responsive"}
+![](/img/event/conquest/image_2.png){:.img-responsive}
 
 * The dimensions of the arena will be 3m x 3m.
 
