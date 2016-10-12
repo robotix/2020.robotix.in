@@ -3,6 +3,12 @@ layout: post
 title: 'Bomb Disposal'
 subTitle: 'Manual Robotics Event'
 logo: /img/event/bombdisposal/logo.png
+actions:
+  -
+    text: 'T'
+    caption: 'Tutorials'
+    url: 'http://www.robotix.in/tutorial'
+    target: '_blank'
 ---
 
 
@@ -290,7 +296,3 @@ Along its path, the robot will have to get past through few barriers (in the for
 #### Scoring Formula
 
 **`1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS`**
-
-**Tutorial & Resources**
-
-For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/).
