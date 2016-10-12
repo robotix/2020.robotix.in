@@ -24,6 +24,55 @@ The robots are trying to take over the world. Hence, they need to build an empir
 
 Build an image processing robot that can collect resources like food, wood, stone and gold from the arena while avoiding different obstacles. The video feed of the arena will be given by an overhead camera.
 
+#### Rules
+
+**General Rules:**
+
+* The maximum number of participants allowed per team: 4 people
+
+* The participants will be provided with 220 Volts, 50 Hz standard AC supply.
+
+* Participants will have to themselves arrange for any other power supply required for their robot.
+
+* Onboard processing units, if any, should fit within the dimensional constraints specified. Processing outside the arena is recommended, either wired or wireless.
+
+* Teams qualifying the first round will go into the second round.
+
+* Teams cannot tinker with their bots inside the arena.
+
+* USB extenders (5m long) will be provided.
+
+* There will be maximum of 2 restarts and 3 timeouts. The timeout can be of a maximum duration of 2 minutes and the bot can be restarted after a maximum of 5 minutes.
+
+* The decision of Team Robotix will be final and binding.
+
+* If we suspect hard coding, we reserve the full right to check the participant’s robot by testing on random arenas and code submission.
+
+* Any team displaying aggressive behaviour or refusing to comply with Team Robotix judgement will be immediately disqualified.
+
+* Wilful damage of the arena may lead to disqualification and a fine.
+
+**Event Rules:**
+
+* The robot has to remain within the arena throughout the run.
+
+* Maximum Restarts:
+  - Round 1: **1**
+  - Round 2: **2**
+
+* Maximum Timeouts:
+  - Round 1: **2**
+  - Round 2: **2**
+  - Maximum duration of a timeout is 2 mins only.
+
+**Robot Specifications:**
+
+* The robot must fit in a box of **25cm x 25cm x 25cm** with a tolerance of 10% in the dimensions of robot. No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
+
+* Dimensions of the arena are to be considered with a maximum tolerance of 10%.
+
+* A marker of dimension **20cm x 10cm** having two colour scheme will be provided. However, the participants are free to use their own markers.
+
 ### Task
 
 #### Round 1
@@ -162,51 +211,4 @@ Castle: 500 food, 100 wood, 500 stone, 100 gold
 
 * Time bonus: + [ 360 - (time taken in sec) ] x 2 points if all the resources are successfully collected.
 
-#### Rules
 
-**General Rules:**
-
-* The maximum number of participants allowed per team: 4 people
-
-* The participants will be provided with 220 Volts, 50 Hz standard AC supply.
-
-* Participants will have to themselves arrange for any other power supply required for their robot.
-
-* Onboard processing units, if any, should fit within the dimensional constraints specified. Processing outside the arena is recommended, either wired or wireless.
-
-* Teams qualifying the first round will go into the second round.
-
-* Teams cannot tinker with their bots inside the arena.
-
-* USB extenders (5m long) will be provided.
-
-* There will be maximum of 2 restarts and 3 timeouts. The timeout can be of a maximum duration of 2 minutes and the bot can be restarted after a maximum of 5 minutes.
-
-* The decision of Team Robotix will be final and binding.
-
-* If we suspect hard coding, we reserve the full right to check the participant’s robot by testing on random arenas and code submission.
-
-* Any team displaying aggressive behaviour or refusing to comply with Team Robotix judgement will be immediately disqualified.
-
-* Wilful damage of the arena may lead to disqualification and a fine.
-
-**Event Rules:**
-
-* The robot has to remain within the arena throughout the run.
-
-* Maximum Restarts:
-  - Round 1: **1**
-  - Round 2: **2**
-
-* Maximum Timeouts:
-  - Round 1: **2**
-  - Round 2: **2**
-  - Maximum duration of a timeout is 2 mins only.
-
-**Robot Specifications:**
-
-* The robot must fit in a box of **25cm x 25cm x 25cm** with a tolerance of 10% in the dimensions of robot. No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
-
-* Dimensions of the arena are to be considered with a maximum tolerance of 10%.
-
-* A marker of dimension **20cm x 10cm** having two colour scheme will be provided. However, the participants are free to use their own markers.
