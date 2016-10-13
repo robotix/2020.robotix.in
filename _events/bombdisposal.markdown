@@ -3,6 +3,12 @@ layout: post
 title: 'Bomb Disposal'
 subTitle: 'Manual Robotics Event'
 logo: /img/event/bombdisposal/logo.png
+actions:
+  -
+    text: 'T'
+    caption: 'Tutorials'
+    url: 'http://www.robotix.in/tutorial'
+    target: '_blank'
 ---
 
 
@@ -76,19 +82,19 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 **Isometric View**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_1.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_1.jpg){:.img-responsive}
 
 **Top View**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_2.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_2.jpg){:.img-responsive}
 
 **Front View**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_3.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_3.jpg){:.img-responsive}
 
 **Side View**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_4.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_4.jpg){:.img-responsive}
 
 #### Arena Components
 
@@ -101,13 +107,13 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 * Height of the shed is **12 cm.**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_5.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_5.jpg){:.img-responsive}
 
 **Hidden Bombs (Shed)**
 
 **Hanging Pole Specification:**
 
-* The bomb will be hung from a height of** 15 cm.**
+* The bomb will be hung from a height of **15 cm**.
 
 **Barriers (Rubber Bands):**
 
@@ -115,7 +121,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 **Hanging Bombs**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_6.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_6.jpg){:.img-responsive}
 
 **Bomb Specification:**
 
@@ -131,7 +137,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 **Bombs**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_8.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_8.jpg){:.img-responsive}
 
 **Petrol Tank Specification:**
 
@@ -143,7 +149,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 **Petrol Tank**
 
-![]({{ site.baseurl }}/img/event/bombdisposal/image_9.jpg){:class="img-responsive"}
+![](/img/event/bombdisposal/image_9.jpg){:.img-responsive}
 
 ### Rules And Specifications
 
@@ -259,7 +265,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 #### Scoring Formula
 
-**1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS**
+**`1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS`**
 
 #### Round 2
 
@@ -289,8 +295,4 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 #### Scoring Formula
 
-**1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS**
-
-**Tutorial & Resources**
-
-For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/).
+**`1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS`**
