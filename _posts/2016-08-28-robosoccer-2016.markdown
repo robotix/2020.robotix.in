@@ -1,0 +1,24 @@
+---
+comments: true
+date: 2016-08-28
+layout: post
+title: Robosoccer Competition 2016
+categories:
+  - Latest From The Campus
+---
+
+Robosoccer was the first technical event in the campus which gave chance to freshers to make their first manual bot and find their interest in robotics. This marks the first milestone in the journey to learn robotics. This event gave chance to the participants to show case their skills and ideas.
+
+![](/img/blog/2016/robosoccer/1.jpg){:.img-responsive}
+
+A robosoccer bot that participants made used differential drive mechanism to move around. The main aim of the robot was to play a game of soccer in one on one match against the other bot. Participants were supposed to make a suitable chassis design which can compete in the the match and also make the control box of the bot. Kraig classes 101 and 102 were conducted to teach the basic concepts of drive mechanism and circuitry used in control box.
+
+The event was conducted on 28th august. A high turnout of participants was seen in the event. There were around 32 teams each consisting of 3 members. The event started in the morning around 10 and lasted till 9 in the evening.
+
+![](/img/blog/2016/robosoccer/1.jpg){:.img-responsive}
+
+Each match was of 4 minutes, participants were supposed to change sides after 2 minutes. Those four minutes were most intriguing for the teams who were playing the match. Event was conducted in two rounds. The first round was league round. 32 teams were divided into 8 groups. From each group 2 teams best teams were selected for second round. Second round was knock out round. In second round the crowd was getting crazy , they were in full support of their friends and cheered for them. There were many good matches in which winner could not be decided up till the last second.  Finals was played between team RS-25   ALPHA TEAM and RS-23 Transformers.The lead was continuously changing sides which resulted in a neck to neck match between the two. Finally the match was won by ALPHA TEAM.Members of the winning team were Haque Farazul,Rahul Dayal,Moin Sheikh.
+
+The winning formula for the event was your control on the bot. In all robosoccer event was a success, we saw many  innovative ideas to improve the efficiency and design of the bot and the enthusiasm of the candidates really made the event a memorable one. At the end each and every participant was feeling good after making their first manually controlled bot; no matter they lost or won they just enjoyed the event.
+
+![](/img/blog/2016/robosoccer/3.jpg){:.img-responsive}
