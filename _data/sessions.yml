@@ -98,3 +98,13 @@
   complexity: "Intermediate"
   links:
     - { title: "View presentation", src: "https://prezi.com/zhkbtvohfypc/kraig-301/"}
+-
+  id: 005
+  title: "KRAIG 302"
+  description: "Workshop on autonomous robotics: Timers ,PWM and Motor Drivers."
+  subtype: presentation
+  speakers: [14, 16]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/w1rfgz116ixk/kraig-302/"}
