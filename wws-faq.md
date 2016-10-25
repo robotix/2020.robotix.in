@@ -64,9 +64,11 @@ Definitely Yes! That is the whole purpose of the workshop. After the workshop yo
 <br>
 
 ##### 9. Is it compulsory to attend winter workshop if I want to get into research groups at IIT KGP?
-Yes! The research group gauge your dedication in the winter workshop. We invite some mentors from various research groups (like KRSSG, AGV, ARK and swarm) to share their vast experience in their respective domain and your performance during the workshop is judged which will definitely help you during your selections. And their rounds are highly technical so even if you haven't attended the winter workshop they do expect you to have the same knowledge and relevant experience of making a bot for which winter workshop is the best platform.
+Yes! The research group gauge your dedication in the winter workshop. We invite some mentors from various research groups (like KRSSG, AGV, ARK and swarm) to share their vast experience in their respective domain and your performance during the workshop is judged which will definitely help you during your selections.
+Their rounds are highly technical so even if you haven't attended the winter workshop they do expect you to have the same knowledge and relevant experience of making a bot for which winter workshop is the best platform.
 
 <br>
 
 ##### 10. I want to take part in my Hall's tech GC. What should I do?
-Attend the workshop. Hall people value those who have a lot of technical background and winter workshop is your first step towards it. All of your captains in tech GC have attended the winter workshop and they are the best people to tell you about the benefits of this. If you dream to represent IIT Kharagpur in the glamourous inter-IIT Tech, take your first step. The events on which there is a direct impact of this workshop is Hardware Modelling, OpenSoft, Product Design while various others where the skills that you gain in the winter workshop will help.
+Attend the workshop. Hall Council Members value those who have a lot of technical background and winter workshop is your first step towards it. All of your captains in tech GC have attended the winter workshop and they are the best people to tell you about the benefits of this.
+If you dream to represent IIT Kharagpur in the glamourous inter-IIT Tech, take your first step. The events on which there is a direct impact of this workshop is Hardware Modelling, OpenSoft, Product Design while various others where the skills that you gain in the winter workshop will help.
