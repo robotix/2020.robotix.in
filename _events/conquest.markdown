@@ -3,6 +3,12 @@ layout: post
 title: 'Conquest'
 subTitle: 'Computer Vision Event'
 logo: /img/event/conquest/logo.png
+actions:
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/conquest'
+    target: '_blank'
 ---
 
 
