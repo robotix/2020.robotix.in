@@ -79,136 +79,74 @@ Build an image processing robot that can collect resources like food, wood, ston
 
 The arena is plain black with some colourful shapes in it. There would be an overhead camera which would provide a video feed to the bot. The civilization has a town center in one cell which is the hub of all the activities going on in the map.
 
-The bot has to recognize the various resources present (ie. food, wood, stone and gold) on the map. The town center and all the resources are obstacles on which the bot cannot traverse. The arena also contains mountains and rivers. The bot has to then go to a nearby area (but not exactly) where the resource is present and blink an LED once for two seconds to collect that resource and then return to town center to deliver the resources collected.
+The bot has to recognize the various resources present (ie. food and wood) on the map. The town center and all the resources are not obstacles. The bot has to then go on the resource and blink an LED once to &quot;collect that resource and then return to town center to deliver the resource collected and blink an LED there too. One particular resource is exhausted after the resource has been collected twice.
 
-That resource is exhausted after the resource is collected twice. The bot will get 6 minutes and it would have to collect the maximum number of resources. Each resource will have a points. After the bot collects the resource once, its collection of that resource increases by 100. At the end of the time, the bot should at least have 200 units of food, wood, stone and gold otherwise the final point tally will directly be 0.
+**Note**: Resources are not obstacles.
 
-**Note:** Points and the value of resource are two different things.
+**Map specifics**:
 
-**Note:** The resources should be treated as obstacles until they are exhausted (ie. when the bot collects it twice). After that the resource won’t be removed from the arena but it can be treated as a free path.
+- Yellow with square shapes represents food.
+- Yellow with triangle represents wood.
+- Brown colour represents town center.
 
-**Map specifics:**
+#### Arena:
 
-* Yellow colour with square shape represents gold
+**Top View**:
 
-* Green colour with triangle shape represents food
 
-* Green colour with square represents wood
 
-* Yellow colour with triangle represents stone
+**Isometric View**:
 
-* Blue colour square represents rivers
 
-* Brown colour with triangle represents mountains
-
-* Violet Square represents Town Centre
-
-#### Arena
-
-**Top View**
-
-![](/img/event/conquest/image_1.png){:.img-responsive}
-
-**Isometric View**
-
-![](/img/event/conquest/image_2.png){:.img-responsive}
 
 * The dimensions of the arena will be 3m x 3m.
-
 * The dimension of the squares will be 10cm x 10cm.
-
 * The triangles will be right angled isosceles triangle of the isosceles side 10cm.
-
 * The dimension of the town square will be 25cm x 25cm.
-
 * Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
 
-#### Scoring
-
+#### Scoring:
 * +100 for food
-
-* +120 for gold
-
-* +110 for stone
-
 * +105 for wood
-
-* -50 if the bot goes over the obstacle
-
-* -75 if the bot taps on anything other on the map except for the resource
-
-* Time bonus: + [ 360 - (time taken in sec) ] x 2 points if all the resources are successfully collected.
+* -75 if the bot blinks on anything other on the map except for the resource or Town Center
+* Time bonus: + [360 - (time taken in sec)] x 2 points if all the resources are successfully collected
 
 #### Round 2
 
-The task is the same as Round 1 but now the bot has to also build military buildings and prepare an army. The military buildings would be barracks, archery range, stable and castle. There will be one bot and will get 6 minutes.
+The arena is plain black with some colourful shapes in it. There would be an overhead camera which would provide a video feed to the bot. The civilization has a town center in one cell which is the hub of all the activities going on in the map.
 
-The bot will have to first collect the resources, then after it gets a "good enough" number of resources, it can start building the army buildings. The army buildings have a cost associated to it and it would be deducted from the resource collection of the player. The army building will have points which will add to the total score. If the player fails to build any army building till the end of the game, then the score will directly be 0. There is no maximum limit on the number of army buildings that the bot wants to build.
+The bot has to recognize the various resources present (ie. food and wood) on the map. The arena also contains rivers which are to be treated as obstacles. The bot has to then go to the resource is present and blink an LED once to collect that resource and then return to town center to deliver the resource collected and blink an LED there too.
 
-When the bot wants to build a army building (for eg. Barracks) at the cell (3, 4), it can to output it on the laptop screen that "I want to build Barracks at cell no (3, 4)" and this needs to be shown to the judge.
+One particular resource is exhausted after the resource is collected twice. The bot will get 6 minutes and it would have to collect the maximum number of resources. Each resource will have a points. After the bot collects the resource once, its collection of that resource increases by 100. At the end of the time, the bot should at least have 200 units of food and wood otherwise the final point tally will directly be 0.
 
-The placeholders for army buildings will be placed after the judge gets the instruction from the laptop. The army buildings are to be treated as obstacles and it has to be placed in such a position that it does not block the path of the bot to the Town Centre. If that happens then the game gets over instantly and the overall points (not including the points of the army building) are calculated. The father the building from the town centre, more the points.
+**Note**: Points and the value of resource are two different things.
 
-Note: There are no points for the resources left after the game. The points are there only for collection of the resource.
+**Map specifics**:
 
-Costs of Army Buildings:
-
-Barracks: 300 food, 200 wood, 50 stone, 50 gold
-
-Archery Range: 350 food, 250 wood, 50 stone
-
-Stable: 300 food, 100 wood, 150 gold
-
-Castle: 500 food, 100 wood, 500 stone, 100 gold
-
-**Map specifics:**
-
-* Yellow colour with square shape represents gold
-
-* Green colour with circle shape represents food
-
-* Green colour with square represents wood
-
-* Brown colour with circle represents stone
-
+* Yellow colour with square shape represents food
+* Yellow colour with triangle represents wood
 * Blue colour square represents rivers
+* Brown colour represents Town Center
 
-* Brown colour with triangle represents mountains
+#### Arena:
 
-* Yellow colour with triangle represents Town Centre
+**Top View**:
+![](/img/event/conquest/image_1.png){:.img-responsive}
 
-* Red colour with square shape represents Barracks
+**Isometric View**:
+![](/img/event/conquest/image_2.png){:.img-responsive}
 
-* Red colour with circle represents Archery Range
+* The dimensions of the arena will be 3m x 3m.
+* The dimension of the squares will be 10cm x 10cm.
+* The triangles will be right angled isosceles triangle of the isosceles side 10cm.
+* The dimension of the town square will be 25cm x 25cm.
+* Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
 
-* Red colour with triangle represents Castle
 
-* Yellow colour with circle represents Stable
-
-#### Scoring
-
+#### Scoring:
+ 
 * +100 for food
-
-* +120 for gold
-
-* +110 for stone
-
 * +105 for wood
-
-* +700 for Barracks
-
-* +750 for Archery Range
-
-* +650 for Stable
-
-* +1400 for Castle
-
-* +20 x [ abs(x coordinate of building - x coordinate of town centre) + abs(y coordinate of building - y coordinate of town centre) ]
-
-* -300 if the bot goes over the obstacle
-
-* -100 if the bot taps on anything other on the map except for the resource
-
-* Time bonus: + [ 360 - (time taken in sec) ] x 2 points if all the resources are successfully collected.
-
-
+* -50 if the bot goes over the obstacle
+* -75 if the bot taps on anything other on the map except for the resource
+* Time bonus: + [360 - (time taken in sec)] x 2 points if all the resources are successfully collected.
