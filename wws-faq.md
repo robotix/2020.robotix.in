@@ -72,3 +72,8 @@ Their rounds are highly technical so even if you haven't attended the winter wor
 ##### 10. I want to take part in my Hall's tech GC. What should I do?
 Attend the workshop. Hall Council Members value those who have a lot of technical background and winter workshop is your first step towards it. All of your captains in tech GC have attended the winter workshop and they are the best people to tell you about the benefits of this.
 If you dream to represent IIT Kharagpur in the glamourous inter-IIT Tech, take your first step. The events on which there is a direct impact of this workshop is Hardware Modelling, OpenSoft, Product Design while various others where the skills that you gain in the winter workshop will help.
+
+<br>
+
+##### 11. How do I register for winter workshop 2016?
+That's see. Fill out the form [http://bit.ly/wws-2016](here) and come to give a test which is scheduled soon. Like our [https://www.facebook.com/robotixiitkgp/](facebook page) to be updated with the latest happenings. We will post the dates of the test soon.
