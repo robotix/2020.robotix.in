@@ -98,12 +98,10 @@ The bot has to recognize the various resources present (ie. food and wood) on th
 #### Arena:
 
 **Top View**:
-
-
+![](/img/event/conquest/4.jpg){:.img-responsive}
 
 **Isometric View**:
-
-
+![](/img/event/conquest/3.jpg){:.img-responsive}
 
 * The dimensions of the arena will be 3m x 3m.
 * The dimension of the squares will be 10cm x 10cm.
