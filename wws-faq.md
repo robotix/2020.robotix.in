@@ -76,7 +76,7 @@ If you dream to represent IIT Kharagpur in the glamourous inter-IIT Tech, take y
 <br>
 
 ##### 11. How do I register for winter workshop 2016?
-That's see. Fill out the form [http://bit.ly/wws-2016](here) and come to give a test which is scheduled soon. Like our [https://www.facebook.com/robotixiitkgp/](facebook page) to be updated with the latest happenings. We will post the dates of the test soon.
+That's see. Fill out the form [here](http://bit.ly/wws-2016) and come to give a test which is scheduled soon. Like our [facebook page](https://www.facebook.com/robotixiitkgp/) to be updated with the latest happenings. We will post the dates of the test soon.
 
 ##### 12. Where would I eat?
 Don't worry there would be private mess system in RK as well as VS. All the hall canteens would be open. There are a lot of seniors who would be waiting either for their placements or projects so food is very easily available.
