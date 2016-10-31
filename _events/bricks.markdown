@@ -1,10 +1,9 @@
 ---
 layout: post
-title: 'Bot the Builder'
+title: 'B.R.I.C.K.S'
 subTitle: 'Semi Autonomous Event'
-logo: /img/event/botthebuilder/logo.png
+logo: /img/event/bricks/logo.png
 ---
-
 
 ### Introduction
 
@@ -44,11 +43,11 @@ To build a robot that is capable of making a building by successfully receiving 
 
 ### Arena
 
-![](/img/event/botthebuilder/image00.jpg){:.img-responsive}
+![](/img/event/bricks/image00.jpg){:.img-responsive}
 
-![](/img/event/botthebuilder/image02.jpg){:.img-responsive}
+![](/img/event/bricks/image02.jpg){:.img-responsive}
 
-![](/img/event/botthebuilder/image03.jpg){:.img-responsive}
+![](/img/event/bricks/image03.jpg){:.img-responsive}
 
 #### Arena Components
 
