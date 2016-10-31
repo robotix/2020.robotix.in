@@ -40,7 +40,7 @@ The weightage for scoring will be as following:
     * Cost Effectiveness: 10%
     * Presentation: 10%
 
-##### **SUBMISSION DEADLINE:** 31st November, 2016
+##### **SUBMISSION DEADLINE:** 30th November, 2016
 
 ##### Send your entries to [bombdisposal@robotix.in](mailto:bombdisposal@robotix.in)
 
