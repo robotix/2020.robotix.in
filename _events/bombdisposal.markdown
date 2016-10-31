@@ -301,16 +301,19 @@ Along its path, the robot will have to get past through few barriers (in the for
 #### Contact
 
 ##### Shubhangi Bhushan
-Email: **shubhangi@robotix.in**
+
+Email: **[shubhangi@robotix.in](mailto:shubhangi@robotix.in)**
 
 Ph. no: **+91 9933909355**
 
 ##### Rajat Chaurasia
-Email: **rajat@robotix.in**
+
+Email: **[rajat@robotix.in](mailto:rajat@robotix.in)**
 
 Ph. no: **+91 7872703173**
 
 ##### Shweta Gupta
-Email: **shweta@robotix.in**
+
+Email: **[shweta@robotix.in](mailto:shweta@robotix.in)**
 
 Ph. no: **+91 7872814560**

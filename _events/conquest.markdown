@@ -159,11 +159,13 @@ One particular resource is exhausted after the resource is collected twice. The 
 #### Contact:
 
 ##### Sourish Ghosh
-Email: **sourish@robotix.in**
+
+Email: **[sourish@robotix.in](mailto:sourish@robotix.in)**
 
 Ph. no: **+91 8902234618**
 
 ##### Aaditya Sanjay Boob
-Email: **adityasanjay@robotix.in**
+
+Email: **[adityasanjay@robotix.in](mailto:adityasanjay@robotix.in)**
 
 Ph. no: **+91 770911333**

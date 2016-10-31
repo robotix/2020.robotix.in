@@ -193,11 +193,13 @@ For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/
 #### Contact:
 
 ##### Vraj Parikh
-Email: **vraj@robotix.in**
+
+Email: **[vraj@robotix.in](mailto:vraj@robotix.in)**
 
 Ph. no: **+91 8000981472**
 
 ##### Manash Pratim Das
-Email: **manash@robotix.in**
+
+Email: **[manash@robotix.in](mailto:manash@robotix.in)**
 
 Ph. no: **+91 9933890509**
