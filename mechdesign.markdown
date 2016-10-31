@@ -40,18 +40,22 @@ The weightage for scoring will be as following:
     * Cost Effectiveness: 10%
     * Presentation: 10%
 
-##### **SUBMISSION DEADLINE:** 31st December, 2015
+##### **SUBMISSION DEADLINE:** 31st November, 2016
 
-##### Send your entries to [summit@robotix.in](mailto:summit@robotix.in)
+##### Send your entries to [bombdisposal@robotix.in](mailto:bombdisposal@robotix.in)
 
 For any queries,
 
 **Contact :**
 
-**Apoorva Sharma**  
-Email ID : [apoorva.sharma@robotix.in](mailto:apoorva.sharma@robotix.in)  
-Phone No. : (+91) 9800105345  
+**Rajat Chaurasia**  
+Email ID : [rajat@robotix.in](mailto:rajat@robotix.in)  
+Phone No. : (+91) 7872703173  
  
-**Rohan Lohia**  
-Email ID : [rohan@robotix.in](mailto:rohan@robotix.in)  
-Phone No. : (+91) 7872846690  
+**Shubhangi Bhushan**  
+Email ID : [shubhangi@robotix.in](mailto:rohan@robotix.in)  
+Phone No. : (+91) 9933909355  
+
+**Shweta Gupta**  
+Email ID : [shweta@robotix.in](mailto:shweta@robotix.in)  
+Phone No. : (+91) 7872814560  
