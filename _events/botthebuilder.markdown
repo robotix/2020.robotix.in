@@ -189,3 +189,16 @@ NOTE: Restarts will be given only for technical fault in the bot.
 **Links to Tutorials:**
 
 For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/).
+<br>
+
+#### Contact:
+
+##### Vraj Parikh
+Email: **vraj@robotix.in**
+
+Ph. no: **+91 8000981472**
+
+##### Manash Pratim Das
+Email: **manash@robotix.in**
+
+Ph. no: **+91 9933890509**

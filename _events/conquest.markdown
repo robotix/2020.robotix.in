@@ -154,3 +154,16 @@ One particular resource is exhausted after the resource is collected twice. The 
 * -50 if the bot goes over the obstacle
 * -75 if the bot taps on anything other on the map except for the resource
 * Time bonus: + [360 - (time taken in sec)] x 2 points if all the resources are successfully collected.
+<br>
+
+#### Contact:
+
+##### Sourish Ghosh
+Email: **sourish@robotix.in**
+
+Ph. no: **+91 8902234618**
+
+##### Aaditya Sanjay Boob
+Email: **adityasanjay@robotix.in**
+
+Ph. no: **+91 770911333**
