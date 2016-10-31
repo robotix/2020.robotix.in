@@ -2,7 +2,7 @@
 layout: post
 title: Mechanical Design Competition
 permalink: /mechdesign/
-image: img/sections-background/mechdesign.jpg
+image: img/sections-background/Mech.jpg
 ---
 
 #### Rules:
