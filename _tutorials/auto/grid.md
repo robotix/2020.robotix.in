@@ -5,6 +5,7 @@ categories:
   - auto
 redirect_from: "/tutorials/category/auto/grid/"
 ---
+author : [Ashutosh Baheti][6]
 
 #### Introduction
 
@@ -166,3 +167,4 @@ The motors connection will be done with the motor-driver IC and the control line
 [3]: https://lh4.googleusercontent.com/bpzbTsW5LSNQsgs7pATEr9QEJT7y02v89U0oc5qWCKSl7XALQurs5CfHN219-m6jdrAdTGbzmgKI7X76bNZ_A4G-6v5PZVK9HhtL919J7k1k_CxSDZZ8Esg-vg
 [4]: {{ site.baseurl }}/tutorials/category/auto/motor_driver
 [5]: {{ site.baseurl }}/tutorials/category/avr/linefollower
+[6]: mailto:ashutoshbaheti95@gmail.com
