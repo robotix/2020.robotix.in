@@ -6,6 +6,8 @@ categories:
 redirect_from: "/tutorials/category/auto/lcd/"
 ---
 
+author: [Ashutosh Baheti][7]
+
 #### Introduction
 
 LCD is used to provide textual information from microcontroller. It makes the applications in microcontroller more interactive. LCD comes in various configurations such as 20 x 2 , 16 x 1 , 40 x 1 , 16 x 2 etc. Out of these, 16 x 2 is widely used. LCD also has a microcontroller in it. This microcontroller is already coded to display characters on the screen. Now we have to send the data to this LCD through our microcontroller by following the given steps -
@@ -56,3 +58,4 @@ The Full LCD code is given below. It has many functions which would be useful. T
 [4]: https://lh3.googleusercontent.com/UuASEqejZ7srsYDd2wNk1Q4q5sFTd4sJxlg41r3f3l6_oDFpXI1WdAOpTvaR9YZMHByWKzq-hdm9CLYU1tx4QdV6PXfJHK_XeJFHEnS4RArO_rad4oxjql92_A
 [5]: http://mil.ufl.edu/4744/docs/lcdmanual/commands.html
 [6]: http://web.alfredstate.edu/weimandn/lcd/lcd_addressing/lcd_addressing_index.html
+[7]: mailto:ashutoshbaheti95@gmail.com
