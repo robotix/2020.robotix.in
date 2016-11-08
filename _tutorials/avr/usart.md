@@ -6,8 +6,6 @@ categories:
 redirect_from: "/tutorials/category/avr/usart/"
 ---
 
-author: [Ashutosh Baheti][9]
-
 #### Introduction
 
 **USART **stands for "**Universal Synchronous Asynchronous Receiver and Transmitter**".
@@ -127,4 +125,3 @@ Download these files and include them in your sender program.
 [6]: http://robotix.in/samplecode/tserial.h
 [7]: http://robotix.in/samplecode/tserial.cpp
 [8]: http://robotix.in/samplecode/bot_control.h
-[9]: mailto:ashutoshbaheti95@gmail.com

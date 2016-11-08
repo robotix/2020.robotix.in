@@ -6,8 +6,6 @@ categories:
 redirect_from: "/tutorials/category/avr/interrupts/"
 ---
 
-author: [Ashutosh Baheti][1]
-
 #### What are Interrupts?
 
 One of the most fundamental and useful principles of modern embedded processors are _interrupts_. An interrupt is a way for an external (or, sometimes, internal) event to pause the current processor's activity, so that it can complete a brief task before resuming execution where it left off.
@@ -87,5 +85,3 @@ After sei(); and setting RXCIE the ISR will code will run when the data receive 
 There are a few things to keep in mind when using interrupts in your program:
 
 Now we have learnt what are interrupts in general. In the next tutorial we will see how to implement specific interrupts like ADC Conversion Complete Interrupt, External Interrupts, Timer Interrupts etc.
-
-[1]: mailto:ashutoshbaheti95@gmail.com

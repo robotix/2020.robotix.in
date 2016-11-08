@@ -6,8 +6,6 @@ categories:
 redirect_from: "/tutorials/category/avr/timers/"
 ---
 
-author: [Ashutosh Baheti][12]
-
 #### Introduction
 
 The atmega16 provides you with two 8-bit timers and one 16-bit timer. Each timer has different modes of operations:  
@@ -149,4 +147,3 @@ clkIO is the clock frequency of the microcontroller itself (if microcontroller i
 [9]: https://lh3.googleusercontent.com/bR6V2vJDHQlA09Uns_L6tfm_9HlhBFEw7b2CUdmAIUzZTvwuXiFhTnAOK01gSDqKZfhEbg3TxJWCnX3jvWkcw9SEk_BJfsapV3eC_QaSDG4TMOQ912oLLdKVUQ
 [10]: https://lh3.googleusercontent.com/o3WgTYXZZARmITn-2R3mh877m-MKLqYFVN_MK9DL9I4gnkZZsUlzYVCfddJ97UH3ZUexI4gTX9Uye6DfV0Um61TIlGNBZu8tx8lqMMeXzj4sKC3XZtQeN0Fl_Q
 [11]: https://lh6.googleusercontent.com/78cZ7I_29s2tudw_OCJhcCtYLImPDykYzg-mEDI6wRCyXub4v75r38CuxBGuqo35oxAB-GWTJt64xsKDWJIWLiygpx0GXoqentOyaiZDTAjl1CLQktSmSO2dXA
-[12]: mailto:ashutoshbaheti95@gmail.com
