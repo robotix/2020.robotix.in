@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Conquest Tutorial"
+title: "Bomb Disposal Tutorial"
 categories:
  - event
 ---
 
-**Problem Statement:**
+#### Problem Statement:
 
 To build a manually controlled robot which is capable of cutting the required wires and lifting objects.
 
@@ -21,7 +21,7 @@ To tackle this your robot needs a mechanism having a:
 
  
 
-**How this Tutorial works****:**
+#### How this Tutorial works
 
 This is a guide for an enthusiast like you to explore your own imagination and incorporate  them in your robot for ROBOTIX’ 17 edition. The tutorial lists out all the skills that the event requires your bot to have and tells you exactly how you can implement each of them. And finally, find our ‘Tips’ to put together all your mechanisms and build a winning robot!
 

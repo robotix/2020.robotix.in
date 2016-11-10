@@ -5,11 +5,11 @@ categories:
  - event
 ---
 
-###### Problem Statement:
+#### Problem Statement:
 
 To build a robot that is capable of making a building by successfully receiving the number of blocks required sent using wireless communication and differentiating between hollow and solid bricks by successful autonomous weight detection.
 
-###### USP:
+#### USP:
 
 * Weight measurement
 
