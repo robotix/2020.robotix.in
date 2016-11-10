@@ -233,6 +233,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/amanchandra333"}
         - {name: "email", link: "mailto:aman.chandra@robotix.in"}
+        - {name: "site", link: "http://amanchandra.in/"}
     -
       id: 37
       name: Amit
