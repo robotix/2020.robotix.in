@@ -6,7 +6,7 @@ categories:
 redirect_from: "/tutorials/category/avr/adc/"
 ---
 
-####Introduction {#intro}
+#### Introduction
 
 A lot of times when you deal with robotics, working only with *+Vcc* (Logic 1) and *Ground* (Logic 0) might not be enough. What if we have an analog input, i.e., value varies over a range, say *0V* to *+5V*?  
 Then we require a tool that converts this analog voltage to discrete values. **Analog to Digital Converter** (ADC) is such a tool. In this tutorial, we shall learn the basic implementation of ADC in Atmel megaAVR devices in Single ended mode with code examples on ATmega16 to get started.  
