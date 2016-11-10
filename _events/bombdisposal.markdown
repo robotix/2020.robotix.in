@@ -5,10 +5,19 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/bombdisposal/logo.png
 actions:
   -
-    text: 'T'
-    caption: 'Tutorials'
-    url: 'http://www.robotix.in/tutorial'
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/bombdisposal-event'
     target: '_blank'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/bombdisposal'
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+
 ---
 
 

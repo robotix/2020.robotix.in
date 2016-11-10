@@ -3,6 +3,20 @@ layout: post
 title: 'B.R.I.C.K.S'
 subTitle: 'Semi Autonomous Event'
 logo: /img/event/bricks/logo.png
+actions:
+  -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/bricks-event'
+    target: '_blank'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/bricks'
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
 ---
 
 ### Introduction

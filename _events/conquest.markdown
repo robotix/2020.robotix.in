@@ -5,10 +5,18 @@ subTitle: 'Computer Vision Event'
 logo: /img/event/conquest/logo.png
 actions:
   -
+    text: 'F'
+    caption: 'Discussion Forum'
+    url: 'http://bit.do/conquest-event'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/conquest'
     target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
 ---
 
 
