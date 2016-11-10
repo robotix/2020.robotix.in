@@ -217,3 +217,9 @@ Ph. no: **+91 8000981472**
 Email: **[manash@robotix.in](mailto:manash@robotix.in)**
 
 Ph. no: **+91 9933890509**
+
+##### Shashwat Gupta
+
+Email: **[shashwat@robotix.in](mailto:shashwat@robotix.in)**
+
+Ph. no: **+91 7278275550**
