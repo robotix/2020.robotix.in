@@ -32,7 +32,7 @@ The Bomb Squad is to try out their new robot which can disarm bombs and thus red
 
 ### USP
 
-* **Maneuverable land traversal**
+* **Land traversal**
 
 * **Cutting wires**
 
