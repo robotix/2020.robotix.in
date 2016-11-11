@@ -3,6 +3,7 @@ layout: post
 title: 'Bomb Disposal'
 subTitle: 'Manual Robotics Event'
 logo: /img/event/bombdisposal/logo.png
+image: img/event/bombdisposal/banner.png
 actions:
   -
     text: 'F'
