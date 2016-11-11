@@ -39,4 +39,4 @@ We promise we would leave you all astonished with the magnificence of robotics. 
 
 ##### Register here: [http://ktj.in/kolkataworkshop](http://ktj.in/kolkataworkshop)
 
-> **Please note that it is mandatory to register yourself if you want to attend.**
+> **Please note that it is mandatory to register yourself if you want to attend. Since there are limited number of seats, only the first few registrants will be mailed a confirmation code, a print out of which will have to be produced at the venue. You will not be allowed to enter if you do not have the print out of the confirmation code.**
