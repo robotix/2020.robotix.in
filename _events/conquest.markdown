@@ -156,7 +156,7 @@ One particular resource is exhausted after the resource is collected twice. The 
 
 
 #### Scoring:
- 
+
 * +100 for food
 * +105 for wood
 * -50 if the bot goes over the obstacle
@@ -170,7 +170,7 @@ One particular resource is exhausted after the resource is collected twice. The 
 
 Email: **[sourish@robotix.in](mailto:sourish@robotix.in)**
 
-Ph. no: **+91 8902234618**
+Ph. no: **+91 7980623482**
 
 ##### Aaditya Sanjay Boob
 

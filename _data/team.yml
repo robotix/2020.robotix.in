@@ -193,7 +193,7 @@
       team: true
       tag: Computer Vision
       social:
-        - {name: "facebook", link: "https://www.facebook.com/Sourish69"}
+        - {name: "site", link: "http://sourishghosh.com/"}
         - {name: "github", link: "https://github.com/sourishg"}
         - {name: "email", link: "mailto:sourish@robotix.in"}
     -
