@@ -24,13 +24,13 @@ actions:
     caption: 'Total prize money worth Rs 45,000'
 ---
 
-### Introduction
+#### Introduction
 
 Imagine how convenient life would be if robots could take over simple day-to-day tasks like those of construction. A bot that would be capable of determining which blocks are useful for work and dispose the ones that aren’t.
 
 Your job is to build a miniature version of such a bot. Sounds fun, doesn’t it?
 
-### USP
+#### USP
 
 * Weight differentiation (pressure or load sensor)
 
@@ -38,11 +38,11 @@ Your job is to build a miniature version of such a bot. Sounds fun, doesn’t it
 
 * Wireless data communication.
 
-### Problem Statement
+#### Problem Statement
 
 To build a robot that is capable of making a building by successfully receiving the number of blocks required sent using wireless communication and differentiating between hollow and solid bricks by successful autonomous weight detection.
 
-### Task
+#### Task
 
 * The robot will be controlled without the use of buttons, i.e, using methods such as gesture control, touch pad traversal, etc.
 
@@ -60,7 +60,7 @@ To build a robot that is capable of making a building by successfully receiving 
 
 * Traversal has to be done without hitting the obstacles.
 
-### Arena
+#### Arena
 
 ![](/img/event/bricks/image00.jpg){:.img-responsive}
 
@@ -68,7 +68,7 @@ To build a robot that is capable of making a building by successfully receiving 
 
 ![](/img/event/bricks/image03.jpg){:.img-responsive}
 
-#### Arena Components
+##### Arena Components
 
 All the heights are with respect to the corresponding floor
 
@@ -92,7 +92,7 @@ All the heights are with respect to the corresponding floor
 Correct identification: Whether block is useful or waste (according to weight).
 Deposited Objects: Blocks on the correct deposit zone.
 
-#### Round 1
+##### Round 1
 
 **Task:**
 
@@ -139,7 +139,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 `30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S`
 
-#### Round 2
+##### Round 2
 
 **Task:**
 
@@ -182,7 +182,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 * 100 points will be deducted for each restart(1 allowed) (S)
 
-**Formula: **
+**Formula:**
 
 `30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S`
 
@@ -207,23 +207,22 @@ NOTE: Restarts will be given only for technical fault in the bot.
 **Links to Tutorials:**
 
 For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/).
-<br>
 
-#### Contact:
+##### Contact:
 
-##### Vraj Parikh
+###### Vraj Parikh
 
 Email: **[vraj@robotix.in](mailto:vraj@robotix.in)**
 
 Ph. no: **+91 8000981472**
 
-##### Manash Pratim Das
+###### Manash Pratim Das
 
 Email: **[manash@robotix.in](mailto:manash@robotix.in)**
 
 Ph. no: **+91 9933890509**
 
-##### Shashwat Gupta
+###### Shashwat Gupta
 
 Email: **[shashwat@robotix.in](mailto:shashwat@robotix.in)**
 
