@@ -20,11 +20,11 @@ actions:
 ---
 
 
-### Introduction
+#### Introduction
 
 The robots are trying to take over the world. Hence, they need to build an empire. For achieving this, they have to first collect all possible resources in a given time.
 
-### USP
+#### USP
 
 * Path Planning
 
@@ -34,7 +34,7 @@ The robots are trying to take over the world. Hence, they need to build an empir
 
 * Shape Detection
 
-### Problem Statement
+#### Problem Statement
 
 Build an image processing robot that can collect resources like food, wood, stone and gold from the arena while avoiding different obstacles. The video feed of the arena will be given by an overhead camera.
 
@@ -87,9 +87,9 @@ Build an image processing robot that can collect resources like food, wood, ston
 
 * A marker of dimension **20cm x 10cm** having two colour scheme will be provided. However, the participants are free to use their own markers.
 
-### Task
+#### Task
 
-#### Round 1
+##### Round 1
 
 The arena is plain black with some colourful shapes in it. There would be an overhead camera which would provide a video feed to the bot. The civilization has a town center in one cell which is the hub of all the activities going on in the map.
 
@@ -103,7 +103,7 @@ The bot has to recognize the various resources present (ie. food and wood) on th
 - Yellow with triangle represents wood.
 - Brown colour represents town center.
 
-#### Arena:
+###### Arena:
 
 **Top View**:
 ![](/img/event/conquest/4.jpg){:.img-responsive}
@@ -117,13 +117,13 @@ The bot has to recognize the various resources present (ie. food and wood) on th
 * The dimension of the town square will be 25cm x 25cm.
 * Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
 
-#### Scoring:
+###### Scoring:
 * +100 for food
 * +105 for wood
 * -75 if the bot blinks on anything other on the map except for the resource or Town Center
 * Time bonus: + [360 - (time taken in sec)] x 2 points if all the resources are successfully collected
 
-#### Round 2
+##### Round 2
 
 The arena is plain black with some colourful shapes in it. There would be an overhead camera which would provide a video feed to the bot. The civilization has a town center in one cell which is the hub of all the activities going on in the map.
 
@@ -140,7 +140,7 @@ One particular resource is exhausted after the resource is collected twice. The 
 * Blue colour square represents rivers
 * Brown colour represents Town Center
 
-#### Arena:
+###### Arena:
 
 **Top View**:
 ![](/img/event/conquest/image_1.png){:.img-responsive}
@@ -154,25 +154,23 @@ One particular resource is exhausted after the resource is collected twice. The 
 * The dimension of the town square will be 25cm x 25cm.
 * Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
 
-
-#### Scoring:
+###### Scoring:
 
 * +100 for food
 * +105 for wood
 * -50 if the bot goes over the obstacle
 * -75 if the bot taps on anything other on the map except for the resource
 * Time bonus: + [360 - (time taken in sec)] x 2 points if all the resources are successfully collected.
-<br>
 
-#### Contact:
+##### Contact:
 
-##### Sourish Ghosh
+###### Sourish Ghosh
 
 Email: **[sourish@robotix.in](mailto:sourish@robotix.in)**
 
 Ph. no: **+91 7980623482**
 
-##### Aaditya Sanjay Boob
+###### Aaditya Sanjay Boob
 
 Email: **[adityasanjay@robotix.in](mailto:adityasanjay@robotix.in)**
 
