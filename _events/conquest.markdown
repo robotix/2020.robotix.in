@@ -3,6 +3,7 @@ layout: post
 title: 'Conquest'
 subTitle: 'Computer Vision Event'
 logo: /img/event/conquest/logo.png
+image: img/event/conquest/banner.png
 actions:
   -
     text: 'F'
