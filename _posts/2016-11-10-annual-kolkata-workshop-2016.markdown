@@ -2,8 +2,8 @@
 comments: true
 date: 2016-11-10
 layout: post
-slug: annual-kolkata-workshop-2017
-title: 'The 2017 Annual Kolkata Robotics Workshop'
+slug: annual-kolkata-workshop-2016
+title: 'The 2016 Annual Kolkata Robotics Workshop'
 categories:
   - 'Robotix 2017'
 actions:
