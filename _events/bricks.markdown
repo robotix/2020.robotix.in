@@ -15,6 +15,11 @@ actions:
     url: '/tutorial/event/bricks'
     target: '_blank'
   -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    url: '/img/event/bricks/DIY.jpg'
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
 ---
