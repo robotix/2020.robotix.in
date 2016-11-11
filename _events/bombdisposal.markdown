@@ -26,11 +26,11 @@ actions:
 ---
 
 
-### Introduction
+#### Introduction
 
 The Bomb Squad is to try out their new robot which can disarm bombs and thus reduce the loss of lives of the fearless men who try to diffuse it.
 
-### USP
+#### USP
 
 * **Land traversal**
 
@@ -38,13 +38,13 @@ The Bomb Squad is to try out their new robot which can disarm bombs and thus red
 
 * **Lifting objects**
 
-### Problem statement
+#### Problem statement
 
 To build a manually controlled robot which is capable of cutting the required wires and lifting objects.
 
-### Rounds
+#### Rounds
 
-#### Round 1
+##### Round 1
 
 1. Traverse through an obstacle path and search for bombs (wooden blocks)
 
@@ -66,7 +66,7 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 10. The bot can defuse the bomb in the city limits itself instead of taking it to safe zone but it will cost him 5 times more negative points if it explodes in city limits.
 
-#### Round 2
+##### Round 2
 
 1. Traverse through an obstacle path and search for bombs (wooden blocks)
 
@@ -92,7 +92,7 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 12. The bot can defuse the bomb in the city limits itself instead of taking it to safe zone but it will cost him 5 times more negative points if it explodes in city limits.
 
-### Arena
+#### Arena
 
 **Isometric View**
 
@@ -110,7 +110,7 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 ![](/img/event/bombdisposal/image_4.jpg){:.img-responsive}
 
-#### Arena Components
+##### Arena Components
 
 **Boundary Wall Specification:**
 
@@ -165,9 +165,9 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 ![](/img/event/bombdisposal/image_9.jpg){:.img-responsive}
 
-### Rules And Specifications
+#### Rules And Specifications
 
-#### General Rules
+##### General Rules
 
 1. All arena dimensions may have a tolerance (error) of up to 10%.
 
@@ -189,9 +189,9 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 10. **The decision of Team ROBOTIX will be final and binding.**
 
-#### Event Rules
+##### Event Rules
 
-##### Bomb
+###### Bomb
 
 1. The Bombs will be made of Hollow wood.
 
@@ -201,13 +201,13 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 4. The position of all the bomb will be decided by Team ROBOTIX.
 
-##### Picking and placing up the Bomb
+###### Picking and placing up the Bomb
 
 1. The bombs have to be picked up as **neatly** as possible and dragging must be avoided if possible.
 
 2. If the bomb falls down, there will be **penalties**.
 
-##### Arena and Locomotion
+###### Arena and Locomotion
 
 1. The robot has to start from the **Safe Zone,** which will be marked in green in the arena.
 
@@ -219,13 +219,13 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 5. There will be a **Wall** surrounding the arena from three sides
 
-##### Initial Orientation of Robot
+###### Initial Orientation of Robot
 
 1. The participant is allowed to decide the initial orientation of his robot on the start zone.
 
 2. Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the judge’s discretion.
 
-##### Restarts and Timeouts
+###### Restarts and Timeouts
 
 1. A maximum of 2 Timeouts of **1 minute** each may be taken. Penalty will be awarded for each timeout and robot will start from its last position on the arena.
 
@@ -237,7 +237,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 5. A restart can only be taken if there is a genuine technical fault in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
 
-#### Robot Specifications
+##### Robot Specifications
 
 1. Each robot can have maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively.
 
@@ -253,9 +253,9 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 7. Ready-made gripper is also allowed .
 
-### Scoring
+#### Scoring
 
-#### Round 1
+##### Round 1
 
 **Positives**
 
@@ -277,11 +277,11 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 4. Negative marks for restart: -150 (**R**)
 
-#### Scoring Formula
+**Scoring Formula**
 
 **`1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS`**
 
-#### Round 2
+##### Round 2
 
 **Positives**
 
@@ -307,26 +307,25 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 5. Negative marks for restart: -150 (**R**)
 
-#### Scoring Formula
+**Scoring Formula**
 
 **`1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS`**
-<br>
 
-#### Contact
+##### Contact
 
-##### Shubhangi Bhushan
+###### Shubhangi Bhushan
 
 Email: **[shubhangi@robotix.in](mailto:shubhangi@robotix.in)**
 
 Ph. no: **+91 9933909355**
 
-##### Rajat Chaurasia
+###### Rajat Chaurasia
 
 Email: **[rajat@robotix.in](mailto:rajat@robotix.in)**
 
 Ph. no: **+91 7872703173**
 
-##### Shweta Gupta
+###### Shweta Gupta
 
 Email: **[shweta@robotix.in](mailto:shweta@robotix.in)**
 
