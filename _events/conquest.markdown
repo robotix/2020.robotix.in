@@ -28,7 +28,7 @@ The robots are trying to take over the world. Hence, they need to build an empir
 
 * Path Planning
 
-* Object Detection
+* Autonomous Traversal
 
 * Colour Detection
 
@@ -36,7 +36,7 @@ The robots are trying to take over the world. Hence, they need to build an empir
 
 #### Problem Statement
 
-Build an image processing robot that can collect resources like food, wood, stone and gold from the arena while avoiding different obstacles. The video feed of the arena will be given by an overhead camera.
+Build an image processing robot that can collect resources like food and wood from the arena while avoiding different obstacles. The video feed of the arena will be given by an overhead camera.
 
 #### Rules
 
