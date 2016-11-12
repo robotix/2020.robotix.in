@@ -3,6 +3,7 @@ layout: post
 title: 'B.R.I.C.K.S'
 subTitle: 'Semi Autonomous Event'
 logo: /img/event/bricks/logo.png
+image: img/event/bricks/banner.png
 actions:
   -
     text: 'F'
