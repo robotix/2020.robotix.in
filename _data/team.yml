@@ -205,7 +205,7 @@
       team: true
       tag: Autonomous
       social:
-        - {name: "facebook", link: "https://www.facebook.com/vraj.parikh"}
+        - {name: "site", link: "http://www.vrajparikh.in/"}
         - {name: "github", link: "https://www.github.com/vrjparikh"}
         - {name: "email", link: "mailto:vraj@robotix.in"}
 
