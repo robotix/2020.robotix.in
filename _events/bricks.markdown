@@ -21,6 +21,11 @@ actions:
     url: '/img/event/bricks/DIY.jpg'
     target: '_blank'
   -
+    icon: 'youtube'
+    caption: "Tutorial Video"
+    url: https://www.youtube.com/watch?v=2_kq5MJmR7I
+    target: '_blank'
+  -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
 ---
