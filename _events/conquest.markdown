@@ -8,7 +8,7 @@ actions:
   -
     text: 'F'
     caption: 'Discussion Forum'
-    url: 'http://bit.do/conquest-event'
+    url: 'https://www.facebook.com/groups/conquestevent/'
     target: '_blank'
   -
     text: 'T'

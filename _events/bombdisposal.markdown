@@ -8,7 +8,7 @@ actions:
   -
     text: 'F'
     caption: 'Discussion Forum'
-    url: 'http://bit.do/bombdisposal-event'
+    url: 'https://www.facebook.com/groups/bombdisposalevent/'
     target: '_blank'
   -
     text: 'T'

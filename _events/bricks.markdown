@@ -8,7 +8,7 @@ actions:
   -
     text: 'F'
     caption: 'Discussion Forum'
-    url: 'http://bit.do/bricks-event'
+    url: 'https://www.facebook.com/groups/bricksevent/'
     target: '_blank'
   -
     text: 'T'
