@@ -6,7 +6,7 @@ logo: /img/event/bombdisposal/logo.png
 image: img/event/bombdisposal/banner.png
 actions:
   -
-    text: 'F'
+    icon: 'facebook'
     caption: 'Discussion Forum'
     url: 'https://www.facebook.com/groups/bombdisposalevent/'
     target: '_blank'

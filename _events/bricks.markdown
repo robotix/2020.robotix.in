@@ -6,7 +6,7 @@ logo: /img/event/bricks/logo.png
 image: img/event/bricks/banner.png
 actions:
   -
-    text: 'F'
+    icon: 'facebook'
     caption: 'Discussion Forum'
     url: 'https://www.facebook.com/groups/bricksevent/'
     target: '_blank'

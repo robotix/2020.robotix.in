@@ -6,7 +6,7 @@ logo: /img/event/conquest/logo.png
 image: img/event/conquest/banner.png
 actions:
   -
-    text: 'F'
+    icon: 'facebook'
     caption: 'Discussion Forum'
     url: 'https://www.facebook.com/groups/conquestevent/'
     target: '_blank'
