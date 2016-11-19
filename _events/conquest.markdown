@@ -149,10 +149,10 @@ One particular resource is exhausted after the resource is collected twice. The 
 ###### Arena:
 
 **Top View**:
-![](/img/event/conquest/image_1.png){:.img-responsive}
+![](/img/event/conquest/1.jpg){:.img-responsive}
 
 **Isometric View**:
-![](/img/event/conquest/image_2.png){:.img-responsive}
+![](/img/event/conquest/2.jpg){:.img-responsive}
 
 * The dimensions of the arena will be 3m x 3m.
 * The dimension of the squares will be 10cm x 10cm.
