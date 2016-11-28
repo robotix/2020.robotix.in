@@ -41,7 +41,7 @@ In this DIY , we'll step by step discuss each module. The first thing to do is t
 
 ##### LOCOMOTION
 
-The robot can be made to move by using a differential drive as the base. With independent motors for the left and right sides of the base, differential drives allow the robot to move in all directions and turn as well. How the motors will rotate will be determined by the voltage supplied to the motor by the motor driver circuit, which in turn will depend on the instructions sent to the motor driver by the microcontrollers. For more details on differential drives, please check [here](http://robotix.in/tutorials/category/mechanical/drivemechtut).
+The robot can be made to move by using a differential drive as the base. With independent motors for the left and right sides of the base, differential drives allow the robot to move in all directions and turn as well. How the motors will rotate will be determined by the voltage supplied to the motor by the motor driver circuit, which in turn will depend on the instructions sent to the motor driver by the microcontrollers. For more details on differential drives, please check [here](https://www.robotix.in/tutorial/category/mechanical/drivemechtut).
 
 ![](/img/tutorial/events/conquest/1.jpg){:.img-responsive}
 
@@ -54,7 +54,7 @@ Fig: An actual differential drive
 
 ##### MICROCONTROLLER
 
-Conceived to be the brain of the robot, the microcontroller is the device that allows us to control the robot and make it autonomous. By pre-programming it, we can make it give different outputs based on different inputs and instructions received, and thereby the robot acts accordingly. For a more elaborate understanding of the working of an AVR microcontroller, please visit [here](http://www.robotix.in/tutorials/category/avr/avrprog). Essentially you only need to program the microcontroller on your robot, to move in a particular direction, based on the character received by it from the laptop.
+Conceived to be the brain of the robot, the microcontroller is the device that allows us to control the robot and make it autonomous. By pre-programming it, we can make it give different outputs based on different inputs and instructions received, and thereby the robot acts accordingly. For a more elaborate understanding of the working of an AVR microcontroller, please visit [here](https://www.robotix.in/tutorial/category/avr/avrprog). Essentially you only need to program the microcontroller on your robot, to move in a particular direction, based on the character received by it from the laptop.
 
 ![](/img/tutorial/events/conquest/3.jpg){:.img-responsive}
 
@@ -63,7 +63,7 @@ Fig: The development board for the microcontroller from Robokits
 
 #### PART 2 – COMPUTER VISION
 
-Before proceeding with this module, we would request you to go through the set of general [tutorials](http://www.robotix.in/tutorials) for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
+Before proceeding with this module, we would request you to go through the set of general [tutorials](https://www.robotix.in/tutorial/) for computer vision, for both MATLAB and OpenCV, also found on our website. It is quite extensive, and we will assume that a working knowledge, as put forward there, is in the grasp of the reader of this tutorial.
 
 Note that the video feed will contain some noise. Therefore you will not have a perfect image, and hence detection may become really difficult or you might get wrong predictions. Therefore it is advised to use filters to smoothen your image.
 <br><br>
