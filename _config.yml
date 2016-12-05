@@ -59,17 +59,17 @@ aboutTitle: "We believe in sharing our knowledge"
 aboutBlock:
   -
     title: "K.R.A.I.G."
-    image: "hackathon.jpg"
+    image: "kraig.jpg"
     text: "Kickstart your journey into the world of hobby robotics."
     link: "/kraig/"
   -
     title: "K.R.I.S.S."
-    image: "workshop.jpg"
+    image: "kriss.jpg"
     text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics."
     link: "/kriss/"
   -
     title: "Winter Workshop"
-    image: "rse.jpg"
+    image: "winter-workshop.png"
     text: "See the complete documentation of the winter workshop we conduct anually for first and second year undergraduates of IIT Kharagpur."
     link: "/winter-workshop/"
 
