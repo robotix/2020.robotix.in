@@ -120,7 +120,7 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 **Boundary Wall Specification:**
 
-* Height and width of the boundary wall is **20 cm and 1.2cm** respectively.
+* Height and width of the boundary wall is **25 cm and 1.2cm** respectively.
 * The height of the wall may vary from ± 1 cm.
 
 **Shed Specification:**
@@ -133,7 +133,15 @@ To build a manually controlled robot which is capable of cutting the required wi
 
 **Hanging Pole Specification:**
 
-* The bomb will be hung from a height of **15 cm**.
+* The bomb will be hung from a height of **10 cm**.
+* It has a length of **15 cm**.
+* The diameter of the pole is **2 cm**.
+
+**Slab Specification:**
+
+* The slab will be at a height of **8 cm**.
+* It will have a width of **20 cm**.
+* It will have a length of **63 cm**.
 
 **Barriers (Rubber Bands):**
 
