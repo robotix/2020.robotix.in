@@ -163,6 +163,10 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 * The weight of the object will be less than **90 g**.
 
+* The loop of the hanging bomb will have a diameter of **3 cm**.
+
+* The timer on all the bombs will start simultaneously and won't be sequential.
+
 **Bombs**
 
 ![](/img/event/bombdisposal/image_8.jpg){:.img-responsive}
