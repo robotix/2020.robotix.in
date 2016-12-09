@@ -87,7 +87,6 @@ Weight: The weight of the hollow blocks will be less than 50 grams, And that of 
 
 Handle: A handle will be made on top of each block to facilitate lifting as shown in the figure.
 ![](/img/event/bricks/image05.jpg){:.img-responsive}
-![](/img/event/bricks/image06.jpg){:.img-responsive}
 
 
 **Robot specification:**
