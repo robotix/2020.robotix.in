@@ -74,9 +74,20 @@ To build a robot that is capable of making a building by successfully receiving 
 
 ![](/img/event/bricks/image03.jpg){:.img-responsive}
 
-##### Arena Components
+#### Block Specifications
 
-All the heights are with respect to the corresponding floor
+**Cubical**
+* Dimension: 6cm X 6cm X 6cm.
+
+**Cylindrical**
+* Diameter: 6cm.
+* Height: 6cm.
+
+Weight: The weight of the hollow blocks will be less than 50 grams, And that of solid blocks will be greater than 70 grams.
+
+Handle: A handle will be made on top of each block to facilitate lifting as shown in the figure.
+![](/img/event/bricks/image05.jpg){:.img-responsive}
+
 
 **Robot specification:**
 
@@ -102,11 +113,11 @@ Deposited Objects: Blocks on the correct deposit zone.
 
 **Task:**
 
-* This round will consist solely of hollow or solid blocks.
+* This round will consist solely of hollow or solid cubical blocks.
 
 * The bot will have to identify correctly whether the block is hollow or solid.
 
-* For solid blocks, the block will have to be deposited in the correct zone according to shape.
+* For solid blocks, the block will have to be deposited in the correct zone.
 
 * For hollow blocks, they will be deposited in the Waste Box at the centre of the arena.
 
@@ -149,15 +160,22 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Task:**
 
-* This round will also have a block of weight between those of the hollow and solid blocks.
+* This round will have blocks of different shapes,i.e, cubical and cylindrical.
 
-* The bot will be given data about how many solid and semi solid blocks will be needed.
+* The bot will be given data about how many solid blocks of different shapes will be needed.
+
+* The data will be gives via bluetooth in the following format:  ` *X&Y# ` where:
+	* '*' is start character
+	* 'X' is number of solid cubical block needed.
+	* '&' is separator character.
+	* 'Y' is number of solid cylindrical block needed.
+	* '#' is stop character.  
+
+* If the bot encounters a hollow block it has to be deposited in the Waste Box at the centre of the arena.
 
 * The bot will have to correctly display which block is needed and which isn’t by lighting up the corresponding LED.
 
 * The controller will then have to pick up the blocks and place them in the corresponding zones.
-
-* In this round some solid and semi filled blocks may also be have to placed in the dustbin once the required number has been placed in the construction site.
 
 **Round rules:**
 
