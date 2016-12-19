@@ -34,3 +34,42 @@ An RSE works in close contact with some of the best roboticists the country has 
 - Exclusive Robotix Merchandise
 - Certification from Technology Robotix Society
 - The tag itself, and the reputation that comes with holding such a valued position.
+
+#### List of selected RSEs for Robotix 2017
+
+| Name of Applicant                 | Name of College                                                      |   |   |   |
+|-----------------------------------|----------------------------------------------------------------------|---|---|---|
+| Sudip Halder                      | Academy Of Technology                                                |   |   |   |
+| SHOUVIK DAS                       | ACADEMY OF TECHNOLOGY                                                |   |   |   |
+| Siddharth Mahesh Tiwari           | Bhilai Institute of Technology                                       |   |   |   |
+| Nikhil Kumar Pilodia              | Bhilai institute of technology, Durg                                 |   |   |   |
+| RAJ KUMAR                         | BIDHAN CHANDRA ROY                                                   |   |   |   |
+| mohammed arfan                    | bms college of engineering                                           |   |   |   |
+| ANIRUDH G J                       | BMSCE                                                                |   |   |   |
+| Snigdhadeb Ash                    | Calcutta Institute of Engineering And Management                     |   |   |   |
+| vishwadeep paul                   | Chhatrapati Shivaji Institute of Technology                          |   |   |   |
+| ANKIT ANURAG                      | Dr. B C Roy Engineering college,durgapur                             |   |   |   |
+| Ankit Sharma                      | Government college of enginnering and technology ,chak bhalwal jammu |   |   |   |
+| Shubham Kumar                     | Gulzar Group of Institutes                                           |   |   |   |
+| Deepak shaw                       | Gurunanak Institute of Technology                                    |   |   |   |
+| Nayan Shree                       | Haldia Institute of Technology                                       |   |   |   |
+| Pratik Kumar                      | Institute of engineering and management                              |   |   |   |
+| Priyabrat Mishra                  | ITER                                                                 |   |   |   |
+| Diyanko Bhowmik                   | Jadavpur University                                                  |   |   |   |
+| Riddhie Basak                     | Jadavpur University                                                  |   |   |   |
+| RAUNAK NAYAK                      | JALPAIGURI GOVERNMENT ENGINEERING COLLEGE                            |   |   |   |
+| Phanindra Dheeraj Varma Vinukonda | National Institute of Technology  Raipur                             |   |   |   |
+| Nischay soni                      | Nit raipur                                                           |   |   |   |
+| Kuldeep Pisda                     | NIT Raipur                                                           |   |   |   |
+| Ankit kumar                       | Nit Raipur                                                           |   |   |   |
+| Gh Mustafa Mir                    | NIT Srinagar                                                         |   |   |   |
+| vaishali gulati                   | northern india engineering college                                   |   |   |   |
+| M KAMALA KANTA                    | PARALA MAHARAJA ENGINEERING COLLEGE                                  |   |   |   |
+| Sadananad Gowda                   | PES UNIVERSITY                                                       |   |   |   |
+| Baidik Chatterjee                 | Seacom Engineering College                                           |   |   |   |
+| MUSTAHSAN JAMIL SIDDIQUE          | TRIDENT ACADEMY OF TECHNOLOGY                                        |   |   |   |
+| SOUVIK CHANDRA                    | DR BC ROY ENGINEERING COLLAGE                                        |   |   |   |
+| Vishal kishor                     | Dr BC Roy engineering college                                        |   |   |   |
+| AADARSH MALVIYA                   | DR B.C ROY ENGINEERING COLLEGE                                       |   |   |   |
+| Subham Kumar Gupta                | Dr. B. C. Roy Engineering College                                    |   |   |   |
+| ASHWANI SINGH                     | DR.B.C.ROY ENGINEERING COLLEGE                                       |   |   |   |
