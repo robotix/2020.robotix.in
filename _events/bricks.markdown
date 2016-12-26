@@ -28,6 +28,10 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    url: https://www.robotix.in/blog/registration-for-robotix-2017/
 ---
 
 #### Introduction
@@ -71,7 +75,7 @@ To build a robot that is capable of segregating building material by successfull
 
 ##### Arena Specifications
 
-* The outer dimensions of the arena will be 200 cm x 200 cm. 
+* The outer dimensions of the arena will be 200 cm x 200 cm.
 * The central circle is the waste zone of diameter 30 cm.
 * The green zone is the deposit zone of dimensions 30 cm x 30 cm
 * The robot will start from the Yellow Zone.
