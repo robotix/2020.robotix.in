@@ -114,6 +114,14 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 * Points will be awarded for correct identification and deposition of the blocks at the end of the run. Correct identification: Whether block is useful or waste (according to weight). Deposited Objects: Blocks on the correct deposit zone.
 
 
+##### Restarts and Timeouts
+* A maximum of 2 Timeouts of 1 minute each may be taken. Penalty will be awarded for each timeout and robot will start from its last position on the arena.
+* The participant’s robots can have a maximum of 2 restarts. A penalty will be imposed on the team for every restart that they take.
+* After the restart, the participant’s robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
+* A timeout can be taken anytime at the user's discretion.
+* A restart can only be taken if there is a genuine technical fault in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
+
+
 ##### Round 1
 
 **Task:**
@@ -135,8 +143,6 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 * Maximum number of Time-outs allowed :1(1 min)
 
-* Restarts allowed : 1
-NOTE: Restarts will be given only for technical fault in the bot. A restart can not be taken due to less points in the run.
 
 **Scoring Formula:**
 
@@ -187,6 +193,10 @@ NOTE: Restarts will be given only for technical fault in the bot. A restart can 
 * The robot will have to correctly display which block is needed and which isn’t by lighting up the corresponding LED.
 
 * The controller will then have to pick up the blocks and place them in the corresponding zones.
+
+* In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant. The participant can then either know the required number of blocks via a LCD on the robot or devise some mechanism for the robot to distinguish between cubical and cylindrical blocks.
+
+* The robot can be given information about the shape of the block. E.g. Some gesture to indicate shape of the block. Then the robot has to give an indication whether or not to deposit the block in the correct zone.
 
 * Once the robot has successfully placed X and Y blocks in respective zones there must be some indication from the robot that the run has ended. The user then has to tell Team Robotix to stop the clock.
 
