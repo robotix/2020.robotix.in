@@ -32,6 +32,11 @@ actions:
     text: 'R'
     caption: 'Register'
     url: https://www.robotix.in/blog/registration-for-robotix-2017/
+  -
+    text: 'F'
+    caption: 'FAQ'
+    url: /event/bombdisposal/faq
+    target: _blank
 ---
 
 
