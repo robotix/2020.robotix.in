@@ -64,9 +64,7 @@ To build a robot that is capable of segregating building material by successfull
 
 * There will be multiple hollow and solid blocks of two different shapes i.e. cubical and cylindrical.
 
-* The robot will be given a number of blocks required sent by us via Bluetooth transmission.
-
-* This transmitted data will be known only to the robot and not the participant.
+* The robot will be sent the number of blocks required via Bluetooth transmission at the start of the run.
 
 * The solid blocks will be of different shapes and have to be placed on their corresponding platforms present at different heights.
 
