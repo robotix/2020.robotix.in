@@ -172,19 +172,6 @@
         - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
         - {name: "email", link: "mailto:shweta@robotix.in"}
     -
-      id: 32
-      name: "Siddharth"
-      surname: "Jha"
-      title: "Head"
-      thumbnailUrl: siddharth.jpg
-      team: true
-      tag: Autonomous
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/thesidjway"}
-        - {name: "github", link: "https://www.github.com/thesidjway"}
-        - {name: "site", link: "https://www.sidj.in/"}
-        - {name: "email", link: "mailto:siddharth@robotix.in"}
-    -
       id: 33
       name: "Sourish"
       surname: "Ghosh"
