@@ -62,7 +62,7 @@ Build an image processing robot that can collect resources like food and wood fr
 
 * The participants will be provided with 220 Volts, 50 Hz standard AC supply.
 
-* Participants will have to themselves arrange for any other power supply required for their robot.
+* Participants will have to arrange for themselves if they require any other power supply for their robot.
 
 * Onboard processing units, if any, should fit within the dimensional constraints specified. Processing outside the arena is recommended, either wired or wireless.
 
@@ -107,9 +107,17 @@ Build an image processing robot that can collect resources like food and wood fr
 
 ##### Round 1
 
-The arena is plain black with some colourful shapes in it. There would be an overhead camera which would provide a video feed to the bot. The civilization has a town center in one cell which is the hub of all the activities going on in the map.
+The arena is plain black with some colourful shapes in it. There would be
+an overhead camera which would provide a video feed to the bot. The
+civilization has a town center in one cell which is the hub of all the
+activities going on in the map.
 
-The bot has to recognize the various resources present (ie. food and wood) on the map. The town center and all the resources are not obstacles. The bot has to then go on the resource and blink an LED once to &quot;collect that resource and then return to town center to deliver the resource collected and blink an LED there too. One particular resource is exhausted after the resource has been collected twice.
+The bot has to recognize the various resources present (ie. food and wood)
+on the map. The town center and all the resources are not obstacles. The
+bot has to then go on the resource, then blink an LED once to "collect"
+that resource and then return to town center to deliver the resource
+collected and finally blink an LED there too. One particular resource is
+exhausted after the resource has been collected twice.
 
 **Note**: Resources are not obstacles.
 
@@ -128,7 +136,7 @@ The bot has to recognize the various resources present (ie. food and wood) on th
 ![](/img/event/conquest/3.jpg){:.img-responsive}
 
 * The dimensions of the arena will be 3m x 3m.
-* The dimension of the squares will be 10cm x 10cm.
+* The dimensions of the squares will be 10cm x 10cm.
 * The triangles will be right angled isosceles triangle of the isosceles side 10cm.
 * The dimension of the town square will be 25cm x 25cm.
 * Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
