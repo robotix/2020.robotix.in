@@ -60,13 +60,13 @@ To build a robot that is capable of segregating building material by successfull
 
 #### General Description and Event Setup
 
-* The semi-autonomous movement of the robot is to be achieved without the use of buttons, i.e, using methods such as gesture control, touch pad traversal, etc.
+* The semi-autonomous movement of the robot is to be achieved without the use of buttons, i.e, using methods such as gesture control, touch pad traversal, etc. This can be wired or wireless.
 
 * There will be multiple hollow and solid blocks of two different shapes i.e. cubical and cylindrical.
 
-* The robot will be sent the number of blocks required via Bluetooth transmission at the start of the run.
+* The robot will be sent the number of blocks required via Bluetooth transmission at the start of the run (in round 2 only)
 
-* The solid blocks will be of different shapes and have to be placed on their corresponding platforms present at different heights.
+* The solid blocks will be of different shapes and have to be placed on their corresponding zones.
 
 * All the hollow blocks are to be deposited in the waste zone at the centre of the arena.
 
@@ -80,9 +80,12 @@ To build a robot that is capable of segregating building material by successfull
 ##### Arena Specifications
 
 * The outer dimensions of the arena will be 200 cm x 200 cm.
-* The central circle is the waste zone of diameter 30 cm.
-* The green zone is the deposit zone of dimensions 30 cm x 30 cm
+* The central red circle is the waste zone, of diameter 30 cm.
+* The green zone is the deposit zone for solid blocks, of dimensions 30 cm x 30 cm.
 * The robot will start from the Yellow Zone.
+* All the zones are at the same level with the arena (no elevation).
+* Dimensions of the arena are to be considered with a maximum tolerance of 10%.
+* The
 
 ![](/img/event/bricks/arena_TOP.JPG){:.img-responsive}
 
@@ -91,6 +94,7 @@ To build a robot that is capable of segregating building material by successfull
 **Cubical** : 6cm X 6cm X 6cm.
 
 **Cylindrical**
+
 * Diameter: 6cm.
 * Height: 6cm.
 
@@ -105,13 +109,12 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 **Robot specification:**
 
-* The robot must fit in a box of 30cm x 30cm x 30cm with a tolerance of 10% in the dimensions of robot. No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
-
-* Dimensions of the arena are to be considered with a maximum tolerance of 10%.
+* The robot must fit in a box of 30cm x 30cm x 30cm with a tolerance of 10% in the dimensions of robot. 
+* No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
 
 #### Event Rules
 
-* The robot can have any suitable buttonless mechanism for traversal.
+* The robot can have any suitable buttonless mechanism for traversal. It can be wired or wireless, some methods may be using accelerometer, joystick, mobile apps, etc.
 
 * In the second round the robot has to interpret data transmitted wirelessly.
 
@@ -134,18 +137,23 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 * There will be a total of 8 blocks with hollow and solid distributed in random ratio. The ratio may vary from participant to participant but the total number of blocks will be same.
 
+* All the 8 blocks, hollow and solid, have to be placed in their resepective zones to complete the task.
+
 * The robot will have to identify correctly whether the block is hollow or solid.
 
-* For solid blocks, the block will have to be deposited in the correct zone.
+* For solid blocks, the block will have to be deposited in the green zone.
 
-* For hollow blocks, they will be deposited in the Waste Box at the centre of the arena.
-* This has to be done while avoiding the obstacles.
+* For hollow blocks, they will be deposited in the Waste Box at the centre of the arena(red zone).
+
+* While picking and placing any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty awarded for each contact. However you can slightly displace a block while trying to pick it.
 
 **Round rules:**
 
-* Maximum time: 3 minutes.
+* A maximum of 4 minutes will be given to complete this round. The restart can only be taken before 3 minutes into the round.
 
-* Maximum number of Time-outs allowed :1(1 min)
+* Maximum number of Time-outs allowed: 2(1 min each).
+
+* Maximum number of Restarts allowed: 2.
 
 
 **Scoring Formula:**
@@ -173,58 +181,62 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 **Formula:**
 
-`30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S -25*O`
+`30*P + 40*Q + 50*R + 2*(Time remaining) - 20*A - 30*B - 30*C - 15*D - 100*S - 25*O`
 
 ##### Round 2
 
 **Task:**
 
-* This round will have blocks of different shapes,i.e, cubical and cylindrical.
+* This round will have blocks of both shapes,i.e, cubical and cylindrical.
 
-* The robot will be given data about how many solid blocks of different shapes will be needed.
+* The robot will be given data about how many solid blocks of both shapes will be needed.
 
-* The data will be given via bluetooth in the following format: ` *X&Y# ` where:
+* The data will be given via bluetooth in the following format: `*X&Y#` where:
     * ‘*’ is start character
-    * ‘X’ is number of solid cubical block needed (Single digit number).
+    * ‘X’ is number of **solid** cubical block needed (Single digit number).
     * ‘&’ is separator character.
-    * ‘Y’ is number of solid cylindrical block needed (Single digit number).
+    * ‘Y’ is number of **solid** cylindrical block needed (Single digit number).
     * ’#’ is stop character.
 
     No quotes (‘’) will be transmitted. It is just for participant's understanding.
 
-* If the robot encounters a hollow block it has to be deposited in the Waste Box at the centre of the arena.
+* In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant. 
 
-* The robot will have to correctly display which block is needed and which isn’t by lighting up the corresponding LED.
+* The robot should give an indication to the user when it receives the number of required blocks.
 
-* The controller will then have to pick up the blocks and place them in the corresponding zones.
+* The round is completed when the X+Y blocks are deposited in the Green zone.
 
-* In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant. The participant can then either know the required number of blocks via a LCD on the robot or devise some mechanism for the robot to distinguish between cubical and cylindrical blocks.
+* The robot can tell the participant the values of X and Y via a LCD or LEDs, etc. Then the participant can pick and place the X and Y number of each block in the green zone. The participant may also use some algorithm for the robot to simply indicate whether a block needs to be deposited in the green zone or not, without telling the participant the values of X and Y.
 
-* The robot can be given information about the shape of the block. E.g. Some gesture to indicate shape of the block. Then the robot has to give an indication whether or not to deposit the block in the correct zone.
+* The participant may give information about the shape of the block to the robot. E.g. Some gesture to indicate shape of the block. Then the robot may give an indication whether or not to deposit the block in the correct zone.
+
+* If the robot encounters a hollow block it can be deposited in the Waste Box at the centre of the arena to earn extra points. However depositing the hollow blocks in the waste zone is not compulsory to complete the run.
 
 * Once the robot has successfully placed X and Y blocks in respective zones there must be some indication from the robot that the run has ended. The user then has to tell Team Robotix to stop the clock.
 
 
 **Round rules:**
 
-* Maximum time: 5 minutes.
+* A maximum of 6 minutes will be given to complete this round. The restart will only be given before 4:30 into the round.
 
-* Maximum number of Time-outs allowed :2(1 min)
+* Maximum number of Time-outs allowed :2(1 min each)
 
-* Restarts allowed : 1
+* Restarts allowed : 2
 NOTE: Restarts will be given only for technical fault in the bot.
 
 **Scoring Formula:**
 
-* Correct identification via LED. ( + 30) (P)
+* Correct identification via LED. (+30)(P)
 
-* Picking up blocks (+40) (Q)
+* Indicating data received. (+10)(I)
 
-* Dropping off at the correct venue.(+50) (R)
+* Picking up blocks (+40)(Q)
+
+* Dropping off at the correct venue.(+50)(R)
 
 * Time factor(+2)(T)
 
-* Incorrect identification. ( -20) (A)
+* Incorrect identification. (-20)(A)
 
 * Dropping blocks.(-30)(B)
 
@@ -232,14 +244,14 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 * Touching obstacles.(-15)(D)
 
-* 25 pointed will be deducted for each timeout. (O)
+* 25 pointed will be deducted for each timeout.(O)
 
-* 100 points will be deducted for each restart(1 allowed) (S)
+* 100 points will be deducted for each restart(1 allowed)(S)
 
 
 **Formula:**
 
-`30*P +40*Q+50*R+ 2*(Time remaining)- 20*A -30*B-30*C -15*D-100*S - 25*O`
+`30*P + 10*I + 40*Q + 50*R + 2*(Time remaining) - 20*A - 30*B-30*C - 15*D - 100*S - 25*O`
 
 **RULES:**
 
