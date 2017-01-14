@@ -43,7 +43,8 @@ actions:
 
 #### Introduction
 
-The Bomb Squad is to try out their new robot which can disarm bombs and thus reduce the loss of lives of the fearless men who try to diffuse it.
+The Bomb Squad is to try out their new robot which can disarm bombs and thus
+reduce the loss of lives of the fearless men who try to diffuse it.
 
 #### USP
 
@@ -55,7 +56,8 @@ The Bomb Squad is to try out their new robot which can disarm bombs and thus red
 
 #### Problem statement
 
-To build a manually controlled robot which is capable of cutting the required wires and lifting objects.
+To build a manually controlled robot which is capable of cutting the
+required wires and lifting objects.
 
 #### Rounds
 
