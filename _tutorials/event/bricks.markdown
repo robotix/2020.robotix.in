@@ -27,7 +27,8 @@ The following circuit can be used to measure weight:
 
 ![image alt text](/img/tutorial/events/bricks/image_0.png)
 
-The V-out pin is attached to analog pin of arduino and can be calibrated as required. This sensor detects with from 100 grams to 1 kg. 
+The V-out pin is attached to analog pin of arduino and can be calibrated as required. This sensor detects with from 50 grams to 1 kg. 
+Force Sensitive Resistor can be purchased from [this](http://www.amazon.in/Simple-Labs-Force-Sensitive-Resistor/dp/B01M0ZFOEZ) link.
 
 ##### 2.Flex sensor
 

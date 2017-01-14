@@ -20,7 +20,7 @@ There can be a maximum of 4 members in a team and only 2 team members can contro
 
 **Q: What kind  of micro controller can be used to control the locomotion and gripping of the robot?**
 
-Any 16 bit or less micro controller can be used for the locomotion and gripping mechanisms. To see whether you micro controller is 16 Bit or less refer to its datasheet.
+Any 8 bit micro controller can be used for the locomotion and gripping mechanisms. For example arduino, AVR etc.
 
 
 **Q: What will be the dimensions and materials of the blocks?**
@@ -60,7 +60,7 @@ It will be the same as the position and orientation of the robot before the time
 
 **Q:  Are there any arrangements for the calibration of the sensors prior to the event?**
 
-A sample arena with sample blocks will be available to the participants throughout the fest.
+A sample arena with sample blocks will be available to the participants throughout the fest. Participants will not be allowed to test their bots on the main arena.
 
 
 **Q: What strategy can be used by the user to differentiate blocks of different shapes?**
