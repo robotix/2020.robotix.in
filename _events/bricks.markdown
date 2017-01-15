@@ -44,13 +44,13 @@ actions:
 
 Imagine how convenient life would be if robots could take over simple day-to-day tasks like those of construction. A bot that would be capable of determining which blocks are useful for work and dispose the ones that aren’t.
 
-Your job is to build a miniature version of such a bot. Sounds fun, doesn’t it?
+Your job is to build a Bot Recognizing Instructions for Cube Keeping and Sorting, a.k.a B.R.I.C.K.S.
 
 #### USP
 
 * Weight differentiation (pressure or load sensor)
 
-* Buttonless traversal
+* Buttonless control
 
 * Bluetooth communication.
 
@@ -60,11 +60,11 @@ To build a robot that is capable of segregating building material by successfull
 
 #### General Description and Event Setup
 
-* The semi-autonomous movement of the robot is to be achieved without the use of buttons, i.e, using methods such as gesture control, touch pad traversal, etc. This can be wired or wireless.
+* The semi-autonomous movement of the robot is to be achieved without the use of buttons, i.e, using methods such as gesture control, touch pad control, etc. This can be wired or wireless.
 
 * There will be multiple hollow and solid blocks of two different shapes i.e. cubical and cylindrical.
 
-* The robot will be sent the number of blocks required via Bluetooth transmission at the start of the run (in round 2 only)
+* The robot will be sent the number of blocks required via Bluetooth transmission at the start of the run (in round 2 only). Refer to round 2 tasks for details.
 
 * The solid blocks will be of different shapes and have to be placed on their corresponding zones.
 
@@ -85,7 +85,6 @@ To build a robot that is capable of segregating building material by successfull
 * The robot will start from the Yellow Zone.
 * All the zones are at the same level with the arena (no elevation).
 * Dimensions of the arena are to be considered with a maximum tolerance of 10%.
-* The
 
 ![](/img/event/bricks/arena_TOP.JPG){:.img-responsive}
 
@@ -114,11 +113,13 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 #### Event Rules
 
-* The robot can have any suitable buttonless mechanism for traversal. It can be wired or wireless, some methods may be using accelerometer, joystick, mobile apps, etc.
+* The robot can have any suitable buttonless mechanism for control. It can be wired or wireless, some methods may be using accelerometer, joystick, mobile apps, etc. All the actuations or movement of the bot apart from traversal should also be done with a buttonless mechanism.
 
 * In the second round the robot has to interpret data transmitted wirelessly.
 
 * Points will be awarded for correct identification and deposition of the blocks at the end of the run. Correct identification: Whether block is useful or waste (according to weight). Deposited Objects: Blocks on the correct deposit zone.
+
+* While picking and placing any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty awarded for each contact. However you can slightly displace a block while trying to pick it.
 
 
 ##### Restarts and Timeouts
@@ -145,7 +146,6 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 * For hollow blocks, they will be deposited in the Waste Box at the centre of the arena(red zone).
 
-* While picking and placing any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty awarded for each contact. However you can slightly displace a block while trying to pick it.
 
 **Round rules:**
 
@@ -155,6 +155,7 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 * Maximum number of Restarts allowed: 2.
 
+NOTE: Restarts will be given only for technical fault in the bot.
 
 **Scoring Formula:**
 
@@ -222,6 +223,7 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 * Maximum number of Time-outs allowed :2(1 min each)
 
 * Restarts allowed : 2
+
 NOTE: Restarts will be given only for technical fault in the bot.
 
 **Scoring Formula:**
