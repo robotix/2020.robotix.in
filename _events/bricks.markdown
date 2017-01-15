@@ -31,7 +31,7 @@ actions:
   -
     text: 'R'
     caption: 'Register'
-    url: /blog/registration-process-for-robotix-2017/
+    url: /blog/registration-for-robotix-2017/
     target: '_blank'
   -
     text: 'F'
@@ -108,7 +108,7 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 **Robot specification:**
 
-* The robot must fit in a box of 30cm x 30cm x 30cm with a tolerance of 10% in the dimensions of robot. 
+* The robot must fit in a box of 30cm x 30cm x 30cm with a tolerance of 10% in the dimensions of robot.
 * No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
 
 #### Event Rules
@@ -207,7 +207,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
     No quotes (‘’) will be transmitted. It is just for participant's understanding.
 
-* In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant. 
+* In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant.
 
 * The robot should give an indication to the user when it receives the number of required blocks.
 
