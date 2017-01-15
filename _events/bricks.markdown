@@ -86,7 +86,7 @@ To build a robot that is capable of segregating building material by successfull
 * All the zones are at the same level with the arena (no elevation).
 * Dimensions of the arena are to be considered with a maximum tolerance of 10%.
 
-![](/img/event/bricks/arena_TOP.JPG){:.img-responsive}
+![](/img/event/bricks/arena_top.JPG){:.img-responsive}
 
 #### Block Specifications
 
@@ -113,7 +113,7 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 #### Event Rules
 
-* The robot can have any suitable buttonless mechanism for control. It can be wired or wireless, some methods may be using accelerometer, joystick, mobile apps, etc. All the actuations or movement of the bot apart from traversal should also be done with a buttonless mechanism.
+* The robot can have any suitable buttonless mechanism for control. It can be wired or wireless, some methods may be using accelerometer, joystick, mobile apps, touchpad, etc. All the actuations or movement of the bot apart from traversal should also be done with a buttonless mechanism.
 
 * In the second round the robot has to interpret data transmitted wirelessly.
 
@@ -159,30 +159,36 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Scoring Formula:**
 
-* Correct identification( + 30) (P)
+* **Positives**
 
-* Picking up blocks (+40) (Q)
+    * Base score: 1000
 
-* Dropping off at the correct venue.(+50) (R)
+    * For each blocks picked/gripped(given once for each block): 100 (Q)
 
-* Time factor(+2)(T)
+    * Successful identification of weight: 150 (P)
 
-* Incorrect identification. ( -20) (A)
+    * Dropping off at the correct zone: 150 (R)
 
-* Dropping blocks.(-30)(B)
+    * Time factor: 2(T in seconds)
 
-* Placing in incorrect zone.(-30)(C)
+* **Negatives**
 
-* Touching obstacles.(-15)(D)
+    * Incorrect identification of weight: -50 (A)
 
-* 25 pointed will be deducted for each timeout. (O)
+    * Placing in incorrect zone: -50 (C)
 
-* 100 points will be deducted for each restart(1 allowed) (S)
+    * Droping the block each time: -30 (L)
+
+    * Touching obstacles: -50 (D)
+
+    * For each timeout: -100 (O)
+
+    * For each restart: -150 (S)
 
 
 **Formula:**
 
-`30*P + 40*Q + 50*R + 2*(Time remaining) - 20*A - 30*B - 30*C - 15*D - 100*S - 25*O`
+`1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *(A + C + D) - 100*O - 150*S`
 
 ##### Round 2
 
@@ -228,32 +234,37 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Scoring Formula:**
 
-* Correct identification via LED. (+30)(P)
+* **Positives**
 
-* Indicating data received. (+10)(I)
+    * Base Score: 1000
 
-* Picking up blocks (+40)(Q)
+    * Indicating data received: 50 (I)
 
-* Dropping off at the correct venue.(+50)(R)
+    * For each blocks picked/gripped(given once for each block): 100 (Q)
 
-* Time factor(+2)(T)
+    * Successful identification of weight: 150 (P)
 
-* Incorrect identification. (-20)(A)
+    * Dropping off at the correct zone: 150 (R)
 
-* Dropping blocks.(-30)(B)
+    * Time factor: 2(T in seconds)
 
-* Placing in incorrect zone.(-30)(C)
+* **Negatives**
 
-* Touching obstacles.(-15)(D)
+    * Incorrect identification of weight: -50 (A)
 
-* 25 pointed will be deducted for each timeout.(O)
+    * Placing in incorrect zone: -50 (C)
 
-* 100 points will be deducted for each restart(1 allowed)(S)
+    * Droping the block each time: -30 (L)
 
+    * Touching obstacles: -50 (D)
+
+    * For each timeout: -100 (O)
+
+    * For each restart: -150 (S)
 
 **Formula:**
 
-`30*P + 10*I + 40*Q + 50*R + 2*(Time remaining) - 20*A - 30*B-30*C - 15*D - 100*S - 25*O`
+`1000 + 50*I + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *(A + C + D) - 100*O - 150*S`
 
 **RULES:**
 
