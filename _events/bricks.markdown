@@ -31,7 +31,7 @@ actions:
   -
     text: 'R'
     caption: 'Register'
-    url: https://www.robotix.in/blog/registration-for-robotix-2017/
+    url: /blog/registration-process-for-robotix-2017/
     target: '_blank'
   -
     text: 'F'
@@ -286,7 +286,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 **Links to Tutorials:**
 
-For relevant tutorials check [ROBOTIX TUTORIALS](http://www.robotix.in/tutorial/).
+For relevant tutorials check [ROBOTIX TUTORIALS](/tutorial/).
 
 ##### Contact:
 
