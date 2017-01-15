@@ -26,7 +26,7 @@ actions:
   -
     text: 'R'
     caption: 'Register'
-    url: https://www.robotix.in/blog/registration-for-robotix-2017/
+    url: /blog/registration-process-for-robotix-2017/
     target: '_blank'
   -
     text: 'F'
