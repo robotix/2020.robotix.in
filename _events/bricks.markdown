@@ -119,6 +119,8 @@ Handle: A handle will be made on top of each block to facilitate lifting as show
 
 * Points will be awarded for correct identification and deposition of the blocks at the end of the run. Correct identification: Whether block is useful or waste (according to weight). Deposited Objects: Blocks on the correct deposit zone.
 
+* Participants are not allowed to drag the blocks swhile moving them.
+
 * While picking and placing any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty awarded for each contact. However you can slightly displace a block while trying to pick it.
 
 
@@ -205,6 +207,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
     * ‘Y’ is number of **solid** cylindrical block needed (Single digit number).
     * ’#’ is stop character.
 
+    For example if data sent is ’*2&4#’ then the participants have to deposit 2 solid cubical blocks and 4 solid cylindrical blocks.
     No quotes (‘’) will be transmitted. It is just for participant's understanding.
 
 * In this round the robot has to pick up ‘X’ cubical and ‘Y’ cylindrical blocks. This information will be sent to the robot and not the participant. 
@@ -278,7 +281,7 @@ NOTE: Restarts will be given only for technical fault in the bot.
 
 * Teams cannot tinker with their bots during the run.
 
-* LEGO kits or its spare parts or pre-made mechanical parts are not allowed.[ (](http://en.wikipedia.org/wiki/Lego_Mindstorms)[http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms))
+* LEGO kits or its spare parts are not allowed.[ (](http://en.wikipedia.org/wiki/Lego_Mindstorms)[http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms))
 
 * The decision of the Team Robotix will be final and binding.
 
