@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Component List
+image: img/event/bricks/banner.png
 permalink: /event/bricks/components/
 ---
 
@@ -30,9 +31,7 @@ Electronics(9434415812), Tech Market, IIT KGP.
 | Power Adapter(12V, 2A)  | 1            |
 | Bluetooth Module(HC-05) | 1            |
 
-
-
-  Metal chassis can be bought from Choudhary electronics. But it is recommended to get a custom chassis made from a carpenter.
+Metal chassis can be bought from Choudhary electronics. But it is recommended to get a custom chassis made from a carpenter.
 
 The most important component to participate in this event is the force
 **sensitive resistor (FSR)**. [Here](http://www.ebay.in/itm/Force-Sensor-Resistor-Square-Pressure-Sensor-/221634650775?hash=item339a746297:g:qg0AAOSw7ThUf~Fi) is the link for the component to order it online.
