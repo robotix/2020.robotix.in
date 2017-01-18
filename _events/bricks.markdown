@@ -38,6 +38,11 @@ actions:
     caption: 'FAQ'
     url: /event/bricks/faq
     target: _blank
+  -
+    text: 'L'
+    caption: 'Component List'
+    url: /event/bricks/components/
+    target: _blank
 ---
 
 #### Introduction
