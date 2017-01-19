@@ -133,9 +133,10 @@ on the map. The town center and all the resources are not obstacles. The
 bot has to then go on the resource, then blink an LED once to "collect"
 that resource and then return to town center to deliver the resource
 collected and finally blink an LED there too. One particular resource is
-exhausted after the resource has been collected twice.
+exhausted after the resource has been collected twice. This round will
+last for 6 minutes.
 
-**Note**: Resources are not obstacles.
+**Note**: Resources and Town Center are not obstacles.
 
 **Map specifics**:
 
@@ -153,10 +154,9 @@ exhausted after the resource has been collected twice.
 
 * The dimensions of the arena will be 3m x 3m.
 * The dimensions of the squares will be 10cm x 10cm.
-* The triangles will be right angled isosceles triangle of the isosceles
-side 10cm.
+* The triangles will be an equilateral triangle of side length 10cm.
 * The dimension of the town square will be 25cm x 25cm.
-* Standard tracker provided will have two squares of colours orange and
+* Standard marker provided will have two squares of colours orange and
 pink. However participants are free to use a marker of their own choice.
 
 ###### Scoring:
@@ -182,7 +182,7 @@ activities going on in the map.
 
 The bot has to recognize the various resources present (ie. food and wood)
 on the map. The arena also contains rivers which are to be treated as
-obstacles. The bot has to then go to the resource is present and blink an
+obstacles. The bot has to then go to a resource and blink an
 LED once to collect that resource and then return to town center to
 deliver the resource collected and blink an LED there too.
 
@@ -241,18 +241,18 @@ Let's say there are 5 food and 5 wood resources.
 Let's say there is still a minute left after covering 5 food and 5 wood
 resource. Then scoring will be done as:
 
- * +600 points for food
- * +1200 points for wood
+ * +500 points for food
+ * +1000 points for wood
  * +(360-300) x 10 = 600 points as time bonus
 
 Now since there is still a minute left, the bot can now go for a "second
 round" of collecting resources in which the bot can collect the previously
 collected resources at max once more. Now let's say the bot manages to
-collect further 2 wood resouces in that minute, then it will get
+collect further 2 wood resources in that minute, then it will get
 
  * +400 points for wood
 
-Now the final score tally will be: `600 + 1200 + 600 + 400 = 2800`
+Now the final score tally will be: `500 + 1000 + 600 + 400 = 2500`
 
 **Case 2: Bot manages to cover 2 food and 3 wood and 6 minutes is over**
 
