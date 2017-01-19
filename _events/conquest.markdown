@@ -221,7 +221,7 @@ pink. However participants are free to use a marker of their own choice.
 
 * +100 for food
 * +200 for wood
-* -50 if the bot goes over the obstacle
+* -150 if the bot goes over the obstacle
 * -75 if the bot taps on anything other on the map except for the resource
 * Time bonus: + [360 - (time taken in sec)] x 10 points if all the resources
 are successfully collected at least once.
