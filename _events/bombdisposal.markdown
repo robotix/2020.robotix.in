@@ -63,336 +63,346 @@ required wires and lifting objects.
 
 ##### Round 1
 
-1. Traverse through an obstacle path and search for bombs (wooden blocks).
+* Traverse through an obstacle path and search for bombs (wooden blocks).
 
-2. Have to save the city by taking the bombs out of the city limit to the
-safe zone (green zone).
+* Have to save the city by taking the bombs out of the city limit to the safe zone (green zone).
 
-3. Each bomb will have a time denoted on it specifying the time the bomb
-will explode after the event starts.
+* Each bomb will have a colour code indicating the time the bomb will explode after the event starts.
 
-4. Each bomb will have 3 wires on them of different colours. Dispose the
-bombs by cutting the correct wire.
+* Each bomb will have a wire on them. Diffuse the bombs by cutting the wire.
 
-5. Cutting of wrong wire will set off the bomb immediately.
+* Any bomb can be dropped at most once while traversal. If a bomb is dropped twice, the bomb will be considered exploded. Dropping the bomb once won’t incur any negative points.
 
-6. Dropping any bomb will lead to its explosion.
+* There will be bonus bombs that can be attempted only after all the bombs have either been diffused or have blasted.
 
-7. There will a sound to indicate the bomb blast.
+* Bonus bomb will have no negative points upon explosion.
 
-8. Each participant will be given 3 lives in this round after which the
-round is over.
+* There will a sound to indicate the bomb blast (Dropping case excluded, only when timer goes off).
 
-9. A life is deducted whenever a bomb the robot was last directly engaged
-with, explodes.
+* The bot can defuse the bomb in the city limits itself instead of taking it to safe zone but it will cost him more negative points if it explodes in city limits.
 
-10. The bot can defuse the bomb in the city limits itself instead of taking
-it to safe zone but it will cost him 5 times more negative points if it
-explodes in city limits.
+* This round will last for 3 minutes.
 
 ##### Round 2
 
-1. Traverse through an obstacle path and search for bombs (wooden blocks).
+* Traverse through an obstacle path and search for bombs (wooden blocks)
 
-2. Have to save the city by taking the bombs out of the city limit to the
-safe zone.
+* Have to save the city by taking the bombs out of the city limit to the safe zone
 
-3. Each bomb will have a time denoted on it specifying the time the bomb
-will explode after the event starts.
+* Each bomb will have a colour code indicating the time the bomb will explode after the event starts.
 
-4. Each bomb will have 3 wires on them of different colours. Dispose the
-bombs by cutting the correct wire.
+* Each bomb will have 2 wires on them. Diffuse the bombs by cutting the wire asked to cut at the time of the run.
 
-5. To diffuse few bombs more than 1 wire needs to be cut in the order
-specified on the bomb.
+* Any bomb can be dropped at most once while traversal. If a bomb is dropped twice, the bomb will be considered exploded. Dropping the bomb once won’t incur any negative points.
 
-6. Bombs will have different points for getting diffused depending on the
-complexity of diffusing.
+* There will be tanks of fossil fuel around the city. While traversing through the arena you have to ensure that you don’t touch or drop these tanks. If touched or dropped, negative points will be given.
 
-7. Cutting of wrong wire will set off the bomb immediately.
+* There will be bonus bombs that can be attempted only after all the bombs have either been diffused or have blasted.
 
-8. There will be tanks of fossil fuel around the city. These need to be
-taken to another area outside the city which will be marked red. Positive
-points will be awarded for each tank that is moved, however, if dropped
-negative points will be given.
+* Bonus bomb will have no negative points.
 
-9. Dropping any bomb will lead to negative points.
+* For the concentrated area, once the robot crosses the marked line it will have only 30 secs to attempt the bomb. 
 
-10. There will a sound to indicate the bomb blast (Dropping case excluded,
-only when timer goes off).
+* There will a sound to indicate the bomb blast ( Dropping case excluded, only when timer goes off )
 
-11. Each participant will be given 2 lives in this round after which the
-round is over.
+* The bot can defuse the bomb in the city limits itself instead of taking it to safe zone but it will cost him more negative points if it explodes in city limits.
 
-12. The bot can defuse the bomb in the city limits itself instead of taking
-it to safe zone but it will cost him 5 times more negative points if it
-explodes in city limits.
+* This round will last for 5 minutes.
+
+##### Round 2
+
+* The task for this round will be declared at the time of the event.
+
+* No extra mechanical changes will be required for the bot.
 
 #### Arena
 
+* **Round 1**
+
 **Isometric View**
 
-![](/img/event/bombdisposal/image_1.jpg){:.img-responsive}
+![](/img/event/bombdisposal/arenaRound1Iso.PNG){:.img-responsive}
 
 **Top View**
 
-![](/img/event/bombdisposal/image_2.jpg){:.img-responsive}
+![](/img/event/bombdisposal/arenaRound1Top.PNG){:.img-responsive}
 
 **Front View**
 
-![](/img/event/bombdisposal/image_3.jpg){:.img-responsive}
+![](/img/event/bombdisposal/arenaRound1Front.PNG){:.img-responsive}
 
-**Side View**
+* **Round 2**
 
-![](/img/event/bombdisposal/image_4.jpg){:.img-responsive}
+**Isometric View**
+
+![](/img/event/bombdisposal/arenaRound2Iso.PNG){:.img-responsive}
+
+**Top View**
+
+![](/img/event/bombdisposal/arenaRound2Top.PNG){:.img-responsive}
+
 
 ##### Arena Components
 
-**Boundary Wall Specification:**
-
-* Height and width of the boundary wall is **25 cm and 1.2cm** respectively.
-* The height of the wall may vary from ± 1 cm.
-
 **Shed Specification:**
 
-* Height of the shed is **12 cm.**
+* Height of the shed is **15 cm.**
 
-![](/img/event/bombdisposal/image_5.jpg){:.img-responsive}
+* Length of the shed is **25 cm.**
 
-**Hidden Bombs (Shed)**
+![](/img/event/bombdisposal/shedIso.PNG){:.img-responsive}
 
 **Hanging Pole Specification:**
 
-* The bomb will be hung from a height of **10 cm**.
+* The bomb will be hung from a height of **15 cm.**
+
 * It has a length of **15 cm**.
-* The diameter of the pole is **2 cm**.
 
-**Slab Specification:**
+**Barriers (Rubber Bands)**:
 
-* The slab will be at a height of **8 cm**.
-* It will have a width of **20 cm**.
-* It will have a length of **63 cm**.
+Along its path, the robot will have to get past through few barriers (in the form of stretched rubber bands) by cutting through it with its mechanism or else avoiding it altogether.
 
-**Barriers (Rubber Bands):**
-
-Along its path, the robot will have to get past through few barriers (in
-the form of stretched rubber bands) by cutting through it with its mechanism.
-
-**Hanging Bombs**
-
-![](/img/event/bombdisposal/image_6.jpg){:.img-responsive}
 
 **Bomb Specification:**
 
-* These will be wooden cubes of dimension `5 cm * 5 cm * 5 cm` (l * *b * *h).
+* There are going to be 2 sizes of bombs.
 
-* Wires will be attached to the upper surface (lower surface for the hanging
-bomb) of the bomb.
+* One set will be wooden cubes of dimension** 5 cm * 5 cm * 5 cm **(l*b*h).
 
-* The wires will be made up of cable ties.
+* Another set will be wooden cubes of dimension** 3 cm * 3 cm * 3 cm **(l*b*h).
 
-* The hanging bomb will have a hook on top surface for the corresponding
-lifting mechanism.
+* Wire will be attached to the upper surface (lower surface for the hanging bomb) of the bomb.
 
-* The weight of the object will be less than **90 g**.
+* The wire will be made up of stretched rubber band
 
-* The loop of the hanging bomb will have a diameter of **3 cm**.
+* The hanging bomb will have a hook on top surface for the corresponding lifting mechanism.
 
-* The timer on all the bombs will start simultaneously and won't be sequential.
+* The weight of the object will be **less than** **90 g**
 
-**Bombs**
-
-![](/img/event/bombdisposal/image_8.jpg){:.img-responsive}
 
 **Petrol Tank Specification:**
 
-* These will be wooden cylinders of height and diameter of 6 cm and 4 cm
-respectively.
+* These will be cylinders of suitable dimensions.
 
-* The tank will have a hook on top surface for the corresponding lifting
-mechanism.
+* The weight of the object will be **less than** **50 g**.
 
-* The weight of the object will be less than **90 g**.
-
-**Petrol Tank**
-
-![](/img/event/bombdisposal/image_9.jpg){:.img-responsive}
 
 #### Rules And Specifications
 
 ##### General Rules
 
-1. All arena dimensions may have a tolerance (error) of up to 10%.
+* All arena dimensions may have a tolerance (error) of up to 10%.
 
-2. Each team can consist of a maximum of 4 members.
+* Each team can consist of a maximum of 4 members.
 
-3. Only **2** members per team will be allowed to control the robot.
+* Only **2** members per team will be allowed to control the robot.
 
-4. The participants will be provided with 220 volts, 50 Hz standard AC supply.
+* The participants will be provided with 220 volts, 50 Hz standard AC supply.
 
-5. Each team should have unique participants i.e. no two teams can have
-even a single participant common.
+* Each team should have unique participants i.e. no two teams can have even a single participant common.
 
-6. The team members can be from different institutes or colleges.
+* The team members can be from different institutes or colleges.
 
-7. Teams qualifying the first round will go into the second round and the
-second round performance will determine the winner.
+* Teams qualifying the first round will go into the second round. Those qualifying second round will participate in third round which will determine the winner.
 
-8. The teams cannot touch their bots during the course of the run, unless
-timeout is taken.
+* The teams cannot touch their bots during the course of the run, unless timeout is taken.
 
-9. The right spirit of participation is expected from the participants.
+* The right spirit of participation is expected from the participants.
 
-10. **The decision of Team ROBOTIX will be final and binding.**
+* **The decision of Team ROBOTIX will be final and binding.**
 
 ##### Event Rules
 
 ###### Bomb
 
-1. The Bombs will be made of Hollow wood.
+* The Bombs will be made of Hollow wood.
 
-2. The tolerances in all dimensions are 10%.
+* The tolerances in all dimensions are 10%.
 
-3. The weight of the bomb will not exceed 90 gms.
+* The weight of the bomb will not exceed 90 gms.
 
-4. The position of all the bomb will be decided by Team ROBOTIX.
+* The position of all the bomb will be decided by Team ROBOTIX.
 
 ###### Picking and placing up the Bomb
 
-1. The bombs have to be picked up as **neatly** as possible and dragging is
-not allowed.
+* The bombs have to be picked up as **neatly** as possible and dragging must be avoided if possible.
 
-2. If the bomb falls down, there will be **penalties**.
+* If the bomb falls down once during traversal, there will be negative points. However, if it falls down again then it will lead to an explosion.
 
 ###### Arena and Locomotion
 
-1. The robot has to start from the **Safe Zone,** which will be marked in green
-in the arena.
+* The robot has to start from the **Safe Zone,** which will be marked in green in the arena.
 
-2. The bot has to go and complete the tasks as specified above. Any
-discrepancies will be handled by Team ROBOTIX and their decision will be
-final and binding.
+* The bot has to go and complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
 
-3. The Bomb must be placed in the safe zone. If it falls out of the safe
-zone while placing, it will lead to an explosion. Sliding the bomb on the
-platform is allowed but if the bomb falls while picking or placing, it will
-incur negative points.
+* The Bomb must be placed in the safe zone. If it falls out of the safe zone while placing, it will be considered as a drop. Sliding the bomb on the platform is allowed but if the bomb falls while picking or placing, it will incur negative points.
 
-4. Time will be kept by Team ROBOTIX and their decision will be final and
-binding.
-
-5. There will be a **Wall** surrounding the arena from three sides
+* Time will be kept by Team ROBOTIX and their decision will be final and binding.
 
 ###### Initial Orientation of Robot
 
-1. The participant is allowed to decide the initial orientation of his robot
-on the start zone.
+* The participant is allowed to decide the initial orientation of his robot on the start zone.
 
-2. Team ROBOTIX reserves the right to disallow any initial orientation of
-the robot inside the starting zone if it gives the participant an undue
-advantage, solely based on the judge’s discretion.
+* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the judge’s discretion.
 
 ###### Restarts and Timeouts
 
-1. A maximum of 2 Timeouts of **1 minute** each may be taken. Penalty will be
-awarded for each timeout and robot will start from its last position on the
-arena.
+* A maximum of 2 Timeouts of **1 minute** each may be taken in each round. Penalty will be awarded for each timeout and robot will start from its last position on the arena.
 
-2. The participant’s robots can have a maximum of 2 restarts. A penalty will
-be imposed on the team for every restart that they take.
+* The participant’s robots can have a maximum of 1 restart per round. A penalty will be imposed on the team for every restart that they take.
 
-3. After the restart, the participant’s robot will be set to its initial
-position. Timer will be set to zero and the run will start afresh with the
-addition of the penalty for restart.
+* After the restart, the participant’s robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
 
-4. A timeout can be taken anytime at the user's discretion.
+* A timeout can be taken anytime at the user's discretion.
 
-5. A restart can only be taken if there is a genuine technical fault in the
-bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and
-their decision will be binding and final.
+* A restart can only be taken if there is a genuine technical fault in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
 
 ##### Robot Specifications
 
-1. Each robot can have maximum dimension of `30 x 30 x 30 cubic cm`
-(L x B x H) respectively.
+* Each robot can have maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively.
 
-2. No part/mechanism of/on the robot should exceed the given dimensions
-before the commencement of the event run. The robots can exceed their
-respective dimensions once the event commences, due to elongation of
-arms/gripper/forklift.
+* No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift.
 
-3. There is no weight restriction on the robot.
+* There is no weight restriction on the robot.
 
-4. LEGO kits or its spare parts or pre-made mechanical parts are not
-allowed.[ (http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms)
+* LEGO kits or its spare parts or pre-made mechanical parts are not allowed.[ (http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms)
 
-5. Ready-made gearboxes, sensors, development boards can be used but no
-other part of the robot should contain any ready-made components. Simple
-car bases with no extra features may be used.
+* Ready-made gearboxes, sensors, development boards can be used but no other part of the robot should contain any ready-made components. Simple car bases with no extra features may be used.
 
-6. The bots should not damage the event arena in any way. If it does so,
-a penalty will be imposed on the team. The magnitude of the penalty will
-be decided by Team ROBOTIX.
+* The bots should not damage the event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 
-7. Ready-made gripper is also allowed .
+* Ready-made gripper is also allowed .
 
 #### Scoring
 
 ##### Round 1
 
-**Positives**
+* **Positives**
 
-1. Base score: 1000
+  * Base score: 1000
 
-2. For each bomb placed in safe zone (given only once for each bomb): 150 (**L**)
+  * For diffusing bomb in city limit:
 
-3. For successful cut of coloured wire: 150 (**S**)
+    * 1 minute bomb: 100 (**P1)**
 
-4. Time bonus: time left in seconds (provided the task is complete)(**B**)
+    * 2 minute bomb: 80 (**P2)**
 
-**Negatives**
+    * 3 minute bomb: 60 (**P3)**
 
-1. Explosion of bomb anywhere in the city : -250 (**NS**)
+    * Bonus bomb: 150 **(P4)**
 
-2. Bomb explosion in the safe zone : -50 (**NP**)
+  * For diffusing bomb in safe zone:
 
-3. Negative marks for each timeout: -100 (**T**)
+    * 1 minute bomb: 50 **(S1)**
 
-4. Negative marks for restart: -150 (**R**)
+    * 2 minute bomb: 40 **(S2)**
+
+    * 3 minute bomb: 30 **(S3)**
+
+  * Time bonus: time left in seconds (provided the task is complete)(**t’**)
+
+* **Negatives**
+
+  * Bomb explosion in city limit:
+
+    * 1 minute bomb: -60 **(E1)**
+
+    * 2 minute bomb: -40 **(E2)**
+
+    * 3 minute bomb: -20 **(E3)**
+
+  * Bomb explosion in safe zone:
+
+    * 1 minute bomb: -30 **(F1)**
+
+    * 2 minute bomb: -20 **(F2)**
+
+    * 3 minute bomb: -10 **(F3)**
+
+  * Negative marks for each timeout: -50 (**T**)
+
+  * Negative marks for restart: -100 (**R**)
 
 **Scoring Formula**
 
-**`1000 + 150*(S + L) + t’*B - 50*(NP) - 100*T - 150*R - 250*NS`**
+`1000 +  t’*B  + (100*P1 + 80*P2 + 60*P3 + 150*P4) + (50*S1 + 40*S2 + 30*S3) - (60*E1 + 40*E2 + 20*E3) - (30*F1 + 20*F2 + 10*F3) - 50*T - 100*R`
 
 ##### Round 2
 
-**Positives**
+* **Positives**
 
-1. Base score: 1000
+  * Base score: 1000
 
-2. For each bomb placed in safe zone (given only once for each bomb): 150 (**L**)
+  * For diffusing bomb in city limit:
 
-3. For successful cut of each coloured wire : 150 (**S**)
+    * 1 minute bomb: 120 (**P1**)
 
-4. For placing the Tanks in the Red Zone : 100 (**P**)
+    * 2 minute bomb: 100(**P2**)
 
-5. Time bonus: time left in seconds (provided the task is complete)(**B**)
+    * 3 minute bomb: 80(**P3**)
+
+    * 4 minute bomb: 60(**P4**)
+
+    * 5 minute bomb: 40(**P5**)
+
+    * Bonus bomb: 200(**P6**)
+
+    * Concentrated area bomb: 100(**P7**)
+
+  * For diffusing bomb in safe zone:
+
+    * 1 minute bomb: 60 (**S1**)
+
+    * 2 minute bomb: 50(**S2**)
+
+    * 3 minute bomb: 40(**S3**)
+
+    * 4 minute bomb: 30(**S4**)
+
+    * 5 minute bomb: 20(**S5**)
+
+  * Time bonus: time left in seconds (provided the task is complete)(**t’**)
 
 **Negatives**
 
-1. Explosion of bomb anywhere in city : -250 (**NS**)
+  * Bomb explosion in city limit: 
 
-2. Bomb explosion in the safe zone : -50 (**NP)**
+    * 1 minute bomb: -60 (**E1**)
 
-3. Dropping the tank of fossil fuel :- 50 (**F**)
+    * 2 minute bomb: -50(**E2**)
 
-4. Negative marks for each timeout: -100 (**T**)
+    * 3 minute bomb: -40(**E3**)
 
-5. Negative marks for restart: -150 (**R**)
+    * 4 minute bomb: -30(**E4**)
+
+    * 5 minute bomb: -20(**E5**)
+
+    * Concentrated area bomb: -100(**E6)**
+
+  * Bomb explosion in safe zone:
+
+    * 1 minute bomb: -50 (**F1**)
+
+    * 2 minute bomb: -40(**F2**)
+
+    * 3 minute bomb: -30(**F3**)
+
+    * 4 minute bomb: -20(**F4**)
+
+    * 5 minute bomb: -10(**F5**)
+
+  * Touching the tank of fossil fuel: -50(**C**)
+
+  * Dropping the tank of fossil fuel: -100(**D**)
+
+  * Negative marks for each timeout: -50 (**T**)
+
+  * Negative marks for restart: -100 **(R)**
+
 
 **Scoring Formula**
 
-**`1000 + 100*P + 150*(S + L) + t’*B - 50*(NP + F) - 100*T - 150*R - 250*NS`**
+`1000 +  t’*B  + (120*P1 + 100*P2 + 80*P3 + 60*P4 + 40*P5 + 200*P6 + 100*P7) + (60*S1 + 50*S2 + 40*S3 + 30*S4 + 20*S5) - (60*E1 + 50*E2 + 40*E3 + 30*E4 + 20*E5 + 100*E6) - (50*F1 + 40*F2 + 30*F3 + 20*F4 + 10*F5) - 50*C - 100*D - 50*T - 100*R`
 
 ##### Contact
 
