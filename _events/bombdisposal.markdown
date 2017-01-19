@@ -65,13 +65,11 @@ required wires and lifting objects.
 
 * Traverse through an obstacle path and search for bombs (wooden blocks).
 
-* Have to save the city by taking the bombs out of the city limit to the safe zone (green zone).
-
 * Each bomb will have a colour code indicating the time the bomb will explode after the event starts.
 
 * Each bomb will have a wire on them. Diffuse the bombs by cutting the wire.
 
-* Any bomb can be dropped at most once while traversal. If a bomb is dropped twice, the bomb will be considered exploded. Dropping the bomb once won’t incur any negative points.
+* Any bomb can be dropped at most once while traversal, however it will incur negative points. If a bomb is dropped twice, the bomb will be considered exploded.
 
 * There will be bonus bombs that can be attempted only after all the bombs have either been diffused or have blasted.
 
@@ -87,13 +85,11 @@ required wires and lifting objects.
 
 * Traverse through an obstacle path and search for bombs (wooden blocks)
 
-* Have to save the city by taking the bombs out of the city limit to the safe zone
-
 * Each bomb will have a colour code indicating the time the bomb will explode after the event starts.
 
 * Each bomb will have 2 wires on them. Diffuse the bombs by cutting the wire asked to cut at the time of the run.
 
-* Any bomb can be dropped at most once while traversal. If a bomb is dropped twice, the bomb will be considered exploded. Dropping the bomb once won’t incur any negative points.
+* Any bomb can be dropped at most once while traversal, however it will incur negative points. If a bomb is dropped twice, the bomb will be considered exploded.
 
 * There will be tanks of fossil fuel around the city. While traversing through the arena you have to ensure that you don’t touch or drop these tanks. If touched or dropped, negative points will be given.
 
@@ -109,11 +105,11 @@ required wires and lifting objects.
 
 * This round will last for 5 minutes.
 
-##### Round 2
+##### Round 3
 
 * The task for this round will be declared at the time of the event.
 
-* No extra mechanical changes will be required for the bot.
+* No extra mechanical changes will be required or accepted for the bot.
 
 #### Arena
 
@@ -146,19 +142,21 @@ required wires and lifting objects.
 
 **Shed Specification:**
 
-* Height of the shed is **15 cm.**
+* Height of the shed is **15 cm**.
 
-* Length of the shed is **25 cm.**
+* Length of the shed is **25 cm**.
 
 ![](/img/event/bombdisposal/shedIso.PNG){:.img-responsive}
 
 **Hanging Pole Specification:**
 
-* The bomb will be hung from a height of **15 cm.**
+* The bomb will be hung from a height of **15 cm**.
 
 * It has a length of **15 cm**.
 
-**Barriers (Rubber Bands)**:
+![](/img/event/bombdisposal/hangerFront.PNG){:.img-responsive}
+
+**Barriers(Rubber Bands)**:
 
 Along its path, the robot will have to get past through few barriers (in the form of stretched rubber bands) by cutting through it with its mechanism or else avoiding it altogether.
 
@@ -167,9 +165,9 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 * There are going to be 2 sizes of bombs.
 
-* One set will be wooden cubes of dimension** 5 cm * 5 cm * 5 cm **(l*b*h).
+* One set will be wooden cubes of dimension **5 cm * 5 cm * 5 cm** (`l*b*h`).
 
-* Another set will be wooden cubes of dimension** 3 cm * 3 cm * 3 cm **(l*b*h).
+* Another set will be wooden cubes of dimension **3 cm * 3 cm * 3 cm** (`l*b*h`).
 
 * Wire will be attached to the upper surface (lower surface for the hanging bomb) of the bomb.
 
@@ -179,6 +177,17 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 * The weight of the object will be **less than** **90 g**
 
+**Cavity Specification**:
+
+* Height of caivty block is **25cm**
+
+* Width of cavity block is **20cm**
+
+* Height of cavity is **10cm**
+
+* Width of cavity is **18cm**
+
+![](/img/event/bombdisposal/cavityIso.PNG){:.img-responsive}
 
 **Petrol Tank Specification:**
 
@@ -234,8 +243,6 @@ Along its path, the robot will have to get past through few barriers (in the for
 * The robot has to start from the **Safe Zone,** which will be marked in green in the arena.
 
 * The bot has to go and complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
-
-* The Bomb must be placed in the safe zone. If it falls out of the safe zone while placing, it will be considered as a drop. Sliding the bomb on the platform is allowed but if the bomb falls while picking or placing, it will incur negative points.
 
 * Time will be kept by Team ROBOTIX and their decision will be final and binding.
 
@@ -321,11 +328,13 @@ Along its path, the robot will have to get past through few barriers (in the for
 
   * Negative marks for each timeout: -50 (**T**)
 
+  * Bomb drop: -10 (**L**)
+
   * Negative marks for restart: -100 (**R**)
 
 **Scoring Formula**
 
-`1000 +  t’*B  + (100*P1 + 80*P2 + 60*P3 + 150*P4) + (50*S1 + 40*S2 + 30*S3) - (60*E1 + 40*E2 + 20*E3) - (30*F1 + 20*F2 + 10*F3) - 50*T - 100*R`
+`1000 +  t’*B  + (100*P1 + 80*P2 + 60*P3 + 150*P4) + (50*S1 + 40*S2 + 30*S3) - (60*E1 + 40*E2 + 20*E3) - (30*F1 + 20*F2 + 10*F3) - 50*T - 100*R - 10*L`
 
 ##### Round 2
 
@@ -391,6 +400,8 @@ Along its path, the robot will have to get past through few barriers (in the for
 
     * 5 minute bomb: -10(**F5**)
 
+  * Bomb drop: -10 (**L**)
+
   * Touching the tank of fossil fuel: -50(**C**)
 
   * Dropping the tank of fossil fuel: -100(**D**)
@@ -402,7 +413,7 @@ Along its path, the robot will have to get past through few barriers (in the for
 
 **Scoring Formula**
 
-`1000 +  t’*B  + (120*P1 + 100*P2 + 80*P3 + 60*P4 + 40*P5 + 200*P6 + 100*P7) + (60*S1 + 50*S2 + 40*S3 + 30*S4 + 20*S5) - (60*E1 + 50*E2 + 40*E3 + 30*E4 + 20*E5 + 100*E6) - (50*F1 + 40*F2 + 30*F3 + 20*F4 + 10*F5) - 50*C - 100*D - 50*T - 100*R`
+`1000 +  t’*B  + (120*P1 + 100*P2 + 80*P3 + 60*P4 + 40*P5 + 200*P6 + 100*P7) + (60*S1 + 50*S2 + 40*S3 + 30*S4 + 20*S5) - (60*E1 + 50*E2 + 40*E3 + 30*E4 + 20*E5 + 100*E6) - (50*F1 + 40*F2 + 30*F3 + 20*F4 + 10*F5) - 50*C - 100*D - 50*T - 100*R - 10*L`
 
 ##### Contact
 
