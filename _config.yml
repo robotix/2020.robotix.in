@@ -76,11 +76,11 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "2000", specialCharacter: "+", info: "participants"}
- - {count: "500", specialCharacter: "+", info: "teams"}
- - {count: "6", specialCharacter: "", info: "events"}
+ # - {count: "2000", specialCharacter: "+", info: "participants"}
+ # - {count: "500", specialCharacter: "+", info: "teams"}
+ - {count: "3", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
-statisticQuirk: "Robotix 2015 in numbers"
+statisticQuirk: "Robotix 2017, #GearUp"
 
 # Latest News Block
 latestNewsTitle: "Latest blog articles"
