@@ -423,12 +423,6 @@ Email: **[shubhangi@robotix.in](mailto:shubhangi@robotix.in)**
 
 Ph. no: **+91 9933909355**
 
-###### Rajat Chaurasia
-
-Email: **[rajat@robotix.in](mailto:rajat@robotix.in)**
-
-Ph. no: **+91 7872703173**
-
 ###### Shweta Gupta
 
 Email: **[shweta@robotix.in](mailto:shweta@robotix.in)**
