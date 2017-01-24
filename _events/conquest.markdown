@@ -164,6 +164,8 @@ pink. However participants are free to use a marker of their own choice.
 * +200 for wood
 * -75 if the bot blinks on anything other on the map except for the
 resource or Town Center
+* -50 for timeout
+* -100 for restart
 * Time bonus: + [360 - (time taken in sec)] x 10 points if all the
 resources are successfully collected at least once.
 
@@ -223,6 +225,8 @@ pink. However participants are free to use a marker of their own choice.
 * +200 for wood
 * -150 if the bot goes over the obstacle
 * -75 if the bot taps on anything other on the map except for the resource
+* -50 for timeout
+* -100 for restart
 * Time bonus: + [360 - (time taken in sec)] x 10 points if all the resources
 are successfully collected at least once.
 
