@@ -11,6 +11,11 @@ actions:
     url: 'https://www.facebook.com/groups/bricksevent/'
     target: '_blank'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    url: '/assets/events/bricks/bricks.pdf'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/bricks'
