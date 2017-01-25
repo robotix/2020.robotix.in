@@ -16,11 +16,6 @@ actions:
     url: '/tutorial/event/bombdisposal'
     target: '_blank'
   -
-    text: 'D'
-    caption: 'Do-It-Yourself'
-    url: '/img/event/bombdisposal/DIY.jpg'
-    target: '_blank'
-  -
     icon: 'youtube'
     caption: 'Tutorial Video'
     url: https://www.youtube.com/watch?v=fuu2QPOfbD0
