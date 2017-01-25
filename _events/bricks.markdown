@@ -11,6 +11,11 @@ actions:
     url: 'https://www.facebook.com/groups/bricksevent/'
     target: '_blank'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    url: '/assets/events/bricks/bricks.pdf'
+    target: '_blank'
+  -
     text: 'T'
     caption: 'Tutorial'
     url: '/tutorial/event/bricks'
@@ -105,11 +110,14 @@ To build a robot that is capable of segregating building materials by successful
 
 Weight: The weight of the **hollow blocks** will be less than **50 grams**, And that of **solid blocks** will be greater than **70 grams**. No block will weigh greater than **200 grams**.
 
-Handle: A handle will be made on **top** of each block to facilitate lifting as shown in the figure. A free space of **1 cm x 5 cm** will be provided inside each handle.
+Handle: A handle will be made on **top** of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
 
-![](/img/event/bricks/cube_front.JPG){:.img-responsive}
-![](/img/event/bricks/cube_iso.JPG){:.img-responsive}
-![](/img/event/bricks/cylinder_iso.JPG){:.img-responsive}
+![](/img/event/bricks/cube_iso.PNG){:.img-responsive}
+![](/img/event/bricks/cube_side.PNG){:.img-responsive}
+![](/img/event/bricks/cube_top.PNG){:.img-responsive}
+![](/img/event/bricks/cylinder_iso.PNG){:.img-responsive}
+![](/img/event/bricks/cylinder_side.PNG){:.img-responsive}
+![](/img/event/bricks/cylinder_top.PNG){:.img-responsive}
 
 
 **Robot specification:**
