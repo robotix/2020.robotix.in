@@ -213,8 +213,7 @@ otherwise the final point tally will directly be 0.
 
 * The dimensions of the arena will be 3m x 3m.
 * The dimension of the squares will be 10cm x 10cm.
-* The triangles will be right angled isosceles triangle of the isosceles
-side 10cm.
+* The triangles will be equilateral triangle of side length 10cm.
 * The dimension of the town square will be 25cm x 25cm.
 * Standard tracker provided will have two squares of colours orange and
 pink. However participants are free to use a marker of their own choice.
