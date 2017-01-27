@@ -53,6 +53,8 @@ heroTitle: "<typeout>"
 eventDate: "27th Jan - 29th Jan, 2017"
 typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2017"'
 typeoutFallback: "Technology Robotix Society"
+heroButtons:
+   - {permalink: "/schedule", text: "Event Schedule"}
 
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
