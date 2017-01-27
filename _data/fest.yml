@@ -1,47 +1,42 @@
 -
   id: 001
-  title: "Practice Round 1"
-  place: "SUMMIT ARENA"
+  title: "Practice Round"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 002
   title: "Practice Round 2"
-  place: "SUMMIT ARENA"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 003
   title: "Practice Round 3"
-  place: "SUMMIT ARENA"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 004
   title: "Round 1"
-  place: "SUMMIT ARENA"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 005
   title: "Round 2"
-  place: "SUMMIT ARENA"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 006
   title: "Round 3"
-  place: "SUMMIT ARENA"
+  place: "BOMB DISPOSAL ARENA"
 
 -
   id: 007
   title: "Round 1"
-  place: "WAREHOUSE ARENA"
+  place: "B.R.I.C.K.S. ARENA"
 
 -
   id: 008
   title: "Round 2"
-  place: "WAREHOUSE ARENA"
-
--
-  id: 009
-  title: "Round 3"
-  place: "WAREHOUSE ARENA"
+  place: "B.R.I.C.K.S. ARENA"
 
 -
   id: 010
@@ -51,29 +46,19 @@
 -
   id: 011
   title: "Round 1"
-  place: "SHELDON ARENA"
+  place: "CONQUEST ARENA"
 
 -
   id: 012
-  title: "Round 2"
-  place: "SHELDON ARENA"
+  title: "Practice Round"
+  place: "CONQUEST ARENA"
 
 -
   id: 013
-  title: "Round 3"
-  place: "SHELDON ARENA"
+  title: "Practice Round"
+  place: "B.R.I.C.K.S. ARENA"
 
 -
   id: 014
-  title: "Round 1"
-  place: "SHERLOCK ARENA"
-
--
-  id: 015
   title: "Round 2"
-  place: "SHERLOCK ARENA"
-
--
-  id: 016
-  title: "Round 3"
-  place: "SHERLOCK ARENA"
+  place: "CONQUEST ARENA"
