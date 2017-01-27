@@ -73,7 +73,8 @@ Q: Is there any penalty if the tank is pushed on ground?
 
 ``` 
 If the tank falls down on the ground then it will be considered as an
-explosion. Pushing or dragging of any object is not allowed.
+explosion. Pushing or dragging of any object is not allowed and if found to do
+so negative points will be awarded. 
 ```
 
 Q: Is there any sample video of working bot in arena?
