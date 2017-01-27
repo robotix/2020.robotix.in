@@ -108,7 +108,7 @@ To build a robot that is capable of segregating building materials by successful
 * Diameter: 6cm.
 * Height: 6cm.
 
-Weight: The weight of the **hollow blocks** will be less than **50 grams**, And that of **solid blocks** will be greater than **70 grams**. No block will weigh greater than **200 grams**.
+Weight: The weight of the **hollow blocks** will be less than **60 grams**, And that of **solid blocks** will be greater than **90 grams**. No block will weigh greater than **200 grams**.
 
 Handle: A handle will be made on **top** of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
 
