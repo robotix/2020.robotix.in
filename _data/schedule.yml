@@ -1,68 +1,56 @@
-- 
-  date: "2016-01-21"
-  dateReadable: "January 21"
-  tracks: 
-    - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#03a9f4"}
-    - {title: "Sherlock", color: "#03a9f4"}
-    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
+-
+  date: "2017-01-27"
+  dateReadable: "January 27"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
   timeslots:
-    - {
-    	startTime: "16:00",
-    	sessionIds: [010, 010, 010, 010]
-    }
     - {
         startTime: "18:00",
-        sessionIds: [001, 404, 404, 404]
-    }
-- 
-  date: "2016-01-22"
-  dateReadable: "January 22"
-  tracks: 
-    - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#03a9f4"}
-    - {title: "Sherlock", color: "#03a9f4"}
-    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
-  timeslots:
-    - {
-        startTime: "09:00",
-        sessionIds: [004, 007, 014, 011]
-    }
-    - {
-        startTime: "22:00",
-        sessionIds: [002, 404, 404, 404]
-    }
-- 
-  date: "2016-01-23"
-  dateReadable: "January 23"
-  tracks: 
-    - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#03a9f4"}
-    - {title: "Sherlock", color: "#03a9f4"}
-    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
-  timeslots:
-    - {
-        startTime: "09:00",
-        sessionIds: [005, 008, 015, 012]
+        sessionIds: [010, 010, 010]
     }
     - {
         startTime: "20:00",
-        sessionIds: [003, 404, 404, 404]
+        sessionIds: [001, 404, 404]
     }
-- 
-  date: "2016-01-24"
-  dateReadable: "January 24"
-  tracks: 
-    - {title: "Summit", color: "#03a9f4"}
-    - {title: "Warehouse", color: "#03a9f4"}
-    - {title: "Sherlock", color: "#03a9f4"}
-    - {title: "S.H.E.L.D.O.N.", color: "#03a9f4"}
+    - {
+        startTime: "21:00",
+        sessionIds: [404, 012, 013]
+    }
+-
+  date: "2017-01-28"
+  dateReadable: "January 28"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
   timeslots:
     - {
-        startTime: "09:00",
-        sessionIds: [404, 009, 016, 013]
+        startTime: "08:00",
+        sessionIds: [004, 007, 011]
+    }
+-
+  date: "2017-01-29"
+  dateReadable: "January 29"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "08:00",
+        sessionIds: [404, 404, 014]
     }
     - {
         startTime: "10:00",
-        sessionIds: [006, 404, 404, 404]
+        sessionIds: [404, 008, 404]
+    }
+    - {
+        startTime: "12:00",
+        sessionIds: [005, 404, 404]
+    }
+    - {
+        startTime: "15:00",
+        sessionIds: [006, 404, 404]
     }
