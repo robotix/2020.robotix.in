@@ -72,6 +72,7 @@ Quick-start guide is not enough? Checkout [full documentation](https://github.co
 ### Contributors
 * Aditya Narayan
 * Abhinav Jain
+* Manad Mishra
 * Pranit Bauva
 * Shivang Agrawal
 * Sourish Ghosh
