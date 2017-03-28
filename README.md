@@ -75,4 +75,5 @@ Quick-start guide is not enough? Checkout [full documentation](https://github.co
 * Manad Mishra
 * Pranit Bauva
 * Shivang Agrawal
+* Shubhika Garg
 * Sourish Ghosh
