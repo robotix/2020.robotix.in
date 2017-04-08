@@ -42,7 +42,6 @@ navigationLinks:
  - {permalink: "/tutorial", text: "Tutorials"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
- - {permalink: "/alumni/", text: "Alumni"}
 bottomNavigationLinks:
  - {link: "http://contact.robotix.in", text: "Contact Us"}
 
