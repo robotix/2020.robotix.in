@@ -36,7 +36,6 @@ socialImage: "/img/favicons/favicon-196x196.png"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
  - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
