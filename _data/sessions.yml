@@ -108,3 +108,13 @@
   complexity: "Intermediate"
   links:
     - { title: "View presentation", src: "https://prezi.com/w1rfgz116ixk/kraig-302/"}
+
+-
+  id: 012
+  title: "Adamas University Workshop"
+  subtype: presentation
+  speakers: [18, 19]
+  language: en
+  complexity: "Beginner"
+  links:
+    - { title: "View Presentation", src: "/blog/Adamas-University-Workshop/" }

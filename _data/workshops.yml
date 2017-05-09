@@ -1,2 +1,15 @@
 about: "Technology Robotix Society conducts robotics workshops
         all over India.<br><br><br><br><br><br>"
+
+schedule:
+  -
+    date: "2017-03-25"
+    dateReadable: "25th & 26th March"
+    tracks:
+        - {title: "Adamas University", color: "#90be4e"}
+    timeslots:
+        - {
+            startTime: "9:00",
+            endTime: "18:00",
+            sessionIds: [012]
+        }
