@@ -118,3 +118,13 @@
   complexity: "Beginner"
   links:
     - { title: "View Presentation", src: "/blog/Adamas-University-Workshop/" }
+
+-
+  id: 013
+  title: "Benett University Workshop"
+  subtype: presentation
+  speakers: [13, 16]
+  language: en
+  complexity: "Beginner"
+  links:
+    - {title: "View Presentation", src: "/blog/noida-workshop-2017/"}

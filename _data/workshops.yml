@@ -13,3 +13,14 @@ schedule:
             endTime: "18:00",
             sessionIds: [012]
         }
+  -
+    date: "2017-03-04"
+    dateReadable: "4th and 5th March"
+    tracks:
+        - {title: "Benett University", color: "#90be4e"}
+    timeslots:
+        - {
+            startTime: "9:00",
+            endTime: "18:00",
+            sessionIds: [013]
+        }
