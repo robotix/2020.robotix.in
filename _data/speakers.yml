@@ -126,3 +126,21 @@
   social:
     - {name: "facebook", link: "https://www.facebook.com/aditi1997"}
     - {name: "email", link: "mailto:aditi.kambli@robotix.in"}
+
+-
+  id: 18
+  name: Pranit
+  surname: Bauva
+  title: "Head"
+  thumbnailUrl: pranitbauva.jpg
+  social:
+    - {name: "site", link: "https://www.bauva.com"}
+
+-
+  id: 19
+  name: Rohan
+  surname: Sitaniya
+  title: "Head"
+  thumbnailUrl: rohansitaniya.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/rohan.sitaniya"}
