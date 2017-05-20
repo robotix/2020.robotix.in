@@ -257,17 +257,6 @@
         - {name: "site", link: "http://www.bauva.com"}
         - {name: "email", link: "mailto:pranit.bauva@robotix.in"}
     -
-      id: 40
-      name: Rohan
-      surname: Khameshra
-      title: "Sub Head"
-      thumbnailUrl: rohankhameshra.jpg
-      team: true
-      tag: Autonomous
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/rohan.khameshra"}
-        - {name: "email", link: "mailto:rohan.khameshra@robotix.in"}
-    -
       id: 41
       name: Rohan
       surname: Sitaniya
