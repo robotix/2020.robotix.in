@@ -2,11 +2,11 @@
 comments: true
 date: 2017-03-22
 layout: post
-slug: noida-workshop-2017
-title: 'Noida Workshop'
-image: img/blog/2017/noida-ws/head.jpg
-categories:
-  - Robotix
+slug: bennett-university
+title: 'Bennett University'
+subTitle: 'Feb 25, 2017'
+logo: /img/workshop/bennett-university-logo.jpg
+image: img/blog/2017/noida-ws/banner.jpg
 ---
 
 This [Post](http://amanchandra.in/noida-workshop/) originally apperared on Aman Chandra's [website](http://amanchandra.in/).

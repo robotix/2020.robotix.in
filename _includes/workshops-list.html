@@ -1,0 +1,30 @@
+<!-- Begin Workshops List-->
+<section id="speakers">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1 appear-animation-trigger">
+            {% for workshop in site.workshops %}
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect ribbon-activator">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: workshop.logo }})">
+                        <a class="overlay solid-overlay" href="{{ site.baseurl }}{{ workshop.url }}"></a>
+                        <ul class="ribbon-wrapper">
+                            <li>
+                                <!-- <p class="ribbon abbr">{{ workshop.subTitle | truncate: 1 }}</p> -->
+                                <p class="ribbon full-title">{{ workshop.subTitle }}</p>
+                            </li>
+                        </ul>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name"><a href="{{ site.baseurl }}{{ workshop.url }}">{{ workshop.title }}</a></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">{{ workshop.subTitle }}</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Workshops List

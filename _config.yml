@@ -22,6 +22,9 @@ collections:
   tutorials:
     output: true
     permalink: "/tutorial/:path/"
+  workshops:
+      output: true
+      permalink: "/workshops/:path/"
 
 #Pagination
 paginate: 10
