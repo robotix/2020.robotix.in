@@ -2,8 +2,8 @@
 layout: post
 title: "Edge Detection"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/edge_detection/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/edge_detection/"
 ---
 
 #### Video Tutorial

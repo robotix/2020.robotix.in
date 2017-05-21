@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Video and Callback"
+title: "Video and Callback -opencv"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/video_and_callback/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/video_and_callback/"
 ---
 
 #### Video Tutorial

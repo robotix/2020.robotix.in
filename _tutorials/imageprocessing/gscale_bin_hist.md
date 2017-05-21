@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Grayscale, Binary and Histogram"
+title: "Grayscale, Binary and Histogram "
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/gscale_bin_hist/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/gscale_bin_hist/"
 ---
 
 #### Video Tutorial
@@ -12,7 +12,7 @@ redirect_from: "/tutorials/category/opencv/gscale_bin_hist/"
 
 **Gray-scale and binary are two commonly used single-channel formats, as had been mentioned in the introductory tutorial. A histogram is a data representation measure that has the values to be represented along one axis and the frequency along another. In this case, the histogram will show the gray-scale equivalents of the values of the various pixels. We will understand more about it once we have studied the conversions to grayscale and binary formats.**
 
-****N.B - In all these cases, we have written the functions for the conversions and the histogram, in keeping with the principle of modular programming. The actual programs that utilize these functions, and which have been used in the video tutorials, can be found separately as .cpp files under resources.****
+****N.B - In all these cases, we have written the functions for the conversions and the histogram, in keeping with the principle of modular programming. The actual programs that utilize these functions, and which have been used in the video tutorials, can be found separately as .cpp files under resources.**
 
 #### Grayscale Conversion
 

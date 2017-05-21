@@ -2,8 +2,8 @@
 layout: post
 title: "Noise Reduction"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/noise_reduction/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/noise_reduction/"
 ---
 
 #### Video Tutorial

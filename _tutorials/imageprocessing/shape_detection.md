@@ -2,8 +2,8 @@
 layout: post
 title: "Shape Detection"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/shape_detection/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/shape_detection/"
 ---
 
 #### Introduction

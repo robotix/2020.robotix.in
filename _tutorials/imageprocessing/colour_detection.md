@@ -2,8 +2,8 @@
 layout: post
 title: "Colour Detection"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/colour_detection/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/colour_detection/"
 ---
 
 #### Introduction

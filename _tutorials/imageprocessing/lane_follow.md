@@ -2,8 +2,8 @@
 layout: post
 title: "Lane Following"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/lane_follow/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/lane_follow/"
 ---
 
 #### Introduction

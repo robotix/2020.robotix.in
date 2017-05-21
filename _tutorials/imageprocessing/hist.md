@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Histograms"
+title: "Histograms -Matlab"
 categories:
   - imageprocessing
 redirect_from: "/tutorials/category/imageprocessing/hist/"

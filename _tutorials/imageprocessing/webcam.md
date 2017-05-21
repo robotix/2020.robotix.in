@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webcam Interface"
+title: "Webcam Interface -Matlab"
 categories:
   - imageprocessing
 redirect_from: "/tutorials/category/imageprocessing/webcam/"

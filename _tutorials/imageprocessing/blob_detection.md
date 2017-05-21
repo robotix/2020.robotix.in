@@ -2,8 +2,8 @@
 layout: post
 title: "Blob Detection"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/blob_detection/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/blob_detection/"
 ---
 
 #### Introduction

@@ -2,8 +2,8 @@
 layout: post
 title: "Introductory Programs"
 categories:
-  - opencv
-redirect_from: "/tutorials/category/opencv/introductory_programs/"
+  - imageprocessing
+redirect_from: "/tutorials/category/imageprocessing/introductory_programs/"
 ---
 
 #### Video Tutorial
