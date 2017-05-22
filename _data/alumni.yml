@@ -1,3 +1,68 @@
+- title: "2017"
+  team:
+    -
+      id: 100
+      name: "Anchit"
+      surname: "Navelkar"
+      thumbnailUrl: anchit_navelkar.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/anchitn?fref=ts"}
+        - {name: "email", link: "mailto:anchitn@robotix.in"}
+    -
+      id: 101
+      name: "Harsheel"
+      surname: "Soin"
+      thumbnailUrl: harsheel_soin.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/harsheel.soin?fref=ts"}
+        - {name: "email", link: "mailto:harsheel@robotix.in"}
+    -
+      id: 102
+      name: "Ruchita"
+      surname: "Kachhap"
+      thumbnailUrl: ruchita_kachhap.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ruchita.kachhap?fref=ts"}
+        - {name: "email", link: "mailto:ruchita@robotix.in"}
+    -
+      id: 103
+      name: "Sudeshna"
+      surname: "Trilok"
+      thumbnailUrl: sudeshna_trilok.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/sudutri?fref=ts"}
+        - {name: "email", link: "mailto:sudeshna@robotix.in"}
+    -
+      id: 104
+      name: "Vipasha"
+      surname: "Jain"
+      thumbnailUrl: vipasha_jain.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/vipasha.jain.73"}
+        - {name: "email", link: "mailto:vipasha@robotix.in"}
+    -
+      id: 105
+      name: "Mratunjay"
+      surname: "Gupta"
+      thumbnailUrl: mratunjay.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/mratunjay.gupta?fref=ts"}
+        - {name: "email", link: "mailto:mratunjay@robotix.in"}
+    -
+      id: 106
+      name: "Riya"
+      surname: "Bubna"
+      thumbnailUrl: riya.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/riya.bubna?fref=ts"}
+        - {name: "email", link: "mailto:riya@robotix.in"}
 - title: "2016"
   team:
     -
@@ -9,7 +74,6 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/yogesh.poddar.77"}
         - {name: "email", link: "mailto:yogesh@robotix.in"}
-
     -
       id: 1
       name: "Soumyadeep"
@@ -155,7 +219,6 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/#!/shushman.choudhury"}
-
 - title: "2014"
   team:
     -
@@ -593,7 +656,7 @@
       name: "Nitin"
       surname: "Mohta"
       team: true
-      thumbnailUrl: nithin_m.jpg
+      thumbnailUrl: nitin_m.jpg
       social:
         - {name: "linkedin", link: "https://www.linkedin.com/in/nitinmohta"}
     -
