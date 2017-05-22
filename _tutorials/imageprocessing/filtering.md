@@ -19,7 +19,7 @@ Linear Filtering occurs when the operation performed on each pixel is a  simple
 In MATLAB, linear filtering of images is implemented through two-dimensional convolution or  correlation. In convolution, the value of an output pixel is computed by multiplying elements of two matrices and summing the results. Correlation is similar to convolution with the only difference being that the kernel is flipped 180 degrees before the process.  
 One of these matrices represents the image itself, while the other matrix is the filter.
 
-![][1]                      ![][2]                   
+![][1]{:.img-responsive}                      ![][2]{:.img-responsive}                   
 
            Original                                                                   Image after filtering with kernel k
 
@@ -38,7 +38,7 @@ Another function which can be used is the imfilter function.
 
  
 
-![][3]
+![][3]{:.img-responsive}
 
 #### Non-Linear FIltering
 
@@ -50,7 +50,7 @@ of the values of the pixels in the input pixel's neighborhood.
 
  
 
-![][4]
+![][4]{:.img-responsive}
 
 Original Image
 
@@ -64,7 +64,7 @@ function. For example, this call computes each output pixel by taking the
 standard deviation of the values of the input pixel's 3-by-3 neighborhood (that  
 is, the pixel itself and its eight contiguous neighbors):
 
-![][5]  
+![][5]{:.img-responsive}  
 Using 'std2'
 
   
@@ -75,7 +75,7 @@ function with nlfilter. For example, this command processes the matrix I in
 You can also use an inline function; in this case, the function name appears in  
 the nlfilter call without quotation marks. For example,
 
-![][6]
+![][6]{:.img-responsive}
 
 Result
 
@@ -84,7 +84,7 @@ its 3-by-3 neighborhood.
 
  
 
-![][7]
+![][7]{:.img-responsive}
 
 Result
 

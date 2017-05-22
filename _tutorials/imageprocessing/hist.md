@@ -37,19 +37,19 @@ For example if we are working with uint8 images and we let b=2 then the intensit
 
 The simplest way to plot its histogram is to use imhist with no output specified.
 
-![][1]  
+![][1]{:.img-responsive}  
  
 
 This would produce
 
-![][2]  
+![][2]{:.img-responsive}  
 whereas
 
  
 
 produces
 
-![][3]
+![][3]{:.img-responsive}
 
 However there are many other ways to plot histograms like for example, using bar graphs.
 
@@ -57,9 +57,9 @@ However there are many other ways to plot histograms like for example, using bar
 
 v is the row vector containing plots to be plotted, horz is a vector of same dimension as v containing the increments of the horizontal scale and width is  number between 0 and 1.  Default value of width is 0.8. At 1 the bars touch and at 0 they are simply vertical lines.
 
-![][4]
+![][4]{:.img-responsive}
 
-![][5]![][6]![][7]
+![][5]{:.img-responsive}![][6]{:.img-responsive}![][7]{:.img-responsive}
 
 The first histogram has the default width value ( 0.8) while the second has a width of 1. The third histogram has a longer vertical axis and the horizontal axis set to 256 which can be done by the axis  command as seen in the code above.
 
@@ -71,12 +71,12 @@ The function histeq  attempts to distribute the levels so that they will approx
 
 where f is the input image and nlev is the number of intensity levels specified for output image. Default value for nlev is 64 unlike the imhist  function. Usually we use the maximum number of possible levels for nlev because this produces a true implementation of the histogram equalisation method.
 
-![][8]
+![][8]{:.img-responsive}
 
-![][9]  
+![][9]{:.img-responsive}  
 HIstograms of the two images
 
-![][10]![][11]  
+![][10]{:.img-responsive}![][11]{:.img-responsive}  
 As we can see, the second histogram is much more spread out over the axis.
 
 [1]: https://lh3.googleusercontent.com/QqABF8FPP4A31F4fKhq2mYySRAhDBdDrEUVnd8OwHVDcExLmUkwhPtvBsco0ICgabpFCWglU49kKW2hd3gRbmoZPlojyHxizAj-9uflWiwsBC95Ru8jQfghS

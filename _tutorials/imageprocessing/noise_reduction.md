@@ -11,7 +11,7 @@ redirect_from: "/tutorials/category/imageprocessing/noise_reduction/"
 #### Introduction
 
 **Noise in digital images is used to refer to random fluctuations in brightness, colour and intensity that usually make it more difficult to process the image properly. It basically adds irrelevant and unwanted information to the image, and so we should reduce that before proceeding onwards. An example of a noisy image is shown here:  
-![][1]**
+![][1]{:.img-responsive}**
 
 There are techniques that can handle the reduction of noise in images, and that is what we shall discuss here. There is always a fair amount of approximation involved in noise reduction, but it is worth the potential loss of some needed information, to be able to get rid of a lot of unnecessary information.
 
@@ -23,23 +23,23 @@ In general, dilation expands the region as it ten**ds to fill out small intrusio
 
 **This kind of noise reduction is usually done on binary images, where, say, white represents the wanted information and black the unwanted information. Now, we consider each kernel of the image and scan the pixels of it. If the majority of the pixels in the kernel are white, then the kernel is made white, which amounts to dilation or expanding the image and vice versa. So basically the value of the entire kernel in the resultant image is uniform. As can be seen, this reduces the accuracy of the image but it makes processing the image much easier and makes it smoother also. The picture below can give a good idea about this:**
 
-**![Erosion][2]**
+**![Erosion][2]{:.img-responsive}**
 
 **Erosion**
 
-**![Dilation][3]**
+**![Dilation][3]{:.img-responsive}**
 
 **Dilation**
 
 **Given below is an image taken from an edge detection program that has considerable amount of noise. Over the rest of this tutorial we will compare it to pictures that have had the noise-reduction techniques applied on them**
 
-**![][4]**
+**![][4]{:.img-responsive}**
 
 PROGRAM  
 The function below uses a simple erosion-dilation technique on a binary image and returns the noise-reduced image  
 __  
 The image with noise was shown at the beginning. Here is the result of applying the above kind of noise reduction on it:  
-![][5]  
+![][5]{:.img-responsive}  
 UNDERSTANDING THE CODE  
 Other than the standard variables, we have two to count the white and black pixels in each kernel, and another to denote the value the entire kernel will have. Then we cycle through the entire image, but this time not pixel-by-pixel but rather kernel-by-kernel. That is why we have the loop control variables i and j incremented by 'block' each time and not by 1.  
 In each kernel, there is another nested 'for' loop that goes through each pixel of the kernel, checking each value. If a greater number of pixels are black than they are white (or for a kernel of even pixels, if the same number is black), then the entire kernel is made black, and in the other case, white.  
@@ -53,7 +53,7 @@ It is better to first use the CvErode function and then the CvDilate one. (These
 SAMPLE PROGRAM  
 The result of this smoothing on the first image is shown below+block;n++){+block;m++){+block;n++){+block;m++){;j+=block){;i+=block){
 
-**![][6]**
+**![][6]{:.img-responsive}**
 
 **UNDERSTANDING THE CODE  
 Most of the program is self-explanatory, from loading the video file to capturing each frame one at a time. Inside the loop, the image of the frame is made grayscale and the edge detection method returns a binary image. Then we use the CvErode and the CvDilate function. The first parameter is the source and the second the destination, but one can give the same variable for both while calling the function, so the changes are saved in the original one only. This is called an "in-place" operation. These two functions support "in-place" operations for certain types of images.  
@@ -77,7 +77,7 @@ The program below gives an instance of usage of the CvSmooth function**
 
 **It uses the edge detection function as illustrated in the [edge detection tutorial][7]  
 Below is shown the effect of this smoothing. It is easily the most improved one  
-![][8]**
+![][8]{:.img-responsive}**
 
 UNDERSTANDING THE CODE  
 The code is very simple here and exactly like the example with CvErode and CvDilate, only that the line where the smoothing takes place is changed. We use the CvSmooth function with the necessary parameters. As the table shows, usage of CV_GAUSSIAN allows for "in-place" calls so that the source image and the destination image parameters have the same variable.

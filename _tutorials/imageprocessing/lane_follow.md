@@ -18,15 +18,15 @@ The pictures and the 3D model of the simulated indoor arena give a good idea of 
 The first step would be to reduce the image of the corridor to the essential features. By applying Canny Edge detection and then excluding a certain upper portion of the image, the following transformations can be obtained:  
 (The sample coloured image is an estimated view of the corridor in front of the robot, from the 3D model of the arena)
 
-![][1]
+![][1]{:.img-responsive}
 
  
 
-![][2]
+![][2]{:.img-responsive}
 
  
 
-![][3]
+![][3]{:.img-responsive}
 
 As you can see, the transformations on the image received have made the video feed of the image considerably easier to analyse. Now the corridor essentially consists of two sloping lines on either side of the robot. We can use this information effectively to determine how the robot should move along the corridor.
 
@@ -42,7 +42,7 @@ Given below is a code snippet which implements this part of the problem statemen
 
 Another method to understand and follow the lane would also require the use of this type of reduction. Thereafter, it would require the generation of two lines that are parallel to each other and perpendicular (almost) to the direction of the two lines. The transformation is shown here:
 
-![][4]
+![][4]{:.img-responsive}
 
 The above transformation can be done simply by taking two pairs of nearly equidistant points on the two lines, and computing their mid-points, and then comparing the relative positions of the mid-points.  
 If the two mid-points are almost along the same vertical line, then the robot is in the correct orientation and should move forward. Otherwise, it should turn accordingly.

@@ -16,7 +16,7 @@ Blob detection is usually done after colour detection and noise reduction to fin
 
  
 
-**![][1]![][2]**
+![][1]{:.img-responsive}![][2]{:.img-responsive}
 
 The algorithm is simply going to count the number of pixels in the blob. This could easily be extended to actually collect the pixel locations to create a region. Keep in mind that in this example black pixels are "on" and white pixels are "off". The basic idea is as follows:
 
@@ -35,7 +35,7 @@ AN EXAMPLE: BlobSize(6,1)
   
 An example might help to clear up any confusion. Let's get the size of the blob located at pixel (6, 1). The following image is a visual representation of what the algorithm is going to do in the first two recursive calls.
 
-**![][3]![][4]**
+![][3]!{:.img-responsive} ![][4]{:.img-responsive}
 
 Assume our function is BlobSize(x as Integer, y as Integer) and returns an Integer (the number of pixels in the blob), and we are calling BlobSize(6, 1). We go back to the algorithm: step 1, this pixel is on and it is within the boundaries of the image, so we are not at a base case – skip to step 2. Step 2, the pixel is on, so turn it off and then return 1 + the sum of all surrounding pixels, that is:
 
@@ -77,7 +77,7 @@ Conditions to check:
 
  
 
-**![][5]**
+![][5]{:.img-responsive}
 
 The array from which connected regions are to be extracted is given below
 
@@ -95,7 +95,7 @@ The array from which connected regions are to be extracted is given below
 
  
 
-**![][6]**
+![][6]{:.img-responsive}
 
 After the first pass, the following labels are generated. Note that a total of 7 labels are generated in accordance with the conditions highlighted above.
 
@@ -177,7 +177,7 @@ The label equivalence relationships generated are:
 
  |
 
-**![][7]**
+![][7]{:.img-responsive}
 
  
 
@@ -186,7 +186,7 @@ Array generated after the merging of labels is carried out. Here, the label valu
 The algorithm continues this way, and creates new region labels whenever necessary. The key to a fast algorithm, however, is how this merging is done. This algorithm uses the union-find data structure which provides excellent performance for keeping track of equivalence relationships.Union-find essentially stores labels which correspond to the same blob in a disjoint-set data structure, making it easy to remember the equivalence of two labels by the use of an interface method E.g.: findSet(l). findSet(l) returns the minimum label value that is equivalent to the function argument 'l'.  
 Once the initial labeling and equivalence recording is completed, the second pass merely replaces each pixel label with its equivalent disjoint-set representative element.
 
-**![][8]**
+![][8]{:.img-responsive}
 
 Final result in color to clearly see two different regions that have been found in the array.
 

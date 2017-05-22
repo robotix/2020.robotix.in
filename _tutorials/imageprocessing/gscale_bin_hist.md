@@ -28,7 +28,7 @@ The function below returns the grayscale equivalent of a BGR image provided to i
 
 <script src="https://gist.github.com/wowitsmrinal/4246173.js"></script>
   
-![][1]  
+![][1]{:.img-responsive}  
 UNDERSTANDING THE CODE:  
 The function takes as its parameter the image to be converted to grayscale format. After the variables have been declared and initialized, we cycle through each pixel one at a time, using the nested for loop. We use the macro IMGDATA to access each channel of each pixel. We assume here that the macro has been correctly defined at the top of the program which uses this function. We have discussed what this macro is in the general programming tutorial. Accordingly, we implement the conversion formula and assign it to each pixel of gscale. After the loop, we return the gray-scale image. ;j++){;i++){
 
@@ -42,23 +42,23 @@ PROGRAM:
 
 <script src="https://gist.github.com/wowitsmrinal/4246207.js"></script>
 
-![][2]  
+![][2]{:.img-responsive}  
 UNDERSTANDING THE CODE  
 This  being another function that returns a single-channel image, the structure is similar to the previous function for gray-scale. Only in this case, the extra parameter is the threshold value whose importance had been discussed prior to this. As explained, we cycle through each pixel [i,j] of the BGR image and get its gray-scale equivalent. If that value is larger than the threshold, we designate the corresponding pixel of the resultant image white, or else we make it black. After doing that, we return the image.  ;j++){;i++){
 
 #### Histograms
 
 **CONCEPT**  
-****The general definition of a histogram is a graphical representation of data. Here, we use the term to refer to the pictorial manifestation of the light intensity data. A histogram tells us the frequency of each intensity value from 0 to 255 in the gray-scale equivalent of a picture. It plots each of the intensity values versus the number of pixels that has that value. It is conceptually important, as it gives us an idea of the distribution of various intensity values in a picture.  
+**The general definition of a histogram is a graphical representation of data. Here, we use the term to refer to the pictorial manifestation of the light intensity data. A histogram tells us the frequency of each intensity value from 0 to 255 in the gray-scale equivalent of a picture. It plots each of the intensity values versus the number of pixels that has that value. It is conceptually important, as it gives us an idea of the distribution of various intensity values in a picture.  
 There are a number of inbuilt functions in OpenCV that relate to creating a histogram, and we will use those in our own function, to make it. It involves converting the image to a grayscale one, counting the number of times each intensity value appears, and then along the horizontal axis there will be 256 slots (0 to 255) to represent the various intensities. Regarding the horizontal axis, it is true that the highest value any pixel can have is the entire number of pixels of the picture (if all pixels are fully white or black or of the same shade, say). However, in most cases that will not happen, so for greater accuracy we will, while evaluating the image, find out the highest frequency any pixel has.  
-Moreover, since even that number might be in the thousands (a 'small' image like [320 X 240] has 76800 pixels, to give you some perspective), we will also scale down that value to a reasonable upper bound like 200, say. So now every frequency will be accordingly adjusted so that it lies between 0 and 200. Thereafter, the vertical height of each bar corresponding to a particular intensity will be its scaled-down frequency.****
+Moreover, since even that number might be in the thousands (a 'small' image like [320 X 240] has 76800 pixels, to give you some perspective), we will also scale down that value to a reasonable upper bound like 200, say. So now every frequency will be accordingly adjusted so that it lies between 0 and 200. Thereafter, the vertical height of each bar corresponding to a particular intensity will be its scaled-down frequency.**
 
 **PROGRAM  
 The function given below returns the histogram for the gray-scale equivalent of an image, depicting the frequencies of the various intensities**  
 
 <script src="https://gist.github.com/anonymous/3378762.js"></script>
 
-**![][3]**
+![][3]{:.img-responsive}
 
 **UNDERSTANDING THE CODE**
 
@@ -83,9 +83,9 @@ The program below shows the usage of the cvCvtColor function:
 
 <script src="https://gist.github.com/anonymous/3378770.js"></script>
 
-**UNDERSTANDING THE CODE  
+**UNDERSTANDING THE CODE**  
 Most of the program is as we have seen before. The directives are specified, the variables are initialized and the image file is loaded from the disk. In the cvCvtColor function, the first parameter is the image we wish to convert to gray-scale, the second is the variable that will store the gray-scale image. Finally, we use the macro CV_BGR2HSV, which as we mentioned earlier in the tutorial, directs the function to convert the image from BGR format to the gray-scale equivalent.  
-After that, the result is shown, and after the user pushes the key, the images are released and the window closed. **
+After that, the result is shown, and after the user pushes the key, the images are released and the window closed.
 
 [1]: https://lh5.googleusercontent.com/z-Gf0Opl_tQtuDiMO7LQtc_HAVJFsJ_B8COJBSnMGq6731jyK0Z0t55_PiAPgmt_gT4XblU590MF0iJXyYJi5peoMcZIr6ikGeWwivaVXzLoiQrAOsU
 [2]: https://lh3.googleusercontent.com/XYKe1EtwE7YFWDl5S7Z4fPoNFS694wFe0KMPLF3Fd8TwFuVXMNCfNZR1aEdEDZVH__wLAE13Fq-h_Psqt1zqBbqw_NHIi0cvOhiqg59OLobO690w32g

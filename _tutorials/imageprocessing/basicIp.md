@@ -23,7 +23,7 @@ Note how the second image appears cleaner; it is a more pleasant image. Sharpeni
 is a vital component of printing: in order for an image to appear at its best on the printed  
 page; some sharpening is usually performed.
 
-![][1]
+![][1]{:.img-responsive}
 
 _Removing noise from an image_
 
@@ -51,7 +51,7 @@ Suppose we take an image, a photo, say. For the moment, lets keep things simple 
 
 Such a function can of course be plotted. However, such a plot is of limited use to us in terms of image analysis. The concept of an image as a function, however, will be vital for the development and implementation of image processing techniques.
 
-![][2]
+![][2]{:.img-responsive}
 
 A digital image differs from a photo in that the x, y and f(x, y) values are all discrete. Usually they take on only integer values, so the image will have x and y ranging from 1 to 256 each, and the brightness values also ranging from 0 (black) to 255 (white). A digital image, as we have seen above, can be considered as a large array of sampled points from the continuous image, each of which has a particular quantized brightness; these points are the pixels which constitute the digital image. The pixels surrounding a given pixel constitute its neighbourhood. A neighbourhood can be characterized by its shape in the same way as a matrix: we can speak, for example, of a 3X3 neighbourhood, or of a 5X7 neighbourhood. Except in very special circumstances, neighbourhoods have odd numbers of rows and columns; this ensures that the current pixel is in the centre of the neighbourhood. If a neighbourhood has an even number of rows or columns (or both), it may be necessary to specify which pixel in the neighbourhood is the current pixel.
 

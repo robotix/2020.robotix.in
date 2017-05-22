@@ -16,7 +16,7 @@ You can use the roipoly function to specify a polygonal region of interest. If y
 
 The example below illustrates using roipoly to create a binary mask. The border of the selected region is shown in red on the original image.
 
-![][1]![][2]
+![][1]{:.img-responsive}![][2]{:.img-responsive}
 
  
 
@@ -31,9 +31,9 @@ BW = roicolor(A,low,high) returns an ROI selected as those pixels that lie withi
 
 #### Filtering a Region
 
-You can use the roifilt2 function to process a region of interest. When you call roifilt2, you specify an intensity image, a binary mask, and a filter. roifilt2 filters the input image and returns an image that consists of filtered values for pixels where the binary mask contains 1's, and unfiltered values for pixels where the binary mask contains 0's. This type of operation is called masked filtering. For example: ![][3]
+You can use the roifilt2 function to process a region of interest. When you call roifilt2, you specify an intensity image, a binary mask, and a filter. roifilt2 filters the input image and returns an image that consists of filtered values for pixels where the binary mask contains 1's, and unfiltered values for pixels where the binary mask contains 0's. This type of operation is called masked filtering. For example: ![][3]{:.img-responsive}
 
-![][4]
+![][4]{:.img-responsive}
 
 We can see that the filter is applied only in the region selected.
 

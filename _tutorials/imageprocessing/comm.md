@@ -18,11 +18,11 @@ For more information on USART, please see the relevant tutorial that have been m
 
 It is required, for the purpose of serial communication, to connect the computer to the microcontroller. In older systems which had a serial/parallel port, this could have been done directly, but nowadays it must be done through USB. So first we utilize something called a USB-to-serial converter which has one end connected to the USB port of the computer, and the other as the male part of a serial pin connection. It looks like this:
 
-**![][2]**
+![][2]{:.img-responsive} 
 
 Thereafter, another connector is used which has the female part of the serial pin connection, and at the other end, is connected to the development board for the microcontroller of the robot. Here it is:
 
-**![][3]**
+![][3]{:.img-responsive}
 
 It is also to be noted that we may also use direct USB-to-UART connections, and also wireless connections using Bluetooth devices.
 

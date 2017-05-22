@@ -22,24 +22,24 @@ In automated analysis of digital images, a sub-problem often arises of detecting
 
 The simplest case of Hough transform is the linear transform for detecting straight lines. In the image space, the straight line can be described as y = mx + b and can be graphically plotted for each pair of image points (x, y). In the Hough transform, a main idea is to consider the characteristics of the straight line not as image points (x1, y1), (x2, y2), etc., but instead, in terms of its parameters, i.e., the slope parameter m and the intercept parameter b. Based on that fact, the straight line y = mx + b can be represented as a point (b, m) in the parameter space. However, one faces the problem that vertical lines give rise to unbounded values of the parameters m and b. For computational reasons, it is therefore better to use a different pair of parameters, denoted  and  (theta), for the lines in the Hough transform. These are the Polar Coordinates.
 
-**![][1]**
+**![][1]{:.img-responsive}**
 
 The parameter  represents the distance between the line and the origin, while  is the angle of the vector from the origin to this closest point. Using this parameterization, the equation of the line can be written as  
 
- **![][2]**
+ **![][2]{:.img-responsive}**
 
 which can be rearranged to  .
 
-**![][3]**
+**![][3]{:.img-responsive}**
 
   
-It is therefore possible to associate with each line of the image a pair (r,θ) which is unique if  **![][4] **and **![][5], or if  ****![][6] and **** ![][7]. **The (r,θ) plane is sometimes referred to as Hough space for the set of straight lines in two dimensions.
+It is therefore possible to associate with each line of the image a pair (r,θ) which is unique if  **![][4]{:.img-responsive} **and **![][5]{:.img-responsive}, or if  ****![][6]{:.img-responsive} and **** ![][7]{:.img-responsive}. **The (r,θ) plane is sometimes referred to as Hough space for the set of straight lines in two dimensions.
 
  
 
 For an arbitrary point on the image plane with coordinates, e.g., (x0, y0), the lines that go through it are the pairs (r,θ) with,
 
-**![][8]**
+**![][8]{:.img-responsive}**
 
 where  (the distance between the line and the origin) is determined by θ.
 
@@ -58,7 +58,7 @@ Consider three data points, shown here as black dots.
 
  
 
-**![][9]**
+**![][9]{:.img-responsive}**
 
  
 
@@ -68,7 +68,7 @@ Consider three data points, shown here as black dots.
 * This is repeated for each data point.
 * A graph of the line lengths for each angle, known as a Hough space graph, is then created.
 
-**![][10]**
+**![][10]{:.img-responsive}**
 
 The point where the curves intersect gives a distance and angle. This distance and angle indicate the line which intersects the points being tested. In the graph shown the lines intersect at the pink point; this corresponds to the solid pink line in the diagrams above, which passes through all three points.
 

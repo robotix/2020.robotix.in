@@ -22,11 +22,11 @@ Parameter gamma specifies the shape of the curve that maps the intensity values 
 
 For example
 
-![][1]
+![][1]{:.img-responsive}
 
 Original Image
 
-![][2]
+![][2]{:.img-responsive}
 
 Intensity Enhanced
 
@@ -37,15 +37,15 @@ improfile works best with intensity and RGB images. (For indexed images, it disp
 
 If you call improfile with no arguments, the cursor changes to a cross hair when it is over the image. You can then specify line segments by clicking on the endpoints, improfile draws a line between each two consecutive points you select. When you finish specifying the path, press Return. improfile displays the plot in a new figure. In this example, you call improfile and specify a single line with the mouse. The line is shown in red, and is drawn from left to right.
 
-![][3]![][4]
+![][3]{:.img-responsive}![][4]{:.img-responsive}
 
 improfile displays a plot of the data along the line. Notice the peaks and valleys and how they correspond to the light and dark bands in the image. The example below shows how improfile works with an RGB image. The red line is drawn from top to bottom.
 
  
 
-![][5]
+![][5]{:.img-responsive}
 
-![][6]  
+![][6]{:.img-responsive}  
 improfile displays a plot with separate lines for the red, green, and blue intensities. Notice how the lines correspond to the colors in the image.
 
 #### Image Contours
@@ -53,11 +53,11 @@ improfile displays a plot with separate lines for the red, green, and blue inte
 You can use the toolbox function imcontour to display a contour plot of the data  
 in an intensity image.
 
-![][7]
+![][7]{:.img-responsive}
 
 Original Image
 
-![][8]
+![][8]{:.img-responsive}
 
 Result
 
@@ -67,7 +67,7 @@ Result
 
 This command is equivalent to the process of obtaining a photographic negative. It can also be obtained by
 
-![][9]
+![][9]{:.img-responsive}
 
 Negative of the same Image used earlier
 

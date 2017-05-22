@@ -16,7 +16,7 @@ In this program, we use the gray-scale equivalents of the pixels, which represen
 
 The figure shown below shows a rather rudimentary example of edge detection:
 
-**![][1]**
+![][1]{:.img-responsive}
 
 #### General Edge Detection
 
@@ -41,7 +41,7 @@ The program below utilizes Canny edge detection on the frames of a video**
 
 <script src="https://gist.github.com/anonymous/ba72772f03ca9ec6a919.js"></script>
   
-**![][2]**
+**![][2]{:.img-responsive}**
 
 **UNDERSTANDING THE CODE  
 Till the initialization of the variable frame, the code is similar to the one before. In this case, however, we need one more image variable other than the result, and that is an intermediate to store the grayscale equivalent of the frame. Both of these variables must, for the purpose of being used in pre-defined functions, be initialized with the cvCreateImage function, which requires the dimensions of the frame to be known. To avoid taking a separate frame for initialization outside the while loop, we are creating the two other image variables inside the loop itself, using them for edge detection, displaying them and releasing them from memory before repeating the operation.  
@@ -57,7 +57,7 @@ The program given below depicts the utilisation of the Sobel Edge detection meth
 
 <script src="https://gist.github.com/anonymous/3378878.js"></script>
 
-**![][3]**  
+**![][3]{:.img-responsive}**  
  
 
   

@@ -20,30 +20,30 @@ Here are some basic concepts associated with images:
 
 **Pixel** – A pixel, short for picture element, is the smallest independent unit of an image. The image is basically defined by a particular combination of pixels. The two characteristics of each pixel are its position and the value that pixel stores which is the brightness. The brightness is stored as an unsigned integer between 0 and 255. There is provision for colours also, when in multi-channel images, each pixel stores multiple values. We shall see that shortly. To sum up, the image basically contains the information about each pixel, which is what we access and manipulate to process them. The image below explains this.
 
-![][1]
+![][1]{:.img-responsive}
 
 **Resolution **– The resolution refers to the number of pixels comprising the image. For example, if an image has a resolution [350 X 233], then that means there are 350 pixels in the horizontal direction and 233 in the vertical direction (as shown in the figure below)
 
-![][2]
+![][2]{:.img-responsive}
 
 Simply put, the greater the resolution the more information is stored in the image and more is the memory space required by the image. The image below shows different resolutions scaled to the same size.
 
-![][3]
+![][3]{:.img-responsive}
 
 **Channels** – Channels refer to the number of values that each pixel contains. If there is only one channel then the pixel will contain only one value which represents that pixel. This is the case in black and white images and also in gray-scale images, where each pixel stores a single value between 0 and 255. In coloured images, there are multiple channels and the combination of values in each channel creates a colour which we see on screen.
 
   
 **Gray-scale** – This is a single-channel type of image wherein each pixel contains only the intensity, as a numerical value between 0 and 255. Images of this type, which we know more commonly as black-and-white images, are composed exclusively of different shades of gray, varying from complete black (at 0) to complete white (at 255). The greater the value of the pixel, the brighter it is.
 
-![][4]
+![][4]{:.img-responsive}
 
 **Binary Image** – This refers to a digital image that has only two values for each pixel. Most commonly we choose 0 and 255 or complete black and complete white. This type of image is used typically to ignore unwanted areas in an image and focus only on the relevant portions.
 
-![][5]
+![][5]{:.img-responsive}
 
 **Colours** – Digital images can have colours through the existence of multiple channels. In this case, the value of each channel defines a particular aspect of the colour, and the combination of the values gives rise to a specific colour. Two of the most commonly used multi-channel formats for representing colours are BGR and HSV. BGR or Blue-Green-Red is a 3-channel format where each channel stores the intensity of the colours blue, green and red respectively. As we know, these are the 3 fundamental colours and combinations of them in various shades can form any colour. HSV refers to Hue-Saturation-Value, another 3-channel way of representing images. The Hue refers to a particular shade of colour, saturation to the intensity of the colour and value to brightness.
 
-![][6]
+![][6]{:.img-responsive}
 
 #### Understanding IP
 

@@ -40,7 +40,7 @@ If the specified size does not produce the same aspect ratio as the input image 
 
  
 
-![][1]  
+![][1]{:.img-responsive}  
 The imrotate function rotates an image, using a specified interpolation method and rotation angle. If you do not specify an interpolation method, the function uses nearest neighbor interpolation. You specify the rotation angle in degrees. If you specify a positive value, imrotate rotates the image counterclockwise; if you specify a negative value, imrotate rotates the image clockwise.
 
 In order to include the entire original image, imrotate pads the outside with  
@@ -52,7 +52,7 @@ being larger than the input image.
 The function imcrop extracts a rectangular portion of an image. You can specify the crop rectangle through input arguments, or select it with a mouse. If you call imcrop without specifying the crop rectangle, the cursor changes to a cross hair when it is over the image. Click on one corner of the region you want to select, and while holding down the mouse button, drag across the image. imcrop draws a rectangle around the area you are selecting. When you release the mouse button, imcrop creates a new image from the selected region. If you do not provide any output arguments, imcrop displays the image in a  
 new figure.
 
-![][2]       ![][3]
+![][2]{:.img-responsive}       ![][3]{:.img-responsive}
 
 [1]: https://lh4.googleusercontent.com/syAdomdn8eDWcn9vypUTNXBPT-YbM_BLtYdz6lCFglS0ccs9c3ShLCC2wQo17worSqpNxmVRdPu8jAQzgyjNocHQigkWZh6Zsrh6MV9HYJaSyQKcaMEFv3RP
 [2]: https://lh6.googleusercontent.com/ALsYQpWaTSuOs_O03cBtHpSQWfuCfuJC75oM_XTYCGoQiPUEkt3zudvLX_27G56YK1e79UHKflrtDeRVP7UNXFMG2odkUarXZbxgwN5AnQjeF-Ru5pX31byB

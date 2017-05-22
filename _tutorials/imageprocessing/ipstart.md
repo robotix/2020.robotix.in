@@ -31,7 +31,7 @@ The whos  statement displays additional information about an image.
   
 For example-
 
-![][1]
+![][1]{:.img-responsive}
 
  
 
@@ -74,7 +74,7 @@ saves an image at 25% of its quality.
 
 Image information is provided by the imfinfo command.
 
-![][2]  
+![][2]{:.img-responsive}  
 Here also, using the semi colon as in the first line doesnt display the result.
 
 We may use a structure variable to store the information.
