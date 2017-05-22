@@ -19,7 +19,7 @@ Linear Filtering occurs when the operation performed on each pixel is a  simple
 In MATLAB, linear filtering of images is implemented through two-dimensional convolution or  correlation. In convolution, the value of an output pixel is computed by multiplying elements of two matrices and summing the results. Correlation is similar to convolution with the only difference being that the kernel is flipped 180 degrees before the process.  
 One of these matrices represents the image itself, while the other matrix is the filter.
 
-![][1]                      ![][2]                   
+![][1]{:.img-responsive}                      ![][2]{:.img-responsive}                   
 
            Original                                                                   Image after filtering with kernel k
 
@@ -38,7 +38,7 @@ Another function which can be used is the imfilter function.
 
  
 
-![][3]
+![][3]{:.img-responsive}
 
 #### Non-Linear FIltering
 
@@ -50,7 +50,7 @@ of the values of the pixels in the input pixel's neighborhood.
 
  
 
-![][4]
+![][4]{:.img-responsive}
 
 Original Image
 
@@ -64,7 +64,7 @@ function. For example, this call computes each output pixel by taking the
 standard deviation of the values of the input pixel's 3-by-3 neighborhood (that  
 is, the pixel itself and its eight contiguous neighbors):
 
-![][5]  
+![][5]{:.img-responsive}  
 Using 'std2'
 
   
@@ -75,7 +75,7 @@ function with nlfilter. For example, this command processes the matrix I in
 You can also use an inline function; in this case, the function name appears in  
 the nlfilter call without quotation marks. For example,
 
-![][6]
+![][6]{:.img-responsive}
 
 Result
 
@@ -84,16 +84,16 @@ its 3-by-3 neighborhood.
 
  
 
-![][7]
+![][7]{:.img-responsive}
 
 Result
 
 The result in case of the previous command is quite apparent as some level of noise has appeared in the image.
 
-[1]: https://lh3.googleusercontent.com/dQKXbKsl_AG6rrvKt28gsnpkVX3RM4hSgG18QQvYcpBBQZncSFbAvV6yJDp7Nlu9Q5DUNhrXx-Lxu0fBcyR3S2_fAjkTtUG1R3QKK6MyvDf0OZ-eL21cvNi2
-[2]: https://lh3.googleusercontent.com/TTGyVG9DPyKgo4ff6hDUUQE5SqHTgkhwPUA0pfvytRNPPrN_cAurCD0z-HULBmzm0nOczp-frnl1_NEJFlEHJLpI9plwdvMbKLcB8S_oB1pFmKvs5m4Pl7AV
-[3]: https://lh5.googleusercontent.com/i3qqfa_5o1EBBgJgJA24Z9qouxb2Gf4zKs2uChLpyoIdPgLHyGHjTVU9A01Teyi7vvfKPWPAZUwxR17Km9nU_EvynIvfgHe9hstY_kMs36KtqkrGnOpBLa50
-[4]: https://lh4.googleusercontent.com/m9_R5ekIBN0lvwN5sXuUxCAPCvXM5L92vknfMhaDUVdkJ4SfrXT350lKYAdn62hKEnqnI3ck1vZjGn1eKQ3TYni25acKc8YRZrMolfIiypSXbooGtwUTAqZ6
-[5]: https://lh6.googleusercontent.com/Wsr6-niBn5Y8Mk8LP-rodo5O5JwWpR2n5D7eKc0ptsKypwJd5R8D7YQ-_dA7HJZfZweVKUQ2NvTV0ccKjjsX-6Vtxy3xtPwl7KYGN0-jcyJ_8hbPmmE2WSzd
-[6]: https://lh5.googleusercontent.com/BlQUoch0rgsyfNVTCE6fLBDbFUI3ZyBTm6hDGAB4K0FnQabUHnALXUUsL8Dzygfagyca49wFV3moyUDFOEiMFt9zOix7_P2efhASaCx5ihf9ZtseVfox5Rye
-[7]: https://lh5.googleusercontent.com/SKcfxIy2_H7gGvHeeG9DmwDuUKCZmMTmu8AEAZ6_DP_3C14y_0WSn2JTitL-UqG_PdlEw5HEJSDZ0E-Hbn0UxDCNcuoKgB2hrUBEcM6i5vHpTue2v3uz_r5s
+[1]: /img/tutorial/img_processing/filtering/pic1.PNG
+[2]: /img/tutorial/img_processing/filtering/pic2.PNG
+[3]: /img/tutorial/img_processing/filtering/pic3.PNG
+[4]: /img/tutorial/img_processing/filtering/pic4.png
+[5]: /img/tutorial/img_processing/filtering/pic5.png
+[6]: /img/tutorial/img_processing/filtering/pic6.png
+[7]: /img/tutorial/img_processing/filtering/pic7.png
