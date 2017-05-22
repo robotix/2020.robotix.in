@@ -196,11 +196,11 @@ Final result in color to clearly see two different regions that have been found 
 
  
 
-[1]: https://lh5.googleusercontent.com/4VXN3AGDdZlAOOXDkKb9XXtyfHax1bpHWFwtDH4IxC8hnRJQxpO8sgVbNwTVNWFlPr1HlO6pCbsVWSoqoKKqDllep6OL1r898GJzNyFoCUAdMkb8etQ
-[2]: https://lh5.googleusercontent.com/nek6jzzzGh2L7UmPSH4dDwJ6nr2mobuCFO2Sei3gAiPoSCKjp67PJtUhLhtWHkIa9RlEHuAkr-aVS2DVmemZ_KyTfZmsV_tzPiLOXPddyxPK2yOBT1k
-[3]: https://lh3.googleusercontent.com/Vf_9RQ5cTufm53p4pzgrx22CNYKzpVupuy3JHU_Mpgyq5N2Gsxe6PKEobkzBVFRmR4QywUbUavRKyAiI1yTnn1cs33dhXkEAjmlboPKL7a8xtGIBg0U
-[4]: https://lh4.googleusercontent.com/tnj0xqG2Um6w4r8SsHFvYazVCkMyydQzSMwGHk6r0LJIN5EBgkZETyEAqTnmLG2RSkNGhb6X8fykwJBiHjLxwzDIFVu0xx6X8a928nggtTNDsDBYeh0
-[5]: https://lh4.googleusercontent.com/Fnqlxspd_UO2JG7Dn2Y6nD_z06_WzTfsbkNg3cWwk43svjO8L_JisHZd6Yy8TAIjuxFgePQzxWOnaz9OpVRbd4-7tuf3aMZMohHjz85n_ufZ-xKYn_Q
-[6]: https://lh3.googleusercontent.com/Hlv0Ku7byoCX6hDz-pJRzZUweVb01Hr9N8P_nDkugSiBywod6n5v8fWDgN0V2aM6hZdmWIih9JktZ6ufUmBJi-koWyK6GJKNsiVLC651roMY9FrzeSI
-[7]: https://lh3.googleusercontent.com/pMUYc15_GpmHM802nIfy0z7_rT82Um_Q5nnXIfgWMVEQ-Pc9YKqesibYr2jnEFn0v_-3ix4tGgnOM0KzpX3DUIFDZesPnj24dtQzozk5abemcpLdR7k
-[8]: https://lh4.googleusercontent.com/84n_A6Esd0JZQXxTkkF0gAiFdwy5EUK-0uKso9SExgvJnIN2SMz-1aStv8Z1Le6wpoYe8l3RfUqvT1gFCF1z6Ram3Xd57NGaB-J5frEyu0iHLCfkbWo
+[1]: /img/tutorial/img_processing/blob/pic1.gif
+[2]: /img/tutorial/img_processing/blob/pic2.gif
+[3]: /img/tutorial/img_processing/blob/pic3.gif
+[4]: /img/tutorial/img_processing/blob/pic4.gif
+[5]: /img/tutorial/img_processing/blob/pic5.png
+[6]: /img/tutorial/img_processing/blob/pic6.png
+[7]: /img/tutorial/img_processing/blob/pic7.png
+[8]: /img/tutorial/img_processing/blob/pic8.png

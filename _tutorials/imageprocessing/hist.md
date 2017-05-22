@@ -79,14 +79,14 @@ HIstograms of the two images
 ![][10]{:.img-responsive}![][11]{:.img-responsive}  
 As we can see, the second histogram is much more spread out over the axis.
 
-[1]: https://lh3.googleusercontent.com/QqABF8FPP4A31F4fKhq2mYySRAhDBdDrEUVnd8OwHVDcExLmUkwhPtvBsco0ICgabpFCWglU49kKW2hd3gRbmoZPlojyHxizAj-9uflWiwsBC95Ru8jQfghS
-[2]: https://lh3.googleusercontent.com/Fvnc8LdLGSS2BJBSpaI6jSBmNPcXpPkyP1G4TgLIKMKawRRqEsXKYQIhxzPwW8rROzqVcSysgy21nlE5kATXPyqQRocK2dCSb5T0nI9Nd8mHoimIPF367C43
-[3]: https://lh5.googleusercontent.com/RGbHuLbrafSCxsaBhe0Jd603dyZ7vapsVTbB7H1yuG-sLRrvoZmkUoEgMxiJlBtTacmrdZ2PCfAef73uSCbu87w_mIqfa4QRjVDl3u0NtspHlEKFM8wYMxTb
-[4]: https://lh5.googleusercontent.com/ITyn6CB1y1oFvz8CUvzFMXztLL8n4MF9VWn1lD1w_NCYrWel_FLyMRQv_rERzk0QoFe1xMbw4dNbDrFJhArmyFJxlw70dr__ZJgEJ3Z1Mry2Z8u9cVAcrhI_
-[5]: https://lh4.googleusercontent.com/nRAI77dVIoZ-3AQYc9WoCn_N550cqTUnXku9Q-GUBQuUd-q_uh_0O4v1Yd1T8ZwNSOsZNyBFN-3fsbQlb2rehkRvuLW2hp6ECJlWHAFBv6eXFtfotTY1HJES
-[6]: https://lh6.googleusercontent.com/UXMElugX8P2l1h2x9IrjQ7GtgGq7hOtWxxG6dU56xc9mliR0e3ZAzgO260YEf4i3y1HLiK4lj_XXVhuH84HahmRwJUSmqYzQw0f3MhgtDYPIm19fTSFJXZfj
-[7]: https://lh5.googleusercontent.com/0k7eMakE6038tqV2LKGTlc2uWsMvp7BiL2Qzr27xIzPXviIcfoDUlFvM1jKEQIPinxWPAJmQd5ihTqNluc5YDHUcRKhL8JlvI7_SceoD3qydp56HweLMbVfm
-[8]: https://lh3.googleusercontent.com/dh7JMwKSChr7ip1-7kD97dkk-30loi8gCr6c1-xeghC0gdi5vq7XWMhs340aLbr8PreMpeXd5Z_8nTKtcKJntNVbhFwuhIQ8s4DdtSrhgXYV7koSAdj0ER-T
-[9]: https://lh4.googleusercontent.com/dYttSc-vizWo9loWGYAbAn63ZDOx4ueS8QKfV1MwUn8STxoCrReyyhE-T4jS703lW5rxp4vfmjmZ2iOx5YfkH5dZOuxVA-NVs5xIAIe20heDVLbShxnOKt8z
-[10]: https://lh5.googleusercontent.com/rGx3yfEQ7muoB-9niTYWVo6eraXLbupdVS8GRhPOQPFcgt_9hr6VEM130qiUJc1IEOYnEkosGOjB2r-Rbzcl-MoA0IHGMnnn3bsjGobVQZCb8htLQh5bWuYy
-[11]: https://lh3.googleusercontent.com/oG6acOEaRqpscKFIm_gCos8pGAIR1RLkmfsLB5lVcJ0g2o-dnX92-oyeyXtHe9yk0XH20vNSAJQp5aYufETB51tNGBkBcgAR6kSkMbAyjc0XZ7_4a3Mb1Mj1
+[1]: /img/tutorial/img_processing/hist/pic1.png
+[2]: /img/tutorial/img_processing/hist/pic2.png
+[3]: /img/tutorial/img_processing/hist/pic3.png
+[4]: /img/tutorial/img_processing/hist/pic4.PNG
+[5]: /img/tutorial/img_processing/hist/pic5.png
+[6]: /img/tutorial/img_processing/hist/pic6.png
+[7]: /img/tutorial/img_processing/hist/pic7.png
+[8]: /img/tutorial/img_processing/hist/pic8.png
+[9]: /img/tutorial/img_processing/hist/pic9.png
+[10]:/img/tutorial/img_processing/hist/pic10.png 
+[11]:/img/tutorial/img_processing/hist/pic11.png 

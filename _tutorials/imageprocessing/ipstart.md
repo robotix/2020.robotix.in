@@ -197,5 +197,5 @@ zoom off;
 
  
 
-[1]: https://lh6.googleusercontent.com/B1tm29hXKEbGjUoLqfPt4F87ysxP-hSBKy8BIiV6yHINXRMkH1IcNIK0raoU1bFWFM75P9Mbc7060_pPcTV8zPPrKCjk3hqFiYwxoYcSq6GVQKvt5jNccWd4
-[2]: https://lh3.googleusercontent.com/N0YE71L0NqGlwHKi7dBwV04vB8SCqNVjbCNfU96pEDI6QS4-32FZGIsrpYDRmD__Z0Hm2swmsZY4yeb-2wO3rB1zEsgMIPNdZ6_u4Ki572-lvbw8UDP5Na9v
+[1]: /img/tutorial/img_processing/ipstart/pic1.PNG
+[2]: /img/tutorial/img_processing/ipstart/pic2.PNG

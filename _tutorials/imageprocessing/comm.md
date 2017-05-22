@@ -61,8 +61,8 @@ The code for this will be better understood after a look into the programming of
 Thereafter, based on the value of data, a particular output is sent to the PORT B of the microcontroller, to the first 4 pins of which the motor driver has been assumed to be connected. Based on these outputs sent, the robot moves forward and backwards, and turns left and right.
 
 [1]: http://robotix.in/tutorials/category/avr/usart
-[2]: https://lh6.googleusercontent.com/75vKpBwr7FrFmQhMVC4irAldmQsF9y_PA3tIAIm94icVoKmut8fb43NgiX5n_sxYPDkLKdOZF9wmqneIEKd2m30o4jPMVKZJfZXECfdqxVMBf2De8MU
-[3]: https://lh5.googleusercontent.com/TlFs3uYIcYzoms784M07ibZmRdd7KUux5PUDCp7bhnV2GaSL4ttzhrqGNtpEL9fLXaSfbsc3HB1VLm3a0awgfT3FXKJf8Xvn1JuotytbZc2sS9Za5qA
+[2]: /img/tutorial/img_processing/comm/pic1.PNG
+[3]: /img/tutorial/img_processing/comm/pic2.PNG
 [4]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/tserial.h
 [5]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/tserial.cpp
 [6]: https://raw.githubusercontent.com/Robotix/image-processing-wws-2014/master/Resources/SerialComm/bot_control.h

@@ -22,6 +22,6 @@ The Current Folder window, as its name suggests, displays the contents of the di
 
 The Command History window contains a list of commands a user has entered recently in the Command Window, including both current and previous Matlab sessions. A command can be selected and re-used by right clicking on it which launches a menu to select various options in addition to executing the command.
 
-[1]: https://lh4.googleusercontent.com/qattNMg374Psyb_MyvlrV87-HXls081ATlM12B4i4QVegoA8A3bAFYbMg0n0tXNWlPGQXlipgtHJbNou72Efy1U605xaiwSA0IEz4HYjQHjCpAUyj3eGMxOk
-[2]: https://lh3.googleusercontent.com/pbjdv9pwMjEtWYEzoeiD74ufJRIbsB8HOcG9bySM58iknKPa7MgLR4q7Zw1qcv5OebuuPjQv4Xeb8UDToynq6R4ppk0lobwANdE4w70J6TE3AnARXKhIffV8
-[3]: https://lh5.googleusercontent.com/35-YkRTbTNZUg7eqYN_3gKbwA3Ys67GnU329OV_dQ5owjhiUoGkhh9m_nKVs8c3XNtOv4WF10zqnQmzN1mxmBogiKxnpQBUevlRi3rpXbRBtHuYdLoSlNhZR
+[1]: /img/tutorial/img_processing/matlab/pic1.PNG
+[2]: /img/tutorial/img_processing/matlab/pic2.PNG
+[3]: /img/tutorial/img_processing/matlab/pic3.PNG

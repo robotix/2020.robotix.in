@@ -50,11 +50,11 @@ This example uses roifill to modify the trees image. The border of the selected 
 
  
 
-![][5]    ![][6]
+![][5]{:.img-responsive}    ![][6]{:.img-responsive}
 
-[1]: https://lh4.googleusercontent.com/zB8SxE7Oxtm3hqWTxMrqbg-Nj3uqLYwleskZRnEGQyxKewhs6vsbSkYDA_G4dk4atto4gwxyc-2NmS77vpVWN1FnMB_c37qxSKkgTb626EAJ5BglyRMxLtGL
-[2]: https://lh5.googleusercontent.com/nPp_sDOX3Fa3n3rzkdIa53yGInO8MVZU7Uz2yJJm0GaexwG3aoaI1mONz2pfhubmgo2ATvaiAjTvdXK19N62-JYhwjhUzx7JUCLyT4i5WuzOWkAguCuhyYr6
-[3]: https://lh3.googleusercontent.com/HrTyJ_9Y-MWjiVAf1EI2vmyc9eekR91Oh3R8FdbjzY11Is1uu10TgxQ1OHFPsFvROCwSFQIyP7cj8YH8ZDdyd0yMPRBNgrG7a5QzDpRAkE3i84kqtEM66fg0
-[4]: https://lh5.googleusercontent.com/sFP87h-q6LaGfr15IO3C8YkQaCIQnCPh5FP6PbPAIPCWCaT1k9y6EPLK0ljjm5r7YFtLfA9ItIv_04rLufX9c6oHb5cdyn9RF37z0FIln9NZw0R76vvjSAiP
-[5]: https://lh4.googleusercontent.com/Trr26y3HOIe50gtcjMbJ_FgscHuluuWUcDmPAFuxEF2xgIqdAXXpr7RmaWCqPBLo6XNksZ28lVm_-YfmruKlxss_AQKvDapWO8aCFWXh-XSpVjejLhBaoqLy
-[6]: https://lh6.googleusercontent.com/CjYqOs7EfZV5KEocvhwxi380qP82po3Xu25QXiPScQAZEEIXY2PGnSuLPx20kEsimVyXN_w1nu9XtsR97VKnTPR6PMY9Rk0OYiZI3IxiUar68r21mTMq5JLV
+[1]: /img/tutorial/img_processing/roi/pic1.PNG
+[2]: /img/tutorial/img_processing/roi/pic2.png
+[3]: /img/tutorial/img_processing/roi/pic3.PNG
+[4]: /img/tutorial/img_processing/roi/pic4.png
+[5]: /img/tutorial/img_processing/roi/pic5.png
+[6]: /img/tutorial/img_processing/roi/pic6.png

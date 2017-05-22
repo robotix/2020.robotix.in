@@ -61,9 +61,9 @@ We can convert images from one image type to another. Following Table lists all 
 
  
 
-[1]: https://lh6.googleusercontent.com/D82xcTDWZ9RXmUHwCtgJ1Nwhusz9coqLH86QD8w_KXwuEHVygErXAeiGyTrd42WYwjvwOADS04gBPUUlGGegD5fljaw3T8QII5iUcw1QUcbfO8AZir8T-RGE
-[2]: https://lh5.googleusercontent.com/2Eew9C_66GaU41iPIaKNoV6Ff-aKFY3Ow8b74ruulhFE-xkGJN8UkdqOcaeoumI-SPfXhJcs7PsU0x5uaeHcjFQTTj0WM2VIQHdCkWdkdJdQrA5JakmXkyFC
-[3]: https://lh4.googleusercontent.com/1eOnsiPgJb0JyfBx4Whf_gDzKd0bvVauOxtoTUu7mSmaSn3L3RskGU7Bmj966j0ljTsv-mGCaE8_fcsvSfo-rXGl_rMmp20McNADpLjbt4wSDpxfaRd9371C
-[4]: https://lh3.googleusercontent.com/T69t2_HAWa6FpD4qBFxpabvahkJykIGVGqDkiZ8Om-r7zffAYAmHf_QQdRfAv0e5RgrfEVS0397uZJYyyceXRVlq8XU44ZhddOnmC29RalcxDMpzbJLXtE6w
-[5]: https://lh5.googleusercontent.com/Z0Yy9fdahoDzGVyUPFubluidJeIrrmNd4XkEXwMBjnP088zLTRlogNbIwuYD7vwoR_D7W7O2QDwHi73tdusdMG9gifptD0EYpfEZkeNRvcGbOTY2BFtdNdlZ
-[6]: https://lh6.googleusercontent.com/GXdYOQ7Gb2ETGtgK0tGhUHfFknJ6LEdPLljLbudSyVSEzQxNKF3rAM1qVlLOopa8TQMB_YIHpaCvN6I5QQMsAYqRyb9OsU79VsCZoU3o00cWz7bvQrJ8fhUW
+[1]: /img/tutorial/img_processing/img_type/pic1.png
+[2]: /img/tutorial/img_processing/img_type/pic2.png
+[3]: /img/tutorial/img_processing/img_type/pic3.png
+[4]: /img/tutorial/img_processing/img_type/pic4.png
+[5]: /img/tutorial/img_processing/img_type/pic5.PNG
+[6]: /img/tutorial/img_processing/img_type/pic6.PNG

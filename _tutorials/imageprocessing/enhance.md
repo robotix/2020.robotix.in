@@ -71,12 +71,12 @@ This command is equivalent to the process of obtaining a photographic negative. 
 
 Negative of the same Image used earlier
 
-[1]: https://lh3.googleusercontent.com/lQ73sEv68rHAJHblrnFYtUu7-ESPJXoKtfgAHS0Cb-BYyNR3nM8zPBrtCn92D6q8bFdkYdB5kVY2oV4Nt1f6Rpjo_dOmY2_x48N7wjFTSh7gWvcDSDUgFfn-
-[2]: https://lh4.googleusercontent.com/vKQ30dg35ODxEGCisr1Y4mkWy8oOPllkoddOmGMCSTCO1Scdv-RBBw_RTv8bhehdeD_o4xYtnjFgsVR4sdwwgmKlm1Adu9Rsx3q-wGOTzr-4dLwJZaOA-LAb
-[3]: https://lh4.googleusercontent.com/ZIJ2W2C6FVId26JE5UeIYoUZb5tdR-r4Ia0YFGWE76Ng1mD2Y0q9I4gwzgfMKP8u1sTVIQoaD2VHeIgJPZVW-oRB79_ZhOhetkdToVHL5EZ4iTnuRqt5WfiJ
-[4]: https://lh4.googleusercontent.com/Mvs38sYFNmZm4RmA3vBLgzzA9JHlBL3CtqgT2octc-aeZA3OwdPqvwp7Cx7er6ngs8JkxagsN_8CyDwEsC-akCikZWNbKcFul7xETqAXyYj2SGP5jpssih7l
-[5]: https://lh3.googleusercontent.com/UWgFqD_lCAvCzveP3e-ZcuW_v2Jrr2wp7YpNwY04cbdPdYsKQdKjujf9f0Py0sBuR_G26uYGHDexI50Dx6GAKiKxRk5ySSG-fhDqyzDnm6JuAiIssbkv7kTj
-[6]: https://lh6.googleusercontent.com/9wTc-eCC53gKO51No4T6nMfAmVe_gJ8n934xEsLks0P5-2qN3VjRZO87MhfLzUC1kHUTFmQBD54Hv1aqj0qEqvd3zNsaHspgptFYPRXApvhG_Vrng4rIRRRM
-[7]: https://lh6.googleusercontent.com/V3sToAQWJ96jeXmyhef3irzK-EQfPzfehxO90BaKIQLE4z_-zHpt-c6kigOPKBJQzNSwmzHebYiy0abrw_-dzIY-wrNaxn7hr2jLHF-GtQ1-dR7cD68iMSgK
-[8]: https://lh4.googleusercontent.com/4gFZf-xYqHOyfOjQpFFs7NvEEHdKmXqGO9q-z2JD4MkXYrbwCEJHb-2ciAivEV8rXL2WGR1stjuJ17ghN8raVWCc6p6jD2qqb2AY97tKtTGJpClJrNz_F_mD
-[9]: https://lh3.googleusercontent.com/1tTrWXIFlAGt21wxQfINDCVM0RyuH_B72r3Wif9uL4gUUPWQDONIZLQFpFVMVoCz4ew3-DoIn-EKTAklyp2jBViFL03nihzXVPmJ3TrStrgjT4cYvlc_nUkl
+[1]:/img/tutorial/img_processing/enhance/pic1.png 
+[2]: /img/tutorial/img_processing/enhance/pic2.png
+[3]: /img/tutorial/img_processing/enhance/pic3.png
+[4]: /img/tutorial/img_processing/enhance/pic4.png
+[5]: /img/tutorial/img_processing/enhance/pic5.png
+[6]: /img/tutorial/img_processing/enhance/pic6.png
+[7]: /img/tutorial/img_processing/enhance/pic7.png
+[8]: /img/tutorial/img_processing/enhance/pic8.png
+[9]: /img/tutorial/img_processing/enhance/pic9.png

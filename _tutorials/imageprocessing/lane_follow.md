@@ -49,7 +49,7 @@ If the two mid-points are almost along the same vertical line, then the robot is
 
 The above two methods can be used to allow the robot to follow a corridor. Now, we go to the next sub-problem to be solved by image processing – that of recognising the signs and symbols.
 
-[1]: https://lh4.googleusercontent.com/NLPqv6Br-fXBConpONTDqFG__ELyMvcaMIRK2mzE1KH8MtHhc3tG93jM_M5lZ3Vzjgmp5N5ukgM9fuAtxtlCUTgBh3yoKN3yw_XGmcfar_YTgbtUwKWsOe0G
-[2]: https://lh5.googleusercontent.com/PezFfQ4Z-JIUVFgEiXPFobyxDRxqMdbv52rAkE0l6mbkR2MuFhVcZp3EA4ZZAwpVJssVJyY97rkdcMyKY2uyEmhVVAc5uC0B-FfeSjWDtc5d2bGoaoyyiwYW
-[3]: https://lh4.googleusercontent.com/0xC-I56RuHWvB5F0V0Bz9P0niOX8Riv39xypLiY4GfmUQqGr8SrM9Pl9zohENfBKkXuKeHI9epUM9rHNIMfKn4KEtNmNiD9bMDL2oBA0gCR2FHiIUco
-[4]: https://lh4.googleusercontent.com/DIk2tHbzRJdiHM8pkNT58shLTtNUG-ZXkPFnVMHMCvs2XdiPH_pnSQ9fY4f95t9Boi0I68Orwj3JwnMhHy0BwMm1eGjsxOFaxAGqD7ltkxzMEkrpyW8
+[1]: /img/tutorial/img_processing/lane/pic1.png
+[2]: /img/tutorial/img_processing/lane/pic2.png
+[3]: /img/tutorial/img_processing/lane/pic3.png
+[4]: /img/tutorial/img_processing/lane/pic4.png

@@ -33,7 +33,7 @@ which can be rearranged to  .
 **![][3]{:.img-responsive}**
 
   
-It is therefore possible to associate with each line of the image a pair (r,θ) which is unique if  **![][4]{:.img-responsive} **and **![][5]{:.img-responsive}, or if  ****![][6]{:.img-responsive} and **** ![][7]{:.img-responsive}. **The (r,θ) plane is sometimes referred to as Hough space for the set of straight lines in two dimensions.
+It is therefore possible to associate with each line of the image a pair (r,θ) which is unique if  **![][4]{:.img-responsive} **and **![][5]{:.img-responsive}, or if  ****![][6]{:.img-responsive} and ** ![][7]{:.img-responsive}. The (r,θ) plane is sometimes referred to as Hough space for the set of straight lines in two dimensions.
 
  
 
@@ -76,13 +76,13 @@ A similar approach using suitable parameters can be done easily for shapes like 
 
 There are predefined Hough functions for lines, circle and ellipse using cvHoughlines2, cvHoughcircles etc about which you can get from the book Learning OpenCV - Computer Vision with the OpenCV library - Gary Bradski and Adrian Kaehler. The book is available for free online.
 
-[1]: https://lh5.googleusercontent.com/TSEhlvAexunebXctGjaJjzVKRjYKlZjUn5FW3GKJDNUR6P1F7l6xHcrNG7Sw61QKPN52vhEmu2aJAloyRVoVIcRUw9DMypf61fVJrccq5W07H2wpTCw
-[2]: https://lh3.googleusercontent.com/9-2iLYYyYKhVxKk4pIBPmrz2AT3UBbwTFzBADF0cieuPaw_LCOZcym8gj4cwxPZplom1NKiSpwRWWShdbL2Vi2s6JAPyE8ghL_Jc-x3ol1JIa-I8Uc4
-[3]: https://lh5.googleusercontent.com/LlILgevml75xZIN33Tjh6p8TglCpbKGyw526NKlA_utPDW0oZ8XZtXaSnrQIZoyfEM9qUfe9lDqK_Bk73vVdE4jAk1PK0rbROpWIclZ4LiD7hC50QQE
-[4]: https://lh5.googleusercontent.com/-mEPfhWboLn89d8LXjnqseIvtnJZih5wmIbcKjPswVyZpaC2dHzBF6ptTFwNnrku9bvrsf5XxYbAQP4b2_f_ASYdsa7lKQ76ybJvW7FK13O8HkFgHKY
-[5]: https://lh3.googleusercontent.com/R8oZSr6lcKFxolXrOe42lLGKDhptBS5SCqh1XK4JrNyxag2OD4fPqZcFavS8uoSIuTR8I8eOmIye9e1kOaXHNwQhsvg-287j5k5N_w6JV63RzsnQZSQ
-[6]: https://lh4.googleusercontent.com/xpuOuX0DMduRKYmFjxiwfejRGmJNvPK1silgNSrLiHv-v2-DUAVs39WNqf0TaPfiASjOTy_M1XPbAHrEtAfnGv56GHL7MvrcgTFJdTYkoWfNQ6mO678
-[7]: https://lh5.googleusercontent.com/qZ8-S4zLKZHnGbjsQQvgdaB8f-BwxyM1-teapP2LsOBNIvoQ0FnvDnFe_UL6sLsTGH-3X_zm4w67k5CTaHQA5A2Kw_KdlP0UgnMLynxedBsURqrsywI
-[8]: https://lh6.googleusercontent.com/OOff6E9zHxpIHtVaPongSzPflzF1RtrEhbyCstQ6El-Dwz8Firp3RU66wSyTI3rXRo3lhvUpJH9wgaaeAcQ9UTwSXQNfCS86gx_YBhh3v_OQ5mGfCFM
-[9]: https://lh3.googleusercontent.com/8ZK5E-yiw1nAlMKrns4XfjkDeznTfI72hyR6tqt7PLRKQjsvXn2U4Gq4pl366ceGpXXeYJL3pCsE23klpJWOsFqWKvJBGkmXcGgz82MB6Gy7gMmyrKU
-[10]: https://lh6.googleusercontent.com/4fmLd7B1dgiIzVR7ZozDXZCbUY-eTIGmNyiW0uAmaFAAutHDZBTc61ZAGnAl46NUd6T5QrZ3-k9ll__rnk43XJ0dyPFwYY_k0PEFa-KVHlbdCCNT3o8
+[1]:/img/tutorial/img_processing/shape/pic1.GIF
+[2]: /img/tutorial/img_processing/shape/pic2.png
+[3]: /img/tutorial/img_processing/shape/pic3.png
+[4]: /img/tutorial/img_processing/shape/pic4.png
+[5]: /img/tutorial/img_processing/shape/pic5.png
+[6]: /img/tutorial/img_processing/shape/pic6.png
+[7]: /img/tutorial/img_processing/shape/pic7.png
+[8]: /img/tutorial/img_processing/shape/pic8.png
+[9]: /img/tutorial/img_processing/shape/pic9.png
+[10]:/img/tutorial/img_processing/shape/pic10.png

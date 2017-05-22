@@ -87,7 +87,7 @@ The program below shows the usage of the cvCvtColor function:
 Most of the program is as we have seen before. The directives are specified, the variables are initialized and the image file is loaded from the disk. In the cvCvtColor function, the first parameter is the image we wish to convert to gray-scale, the second is the variable that will store the gray-scale image. Finally, we use the macro CV_BGR2HSV, which as we mentioned earlier in the tutorial, directs the function to convert the image from BGR format to the gray-scale equivalent.  
 After that, the result is shown, and after the user pushes the key, the images are released and the window closed.
 
-[1]: https://lh5.googleusercontent.com/z-Gf0Opl_tQtuDiMO7LQtc_HAVJFsJ_B8COJBSnMGq6731jyK0Z0t55_PiAPgmt_gT4XblU590MF0iJXyYJi5peoMcZIr6ikGeWwivaVXzLoiQrAOsU
-[2]: https://lh3.googleusercontent.com/XYKe1EtwE7YFWDl5S7Z4fPoNFS694wFe0KMPLF3Fd8TwFuVXMNCfNZR1aEdEDZVH__wLAE13Fq-h_Psqt1zqBbqw_NHIi0cvOhiqg59OLobO690w32g
-[3]: https://lh4.googleusercontent.com/mQGY4ZGHEnXyKUrL3X8ihfq7OhwunOKBN4VVQpg3GQiE4LXPROsP_3IngJTVw5XDrsBa_eKxhc-BbBLOY9f55p5nvAW6aSRQwTNHAocHEcpJf_VJlqw
+[1]:/img/tutorial/img_processing/gscale/pic1.jpg
+[2]: /img/tutorial/img_processing/gscale/pic2.jpg
+[3]: /img/tutorial/img_processing/gscale/pic3.JPG
 [4]: http://opencv.willowgarage.com/documentation/histograms.html

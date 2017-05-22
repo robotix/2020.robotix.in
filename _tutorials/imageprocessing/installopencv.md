@@ -91,9 +91,9 @@ opencv_legacy246.lib;opencv_ml246.lib;opencv_objdetect246.lib;opencv_ts246.lib;o
 
 <script src="https://gist.github.com/abhinavjain241/87d2a41a4277a098dc9f.js"></script>
 
-[1]: https://lh3.googleusercontent.com/f9V_rmykTCTCF316M2cLggJsh7kNCeKihmNtiuEYr3XZExAa5lXgSZ3LERpbYtDGece9cD6xCLvORFCFWE5jPznWjOZX3AylUgGWQUeobhsRrWw7-pM
-[2]: https://lh5.googleusercontent.com/ffMI5SgBelW40jXR3TJ2kwzvSKDdfuKCDw8kO85pboGEItQQpovkvfMPLkisap9DQwBihfhYhogH97a-9PNV0XyFQK0yLOOmtSJhnJdShKRv3nu5tec
-[3]: https://lh6.googleusercontent.com/ZVkW50MRpd88VAJWM6HHGNwyYW-E1VcSd1AkZ_avSsL_e7kSp--VlJOyk03k1Zxiezldq8QuBmJYog2XigLdhEmGE6a0JW7nbSfJukh9-PJ-jlkNlOQ
-[4]: https://lh4.googleusercontent.com/HMb5FM2Hu_qOyad-N9ayXb7j9KkKy5bGwcM6M3eEsiQ92F0euFCbr2F1sKpuNzVRjmtfOWTQt-iL4_uSxzwGf22b9zG_66PgHEdXm1V5BhSGD-plBmg
-[5]: https://lh6.googleusercontent.com/3JS4OGMgxeoUEbYq91_GTA5jAqMRmQt3JSLEW_2gCNA1wsNP9FHiuPFjhcshGlGQ4KtFrWd7wFXjI2hHzIORyYu-H49F7TduF3_mWKUpZcfkTyhy-3c
-[6]: https://lh3.googleusercontent.com/-EjbNsWOytU6QlqxvZ7ZpiUZ3yegEHn8uRe_hNtvpqJAkwaOm3ioLvdqAo070ZzDU-SRI72eCg8jmBb55atfa4fdpE8c5Vx8059fE8I18f90lk2Z5_U
+[1]:/img/tutorial/img_processing/ins_opencv/pic1.JPG 
+[2]:/img/tutorial/img_processing/ins_opencv/pic2.JPG 
+[3]:/img/tutorial/img_processing/ins_opencv/pic3.JPG 
+[4]:/img/tutorial/img_processing/ins_opencv/pic4.JPG 
+[5]:/img/tutorial/img_processing/ins_opencv/pic5.JPG 
+[6]:/img/tutorial/img_processing/ins_opencv/pic6.JPG 

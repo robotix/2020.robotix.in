@@ -65,6 +65,6 @@ The program given below depicts the utilisation of the Sobel Edge detection meth
 Most of the program is largely similar to the Canny Edge detection one, so we will focus only on the differences. One of the major variations is that the Sobel edge detection function requires the destination image to have a larger depth than the source one. So we must make 'edgeframe' the 16-bit intermediate in this case to store the result of the Sobel operation. Moreover, a 16-bit signed image cannot be shown with the cvShowImage function properly. So we have to convert it back to 8-bit unsigned format. To save memory space and code lines, we use the variable for the grayscale intermediate to also store the final resultant image, thus calling it gscale_res.  
 The 16-bit signed image is converted to the 8-bit unsigned version through the cvConvertScaleAbs() function. We will not go into the details of this particular function as it will not be needed anywhere else. The first two parameters are the source and destination image, and the next two should be 1 and 0 respectively. After the images are generated, they are shown as in the Canny edge detection program.**
 
-[1]: https://lh3.googleusercontent.com/fhWLv6zrRpACJFF20DaXAqaI-VdBJHhDqF-W8MDsAKQA_gPc9l86w8PILPSZu57WSiqjn5jn9ZwRstHV71W50WYOxCeK_yuT_qzTtTalIbXlM0-2pAY
-[2]: https://lh5.googleusercontent.com/h0nIiOA0PIMZ31nXxqsowFqmP5I1LkuDOde9hcIdaXatn-pIJS5UEyYOu3lMEXfwb42mL67rWdbllUGx70l9qpEVi68NKMraNQTfFQZOh80SXFg6wv0
-[3]: https://lh6.googleusercontent.com/EcA-RQzHk0VOhVd-JTwV5_T5Ss_fseNZ-nbE8vwTav9PjVaEdyeHOISP-qEb_h5vobin2-qFEznJ6O_i8JYTXeVlLRH7wuQQn6DESiGtPc5y0US4Dt8
+[1]: /img/tutorial/img_processing/edge/pic1.jpg
+[2]:/img/tutorial/img_processing/edge/pic2.JPG
+[3]: /img/tutorial/img_processing/edge/pic3.JPG

@@ -82,11 +82,11 @@ Below is shown the effect of this smoothing. It is easily the most improved one
 UNDERSTANDING THE CODE  
 The code is very simple here and exactly like the example with CvErode and CvDilate, only that the line where the smoothing takes place is changed. We use the CvSmooth function with the necessary parameters. As the table shows, usage of CV_GAUSSIAN allows for "in-place" calls so that the source image and the destination image parameters have the same variable.
 
-[1]: https://lh5.googleusercontent.com/Yqtp2Br9H1V50kFR1qhmUWhy0mZ63nFLApuEIfmJ6xOXntXtPrEpYwRyHp3uZVr3OkNpXJMhYSPv2Q9fT0XNJjaid5GBfSC6SD8Auk8Zm9qsfw0aMro
-[2]: http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/mor-pri-erosion.gif
-[3]: http://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/mor-pri-dilation.gif
-[4]: https://lh4.googleusercontent.com/6_OdGkz6Ya2gx1sqgFNehUQkiFIob0X1WS3E5_inqcImar9bBWprXhmH_8lq-xLUpnIRbGV8gXvevdbbFTVTKiTjtDQDhp9-LFT7eqVLeYlwpa1S9uY
-[5]: https://lh4.googleusercontent.com/xHSDWzNCohs_7w4jWUtkCmGSOL0S3mAEO6hLHQ9nRwguXK8ce4dBz3v0a_EKKpswp6Y-tHleXV8yT2D4J32DDeFbMDb9rVpURAEKnbio8znt-G1gHv4
-[6]: https://lh6.googleusercontent.com/VOBV5MEMjkVZ3gzUOz2mRS2hM6FxMDU0ctcmd5wJ0BMSxIfhio8j44hGp3yDL6l_XUgR055jAlkleqEo-SGCgCe7WlmVW01VMNCdiWC8st6i1oSk9Kg
-[7]: http://robotix.in/tutorials/category/opencv/edge_detection
-[8]: https://lh4.googleusercontent.com/Ab_b9s0c72cy94JOdansk3ut9TS7-xXsWKLpk8tq3i-xHkgWzksP_7xmf8Gk2uLh8Gnk5CfGHsTJ9GqTsH7M95TDcY66b3yPqY_kqWP9lEUpkUD9HXE
+[1]: /img/tutorial/img_processing/noise/pic1.JPG
+[2]: /img/tutorial/img_processing/noise/pic1.gif
+[3]: /img/tutorial/img_processing/noise/pic1.gif
+[4]: /img/tutorial/img_processing/noise/pic4.JPG
+[5]: /img/tutorial/img_processing/noise/pic5.JPG
+[6]: /img/tutorial/img_processing/noise/pic6.JPG
+[7]: http://robotix.in/tutorials/category/imageprocessing/edge_detection
+[8]: /img/tutorial/img_processing/noise/pic8.JPG

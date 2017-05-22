@@ -54,6 +54,6 @@ new figure.
 
 ![][2]{:.img-responsive}       ![][3]{:.img-responsive}
 
-[1]: https://lh4.googleusercontent.com/syAdomdn8eDWcn9vypUTNXBPT-YbM_BLtYdz6lCFglS0ccs9c3ShLCC2wQo17worSqpNxmVRdPu8jAQzgyjNocHQigkWZh6Zsrh6MV9HYJaSyQKcaMEFv3RP
-[2]: https://lh6.googleusercontent.com/ALsYQpWaTSuOs_O03cBtHpSQWfuCfuJC75oM_XTYCGoQiPUEkt3zudvLX_27G56YK1e79UHKflrtDeRVP7UNXFMG2odkUarXZbxgwN5AnQjeF-Ru5pX31byB
-[3]: https://lh6.googleusercontent.com/YtOGpr9cCCyfHduIrEmKiZs1kfUivYsFBavCb4whlLLtenPfuJtrj1S1pjkRfT-kvEqSv2UN3naM8ZAm0XVSEFfF579FcaIHUr-PNEZoAzUk4VvxEQZrsSn7
+[1]: /img/tutorial/img_processing/geometry/pic1.PNG
+[2]: /img/tutorial/img_processing/geometry/pic2.PNG
+[3]: /img/tutorial/img_processing/geometry/pic3.png
