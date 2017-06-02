@@ -2,13 +2,13 @@
 layout: post
 title: "Differential Drive"
 categories:
-  - kraig
-redirect_from: "/tutorials/category/kraig/dd/"
+  - mechanical
+redirect_from: "/tutorials/category/mechanical/dd/"
 ---
 
 #### Introduction
 
-![][1]
+![][1]{:.img-responsive}
 
 This is a primer project which covers following concepts-
 
@@ -42,28 +42,28 @@ This is a primer project which covers following concepts-
 
 Chassis is a mechanical assembly for making a 4 wheel drive platform.Where you can mount any controller board to drive your bot. This is just the mechanical chassis, Optionally as shown in the figure you can use 4 DC geared motors, 1 castor and 4 wheels with rubber rings so you can make both variants .
 
-![][2]
+![][2]{:.img-responsive}
 
 **Mechanical Assembly**
 
-![][3]
+![][3]{:.img-responsive}
 
 Fit the caster wheel at position show in above diagram with 1.5-2 inches (approx.) screw. Fit the dc motor into the holes of chassis and couple the wheel by using screw or rubber tube.
 
 #### Three way Switch Circuit
 
-![][4]![][5]
+![][4]{:.img-responsive}![][5]{:.img-responsive}
 
 #### Motor Connections
 
-![][6]![][7]
+![][6]{:.img-responsive}![][7]{:.img-responsive}
 
 The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors
 
-[1]: https://lh4.googleusercontent.com/2iTJRZYtI_vBK6500rRetf-jAhbeJkSbbQrJvKpuHI1LwrCft04dsfRf54TMC1un_GOTlz0xg2PaTim0OHPjZyurjfOVDBknUGm_IgoqhiCgk4EIG_c
-[2]: https://lh6.googleusercontent.com/fV9-RA5zw1I-m1A9QApJyoDmVA2tZ0BQeEDEfnoLgRQt0Udgrf-WFfmGxIiBF6GwsP3zBNTGzQYc_6qIcaWFBOxef-HyYwgvQDAZiUytlhRhVfiZf31fDn8Dlw
-[3]: https://lh5.googleusercontent.com/ZIub0xLbZ-LKzfOIXeUwCzT2rNlJbp-FgPhGlGKPyt6-kmAuVpAwoVfnyBdgNXduwDqS0XEC-oqeNeiFyAtx_qeXn8kPTWXskIUFnjqBkChO8VP0YjU
-[4]: https://lh4.googleusercontent.com/yd_rR3WDY0sEQT1hiJm9ik6kPSIXIgMVVAbQS_svhIa3ESVXLBuyXNBjkVj1RDzS7uaBe0zNlWmm-sBLTd42ykdw6wBU47MCaLrPMo0krVUWC8KkGgk
-[5]: https://lh4.googleusercontent.com/MTv_8jTxXOBP-VIqX694yJSrwUwQPzUArkv9vtk701pLs0Afjs9GNstJ8PmxOlEALgTOyAdFvGpoWw4dBd_C7yidPkfBodDBEbE_7Xt1y5j_8qjjO7Y
-[6]: https://lh3.googleusercontent.com/8DokK5UajRP1ZfTDaI6m6NPL85XW3uu9An1zYICk0_Xd3uqbsRGdqthVuJlliKn1ODAkeKKXktXQ2kFhIuspd9z_YwlL2f3petCWsO651_ZbIzhQjh8
-[7]: https://lh4.googleusercontent.com/UfHEuNnOKyKBEJNzGvG8wD567iOoHBqW8Gd4jnwBj0vJCEUuoGpzqBtsOgXJn5DE-XQI7eG3RRHEEv2ssla0xGhngRCcBXGBRcuZnrxzpXa5BoCGhAs
+[1]: /img/tutorial/mechanical/diffrential/pic1.jpg
+[2]: /img/tutorial/mechanical/diffrential/pic2.jpg
+[3]: /img/tutorial/mechanical/diffrential/pic3.jpg
+[4]: /img/tutorial/mechanical/diffrential/pic4.jpg
+[5]: /img/tutorial/mechanical/diffrential/pic5.jpg
+[6]: /img/tutorial/mechanical/diffrential/pic6.jpg
+[7]: /img/tutorial/mechanical/diffrential/pic7.jpg

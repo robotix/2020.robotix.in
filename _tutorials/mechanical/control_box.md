@@ -2,8 +2,8 @@
 layout: post
 title: "WSAD Control Box"
 categories:
-  - kraig
-redirect_from: "/tutorials/category/kraig/control_box/"
+  - mechanical
+redirect_from: "/tutorials/category/mechanical/control_box/"
 ---
 
 #### Introduction
