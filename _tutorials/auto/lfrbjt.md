@@ -2,8 +2,8 @@
 layout: post
 title: "Line Follower without uC"
 categories:
-  - kraig
-redirect_from: "/tutorials/category/kraig/lfrbjt/"
+  - auto
+redirect_from: "/tutorials/category/auto/lfrbjt/"
 ---
 # Tutorials
 

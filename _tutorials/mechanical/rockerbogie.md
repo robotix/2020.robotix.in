@@ -42,7 +42,7 @@ The term "bogie" refers to the links that have a drive wheel at each end.
 Another alternative to move on a harsh environment is to have big wheels. If a rover has large wheels compared to obstacles, it can easily operate over most of the Martian rocky surface. Inflatable rover has 3 wheels which are driven by motors.
 
   
-**![][3]**
+**![][3]{:.img-responsive}**
 
 Robot could be able to travel approximately 30 km per hour on Mars surface by its 100-watt power.
 
@@ -52,11 +52,11 @@ Robot could be able to travel approximately 30 km per hour on Mars surface by it
 
  
 
-**![][4]  
-![][5]**
+**![][4]{:.img-responsive}  
+![][5]{:.img-responsive}**
 
 [1]: http://en.wikipedia.org/wiki/Spring_(device)
 [2]: http://en.wikipedia.org/wiki/Axle
-[3]: https://lh6.googleusercontent.com/9s3w3A7f4QTvKjzpqEKKDm7t2ZBVYi1_H97_4QPbvEevh9RKJB0LkgDu1rqaIiAbN4I0OdaZTLbg_QYbnPGY6pWLWbjQ39_Awo8XIPcRliZdaBVQav4
-[4]: https://lh4.googleusercontent.com/VjdKNnOoE27GC_Bblu8XMcclqPJPiiLXIl7J7iXH_LdlrIEdEWaNY6B2gMlSw2wZ5X6gT0sLV6dxD1ypcOsQmxHNpffdTaMcwY6dAKikTz-x4eWcBfc
-[5]: https://lh6.googleusercontent.com/ZhNFbqkuZDMMYsMhyM87FRM0v7Z-F2Kt-8v6_ktE4wqVGjDJF7xa3-siXaUA_EVhvub7gCTUG6eBuQbMJkRN_4_VyBQpU0m6SkEXZlvk1WUNV7JAHmg
+[3]: /img/tutorial/mechanical/rocker/pic1.jpg
+[4]: /img/tutorial/mechanical/rocker/pic2.jpg
+[5]: /img/tutorial/mechanical/rocker/pic3.jpg

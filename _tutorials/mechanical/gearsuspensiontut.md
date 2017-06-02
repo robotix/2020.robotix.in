@@ -9,12 +9,12 @@ redirect_from: "/tutorials/category/mechanical/gearsuspensiontut/"
 
 #### Introduction To Gears
 
-**No good robot can ever be built without gears. As such, a good understanding of how gears affect parameters such as torque and velocity are very important. **
+**No good robot can ever be built without gears. As such, a good understanding of how gears affect parameters such as torque and velocity are very important.**
 
-* **Mechanical Advantage, Torque vs. Rotational Velocity **
+* **Mechanical Advantage, Torque vs. Rotational Velocity**
 
 **Gears work on the principle of mechanical advantage. This means that by using different gear diameters, you can exchange between rotational (or translational) velocity and torque.  
-![][1]  
+![][1]{:.img-responsive}  
 As with all [motors][2], by looking at the motor datasheet you can determine the output velocity and torque of your motor. But unfortunately for robots, motors commercially available do not normally have a desirable speed to torque ratio(the main exception being [servos][3] and high torque motors with built in gearboxes). For example, do you really want your robot wheels to rotate at 10,000 rpm at low torques? In robotics, torque is better than speed.  
 With gears, it is possible to exchange the high velocity with a better torque. This exchange happens with a very simple equation that you can calculate:**
 
@@ -22,11 +22,11 @@ Torque_Old * Velocity_Old = Torque_New * Velocity_New
 
  
 
-* **Direction of Gear Rotation **
+* **Direction of Gear Rotation**
 
 **When designing  gear setup it should understand how gearing changes the rotation direction of your output. Two gears touching will always be counter rotation, meaning if one rotates clockwise, the other will always rotate counterclockwise. But what if there is  a chain of say 6 gears touching? The rule is, an odd numbers of gears always rotates in the same direction, and even numbers of gears are counter-rotational.**
 
-**![][4]**
+**![][4]{:.img-responsive}**
 
  
 
@@ -36,15 +36,15 @@ Torque_Old * Velocity_Old = Torque_New * Velocity_New
 
 Note: The efficiencies listed are only typical. Because of many other factors could be present, the listed efficiencies should only be used as a guide. Often manufacturers will give you expected efficiencies in the datasheets for their gears. Remember, wear and lubrication will also dramatically affect gear efficiencies.
 
-**Spur Gears (~90% efficiency) **
+**Spur Gears (~90% efficiency)**
 
-**![][5]  
+**![][5]{:.img-responsive}  
 Spur gears are the most commonly used gears due to their simplicity and the fact that they have the highest possible efficiency of all gear types. Not recommended for very high loads as gear teeth can break more easily.**
 
  
 
 **Helical Gears (~80% efficiency)   
-![][6]**
+![][6]{:.img-responsive}**
 
 **Helical gears operate just like spur gears, but offer smoother operation. You can also optionally operate them at an angle, too. Due to the complex shape, they are generally expensive.**  
  
@@ -52,7 +52,7 @@ Spur gears are the most commonly used gears due to their simplicity and the fact
  
 
 **Sproket Gears With Chains (~80% efficiency)   
-![][7]**
+![][7]{:.img-responsive}**
 
 **Two gears with a chain can be considered as three separate gears. Since there is an odd number, the rotation direction is the same. They operate basically like spur gears, but due to increased contact area there is increased friction (hence lower efficiency).**
 
@@ -60,10 +60,10 @@ Spur gears are the most commonly used gears due to their simplicity and the fact
 
  
 
-**Rack and Pinion (~90% efficiency)   
-![][8]**
+**Rack and Pinion (~90% efficiency)**   
+![][8]{:.img-responsive}
 
-**Rack and Pinion is the type of gearing found in steering systems. This gearing is great for converting rotational motion into translational. **
+Rack and Pinion is the type of gearing found in steering systems. This gearing is great for converting rotational motion into translational. 
 
 #### Suspension systems
 
@@ -81,32 +81,32 @@ Unlike three points, four points are not guaranteed to always be on a plane. If 
 The long beams attached to the small wheels. These beams are designed to deflect to be perfectly horizontal under the full weight of the robot. When the terrain under it changes, the deflection changes to conform with it. This is what the finished design looks like:**
 
   
-**![][9]![][10]**
+**![][9]{:.img-responsive} ![][10]{:.img-responsive}**
 
-![][11]
+![][11]{:.img-responsive}
 
 Wheel Suspension System   
 Using a similar design process as the above suspension system,  a single part wheel with a built in suspension system can be created.  
 And in real life:
 
-**![][12]  
+**![][12]{:.img-responsive}  
 Look carefully at the large round wheels on the left, and the orange wheels on the right. They both single part suspension system design.**
 
 Here is what the completed wheel looks like:
 
-**![][13]  
+**![][13]{:.img-responsive}  
 A perfectly cut wheel has very little friction. To improve traction, around the edges of the wheel rubber grip can be added.**
 
-[1]: https://lh4.googleusercontent.com/sJueUiZ7mg4wvwAT741n7kw1Su_3Fww49iBGLW3dCoHW6ajTK-UkHHUu5KhJx4ucGmwdOI-UCP6REx6fcIgXfaHig6LCdvcRdRao2aQaXnBXU-g4l5U
+[1]: /img/tutorial/mechanical/gearsusp/pic1.jpg
 [2]: http://www.societyofrobots.com/actuators_dcmotors.shtml
 [3]: http://www.societyofrobots.com/actuators_servos.shtml
-[4]: https://lh4.googleusercontent.com/S-H3KlVqi84U-dgF84ckYpiV4tAMFOY7jNhKWGwp5926_CrfwuwIh9-ArV__hL-a4FaQBeY2ad6VBr2uvw9DpJDiHLEfE89sjAE3_X94i9qQcEb1lvQ
-[5]: https://lh4.googleusercontent.com/_KU68VuGoyf1AY15AQCClJpv4ppxaJCUjPb5DkTCDx1poDRKnVijQvDAfHMf65-USpADCKD7opLfeS6cdCmRzhp1t9o1lm3ifyWCVFdWRUXoszX2WYI
-[6]: https://lh5.googleusercontent.com/wDmSqqQ_JEFsxU05OBeM7IlQtZrm6L6YQAyN8Nt39BijSHX9nlVDFHcq862x6RShLvcfdNcbn7IbdIspPeZhKjofzKlntK9Sbsuv2tNYh2sfbzJhGZc
-[7]: https://lh6.googleusercontent.com/YRhFVjkJMOnTrXL6LCTvdURO71agK7RX7nTCR8ARFoGPtMMxDK2KbDuLrl97uEhmWkDUXS5C1_5woCuaJ5HI0GYGQeFN28Vyt-fbmHk5i5aw2e26J-I
-[8]: https://lh3.googleusercontent.com/vkGxBazHos1xpyhoQElR5XXq9p_eI1zwdcfCibFNN6PlAQXGEMIOYmc3_uy4L35gPPMGMkdePXh8QhGwryakq11bREX8gexJzU7pl1KtZE2f1tf6dAA
-[9]: https://lh5.googleusercontent.com/APoA9rk2AjRcGCyT5u0RBAnG7-KbjGWbSu0m-xzoyw-Q3YBLVsWaE8MuQNCN1AqXrIjzjD0-woQV_-PV7eSCRvEm4VWdLkFcYdxcTb5g0aW8yzV1eEQ
-[10]: https://lh4.googleusercontent.com/rW5HVKHTyqV5PSyXpvqx9vyhlE0u_mL2LS8Fp1gLHDT_LlegfcR_0g39ekwX6YkNybOF9Aj_kQWz0T3SGzT16-lnEaqr-mEaTIEct9E_z5Nfd9vx04c
-[11]: https://lh4.googleusercontent.com/tNc_WIZIgESl3uhr1posY6ht90U_EFxUvhFO666Kxc4G4KaK5fayknxLvgra81wNF8sSRBMerYYrcLbvN4mrMywxArOdhswtGjDKtiih9oQzIpy47rw
-[12]: https://lh6.googleusercontent.com/SO1YZxVIBtKQ5eaFI7kS1to5qRKEjQmyFDDokhuWZmgKKJF5Eb7_zoPdubm0JlglDEq32EyGUz2EGjzbayzLwgEpXfdbDzuW1vRvDORljz6RyK4i-9w
-[13]: https://lh5.googleusercontent.com/Qmq-A6_2mgtkQrbU54CL-7oIZW8tg66-DmbM2ynGe1-jfOldDEnZn7-iVmeqs1RJYpSz9cWoVIADmju_wEZLTRr82Fak7l7ZixjNyYIfCbBKgLVCrPo
+[4]: /img/tutorial/mechanical/gearsusp/pic2.gif
+[5]: /img/tutorial/mechanical/gearsusp/pic3.gif
+[6]: /img/tutorial/mechanical/gearsusp/pic4.gif
+[7]: /img/tutorial/mechanical/gearsusp/pic5.gif
+[8]: /img/tutorial/mechanical/gearsusp/pic6.gif
+[9]: /img/tutorial/mechanical/gearsusp/pic7.JPG 
+[11]:/img/tutorial/mechanical/gearsusp/pic8.JPG 
+[10]:/img/tutorial/mechanical/gearsusp/pic9.JPG 
+[12]:/img/tutorial/mechanical/gearsusp/pic10.JPG 
+[13]:/img/tutorial/mechanical/gearsusp/pic11.jpg 

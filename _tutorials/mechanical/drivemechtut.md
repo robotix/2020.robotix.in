@@ -8,7 +8,7 @@ redirect_from: "/tutorials/category/mechanical/drivemechtut/"
 #### Differential Drive
 
   
-**![][1]**
+**![][1]{:.img-responsive}**
 
 **A differential drive is the most basic drive, which consists of two sets of wheels that can be driven independently.**
 
@@ -28,19 +28,19 @@ To turn the vehicle (or robot)LEFT or RIGHT, wheels are rotated at "different" s
 |  **Forward** |  **Clockwise** |  **Clockwise** |
 |  **Backward** |  **Counter Clockwise** |  **Counter Clockwise** |
 
-**![][2]  
+**![][2]{:.img-responsive}  
 This video shows how to build a Differential Drive:  
 <http://www.youtube.com/watch?v=Y6K4N19bbfk>**
 
 This video shows a working Differential Drive:  
-<http://www.youtube.com/watch?v=QHQ6w-77qIo>
+<https://www.youtube.com/watch?v=aE7RQNhwnPQ>
 
  
 
 #### Car Type Drive
 
   
-**![][3]**
+**![][3]{:.img-responsive}**
 
 The car type drive is the most common in real world but not in robot world. It is characterized by a pair of driving wheels and a separate pair of steering wheels The translation and rotation are independent of each other. But translation and rotation are interlinked hence this system faces severe path planning problem
 
@@ -52,7 +52,7 @@ Four wheels are more efficient compared to three or two wheels. The first two of
 
 **Disadvantages Of Car Type Drive : The turning mechanism must be accurately controlled. A slight inaccuracy may cause large odometry errors The system is Non – Holonomic hence path planning is extremely difficult as well as inaccurate There are no direct directional actuators**
 
-**![][4]**
+**![][4]{:.img-responsive}**
 
 #### Skid Steer Drive
 
@@ -65,7 +65,7 @@ The wheels typically have no separate steering mechanism and hold a fixed straig
 The skid-steering vehicle is turned by generating [differential][5] velocity at the opposite sides of the vehicle. They can be converted to low ground friction by using specially designed wheels such as the [Mecanum wheel][6].  
 Skid-steer loaders are capable of zero-radius, "pirouette" turning, which makes them extremely maneuverable and valuable for applications.
 
-**![][7]**
+**![][7]{:.img-responsive}**
 
 #### Synchronous Drive
 
@@ -75,7 +75,7 @@ One set of which drive the wheels and the other set turns the wheels in a synchr
 The two sets can be directly mechanically coupled as they always move in the same direction with same speed**
 
   
-**![][8]**
+**![][8]{:.img-responsive}**
 
 #### Pivot Drive
 
@@ -89,14 +89,14 @@ For rotation one motor is needed to lower/raise the platform & another to rotate
 This system can guarantee perfect straight line motion as well as accurate in – place turns to a desired heading
 
   
-**![][9]**
+**![][9]{:.img-responsive}**
 
-[1]: https://lh5.googleusercontent.com/I6XsTIozi2Z1vzV6EwT6r2JdgazA9Oszim48Z9uPRkaDPihmsyi06PzG1FpLKCA2EO-eKRxQ9GaL0UVl_DdaACxQ9UuEkEoncB9C90hwTZ-2jpWcrV0
-[2]: https://lh4.googleusercontent.com/WzKG729AvpAQhqR3p0myhYMYZ67uuhDTZ6Mom21ZOPVY6830deMXuFxHGu72AfGgcGed0rgtERzSiBXzP62CLeGGvFzpcsJ-PPc33-Rog68kYJ5HCE4
-[3]: https://lh6.googleusercontent.com/XRwXaDeqP6XkimiRmr2TAzdm4IIyjKEzwVGXVoiv8XybKmEIJMRWweOAKQewPi10f_sOlhq4jURWoqntO7-D4mWW9cuubuSiEEw5AYRqD4sWbm7zmmE
-[4]: https://lh3.googleusercontent.com/DLyj8TLKVeoNgAlW_EcrxV6pni1CwiaZzey36Q8Cv6zQq-w0gnQhgXo8MhlNVcoVPHC-rVrCWjTqDC_Uilz4Pi9EtPOFJxso8aE9btUYiffhWqi7svg
+[1]: /img/tutorial/mechanical/drivemech/pic1.png
+[2]: /img/tutorial/mechanical/drivemech/pic2.jpg
+[3]: /img/tutorial/mechanical/drivemech/pic3.png
+[4]: /img/tutorial/mechanical/drivemech/pic4.PNG
 [5]: http://en.wikipedia.org/wiki/Differential_(mechanical_device)
 [6]: http://en.wikipedia.org/wiki/Mecanum_wheel
-[7]: https://lh6.googleusercontent.com/if3ZaDXkVYq0MlQHWcKpHj_S_pc3bj2rjExqiPk3-znJWTiKH3CjymwBhlnBi4GyYXgVLbXS9LlEJJ99zCye0-0W6xSBIltrG3rACa8HxP2wd1n13Rc
-[8]: https://lh5.googleusercontent.com/fCYMiLMTGAFrbzepNiPQ-QBT9Hboch-lziiJaVUW9meToQxq78uL-OaUG0ppnhA0xEg73wo0hUKOHbRoJj_ccTMd5g0Nz2LFFFN1eSqTKHiBkps7Ny0
-[9]: https://lh5.googleusercontent.com/RqNzLpK2a-mEnSrsoKTDZo1L9YN6WikDaKvEi5aXVbiBGiXgEGyPX5xoLrVDBfMxVw2j8c4EQvPmhVG6ggWLrk2r20I8TMau-mMHbdBPTUGZLHlex-o
+[7]: /img/tutorial/mechanical/drivemech/pic7.PNG
+[8]: /img/tutorial/mechanical/drivemech/pic8.PNG
+[9]: /img/tutorial/mechanical/drivemech/pic9.PNG

@@ -17,9 +17,9 @@ Static diving submarines dive by changing the buoyancy of the boat itself by let
 #### Dynamic Diving Bots
 
 **The fully dynamic diving boats are the most simple model submarines available.?These boats have an inherent positive buoyancy which means that they will float back to the surface if control is lost. This is a major advantage for model submarines. This requires a combination of sufficient speed or sufficiently large hydroplanes.   
-![][1]** ****
+![][1]{:.img-responsive}**
 
-****Angle of the dive planes, left low speed, right high speed.****
+**Angle of the dive planes, left low speed, right high speed.**
 
 **Generally, for fully dynamic diving models one would want the boat rigged close to neutral buoyancy.In that case, the boat can be submerged at low speeds with a realistic size of the dive planes.**
 
@@ -27,11 +27,11 @@ Static diving submarines dive by changing the buoyancy of the boat itself by let
 
 **The pressure ballast tank consists of a sealed ballast tank capable of withstanding a significant pressure increase (5 bar or so). To flood the tank water is pumped into the tank with a high pressure water pump. Because the air in the ballast tank cannot escape the air is compressed.**
 
-**To empty the tank, the water pump pumps the water out of the tanks again. Note that because the pressure build-up inside the ballast tank it can never be completely filled. Assuming a maximum pressure of 5 bar inside the tank, about 80 percent of the volume of the ballast tank can be used. **
+**To empty the tank, the water pump pumps the water out of the tanks again. Note that because the pressure build-up inside the ballast tank it can never be completely filled. Assuming a maximum pressure of 5 bar inside the tank, about 80 percent of the volume of the ballast tank can be used.**
 
  
 
-**![][2]**
+**![][2]{:.img-responsive}**
 
 #### Piston Ballast Tank
 
@@ -41,7 +41,7 @@ The piston can be moved with a thread, a cogwheel and a small motor. The outer e
 This drawback can be overcome by using two piston tanks in the aft and bow section of the boat.
 
   
-**![][3]**
+**![][3]{:.img-responsive}**
 
 #### Water Proofing Methods
 
@@ -52,7 +52,7 @@ This drawback can be overcome by using two piston tanks in the aft and bow secti
 * **Servos are miniature DC motors. They are used for robotic joints because they can rotate precisely and are easy to control. However, they are not waterproof without modification.**
 * **Simple servo waterproof coatings methods include inserting it into a balloon or dipping it in a plastic coating compound. These methods can work well for short immersions in a low-pressure underwater environment. However, both leave the servo shaft vulnerable to water intrusion.**
 
-**![][4]**
+**![][4]{:.img-responsive}**
 
 **Complete guide to waterproofing your Servo can be found here:**
 
@@ -83,7 +83,7 @@ This drawback can be overcome by using two piston tanks in the aft and bow secti
 
  
 
-[1]: https://lh4.googleusercontent.com/MJjTrYdG152eCX9KJLbKrcZ4WGgi13BKhqQWNtP-h3p4goR7K_nPN5DtPsAhhuTdUdKj-gXZQxbuwvF9fxrYiHCSv-TX_ujc92g-a7QIfHJC_Cf850c
-[2]: https://lh6.googleusercontent.com/CRMQomu4fLLawtF0rrprcY1BtO_DFnznmZ2at7MRU9KIgy4Qp00iWje_aJbEfcj8QtVwoImgg8lix3yKKEaR84rgwudYDcOb3wqB3Xk9mSbto9taDUQ
-[3]: https://lh3.googleusercontent.com/f-kMVtZiAQOCQTkcCQG7r69Ix0yKARTef8iw3hpRJuJn0FX20GqQpHOBFK3t548Xf4RgSkG_ncMI6yWfgH8IE1WoVroMl47Rs7aTPLu5S1zf0z3y44E
-[4]: https://lh4.googleusercontent.com/GmRVvxQgJgGX0lbgoArTYySFLz4MNMvh3MzWvBKrcqeb5ar5MGkN1U0y8xWLUIiY-pOKg0HStrLmOfqpfDQDCrDlbgtD7fSWs7mbUFodMlYBFfV-D0w
+[1]:/img/tutorial/mechanical/submarine/pic1.jpg
+[2]:/img/tutorial/mechanical/submarine/pic2.jpg 
+[3]:/img/tutorial/mechanical/submarine/pic3.jpg
+[4]:/img/tutorial/mechanical/submarine/pic4.jpg
