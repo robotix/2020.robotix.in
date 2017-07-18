@@ -171,6 +171,19 @@
         - {name: "facebook", link: "https://www.facebook.com/ayushpat7"}
         - {name: "email", link: "mailto:ayush.patnaik@robotix.in"}
     -
+      id: 39
+      name: Pranit
+      surname: Bauva
+      title: "Head"
+      thumbnailUrl: pranitbauva.jpg
+      team: true
+      tag: Computer Vision
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/pranit.bauva"}
+        - {name: "github", link: "https://github.com/pranitbauva1997"}
+        - {name: "site", link: "http://www.bauva.com"}
+        - {name: "email", link: "mailto:pranit.bauva@robotix.in"}
+    -
       id: 41
       name: Rohan
       surname: Sitaniya
