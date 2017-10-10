@@ -144,3 +144,26 @@
   thumbnailUrl: rohansitaniya.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/rohan.sitaniya"}
+
+-
+  id: 20
+  name: Rohit
+  surname: Ner
+  title: "Sub Head"
+  thumbnailUrl: rohitner.png
+
+-
+  id: 21
+  name: Akshay 
+  surname: Jain
+  title: "Sub Head"
+  thumbnailUrl: akshayjain.jpg
+
+-
+
+  id: 22
+  name: Stuti
+  surname: Modi
+  title: "Head"
+  thumbnailUrl: stutimodi.jpg
+

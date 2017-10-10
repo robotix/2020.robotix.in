@@ -3,7 +3,7 @@ group: https://www.facebook.com/groups/1083042461785353/
 schedule:
   -
     date: "2016-8-17"
-    dateReadable: "August 17"
+    dateReadable: "August 21"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
@@ -14,7 +14,7 @@ schedule:
       }
   -
     date: "2016-8-19"
-    dateReadable: "August 19"
+    dateReadable: "August 24"
     tracks: 
       - {title: "Workshop", color: "#90be4e"}
     timeslots:

@@ -3,22 +3,22 @@
   title: "KRAIG 101"
   description: "Dive into the world of hobby robotics."
   subtype: presentation
-  speakers: [10, 11]
+  speakers: [19, 22]
   language: en
   complexity: "Beginner"
   links:
-    - { title: "View presentation", src: "https://prezi.com/nisa23s1efrv/kraig-101"}
+    - { title: "View presentation", src: "https://prezi.com/view/8Pb9KjB3GIaDmBJApEZz"}
   banner: "/img/session/001/poster.jpg"
 -
   id: 002
   title: "KRAIG 102"
   description: "Building your own robosoccer bot!"
   subtype: presentation
-  speakers: [14, 13, 15, 16]
+  speakers: [20, 21]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/sh5ksfhq9vuc/kraig-102/"} 
+    - { title: "View presentation", src: "https://prezi.com/view/NqsDmw2TWV2MS0j2XVyt/"} 
   video: "https://circuits.io/circuits/2578473-relay-example-with-motor/embed#breadboard"
 -
   id: 006
