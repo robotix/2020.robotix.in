@@ -123,6 +123,7 @@ footerBlocks:
   title: "Archive"
   links:
    - {link: "http://2016.robotix.in/", text: "Robotix 2016"}
+   - {link: "http://2017.robotix.in/", text: "Robotix 2017"}
 
 # Blog
 blogCommentsEnabled: true
