@@ -151,6 +151,8 @@
   surname: Ner
   title: "Sub Head"
   thumbnailUrl: rohitner.png
+  social:
+    - {name: facebook, link: "https://www.facebook.com/rohitner" }
 
 -
   id: 21
@@ -158,6 +160,8 @@
   surname: Jain
   title: "Sub Head"
   thumbnailUrl: akshayjain.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/akahay.jain.96"}
 
 -
 
@@ -166,4 +170,15 @@
   surname: Modi
   title: "Head"
   thumbnailUrl: stutimodi.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/StutiModi09"  }
+
+-
+  id: 23
+  name: Anvee
+  surname: Naik
+  title: "Sub Head"
+  thumbnailUrl: anvee.jpg  
+  social :
+    - { name: facebook, link: "https://www.facebook.com/anvee.naik"}
 

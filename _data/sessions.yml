@@ -8,7 +8,7 @@
   complexity: "Beginner"
   links:
     - { title: "View presentation", src: "https://prezi.com/view/8Pb9KjB3GIaDmBJApEZz"}
-  banner: "/img/session/001/poster.jpg"
+  banner: "/img/session/001/KRAIG101_6.jpg"
 -
   id: 002
   title: "KRAIG 102"
@@ -83,31 +83,11 @@
   title: "KRAIG 201"
   description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
   subtype: presentation
-  speakers: [11, 17]
+  speakers: [21, 23]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/nug_jpjtcmtc/kraig-201-202"}
--
-  id: 004
-  title: "KRAIG 301"
-  description: "Workshop on introduction to autonomous robotics. LED-LDR sensors, IR LED-Photodiode Pairs, Comparators and Op Amps."
-  subtype: presentation
-  speakers: [13, 15]
-  language: en
-  complexity: "Intermediate"
-  links:
-    - { title: "View presentation", src: "https://prezi.com/zhkbtvohfypc/kraig-301/"}
--
-  id: 005
-  title: "KRAIG 302"
-  description: "Workshop on autonomous robotics: Timers ,PWM and Motor Drivers."
-  subtype: presentation
-  speakers: [14, 16]
-  language: en
-  complexity: "Intermediate"
-  links:
-    - { title: "View presentation", src: "https://prezi.com/w1rfgz116ixk/kraig-302/"}
+    - { title: "View presentation", src: "https://prezi.com/uoj1vhyscugf/advanced/?utm_campaign=share&utm_medium=copy"}
 
 -
   id: 012
