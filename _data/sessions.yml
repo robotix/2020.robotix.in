@@ -3,22 +3,22 @@
   title: "KRAIG 101"
   description: "Dive into the world of hobby robotics."
   subtype: presentation
-  speakers: [10, 11]
+  speakers: [19, 22]
   language: en
   complexity: "Beginner"
   links:
-    - { title: "View presentation", src: "https://prezi.com/nisa23s1efrv/kraig-101"}
-  banner: "/img/session/001/poster.jpg"
+    - { title: "View presentation", src: "https://prezi.com/view/8Pb9KjB3GIaDmBJApEZz"}
+  banner: "/img/session/001/KRAIG101_6.jpg"
 -
   id: 002
   title: "KRAIG 102"
   description: "Building your own robosoccer bot!"
   subtype: presentation
-  speakers: [14, 13, 15, 16]
+  speakers: [20, 21]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/sh5ksfhq9vuc/kraig-102/"} 
+    - { title: "View presentation", src: "https://prezi.com/view/NqsDmw2TWV2MS0j2XVyt/"} 
   video: "https://circuits.io/circuits/2578473-relay-example-with-motor/embed#breadboard"
 -
   id: 006
@@ -83,31 +83,11 @@
   title: "KRAIG 201"
   description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
   subtype: presentation
-  speakers: [11, 17]
+  speakers: [21, 23]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/nug_jpjtcmtc/kraig-201-202"}
--
-  id: 004
-  title: "KRAIG 301"
-  description: "Workshop on introduction to autonomous robotics. LED-LDR sensors, IR LED-Photodiode Pairs, Comparators and Op Amps."
-  subtype: presentation
-  speakers: [13, 15]
-  language: en
-  complexity: "Intermediate"
-  links:
-    - { title: "View presentation", src: "https://prezi.com/zhkbtvohfypc/kraig-301/"}
--
-  id: 005
-  title: "KRAIG 302"
-  description: "Workshop on autonomous robotics: Timers ,PWM and Motor Drivers."
-  subtype: presentation
-  speakers: [14, 16]
-  language: en
-  complexity: "Intermediate"
-  links:
-    - { title: "View presentation", src: "https://prezi.com/w1rfgz116ixk/kraig-302/"}
+    - { title: "View presentation", src: "https://prezi.com/uoj1vhyscugf/advanced/?utm_campaign=share&utm_medium=copy"}
 
 -
   id: 012

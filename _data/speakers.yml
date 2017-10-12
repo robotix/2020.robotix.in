@@ -144,3 +144,41 @@
   thumbnailUrl: rohansitaniya.jpg
   social:
     - {name: "facebook", link: "https://www.facebook.com/rohan.sitaniya"}
+
+-
+  id: 20
+  name: Rohit
+  surname: Ner
+  title: "Sub Head"
+  thumbnailUrl: rohitner.png
+  social:
+    - {name: facebook, link: "https://www.facebook.com/rohitner" }
+
+-
+  id: 21
+  name: Akshay 
+  surname: Jain
+  title: "Sub Head"
+  thumbnailUrl: akshayjain.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/akahay.jain.96"}
+
+-
+
+  id: 22
+  name: Stuti
+  surname: Modi
+  title: "Head"
+  thumbnailUrl: stutimodi.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/StutiModi09"  }
+
+-
+  id: 23
+  name: Anvee
+  surname: Naik
+  title: "Sub Head"
+  thumbnailUrl: anvee.jpg  
+  social :
+    - { name: facebook, link: "https://www.facebook.com/anvee.naik"}
+
