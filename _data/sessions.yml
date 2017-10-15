@@ -108,7 +108,7 @@
   complexity: "Beginner"
   links:
     - {title: "View Presentation", src: "/blog/noida-workshop-2017/"}
-
+-
   id: 004
   title: "KRAIG 301"
   description: "Introduction to Autonomous robotics"
@@ -119,4 +119,4 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/p/8zbr_57cp0v8/"}
 
--    
+    
