@@ -34,4 +34,16 @@ schedule:
         endTime: "20:00",
         sessionIds: [003]
       }
+  -
+    date: "2017-10-12"
+    dateReadable: "October 12"
+    tracks:
+      - {title: "Workshop", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:30",
+        endTime: "20:00",
+        sessionIds: [004]
+      }      
+
   
