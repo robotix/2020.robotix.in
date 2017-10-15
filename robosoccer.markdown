@@ -58,21 +58,21 @@ Build a manually controlled robot capable of competing in a one on one game of s
 
 ### Tutorials
 
-For knowing how to make the control box for the robosoccer bot, see [this]({{ site.baseurl }}/tutorial/kraig/control_box/) tutorial.
+For knowing how to make the control box for the robosoccer bot, see [this]({{ site.baseurl }}/tutorial/mechanical/control_box/) tutorial.
 
 ### Contacts
 
-#### Amit Pathak
+#### Shivansh Mundra
 
-amit.pathak@robotix.in  
-9431888031
+shivansh.mundra@robotix.in  
+7877399396
 
-#### Vivek Mudgal
+#### Akshay Jain
 
-vivek.mudgal@robotix.in  
-7407777007
+akshay.jain@robotix.in  
+7828475869
 
-#### Stuti Modi
+#### Anvee Naik
 
-stuti.modi@robotix.in  
-9874590222
+anvee.naik@robotix.in  
+7430944999

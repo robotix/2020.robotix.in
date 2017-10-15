@@ -5,8 +5,6 @@
       name: "Abhinav"
       surname: "Jain"
       thumbnailUrl: abhinav.jpg
-      team: true
-      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
         - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
@@ -16,7 +14,6 @@
       surname: "Narayan"
       thumbnailUrl: aditya_narayan.jpg
       team: true
-      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/adityabhagat95"}
         - {name: "site", link: "http:///narayanaditya.in"}
@@ -40,9 +37,43 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
         - {name: "email", link: "mailto:rohan@robotix.in"}
-
     -
       id: 26
+      name: "Shweta"
+      surname: "Gupta"
+      title: "Coordinator"
+      thumbnailUrl: shweta.jpg
+      team: true
+      tag: Governor
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
+        - {name: "email", link: "mailto:shweta@robotix.in"}
+    -
+      id: 27
+      name: "Sourish"
+      surname: "Ghosh"
+      title: "Coordinator"
+      thumbnailUrl: sourish.jpg
+      team: true
+      tag: Governor
+      social:
+        - {name: "site", link: "http://sourishghosh.com/"}
+        - {name: "github", link: "https://github.com/sourishg"}
+        - {name: "email", link: "mailto:sourish@robotix.in"}
+    -
+      id: 28
+      name: "Vraj"
+      surname: "Parikh"
+      title: "Coordinator"
+      thumbnailUrl: vraj.jpg
+      team: true
+      tag: Governor
+      social:
+        - {name: "site", link: "http://www.vrajparikh.in/"}
+        - {name: "github", link: "https://www.github.com/vrjparikh"}
+        - {name: "email", link: "mailto:vraj@robotix.in"}
+    -
+      id: 29
       name: "Aditya Sanjay"
       surname: "Boob"
       title: "Coordinator"
@@ -52,7 +83,7 @@
         - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001453733595"}
         - {name: "email", link: "mailto:adityasanjay@robotix.in"}
     -
-      id: 27
+      id: 30
       name: "Manash Pratim"
       surname: "Das"
       title: "Coordinator"
@@ -62,7 +93,7 @@
         - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
         - {name: "email", link: "mailto:manash@robotix.in"}
     -
-      id: 28
+      id: 31
       name: "Rajat"
       surname: "Chaurasia"
       title: "Coordinator"
@@ -71,7 +102,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
     -
-      id: 29
+      id: 33
       name: "Shashwat"
       surname: "Gupta"
       title: "Coordinator"
@@ -81,7 +112,7 @@
         - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
         - {name: "email", link: "mailto:shashwat@robotix.in"}
     -
-      id: 30
+      id: 32
       name: "Shubhangi"
       surname: "Bhushan"
       title: "Coordinator"
@@ -90,39 +121,7 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/shubhibhushan"}
         - {name: "email", link: "mailto:shubhangi@robotix.in"}
-    -
-      id: 31
-      name: "Shweta"
-      surname: "Gupta"
-      title: "Coordinator"
-      thumbnailUrl: shweta.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
-        - {name: "email", link: "mailto:shweta@robotix.in"}
-    -
-      id: 33
-      name: "Sourish"
-      surname: "Ghosh"
-      title: "Coordinator"
-      thumbnailUrl: sourish.jpg
-      team: true
-      social:
-        - {name: "site", link: "http://sourishghosh.com/"}
-        - {name: "github", link: "https://github.com/sourishg"}
-        - {name: "email", link: "mailto:sourish@robotix.in"}
-    -
-      id: 34
-      name: "Vraj"
-      surname: "Parikh"
-      title: "Coordinator"
-      thumbnailUrl: vraj.jpg
-      team: true
-      social:
-        - {name: "site", link: "http://www.vrajparikh.in/"}
-        - {name: "github", link: "https://www.github.com/vrjparikh"}
-        - {name: "email", link: "mailto:vraj@robotix.in"}
-
+    
 - title: "Head"
   team:
     -
@@ -170,19 +169,6 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/ayushpat7"}
         - {name: "email", link: "mailto:ayush.patnaik@robotix.in"}
-    -
-      id: 39
-      name: Pranit
-      surname: Bauva
-      title: "Head"
-      thumbnailUrl: pranitbauva.jpg
-      team: true
-      tag: Computer Vision
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/pranit.bauva"}
-        - {name: "github", link: "https://github.com/pranitbauva1997"}
-        - {name: "site", link: "http://www.bauva.com"}
-        - {name: "email", link: "mailto:pranit.bauva@robotix.in"}
     -
       id: 41
       name: Rohan

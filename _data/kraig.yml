@@ -34,7 +34,6 @@ schedule:
         endTime: "20:00",
         sessionIds: [003]
       }
-
   -
     date: "2017-10-12"
     dateReadable: "October 12"

@@ -1,33 +1,63 @@
 ---
 layout: post
-title: "Normal Bayes Classifier (OCR Example)"
+title: "Normal Bayes Classifier"
 categories:
   - other
 ---
 
-#Normal Bayes Classifier
+#### Normal Bayes Classifier (OCR Example)
 
-###Understanding Normal Bayes Classifier
+##### Understanding Normal Bayes Classifier
 
 A Normal Bayes Classifier is also known as the Naive Bayes Classifier.
-
 According to [wikipedia](http://en.wikipedia.org/wiki/Naive_Bayes_classifier),
+A naive Bayes classifier is a term in Bayesian statistics dealing with a
+simple probabilistic classifier based on applying Bayes' theorem with strong
+(naive) independence assumptions. A more descriptive term for the underlying
+probability model would be "independent feature model". 
 
-A naive Bayes classifier is a term in Bayesian statistics dealing with a simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions. A more descriptive term for the underlying probability model would be "independent feature model".
+In simple terms, a naive Bayes classifier assumes that the presence (or
+absence) of a particular feature of a class is unrelated to the presence (or
+absence) of any other feature. For example, a fruit may be considered to be
+an apple if it is red, round, and about 4" in diameter. Even though these
+features depend on the existence of the other features, a naive Bayes
+classifier considers all of these properties to independently contribute to
+the probability that this fruit is an apple. 
 
-In simple terms, a naive Bayes classifier assumes that the presence (or absence) of a particular feature of a class is unrelated to the presence (or absence) of any other feature. For example, a fruit may be considered to be an apple if it is red, round, and about 4" in diameter. Even though these features depend on the existence of the other features, a naive Bayes classifier considers all of these properties to independently contribute to the probability that this fruit is an apple.
+Depending on the precise nature of the probability model, naive Bayes
+classifiers can be trained very efficiently in a supervised learning
+setting. In many practical applications, parameter estimation for naive
+Bayes models uses the method of maximum likelihood; in other words, one can
+work with the naive Bayes model without believing in Bayesian probability
+or using any Bayesian methods. 
 
-Depending on the precise nature of the probability model, naive Bayes classifiers can be trained very efficiently in a supervised learning setting. In many practical applications, parameter estimation for naive Bayes models uses the method of maximum likelihood; in other words, one can work with the naive Bayes model without believing in Bayesian probability or using any Bayesian methods.
+In spite of their naive design and apparently over-simplified assumptions,
+naive Bayes classifiers often work much better in many complex real-world
+situations than one might expect. Recently, careful analysis of the Bayesian
+classification problem has shown that there are some theoretical reasons
+for the apparently unreasonable efficacy of naive Bayes classifiers. An
+advantage of the naive Bayes classifier is that it requires a small amount
+of training data to estimate the parameters (means and variances of the
+variables) necessary for classification. Because independent variables are
+assumed, only the variances of the variables for each class need to be
+determined and not the entire covariance matrix.
 
-In spite of their naive design and apparently over-simplified assumptions, naive Bayes classifiers often work much better in many complex real-world situations than one might expect. Recently, careful analysis of the Bayesian classification problem has shown that there are some theoretical reasons for the apparently unreasonable efficacy of naive Bayes classifiers. An advantage of the naive Bayes classifier is that it requires a small amount of training data to estimate the parameters (means and variances of the variables) necessary for classification. Because independent variables are assumed, only the variances of the variables for each class need to be determined and not the entire covariance matrix.
+##### Handwritten Digit OCR
 
-###Handwritten Digit OCR
+Now that we have a fairly good idea about Normal Bayes Classifier, we will
+implement an OCR for handwritten digits. We will be provided with two
+datasets (training and testing). A 32x32 bitmap image of each digit is
+compressed to 8x8 and then it is flattened to a row vector containing 64
+features. At the end of each line in the training dataset is an integer
+whose range is from 0-9, which is the label corresponding to the digit in
+the image. The testing dataset is similar to the training dataset but it
+is unlabeled. The datasets which are used in this example is available
+[here](http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/).
 
-Now that we have a fairly good idea about Normal Bayes Classifier, we will implement an OCR for handwritten digits. We will be provided with two datasets (training and testing). A 32x32 bitmap image of each digit is compressed to 8x8 and then it is flattened to a row vector containing 64 features. At the end of each line in the training dataset is an integer whose range is from 0-9, which is the label corresponding to the digit in the image. The testing dataset is similar to the training dataset but it is unlabeled. The datasets which are used in this example is available [here](http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/).
+###### C++ Implementation
 
-####C++ Implementation
-
-First we inlcude all the necessary header files and set some constants. Our dataset contains 3823 training examples and 1797 test examples.
+First we include all the necessary header files and set some constants. Our
+dataset contains 3823 training examples and 1797 test examples.
 
 {% highlight cpp %}
 #include <iostream>
@@ -72,7 +102,11 @@ for (int i = 0; i < TEST_EXAMPLES; i++) {
 }
 {% endhighlight %}
 
-Now that our data is loaded we will train the classifier. We will create a separate function for this and call it `bayes` and make use of the class `CvNormalBayesClassifier` and its `train` method. This function will create a new `Mat` variable called `predicted` and in it store the predicted labels of the test dataset. Here is the function.
+Now that our data is loaded we will train the classifier. We will create a
+separate function for this and call it `bayes` and make use of the class
+`CvNormalBayesClassifier` and its `train` method. This function will create
+a new `Mat` variable called `predicted` and in it store the predicted
+labels of the test dataset. Here is the function.
 
 {% highlight cpp %}
 void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClasses) {
@@ -85,7 +119,11 @@ void bayes(Mat& trainingData, Mat& trainingClasses, Mat& testData, Mat& testClas
 }
 {% endhighlight %}
 
-Now that we have trained and predicted from the respective datasets, we need an evaluation metric to determine how good the classifier performed. For this we will create another function to check the accuracy. We will keep a count of how many times we predicted the data correctly and then we will return this count divided by the number of test examples to get the accuracy.
+Now that we have trained and predicted from the respective datasets, we need
+an evaluation metric to determine how good the classifier performed. For
+this we will create another function to check the accuracy. We will keep a
+count of how many times we predicted the data correctly and then we will
+return this count divided by the number of test examples to get the accuracy.
 
 {% highlight cpp %}
 float evaluate(Mat& predicted, Mat& actual) {
@@ -166,12 +204,16 @@ int main(int argc, char const *argv[])
 }
 {% endhighlight %}
 
-After compiling the above program an executable called `bayes` was created. For supplying the input files in order, we should run the executable like this:
+After compiling the above program an executable called `bayes` was created.
+For supplying the input files in order, we should run the executable like this:
 
 	./bayes < optdigits.tra < optdigits.tes 
 
-If you run the program using the datasets mentioned above, you should get an accuracy of **0.847524** which is good for such a highly optimized and small dataset. The accuracy can be increased using more training data and higher number of features.
+If you run the program using the datasets mentioned above, you should get an
+accuracy of **0.847524** which is good for such a highly optimized and small
+dataset. The accuracy can be increased using more training data and higher
+number of features.
 
-####Program output:
+##### Program output:
 
 	Accuracy = 0.847524

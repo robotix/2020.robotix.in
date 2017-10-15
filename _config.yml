@@ -112,7 +112,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://play.google.com/store/apps/details?id=in.robotix.robotixapp", text: "Robotix App"}
+   - {link: "http://app.robotix.in", text: "Robotix App"}
    - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
  -
@@ -123,6 +123,7 @@ footerBlocks:
   title: "Archive"
   links:
    - {link: "http://2016.robotix.in/", text: "Robotix 2016"}
+   - {link: "http://2017.robotix.in/", text: "Robotix 2017"}
 
 # Blog
 blogCommentsEnabled: true
