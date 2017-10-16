@@ -43,10 +43,10 @@
                     {% if page.url contains '/blog/' %}
                       <ul class="pager col-lg-12">
                         {% if page.next.url %}
-                        <li class="previous btn-lg"><a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title | strip_html }}"><span aria-hidden="true">&larr;</span> {{page.next.title | strip_html | truncate: 15 }}</a></li>
+                        <li class="previous btn-lg"><a href="{{ page.next.url }}" title="{{ page.next.title | strip_html }}"><span aria-hidden="true">&larr;</span> {{page.next.title | strip_html | truncate: 15 }}</a></li>
                         {% endif %}
                         {% if page.previous.url %}
-                        <li class="next btn-lg"><a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} <span aria-hidden="true">&rarr;</span></a></li>
+                        <li class="next btn-lg"><a href="{{ page.previous.url }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} <span aria-hidden="true">&rarr;</span></a></li>
                         {% endif %}
                       </ul>
                     {% endif %}
