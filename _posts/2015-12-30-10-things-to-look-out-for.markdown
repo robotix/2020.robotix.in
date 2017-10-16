@@ -60,10 +60,10 @@ We provide you with numerous tutorials,  starting right from the very basics of 
 We provide detailed tutorials for each event that will guide you step by step to learn and build the robot for that event and participate in ROBOTIX 2016.
 
 Quick links:  
-[S.H.E.L.D.O.N. Tutorial](https://www.robotix.in/tutorial/event/sheldon/)  
-[Sherlock Tutorial](https://www.robotix.in/tutorial/event/sherlock/)  
-[Warehouse Tutorial](https://www.robotix.in/tutorial/event/warehouse/)  
-[Summit Tutorial](https://www.robotix.in/tutorial/event/summit/)  
+[S.H.E.L.D.O.N. Tutorial](https://2016.robotix.in/tutorial/event/sheldon/)  
+[Sherlock Tutorial](https://2016.robotix.in/tutorial/event/sherlock/)  
+[Warehouse Tutorial](https://2016.robotix.in/tutorial/event/warehouse/)  
+[Summit Tutorial](https://2016.robotix.in/tutorial/event/summit/)  
 
 #### **Kshitij Website**
 
@@ -85,7 +85,7 @@ Do not forget to click on the [Subscribe vis RSS](/feed.xml) button.
 
 #### **Action Buttons**
 
-[![Action Buttons](/img/blog/2015/07/image06.png){:.img-responsive}](/event/summit/)
+[![Action Buttons](/img/blog/2015/07/image06.png){:.img-responsive}](https://2016.robotix.in/event/summit/)
 
 In case you missed the red floating icon at the bottom right of this page, make sure to click on it!  
 The Event pages contains important links to the Tutorial, DIY’s, Discussion Forum and also information about Prize Money.
@@ -102,6 +102,6 @@ Visit our [YouTube channel](http://youtube.com/subscription_center?add_user=Robo
 
 ##### Be mobile!
 
-[![Android](/img/blog/2015/07/image07.jpg){:.img-responsive}](https://play.google.com/store/apps/details?id=in.robotix.robotixapp)
+[![Android](/img/blog/2015/07/image07.jpg){:.img-responsive}](http://app.robotix.in)
 
-Download our [Android app](https://play.google.com/store/apps/details?id=in.robotix.robotixapp) to receive notifications and all updates on your phone.
+Download our [Android app](http://app.robotix.in) to receive notifications and all updates on your phone.
