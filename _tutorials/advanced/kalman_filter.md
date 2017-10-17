@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kalman Filter"
+mathjax: true
 categories:
   - advanced
 redirect_from: "/tutorials/category/advanced/kalman_filter/"
