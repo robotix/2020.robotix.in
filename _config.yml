@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 safe: false
