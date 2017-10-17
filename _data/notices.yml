@@ -9,7 +9,7 @@
 -
   id: 003
   title: "RFID tags have been released for the event Sherlock"
-  banner: /img/event/warehouse/rfid.jpg
+  banner: https://2016.robotix.in/img/event/warehouse/rfid.jpg
 -
   id: 004
   title: "Practice runs for all the events will start from 9 AM."
@@ -26,4 +26,4 @@
   id: 008
   title: "IMPORTANT NOTICE for S.H.E.L.D.O.N. participants."
   description: "Scoring rules and information about further rounds."
-  banner: /img/event/sheldon/rules.jpg
+  banner: https://2016.robotix.in/img/event/sheldon/rules.jpg

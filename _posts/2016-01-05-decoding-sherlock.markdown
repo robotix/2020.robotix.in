@@ -13,12 +13,12 @@ actions:
   -
     text: 'E'
     caption: 'Event Page'
-    url: '/event/sherlock/'
+    url: 'https://2016.robotix.in/event/sherlock/'
     target: '_blank'
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/event/sherlock'
+    url: 'https://2016.robotix.in/tutorial/event/sherlock'
     target: '_blank'
   -
     text: 'P'
@@ -34,7 +34,7 @@ Well it’s good to see that you’ve decided to participate in Robotix 2016. Le
 
 <!-- more -->
 
-The Sherlock robot is a basic differential drive chassis with a few sensors aboard. The two primary sensors are the *HMC5883L* magnetic digital compass that can be interfaced with the help of I2C communication protocol and the *TSOP1738* IR receiver. Both of these are really common and the basic codes for both of them are pretty easy on a microcontroller like Arduino. Usage of these sensors is fairly simple and more information is available on our [tutorial page](/tutorial/event/sherlock/) for Sherlock. What matters most is the code and algorithms that drive your robot! That’s what this tutorial covers.
+The Sherlock robot is a basic differential drive chassis with a few sensors aboard. The two primary sensors are the *HMC5883L* magnetic digital compass that can be interfaced with the help of I2C communication protocol and the *TSOP1738* IR receiver. Both of these are really common and the basic codes for both of them are pretty easy on a microcontroller like Arduino. Usage of these sensors is fairly simple and more information is available on our [tutorial page](https://2016.robotix.in/tutorial/event/sherlock) for Sherlock. What matters most is the code and algorithms that drive your robot! That’s what this tutorial covers.
 
 **Round 1**
 
