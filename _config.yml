@@ -8,7 +8,7 @@ safe: false
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-exclude: ['/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/vendor/', '/scripts/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Technology Robotix Society, IIT Kharagpur"
@@ -45,6 +45,10 @@ navigationLinks:
  - {permalink: "/tutorial", text: "Tutorials"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
+ - {permalink: "/rse/", text: "RSE"}
+ 
+ 
+ 
 bottomNavigationLinks:
  - {link: "http://contact.robotix.in", text: "Contact Us"}
 
