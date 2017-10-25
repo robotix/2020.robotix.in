@@ -5,37 +5,37 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/polesapart/image.jpg
 ---
 
-#### Problem Statement:
+#### Problem Statement
 
-To build a manually controlled robot, which is capable of **picking and placing blocks** with accuracy and **changing its interaxial distance** to make a guide through a series of hurdles.
+To build a manually controlled robot, which is capable of **picking and placing blocks** with accuracy and **changing its interaxial distance** to make its way through a series of hurdles.
 
-#### USP:
+#### USP
 
 * Changing interaxial distance.
 
-* Gripping mechanism.
+* Gripping and lifting mechanism.
 
 * Placing blocks in their respective places.
 
-#### Task:
+#### Task
 
-##### Round 1:
+##### Round 1
 
-* Complete its way up a slope by picking blocks from an adjacent area and placing them in their respective slot.
+* Complete its way up a slope by picking blocks from an adjacent area and placing them in their respective slots.
 
 * The block 1, block 2 and block 3 are in increasing order of their height up the slope and have different points for each.
 
-* Place two horizontal planks on pillars to make a bridge and cross a valley.
+* Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions mentioned later).
 
 * Cross another path by using 2 planks which will already be placed over it. 
 
-* Cross a path which consists of two planks placed at an angle to each other, such that the distance between them changes continuously in a diverging pattern.
+* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
 
-* Cross a path which consists of two planks placed at an angle to each other such that the distance between them changes continuously in a converging pattern.
+* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
 
-* Make its way down a slope made of two planks .
+* Make its way down a slope, comprising of two planks.
 
-##### Round 2:
+##### Round 2
 
 * Complete its way up a slope by picking blocks from a circular rotating table and placing them in their respective slot.
 
@@ -51,11 +51,11 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Make its way down a normal slope to the end.
 
-**Note:** If at any point the bot drops from the arena, a penalty of 50 percent of the existing points will be made, if the bot wishes to start from the same point. Otherwise there is an option for rerun of the bot.
+**Note:** If at any point the robot drops from the arena, a penalty of 50 percent of the existing points will be made, if the robot wishes to start from the same point. Otherwise, there is an option for rerun of the robot.
 
 #### Arenas
 
-##### Round 1:
+##### Round 1
 
 **Top View:**![](/img/event/polesapart/image_1.png){:.img-responsive}
 
@@ -67,7 +67,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 **Isometric View:**![](/img/event/polesapart/image_4.png){:.img-responsive}
 
-##### Round 2:
+##### Round 2
 
 **Top View:**
 
@@ -81,7 +81,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 **Isometric view:**![](/img/event/polesapart/image_9.png){:.img-responsive}
 
-#### Rules And Specifications
+#### Rules and Specifications
 
 ##### General Rules
 
@@ -99,9 +99,9 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 7. Teams qualifying the first round will go into the second round. 
 
-8. The teams cannot touch their bots during the course of the run, unless timeout is taken.
+8. The teams cannot touch their robot during the course of the run, unless timeout is taken.
 
-9. The right spirit of participation is expected from the participants.
+9. The best spirit of sportmanship is expected from the participants.
 
 10. **The decision of Team ROBOTIX will be final and binding.**
 
@@ -111,7 +111,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Penalty will be awarded every time the robot falls off the arena.
 
-* The bot has to go and complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
+* The robot has to go and complete the tasks as specified above. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding.
 
 * Time will be kept by Team ROBOTIX and their decision will be final and binding.
 
@@ -119,7 +119,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * The participant is allowed to decide the initial orientation of his robot on the start zone.
 
-* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the judge’s discretion.
+* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the Team ROBOTIX’s discretion.
 
 ##### Restarts and Timeouts
 
@@ -129,25 +129,25 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * After the restart, the participant’s robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
 
-* A timeout can be taken anytime at the user’s discretion.
+* A timeout can be taken anytime at the participant's discretion.
 
-* A **restart can only be taken if there is a genuine technical fault** in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
+* A **restart can only be taken if there is a genuine technical fault** in the robot. Team ROBOTIX may refuse a restart if the reason is not genuine enough, and their decision will be binding and final.
 
 ##### Robot Specifications
 
 * Each robot can have maximum dimension of **30 x 30 x 30 cubic cm** (L x B x H) respectively.
 
-* No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift.
+* No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift. However, Team ROBOTIX gets the final say in deciding whether the advantage is fair or not.
 
 * There is no weight restriction on the robot.
 
-* LEGO kits or its spare parts or pre-made mechanical parts are **not** allowed.[(http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms)
+* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts or pre-made mechanical parts are **not** allowed. 
 
 * Ready-made gearboxes, sensors, development boards can be used but no other part of the robot should contain any ready-made components. Simple car bases with no extra features may be used.
 
 * The bots should not damage the event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 
-* Ready-made gripper is also allowed .
+* Ready-made gripper is also allowed.
 
 #### Scoring
 
@@ -165,7 +165,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
     * Block 3: **80** (B3)
 
-* Picking and placing each plank: **100** (P1,P2)
+* Picking and placing each plank: **100** (P1, P2)
 
 * Crossing the first path: **150** (S1)
 
@@ -173,7 +173,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Crossing the converging path: **200** (S3)
 
-* Time bonus: **number of seconds left(t’) * 5**
+* Time bonus: **number of seconds left(t’)*5**
 
 **Negatives**
 
@@ -183,7 +183,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Disbalance of slipping of the robot: **-100** (E3)
 
-* Robot falling of the arena: **50% of the current score** 
+* Falling of the arena: **50% of the current score** 
 
 * Dragging a block or plank across the arena: **-25** (E4)
 
@@ -193,11 +193,11 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 **Scoring formula:**
 
-{% highlight ada %}
+{% highlight ruby %}
 100 + (60 * B1 + 70 * B2 + 80 * B3) + 100 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t’ * 5
 {% endhighlight %}
 
-##### Round 2:
+##### Round 2
 
 **Positives**
 
@@ -229,7 +229,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Disbalance of slipping of the robot: **-100** (E3)
 
-* Robot falling of the arena: **50% of the current score**
+* Falling of the arena: **50% of the current score**
 
 * Dragging a block or plank across the arena: **-25** (E4)
 
@@ -239,11 +239,11 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 **Scoring formula:**
 
-{% highlight ada %}
+{% highlight ruby %}
 100 + 100 * (M1 + M2 + M3) + (40 * B1 + 50 * B2 + 60 * B3) + 50 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t’ * 10
 {% endhighlight %}
 
-##### Contacts:
+##### Contacts
 
 ###### Amit Pathak
 

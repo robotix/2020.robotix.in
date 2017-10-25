@@ -7,9 +7,9 @@ logo: /img/event/fortress/image.jpg
 
 #### Introduction
 
-A nuclear war just affected our planet. And the robots are now trying to save the remaining humans in a habitable environment by building an impenetrable fortress. For doing this they have to collect all the suitable blocks in proper order in a given time before they lose any more lives.
+A nuclear war just affected our planet. The robots are now trying to save the remaining humans in a habitable environment by building an impenetrable fortress. In order to do this they have to collect all the suitable blocks in proper order in a given time before they lose any more lives.
 
-#### USP:
+#### USP
 
 * Template matching
 
@@ -37,11 +37,9 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
 * Teams qualifying the first round will go into the second round.
 
-* Teams cannot tinker with their bots inside the arena.
+* Teams cannot tinker with their robots inside the arena.
 
 * USB extenders (*5m* long) will be provided.
-
-* There will be maximum of 2 restarts and 3 timeouts. The timeout can be of a maximum duration of 2 minutes and the bot can be restarted after a maximum of 5 minutes.
 
 * The decision of Team Robotix will be final and binding.
 
@@ -69,29 +67,29 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
     * Maximum duration of a timeout is 2 mins only.
 
-* Restarts will be given only for technical fault in the bot
+* Restarts will be given only for technical fault in the robot
 
 **Robot Specifications:**
 
-* The robot must fit in a box of **25cm x 25cm x 25cm** with a tolerance of 10% in the dimensions of robot. No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
+* The robot must fit in a box of **25cm x 25cm x 25cm** with a tolerance of 10% in the dimensions of the robot. No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event. However, the dimensions can change during the course of the run.
 
 * Dimensions of the arena are to be considered with a maximum tolerance of 10%.
 
 * A marker of dimension **20cm x 10cm** having two colour scheme will be provided. However, the participants are free to use their own markers.
 
-#### Task:
+#### Task
 
 ##### Round 1
 
-The arena is plain black with some shapes of same color on it. There would be an overhead camera which would provide a video feed to the bot. In the arena all the shapes will be made of a specific number of squares and will have the same area. 
+The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of 5 squares of same size thus they will have the same area. 
 
- The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have the same orientation in both the image and the arena.
+ The participants will be given an image which will comprise of the same number of shapes as the arena but they will be of different sizes and different colours. The shapes will have the same orientation in both the image and the arena.
 
-The task of round one is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the bot has to go to each shape in the ascending order of serial number. When it identifies that certain shape in the arena it has to go to that shape and has to blink the LED the number of times equal to the serial number of that shape. This round will last for 4 minutes.
+The task of round one is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. This round will last for 4 minutes.
 
-**Note:**The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
+**Note:** The serial number corresponding to a colour will be provided at the start of the run. The RGB values of the colours of the shapes in the image will also be provided.
 
-#### Arena:
+#### Arena
 
 **Round 1:**
 
@@ -105,9 +103,9 @@ The task of round one is to identify the  shapes present in the arena correspond
 
 * The dimensions of the arena will be *3m x 3m*.
 
-* The dimensions of the squares of which the shapes will be made of  will be *10cm x 10cm*.
+* The dimensions of each square forming the shapes will be *10cm x 10cm*.
 
-* Standard marker provided will have two squares of colours red and green. However participants are free to use a marker of their own choice.
+* Standard marker provided will have two squares of colours pink and purple. However participants are free to use a marker of their own choice.
 
 ##### Scoring
 
@@ -117,7 +115,7 @@ The task of round one is to identify the  shapes present in the arena correspond
 
 * For incorrect identification of a shape: -100.
 
-* For blinking on anywhere else on the map except for the shapes: -75
+* For blinking the LED anywhere else on the map except for the shapes: -75
 
 * For timeout: -50
 
@@ -127,13 +125,13 @@ The task of round one is to identify the  shapes present in the arena correspond
 
 #### Round 2
 
-The arena is plain black with some shapes of same color on it. There would be an overhead camera which would provide a video feed to the bot. In the arena all the shapes will be made of a specific number of squares and will have the same area. There will be obstacles on the arena. Obstacles will have the same area as that of shapes.
+The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of a specific number of squares and will have the same area. There will be obstacles on the arena. These obstacles will have the same area as the useful shapes. 
 
- The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have **different** orientation in  the arena than the image.
+ The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have **different** orientation in  the arena than the image. The obstacles will not be present in the given image.
 
-The task of round two is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition.And the colour of each shape in the image represents a serial number of that shape and the bot has to go to each shape in the ascending order of serial number and when it identifies that certain shape in the arena it has to go to that shape and has to blink the LED the number of times equal to the serial number of that shape. The bot has to avoid going over the obstacles in the arena or identifying them as one of the shapes in the image. This round will last for 4 minutes.
+The task of round two is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. The robot has to avoid going over the obstacles in the arena or identifying them as one of the shapes in the image. This round will last for 4 minutes.
 
-**Note:**The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
+**Note:** The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
 
 .
 
@@ -163,7 +161,7 @@ The task of round two is to identify the  shapes present in the arena correspond
 
 * For incorrect identification of a shape: -100.
 
-* For blinking anywhere on other on the map except for the shapes: -75
+* For blinking anywhere on the map other than the shapes: -75
 
 * For identifying an obstacle as one of the shapes: -100.
 
@@ -179,11 +177,11 @@ The task of round two is to identify the  shapes present in the arena correspond
 
 **Case 1**: Robot identifies all the shapes correctly in the correct priority order
 
-Let’s say that there are 5 shapes in the arena and the bot identifies all the correct shapes correctly in the correct priority order and let’s suppose that there is still 30 seconds left, then the corresponding scoring will be:
+Let’s say that there are 5 shapes in the arena and the robot identifies all the correct shapes correctly in the correct priority order and let’s suppose that there is still 30 seconds left, then the corresponding scoring will be:
 
-* + 5 x 100 = 500 points for correct identification in correct priority order
+* +5 x 100 = 500 points for correct identification in correct priority order
 
-* + (300 - 270) x 10 = 300 points as time bonus
+* +(300 - 270) x 10 = 300 points as time bonus
 
 Hence the final score tally will be 800 points.
 
@@ -191,35 +189,35 @@ Hence the final score tally will be 800 points.
 
 * +3 x 100 for identifying the first three shapes correctly in the correct order
 
-*  + 100 - 50 = + 50 for correct identification of the the fifth shape (that is by blinking led 5 times on that shape) in incorrect order
+* +100 - 50 = + 50 for correct identification of the the fifth shape (that is by blinking led 5 times on that shape) in incorrect order
 
-*  + 100 - 50 = + 50 for correct identification of the fourth shape in incorrect order
+* +100 - 50 = + 50 for correct identification of the fourth shape in incorrect order
 
 * 0 point for time bonus
 
 Hence the final score tally will be 400 points.
 
-**Case 3**: Robot is able to identify only 3 out of 5 shapes correctly such that it identifies the first shape then the second shape and then the fourth shape. Hence the order of identification is 1 -> 2-> 4 and it is not able to identify the third and fifth shape. In such a case the bot will be given no time bonus and hence the corresponding scoring will be:
+**Case 3**: Robot is able to identify only 3 out of 5 shapes correctly such that it identifies the first shape then the second shape and then the fourth shape. Hence the order of identification is 1 -> 2-> 4 and it is not able to identify the third and fifth shape. In such a case the robot will be given no time bonus and hence the corresponding scoring will be:
 
-*  + 2 x 100 = 200 for correct identification of the first two shapes
+* +2 x 100 = 200 for correct identification of the first two shapes
 
-* + 100 - 50 = 50 for correct identification in incorrect order for the fourth shape
+* +100 - 50 = 50 for correct identification in incorrect order for the fourth shape
 
 * 0 point for time bonus
 
 Hence the final score tally would be 250 points
 
-**Case 4** : Robot is correctly able to identify 3 out of 5 shapes and the remaining two shapes are identified incorrectly. Let’s assume it identifies the first three shapes correctly and then identifies the fifth shape as the fourth one and the fourth one as the fifth shape.The bot will be given no time bonus in such a case. Then the corresponding scoring will be:
+**Case 4** : Robot is correctly able to identify 3 out of 5 shapes and the remaining two shapes are identified incorrectly. Let’s assume it identifies the first three shapes correctly and then identifies the fifth shape as the fourth one and the fourth one as the fifth shape.The robot will be given no time bonus in such a case. Then the corresponding scoring will be:
 
-* + 3 x 100 = +300 for correct identification of the first three shapes
+* +3 x 100 = +300 for correct identification of the first three shapes
 
-* - 2 X 100 = -200 for incorrect identification of the last two shapes
+* -2 X 100 = -200 for incorrect identification of the last two shapes
 
 * 0 point for time bonus 
 
 Hence the final score tally will be 100 points.
 
-##### Contact:
+##### Contacts
 
 ###### Swadha Gupta
 

@@ -14,23 +14,23 @@ Consider the situation of a factory where heavy machine parts are kept in a rand
 
 * Autonomous Traversal (Line Following)
 
-* Color Identification
+* Colour Identification
 
 * Sorting Algorithm
 
 #### Problem Statement
 
-To build a bot which **rearranges** blocks of different colours from a stack in a pattern by **identifying the colours** while moving across the stacks using **line following**.
+To build a robot which can **rearrange** blocks of different colours from a stack in a pattern by **identifying the colours** simultaneously moving across the stacks using **line following**.
 
 #### General Description and Event Setup
 
-* There will be cubical blocks of **four** different colors.
+* There will be cubical blocks of **four** different colours.
 
-* The robot has to identify the desired sequence of the block by means of color detection while traversing across the arena using line following mechanism.
+* The robot has to identify the desired sequence of the block by means of colour detection, while traversing across the arena using line following traversal algorithm.
 
-* The robot will then pick the block from the main stack and identify their color.
+* The robot will then pick a block from the main stack and identify its colour.
 
-* The bot has to use the side stacks for the intermediate steps involved in order to achieve the said sequence.
+* The robot has to use the side stacks for the intermediate steps involved, in order to achieve a particular sequence, given in advance by Team ROBOTIX.
 
 #### Arena
 
@@ -41,7 +41,7 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 * The outer dimensions of the arena will be **505 cm x 360 cm**.
 
-* Each stacks will be a rectangle of inner dimensions **80 cm x 20 cm** with a width of **10 cm** on all sides. 
+* Each stack will be a rectangle of inner dimensions **80 cm x 20 cm** with a width of **10 cm** on all sides. 
 
 * Dimensions of the arena are to be considered with a maximum tolerance of **10%**.
 
@@ -57,11 +57,11 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 ##### Block Specifications
 
-**Cubical** : 6cm X 6cm X 6cm.
+**Cubical:**  6cm X 6cm X 6cm.
 
-**Weight:** The weight of the blocks will be between **60 grams and 80 grams.**
+**Weight:** The weight of the blocks will be somewhere between **60 to 80 grams**.
 
-**Handle**: A handle will be made on top of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
+**Handle:** A handle will be made on top of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
 
 ![](/img/event/stax/image_8.png){:.img-responsive} ![](/img/event/stax/image_9.png){:.img-responsive}![](/img/event/stax/image_10.png){:.img-responsive}
 
@@ -69,27 +69,27 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
  
 
-##### Robot Specification:
+##### Robot Specification
 
 * The robot must fit in a box of **30cm x 30cm x 30cm** with a tolerance of **10%** in the dimensions of robot.
 
-* No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event. However the dimensions can change during the course of the run.
+* No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event. However, the dimensions may change during the course of the run.
 
-##### Event Rules:
+##### Event Rules
 
-* The robot should traverse the arena by using **line following mechanism**.
+* The robot should traverse the arena only by using the **line following mechanism**.
 
-* The robot should detect the desired sequence of the blocks as well as the blocks arranged initially by using colour detection.
+* The robot should detect the desired sequence of the blocks as well as the order of the blocks arranged initially, by using colour detection.
 
-* Points will be awarded for correct **identification** and **deposition** of the blocks at the end of the run.**Correct identification**: Whether the color of block detected is correct.** Deposited Objects**: Blocks deposited should be in correct sequence.
+* Points will be awarded for correct **identification** and **deposition** of the blocks at the end of the run. **Correct identification:** Whether the colour of block detected is correct. **Deposited Objects:** Blocks deposited must be in the correct sequence.
 
-* Participants are **not** allowed to **drag** the blocks while moving them. They must be lifted from ground level.
+* Participants are **not** allowed to **drag** the blocks while moving them. They must be lifted from ground level, clearly. Any call of Team ROBOTIX will be final and binding.
 
-* While **picking** and **placing** any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty for each contact. However you can slightly displace a block while trying to pick it.
+* While **picking** and **placing** any block the robot should not make contact with any other unsegregated blocks kept in the arena. There will be a penalty for each contact. However, you can slightly displace a block while trying to pick it.
 
-##### Restarts and Timeouts:
+##### Restarts and Timeouts
 
-* A maximum of **2 Timeouts** of **1 minute** each may be taken. **Penalty** will be awarded for each timeout and robot will start from its last position on the arena.
+* A maximum of **2 Timeouts** of **1 minute** each may be taken. **Penalty** will be awarded for each timeout and robot will start from its stopping position on the arena.
 
 * The participant’s robots can have a maximum of **2 restarts**. A penalty will be imposed on the team for every restart that they take.
 
@@ -97,45 +97,45 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 * A timeout can be taken **anytime** at the user’s discretion.
 
-* A restart can **only** be taken if there is a genuine **technical** fault in the bot. Team ROBOTIX may refuse a restart if the reason is not genuine, and their decision will be binding and final.
+* A restart can **only** be taken if there is a genuine **technical** fault in the robot. Team ROBOTIX may refuse a restart if the reason does not sound genuine enough, and their decision will be binding and final.
 
-#### Round 1:
+#### Round 1
 
-##### Task:
+##### Task
 
 * There will be a total of **4 blocks** in **random** order.
 
-* The participant will be **allowed to input the initial order of blocks** in their bot.
+* The participant will be **allowed to input the initial order of blocks** in their robot, before the run starts.
 
-* The bot has to **identify** the desired sequence of the blocks from the color indicators placed on each turn before approaching the main stack.
+* The robot has to **identify** the desired sequence of the blocks from the colour indicators placed on each turn before approaching the main stack.
 
-* The first indicator will show the color of the **innermost block** and sequentially the other indicators will show the color of further blocks.
+* The first indicator will show the colour of the **innermost block** and sequentially the other indicators will show the colour of further blocks.
 
-* The bot has to pick and place the blocks one at a time to **rearrange** the blocks in the main stack with the  help of side stacks.
+* The robot has to pick and place the blocks one at a time to **rearrange** the blocks in the main stack with the help of side stacks.
 
-* The bot has to **return** to the node in front of the main stack and **indicate the completion of job**.
+* The robot has to **return** to the node in front of the main stack and **indicate the completion of the task**.
 
-**Note:**The data input(initial sequence of blocks in main stack) to the bot in the first round will be allowed by means of either wireless communication or by changing the parameters in the code burnt on the microcontroller.
+**Note:** The data input (initial sequence of blocks in main stack) to the robot in the first round will be allowed by means of either wireless communication or by changing the parameters in the code burnt on the microcontroller. There are no extra points awarded or deducted for this choice.
 
-##### Round rules:
+##### Round rules
 
-* A maximum of **4 minutes** will be given to complete this round. The restart can only be taken before** 3 minutes** into the round.
+* A maximum of **4 minutes** will be given to complete this round. The restart can only be taken before **3 minutes** into the round.
 
-* Maximum number of Time-outs allowed:** 2**(1 min each).
+* Maximum number of Time-outs allowed: **2** (1 min each).
 
-* Maximum number of Restarts allowed:** 2**.
+* Maximum number of Restarts allowed: **2**.
 
-**NOTE:** Restarts will be given only for technical fault in the bot.
+**NOTE:** Restarts will be given only for technical fault in the robot.
 
-##### Scoring Formula:
+##### Scoring Formula
 
 * **Positives**
 
     * Base score: **1000**
 
-    * For each blocks picked/gripped(given once for each block): **100** (Q)
+    * For each block picked/gripped (given once for each block): **100** (Q)
 
-    * Successful identification of color: **150** (P)
+    * Successful identification of colour: **150** (P)
 
     * Completion of Job: **150** (R)
 
@@ -143,7 +143,7 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 * **Negatives**
 
-    * Incorrect identification of color: **-50** (A)
+    * Incorrect identification of colour: **-50** (A)
 
     * Dropping the block each time: **-30** (L)
 
@@ -153,49 +153,49 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 **Formula:**
 
-{% highlight ada %}
+{% highlight ruby %}
 1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50*A - 100*O - 150*S
 {% endhighlight %}
 
-#### Round 2:
+#### Round 2
 
-##### Task:
+##### Task
 
-* There will be a total of **6 blocks** in **random** order out of which **2 blocks**will be **waste blocks** of color **white** and **black**.
+* There will be a total of **6 blocks** in **random** order out of which **2 blocks** will be **waste blocks** of colour **white** and **black**.
 
-* The participant will **NOT be allowed to input the initial order of blocks** in their bot.
+* The participant will **NOT be allowed to input the initial order of blocks** in their robot.
 
-* The bot has to **identify** the desired sequence of the blocks from the color indicators placed on each turn before approaching the main stack.
+* The robot has to **identify** the desired sequence of the blocks from the colour indicators placed on each turn before approaching the main stack.
 
-* The first indicator will show the color of the **innermost block** and sequentially the other indicators will show the color of further blocks.
+* The first indicator will show the colour of the **innermost block** and sequentially the other indicators will show the colour of further blocks in order.
 
-* The bot has to **detect** the colour of the blocks in the main stack as it becomes accessible to get the **initial sequence** of the blocks.
+* The robot has to **detect** the colour of the blocks in the main stack, as the **initial sequence** of the blocks becomes accesible to the robot.
 
-* The bot has to pick and place the blocks one at a time to **rearrange** them in the main stack with help of side stacks.
+* The robot has to pick up and place the blocks, one at a time to **rearrange** them in the main stack with help of side stacks.
 
-* The bot has to **dispose** the **waste blocks** into the **side stacks** meanwhile arranging the required blocks in the main stack.
+* The robot has to **dispose** the **waste blocks** into the **side stacks** meanwhile arranging the required blocks in the main stack.
 
-* The bot has to **return** to the node in front of the main stack and **indicate the completion of job**.
+* The robot has to **return** to the node in front of the main stack and **indicate the completion of the task**.
 
-##### Round rules:
+##### Round rules
 
 * A maximum of **6 minutes** will be given to complete this round. The restart will only be given before **4:30** into the round.
 
-* Maximum number of Time-outs allowed :**2(1 min each)**
+* Maximum number of Time-outs allowed: **2 (1 min each).**
 
-* Restarts allowed :**2**
+* Restarts allowed: **2**
 
-**NOTE**: Restarts will be given only for technical fault in the bot.
+**NOTE:** Restarts will be given only for technical fault in the robot.
 
-##### Scoring Formula:
+##### Scoring Formula
 
 * **Positives**
 
     * Base score: **1000**
 
-    * For each blocks picked/gripped(given once for each block): **100** (Q)
+    * For each block picked/gripped (given once for each block): **100** (Q)
 
-    * Successful identification of color: **150** (P)
+    * Successful identification of colour: **150** (P)
 
     * Completion of Job: **150** (R)
 
@@ -203,7 +203,7 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 * **Negatives**
 
-    * correct identification of color: **-50** (A)
+    * correct identification of colour: **-50** (A)
 
     * Dropping the block each time: **-30** (L)
 
@@ -215,10 +215,10 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 **Formula:**
 
-{% highlight ada %}
+{% highlight ruby %}
 1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *(A + D) - 100*O - 150*S
 {% endhighlight %}
-##### General Rules:
+##### General Rules
 
 * Maximum number of participants allowed per team: **4 people**.
 
@@ -226,9 +226,9 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 * Participants will have to arrange for any other power supply required for their robot.
 
-* Teams cannot tinker with their bots during the run.
+* Teams cannot tinker with their robots during the run.
 
-* LEGO kits or its spare parts are not allowed.[ (http://en.wikipedia.org/wiki/Lego_Mindstorms)](http://en.wikipedia.org/wiki/Lego_Mindstorms))
+* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed. 
 
 * The decision of the Team Robotix will be **final** and **binding**.
 
@@ -236,15 +236,15 @@ To build a bot which **rearranges** blocks of different colours from a stack in 
 
 **Note:**
 
-* The data input to the bot in the first round will be allowed by means of either wireless communication or changing the parameters in the code of burnt on the microcontroller.
+* The data input to the robot in the first round will be allowed by means of either wireless communication or changing the parameters in the code of burnt on the microcontroller.
 
-It is suggested that the participant try to make a wireless robot. In which case the wireless bot should be battery powered on-board.
+It is suggested that the participant try to make a wireless robot. In which case the wireless robot should be powered by battery on-board.
 
-Links to Tutorials:
+**Links to Tutorials:**
 
 For relevant tutorials check [ROBOTIX TUTORIALS](https://www.robotix.in/tutorial/).
 
-##### Contact:
+##### Contact
 
 ###### Vivek Mudgal
 
