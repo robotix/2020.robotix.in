@@ -2,7 +2,7 @@
 layout: post
 title: 'Poles Apart'
 subTitle: 'Manual Robotics Event'
-logo: /img/event/polesapart/image.jpg
+logo: /img/event/poles-apart/image.jpg
 ---
 
 #### Problem Statement
@@ -57,29 +57,34 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 ##### Round 1
 
-**Top View:**![](/img/event/polesapart/image_1.png){:.img-responsive}
+**Top View:**
+![](/img/event/poles-apart/image_1.png){:.img-responsive}
 
 **Arena specifications:**
 
-![](/img/event/polesapart/image_2.png){:.img-responsive}
+![](/img/event/poles-apart/image_2.png){:.img-responsive}
 
-![](/img/event/polesapart/image_3.png){:.img-responsive}
+![](/img/event/poles-apart/image_3.png){:.img-responsive}
 
-**Isometric View:**![](/img/event/polesapart/image_4.png){:.img-responsive}
+**Isometric View:**
+![](/img/event/poles-apart/image_4.png){:.img-responsive}
 
 ##### Round 2
 
 **Top View:**
 
-![](/img/event/polesapart/image_5.png){:.img-responsive}
+![](/img/event/poles-apart/image_5.png){:.img-responsive}
 
 **Arena components:**
 
-![](/img/event/polesapart/image_6.png){:.img-responsive}![](/img/event/polesapart/image_7.png){:.img-responsive}
+![](/img/event/poles-apart/image_6.png){:.img-responsive}
 
-![](/img/event/polesapart/image_8.png){:.img-responsive}
+![](/img/event/poles-apart/image_7.png){:.img-responsive}
 
-**Isometric view:**![](/img/event/polesapart/image_9.png){:.img-responsive}
+![](/img/event/poles-apart/image_8.png){:.img-responsive}
+
+**Isometric view:**
+s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 #### Rules and Specifications
 

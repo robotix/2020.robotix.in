@@ -52,11 +52,11 @@ bottomNavigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "27th Jan - 29th Jan, 2017"
-typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2017"'
+eventDate: "19th Jan - 21th Jan, 2018"
+typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2018"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
-   - {permalink: "/schedule", text: "Event Schedule"}
+   - {permalink: "/schedule", text: "Explore Events"}
 
 # About Block
 aboutTitle: "We believe in sharing our knowledge"
@@ -84,7 +84,7 @@ statisticBlock:
  # - {count: "500", specialCharacter: "+", info: "teams"}
  - {count: "3", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
-statisticQuirk: "Robotix 2017, #GearUp"
+statisticQuirk: "Robotix 2018, #GearUp"
 
 # Latest News Block
 latestNewsTitle: "Latest blog articles"

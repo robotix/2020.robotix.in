@@ -63,9 +63,13 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 **Handle:** A handle will be made on top of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
 
-![](/img/event/stax/image_8.png){:.img-responsive} ![](/img/event/stax/image_9.png){:.img-responsive}![](/img/event/stax/image_10.png){:.img-responsive}
+![](/img/event/stax/image_8.png){:.img-responsive} 
 
- ![](/img/event/stax/image_11.png){:.img-responsive}
+![](/img/event/stax/image_9.png){:.img-responsive}
+
+![](/img/event/stax/image_10.png){:.img-responsive}
+
+![](/img/event/stax/image_11.png){:.img-responsive}
 
  
 
