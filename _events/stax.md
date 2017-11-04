@@ -2,7 +2,7 @@
 layout: post
 title: 'Stax'
 subTitle: 'Autonomous Event'
-logo: /img/event/stax/image.jpg
+logo: /img/event/stax/logo.png
 ---
 
 

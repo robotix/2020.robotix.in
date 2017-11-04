@@ -2,7 +2,7 @@
 layout: post
 title: 'Fortress'
 subTitle: 'Computer Vision Event'
-logo: /img/event/fortress/image.jpg
+logo: /img/event/fortress/logo.png
 ---
 
 #### Introduction

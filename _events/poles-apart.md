@@ -2,7 +2,7 @@
 layout: post
 title: 'Poles Apart'
 subTitle: 'Manual Robotics Event'
-logo: /img/event/poles-apart/image.jpg
+logo: /img/event/poles-apart/logo.png
 ---
 
 #### Problem Statement
