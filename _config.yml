@@ -120,10 +120,10 @@ footerBlocks:
   links:
    - {link: "http://contact.robotix.in", text: "Contact Us"}
  -
-  title: "Archive"
+  title: "Archives"
   links:
-   - {link: "http://2016.robotix.in/", text: "Robotix 2016"}
    - {link: "http://2017.robotix.in/", text: "Robotix 2017"}
+   - {link: "http://2016.robotix.in/", text: "Robotix 2016"}
 
 # Blog
 blogCommentsEnabled: true
