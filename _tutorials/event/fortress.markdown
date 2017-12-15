@@ -2,7 +2,7 @@
 layout: post
 title: "Fortress Tutorial"
 categories:
- - events
+ - event
 ---
 
 ##### TOOLS:
@@ -50,9 +50,9 @@ instructions sent to the motor driver by the micro controllers. For more
 details on differential drives, please check
 [here](/tutorial/mechanical/drivemechtut). 
 
-![The schematics of a differential drive](/img/tutorial/events/fortress/1.jpg){:.img-responsive} 
+![The schematics of a differential drive](/img/tutorial/event/fortress/1.jpg){:.img-responsive} 
 
-![An actual differential drive](/img/tutorial/events/fortress/2.png){:.img-responsive}
+![An actual differential drive](/img/tutorial/event/fortress/2.png){:.img-responsive}
 
 ##### MICROCONTROLLER
 
@@ -66,7 +66,7 @@ Essentially you only need to program the micro controller on your robot, to
 move in a particular direction, based on the character received by it from
 the laptop. 
 
-![The development board for the micro controller from Robokits](/img/tutorial/events/fortress/3.jpg){:.img-responsive} 
+![The development board for the micro controller from Robokits](/img/tutorial/event/fortress/3.jpg){:.img-responsive} 
 
 The code to be burned on arduino is as follows:
 
@@ -285,7 +285,7 @@ points is the centre of the Head. Similarly we can find the centre of the
 Tail. The geometric midpoint of these centre can be fairly estimated as the
 Position of the Robot. 
 
-![](/img/tutorial/events/fortress/4.png){:.img-responsive} 
+![](/img/tutorial/event/fortress/4.png){:.img-responsive} 
 
 ##### Locomotion of the Robot
 

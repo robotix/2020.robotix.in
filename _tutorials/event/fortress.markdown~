@@ -2,7 +2,7 @@
 layout: post
 title: "Fortress Tutorial"
 categories:
- - events
+ - event
 ---
 
 ##### TOOLS:
@@ -285,7 +285,7 @@ points is the centre of the Head. Similarly we can find the centre of the
 Tail. The geometric midpoint of these centre can be fairly estimated as the
 Position of the Robot. 
 
-![](/img/tutorial/events/fortress/4.jpg){:.img-responsive} 
+![](/img/tutorial/events/fortress/4.png){:.img-responsive} 
 
 ##### Locomotion of the Robot
 

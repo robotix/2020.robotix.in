@@ -2,7 +2,7 @@
 layout: post
 title: "Poles Apart Tutorial"
 categories:
- - events
+ - event
 ---
 
 #### Poles Apart
@@ -60,11 +60,11 @@ It would definitely help your case if you make a bot that is divided into four p
 
 Try to think of an innovative design for your chassis, as we have tried to part it in four parts so as to increase our flexibility, but the demerit of such a design is the increased complexity in its control. Fixing and use of grippers and maneuvering of the bot using a differential drive has later been explained in this tutorial. With a control good enough over your bot, you are all set.
 
-![](/img/tutorial/events/poles-apart/image_0.png)
+![](/img/tutorial/event/poles-apart/image_0.png){:.img-responsive}
 
-![](/img/tutorial/events/poles-apart/image_1.png)
+![](/img/tutorial/event/poles-apart/image_1.png){:.img-responsive}
 
-![](/img/tutorial/events/poles-apart/image_2.png)
+![](/img/tutorial/event/poles-apart/image_2.png){:.img-responsive}
 
 ##### Design 2:
 
@@ -92,7 +92,7 @@ Despite all the complications that you might think your bot has after loading it
 
 When two motors are connected to wheels in one line, opposite to each other (just like a pair of wheels connected to a single shaft) the speed with which each motor rotates determines the direction of motion. When both the wheels rotate at the same speed the difference between the motors is zero. This makes the robot move forward in a straight line.The robot can move in reverse direction if the direction of rotation of both the motors are reversed. This will again be in a straight line if the speed difference is zero.
 
-![](/img/tutorial/events/poles-apart/image_3.png)
+![](/img/tutorial/event/poles-apart/image_3.png){:.img-responsive}
 
 Now changing the speed of any one motor will result in movement in a direction away from the straight line. For example, reducing the speed of the right motor will result in a speed difference and hence change in direction.The resultant force is such that the robot turns right. This direction change can be controlled to required angle by further reducing the speed of the motor.Slower is the right motor, sharper is the turn to right. This is exactly the same for Left turn.
 
@@ -136,13 +136,15 @@ As a conclusion, Slower right motor, sharper right turn. Slower left motor Sharp
 
 Three way switch
 
-![](/img/tutorial/events/poles-apart/image_4.jpg)
+![](/img/tutorial/event/poles-apart/image_4.jpg){:.img-responsive}
 
-![](/img/tutorial/events/poles-apart/image_5.jpg)
+![](/img/tutorial/event/poles-apart/image_5.jpg){:.img-responsive}
 
 **Motor Connections:**
 
-![](/img/tutorial/events/poles-apart/image_6.jpg)![](/img/tutorial/events/poles-apart/image_7.jpg)
+![](/img/tutorial/event/poles-apart/image_6.jpg){:.img-responsive}
+
+![](/img/tutorial/event/poles-apart/image_7.jpg){:.img-responsive}
 
 The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors.
 
@@ -180,5 +182,5 @@ In this mechanism we have used a manually controlled robotic arm with 2 degrees 
 
 A simple mechanical arm consisting of two motors. The first motor controls the upward and downward movement of the arm. While the second one helps helps in rotating the arm sideways.The arm provides 2 degrees of freedom to move in horizontal as well as vertical direction, so that the arm can reach all the ends of the arena.
 
-![](/img/tutorial/events/poles-apart/image_8.jpg)
+![](/img/tutorial/event/poles-apart/image_8.jpg){:.img-responsive}
 
