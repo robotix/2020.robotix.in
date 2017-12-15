@@ -3,7 +3,35 @@ layout: post
 title: 'Poles Apart'
 subTitle: 'Manual Robotics Event'
 logo: /img/event/poles-apart/logo.png
+actions:
+  -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    url: 'https://www.facebook.com/groups/polesapartevent/'
+    target: '_blank'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/events/PolesApart'
+    target: '_blank'
+  -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    url: '/img/event/poles-apart/polesapart.png'
+    target: '_blank'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: https://www.youtube.com/watch?v=eeWfLjAWXmU
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
 ---
+#### Introduction
+
+The engineers are trying to design a vehicle that is capable of adapting itself to the rough terrain it is sent into. You are asked to design the prototype of such a bot that is capable of changing the distance between its wheels so as to cover a ground that cannot be done otherwise. There are multiple valleys that converge, diverge or are in an arc form and are to be crossed.
+Your challenge is to design a bot robust enough to adapt itself according to the valleys it faces. There are also certain parts of the path that you need to complete before you can cover the further ground. Use a mechanical gripper to complete this problem statement.
 
 #### Problem Statement
 

@@ -3,6 +3,25 @@ layout: post
 title: 'Fortress'
 subTitle: 'Computer Vision Event'
 logo: /img/event/fortress/logo.png
+actions:
+  -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    url: 'https://www.facebook.com/groups/conquestevent/'
+    target: '_blank'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/events/fortress'
+    target: '_blank'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    url: https://www.youtube.com/watch?v=VdroDltFxos
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
 ---
 
 #### Introduction
