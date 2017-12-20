@@ -230,23 +230,19 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * Maximum number of participants allowed per team: **4 people**.
 
-* The participants will be provided with **220 Volts, 50 Hz **standard AC supply.
+* The participants will be provided with **220 Volts, 50 Hz** standard AC supply.
 
 * Participants will have to arrange for any other power supply required for their robot.
 
 * Teams cannot tinker with their robots during the run.
 
-* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed. 
+* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed.
 
 * The decision of the Team Robotix will be **final** and **binding**.
 
 * The rules are subject to change.
 
-**Note:**
-
-* The data input to the robot in the first round will be allowed by means of either wireless communication or changing the parameters in the code of burnt on the microcontroller.
-
-It is suggested that the participant try to make a wireless robot. In which case the wireless robot should be powered by battery on-board.
+It is suggested to the participants to try making a wireless robot, powered by a battery on-board.
 
 **Links to Tutorials:**
 
