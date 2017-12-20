@@ -12,7 +12,7 @@ actions:
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/events/PolesApart'
+    url: '/tutorial/event/poles-apart'
     target: '_blank'
   -
     text: 'D'
@@ -86,6 +86,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 ##### Round 1
 
 **Top View:**
+
 ![](/img/event/poles-apart/image_1.png){:.img-responsive}
 
 **Arena specifications:**
@@ -95,6 +96,7 @@ To build a manually controlled robot, which is capable of **picking and placing 
 ![](/img/event/poles-apart/image_3.png){:.img-responsive}
 
 **Isometric View:**
+
 ![](/img/event/poles-apart/image_4.png){:.img-responsive}
 
 ##### Round 2

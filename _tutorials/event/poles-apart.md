@@ -13,7 +13,6 @@ Your challenge is to design a bot robust enough to adapt itself according to the
 
 **How this Tutorial works?**
 
-
 This is a guide for an enthusiast like yourself to explore your own imagination and incorporate them in a robot that you can build with your team for this Robotix’18 edition! The tutorial lists out all the skills that this event can possibly require for your bot to complete the problem statement and tells you exactly how you can implement each of them. And finally, find our ‘Tips’ to put together all your mechanisms and build a winning that’s going to win you a ton of fun!
 
 #### Problem Statement:
@@ -68,7 +67,7 @@ Try to think of an innovative design for your chassis, as we have tried to part 
 
 ##### Design 2:
 
-The other way to look at the design is to *eliminate the rack and pinions*. Instead, have **one motor each for changing the rotational axis of every wheel and then expand as much the situation demands. 
+The other way to look at the design is to *eliminate the rack and pinions*. Instead, have one motor each for changing the rotational axis of every wheel and then expand as much the situation demands. 
 
 The steps of construction and the main frame of your bot, that is, the chassis will remain the same as described or photographed above. The only change will be that of rack and pinion. In this design, you do not need any.
 

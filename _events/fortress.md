@@ -12,7 +12,7 @@ actions:
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/events/fortress'
+    url: '/tutorial/event/fortress'
     target: '_blank'
   -
     icon: 'youtube'

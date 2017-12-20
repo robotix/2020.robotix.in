@@ -12,7 +12,7 @@ actions:
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/event/stax'
+    url: '/tutorial/events/stax'
     target: '_blank'
   -
     text: 'D'

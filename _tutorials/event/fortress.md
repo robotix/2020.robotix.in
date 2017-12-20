@@ -33,7 +33,7 @@ be given by an overhead camera.
 
 We'll split the Problem Statement into Modules. 
 
-In this DIY , we'll step by step discuss each module. The first thing to do
+In this tutorial, we'll step by step discuss each module. The first thing to do
 is to make a mobile robot capable of moving according to instructions
 received from the laptop. 
 
@@ -48,7 +48,7 @@ well. How the motors will rotate will be determined by the voltage supplied
 to the motor by the motor driver circuit, which in turn will depend on the
 instructions sent to the motor driver by the micro controllers. For more
 details on differential drives, please check
-[here](/tutorial/mechanical/drivemechtut). 
+[Diffrential drive](/tutorial/mechanical/drivemechtut). 
 
 ![The schematics of a differential drive](/img/tutorial/event/fortress/1.jpg){:.img-responsive} 
 
@@ -61,7 +61,7 @@ that allows us to control the robot and make it autonomous. By
 pre-programming it, we can make it give different outputs based on different
 inputs and instructions received, and thereby the robot acts accordingly.
 For a more elaborate understanding of the working of an AVR micro controller,
-please visit [here](/tutorial/avr/avrprog).
+please visit [AVR tutorials](/tutorial/avr/avrprog).
 Essentially you only need to program the micro controller on your robot, to
 move in a particular direction, based on the character received by it from
 the laptop. 

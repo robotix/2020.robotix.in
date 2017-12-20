@@ -64,6 +64,7 @@ while(all ir pairs don’t give high value)
 {% endhighlight %}
 
 ##### 2.IR Sensor Array
+
 ![](/img/tutorial/event/stax/image_3.jpg){:.img-responsive}
 
 ![](/img/tutorial/event/stax/image_4.jpg){:.img-responsive}
@@ -72,7 +73,7 @@ For better accuracy we can use multiple IR LED pair in an IR sensor array.
 
 **Colour Detection**
 
-Refer to this [link](https://www.robotix.in/tutorial/auto/Color_Detection/).
+Refer to the [colour detection tutorial](https://www.robotix.in/tutorial/auto/Color_Detection/).
 
 **Sorting Algorithm**
 
