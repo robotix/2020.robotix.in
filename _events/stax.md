@@ -35,13 +35,15 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 #### Arena
 
 ![](/img/event/stax/image_2.png){:.img-responsive}
-                                     
 
-##### Arena specifications 
+
+##### Arena specifications
 
 * The outer dimensions of the arena will be **505 cm x 360 cm**.
 
-* Each stack will be a rectangle of inner dimensions **80 cm x 20 cm** with a width of **10 cm** on all sides. 
+* Each stack will be a rectangle of inner dimensions **80 cm x 20 cm** with a width of **10 cm** on all sides.
+
+* The line width for facilitating line following mechanism will be **5 cm**.
 
 * Dimensions of the arena are to be considered with a maximum tolerance of **10%**.
 
@@ -84,6 +86,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * The robot should traverse the arena only by using the **line following mechanism**.
 
 * The robot should detect the desired sequence of the blocks as well as the order of the blocks arranged initially, by using colour detection.
+
+* The robot need not show the detected/desired sequence but it should show **exclusive identification** for block of each color detected. Eg. using different LEDs for different blocks.
 
 * Points will be awarded for correct **identification** and **deposition** of the blocks at the end of the run. **Correct identification:** Whether the colour of block detected is correct. **Deposited Objects:** Blocks deposited must be in the correct sequence.
 
@@ -207,7 +211,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * **Negatives**
 
-    * correct identification of colour: **-50** (A)
+    * Incorrect identification of colour: **-50** (A)
 
     * Dropping the block each time: **-30** (L)
 
@@ -220,29 +224,25 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 **Formula:**
 
 {% highlight ruby %}
-1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *(A + D) - 100*O - 150*S
+1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *A - 100*O - 150*(S + D)
 {% endhighlight %}
 ##### General Rules
 
 * Maximum number of participants allowed per team: **4 people**.
 
-* The participants will be provided with **220 Volts, 50 Hz **standard AC supply.
+* The participants will be provided with **220 Volts, 50 Hz** standard AC supply.
 
 * Participants will have to arrange for any other power supply required for their robot.
 
 * Teams cannot tinker with their robots during the run.
 
-* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed. 
+* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed.
 
 * The decision of the Team Robotix will be **final** and **binding**.
 
 * The rules are subject to change.
 
-**Note:**
-
-* The data input to the robot in the first round will be allowed by means of either wireless communication or changing the parameters in the code of burnt on the microcontroller.
-
-It is suggested that the participant try to make a wireless robot. In which case the wireless robot should be powered by battery on-board.
+It is suggested to the participants to try making a wireless robot, powered by a battery on-board.
 
 **Links to Tutorials:**
 
