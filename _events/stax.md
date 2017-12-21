@@ -3,6 +3,30 @@ layout: post
 title: 'Stax'
 subTitle: 'Autonomous Event'
 logo: /img/event/stax/logo.png
+actions:
+  -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    url: 'https://www.facebook.com/groups/staxevent/about/'
+    target: '_blank'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    url: '/tutorial/event/stax'
+    target: '_blank'
+  -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    url: '/img/event/stax/stax.png'
+    target: '_blank'
+  -
+    icon: 'youtube'
+    caption: "Tutorial Video"
+    url: https://www.youtube.com/watch?v=430rpuLWCMM
+    target: '_blank'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
 ---
 
 
