@@ -10,6 +10,13 @@ highlighter: rouge
 permalink: pretty
 exclude: [vendor, scripts, README.md, LICENSE.txt, CNAME]
 
+# SASS Settings
+sass:
+  sass_dir: _sass
+  line_comments: false
+  relative_assets: true
+  style: compressed
+
 # Site Settings
 title: "Technology Robotix Society, IIT Kharagpur"
 description: "Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."
