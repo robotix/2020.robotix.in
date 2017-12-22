@@ -1,4 +1,4 @@
-# Technology Robotix Society
+# Technology Robotix Society &middot; [![Build Status](https://travis-ci.org/Robotix/Robotix.github.io.svg?branch=master)](https://travis-ci.org/Robotix/Robotix.github.io)
 
 ### About
 Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means we use Jekyll to host our website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
