@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Winter Workshop 2016 Results"
-permalink: /winter-workshop/results
+permalink: /winter-workshop/results/
 ---
 
 #### **Autonomous robotics**

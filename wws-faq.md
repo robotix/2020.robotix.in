@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Winter Workshop FAQs"
-permalink: /winter-workshop/faq
+permalink: /winter-workshop/faq/
 ---
 
 #### **Frequently Asked Questions**
