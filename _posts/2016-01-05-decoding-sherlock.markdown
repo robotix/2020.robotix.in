@@ -13,21 +13,18 @@ actions:
   -
     text: 'E'
     caption: 'Event Page'
-    url: 'https://2016.robotix.in/event/sherlock/'
-    target: '_blank'
+    link: 'https://2016.robotix.in/event/sherlock/'
   -
     text: 'T'
     caption: 'Tutorial'
-    url: 'https://2016.robotix.in/tutorial/event/sherlock'
-    target: '_blank'
+    link: 'https://2016.robotix.in/tutorial/event/sherlock'
   -
     text: 'P'
     caption: 'Total prize money worth Rs 44,000'
   -
     icon: 'flag'
     caption: 'Register Now!'
-    url: '/blog/registration-process-for-robotix-2016/'
-    target: '_blank'
+    link: '/blog/registration-process-for-robotix-2016/'
 ---
 
 Well it’s good to see that you’ve decided to participate in Robotix 2016. Let’s get you through the event in a few easy steps through this easy to follow DIY.

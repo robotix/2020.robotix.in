@@ -10,13 +10,11 @@ actions:
   -
     text: 'E'
     caption: 'Robotix Events'
-    url: 'https://www.robotix.in/event/'
-    target: '_blank'
+    link: 'https://www.robotix.in/event/'
   -
     text: 'R'
     caption: 'Register Here'
-    url: 'http://www.ktj.in'
-    target: '_blank'
+    link: 'http://www.ktj.in'
 ---
 
 #### Registration for ROBOTIX 2017 are now open. 

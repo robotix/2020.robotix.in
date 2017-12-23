@@ -7,23 +7,19 @@ actions:
   -
     icon: 'facebook'
     caption: 'Discussion Forum'
-    url: 'https://www.facebook.com/groups/polesapartevent/'
-    target: '_blank'
+    link: 'https://www.facebook.com/groups/polesapartevent/'
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/event/poles-apart'
-    target: '_blank'
+    link: '/tutorial/event/poles-apart'
   -
     text: 'D'
     caption: 'Do-It-Yourself'
-    url: '/img/event/poles-apart/polesapart.png'
-    target: '_blank'
+    link: '/img/event/poles-apart/polesapart.png'
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
-    url: https://www.youtube.com/watch?v=eeWfLjAWXmU
-    target: '_blank'
+    link: https://www.youtube.com/watch?v=eeWfLjAWXmU
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
