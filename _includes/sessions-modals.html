@@ -19,9 +19,7 @@
 						<span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
 						{% endif %}
 						{% if session.video %}
-						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
-						</div>
+							{% include youtube.html id=session.video %}
 						{% endif %}
 						{% if session.banner %}
 						<img class="img-responsive" src="{{ session.banner }}">

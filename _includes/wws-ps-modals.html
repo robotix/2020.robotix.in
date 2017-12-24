@@ -27,9 +27,7 @@
 						<a class="theme-link" href="{{ site.baseurl }}{{ each_ps.attendees }}" title="{{ each_ps.title }}" target="_blank">List of Attendees</a>
 						{% endif %}
 						{% if each_ps.video %}
-						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ each_ps.video }}" frameborder="0" allowfullscreen></iframe>
-						</div>
+							{% include youtube.html id=each_ps.video %}
 						{% endif %}
 					</div>
 				</div>
