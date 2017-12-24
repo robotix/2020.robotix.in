@@ -2,14 +2,17 @@
 *.lock
 
 ### Jekyll ###
-_site/
+_site
 .jekyll-metadata
 
 ### Sass ###
 .sass-cache
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+### Environment normalization ###
+.bundle
+vendor/bundle
+lib/bundler/man
 package-lock.json
+
+### HTMLProofer Cache ###
+tmp

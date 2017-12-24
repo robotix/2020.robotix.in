@@ -6,7 +6,7 @@
 			<div class="tooltip-arrow"></div>
 			<div class="tooltip-inner">{{ action.caption }}</div>
 		</div>
-		<a class="btn btn-primary waves-circle waves-effect waves-light waves-float"{% if action.bgcolor %} style="background: {{ action.bgcolor }};"{% endif %} href="{{ action.url }}"{% if action.target %} target="{{ action.target }}"{% endif %}>
+		<a class="btn btn-primary waves-circle waves-effect waves-light waves-float" {% if action.bgcolor %}style="background: {{ action.bgcolor }};" {% endif %}{% if action.link %}href="{{ action.link }}" target="_blank"{% endif %}>
 		{% if action.icon %}
 		    <svg class="icn icon-fab icon-{{ action.icon }}" viewBox="0 0 40 40">
 		        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-{{ action.icon }}"></use>

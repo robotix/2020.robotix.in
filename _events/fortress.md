@@ -7,18 +7,15 @@ actions:
   -
     icon: 'facebook'
     caption: 'Discussion Forum'
-    url: 'https://www.facebook.com/groups/conquestevent/'
-    target: '_blank'
+    link: 'https://www.facebook.com/groups/conquestevent/'
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/event/fortress'
-    target: '_blank'
+    link: '/tutorial/event/fortress'
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
-    url: https://www.youtube.com/watch?v=VdroDltFxos
-    target: '_blank'
+    link: https://www.youtube.com/watch?v=VdroDltFxos
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'

@@ -7,23 +7,19 @@ actions:
   -
     icon: 'facebook'
     caption: 'Discussion Forum'
-    url: 'https://www.facebook.com/groups/staxevent/about/'
-    target: '_blank'
+    link: 'https://www.facebook.com/groups/staxevent/about/'
   -
     text: 'T'
     caption: 'Tutorial'
-    url: '/tutorial/event/stax'
-    target: '_blank'
+    link: '/tutorial/event/stax'
   -
     text: 'D'
     caption: 'Do-It-Yourself'
-    url: '/img/event/stax/stax.png'
-    target: '_blank'
+    link: '/img/event/stax/stax.png'
   -
     icon: 'youtube'
     caption: "Tutorial Video"
-    url: https://www.youtube.com/watch?v=430rpuLWCMM
-    target: '_blank'
+    link: https://www.youtube.com/watch?v=430rpuLWCMM
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'

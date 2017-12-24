@@ -10,13 +10,11 @@ actions:
   -
     text: 'F'
     caption: 'Facebook Event'
-    url: 'https://www.facebook.com/events/223211504767546/'
-    target: '_blank'
+    link: 'https://www.facebook.com/events/223211504767546/'
   -
     text: 'R'
     caption: 'Register'
-    url: 'http://ktj.in/kolkataworkshop'
-    target: '_blank'
+    link: 'http://ktj.in/kolkataworkshop'
 ---
 
 ##### Road to Robotix 2017

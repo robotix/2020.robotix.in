@@ -15,25 +15,25 @@
                                 <ul class="social-links">
                                     {% assign postUrl = site.baseurl | append: post.url %}
                                     <li>
-                                        <a href="#" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                        <div href="" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
                                             <svg class="icn icon-google-plus" viewBox="0 0 30 32">
                                                 <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-google-plus"></use>
                                             </svg>
-                                        </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#" onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
+                                        <div onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
                                             <svg class="icn icon-twitter" viewBox="0 0 30 32">
                                                 <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-twitter"></use>
                                             </svg>
-                                        </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                        <div onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
                                             <svg class="icn icon-facebook" viewBox="0 0 30 32">
                                                 <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-facebook"></use>
                                             </svg>
-                                        </a>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
