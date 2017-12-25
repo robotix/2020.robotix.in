@@ -5,10 +5,22 @@ categories:
  - event
 image: img/tutorial/event/stax/image_7.png
 ---
+#### Problem Statement
+
+To build a robot which can rearrange blocks of different colours from a stack in a pattern by identifying the colours simultaneously moving across the stacks using line following.
+
+#### USP
+
+* Autonomous Traversal (Line Following)
+
+* Colour Identification
+
+* Sorting Algorithm
+
 #### Line Following
 
 ##### 1.IR LED Pair
-**Working**- IR sensor or an Infrared sensor consists an IR LED coupled with a Photodiode. This pair is generally called an IR pair or Photocoupler. An infrared sensor emits Infrared radiations and the Photodiode senses the same. Photodiode resistance changes according to the amount of IR radiation falling on it, hence changing the voltage drop against it. Further, by using the voltage comparator (like LM358) we can sense the voltage change and generate the output accordingly.
+**Working**- IR sensor or an infrared sensor consists of an IR LED coupled with a photodiode. This pair is generally called an IR pair or photocoupler. An infrared sensor emits infrared radiations which are detected by the photodiode. Resistance of photodiode changes according to the amount of IR radiation falling on it, hence changing the voltage drop against it. Further, by using the voltage comparator (like LM358) we can sense the voltage change and generate the output accordingly.
 
 ![](/img/tutorial/event/stax/image_2.jpg){:.img-responsive}
 
@@ -43,7 +55,7 @@ For better accuracy we can use multiple IR LED pairs in an IR sensor array.
 
 #### Colour Detection
 
-Refer to the [colour detection tutorial](https://www.robotix.in/tutorial/auto/Color_Detection/).
+Refer to the [colour detection tutorial]({{ site.baseurl }}/tutorial/auto/Color_Detection/).
 
 #### Sorting Algorithm
 
