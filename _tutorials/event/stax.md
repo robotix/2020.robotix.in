@@ -17,6 +17,23 @@ To build a robot which can rearrange blocks of different colours from a stack in
 
 * Sorting Algorithm
 
+#### Components List
+
+| Materials                                   | Quantity |
+|--------------------------------------------------- |---|
+|Arduino Uno                                         | 1 |
+|Motor Driver IC L293D                               | 2 |
+|Chassis with gripper                                | 1 |
+|Color sensor module TCS3200                         | 1 |
+|Pair of /IR Sensor Array                            | 1 |
+|DC Motors                                           | 2 |
+|Wheels                                              | 2 |
+|Castor Wheel                                        | 1 |
+|Jumper wires                              | As required |
+|Bread Board                                         | 1 |
+|Power supply for Arduino-5V                         | 1 |
+|Power supply for Motor-as specified  &nbsp; &nbsp;  | 1 |
+
 #### Line Following
 
 ##### 1.IR LED Pair
