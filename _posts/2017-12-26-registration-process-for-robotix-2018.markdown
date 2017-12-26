@@ -10,18 +10,17 @@ actions:
   -
     text: 'E'
     caption: 'Robotix Events'
-    url: 'https://www.robotix.in/event/'
+    url: 'https://2018.robotix.in/event/'
     target: '_blank'
   -
     text: 'R'
     caption: 'Register Here'
-    url: 'http://www.ktj.in'
-    target: '_blank'
+    link: 'http://www.ktj.in'
 ---
 
 #### Registration for ROBOTIX 2018 are now open.
 
-For all the event details of Robotix 2018, visit: [Robotix 2018 - Events]({{ site.baseurl }}/event/).
+For all the event details of Robotix 2018, visit: [Robotix 2018 - Events](https://2018.robotix.in/event/).
 
 **Note:** All Team members are required to register at the Kshitij website before team formation. One of the
 team members should act as captain and invite all other members to his team from the _Invitations_ section as
@@ -43,7 +42,7 @@ is also known as the _leader_ at some places.
 
 ![](/img/blog/2017/regs-2018/3.png){:.img-responsive}
 
- * Now you will need to login to your account using the email and passowrd.
+ * Now you will need to login to your account using the email and password.
 
 ![](/img/blog/2017/regs-2018/4.png){:.img-responsive}
 
@@ -68,12 +67,12 @@ is also known as the _leader_ at some places.
 
 ![](/img/blog/2017/regs-2018/8.png){:.img-responsive}
 
- * Now your teammate has to accept the request. Ask you teammate to go to his _MYKTJ_ page and click on _PENDING INVITATIONS_ tab.
+ * Now your teammate has to accept the request. Ask your teammate to go to his _MYKTJ_ page and click on _PENDING INVITATIONS_ tab.
  This will appear.
 
 ![](/img/blog/2017/regs-2018/9.png){:.img-responsive}
 
- * After the teammate accepts the request,both the _leader_ ie. the one who registered for the event and the _members_ can see the team on their respective _MYKTJ_ page in the _MY TEAM MEMBER LIST_ tab.
+ * After the teammate accepts the request, both the _leader_ ie. the one who registered for the event and the _members_ can see the team on their respective _MYKTJ_ page in the _MY TEAM MEMBER LIST_ tab.
 
 For further queries, you can contact:
 
