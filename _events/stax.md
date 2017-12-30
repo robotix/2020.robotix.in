@@ -65,9 +65,15 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * The line width for facilitating line following mechanism will be **5 cm**.
 
+* The distance between line edge and the color indicators providing sequence information wll be **10 cm**.
+
+* **Horizontal lines** provided inside the stacks with sufficient gap will act as a marker to stop if required and pick/place the block.
+
 * Dimensions of the arena are to be considered with a maximum tolerance of **10%**.
 
 ![](/img/event/stax/image_3.png){:.img-responsive}
+
+![](/img/event/stax/image_12.png){:.img-responsive}
 
 ![](/img/event/stax/image_4.png){:.img-responsive}
 
@@ -85,15 +91,13 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 **Handle:** A handle will be made on top of each block to facilitate lifting as shown in the figure. A free space of **1.5 cm x 6 cm** will be provided inside each handle.
 
-![](/img/event/stax/image_8.png){:.img-responsive} 
+![](/img/event/stax/image_8.png){:.img-responsive}
 
 ![](/img/event/stax/image_9.png){:.img-responsive}
 
 ![](/img/event/stax/image_10.png){:.img-responsive}
 
 ![](/img/event/stax/image_11.png){:.img-responsive}
-
- 
 
 ##### Robot Specification
 
@@ -287,4 +291,3 @@ Ph. no: **+91 9455538734**
 Email: **[aman.chandra@robotix.in](mailto:aman.chandra@robotix.in)**
 
 Ph. no: **+91 8967126457**
-
