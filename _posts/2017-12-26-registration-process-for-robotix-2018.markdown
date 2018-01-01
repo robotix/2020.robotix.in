@@ -10,8 +10,7 @@ actions:
   -
     text: 'E'
     caption: 'Robotix Events'
-    url: 'https://2018.robotix.in/event/'
-    target: '_blank'
+    link: 'https://2018.robotix.in/event/'
   -
     text: 'R'
     caption: 'Register Here'
