@@ -54,35 +54,32 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 #### Arena
 
-![](/img/event/stax/image_2.png){:.img-responsive}
+![](/img/event/stax/image_1.jpg){:.img-responsive}
 
 
 ##### Arena specifications
 
-* The outer dimensions of the arena will be **505 cm x 360 cm**.
+* The outer dimensions of the arena will be **200 cm x 200 cm**.
 
-* Each stack will be a rectangle of inner dimensions **80 cm x 20 cm** with a width of **10 cm** on all sides.
+* The main stack and side stacks will be a rectangles of inner dimensions **80 cm x 20 cm** and **40 cm x 20 cm** with a width of **10 cm** on all sides.
 
 * The line width for facilitating line following mechanism will be **5 cm**.
 
 * The distance between line edge and the color indicators providing sequence information wll be **10 cm**.
 
-* **Horizontal lines** provided inside the stacks with sufficient gap will act as a marker to stop if required and pick/place the block.
+* Horizontal lines **3 cm** wide provided inside the stacks with gap of **7 cm** will act as a marker to stop if required and pick/place the block.
 
 * Dimensions of the arena are to be considered with a maximum tolerance of **10%**.
 
-![](/img/event/stax/image_3.png){:.img-responsive}
+![](/img/event/stax/image_4.jpg){:.img-responsive}
 
-![](/img/event/stax/image_12.png){:.img-responsive}
+![](/img/event/stax/image_3.jpg){:.img-responsive}
 
-![](/img/event/stax/image_4.png){:.img-responsive}
+![](/img/event/stax/image_8.jpg){:.img-responsive}
 
-![](/img/event/stax/image_5.png){:.img-responsive}
+![](/img/event/stax/image_7.jpg){:.img-responsive}
 
-![](/img/event/stax/image_6.png){:.img-responsive}
-
-![](/img/event/stax/image_7.png){:.img-responsive}
-
+![](/img/event/stax/image_5.jpg){:.img-responsive}
 ##### Block Specifications
 
 **Cubical:**  6cm X 6cm X 6cm.
@@ -135,7 +132,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 ##### Task
 
-* There will be a total of **4 blocks** in **random** order.
+* There will be a total of **3 blocks** in **random** order.
 
 * The participant will be **allowed to input the initial order of blocks** in their robot, before the run starts.
 
@@ -169,7 +166,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Successful identification of colour: **150** (P)
 
-    * Completion of Job: **150** (R)
+    * Completion of Job and coming back to centre node: **150** (R)
 
     * Time factor: **2**(T in seconds)
 
@@ -229,7 +226,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Successful identification of colour: **150** (P)
 
-    * Completion of Job: **150** (R)
+    * Completion of Job and coming back to centre node: **150** (R)
 
     * Time factor: **2**(T in seconds)
 
@@ -255,6 +252,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * Maximum number of participants allowed per team: **4 people**.
 
 * The participants will be provided with **220 Volts, 50 Hz** standard AC supply.
+
+* Only **32 bit** processors or below will be allowed.
 
 * Participants will have to arrange for any other power supply required for their robot.
 
