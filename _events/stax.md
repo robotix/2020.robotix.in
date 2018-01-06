@@ -61,7 +61,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * The outer dimensions of the arena will be **200 cm x 200 cm**.
 
-* The main stack and side stacks will be a rectangles of inner dimensions **80 cm x 20 cm** and **40 cm x 20 cm** with a width of **10 cm** on all sides.
+* The main stack and side stacks will be a rectangles of inner dimensions **60 cm x 20 cm** and **40 cm x 20 cm** with a width of **10 cm** on all sides.
 
 * The line width for facilitating line following mechanism will be **5 cm**.
 
@@ -148,7 +148,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 ##### Round rules
 
-* A maximum of **4 minutes** will be given to complete this round. The restart can only be taken before **3 minutes** into the round.
+* A maximum of **6 minutes** will be given to complete this round. The restart can only be taken before **4 minutes** into the round.
 
 * Maximum number of Time-outs allowed: **2** (1 min each).
 
@@ -172,13 +172,13 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * **Negatives**
 
-    * Incorrect identification of colour: **-50** (A)
+    * Incorrect identification of colour: **50** (A)
 
-    * Dropping the block each time: **-30** (L)
+    * Dropping the block each time: **30** (L)
 
-    * For each timeout: **-100** (O)
+    * For each timeout: **100** (O)
 
-    * For each restart: **-150** (S)
+    * For each restart: **150** (S)
 
 **Formula:**
 
@@ -208,7 +208,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 ##### Round rules
 
-* A maximum of **6 minutes** will be given to complete this round. The restart will only be given before **4:30** into the round.
+* A maximum of **10 minutes** will be given to complete this round. The restart will only be given before **7 minutes** into the round.
 
 * Maximum number of Time-outs allowed: **2 (1 min each).**
 
@@ -232,15 +232,15 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * **Negatives**
 
-    * Incorrect identification of colour: **-50** (A)
+    * Incorrect identification of colour: **50** (A)
 
-    * Dropping the block each time: **-30** (L)
+    * Dropping the block each time: **30** (L)
 
-    * For each timeout: **-100** (O)
+    * For each timeout: **100** (O)
 
-    * For each restart: **-150** (S)
+    * For each restart: **150** (S)
 
-    * Leaving a waste block in main stack: -**150**(D)
+    * Leaving a waste block in main stack: **150**(D)
 
 **Formula:**
 
