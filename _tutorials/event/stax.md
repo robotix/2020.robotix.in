@@ -72,7 +72,9 @@ For better accuracy we can use multiple IR LED pairs in an IR sensor array.
 
 #### Colour Detection
 
-Refer to the [colour detection tutorial]({{ site.baseurl }}/tutorial/auto/Color_Detection/).
+A colour detection module senses the colour of the object in front of it. The module has four LEDs. Light from these diodes gets reflected by the object to reach the colour sensor TCS230. It provides the information about the colour by splitting it into the three primary components red, green and blue. The sensor has ability of high resolution conversion of light to frequency.
+
+Refer to the [colour detection tutorial]({{ site.baseurl }}/tutorial/auto/Color_Detection/) for more details.
 
 #### Sorting Algorithm
 

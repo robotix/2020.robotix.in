@@ -253,7 +253,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * The participants will be provided with **220 Volts, 50 Hz** standard AC supply.
 
-* Only **32 bit** processors or below will be allowed.
+* Only **16 bit** microcontrollers or below will be allowed.
 
 * Participants will have to arrange for any other power supply required for their robot.
 
