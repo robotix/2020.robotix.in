@@ -15,7 +15,7 @@ actions:
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=sB2XJE3c5Qw&t=8s
+    link: https://www.youtube.com/watch?v=sB2XJE3c5Qw&t
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
