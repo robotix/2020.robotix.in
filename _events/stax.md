@@ -44,7 +44,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 #### General Description and Event Setup
 
-* There will be cubical blocks of **four** different colours.
+* There will be cubical blocks of **six** different colours including **two** waste blocks of black and white colour each.
 
 * The robot has to identify the desired sequence of the block by means of colour detection, while traversing across the arena using line following traversal algorithm.
 
@@ -65,9 +65,9 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * The line width for facilitating line following mechanism will be **5 cm**.
 
-* The distance between line edge and the color indicators providing sequence information wll be **10 cm**.
+* The distance between line edge and the color indicators providing sequence information wll be **12 cm**.
 
-* Horizontal lines **3 cm** wide provided inside the stacks with gap of **7 cm** will act as a marker to stop if required and pick/place the block.
+* Horizontal lines of dimension **15 cm x 3 cm** provided inside the stacks with gap of **7 cm** will act as a marker to stop if required and pick/place the block.
 
 * Dimensions of the arena are to be considered with a maximum tolerance of **10%**.
 
@@ -166,6 +166,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Successful identification of colour: **150** (P)
 
+    * Each correct deposition of non-waste block: **500** (U)
+
     * Completion of Job and coming back to centre node: **150** (R)
 
     * Time factor: **2**(T in seconds)
@@ -173,6 +175,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * **Negatives**
 
     * Incorrect identification of colour: **50** (A)
+
+    * Each incorrect deposition of non-waste block: **100** (V)
 
     * Dropping the block each time: **30** (L)
 
@@ -183,7 +187,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 **Formula:**
 
 {% highlight ruby %}
-1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50*A - 100*O - 150*S
+1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 30*L - 50*A - 100*(O + V) - 150*S
 {% endhighlight %}
 
 #### Round 2
@@ -226,6 +230,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Successful identification of colour: **150** (P)
 
+    * Each correct deposition of non-waste block: **500** (U)
+
     * Completion of Job and coming back to centre node: **150** (R)
 
     * Time factor: **2**(T in seconds)
@@ -233,6 +239,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * **Negatives**
 
     * Incorrect identification of colour: **50** (A)
+
+    * Each incorrect deposition of non-waste block: **100** (V)
 
     * Dropping the block each time: **30** (L)
 
@@ -245,7 +253,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 **Formula:**
 
 {% highlight ruby %}
-1000 + 100*(Q) + 150*(P + R) + 2*T - 30*L - 50 *A - 100*O - 150*(S + D)
+1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 30*L - 50 *A - 100*(O + V) - 150*(S + D)
 {% endhighlight %}
 ##### General Rules
 
