@@ -15,7 +15,7 @@ actions:
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=VdroDltFxos
+    link: https://www.youtube.com/watch?v=sB2XJE3c5Qw&t
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
@@ -85,6 +85,8 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
 * Restarts will be given only for technical fault in the robot
 
+* Thresholding time of **15 minutes** will be given in each round before the run starts.
+
 **Robot Specifications:**
 
 * The robot must fit in a box of **25cm x 25cm x 25cm** with a tolerance of 10% in the dimensions of the robot. No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event. However, the dimensions can change during the course of the run.
@@ -102,6 +104,7 @@ The arena will be plain black with some shapes of the same colour on it. There w
  The participants will be given an image which will comprise of the same number of shapes as the arena but they will be of different sizes and different colours. The shapes will have the same orientation in both the image and the arena.
 
 The task of round one is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. This round will last for 4 minutes.
+The robot is allowed to traverse on the obatacles in the first round.
 
 **Note:** The serial number corresponding to a colour will be provided at the start of the run. The RGB values of the colours of the shapes in the image will also be provided.
 
@@ -133,7 +136,7 @@ The task of round one is to identify the  shapes present in the arena correspond
 
 * For restart: -100
 
-* Time bonus: + [300 - (time taken in sec)] x 10 points if all the shapes are identified successfully.
+* Time bonus: + [240 - (time taken in sec)] x 3 points if all the shapes are identified successfully.
 
 #### Round 2
 
@@ -142,6 +145,7 @@ The arena will be plain black with some shapes of the same colour on it. There w
  The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have **different** orientation in  the arena than the image. The obstacles will not be present in the given image.
 
 The task of round two is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. The robot has to avoid going over the obstacles in the arena or identifying them as one of the shapes in the image. This round will last for 4 minutes.
+The robot is not allowed to traverse on the obstacles in the second round.
 
 **Note:** The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
 
@@ -177,7 +181,7 @@ The task of round two is to identify the  shapes present in the arena correspond
 
 * For restart: -100
 
-* Time bonus: + [300 - (time taken in sec)] x 10 points if all the shapes are identified successfully.
+* Time bonus: + [240 - (time taken in sec)] x 3 points if all the shapes are identified successfully.
 
 ##### Example Scoring
 
@@ -187,9 +191,9 @@ Let’s say that there are 5 shapes in the arena and the robot identifies all th
 
 * +5 x 100 = 500 points for correct identification in correct priority order
 
-* +(300 - 270) x 10 = 300 points as time bonus
+* +(240 - 210) x 10 = 90 points as time bonus
 
-Hence the final score tally will be 800 points.
+Hence the final score tally will be 590 points.
 
 **Case 2**: Robot identifies 5 shapes such that it identifies the first shape then the second shape then the third shape then the fifth shape then the fourth shape that is it has correctly identified all the shapes but the order of identification is 1 -> 2 -> 3 -> 5 -> 4  .Let’s assume that there is no time left, then the corresponding scoring will be:
 
