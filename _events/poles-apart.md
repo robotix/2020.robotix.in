@@ -45,25 +45,24 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 ##### Round 1
 
-* Complete its way up a slope by picking blocks from an adjacent area and placing them in their respective slots.
+*Complete its way up a slope by picking blocks from an adjacent area and placing them in certain slots present on the arena to make a path for the robot to move ahead.
 
-* The block 1, block 2 and block 3 are in increasing order of their height up the slope and have different points for each.
+*Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions are specified later). The planks are to be picked up from an adjacent space that is not mentioned in the arena.
 
-* Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions mentioned later).
+*Cross another path by using 2 planks which will already be placed over it.
 
-* Cross another path by using 2 planks which will already be placed over it. 
+*Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
 
-* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
+*Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
 
-* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
+*Make its way down a converging slope and exit into the end zone.
 
-* Make its way down a slope, comprising of two planks.
 
 ##### Round 2
 
-* Complete its way up a slope by picking blocks from a circular rotating table and placing them in their respective slot.
+* Complete its way up a slope by picking blocks from a circular rotating table and placing them in certain slots present on the arena to make a path for the robot to move ahead.
 
-* The Block 1, Block 2 and Block 3 are in increasing order of their height up the slope and have different points for each.
+* There will be extra points awarded for picking up a block successfully from the table. However, there will be a penalty for dropping the blocks. If unable to proceed the rotating table will be stopped at the participants discretion with no extra points award.
 
 * Place 2 horizontal planks on pillars to make a bridge and cross a valley.
 
@@ -73,9 +72,8 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Make its way down a slope made of two planks which will be at an angle to each other in a converging pattern.
 
-* Make its way down a normal slope to the end.
+* Make its way down a converging slope and exit into the end zone.
 
-**Note:** If at any point the robot drops from the arena, a penalty of 50 percent of the existing points will be made, if the robot wishes to start from the same point. Otherwise, there is an option for rerun of the robot.
 
 #### Arenas
 
@@ -83,34 +81,79 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 **Top View:**
 
-![](/img/event/poles-apart/image_1.png){:.img-responsive}
+![](/img/event/poles-apart/1.jpg){:.img-responsive}
 
 **Arena specifications:**
 
-![](/img/event/poles-apart/image_2.png){:.img-responsive}
+![](/img/event/poles-apart/9.jpg){:.img-responsive}
 
-![](/img/event/poles-apart/image_3.png){:.img-responsive}
+![](/img/event/poles-apart/3.jpg){:.img-responsive}
 
-**Isometric View:**
+![](/img/event/poles-apart/4.png){:.img-responsive}
 
-![](/img/event/poles-apart/image_4.png){:.img-responsive}
+![](/img/event/poles-apart/5.jpg){:.img-responsive}
+
+**Arena Component specifications:**
+
+* Block:
+
+	* Dimensions: 5cm*5cm*5cm.
+	* Bulk material: Wood.
+
+Isometric view:
+
+![](/img/event/poles-apart/6.jpg){:.img-responsive}
+
+* Bridge Plank:
+
+	* Dimensions: 12cm*5cm*1cm.
+	* Bulk material: Wood.
+	* There is a groove in the plank that will fit over the given cylindrical stands perfectly.
+
+Isometric view:
+
+![](/img/event/poles-apart/7.jpg){:.img-responsive}
 
 ##### Round 2
 
 **Top View:**
 
-![](/img/event/poles-apart/image_5.png){:.img-responsive}
+![](/img/event/poles-apart/8.jpg){:.img-responsive}
 
 **Arena components:**
 
-![](/img/event/poles-apart/image_6.png){:.img-responsive}
+![](/img/event/poles-apart/4.png){:.img-responsive}
 
-![](/img/event/poles-apart/image_7.png){:.img-responsive}
+![](/img/event/poles-apart/10.jpg){:.img-responsive}
 
-![](/img/event/poles-apart/image_8.png){:.img-responsive}
+![](/img/event/poles-apart/11.jpg){:.img-responsive}
 
-**Isometric view:**
-s![](/img/event/poles-apart/image_9.png){:.img-responsive}
+![](/img/event/poles-apart/13.jpg){:.img-responsive}
+
+![](/img/event/poles-apart/12.jpg){:.img-responsive}
+
+![](/img/event/poles-apart/14.jpg){:.img-responsive}
+
+**Arena Component specifications:**
+
+* Block:
+
+	* Dimensions: 5cm*5cm*5cm.
+	* Bulk material: Wood.
+
+Isometric view:
+
+![](/img/event/poles-apart/6.jpg){:.img-responsive}
+
+* Bridge Plank:
+
+	* Dimensions: 12cm*5cm*1cm.
+	* Bulk material: Wood.
+	* There is a groove in the plank that will fit over the given cylindrical stands perfectly.
+
+Isometric view:
+
+![](/img/event/poles-apart/7.jpg){:.img-responsive}
 
 #### Rules and Specifications
 
@@ -122,9 +165,9 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 3. Only **2** members per team will be allowed to control the robot.
 
-4. The participants will be provided with *220 volts, 50 Hz* standard AC supply.
+4. The participants will be provided with 220 volts, 50 Hz standard AC supply. However, the participants cannot use this voltage apart from getting a 24V DC output through an adapter. This goes to say that no component on the robot may use a power supply higher than 24V DC. In case of any discrepancy, Team ROBOTIX will have the final say.
 
-5. Each team should have unique participants i.e. no two teams can have even a single participant common.
+5. Two teams can have one or more members in common.
 
 6. The team members can be from different institutes or colleges.
 
@@ -150,15 +193,15 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 * The participant is allowed to decide the initial orientation of his robot on the start zone.
 
-* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the Team ROBOTIX’s discretion.
+* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the Team ROBOTIX's discretion.
 
 ##### Restarts and Timeouts
 
 * A maximum of **2 Timeouts** of **1 minute** each may be taken in **each round**. Penalty will be awarded for each timeout and robot will start from its **last position** on the arena.
 
-* The participant’s robots can have a **maximum of 1 restart per round**. A penalty will be imposed on the team for every restart that they take.
+* The participant's robots can have a **maximum of 1 restart per round**. A penalty will be imposed on the team for every restart that they take.
 
-* After the restart, the participant’s robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
+* After the restart, the participant's robot will be set to its initial position. Timer will be set to zero and the run will start afresh with the addition of the penalty for restart.
 
 * A timeout can be taken anytime at the participant's discretion.
 
@@ -166,7 +209,7 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 ##### Robot Specifications
 
-* Each robot can have maximum dimension of **30 x 30 x 30 cubic cm** (L x B x H) respectively.
+* Each robot can have a maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively in its most concise form.
 
 * No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of arms/gripper/forklift. However, Team ROBOTIX gets the final say in deciding whether the advantage is fair or not.
 
@@ -178,7 +221,7 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 * The bots should not damage the event arena in any way. If it does so, a penalty will be imposed on the team. The magnitude of the penalty will be decided by Team ROBOTIX.
 
-* Ready-made gripper is also allowed.
+* The use of ready-made gripper is allowed.
 
 #### Scoring
 
@@ -194,8 +237,6 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
     * Block 2: **70** (B2)
 
-    * Block 3: **80** (B3)
-
 * Picking and placing each plank: **100** (P1, P2)
 
 * Crossing the first path: **150** (S1)
@@ -204,7 +245,7 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 * Crossing the converging path: **200** (S3)
 
-* Time bonus: **number of seconds left(t’)*5**
+* Time bonus: **number of seconds left(t')*5**
 
 **Negatives**
 
@@ -225,7 +266,7 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 **Scoring formula:**
 
 {% highlight ruby %}
-100 + (60 * B1 + 70 * B2 + 80 * B3) + 100 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t’ * 5
+100 + (60 * B1 + 70 * B2) + 100 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t' * 5
 {% endhighlight %}
 
 ##### Round 2
@@ -242,15 +283,15 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
     * Block 2: **50** (B2)
 
-    * Block 3: **60** (B3)
-
 * Placing of each plank: **50** (P1, P2)
 
 * Crossing the circular path: **150** (S1)
 
 * Crossing each sloping diverging/converging paths: **200** (S2, S3)
 
-* Time bonus: **number of seconds left(t’) * 10**
+* Time bonus: **number of seconds left(t') * 10**
+
+* Successfully picking the block from the rotating table: **100** (B3)
 
 **Negatives**
 
@@ -268,10 +309,12 @@ s![](/img/event/poles-apart/image_9.png){:.img-responsive}
 
 * Negative marks for restart: **-100** (R)
 
+* Dropping the block from the rotating table: **-25**
+
 **Scoring formula:**
 
 {% highlight ruby %}
-100 + 100 * (M1 + M2 + M3) + (40 * B1 + 50 * B2 + 60 * B3) + 50 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t’ * 10
+100 + 100 * (M1 + M2 + M3) + (40 * B1 + 50 * B2) + 50 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t' * 10 + B3
 {% endhighlight %}
 
 ##### Contacts
