@@ -45,17 +45,17 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 ##### Round 1
 
-*Complete its way up a slope by picking blocks from an adjacent area and placing them in certain slots present on the arena to make a path for the robot to move ahead.
+* Complete its way up a slope by picking blocks from an adjacent area and placing them in certain slots present on the arena to make a path for the robot to move ahead.
 
-*Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions are specified later). The planks are to be picked up from an adjacent space that is not mentioned in the arena.
+* Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions are specified later). The planks are to be picked up from an adjacent space that is not mentioned in the arena.
 
-*Cross another path by using 2 planks which will already be placed over it.
+* Cross another path by using 2 planks which will already be placed over it.
 
-*Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
+* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
 
-*Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
+* Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
 
-*Make its way down a converging slope and exit into the end zone.
+* Make its way down a converging slope and exit into the end zone.
 
 
 ##### Round 2
