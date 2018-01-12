@@ -3,7 +3,7 @@ layout: post
 title: Component List - Stax
 permalink: /event/stax/components/
 ---
-Find the component list for the event STAX [here](/tutorial/event/stax). The
+Find the component list for the event [STAX](/tutorial/event/stax). The
 components list is divided into two categories:
 
  * Ones which you will get in the IIT Kharagpur campus.

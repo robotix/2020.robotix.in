@@ -41,7 +41,7 @@ No. Laptop can be run only to burn the code prior to the run.
 It will be the same as the position and orientation of the robot before the timeout. The final decision rests with Team Robotix.
 
 
-**Q:  Are there any arrangements for the calibration of the sensors prior to the event?**
+**Q: Are there any arrangements for the calibration of the sensors prior to the event?**
 
 A sample arena with sample blocks and color strips for calibration will be available to the participants throughout the fest. Participants will not be allowed to test their bots on the main arena.
 
