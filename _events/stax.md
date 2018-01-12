@@ -190,7 +190,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Each incorrect deposition of non-waste block: **100** (V)
 
-    * Dropping the block each time: **30** (L)
+    * Dropping the picked block each time: **75** (L)
 
     * For each timeout: **100** (O)
 
@@ -254,7 +254,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
     * Each incorrect deposition of non-waste block: **100** (V)
 
-    * Dropping the block each time: **30** (L)
+    * Dropping the picked block each time: **75** (L)
 
     * For each timeout: **100** (O)
 
@@ -278,6 +278,10 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * Participants will have to arrange for any other power supply required for their robot.
 
 * Teams cannot tinker with their robots during the run.
+
+* Deposition of block will be considered only if the block is placed correctly within two horizontal lines.
+
+* An incorrect deposition is not to be confused as dropping of the block.
 
 * [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts are not allowed.
 

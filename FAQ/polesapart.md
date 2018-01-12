@@ -3,12 +3,12 @@ layout: post
 title: "Poles Apart FAQs"
 permalink: /event/polesapart/faq/
 ---
-**Q: What is the rpm motors?**
+**Q: What is the restriction on motor specification?**
 
 The motors for running the robot cannot exceed 200 RPM. High torque motors can be used and there is no lower limit on the RPM of the motors.
 
 
-**Q: Dimensions of various planks and blocks?**
+**Q: What are the dimensions of the planks and blocks?**
 
 The dimensions of planks in different parts of the arena are different, their width ranges from 5 to 8 cms and their length depends on the different valleys that they need to cross. All the dimensions are specified in the images provided in the event document.
 
@@ -18,7 +18,7 @@ The dimensions of planks in different parts of the arena are different, their wi
 The planks will be kept in a participant friendly manner such that the gripper of a robot can pick it with ease.
 
 
-**Q: Maximum number of participants per team?**
+**Q: What is the maximum number of participants per team?**
 
 There can be a maximum of four participants per team. However there is no constraint of participants being from the same college or same year of study etc.
 
@@ -47,12 +47,10 @@ Find the detailed link here:
 
 The robot, in its most concise form, before the start of the run cannot exceed `30 cm * 30 cm * 30 cm`. It can however enlarge itself during the run.
 
-###Arena related specifications
+###### Arena related specifications
 
 All the arena related specifications and dimensions have been updated on the website.
-
 Find the  link here: [details of the event Poles Apart](/event/poles-apart/)
-
 For any further doubts contact us through our facebook page.
 
 **Q: What does base score mean?**
@@ -65,9 +63,9 @@ It is the score that is awarded to each participant before the start of the run.
 For the first round the time limit is 5 minutes, and for the second round it will be declared before the commencement of the run.
 
 
-**Q: 2 members to control the robot or one for each round?**
+**Q: How many members can per team can control the robot?**
 
-Two members per team can control the robot simultaneously. That stands for both the rounds.
+Two members per team can control the robot simultaneously, who will remain same throughout the run  of the robot. That stands for both the rounds.
 
 
 **Q: Can members swap during ongoing round itself?**
@@ -75,7 +73,7 @@ Two members per team can control the robot simultaneously. That stands for both 
 No, once a member(s) of the team takes control of the robot, the same members have to carry out the run till the end.
 
 
-**Q: Can servomotors be used in the bot?**
+**Q: Can servo motors be used in the bot?**
 
 Yes, they can be used.
 
