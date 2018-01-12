@@ -23,6 +23,18 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: '/blog/registration-for-robotix-2018/'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/stax/faq/'
+  -
+    text: 'L'
+    caption: 'Component List'
+    link: '/event/stax/components/'
 ---
 
 
