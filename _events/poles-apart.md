@@ -23,6 +23,10 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/polesapart/faq/'    
 ---
 #### Introduction
 
@@ -171,7 +175,7 @@ Isometric view:
 
 6. The team members can be from different institutes or colleges.
 
-7. Teams qualifying the first round will go into the second round. 
+7. Teams qualifying the first round will go into the second round.
 
 8. The teams cannot touch their robot during the course of the run, unless timeout is taken.
 
@@ -215,7 +219,7 @@ Isometric view:
 
 * There is no weight restriction on the robot.
 
-* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts or pre-made mechanical parts are **not** allowed. 
+* [LEGO kits](http://en.wikipedia.org/wiki/Lego_Mindstorms) or its spare parts or pre-made mechanical parts are **not** allowed.
 
 * Ready-made gearboxes, sensors, development boards can be used but no other part of the robot should contain any ready-made components. Simple car bases with no extra features may be used.
 
@@ -255,7 +259,7 @@ Isometric view:
 
 * Disbalance of slipping of the robot: **-100** (E3)
 
-* Falling of the arena: **50% of the current score** 
+* Falling of the arena: **50% of the current score**
 
 * Dragging a block or plank across the arena: **-25** (E4)
 
@@ -330,5 +334,3 @@ Ph. no: **+91 9431888031**
 Email: **[rohan.sitaniya@robotix.in](mailto:rohan.sitaniya@robotix.in)**
 
 Ph. no: **+91 7407997776**
-
-

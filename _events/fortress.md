@@ -19,6 +19,10 @@ actions:
   -
     text: 'P'
     caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/fortress/faq/'    
 ---
 
 #### Introduction
@@ -99,7 +103,7 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
 ##### Round 1
 
-The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of 5 squares of same size thus they will have the same area. 
+The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of 5 squares of same size thus they will have the same area.
 
  The participants will be given an image which will comprise of the same number of shapes as the arena but they will be of different sizes and different colours. The shapes will have the same orientation in both the image and the arena.
 
@@ -140,7 +144,7 @@ The robot is allowed to traverse on the obatacles in the first round.
 
 #### Round 2
 
-The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of a specific number of squares and will have the same area. There will be obstacles on the arena. These obstacles will have the same area as the useful shapes. 
+The arena will be plain black with some shapes of the same colour on it. There will be an overhead camera which will provide a video feed of the arena to the robot. In the arena all the shapes will be made of a specific number of squares and will have the same area. There will be obstacles on the arena. These obstacles will have the same area as the useful shapes.
 
  The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have **different** orientation in  the arena than the image. The obstacles will not be present in the given image.
 
@@ -149,7 +153,7 @@ The robot is not allowed to traverse on the obstacles in the second round.
 
 **Note:** The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
 
-#### Arena 
+#### Arena
 
 ![](/img/event/fortress/image_3.png){:.img-responsive}
 
@@ -223,7 +227,7 @@ Hence the final score tally would be 250 points
 
 * -2 X 100 = -200 for incorrect identification of the last two shapes
 
-* 0 point for time bonus 
+* 0 point for time bonus
 
 Hence the final score tally will be 100 points.
 
@@ -234,5 +238,3 @@ Hence the final score tally will be 100 points.
 Email: **[swadha.gupta@robotix.in](mailto:swadha.gupta@robotix.in)**
 
 Ph. no: **+91 9425563726**
-
-
