@@ -36,6 +36,11 @@ Size of blocks will be `6 cm * 6 cm * 6 cm`.
 No. Laptop can be run only to burn the code prior to the run.
 
 
+**Q: What will happen if a block is dropped by the bot?**
+
+If the block is dropped by the bot, the block will placed where the bot wanted it to, by our team to avoid a restart. An incorrect deposition is not to be confused as dropping of the block.
+
+
 **Q: After timeout what will be the orientation of the robot?**
 
 It will be the same as the position and orientation of the robot before the timeout. The final decision rests with Team Robotix.
