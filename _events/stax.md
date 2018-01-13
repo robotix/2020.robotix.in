@@ -62,7 +62,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 * The robot will then pick a block from the main stack and identify its colour.
 
-* The robot has to use the side stacks for the intermediate steps involved, in order to achieve a particular sequence, given in advance by Team ROBOTIX.
+* The robot has to use the side stacks for the intermediate steps involved, in order to achieve a particular sequence that it detected initially from the indicator blocks.
 
 #### Arena
 
@@ -78,6 +78,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 * The line width for facilitating line following mechanism will be **5 cm**.
 
 * The distance between line edge and the color indicators providing sequence information wll be **12 cm**.
+
+* The indicator block will have a face of dimensions **10 cm x 10 cm**.
 
 * Horizontal lines of dimension **15 cm x 3 cm** provided inside the stacks with gap of **7 cm** will act as a marker to stop if required and pick/place the block.
 
@@ -142,6 +144,8 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 
 #### Round 1
 
+![](/img/event/stax/image_9.jpg){:.img-responsive}
+
 ##### Task
 
 * There will be a total of **3 blocks** in **random** order.
@@ -199,7 +203,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 **Formula:**
 
 {% highlight ruby %}
-1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 30*L - 50*A - 100*(O + V) - 150*S
+1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 75*L - 50*A - 100*(O + V) - 150*S
 {% endhighlight %}
 
 #### Round 2
@@ -265,7 +269,7 @@ To build a robot which can **rearrange** blocks of different colours from a stac
 **Formula:**
 
 {% highlight ruby %}
-1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 30*L - 50 *A - 100*(O + V) - 150*(S + D)
+1000 + 100*Q + 500*U + 150*(P + R) + 2*T - 75*L - 50 *A - 100*(O + V) - 150*(S + D)
 {% endhighlight %}
 ##### General Rules
 
