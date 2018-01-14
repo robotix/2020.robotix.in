@@ -77,7 +77,7 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
     * Round 1: **1**
 
-    * Round 2: **2**
+    * Round 2: **1**
 
 * Maximum Timeouts:
 
@@ -90,6 +90,8 @@ Build an image processing robot that can recognise useful patterns by pattern re
 * Restarts will be given only for technical fault in the robot
 
 * Thresholding time of **15 minutes** will be given in each round before the run starts.
+
+* The robot has to begin its run from the **START ZONE** marked in the center of the arena.
 
 **Robot Specifications:**
 
