@@ -75,7 +75,7 @@ No, once a member(s) of the team takes control of the robot, the same members ha
 
 **Q: Can servo motors be used in the bot?**
 
-Yes, they can be used.
+Yes, they can be used. However, the participants must use IC555 to operate the servo motors and not the arduino or the any other microcontroller.
 
 
 **Q: Can we make changes in the bot during the event?**
@@ -90,4 +90,4 @@ Yes, but no changes can be made to the bot during repairing and can lead to disq
 
 **Q: If two teams end on a tie what will happen?**
 
-There will be a tie breaker round in such a case.
+There will be a tie breaker round in such a case. The final decision will however be taken by Team Robotix and will be final and binding.
