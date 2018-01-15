@@ -41,6 +41,11 @@ No. Laptop can be run only to burn the code prior to the run.
 If the block is dropped by the bot, the block will placed where the bot wanted it to, by our team to avoid a restart. An incorrect deposition is not to be confused as dropping of the block.
 
 
+**Q: Are the non-waste blocks to be placed starting from open end or closed end?**
+
+In both the rounds, the blocks should be placed in the correct sequence starting from the opening of the main stack i.e. the last 3 and 2 places of the main stack will remain empty in rounds 1 and 2 respectively.
+
+
 **Q: After timeout what will be the orientation of the robot?**
 
 It will be the same as the position and orientation of the robot before the timeout. The final decision rests with Team Robotix.
