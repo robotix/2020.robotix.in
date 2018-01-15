@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/staxevent/about/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: 'https://drive.google.com/open?id=0B_hGYyJ7ZxBqSXdQQnBLOUQ1Z2c2TVQ3d1d2TmlYUS1UdGlB'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '/tutorial/event/stax'

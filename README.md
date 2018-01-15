@@ -23,7 +23,7 @@ Check if you have [all requirements for local environment](http://jekyllrb.com/d
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
     gem install bundler
-``` 
+```
 and run next command from root folder:
 
 ```bash
@@ -68,3 +68,4 @@ To minify CSS and JS run `minify_js.bat` (for Windows) and `minify_js.sh` (for L
 * Shivang Agrawal
 * Shubhika Garg
 * Sourish Ghosh
+* Rohit Ner
