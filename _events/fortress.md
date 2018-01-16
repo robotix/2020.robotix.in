@@ -91,7 +91,9 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
 * Thresholding time of **15 minutes** will be given in each round before the run starts.
 
-* The robot has to begin its run from the **START ZONE** marked in the center of the arena.
+* The robot has to begin and end its run at the **START ZONE** marked in the center of the arena.
+
+* The participants should use a seperate led for blinking and the time between led blinking should be such that the number of times the led is blinked can be easily counted. 
 
 **Robot Specifications:**
 
@@ -109,7 +111,7 @@ The arena will be plain black with some shapes of the same colour on it. There w
 
  The participants will be given an image which will comprise of the same number of shapes as the arena but they will be of different sizes and different colours. The shapes will have the same orientation in both the image and the arena.
 
-The task of round one is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. This round will last for 4 minutes.
+The task of round one is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. This round will last for 4 minutes. The robot has to start and end its run at the green coloured START ZONE marked in the center of the arena.
 The robot is allowed to traverse on the obatacles in the first round.
 
 **Note:** The serial number corresponding to a colour will be provided at the start of the run. The RGB values of the colours of the shapes in the image will also be provided.
@@ -142,7 +144,7 @@ The robot is allowed to traverse on the obatacles in the first round.
 
 * For restart: -100
 
-* Time bonus: + [240 - (time taken in sec)] x 3 points if all the shapes are identified successfully.
+* Time bonus: + [240 - (time taken in sec)] x 3 points (would be given only if all the shapes are identified successfully in the correct order and the robot ends it run at the start zone).
 
 #### Round 2
 
@@ -150,7 +152,7 @@ The arena will be plain black with some shapes of the same colour on it. There w
 
  The participants will also be given an image which will comprise of the same number of shapes but they will be of different sizes and different colours.The shapes will have **different** orientation in  the arena than the image. The obstacles will not be present in the given image.
 
-The task of round two is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. The robot has to avoid going over the obstacles in the arena or identifying them as one of the shapes in the image. This round will last for 4 minutes.
+The task of round two is to identify the  shapes present in the arena corresponding to the shapes in the image by performing pattern recognition. The colour of each shape in the image represents a serial number of that shape and the robot has to go to each shape in the ascending order of serial number. When it reaches a shape in the arena it has to blink the LED the number of times equal to the serial number of that shape. The robot has to avoid going over the obstacles in the arena or identifying them as one of the shapes in the image. This round will last for 4 minutes.The robot has to start and end its run at the green coloured START ZONE marked in the center of the arena.
 The robot is not allowed to traverse on the obstacles in the second round.
 
 **Note:** The serial number corresponding to a colour will be provided at the start of the run. And the RGB values of the colours of the shapes in the images will also be provided.
@@ -187,7 +189,7 @@ The robot is not allowed to traverse on the obstacles in the second round.
 
 * For restart: -100
 
-* Time bonus: + [240 - (time taken in sec)] x 3 points if all the shapes are identified successfully.
+* Time bonus: + [240 - (time taken in sec)] x 3 points (would be given only if all the shapes are identified successfully in the correct order and the robot ends it run at the start zone).
 
 ##### Example Scoring
 
