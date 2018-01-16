@@ -11,7 +11,7 @@ actions:
   -
     text: 'E'
     caption: 'Event PDF'
-    link: 'https://drive.google.com/open?id=0B_hGYyJ7ZxBqSXdQQnBLOUQ1Z2c2TVQ3d1d2TmlYUS1UdGlB'
+    link: '/PDF/Stax.pdf'
   -
     text: 'T'
     caption: 'Tutorial'
