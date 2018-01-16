@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/conquestevent/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/PDF/Fortress.pdf'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '/tutorial/event/fortress'
