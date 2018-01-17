@@ -11,7 +11,7 @@ actions:
   -
     text: 'E'
     caption: 'Event PDF'
-    link: '/PDF/Fortress.pdf'
+    link: '/assets/event/Fortress.pdf'
   -
     text: 'T'
     caption: 'Tutorial'

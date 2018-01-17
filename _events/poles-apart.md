@@ -11,7 +11,7 @@ actions:
   -
     text: 'E'
     caption: 'Event PDF'
-    link: '/PDF/Poles-Apart.pdf'
+    link: '/assets/event/Poles-Apart.pdf'
   -
     text: 'T'
     caption: 'Tutorial'

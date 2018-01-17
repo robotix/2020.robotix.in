@@ -11,7 +11,7 @@ actions:
   -
     text: 'E'
     caption: 'Event PDF'
-    link: '/PDF/Stax.pdf'
+    link: '/assets/event/Stax.pdf'
   -
     text: 'T'
     caption: 'Tutorial'
