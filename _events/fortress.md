@@ -97,7 +97,7 @@ Build an image processing robot that can recognise useful patterns by pattern re
 
 * The robot has to begin and end its run at the **START ZONE** marked in the center of the arena.
 
-* The participants should use a seperate led for blinking and the time between led blinking should be such that the number of times the led is blinked can be easily counted. 
+* The participants should use a seperate led for blinking and the time between led blinking should be such that the number of times the led is blinked can be easily counted.
 
 **Robot Specifications:**
 
@@ -128,11 +128,11 @@ The robot is allowed to traverse on the obatacles in the first round.
 
  **Dimensions:**
 
-* The dimensions of the arena will be *3m x 3m*.
+* The dimensions of the arena will be *3m x 2.5m*.
 
 * The dimensions of each square forming the shapes will be *10cm x 10cm*.
 
-* Standard marker provided will have two squares of colours pink and purple. However participants are free to use a marker of their own choice.
+* Standard marker provided will have two squares of colours orange and purple. However participants are free to use a marker of their own choice.
 
 ##### Scoring
 
@@ -169,11 +169,11 @@ The robot is not allowed to traverse on the obstacles in the second round.
 
 **Dimensions:**
 
-* The dimensions of the arena will be *3m x 3m*.
+* The dimensions of the arena will be *3m x 2.5m*.
 
 * The dimension of the squares will be *10cm x 10cm*.
 
-* Standard tracker provided will have two squares of colours orange and pink. However participants are free to use a marker of their own choice.
+* Standard tracker provided will have two squares of colours orange and purple. However participants are free to use a marker of their own choice.
 
 ##### Scoring
 

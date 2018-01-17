@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/polesapartevent/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/PDF/Poles-Apart.pdf'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '/tutorial/event/poles-apart'
@@ -43,40 +47,46 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 * Gripping and lifting mechanism.
 
-* Placing blocks in their respective places.
+* Placing blocks and planks in their respective places.
 
 #### Task
 
 ##### Round 1
 
-* Complete its way up a slope by picking blocks from an adjacent area and placing them in certain slots present on the arena to make a path for the robot to move ahead.
+* Start at the start zone marked red in the arena image.
+
+* Complete its way up a slope by picking blocks from an adjacent area (This area is not shown in the arena.) and placing them appropriately in certain slots present on the arena to make a path for the robot to  move ahead.
 
 * Place two horizontal planks on pillars to make a bridge to cross a valley (dimensions are specified later). The planks are to be picked up from an adjacent space that is not mentioned in the arena.
 
-* Cross another path by using 2 planks which will already be placed over it.
+* Cross another path by using 2 planks which will already be present over the valley.
 
 * Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a diverging pattern.
 
 * Cross a path which consists of two planks placed at an angle to each other such that, the distance between them changes continuously in a converging pattern.
 
-* Make its way down a converging slope and exit into the end zone.
+* Make its way down a converging slope and exit into the end zone marked green in the arena image.
 
 
 ##### Round 2
 
-* Complete its way up a slope by picking blocks from a circular rotating table and placing them in certain slots present on the arena to make a path for the robot to move ahead.
+* Start at the start zone marked red in the arena image.
 
-* There will be extra points awarded for picking up a block successfully from the table. However, there will be a penalty for dropping the blocks. If unable to proceed the rotating table will be stopped at the participants discretion with no extra points award.
+* Complete its way up a slope by picking blocks from a circular rotating table(which will be at the same level as the start zone and adjacent to the start zone) and placing them appropriately in certain slots present on the arena to make a path for the robot to move ahead.
 
-* Place 2 horizontal planks on pillars to make a bridge and cross a valley.
+* There will be  points awarded for picking up a block successfully from the table. However, there will be a penalty for dropping the blocks. If unable to proceed the rotating table will be stopped at the participants discretion with no points awarded for picking the block.
+
+* The rotating table is placed adjacent to the starting zone, at the same level and is not mentioned in the arena.
+
+* Place 2 horizontal planks on given pillars to make a bridge and cross a valley.
 
 * Cross a path with two circular planks of constant radius making an arc.
 
-* Make its way up a slope made of two planks which will be at an angle to each other in a converging pattern.
+* Make its way up a slope made of two planks which will be at an angle to each other in a diverging pattern.
 
-* Make its way down a slope made of two planks which will be at an angle to each other in a converging pattern.
+* Make its way down a slope made of two planks which will be at an angle to each other in a diverging pattern.
 
-* Make its way down a converging slope and exit into the end zone.
+* Make its way down a converging slope and exit into the end zone marked green in the arena image.
 
 
 #### Arenas
@@ -87,11 +97,17 @@ To build a manually controlled robot, which is capable of **picking and placing 
 
 ![](/img/event/poles-apart/1.jpg){:.img-responsive}
 
+![](/img/event/poles-apart/1.1.png){:.img-responsive}
+
+![](/img/event/poles-apart/1.2.png){:.img-responsive}
+
 **Arena specifications:**
 
 ![](/img/event/poles-apart/9.jpg){:.img-responsive}
 
 ![](/img/event/poles-apart/3.jpg){:.img-responsive}
+
+![](/img/event/poles-apart/3.1.png){:.img-responsive}
 
 ![](/img/event/poles-apart/4.png){:.img-responsive}
 
@@ -195,9 +211,7 @@ Isometric view:
 
 ##### Initial Orientation of Robot
 
-* The participant is allowed to decide the initial orientation of his robot on the start zone.
-
-* Team ROBOTIX reserves the right to disallow any initial orientation of the robot inside the starting zone if it gives the participant an undue advantage, solely based on the Team ROBOTIX's discretion.
+* Team ROBOTIX will decide the initial orientation of each robot at the start zone.
 
 ##### Restarts and Timeouts
 
@@ -233,15 +247,15 @@ Isometric view:
 
 **Positives**
 
-* Base score: **100**
+* Base score: **500**
 
-* Picking blocks
+* Picking and placing blocks
 
-    * Block 1: **60** (B1)
+    * Block 1: **100** (B1)
 
-    * Block 2: **70** (B2)
+    * Block 2: **100** (B2)
 
-* Picking and placing each plank: **100** (P1, P2)
+* Picking and placing each plank: **150** (P1, P2)
 
 * Crossing the first path: **150** (S1)
 
@@ -249,7 +263,7 @@ Isometric view:
 
 * Crossing the converging path: **200** (S3)
 
-* Time bonus: **number of seconds left(t')*5**
+* Time bonus: **number of seconds left(t')*2**
 
 **Negatives**
 
@@ -257,45 +271,41 @@ Isometric view:
 
 * Dropping a plank: **-50** (E2)
 
-* Disbalance of slipping of the robot: **-100** (E3)
+* Disbalance or slipping of the robot: **-50** (E3)
 
-* Falling of the arena: **50% of the current score**
+* Falling of the arena: **-100** (E4)
 
-* Dragging a block or plank across the arena: **-25** (E4)
+* Dragging a block or plank across the arena: **-25** (E5)
 
-* Negative marks for each timeout: **-50** (T)
+* Negative marks for each timeout: **-100** (T)
 
-* Negative marks for restart: **-100** (R)
+* Negative marks for restart: **-200** ( R )
 
 **Scoring formula:**
 
 {% highlight ruby %}
-100 + (60 * B1 + 70 * B2) + 100 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t' * 5
+500 + (100 * B1 + 100 * B2) + 150 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 50 * E3 + 100 * E4 + 25 * E5 + 100 * T + 200 * R) + t� * 2
 {% endhighlight %}
 
 ##### Round 2
 
 **Positives**
 
-* Base score: **100**
+* Base score: **500**
 
-* Picking each block from the rotating table: **100** (M1, M2, M3)
+* Picking of each block from the rotating table: **100** (M1, M2)
 
-* Placing of the blocks
+* Placing of the block into the correct cavity: **50** (N1, N2)
 
-    * Block 1: **40** (B1)
-
-    * Block 2: **50** (B2)
-
-* Placing of each plank: **50** (P1, P2)
+* Picking and placing of each plank: **100** (P1, P2)
 
 * Crossing the circular path: **150** (S1)
 
-* Crossing each sloping diverging/converging paths: **200** (S2, S3)
+* Crossing each sloping diverging paths: **200** (S2)
 
-* Time bonus: **number of seconds left(t') * 10**
+* Crossing each sloping diverging paths: **200** (S3)
 
-* Successfully picking the block from the rotating table: **100** (B3)
+* Time bonus: **number of seconds left(t') * 3**
 
 **Negatives**
 
@@ -303,22 +313,20 @@ Isometric view:
 
 * Dropping a plank: **-50** (E2)
 
-* Disbalance of slipping of the robot: **-100** (E3)
+* Disbalance or slipping of the robot: **-50** (E3)
 
-* Falling of the arena: **50% of the current score**
+* Falling off the arena: **-100** (E4)
 
-* Dragging a block or plank across the arena: **-25** (E4)
+* Dragging a block or plank across the arena: **-25** (E5)
 
-* Negative marks for each timeout: **-50** (T)
+* Negative marks for each timeout: **-100** (T)
 
-* Negative marks for restart: **-100** (R)
-
-* Dropping the block from the rotating table: **-25**
+* Negative marks for restart: **-200** ( R )
 
 **Scoring formula:**
 
 {% highlight ruby %}
-100 + 100 * (M1 + M2 + M3) + (40 * B1 + 50 * B2) + 50 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 100 * E3 + 25 * E4 + 50 * T + 100 * R) + t' * 10 + B3
+500 + 100 * (M1 + M2) + 50 * (N1 + N2) + 100 * (P1 + P2) + (150 * S1 + 200 * S2 + 200 * S3) - (25 * E1 + 50 * E2 + 50 * E3 + 100 * E4 + 25 * E5 + 100 * T + 200 * R) + t� * 3
 {% endhighlight %}
 
 ##### Contacts
