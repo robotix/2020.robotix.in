@@ -1,3 +1,68 @@
+- title: "2018"
+  team:
+    -
+      id: 17
+      name: "Abhinav"
+      surname: "Jain"
+      thumbnailUrl: abhinav.jpg
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
+        - {name: "site", link: "https://abhinavja.in"}
+        - {name: "email", link: "mailto:abhinav.jain@robotix.in"}
+    -
+      id: 18
+      name: "Aditya"
+      surname: "Narayan"
+      thumbnailUrl: aditya_narayan.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/aditnryn"}
+        - {name: "site", link: "https://narayanaditya.in"}
+        - {name: "email", link: "mailto:aditya.narayan@robotix.in"}
+    -
+      id: 19
+      name: "Apoorva"
+      surname: "Sharma"
+      thumbnailUrl: apoorva_sharma.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/apoorva11"}
+        - {name: "email", link: "mailto:apoorva.sharma@robotix.in"}
+    -
+      id: 23
+      name: "Rohan"
+      surname: "Lohia"
+      thumbnailUrl: rohan.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/spoiltbrat.r?fref=ts"}
+        - {name: "email", link: "mailto:rohan@robotix.in"}
+    -
+      id: 31
+      name: "Rajat"
+      surname: "Chaurasia"
+      thumbnailUrl: rajat.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rajat.chaurasia.50"}
+    -
+      id: 33
+      name: "Shashwat"
+      surname: "Gupta"
+      thumbnailUrl: shashwat.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/shashwatg3"}
+        - {name: "email", link: "mailto:shashwat@robotix.in"}
+    -
+      id: 32
+      name: "Shubhangi"
+      surname: "Bhushan"
+      thumbnailUrl: shubhangi.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/shubhibhushan"}
+        - {name: "email", link: "mailto:shubhangi@robotix.in"}        
 - title: "2017"
   team:
     -
