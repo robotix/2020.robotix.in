@@ -164,17 +164,6 @@
         - {name: "email", link: "mailto:aditi.singh@robotix.in"}
     -
       id: 47
-      name: Akshay
-      surname: Jain
-      title: "Head"
-      thumbnailUrl: akshayjain.jpg
-      team: true
-      tag: Manual
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/akahay.jain.96"}
-        - {name: "email", link: "mailto:akshay.jain@robotix.in"}
-    -
-      id: 48
       name: Anvee
       surname: Naik
       title: "Head"
@@ -186,19 +175,7 @@
         - {name: "github", link: "https://www.github.com/anveenaik99"}
         - {name: "email", link: "mailto:anvee.naik@robotix.in"}
     -
-      id: 49
-      name: Manad
-      surname: Mishra
-      title: "Head"
-      thumbnailUrl: manadmishra.jpg
-      team: true
-      tag: Autonomous
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/manad.mishra.98"}
-        - {name: "github", link: "https://www.github.com/manadmishra"}
-        - {name: "email", link: "mailto:manad.mishra@robotix.in"}
-    -
-      id: 50
+      id: 48
       name: Rohit
       surname: Ner
       title: "Head"
@@ -210,7 +187,7 @@
         - {name: "github", link: "https://www.github.com/rohitner"}
         - {name: "email", link: "mailto:rohit.ner@robotix.in"}
     -
-      id: 51
+      id: 49
       name: Shivansh
       surname: Mundra
       title: "Head"
@@ -222,7 +199,7 @@
         - {name: "github", link: "https://github.com/shivanshmundra"}
         - {name: "email", link: "mailto:shivansh.mundra@robotix.in"}
     -
-      id: 52
+      id: 50
       name: Shubhika
       surname: Garg
       title: "Head"
@@ -234,7 +211,7 @@
         - {name: "github", link: "https://www.github.com/shubhika03"}
         - {name: "email", link: "mailto:shubhika.garg@robotix.in"}
     -
-      id: 53
+      id: 51
       name: Siddhartha
       surname: Kapuria
       title: "Head"
@@ -246,7 +223,7 @@
         - {name: "github", link: "https://www.github.com/skapuria"}
         - {name: "email", link: "mailto:siddhartha.kapuria@robotix.in"}
     -
-      id: 54
+      id: 52
       name: Vidit
       surname: Goel
       title: "Head"
@@ -261,7 +238,7 @@
 - title: "Sub Head"
   team:
     -
-      id: 55
+      id: 53
       name: Anirudh
       surname: Roy
       title: "Sub Head"
@@ -273,7 +250,7 @@
         - {name: "github", link: "https://www.github.com/royanirudh99"}
         - {name: "email", link: "mailto:anirudh.roy@robotix.in"}
     -
-      id: 56
+      id: 54
       name: Jaydeep
       surname: Godbole
       title: "Sub Head"
@@ -285,7 +262,7 @@
         - {name: "github", link: "https://www.github.com/JaydeepGodbole"}        
         - {name: "email", link: "mailto:jaydeep.godbole@robotix.in"}
     -
-      id: 57
+      id: 55
       name: Manthan
       surname: Patel
       title: "Sub Head"
@@ -296,7 +273,7 @@
         - {name: "github", link: "https://www.github.com/manthan99"}
         - {name: "email", link: "mailto:manthan.patel@robotix.in"}
     -
-      id: 58
+      id: 56
       name: Mohit
       surname: Singh
       title: "Sub Head"
@@ -308,18 +285,7 @@
         - {name: "github", link: "https://www.github.com/mfsGit"}
         - {name: "email", link: "mailto:mohit.singh@robotix.in"}
     -
-      id: 59
-      name: Nikita
-      surname: Gautam
-      title: "Sub Head"
-      thumbnailUrl: nikitagautam.png
-      team: true
-      tag: Manual
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/dreamy.eyednix18"}
-        - {name: "email", link: "mailto:nikita.gautam@robotix.in"}
-    -
-      id: 60
+      id: 57
       name: Shivangi
       surname: Srivastava
       title: "Sub Head"
@@ -331,7 +297,7 @@
         - {name: "github", link: "https://github.com/shivangi-29"}
         - {name: "email", link: "mailto:shivangi.srivastava@robotix.in"}
     -
-      id: 61
+      id: 58
       name: Shreyansh
       surname: Vats
       title: "Sub Head"
@@ -343,7 +309,7 @@
         - {name: "github", link: "https://www.github.com/shrey-kgp"}
         - {name: "email", link: "mailto:shreyansh.vats@robotix.in"}
     -
-      id: 62
+      id: 59
       name: Tanya
       surname: Sneh
       title: "Sub Head"
