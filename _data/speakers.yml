@@ -177,7 +177,7 @@
   id: 23
   name: Anvee
   surname: Naik
-  title: "Sub Head"
+  title: "Head"
   thumbnailUrl: anvee.jpg  
   social :
     - { name: facebook, link: "https://www.facebook.com/anvee.naik"}
@@ -189,3 +189,19 @@
   thumbnailUrl: aditisingh.jpg  
   social :
     - { name: facebook, link: "https://www.facebook.com/aditi.singh"}
+-
+  id: 25
+  name: Shreyansh
+  surname: Vats
+  title: "Sub Head"
+  thumbnailUrl: shreyanshvats.jpg  
+  social :
+    - { name: facebook, link: "https://www.facebook.com/shreyansh.vats"}
+-
+  id: 26
+  name: Shivansh
+  surname: Mundra
+  title: "Head"
+  thumbnailUrl: shivanshmundra.jpg  
+  social :
+    - { name: facebook, link: "https://www.facebook.com/shivansh.cool.77"}
