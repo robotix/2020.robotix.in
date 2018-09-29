@@ -13,8 +13,8 @@ schedule:
         sessionIds: [001]
       }
   -
-    date: "2017-8-24"
-    dateReadable: "August 24"
+    date: "2018-8-30"
+    dateReadable: "August 30"
     tracks: 
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
