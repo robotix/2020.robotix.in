@@ -12,14 +12,14 @@
 -
   id: 002
   title: "KRAIG 102"
-  description: "Building your own robosoccer bot!"
+  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
   subtype: presentation
-  speakers: [20, 21]
+  speakers: [25, 27]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/view/NqsDmw2TWV2MS0j2XVyt/"} 
-  video: "https://circuits.io/circuits/2578473-relay-example-with-motor/embed#breadboard"
+    - { title: "View presentation", src: "http://prezi.com/kgbq90o0jtdm/?utm_campaign=share&utm_medium=copy&rc=ex0share"}
+  banner: "/img/session/001/KRAIG102.jpg"    
 -
   id: 006
   title: "Visual Pose Estimation for a Mobile Manipulator"

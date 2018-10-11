@@ -205,3 +205,11 @@
   thumbnailUrl: shivanshmundra.jpg  
   social :
     - { name: facebook, link: "https://www.facebook.com/shivansh.cool.77"}
+-
+  id: 27
+  name: Manthan
+  surname: Patel
+  title: "Sub Head"
+  thumbnailUrl: manthanpatel.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/profile.php?id=100009628577571"}
