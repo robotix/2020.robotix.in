@@ -14,8 +14,8 @@ The annual winter workshop is organized each year, after the conclusion of the a
 ##### 2. When is the winter workshop?
 The winter workshop is conducted in two phases to include students having NSS/NCC camps. Therefore the dates for both the phases are as follows -:
 
- - **Phase One** - 1<sup>st</sup> December - 7<sup>th</sup> December.
- - **Phase Two** - 10<sup>th</sup> December - 16<sup>th</sup> December.
+ - **Phase One** - 30<sup>th</sup> November - 6<sup>th</sup> December.
+ - **Phase Two** - 8<sup>th</sup> December - 14<sup>th</sup> December.
 
 <br>
 
