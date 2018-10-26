@@ -91,7 +91,7 @@ statisticBlock:
  # - {count: "500", specialCharacter: "+", info: "teams"}
  - {count: "3", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
-statisticQuirk: "Robotix 2018, #GearUp"
+statisticQuirk: "Robotix 2019, #GearUp"
 
 # Latest News Block
 latestNewsTitle: "Latest blog articles"
