@@ -81,13 +81,14 @@
 -
   id: 003
   title: "KRAIG 201"
-  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
+  description: "Workshop on Autonomous robotics"
   subtype: presentation
-  speakers: [21, 23]
+  speakers: [28, 30]
   language: en
   complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/uoj1vhyscugf/advanced/?utm_campaign=share&utm_medium=copy"}
+    - { title: "View presentation", src: "https://prezi.com/view/QB15UEDPzh0QYskLxRzd/"}
+  banner: "/img/session/001/201.jpg" 
 
 -
   id: 012
@@ -111,12 +112,13 @@
 -
   id: 004
   title: "KRAIG 301"
-  description: "Introduction to Autonomous robotics"
+  description: "Introduction to Image Processing and Computer Vision"
   subtype: presentation
-  speakers: [15, 20, 24]
+  speakers: [29, 31, 32]
   language: en
-  complexity: "Beginner"
+  complexity: "Intermediate"
   links:
-    - { title: "View presentation", src: "https://prezi.com/p/8zbr_57cp0v8/"}
+    - { title: "View presentation", src: "https://prezi.com/view/mlFWebAyuL9o0HLLayt0/?fbclid=IwAR3JV-N29Im4ROaoOYeZkFRX3cRBs-jIiXEjo_NT9dvVwTF_LbeBdiUS77Q"}
+  banner: "/img/session/001/301.png"
 
     

@@ -213,3 +213,43 @@
   thumbnailUrl: manthanpatel.jpg
   social:
     - { name: facebook, link: "https://www.facebook.com/profile.php?id=100009628577571"}
+-
+  id: 28
+  name: Anirudh
+  surname: Roy
+  title: "Sub Head"
+  thumbnailUrl: anirudhroy.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/anirudh.roy.552"}
+-
+  id: 29
+  name: Jaydeep
+  surname: Godbole
+  title: "Sub Head"
+  thumbnailUrl: jaydeepgodbole.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/godbolejaydeep"}
+-
+  id: 30
+  name: Mohit
+  surname: Singh
+  title: "Sub Head"
+  thumbnailUrl: mohitsingh.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/profile.php?id=100010079228375"}
+-
+  id: 31
+  name: Tanya
+  surname: Sneh
+  title: "Sub Head"
+  thumbnailUrl: tanyasneh.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/tanya.sneh10"}
+-
+  id: 32
+  name: Shivangi
+  surname: Srivastava
+  title: "Sub Head"
+  thumbnailUrl: shivangisrivastava.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/profile.php?id=100017668215282"}
