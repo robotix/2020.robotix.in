@@ -7,7 +7,7 @@ actions:
   -
     text: 'R'
     caption: 'Register'
-    link: http://bit.do/rse18
+    link: https://goo.gl/forms/3mXRKNJWbJri9FXf1
 ---
 
 Technology Robotix Society, IIT Kharagpur, has long been a frontrunner for robotics in the country. Now, it is reaching out to students all across India, to include them in the fray and further the development of the culture of robotics in the nation. TRS is looking for dynamic individuals to fill the coveted Robotix Student Executive posts and take technical exposure in the country to ever greater heights.
@@ -20,7 +20,7 @@ A RSE would have the unique opportunity to be in contact with Team Robotix for a
 
 #### How to register for RSE?
 
-Interested candidates can fill [this form](http://bit.do/rse18) to register.
+Interested candidates can fill [this form](https://goo.gl/forms/3mXRKNJWbJri9FXf1) to register.
 
 #### What does an RSE do?
 
