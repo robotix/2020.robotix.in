@@ -129,6 +129,7 @@ footerBlocks:
  -
   title: "Archives"
   links:
+   - {link: "https://2018.robotix.in/", text: "Robotix 2018"}
    - {link: "https://2017.robotix.in/", text: "Robotix 2017"}
    - {link: "https://2016.robotix.in/", text: "Robotix 2016"}
 
