@@ -5,10 +5,6 @@ subTitle: 'Autonomous Event'
 logo: /img/event/cubiscan/logo.png
 actions:
   -
-    text: 'E'
-    caption: 'Event PDF'
-    link: '/assets/event/Cubiscan.pdf'
-  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/cubiscan/DIY_auto.png'
@@ -212,7 +208,7 @@ For relevant tutorials check [ROBOTIX TUTORIALS](https://www.robotix.in/tutorial
 
 Email: **[rohit.ner@robotix.in](mailto:rohit.ner@robotix.in)**
 
-Ph. no: **+91 7479322111**
+Ph. no: **+91 9167401706**
 
 ###### Aditi Singh
 

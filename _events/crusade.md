@@ -4,10 +4,6 @@ title: 'Crusade'
 subTitle: 'Computer Vision Event'
 logo: /img/event/crusade/logo.png
 actions:
-  -
-    text: 'E'
-    caption: 'Event PDF'
-    link: '/assets/event/Crusade.pdf'
 ---
 
 
@@ -18,7 +14,7 @@ actions:
 
 * Colour detection
 
-* Blinking LED frequency detection
+* Blinking 	LED frequency detection
 
 * Autonomous traversal
 

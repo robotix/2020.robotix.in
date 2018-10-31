@@ -5,10 +5,6 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/zenith/logo.png
 actions:
   -
-    text: 'E'
-    caption: 'Event PDF'
-    link: '/assets/event/Zenith.pdf'
-  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/zenith/DIY_zenith.png'
