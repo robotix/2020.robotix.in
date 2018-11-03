@@ -29,7 +29,7 @@ To make a semi-autonomous robot which can traverse manually through a trench/lan
 
 #### Rules
 
-##### Generel Rules
+##### General Rules
 
 * The maximum number of participants allowed per team: 4 people
 
@@ -226,14 +226,14 @@ For relevant tutorials check [ROBOTIX TUTORIALS](https://www.robotix.in/tutorial
 
 ##### Contact
 
-###### Rohit Ner
-
-Email: **[rohit.ner@robotix.in](mailto:rohit.ner@robotix.in)**
-
-Ph. no: **+91 9167401706**
-
 ###### Aditi Singh
 
 Email: **[aditi.singh@robotix.in](mailto:aditi.singh@robotix.in)**
 
 Ph. no: **+91 7478085999**
+
+###### Rohit Ner
+
+Email: **[rohit.ner@robotix.in](mailto:rohit.ner@robotix.in)**
+
+Ph. no: **+91 9167401706**
