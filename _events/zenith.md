@@ -81,7 +81,13 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 ##### Round 2
 
-To be updated soon.
+![](/img/event/zenith/manual1_round2.png){:.img-responsive}
+
+![](/img/event/zenith/manual2_round2.png){:.img-responsive}
+
+![](/img/event/zenith/manual3_round2.png){:.img-responsive}
+
+![](/img/event/zenith/manual4_round2.png){:.img-responsive}
 
 #### Rules and Specifications
 
