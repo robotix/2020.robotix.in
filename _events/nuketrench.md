@@ -219,3 +219,21 @@ The arena will have two types of nodes:-
 ![](/img/event/nuke_trench/7.png){:.img-responsive}
 
 ![](/img/event/nuke_trench/8.png){:.img-responsive}
+
+**Links to Tutorials:**
+
+For relevant tutorials check [ROBOTIX TUTORIALS](https://www.robotix.in/tutorial/).
+
+##### Contact
+
+###### Rohit Ner
+
+Email: **[rohit.ner@robotix.in](mailto:rohit.ner@robotix.in)**
+
+Ph. no: **+91 9167401706**
+
+###### Aditi Singh
+
+Email: **[aditi.singh@robotix.in](mailto:aditi.singh@robotix.in)**
+
+Ph. no: **+91 7478085999**
