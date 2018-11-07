@@ -7,7 +7,11 @@ actions:
   -
     text: 'D'
     caption: 'Do-It-Yourself'
-    link: '/img/event/cubiscan/DIY_auto.png'
+    link: '/img/event/cubiscan/DIY_cubiscan.png'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    link: '../../tutorial/event/cubiscan/'
 ---
 
 

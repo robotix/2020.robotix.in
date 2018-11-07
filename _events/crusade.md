@@ -4,6 +4,10 @@ title: 'Crusade'
 subTitle: 'Computer Vision Event'
 logo: /img/event/crusade/logo.png
 actions:
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    link: '../../tutorial/event/crusade/'
 ---
 
 
