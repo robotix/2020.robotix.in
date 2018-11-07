@@ -7,7 +7,11 @@ actions:
   -
     text: 'D'
     caption: 'Do-It-Yourself'
-    link: '/img/event/zenith/DIY_zenith.png'
+    link: '/img/event/zenith/DIY_Zenith.png'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    link: '../../tutorial/event/zenith/'
 ---
 #### Introduction
 

@@ -8,6 +8,10 @@ actions:
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/nuke_trench/DIY_nuke_trench.png'
+  -
+    text: 'T'
+    caption: 'Tutorial'
+    link: '../../tutorial/event/nuke_trench/'
 ---
 
 
