@@ -8,6 +8,14 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crusade/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=P4oVYeCFGjA&t=0s&index=3&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/crusade/faq/'
 ---
 
 

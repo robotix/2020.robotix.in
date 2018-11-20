@@ -12,6 +12,14 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/nuke_trench/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=0YueKRUGVZ4&t=0s&index=4&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/nuke_trench/faq/'
 ---
 
 

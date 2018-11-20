@@ -16,7 +16,7 @@ Technology Robotix Society, IIT Kharagpur, has long been a frontrunner for robot
 
 Robotix Student Executives are representatives of Team Robotix among their fellow college-goers in their respective regions. The post has been introduced with a view to increasing and enriching the interaction with the participants for our annual fest ROBOTIX and to spread the culture of robotics throughout the country.
 
-A RSE would have the unique opportunity to be in contact with Team Robotix for any kind of technical and robotics assistance throughout their tenure. They would serve as the point of contact between people of their college and Team Robotix for robotics workshops, tutorials, event queries, and any kind of help required. The tenure of an RSE is of six months and valid till March, 2018. His job profile consists of both technical and managerial tasks where he is presented with an opportunity to learn as well as to help his co students and fellow tech-men along in the journey of robotics.
+A RSE would have the unique opportunity to be in contact with Team Robotix for any kind of technical and robotics assistance throughout their tenure. They would serve as the point of contact between people of their college and Team Robotix for robotics workshops, tutorials, event queries, and any kind of help required. The tenure of an RSE is of six months and valid till March, 2019. His job profile consists of both technical and managerial tasks where he is presented with an opportunity to learn as well as to help his co students and fellow tech-men along in the journey of robotics.
 
 #### How to register for RSE?
 

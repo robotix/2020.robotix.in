@@ -12,6 +12,14 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/zenith/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=XYLyITP-SXA&t=0s&index=5&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/zenith/faq/'
 ---
 #### Introduction
 
