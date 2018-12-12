@@ -8,6 +8,14 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crusade/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=P4oVYeCFGjA&t=0s&index=3&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/crusade/faq/'
 ---
 
 
@@ -117,7 +125,7 @@ The position of the START and END ZONE will be marked at the start of the run. T
 
 **Note:**
 
-* The yellow and green squares represent the START and END points in the arena. The bot has to traverse on the only open path from the START to the END.
+* The yellow and green squares represent the START and END points respectively in the arena. The bot has to traverse on the only open path from the START to the END.
 
 * The red circles represent the glowing LEDs.
 
@@ -128,6 +136,8 @@ The position of the START and END ZONE will be marked at the start of the run. T
 * The dimensions of the arena will be 3m x 2.1m
 
 * The width of the lane will be 40cm throughout.
+
+* The height of the walls will be 25cm throughout.
 
 
 
@@ -186,7 +196,7 @@ The position of the START and END ZONE will be marked at the start of the run. W
 
 **Note:**
 
-* The yellow and green squares represent the START and END points in the arena.
+* The yellow and green squares represent the START and END points respectively in the arena.
 
 * The red circles represent the glowing LEDs.
 
@@ -199,6 +209,8 @@ The position of the START and END ZONE will be marked at the start of the run. W
 * The dimensions of the arena will be 3m x 2.1m.
 
 * The width of the lane will be 40cm throughout.
+
+* The height of the walls will be 25cm throughout.
 
 
 ##### Scoring

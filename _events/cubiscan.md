@@ -12,6 +12,14 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/cubiscan/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=4Ma6qa9Aof0&t=0s&index=2&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/cubiscan/faq/'
 ---
 
 

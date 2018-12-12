@@ -2,7 +2,7 @@
 layout: post
 title: Mechanical Design Competition
 permalink: /mechdesign/
-image: img/sections-background/poster.jpg
+image: img/sections-background/mech.png
 ---
 
 #### Rules:
@@ -13,7 +13,7 @@ The rules of this competition are as follows:
 
 * Each team can consist of a maximum of 4 members.
 * The team members can be from different institutes or colleges.
-* The Mechanical design winners will be eligible for the rewarded benefits in Robotix 2018 subject to the condition that the robot made for the event should be based on the submitted design.
+* The Mechanical design winners will be eligible for the rewarded benefits in Robotix 2019 subject to the condition that the robot made for the event should be based on the submitted design.
 * The right spirit of participation is expected from the participants.
 * The decision of Team ROBOTIX will be final and binding.
 
@@ -26,7 +26,7 @@ The rules of this competition are as follows:
 * An additional "Introduction Page" is to be submitted along with your report.
 * The submission should be in PDF format only.
 * The introduction page will be shared on our facebook page (in .jpeg format) by us within 48 hours of receiving it and likes on this image will be taken into consideration for the scoring.
-* For judgement, likes will be considered only  from the time of uploading till 3rd January 2018. Results will be declared on 5th of January on facebook page as well as website.
+* For judgement, likes will be considered only  from the time of uploading till 3rd January 2019. Results will be declared on 5th of January on facebook page as well as website.
 
 **Scoring :**
 
@@ -40,22 +40,22 @@ The weightage for scoring will be as following:
     * Cost Effectiveness: 10%
     * Presentation: 10%
 
-##### **SUBMISSION DEADLINE:** 30th November, 2017
+##### **SUBMISSION DEADLINE:** 30th December, 2018
 
-##### Send your entries to [polesapart@robotix.in](mailto:polesapart@robotix.in)
+##### Send your entries to [zenith@robotix.in](mailto:zenith@robotix.in)
 
 For any queries,
 
 **Contact :**
 
-**Amit Pathak**  
-Email ID : [amit.pathak@robotix.in](mailto:amit.pathak@robotix.in)  
-Phone No. : (+91) 9431888031  
+**Siddhartha Kapuria**  
+Email ID : [siddhartha.kapuria@robotix.in](mailto:siddhartha.kapuria@robotix.in)  
+Phone No. : (+91) 7479322111  
 
-**Ayush Patnaik**  
-Email ID : [ayush.patnaik@robotix.in](mailto:ayush.patnaik@robotix.in)  
-Phone No. : (+91) 8436932111  
+**Shivansh Mundra**  
+Email ID : [shivansh.mundra@robotix.in](mailto:shivansh.mundra@robotix.in)  
+Phone No. : (+91) 7877399396  
 
-**Rohan Sitaniya**  
-Email ID : [rohan.sitaniya@robotix.in](mailto:rohan.sitaniya@robotix.in)  
-Phone No. : (+91) 7407997776
+**Anvee Naik**  
+Email ID : [anvee.nail@robotix.in](mailto:anvee.naik@robotix.in)  
+Phone No. : (+91) 7430944999
