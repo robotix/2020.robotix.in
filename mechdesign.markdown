@@ -40,7 +40,7 @@ The weightage for scoring will be as following:
     * Cost Effectiveness: 10%
     * Presentation: 10%
 
-##### **SUBMISSION DEADLINE:** 30th November, 2018
+##### **SUBMISSION DEADLINE:** 30th December, 2018
 
 ##### Send your entries to [zenith@robotix.in](mailto:zenith@robotix.in)
 

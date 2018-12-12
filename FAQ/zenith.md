@@ -42,8 +42,14 @@ The registrations will begin soon.
 **Q: What are the dimension constraints of the robot?**
 
 The robot, in its most concise form, before the start of the run cannot exceed 30 cm * 30 cm * 30 cm. It can, however, enlarge itself during the run.
+
 Arena related specifications
 All the arena-related specifications and dimensions have been updated on the website. Find the link here: details of the event Zenith. For any further doubts contact us through our facebook page.
+
+
+**Q: What are the dimensions of the gate?**
+
+ The pole stands at a height of 30 cm, and the gate is 8 cm above the base, and in total its height is 18 cm. There will be a protusion with the help of which the bot will be able to lift the gate up at a height of 10 cm.
 
 
 **Q: What does base score mean?**
@@ -69,6 +75,7 @@ No, once a member(s) of the team takes control of the robot, the same members ha
 **Q: Can servo motors be used in the bot?**
 
 Yes, they can be used. However, the participants must use IC555 to operate the servo motors and not the Arduino or any other microcontroller.
+
 
 **Q: Can we make changes in the bot during the event?**
 

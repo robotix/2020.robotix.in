@@ -77,3 +77,13 @@ It will be announced before the run of each participant in their second round. I
 **Q: Can the inbuilt LED of an Arduino be used?**
 
 No, the LED of an Arduino can’t be used as it is not visible enough to count the number of times it blinks. The LED used should be properly visible.
+
+
+**Q: Which type of LED will be used on the arena?**
+
+5mm round blue LEDs on the walls and red LEDs on the floor will be used.
+
+
+**Q: Will the path be identical to the one shown in the arena on the website?**
+
+No, the paths will be different for every participant. However, the length of the path, the number of turns and number of LEDs in the path will be identical for all participants.

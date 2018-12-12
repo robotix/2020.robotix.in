@@ -34,7 +34,7 @@ Yes, you can use your own circuits.
 Materials such as wood, PLA(3d printed parts), aluminium etc can be used.
 
 
-Q: Which micro-controller is recommended?
+**Q: Which micro-controller is recommended?**
 
 Areuino mega (atmega 2560) is recommended
 
@@ -72,3 +72,8 @@ A sample arena with sample blocks and color strips for calibration will be avail
 **Q: How to display the order of the blocks?**
 
 The order of the blocks need to be indicated with the help of LEDs. Using LCD screen is not allowed.
+
+
+**Q: What about the lines which are not to be used(crossed) for traversal in the first round?**
+
+These lines will not be present in the first round and will be added only in the second round.

@@ -56,7 +56,7 @@ Arduino Uno is recommended
 
 **Q: What will be the dimensions of the blocks?**
 
-Size of blocks will be 6cm*6cm*6cm.
+Size of blocks will be 6cm x 6cm x 6cm.
 
 
 **Q: Can the bot be connected to a laptop during the run?**
