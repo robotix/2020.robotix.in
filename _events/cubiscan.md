@@ -5,6 +5,10 @@ subTitle: 'Autonomous Event'
 logo: /img/event/cubiscan/logo.png
 actions:
   -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: 'https://www.facebook.com/groups/cubiscanevent/'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/cubiscan/DIY_cubiscan.png'
