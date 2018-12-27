@@ -97,7 +97,7 @@ Top view
 
 ![](/img/event/zenith/rnd1.3.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.4png){:.img-responsive}
+![](/img/event/zenith/rnd1.4.png){:.img-responsive}
 
 ![](/img/event/zenith/rnd1.5.png){:.img-responsive}
 
