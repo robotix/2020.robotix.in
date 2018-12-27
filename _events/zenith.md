@@ -5,6 +5,10 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/zenith/logo.png
 actions:
   -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: 'https://www.facebook.com/groups/zenithevent/'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/zenith/DIY_Zenith.png'
@@ -83,23 +87,72 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 ##### Round 1
 
-![](/img/event/zenith/manual1_round1.png){:.img-responsive}
+Isometric view
 
-![](/img/event/zenith/manual2_round1.png){:.img-responsive}
+![](/img/event/zenith/rnd1.1.png){:.img-responsive}
 
-![](/img/event/zenith/manual3_round1.png){:.img-responsive}
+Top view
 
-![](/img/event/zenith/manual4_round1.png){:.img-responsive}
+![](/img/event/zenith/rnd1.2.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.3.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.4.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.5.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.6.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.7.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.8.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.9.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.10.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.11.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.12.png){:.img-responsive}
+
+![](/img/event/zenith/rnd1.13.png){:.img-responsive}
 
 ##### Round 2
 
-![](/img/event/zenith/manual1_round2.png){:.img-responsive}
+Isometric
 
-![](/img/event/zenith/manual2_round2.png){:.img-responsive}
+![](/img/event/zenith/rnd1.1.png){:.img-responsive}
 
-![](/img/event/zenith/manual3_round2.png){:.img-responsive}
+Top view
 
-![](/img/event/zenith/manual4_round2.png){:.img-responsive}
+![](/img/event/zenith/rnd2.2.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.3.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.4.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.5.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.6.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.7.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.8.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.9.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.10.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.11.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.12.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.13.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.14.png){:.img-responsive}
+
+![](/img/event/zenith/rnd2.15.png){:.img-responsive}
+
 
 #### Rules and Specifications
 

@@ -5,6 +5,10 @@ subTitle: 'Computer Vision Event'
 logo: /img/event/crusade/logo.png
 actions:
   -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: 'https://www.facebook.com/groups/crusadeevent/'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crusade/'
@@ -18,7 +22,9 @@ actions:
     link: '/event/crusade/faq/'
 ---
 
+#### Introduction
 
+Imagine a war-field infested with bombs. You are desperate for a victory and want your troop to get away safely from this devious situation. You have been asked to design the prototype of a bot that can detect these bombs and indicating the same to the troop waiting outside.
 
 #### USP
 
@@ -57,6 +63,10 @@ To build an image processing robot that is capable of traversing in a lane while
 
 * If we suspect hard coding, we reserve the full right to check the participant’s robot by testing on random arenas and code submission.
 
+* Only the use of a camera is allowed. No other sensor can be used.
+
+* Only one onboard camera can be used. Participants are not allowed to use any other camera elsewhere or multiple cameras onboard.
+
 * Any team displaying aggressive behaviour or refusing to comply with Team Robotix judgement will be immediately disqualified.
 
 * Wilful damage of the arena may lead to disqualification and a fine.
@@ -82,8 +92,6 @@ To build an image processing robot that is capable of traversing in a lane while
 * Restarts will be given only for technical fault in the robot
 
 * Thresholding time of **20 minutes** will be given in each round before the run starts.
-
-* The robot has to begin and end its run at the **START ZONE** marked in the center of the arena.
 
 * The participants should use a separate LED for blinking.
 
