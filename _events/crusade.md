@@ -17,6 +17,13 @@ actions:
     caption: 'Tutorial Video'
     link: https://www.youtube.com/watch?v=P4oVYeCFGjA&t=0s&index=3&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: '/blog/registration-for-robotix-2019/'
+  -
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/crusade/faq/'
@@ -28,7 +35,7 @@ Imagine a war-field infested with bombs. You are desperate for a victory and wan
 
 #### USP
 
-* Lane following
+* Lane following using camera
 
 * Colour detection
 
@@ -63,7 +70,7 @@ To build an image processing robot that is capable of traversing in a lane while
 
 * If we suspect hard coding, we reserve the full right to check the participant’s robot by testing on random arenas and code submission.
 
-* Only the use of a camera is allowed. No other sensor can be used.
+* For solving the PS no other sensor apart from a monocular camera is allowed.
 
 * Only one onboard camera can be used. Participants are not allowed to use any other camera elsewhere or multiple cameras onboard.
 
