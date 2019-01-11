@@ -21,9 +21,20 @@ actions:
     caption: 'Tutorial Video'
     link: https://www.youtube.com/watch?v=4Ma6qa9Aof0&t=0s&index=2&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: '/blog/registration-for-robotix-2019/'
+  -
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/cubiscan/faq/'
+  -
+    text: 'L'
+    caption: 'Component List'
+    link: '/event/cubiscan/components/'
 ---
 
 
@@ -61,6 +72,11 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 **Note** - The red cross indicates that the bot is not allowed to enter that node.
 
+![](/img/event/cubiscan/round1.1.png){:.img-responsive}
+![](/img/event/cubiscan/round1.2.png){:.img-responsive}
+
+**Note** - The distance of the centre of the block will be 8.5 cm from the edge of the line.
+
 ##### Round2
 
 ![](/img/event/cubiscan/round2.png){:.img-responsive}
@@ -86,6 +102,8 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 * For the 2nd round,height, width and depth of the blocks will vary.
 
 * The weight of the block will be around 100 gms.
+
+* All blocks will be white in colour.
 
 ##### Robot Specification
 

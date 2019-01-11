@@ -21,6 +21,13 @@ actions:
     caption: 'Tutorial Video'
     link: https://www.youtube.com/watch?v=XYLyITP-SXA&t=0s&index=5&list=PLzio60ZRzGwZnBalC0uoKlUgkN17uYWJp
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: '/blog/registration-for-robotix-2019/'
+  -
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/zenith/faq/'
@@ -118,10 +125,6 @@ Top view
 ![](/img/event/zenith/rnd1.13.png){:.img-responsive}
 
 ##### Round 2
-
-Isometric
-
-![](/img/event/zenith/rnd1.1.png){:.img-responsive}
 
 Top view
 
