@@ -173,10 +173,10 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 * Maximum time for **Round 2** will be **8 minutes**. A restart will only be given before **5 minutes** into that round.
 
 **EXAMPLE:**For example, the dimensions of the blocks are as follows- <br>
-1st block : 5\*5\*10 , Volume = 250 <br>
-2nd block : 10\*8\*8, Volume = 640 <br>
-3rd block : 9\*9\*12, Volume = 972 <br>
-4th block : 7\*7\*7, Volume = 343 <br>
+1st block : 5X5X10 , Volume = 250 <br>
+2nd block : 10X8X8, Volume = 640 <br>
+3rd block : 9X9X12, Volume = 972 <br>
+4th block : 7X7X7, Volume = 343 <br>
 Thus the correct order of increasing volume would be 1<4<2<3
 
 
@@ -192,7 +192,7 @@ Thus the correct order of increasing volume would be 1<4<2<3
 
     * Correct indication of order : **200** (for each pair of blocks) (S)
 
-    * Time Bonus : **F(S) * T** (T is equal to the time remaining in seconds at the end of the run). **F(S) = S - 3** for S>=3 and **F(s) = 0** for S<3. ‘**S**’ has been defined in the above point.
+    * Time Bonus : **F(S) X T** (T is equal to the time remaining in seconds at the end of the run). **F(S) = S - 3** for S>=3 and **F(s) = 0** for S<3. ‘**S**’ has been defined in the above point.
 
     
 
@@ -211,7 +211,7 @@ Thus the correct order of increasing volume would be 1<4<2<3
 **Formula:**
 
 {% highlight ruby %}
-1000 + 50*Q + 200*R + F(S)*T - 100*A - 200*V - 100*L - 150*O - 5*E
+1000 + 50*Q + 200*R + 200*S + F(S)*T - 100*A - 200*V - 100*L - 150*O - 5*E
 {% endhighlight %}
 
 **Note:**
@@ -232,7 +232,7 @@ So here all the 4 blocks are compared in pairs :
 5. B>D - negative    
 6. A>D - positive
 
-So net marks earned for block order identification : **3*200 - 3*200 =  0 ** <br>
+So net marks earned for block order identification : **3X200 - 3X200 =  0** <br>
 Time bonus = ** F(S) * (5-3)*60= 0* 2* 60 =0 **
 Total=** 0 **
 
@@ -250,9 +250,9 @@ So here all the 4 blocks are compared in pairs :
 5. A>B : positive
 6. D>B : positive
 
-So net marks earned for block order identification : **5*200 - 1*200  =  800 ** <br>
+So net marks earned for block order identification : **5X200 - 1X200  =  800** <br>
 Time Bonus = **0** ( as time has exceeded)
-Time Exceed penalty =  **5*(6-5)*60 = 300**
+Time Exceed penalty =  **5X(6-5)X60 = 300**
 Total = **800-300 =500**
 
 
