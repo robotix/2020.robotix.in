@@ -27,6 +27,10 @@ actions:
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/crusade/faq/'
+  -
+    text: 'L'
+    caption: 'Components'
+    link: '/event/crusade/components/'
 ---
 
 #### Introduction

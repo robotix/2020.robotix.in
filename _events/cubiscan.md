@@ -147,18 +147,9 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 * Now the bot has to go to the central node of the arena and then blink the LEDs in the order of increasing volume. 
 
+* Maximum time for **Round 1** will be **5 minutes**. A restart will only be given before **3 minutes** into that round.
 
 
-
-
-
-
-**EXAMPLE:**For example, the dimensions of the blocks are as follows- <br>
-1st block : 5\*5\*10 , Volume = 250 <br>
-2nd block : 10\*8\*8, Volume = 640 <br>
-3rd block : 9\*9\*12, Volume = 972 <br>
-4th block : 7\*7\*7, Volume = 343 <br>
-Thus the correct order of increasing volume would be 1<4<2<3
 
 
 
@@ -179,20 +170,29 @@ Thus the correct order of increasing volume would be 1<4<2<3
 
 * After calculating the approximate volume, the bot has to go to the central node and blink the LEDs in the order of increasing volume.
 
+* Maximum time for **Round 2** will be **8 minutes**. A restart will only be given before **5 minutes** into that round.
+
+**EXAMPLE:**For example, the dimensions of the blocks are as follows- <br>
+1st block : 5X5X10 , Volume = 250 <br>
+2nd block : 10X8X8, Volume = 640 <br>
+3rd block : 9X9X12, Volume = 972 <br>
+4th block : 7X7X7, Volume = 343 <br>
+Thus the correct order of increasing volume would be 1<4<2<3
+
 
 ##### Scoring Formula
 
 * **Positives**
 
-    * Base score: **200**
+    * Base score: **1000**
 
     * Reaching each node to scan the block : **50** (Q)
 
-    * Scanning each block : **50** (100 points will be awarded for scanning from both sides in round 2) (P)
+    * Bonus for completing all scanning and reaching centre node : **200** (R)
 
-    * Completing all scanning and reaching centre node : **150** (R)
+    * Correct indication of order : **200** (for each pair of blocks) (S)
 
-    * Correctly indication of order : 200 (for each block) (T)
+    * Time Bonus : **F(S) X T** (T is equal to the time remaining in seconds at the end of the run). **F(S) = S - 3** for S>=3 and **F(s) = 0** for S<3. ‘**S**’ has been defined in the above point.
 
     
 
@@ -200,17 +200,62 @@ Thus the correct order of increasing volume would be 1<4<2<3
 
     * Displacing or touching the block : **100** (A)
 
-    * Incorrect indication of order : **100** (for each block) (V)
+    * Incorrect indication of order : **200** (for each pair of blocks) (V)
 
     * For each timeout: **100** (L) 
 
     * For each restart: **150** (O)
 
+    * For exceeding time limit : **5** (E), E is the excess time after prescribed time in seconds.
+
 **Formula:**
 
 {% highlight ruby %}
-200 + 50*Q + 50*P + 150*R + 200*T - 100*A - 100*V - 100*L - 150*O
+1000 + 50*Q + 200*R + 200*S + F(S)*T - 100*A - 200*V - 100*L - 150*O - 5*E
 {% endhighlight %}
+
+**Note:**
+
+For order indication, blocks will be compared in pairs in terms of relative size. So in total 6 comparisons will be made for 4 blocks. It can be understood with the following examples-
+
+* **Example 1:**
+
+Correct order of blocks - **A>C>D>B** <br>
+Blinked order of blocks - **C>B>A>D** <br>
+
+Time taken = **3 minutes**
+So here all the 4 blocks are compared in pairs :
+1. C>B : positive    
+2. C>A : negative    
+3. C>D - positive    
+4. B>A - negative        
+5. B>D - negative    
+6. A>D - positive
+
+So net marks earned for block order identification : **3X200 - 3X200 =  0** <br>
+Time bonus = ** F(S) * (5-3)*60= 0* 2* 60 =0 **
+Total=** 0 **
+
+* **Example 2:**
+
+Correct Order of blocks - **A>C>D>B** <br>
+Blinked Order of blocks - **C>A>D>B** <br>
+
+Time taken  = **6 minutes**
+So here all the 4 blocks are compared in pairs :
+1. C>A : negative
+2. C>B : positive
+3. C>D : positive
+4. A>D : positive
+5. A>B : positive
+6. D>B : positive
+
+So net marks earned for block order identification : **5X200 - 1X200  =  800** <br>
+Time Bonus = **0** ( as time has exceeded)
+Time Exceed penalty =  **5X(6-5)X60 = 300**
+Total = **800-300 =500**
+
+
 
 ##### General Rules
 
