@@ -31,6 +31,10 @@ actions:
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/zenith/faq/'
+  -
+    text: 'L'
+    caption: 'Components List'
+    link: '/event/zenith/components/'
 ---
 #### Introduction
 
@@ -50,7 +54,7 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 ##### Round 1
 
-* The time for this round is 5 minutes.
+* The time for this round is 3 minutes.
 
 * The bot has to start from the starting area which will be marked on the left side of the arena.
 
@@ -71,7 +75,7 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 ##### Round 2
 
-* The time limit for this round is 7 minutes.
+* The time limit for this round is 5 minutes.
 
 * The arena is now harder to complete.
 
@@ -124,6 +128,8 @@ Top view
 
 ![](/img/event/zenith/rnd1.13.png){:.img-responsive}
 
+**Note** All the above dimensions are in mm.
+
 ##### Round 2
 
 Top view
@@ -156,6 +162,7 @@ Top view
 
 ![](/img/event/zenith/rnd2.15.png){:.img-responsive}
 
+**Note** All the above dimensions are in mm.
 
 #### Rules and Specifications
 
@@ -241,9 +248,7 @@ Top view
 
 * Successfully going over the obstacles
 
-    * Triangular Obstacle 1: **100** (TO1)
-
-    * Triangular Obstacle 2: **100** (TO2)
+    * Triangular Obstacles : **150** (TO)
 
     * Cuboidal Obstacle: **100** (CO)
 
@@ -270,7 +275,7 @@ Top view
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + (50 * S1 + 100 * S2 + 100 * S3) + (100 * TO1 + 100 * TO2 + 100 * CO) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R) + t' * 2
+500 + (50 * S1 + 100 * S2 + 100 * S3) + (150 * TO + 100 * CO) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R) + t' * 2
 {% endhighlight %}
 
 ##### Round 2
@@ -289,9 +294,7 @@ Top view
 
 * Successfully going over the obstacles
 
-    * Triangular Obstacle 1: **100** (TO1)
-
-    * Triangular Obstacle 2: **100** (TO2)
+    * Triangular Obstacles : **150** (TO)
 
     * Cuboidal Obstacle: **150** (CO)
 
@@ -299,7 +302,7 @@ Top view
 
 * Crossing the second gap: **200** (G2)
 
-* Successfully passing through the gate **200** (G)
+* Successfully passing through the gate **250** (G)
 
 * Time bonus: **number of seconds left(t') * 3**
 
@@ -322,8 +325,10 @@ Top view
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + (50 * S1 + 100 * S2 + 200 * S3) + (100 * TO1 + 100 * TO2 + 150 * CO) + 100 * (P1 + P2) + 200 * (G1 + G2 + G) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 150 * E5 + 100 * T + 200 * R) + t' * 3
+500 + (50 * S1 + 100 * S2 + 200 * S3) + 150 * (TO + CO) + 100 * (P1 + P2) + 200 * (G1 + G2) + 200 * G - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 150 * E5 + 100 * T + 200 * R) + t' * 3
 {% endhighlight %}
+
+**Note**: The participants are allowed to skip some parts of the arena if they feel that their bot would not be able to clear that part. In such a case, the participants will be penalised with negatives equal to twice the positives that would have been awarded to the participant if the bot had successfully cleared that particular part of the arena. 
 
 ##### Contacts
 
