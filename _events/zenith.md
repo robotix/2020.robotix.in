@@ -89,10 +89,9 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 * After crossing the last scaffolding, the bot will encounter a gate. 
 
-* The bot has to strike at a certain point of the gate. For this, it will have to change its ground clearance.
+* The bot will then encounter the gate. The bot has to lift the gate up, and then go under it.
 
-* Once it strikes that point on the gate, it then has to lower its body and pass through the gate to finally reach the end zone.
-
+* There will be a protrusion on the gate, with the help of which the bot will lift the gate up either by changing its own ground clearance or by some other mechanism. Once the gate has been lifted up, it won't fall down. This will be ensured by Team Robotix. It then has to lower its body and pass through the gate to finally reach the end zone.
 
 #### Arenas
 
@@ -222,7 +221,7 @@ Top view
 
 ##### Robot Specifications
 
-* Each robot can have a maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively in its most concise form, with an allowance of an extra 5%..
+* Each robot can have a maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively in its most concise form, with an allowance of an extra 5%.
 
 * No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of ground clearance/gap crossing mechanisms. However, Team ROBOTIX gets the final say in deciding whether the advantage is fair or not.
 

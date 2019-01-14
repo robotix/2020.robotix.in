@@ -78,6 +78,9 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 ![](/img/event/cubiscan/isometric_round21.png){:.img-responsive}
 
+
+**Note:** All the above mentioned dimensions are in cm.
+
 ##### Arena specifications
 
 * The outer dimensions of the arena will be 200 x 200 cm.
