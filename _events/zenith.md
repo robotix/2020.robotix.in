@@ -268,7 +268,7 @@ Top view
 
 * Hitting any obstacle: **-100** (E2)
 
-* Disbalance or slipping of the robot: **-50** (E3)
+* Disbalance or slipping out off the arena of the robot: **-50** (E3)
 
 * Falling of the arena or in any of the gaps: **-200** (E4)
 
@@ -318,7 +318,7 @@ Top view
 
 * Hitting any obstacle: **-100** (E2)
 
-* Disbalance or slipping of the robot: **-50** (E3)
+* Disbalance or slipping off the arena the robot: **-50** (E3)
 
 * Falling of the arena or in any of the gaps: **-200** (E4)
 
