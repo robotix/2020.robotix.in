@@ -44,7 +44,7 @@ The labyrinth to the National Treasure ain’t easy, and definitely beyond our s
 
 #### USP
 
-* Detecting dimensions of objects (Height & Width)
+* Detecting dimensions of objects (Length, Breadth, Height)
 
 * Line following
 
@@ -56,32 +56,27 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 #### General Description and Event Setup
 
-* There will be blocks in the arena each of different height and width.The depth will also vary for the 2nd round. The bot has to measure the height and width of each blocks.(depth as well for 2nd round).
+* There will be blocks in the arena each of different height and length.The breadth will also vary for the 2nd round. The bot has to measure the length and height of each blocks.(breadth as well for 2nd round).
 
 * A finish zone will be present in the centre of the arena where the bot has to reach at the end and show the increasing order of volume of the blocks by blinking LEDs present on the bot.
-
-
-
-
 
 #### Arena
 
 ##### Round1
 
-![](/img/event/cubiscan/round1.png){:.img-responsive}
+![](/img/event/cubiscan/round11.png){:.img-responsive}
 
-**Note** - The red cross indicates that the bot is not allowed to enter that node.
 
-![](/img/event/cubiscan/round1.1.png){:.img-responsive}
-![](/img/event/cubiscan/round1.2.png){:.img-responsive}
+![](/img/event/cubiscan/round1.11.png){:.img-responsive}
+![](/img/event/cubiscan/round1.21.png){:.img-responsive}
 
 **Note** - The distance of the centre of the block will be 8.5 cm from the edge of the line.
 
 ##### Round2
 
-![](/img/event/cubiscan/round2.png){:.img-responsive}
+![](/img/event/cubiscan/round21.png){:.img-responsive}
 
-![](/img/event/cubiscan/isometric_round2.png){:.img-responsive}
+![](/img/event/cubiscan/isometric_round21.png){:.img-responsive}
 
 ##### Arena specifications
 
@@ -95,15 +90,15 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 ##### Block Specifications
 
-* For the 1st round, depth of the blocks will be fixed to 10 cm, whereas the height and width will be variable.
+* For the 1st round, breadth of the blocks will be fixed to 10 cm, whereas the height and length will be variable.
 
 * The dimensions of the blocks may vary from 4cm to 10cm.
 
-* For the 2nd round,height, width and depth of the blocks will vary.
-
-* The weight of the block will be around 100 gms.
+* For the 2nd round,length, breadth and height of the blocks will vary.
 
 * All blocks will be white in colour.
+
+![](/img/event/cubiscan/block.png){:.img-responsive}
 
 ##### Robot Specification
 
@@ -141,18 +136,13 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 * The bot has to traverse through the centre loop and go near each block.
 
-* The bot has to estimate the height and width of the block.
+* The bot has to estimate the length and height of the block.
 
-* Thus by measuring the height and width, the approximate volume of the blocks will be calculated.
+* Thus by measuring the length and height, the approximate volume of the blocks will be calculated.
 
 * Now the bot has to go to the central node of the arena and then blink the LEDs in the order of increasing volume. 
 
 * Maximum time for **Round 1** will be **5 minutes**. A restart will only be given before **3 minutes** into that round.
-
-
-
-
-
 
 #### Round 2
 
@@ -160,11 +150,9 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 * There will be four blocks.
 
-
 * All the three dimensions of the block will be variable.
 
 * Each of the blocks can be accessed from two nodes.
-
 
 * Thus, the bot has to scan the block from each of the nodes and thus estimate its volume.
 
@@ -208,10 +196,12 @@ Thus the correct order of increasing volume would be 1<4<2<3
 
     * For exceeding time limit : **5** (E), E is the excess time after prescribed time in seconds.
 
+    * For damaging arena: **400** (B)
+
 **Formula:**
 
 {% highlight ruby %}
-1000 + 50*Q + 200*R + 200*S + F(S)*T - 100*A - 200*V - 100*L - 150*O - 5*E
+1000 + 50*Q + 200*R + 200*S + F(S)*T - 100*A - 200*V - 100*L - 150*O - 5*E - 400*B
 {% endhighlight %}
 
 **Note:**
@@ -233,8 +223,8 @@ So here all the 4 blocks are compared in pairs :
 6. A>D - positive
 
 So net marks earned for block order identification : **3X200 - 3X200 =  0** <br>
-Time bonus = ** F(S) * (5-3)*60= 0* 2* 60 =0 **
-Total=** 0 **
+Time bonus = **F(S)X(5-3)X60= 0 X 2 X 60 = 0** <br>
+**Total= 0**
 
 * **Example 2:**
 
@@ -255,7 +245,12 @@ Time Bonus = **0** ( as time has exceeded)
 Time Exceed penalty =  **5X(6-5)X60 = 300**
 Total = **800-300 =500**
 
+**Note:**
+* The participating team must inform before the run how they will show the order of the blocks.
 
+* One approach maybe using 4 LEDS and blinking the LEDs in the correct order, for example if the order is 4 1 2 3 then the participant will blink the 4th LED and then 1st and so on.
+
+* The order ( which block is first or second) will be determined by the order in which the bot scans the blocks, the block first scanned by the bot will be considered first.
 
 ##### General Rules
 
