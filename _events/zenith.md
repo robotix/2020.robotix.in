@@ -89,10 +89,9 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 * After crossing the last scaffolding, the bot will encounter a gate. 
 
-* The bot has to strike at a certain point of the gate. For this, it will have to change its ground clearance.
+* The bot will then encounter the gate. The bot has to lift the gate up, and then go under it.
 
-* Once it strikes that point on the gate, it then has to lower its body and pass through the gate to finally reach the end zone.
-
+* There will be a protrusion on the gate, with the help of which the bot will lift the gate up either by changing its own ground clearance or by some other mechanism. Once the gate has been lifted up, it won't fall down. This will be ensured by Team Robotix. It then has to lower its body and pass through the gate to finally reach the end zone.
 
 #### Arenas
 
@@ -100,67 +99,71 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 Isometric view
 
-![](/img/event/zenith/rnd1.1.png){:.img-responsive}
+![](/img/event/zenith/round1.1.png){:.img-responsive}
 
 Top view
 
-![](/img/event/zenith/rnd1.2.png){:.img-responsive}
+![](/img/event/zenith/round1.2.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.3.png){:.img-responsive}
+![](/img/event/zenith/round1.3.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.4.png){:.img-responsive}
+![](/img/event/zenith/round1.4.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.5.png){:.img-responsive}
+![](/img/event/zenith/round1.5.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.6.png){:.img-responsive}
+![](/img/event/zenith/round1.6.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.7.png){:.img-responsive}
+![](/img/event/zenith/round1.7.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.8.png){:.img-responsive}
+![](/img/event/zenith/round1.8.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.9.png){:.img-responsive}
+![](/img/event/zenith/round1.9.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.10.png){:.img-responsive}
+![](/img/event/zenith/round1.10.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.11.png){:.img-responsive}
+![](/img/event/zenith/round1.11.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.12.png){:.img-responsive}
+![](/img/event/zenith/round1.12.png){:.img-responsive}
 
-![](/img/event/zenith/rnd1.13.png){:.img-responsive}
+![](/img/event/zenith/round1.13.png){:.img-responsive}
 
 **Note** All the above dimensions are in mm.
 
 ##### Round 2
 
+Isometric view
+
+![](/img/event/zenith/round2.1.png){:.img-responsive}
+
 Top view
 
-![](/img/event/zenith/rnd2.2.png){:.img-responsive}
+![](/img/event/zenith/round2.2.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.3.png){:.img-responsive}
+![](/img/event/zenith/round2.3.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.4.png){:.img-responsive}
+![](/img/event/zenith/round2.4.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.5.png){:.img-responsive}
+![](/img/event/zenith/round2.5.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.6.png){:.img-responsive}
+![](/img/event/zenith/round2.6.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.7.png){:.img-responsive}
+![](/img/event/zenith/round2.7.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.8.png){:.img-responsive}
+![](/img/event/zenith/round2.8.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.9.png){:.img-responsive}
+![](/img/event/zenith/round2.9.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.10.png){:.img-responsive}
+![](/img/event/zenith/round2.10.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.11.png){:.img-responsive}
+![](/img/event/zenith/round2.11.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.12.png){:.img-responsive}
+![](/img/event/zenith/round2.12.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.13.png){:.img-responsive}
+![](/img/event/zenith/round2.13.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.14.png){:.img-responsive}
+![](/img/event/zenith/round2.14.png){:.img-responsive}
 
-![](/img/event/zenith/rnd2.15.png){:.img-responsive}
+![](/img/event/zenith/round2.15.png){:.img-responsive}
 
 **Note** All the above dimensions are in mm.
 
@@ -218,7 +221,7 @@ Top view
 
 ##### Robot Specifications
 
-* Each robot can have a maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively in its most concise form, with an allowance of an extra 5%..
+* Each robot can have a maximum dimension of 30 x 30 x 30 cubic cm (L x B x H) respectively in its most concise form, with an allowance of an extra 5%.
 
 * No part/mechanism of/on the robot should exceed the given dimensions before the commencement of the event run. The robots can exceed their respective dimensions once the event commences, due to elongation of ground clearance/gap crossing mechanisms. However, Team ROBOTIX gets the final say in deciding whether the advantage is fair or not.
 
@@ -264,7 +267,7 @@ Top view
 
 * Hitting any obstacle: **-100** (E2)
 
-* Disbalance or slipping of the robot: **-50** (E3)
+* Disbalance or slipping out off the arena of the robot: **-50** (E3)
 
 * Falling of the arena or in any of the gaps: **-200** (E4)
 
@@ -272,10 +275,12 @@ Top view
 
 * Negative marks for restart: **-200** (R)
 
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (2 * X)
+
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + (50 * S1 + 100 * S2 + 100 * S3) + (150 * TO + 100 * CO) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R) + t' * 2
+500 + (50 * S1 + 100 * S2 + 100 * S3) + (150 * TO + 100 * CO) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R - 2 * X) + t' * 2
 {% endhighlight %}
 
 ##### Round 2
@@ -312,7 +317,7 @@ Top view
 
 * Hitting any obstacle: **-100** (E2)
 
-* Disbalance or slipping of the robot: **-50** (E3)
+* Disbalance or slipping off the arena the robot: **-50** (E3)
 
 * Falling of the arena or in any of the gaps: **-200** (E4)
 
@@ -322,13 +327,13 @@ Top view
 
 * Negative marks for restart: **-200** ( R )
 
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (2 * X)
+
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + (50 * S1 + 100 * S2 + 200 * S3) + 150 * (TO + CO) + 100 * (P1 + P2) + 200 * (G1 + G2) + 200 * G - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 150 * E5 + 100 * T + 200 * R) + t' * 3
+500 + (50 * S1 + 100 * S2 + 200 * S3) + 150 * (TO + CO) + 100 * (P1 + P2) + 200 * (G1 + G2) + 200 * G - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 150 * E5 + 100 * T + 200 * R - 2 * X) + t' * 3
 {% endhighlight %}
-
-**Note**: The participants are allowed to skip some parts of the arena if they feel that their bot would not be able to clear that part. In such a case, the participants will be penalised with negatives equal to twice the positives that would have been awarded to the participant if the bot had successfully cleared that particular part of the arena. 
 
 ##### Contacts
 

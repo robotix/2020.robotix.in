@@ -164,6 +164,7 @@ The position of the START and END ZONE will be marked at the start of the run. T
 
 * For correct identification of a glowing LED, that is blinking its own LED on reaching the glowing one on the arena: +100.
 
+* For making a turn correctly at corners: +150.
 
 * For pausing the run and turning the bot manually at a corner: -150.
 
@@ -240,7 +241,6 @@ The position of the START and END ZONE will be marked at the start of the run. W
 * For choosing the correct path at a T-junction: +200.
 
 * For making a turn correctly at corners: +150.
-
 
 * For pausing the run and turning the bot manually at a corner: -150.
 
