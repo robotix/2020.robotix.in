@@ -301,7 +301,7 @@ Top view
 
     * Triangular Obstacles : **150** (TO)
 
-    * Cuboidal Obstacle: **150** (CO)
+    * Curved Obstacle: **150** (CO)
 
 * Crossing the first gap: **200** (G1)
 
