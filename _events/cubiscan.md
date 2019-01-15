@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/cubiscanevent/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Cubiscan.pdf'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/cubiscan/DIY_cubiscan.png'
