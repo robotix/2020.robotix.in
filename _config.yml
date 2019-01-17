@@ -119,7 +119,8 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://app.robotix.in", text: "Robotix App"}
+   # - {link: "http://app.robotix.in", text: "Robotix App"}
+   - {link: "https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ", text: "Robotix App"}
    - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
  -
