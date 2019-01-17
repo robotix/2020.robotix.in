@@ -68,6 +68,8 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 * It will then come across a gap, followed by an obstacle and another gap successively.
 
+* The bot will then encounter a barricade which it has to lift up by a height of 10 cm, after which the barricade won't slide down again. Then, the bot has pass under the barricade and proceed.
+
 * The last scaffolding is a perpendicular shaped structure. 
 
 * After crossing this, the bot reaches its end zone.
@@ -75,7 +77,7 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 ##### Round 2
 
-* The time limit for this round is 5 minutes.
+* The time limit for this round is 4 minutes.
 
 * The arena is now harder to complete.
 
@@ -91,7 +93,7 @@ To build a manually controlled robot which is capable of crossing the gaps in th
 
 * The bot will then encounter the gate. The bot has to lift the gate up, and then go under it.
 
-* There will be a protrusion on the gate, with the help of which the bot will lift the gate up either by changing its own ground clearance or by some other mechanism. Once the gate has been lifted up, it won't fall down. This will be ensured by Team Robotix. It then has to lower its body and pass through the gate to finally reach the end zone.
+* There will be a protrusion on the gate, with the help of which the bot will lift the gate up either by changing its own ground clearance or by some other mechanism. Once the gate has been lifted up, it won't slide down. This will be ensured by Team Robotix. It then has to lower its body and pass through the gate to finally reach the end zone.
 
 #### Arenas
 
@@ -104,6 +106,8 @@ Isometric view
 Top view
 
 ![](/img/event/zenith/round1.2.png){:.img-responsive}
+
+Arena Specifications
 
 ![](/img/event/zenith/round1.3.png){:.img-responsive}
 
@@ -127,6 +131,8 @@ Top view
 
 ![](/img/event/zenith/round1.13.png){:.img-responsive}
 
+![](/img/event/zenith/round1.14.png){:.img-responsive}
+
 **Note** All the above dimensions are in mm.
 
 ##### Round 2
@@ -138,6 +144,8 @@ Isometric view
 Top view
 
 ![](/img/event/zenith/round2.2.png){:.img-responsive}
+
+Arena Specifications
 
 ![](/img/event/zenith/round2.3.png){:.img-responsive}
 
@@ -179,17 +187,19 @@ Top view
 
 4. The participants will be provided with 220 volts, 50 Hz standard AC supply. However, the participants cannot use this voltage apart from getting a 24V DC output through an adapter. This goes to say that no component on the robot may use a power supply higher than 24V DC. In case of any discrepancy, Team ROBOTIX will have the final say.
 
-5. Two teams can have one or more members in common.
+5. Skipping any part of the arena will be the participants choice and will be done only on the participant’s request and the approval of Team ROBOTIX. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding. The timer will not stop when the position of the robot is being changed by the participant, but the initial and final position will be decided by Team ROBOTIX.Also, if the participants choose to skip any part of the arena, no time bonus will be given to the team even if they complete the run before the timer runs out.
 
-6. The team members can be from different institutes or colleges.
+6. Two teams can have one or more members in common.
 
-7. Teams qualifying the first round will go into the second round.
+7. The team members can be from different institutes or colleges.
 
-8. The teams cannot touch their robot during the course of the run, unless timeout is taken.
+8. Teams qualifying the first round will go into the second round.
 
-9. The best spirit of sportmanship is expected from the participants.
+9. The teams cannot touch their robot during the course of the run, unless timeout is taken.
 
-10. **The decision of Team ROBOTIX will be final and binding.**
+10. The best spirit of sportsmanship is expected from the participants.
+
+11. **The decision of Team ROBOTIX will be final and binding.**
 
 ##### Arena and Locomotion
 
@@ -251,7 +261,7 @@ Top view
 
 * Successfully going over the obstacles
 
-    * Triangular Obstacles : **150** (TO)
+    * Triangular Obstacles : **200** (TO)
 
     * Cuboidal Obstacle: **100** (CO)
 
@@ -259,7 +269,9 @@ Top view
 
 * Crossing the second gap: **200** (G2)
 
-* Time bonus: **number of seconds left(t')*2**
+* Successfully clearing the barricade: **200** (B)
+
+* Time bonus: **number of seconds left(t')*3**
 
 **Negatives**
 
@@ -275,12 +287,14 @@ Top view
 
 * Negative marks for restart: **-200** (R)
 
-* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (2 * X)
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (**-2** * X)
+
+* No time bonus will be awarded if a participant decides to skip any part of the arena.
 
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + (50 * S1 + 100 * S2 + 100 * S3) + (150 * TO + 100 * CO) - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R - 2 * X) + t' * 2
+500 + (50 * S1 + 100 * S2 + 100 * S3) + (150 * TO + 100 * CO) + 200 * B - (100 * E1 + 100 * E2 + 50 * E3 + 200 * E4 + 100 * T + 200 * R - 2 * X) + t' * 3
 {% endhighlight %}
 
 ##### Round 2
@@ -327,7 +341,9 @@ Top view
 
 * Negative marks for restart: **-200** ( R )
 
-* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (2 * X)
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (**-2** * X)
+
+* No time bonus will be awarded if a participant decides to skip any part of the arena.
 
 **Scoring formula:**
 

@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/crusadeevent/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Crusade.pdf'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crusade/'
@@ -176,7 +180,7 @@ The position of the START and END ZONE will be marked at the start of the run. T
 
 * For restart: -100
 
-* Time bonus: + [360 - (time taken in sec)] x 3 points (would be given only if all the glowing LEDs are identified successfully, all the turns are accomplished without any manual help and the robot ends its run at the end zone).
+* Time bonus: + [360 - (time taken in sec)] x 3 points (would be given only if all the glowing LEDs are identified successfully, all the turns are accomplished without any manual help, all the T junctions are cleared successfully and the robot ends its run at the end zone).
 
 #### Round 2
 
@@ -257,7 +261,7 @@ The position of the START and END ZONE will be marked at the start of the run. W
 
 * For restart: -100
 
-* Time bonus: + [360 - (time taken in sec)] x 3 points (would be given only if all the glowing LEDs are identified successfully, all the turns are accomplished without any manual help and the robot ends its run at the end zone).
+* Time bonus: + [360 - (time taken in sec)] x 3 points (would be given only if all the glowing LEDs are identified successfully, all the turns are accomplished without any manual help, all the T junctions are cleared successfully and the robot ends its run at the end zone).
 
 **Note:** Whenever the bot collides with the wall, the timer will be paused and the robot will be placed in the center of the lane along the line perpendicular to the wall at the same position.
 
