@@ -9,6 +9,10 @@ actions:
     caption: 'Discussion Forum'
     link: 'https://www.facebook.com/groups/zenithevent/'
   -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Zenith.pdf'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/zenith/DIY_Zenith.png'
