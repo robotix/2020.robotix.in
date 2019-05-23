@@ -1,3 +1,89 @@
+- title: "2019"
+  team:
+    -
+      id: 32
+      name: "Aditya Sanjay"
+      surname: "Boob"
+      thumbnailUrl: aditya_boob.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001453733595"}
+        - {name: "email", link: "mailto:adityasanjay@robotix.in"}
+    -
+      id: 33
+      name: "Manash Pratim"
+      surname: "Das"
+      thumbnailUrl: manash.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/mpdmanash"}
+        - {name: "email", link: "mailto:manash@robotix.in"}
+    -
+      id: 34
+      name: "Shweta"
+      surname: "Gupta"
+      thumbnailUrl: shweta.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/shweta.gupta1196"}
+        - {name: "email", link: "mailto:shweta@robotix.in"}
+    -
+      id: 35
+      name: "Sourish"
+      surname: "Ghosh"
+      thumbnailUrl: sourish.jpg
+      team: true
+      social:
+        - {name: "site", link: "http://sourishghosh.com/"}
+        - {name: "github", link: "https://github.com/sourishg"}
+        - {name: "email", link: "mailto:sourish@robotix.in"}
+    -
+      id: 36
+      name: "Vraj"
+      surname: "Parikh"
+      thumbnailUrl: vraj.jpg
+      team: true
+      social:
+        - {name: "site", link: "http://www.vrajparikh.in/"}
+        - {name: "github", link: "https://www.github.com/vrjparikh"}
+        - {name: "email", link: "mailto:vraj@robotix.in"}
+    -
+      id: 38
+      name: Shivang
+      surname: Agrawal
+      thumbnailUrl: shivangagrawal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/crazyshivang"}
+        - {name: "github", link: "https://www.github.com/shivangag"}
+        - {name: "email", link: "mailto:shivang.agrawal@robotix.in"}
+    -
+      id: 39
+      name: Vivek
+      surname: Mudgal
+      thumbnailUrl: vivekmudgal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/vivekmudgal10"}
+        - {name: "email", link: "mailto:vivek.mudgal@robotix.in"}
+    -
+      id: 41
+      name: Amit
+      surname: Pathak
+      thumbnailUrl: amitpathak.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/amitpathak.iitkgp"}
+        - {name: "email", link: "mailto:amit.pathak@robotix.in"}
+    -
+      id: 44
+      name: Stuti
+      surname: Modi
+      thumbnailUrl: stutimodi.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/stutimodi96"}
+        - {name: "email", link: "mailto:stuti.modi@robotix.in"}
 - title: "2018"
   team:
     -
@@ -5,6 +91,7 @@
       name: "Abhinav"
       surname: "Jain"
       thumbnailUrl: abhinav.jpg
+      team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhinav.jain2"}
         - {name: "site", link: "https://abhinavja.in"}
