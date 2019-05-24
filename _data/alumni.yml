@@ -48,6 +48,15 @@
         - {name: "github", link: "https://www.github.com/vrjparikh"}
         - {name: "email", link: "mailto:vraj@robotix.in"}
     -
+      id: 41
+      name: Amit
+      surname: Pathak
+      thumbnailUrl: amitpathak.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/amitpathak.iitkgp"}
+        - {name: "email", link: "mailto:amit.pathak@robotix.in"}    
+    -
       id: 38
       name: Shivang
       surname: Agrawal
@@ -58,24 +67,6 @@
         - {name: "github", link: "https://www.github.com/shivangag"}
         - {name: "email", link: "mailto:shivang.agrawal@robotix.in"}
     -
-      id: 39
-      name: Vivek
-      surname: Mudgal
-      thumbnailUrl: vivekmudgal.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/vivekmudgal10"}
-        - {name: "email", link: "mailto:vivek.mudgal@robotix.in"}
-    -
-      id: 41
-      name: Amit
-      surname: Pathak
-      thumbnailUrl: amitpathak.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/amitpathak.iitkgp"}
-        - {name: "email", link: "mailto:amit.pathak@robotix.in"}
-    -
       id: 44
       name: Stuti
       surname: Modi
@@ -84,6 +75,15 @@
       social:
         - {name: "facebook", link: "https://www.facebook.com/stutimodi96"}
         - {name: "email", link: "mailto:stuti.modi@robotix.in"}
+    -
+      id: 39
+      name: Vivek
+      surname: Mudgal
+      thumbnailUrl: vivekmudgal.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/vivekmudgal10"}
+        - {name: "email", link: "mailto:vivek.mudgal@robotix.in"}
 - title: "2018"
   team:
     -
