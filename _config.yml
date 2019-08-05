@@ -47,6 +47,7 @@ socialImage: "/img/favicons/favicon-196x196.png"
 # Navigation
 navigationLinks:
  - {link: "https://makerspace.robotix.in/", text: "Makerspace"}
+ - {permalink: "/FAQs/", text: "FAQs"}
  - {permalink: "/workshops/", text: "Workshops"}
  - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
