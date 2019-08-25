@@ -193,7 +193,7 @@
   id: 25
   name: Shreyansh
   surname: Vats
-  title: "Sub Head"
+  title: "Head"
   thumbnailUrl: shreyanshvats.jpg  
   social :
     - { name: facebook, link: "https://www.facebook.com/shreyansh.vats"}
@@ -253,3 +253,19 @@
   thumbnailUrl: shivangisrivastava.jpg
   social:
     - { name: facebook, link: "https://www.facebook.com/profile.php?id=100017668215282"}
+-
+  id: 33
+  name: Divyanshu 
+  surname: Sheth
+  title: "Sub Head"
+  thumbnailUrl: divyanshusheth.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/divyanshu.sheth"}
+-
+  id: 34
+  name: Rashmi 
+  surname: Kumari
+  title: "Sub Head"
+  thumbnailUrl: rashmikumari.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/rashmi.kasyap.39"}

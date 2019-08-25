@@ -3,12 +3,12 @@
   title: "KRAIG 101"
   description: "Dive into the world of hobby robotics."
   subtype: presentation
-  speakers: [23, 25, 26]
+  speakers: [25, 33, 34]
   language: en
   complexity: "Beginner"
   links:
-    - { title: "View presentation", src: "https://prezi.com/view/t385ExoVX5ENfSgnIdnS/"}
-  banner: "/img/session/001/KRAIG101_7.jpg"
+    - { title: "View presentation", src: "https://prezi.com/view/cXtyLmJizWH5eF9fmQsn/"}
+  banner: "/img/session/001/KRAIG101_9.png"
 -
   id: 002
   title: "KRAIG 102"
