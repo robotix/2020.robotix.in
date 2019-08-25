@@ -62,17 +62,17 @@ For knowing how to make the control box for the robosoccer bot, see [this]({{ si
 
 ### Contacts
 
-#### Shreyansh Vats
+#### Kushal Kedia
 
-shreyansh.vats@robotix.in  
-7024156777
+kushal.kedia@robotix.in  
+9830171097
 
-#### Jaydeep Godbole
+#### Divyanshu Sheth
 
-jaydeep.godbole@robotix.in  
-8390888597
+divyanshu.sheth@robotix.in  
+9224332647
 
-#### Tanya Sneh
+#### Rashmi Kumari
 
-tanya.sneh@robotix.in  
-8942053975
+rashmi.kumari@robotix.in  
+8670828532
