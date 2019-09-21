@@ -1,25 +1,13 @@
 ---
 layout: post
-title: 'Cubiscan'
+title: 'Autonomous event'
 subTitle: 'Autonomous Event'
-logo: /img/event/cubiscan/logo.png
+logo: /img/event/auto-event/logo.png
 actions:
-  -
-    icon: 'facebook'
-    caption: 'Discussion Forum'
-    link: 'https://www.facebook.com/groups/cubiscanevent/'
-  -
-    text: 'E'
-    caption: 'Event PDF'
-    link: '/assets/event/Cubiscan.pdf'
-  -
-    text: 'D'
-    caption: 'Do-It-Yourself'
-    link: '/img/event/cubiscan/DIY_cubiscan.png'
   -
     text: 'T'
     caption: 'Tutorial'
-    link: '../../tutorial/event/cubiscan/'
+    link: '../../tutorial/event/auto-event/'
   -
     icon: 'youtube'
     caption: 'Tutorial Video'
@@ -34,11 +22,11 @@ actions:
   -
     text: 'F'
     caption: 'F.A.Q.'
-    link: '/event/cubiscan/faq/'
+    link: '/event/auto-event/faq/'
   -
     text: 'L'
     caption: 'Component List'
-    link: '/event/cubiscan/components/'
+    link: '/event/auto-event/components/'
 ---
 
 
@@ -68,19 +56,19 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 ##### Round1
 
-![](/img/event/cubiscan/round11.png){:.img-responsive}
+![](/img/event/auto-event/round11.png){:.img-responsive}
 
 
-![](/img/event/cubiscan/round1.11.png){:.img-responsive}
-![](/img/event/cubiscan/round1.21.png){:.img-responsive}
+![](/img/event/auto-event/round1.11.png){:.img-responsive}
+![](/img/event/auto-event/round1.21.png){:.img-responsive}
 
 **Note** - The distance of the centre of the block will be 8.5 cm from the edge of the line.
 
 ##### Round2
 
-![](/img/event/cubiscan/round21.png){:.img-responsive}
+![](/img/event/auto-event/round21.png){:.img-responsive}
 
-![](/img/event/cubiscan/isometric_round21.png){:.img-responsive}
+![](/img/event/auto-event/isometric_round21.png){:.img-responsive}
 
 
 **Note:** All the above mentioned dimensions are in cm.
@@ -105,7 +93,7 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 * All blocks will be white in colour.
 
-![](/img/event/cubiscan/block.png){:.img-responsive}
+![](/img/event/auto-event/block.png){:.img-responsive}
 
 ##### Robot Specification
 

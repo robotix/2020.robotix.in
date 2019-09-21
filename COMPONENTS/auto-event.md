@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Component List - Cubiscan
-permalink: /event/cubiscan/components/
+title: Component List - Autonomous Event
+permalink: /event/auto-event/components/
 ---
-Here is the component list for the event [CUBISCAN](/tutorial/event/cubiscan/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
+Here is the component list for the [autonomous event](/tutorial/event/auto-event/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
 
 | Materials                                         | Qunatity    |
 |---------------------------------------------------|-------------|

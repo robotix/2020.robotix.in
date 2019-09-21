@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Cubiscan Tutorial"
+title: "Autonomous Event Tutorial"
 categories:
  - event
 ---
 
-#### Cubiscan
+#### Autonomous Event
 
 To Build a robot capable of detecting the dimensions of the block to estimate the volume of the block and then indicate the increasing order of volume of blocks.
 
@@ -41,7 +41,7 @@ To Build a robot capable of detecting the dimensions of the block to estimate th
 
 Working- IR sensor or an infrared sensor consists of an IR LED coupled with a photodiode. This pair is generally called an IR pair or photocoupler. An infrared sensor emits infrared radiations which are detected by the photodiode. Resistance of photodiode changes according to the amount of IR radiation falling on it, hence changing the voltage drop against it. Further, by using the voltage comparator (like LM358) we can sense the voltage change and generate the output accordingly.
 
-![](/img/tutorial/event/cubiscan/cutut1.png){:.img-responsive}
+![](/img/tutorial/event/auto-event/tut1.png){:.img-responsive}
 
 Usage - To follow a line, we can use the difference in reflectivity of the line and surface.
 
@@ -49,7 +49,7 @@ Usage - To follow a line, we can use the difference in reflectivity of the line 
 
 For better accuracy we can use multiple IR LED pairs in an IR sensor array.
 
-![](/img/tutorial/event/cubiscan/cutut2.png){:.img-responsive}
+![](/img/tutorial/event/auto-event/cutut2.png){:.img-responsive}
 
 #### Scanning
 
@@ -57,14 +57,14 @@ For better accuracy we can use multiple IR LED pairs in an IR sensor array.
 
 To scan the block, the IR sensor needs to be moved along two axes. Alternatively, two IR sensors can be used and both the axis would be independent. To get the linear motion of the sensor, we use a Rack and pinion mechanism. This mechanism is used to convert rotational motion into translatory motion. By attaching a stepper motor to the pinion, we can get the translatory motion of the rack. To this rack, the IR sensor (to be used for scanning) will be attached.
 
-![](/img/tutorial/event/cubiscan/cutut3.png){:.img-responsive}
+![](/img/tutorial/event/auto-event/cutut3.png){:.img-responsive}
 
 ##### Stepper Motor
 
 A stepper motor is a brushless DC electric motor that divides a full rotation into a number of equal steps. The motor's position can then be controlled to move and hold at one of these steps without any position sensor for feedback, as long as the motor is carefully sized to the application in respect to torque and speed.
 The detailed tutorial can be found here.
 
-![](/img/tutorial/event/cubiscan/cutut4.png){:.img-responsive}
+![](/img/tutorial/event/auto-event/cutut4.png){:.img-responsive}
 
 ##### IR Sensor
 

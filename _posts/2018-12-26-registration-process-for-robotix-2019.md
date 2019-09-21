@@ -51,21 +51,21 @@ is also known as the _leader_ at some places.
 
 ![](/img/blog/2018/registration-2019/5.png){:.img-responsive}
 
- *  Select the event among ZENITH, CUBISCAN and CRUSADE which you want to register for.
+ *  Select the event among ZENITH, Autonomous Event and CRUSADE which you want to register for.
 
-![](/img/blog/2018/registration-2019/9.png){:.img-responsive}
+<!-- ![](/img/blog/2018/registration-2019/9.png){:.img-responsive} -->
 
  * Locate the register option on the right. A message appears saying that you have successsfully registered for the event. 
 
  * Now you have to form a team. For this select the option _MYKTJ_ at the homescreen and select the event among the dropdown list.
 
- ![](/img/blog/2018/registration-2019/7.png){:.img-responsive}
+ <!-- ![](/img/blog/2018/registration-2019/7.png){:.img-responsive} -->
 
  * After selecting the event, enter the e-mail ids of your team members.
 
  **Note**: You can only form a team with someone who has registered in the event. Else, you will get a message saying that the email of the participant has not registered in the event.
 
-![](/img/blog/2018/registration-2019/8.png){:.img-responsive}
+<!-- ![](/img/blog/2018/registration-2019/8.png){:.img-responsive} -->
 
  * After the team has been successfully registered, both the team captain and the team members will see the event with the registered team in the _MYKTJ_ section of the homescreen of their ktj accounts.
 

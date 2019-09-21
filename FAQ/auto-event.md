@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Cubiscan FAQs"
-permalink: /event/cubiscan/faq/
+title: "Autonomous Event FAQs"
+permalink: /event/auto-event/faq/
 ---
 
 **Q: How do I register for the event? Is there any abstract submission for the event?**
