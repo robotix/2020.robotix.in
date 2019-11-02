@@ -269,3 +269,51 @@
   thumbnailUrl: rashmikumari.jpg
   social:
     - { name: facebook, link: "https://www.facebook.com/rashmi.kasyap.39"}
+-
+  id: 35
+  name: Abhay  
+  surname: Shukla 
+  title: "Sub Head"
+  thumbnailUrl: abhayshukla.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/abhay.shukla.31392"}
+-
+  id: 36
+  name: Kshitiz  
+  surname: Khandelwal
+  title: "Sub Head"
+  thumbnailUrl: kshitizkhandelwal.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/kshitiz.khandelwal.90"}
+-
+  id: 37
+  name: Ruthu
+  surname: Sanketh
+  title: "Sub Head"
+  thumbnailUrl: ruthusanketh.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/ruthu.sanketh"}
+-
+  id: 38
+  name: Kushal 
+  surname: Kedia
+  title: "Sub Head"
+  thumbnailUrl: kushalkedia.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/kushal.kedia3"}
+-
+  id: 39
+  name: Nanda 
+  surname: Vinod
+  title: "Sub Head"
+  thumbnailUrl: nandavinod.jpg
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/nanda.vinod.5"}
+-
+  id: 40
+  name: Azad 
+  surname: Jagtap
+  title: "Sub Head"
+  thumbnailUrl: rashmikumari.jpg
+  social:
+    - { name: facebook, link: "https://www.facebook.com/rashmi.kasyap.39"}

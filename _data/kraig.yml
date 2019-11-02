@@ -13,8 +13,8 @@ schedule:
         sessionIds: [001]
       }
   -
-    date: "2018-8-30"
-    dateReadable: "August 30"
+    date: "2019-9-6"
+    dateReadable: "September 6"
     tracks: 
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
@@ -24,8 +24,8 @@ schedule:
         sessionIds: [002]
       }
   -
-    date: "2018-10-2"
-    dateReadable: "October 2"
+    date: "2019-9-28"
+    dateReadable: "September 28"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
@@ -35,14 +35,14 @@ schedule:
         sessionIds: [003]
       }
   -
-    date: "2018-10-26"
-    dateReadable: "October 26"
+    date: "2019-10-28"
+    dateReadable: "October 28"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
       - {
-        startTime: "20:30",
-        endTime: "21:30",
+        startTime: "18:30",
+        endTime: "20:00",
         sessionIds: [004]
       }      
 
