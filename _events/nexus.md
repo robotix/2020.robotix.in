@@ -190,20 +190,20 @@ The last node will be a plain black square. Taking the average of the numbers sc
 
 ##### Contacts
 
-###### Shubhika Garg
+###### Shivangi Srivastava
 
-Email: **[shubhika.garg@robotix.in](mailto:shubhika.garg@robotix.in)**
+Email: **[shivangi.srivastava@robotix.in](mailto:shivangi.srivastava@robotix.in)**
 
 Ph. no: **+91 7478074111**
 
-###### Vidit Goel
+###### Mohit Singh
 
-Email: **[vidit.goel@robotix.in](mailto:vidit.goel@robotix.in)**
+Email: **[mohit.singh@robotix.in](mailto:mohit.singh@robotix.in)**
 
-Ph. no: **+91 9752835400**
+Ph. no: **+91 7728991073**
 
-###### Anvee Naik
+###### Tanya Sneh
 
-Email: **[anvee.naik@robotix.in](mailto:anvee.naik@robotix.in)**
+Email: **[tanya.sneh@robotix.in](mailto:tanya.sneh@robotix.in)**
 
-Ph. no: **+91 7430944999**
+Ph. no: **+91 8942053975**
