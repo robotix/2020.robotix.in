@@ -14,8 +14,8 @@ The annual winter workshop is organized each year, after the conclusion of the a
 ##### 2. When is the winter workshop?
 The winter workshop is conducted in two phases to include students having NSS/NCC camps. Therefore the dates for both the phases are as follows -:
 
- - **Phase One** - 30<sup>th</sup> November - 6<sup>th</sup> December.
- - **Phase Two** - 8<sup>th</sup> December - 14<sup>th</sup> December.
+ - **Phase One** - 29<sup>th</sup> November - 6<sup>th</sup> December.
+ - **Phase Two** - 8<sup>th</sup> December - 15<sup>th</sup> December.
 
 <br>
 
@@ -74,9 +74,6 @@ Attend the workshop. Hall Council Members value those who have a lot of technica
 If you dream to represent IIT Kharagpur in the glamourous inter-IIT Tech, take your first step. The events on which there is a direct impact of this workshop is Hardware Modelling, OpenSoft, Product Design while various others where the skills that you gain in the winter workshop will help.
 
 <br>
-
-##### 11. How do I register for winter workshop 2016?
-That's see. Fill out the form [here](http://bit.ly/wws-2016) and come to give a test which is scheduled soon. Like our [facebook page](https://www.facebook.com/robotixiitkgp/) to be updated with the latest happenings. We will post the dates of the test soon.
 
 ##### 12. Where would I eat?
 Don't worry there would be private mess system in RK as well as VS. All the hall canteens would be open. There are a lot of seniors who would be waiting either for their placements or projects so food is very easily available.
