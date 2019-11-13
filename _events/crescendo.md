@@ -187,20 +187,14 @@ Same as Round 1
 
 ##### Contacts
 
-###### Shivansh Mundra
+###### Jaydeep Godbole
 
-Email: **[shivansh.mundra@robotix.in](mailto:shivansh.mundra@robotix.in)**
+Email: **[jgodbole7@gmail.com](mailto:jgodbole7@gmail.com)**
 
-Ph. no: **+91 7877399396**
+Ph. no: **+91 8390888597**
 
-###### Siddhartha Kapuria
+###### Shreyansh Vats
 
-Email: **[siddhartha.kapuria@robotix.in](mailto:siddhartha.kapuria@robotix.in)**
+Email: **[shreyanshvts@gmail.com](mailto:shreyanshvts@gmail.com)**
 
-Ph. no: **+91 7479322111**
-
-###### Anvee Naik
-
-Email: **[anvee.naik@robotix.in](mailto:anvee.naik@robotix.in)**
-
-Ph. no: **+91 7430944999**
+Ph. no: **+91 7024156777**
