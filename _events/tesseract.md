@@ -193,16 +193,18 @@ For relevant tutorials check [ROBOTIX TUTORIALS](https://www.robotix.in/tutorial
 
 ##### Contact
 
+###### Manthan Patel
+
+Email: **[manthanhemangpatel@gmail.com](mailto:manthanhemangpatel@gmail.com)**
+
+Ph. no: **+91 9033034268**
+
 ###### Anirudh Roy
 
-Email: **[anirudh.roy@robotix.in](mailto:anirudh.roy@robotix.in)**
+Email: **[royanirudh99@gmail.com](mailto:royanirudh99@gmail.com)**
 
 Ph. no: **+91 7011549352**
 
-###### Manthan Patel
 
-Email: **[manthan.patel@robotix.in](mailto:manthan.patel@robotix.in)**
-
-Ph. no: **+91 9033034268**
 
 
