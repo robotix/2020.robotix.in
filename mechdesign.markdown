@@ -32,30 +32,26 @@ The rules of this competition are as follows:
 
 The weightage for scoring will be as following:
 
-* Facebook Likes: 30%
-* Submission: 70%
+* Facebook Likes: 15%
+* Submission: 50%
+* Feasibility: 15%
+* Cost Effectiveness: 10%
+* Presentation: 10%
 
-    * Feasibility: 30%
-    * Innovation: 20%
-    * Cost Effectiveness: 10%
-    * Presentation: 10%
+##### **SUBMISSION DEADLINE:** 30th December, 2019
 
-##### **SUBMISSION DEADLINE:** 30th December, 2018
-
-##### Send your entries to [zenith@robotix.in](mailto:zenith@robotix.in)
+##### Send your entries to [crescendo@robotix.in](mailto:crescendo@robotix.in)
 
 For any queries,
 
 **Contact :**
 
-**Siddhartha Kapuria**  
-Email ID : [siddhartha.kapuria@robotix.in](mailto:siddhartha.kapuria@robotix.in)  
-Phone No. : (+91) 7479322111  
+**Shreyansh Vats**  
+Email ID : [shreyanshvts@gmail.com](mailto:shreyanshvts@gmail.com)  
+Phone No. : (+91) 9051047700
 
-**Shivansh Mundra**  
-Email ID : [shivansh.mundra@robotix.in](mailto:shivansh.mundra@robotix.in)  
-Phone No. : (+91) 7877399396  
+**Jaydeep Godbole**  
+Email ID : [jgodbole7@gmail.com](mailto:jgodbole7@gmail.com)  
+Phone No. : (+91) 8390888597
 
-**Anvee Naik**  
-Email ID : [anvee.nail@robotix.in](mailto:anvee.naik@robotix.in)  
-Phone No. : (+91) 7430944999
+
