@@ -40,7 +40,7 @@ The weightage for scoring will be as following:
 
 ##### **SUBMISSION DEADLINE:** 30th December, 2019
 
-##### Send your entries to [crescendo@robotix.in](mailto:crescendo@robotix.in)
+##### Send your entries to [crescendorbtx20@gmail.com](mailto:crescendorbtx20@gmail.com)
 
 For any queries,
 
