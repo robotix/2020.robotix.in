@@ -5,7 +5,7 @@ categories:
  - event
 ---
 
-#### Zenith
+#### Crescendo
 
 The engineers are trying to design a vehicle that is capable of traversing through a demolished area, having trenches and innumerable obstacles. You are asked to design the prototype of a bot that is capable of switching its plane of motion and also picks and places the objects using extendable gripper. The arena has many rifts and projections that must be cleared without harming the bot in any manner. 
 
