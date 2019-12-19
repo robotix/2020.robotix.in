@@ -5,6 +5,10 @@ subTitle: 'Autonomous Event'
 logo: /img/event/tesseract/logo.png
 actions:
   -
+    text: 'D'
+    caption: 'Do-It-Yourself'
+    link: '/img/event/tesseract/diy.png'
+  -
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/tesseract/'
