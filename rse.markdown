@@ -2,6 +2,7 @@
 layout: post
 title: Robotix Student Executive
 permalink: /rse/
+image: img/sections-background/rse.jpg
 actions:
   -
     text: 'R'

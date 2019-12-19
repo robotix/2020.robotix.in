@@ -2,7 +2,6 @@
 layout: post
 title: Mechanical Design Competition
 permalink: /mechdesign/
-image: img/sections-background/mech.jpg
 ---
 
 #### Rules:
@@ -48,7 +47,7 @@ For any queries,
 
 **Shreyansh Vats**  
 Email ID : [shreyanshvts@gmail.com](mailto:shreyanshvts@gmail.com)  
-Phone No. : (+91) 9051047700
+Phone No. : (+91) 7024156777
 
 **Jaydeep Godbole**  
 Email ID : [jgodbole7@gmail.com](mailto:jgodbole7@gmail.com)  
