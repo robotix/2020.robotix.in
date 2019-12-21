@@ -16,6 +16,10 @@ actions:
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/tesseract/faq/'
+  -
+    text: 'L'
+    caption: 'Components List'
+    link: '/event/tesseract/components/'
 ---
 
 

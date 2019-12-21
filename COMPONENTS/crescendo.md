@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Component List - Zenith
-permalink: /event/zenith/components/
+title: Component List - Crescendo
+permalink: /event/crescendo/components/
 ---
-Here is the component list for the event [ZENITH](/tutorial/event/zenith/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
+Here is the component list for the event [CRESCENDO](/tutorial/event/cresendo/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
 
 | Materials                                         | Qunatity    |
 |---------------------------------------------------|-------------|
@@ -19,8 +19,6 @@ Here is the component list for the event [ZENITH](/tutorial/event/zenith/). All 
 <br>
 The above components list for the design that has been used in the tutorial. However, the above requirements might change if the mechanisms and design of the bot are different.
 
-###### Shivansh Mundra
+###### Shreyansh Vats
 
-Email: **[shivansh.mundra@robotix.in](mailto:shivansh.mundra@robotix.in)**
-
-Ph. no: **+91 7877399396**
+Ph. no: **+91 7024156777**

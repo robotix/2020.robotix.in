@@ -16,6 +16,10 @@ actions:
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/crescendo/faq/'
+  -
+    text: 'L'
+    caption: 'Components List'
+    link: '/event/crescendo/components/'
 ---
 
 #### Problem Statement

@@ -12,6 +12,10 @@ actions:
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/nexus/faq/'
+  -
+    text: 'L'
+    caption: 'Components List'
+    link: '/event/nexus/components/'
 ---
 
 #### USP
