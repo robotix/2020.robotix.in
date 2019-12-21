@@ -5,7 +5,7 @@ permalink: /event/nexus/components/
 ---
 Here is the component list for the event [CRUSADE](/tutorial/event/nexus/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
 
-| Materials                         | Qunatity    |
+| Materials                         | Quantity    |
 |-----------------------------------|-------------|
 |Wheels                             | 2           |
 |Castor Wheel                       | 1           |
