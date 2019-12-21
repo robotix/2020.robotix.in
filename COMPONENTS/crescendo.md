@@ -3,7 +3,7 @@ layout: post
 title: Component List - Crescendo
 permalink: /event/crescendo/components/
 ---
-Here is the component list for the event [CRESCENDO](/tutorial/event/cresendo/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
+Here is the component list for the event [CRESCENDO](/tutorial/event/crescendo/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
 
 | Materials                                         | Quantity    |
 |---------------------------------------------------|-------------|
