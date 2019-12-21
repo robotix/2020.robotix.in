@@ -5,7 +5,7 @@ permalink: /event/tesseract/components/
 ---
 Here is the component list for the [TESSERACT](/tutorial/event/tesseract/). All the components will be available online. They can also be bought from Bots and Chips, Prem-Bazaar, Kharagpur (9002293985).
 
-| Materials                                         | Qunatity    |
+| Materials                                         | Quantity    |
 |---------------------------------------------------|-------------|
 |Arduino Mega                                       | 1           |
 |L293D Motor Driver                                 | 1           |
