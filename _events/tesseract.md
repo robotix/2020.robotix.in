@@ -12,6 +12,10 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/tesseract/'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/tesseract/faq/'
 ---
 
 

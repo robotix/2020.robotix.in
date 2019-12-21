@@ -8,6 +8,10 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/nexus/'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/nexus/faq/'
 ---
 
 #### USP

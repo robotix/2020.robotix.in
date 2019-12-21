@@ -12,6 +12,10 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crescendo/'
+  -
+    text: 'F'
+    caption: 'F.A.Q.'
+    link: '/event/crescendo/faq/'
 ---
 
 #### Problem Statement
@@ -184,6 +188,94 @@ Same as Round 1
 ![](/img/event/crescendo/manual33.png){:.img-responsive}
 
 **Note** All the above dimensions are in cm.
+
+#### Scoring
+
+##### Round 1
+
+**Positives**
+
+* Base score: **500**
+
+* Successfully rotating out the obstacle for the white ball: 100 (RO1)
+
+* Successfully opening the entrance of the cave(blue door): 200 (CD)
+
+* Taking out the green trapezoidal blocks from the cave: 50 per block (B)
+
+* Successfully crossing over the gap after placing the green blocks: 200 (G)
+
+* Successful plane shifting: 50 per shift (P)
+
+* Time bonus: **number of seconds left(t') x 3**
+
+**Negatives**
+
+* Disbalance or slipping out off the arena of the robot: -50 (E1)
+
+* Falling of the arena or in any of the gaps: -100 (E2)
+
+* Falling in the gaps: -200 (E3)
+
+* Negative marks for each timeout: -100 (T)
+
+* Negative marks for restart: -200 (R)
+
+* Negative marks for restart: **-200** (R)
+
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalized for skipping (-2 * X)
+
+* No time bonus will be awarded if a participant decides to skip any part of the arena.
+
+**Scoring formula:**
+
+{% highlight ruby %}
+500 + RO1 * 100 + CD * 200 + B * 50 + G * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 200 - T * 100 - R * 200 - 2 * X  
+{% endhighlight %}
+
+##### Round 2
+
+**Positives**
+
+* Base score: 500
+
+* Successfully rotating out the obstacle from the path of white ball: 100 (RO)
+
+* Successfully initiating the white ball on its path: 200 (WB)
+
+* Taking the yellow block to the seesaw: 100 (SS)
+
+* Successfully switch the position red block from one end to other of the podium: 200 (Q)
+
+* Time bonus: number of seconds left(t’) * 3
+
+* Initiated white ball successfully reaches the end: 300 (BB)
+
+**Negatives**
+
+* Disbalance or slipping out off the arena of the robot: -50 (E1)
+
+* Falling of the arena: -100 (E2)
+
+* Negative marks for each timeout: -100 (T)
+
+* Negative marks for restart: -200 (R)
+
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalized for skipping (-2 * X)
+
+* Negative marks for each timeout: **-100** (T)
+
+* Negative marks for restart: **-200** ( R )
+
+* Participants are allowed to skip some parts of the arena if they want to. If X is the sum of the positives that the participant would have received had their bot successfully cleared the respective parts, twice that will be the negatives penalised for skipping (**-2** * X)
+
+* No time bonus will be awarded if a participant decides to skip any part of the arena.
+
+**Scoring formula:**
+
+{% highlight ruby %}
+500 + RO * 100 + WB * 200 + SS * 100 + Q * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
+{% endhighlight %}
 
 ##### Contacts
 

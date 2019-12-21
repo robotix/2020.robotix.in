@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Crusade FAQs"
-permalink: /event/crusade/faq/
+title: "Nexus FAQs"
+permalink: /event/nexus/faq/
 ---
 
 **Q: How do I register for the event?**
@@ -21,7 +21,7 @@ Each team can have a maximum of four members.
 
 **Q: Will I be given time for thresholding (localization etc) before a run?**
 
-Yes. You will be given sufficient time before a run (~20 mins) to make thresholding changes. Localization has to be done by the bot at the time of the run.
+Yes. You will be given sufficient time before a run ( ~ 20 mins) to make thresholding changes. Localization has to be done by the bot at the time of the run.
 
 
 **Q: Is hard coding allowed?**
@@ -69,21 +69,7 @@ Yes
 It will only consist of the arena.
 
 
-**Q: When will the frequency priority order be given and how?**
-
-It will be announced before the run of each participant in their second round. It might be different for different participants.
-
-
 **Q: Can the inbuilt LED of an Arduino be used?**
 
 No, the LED of an Arduino can’t be used as it is not visible enough to count the number of times it blinks. The LED used should be properly visible.
 
-
-**Q: Which type of LED will be used on the arena?**
-
-5mm round blue LEDs on the walls and red LEDs on the floor will be used.
-
-
-**Q: Will the path be identical to the one shown in the arena on the website?**
-
-No, the paths will be different for every participant. However, the length of the path, the number of turns and number of LEDs in the path will be identical for all participants.
