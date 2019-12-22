@@ -118,12 +118,12 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 * The bot then has to get inside the pit (shown as the blue region below) and pick up the green trapezoidal blocks one by one and has to place the green trapezoidal blocks one by one so as to fill up the 5 cm gap on the path to the stage (as shown by the gap in the ramped path below).
 
 ![](/img/event/crescendo/manual4.jpg){:.img-responsive}
-![](/img/event/crescendo/manual5.png){:.img-responsive}
+![](/img/event/crescendo/manual5.jpg){:.img-responsive}
 
 * The bot will also have to get the green blocks out of the cave which is blocked by a giant blue door. The door must be opened by going up the ramp to the top of the platform over the blue door and then moving the door aside.
 
-![](/img/event/crescendo/manual6.png){:.img-responsive}
-![](/img/event/crescendo/manual7.png){:.img-responsive}
+![](/img/event/crescendo/manual6.jpg){:.img-responsive}
+![](/img/event/crescendo/manual7.jpg){:.img-responsive}
 
 * After all the green blocks are out in the pit and the gap is filled adequately, the bot has to climb the first stage and traverse the filled gap to reach the upcoming stage. 
 
@@ -162,7 +162,7 @@ Same as Round 1
 
 * Then further traversing along the path the bot needs to climb down the stage. After that, there is a red cube on a small podium which the bot needs to pick up drop it at the next off on the next podium under the next stage.
 
-![](/img/event/crescendo/manual14.png){:.img-responsive}
+![](/img/event/crescendo/manual14.jpg){:.img-responsive}
 
 * Further, the bot needs to get the yellow block down into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the Second Round.
 
