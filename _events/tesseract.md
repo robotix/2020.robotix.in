@@ -58,7 +58,7 @@ All dimensions are in cms. ALl RFID Cards are placed beneath the arena (readable
 
 ##### Arena specifications
 
-*   The distance between each node will be 30 centimetres.
+*   The distance between each node will be 40 centimetres.
 *   The dimensions of each node will be 4x4 centimetres.
 *   The outer dimensions of the arena will be 200 x 200 cm.
 *   The dimensions are to be considered with a maximum tolerance of 10%.
