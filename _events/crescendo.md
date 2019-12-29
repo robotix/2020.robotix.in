@@ -20,6 +20,10 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/crescendo/components/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=-E7RAfQoOx4
 ---
 
 #### Problem Statement

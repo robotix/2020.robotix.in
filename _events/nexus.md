@@ -16,6 +16,10 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/nexus/components/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=aHFUg_Ah8Co
 ---
 
 #### USP

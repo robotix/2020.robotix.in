@@ -20,6 +20,10 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/tesseract/components/'
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=-z_I5_VtNgQ
 ---
 
 
