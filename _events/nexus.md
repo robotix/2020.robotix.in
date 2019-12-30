@@ -113,7 +113,7 @@ The barcode consists of 4 white strips which are either thin (10mm wide) or thic
 
 * If it’s a triangle, the bot has to proceed towards the left and towards right if it’s a quadrilateral. It also has to blink an LED once if it’s a triangle and twice if it’s a quadrilateral obstacle. 
 
-* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different so as to prevent hardcoding.
+* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different runs.
 
 ##### Round 2
 
@@ -125,7 +125,7 @@ The barcode consists of 4 white strips which are either thin (10mm wide) or thic
 
 * If it’s a triangle, the bot has to proceed towards the left and towards right if it’s a quadrilateral. It also has to blink an LED once if it’s a triangle and twice if it’s a quadrilateral obstacle. 
 
-* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different so as to prevent hardcoding.
+* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different runs.
 
 **No. on node**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Path to be chosen**<br /> 
 0,3,6,9,12,15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Green path <br /> 
