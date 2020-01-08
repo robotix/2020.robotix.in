@@ -95,44 +95,46 @@ To build a robot that uses an onboard camera to detect a path formed by circles 
 
 * Dimensions of the arena are to be considered with a maximum tolerance of 10%.
 
+* Onboard camera for the runs will be provided by TEAM Robotix. The model of the webcam used is :  https://www.logitech.com/en-us/product/hd-pro-webcam-c920s
+
 
 #### Task
 
 ##### The Barcode
 ![](/img/event/nexus/n1.jpg){:.img-responsive}
 
-The barcode consists of 4 white strips which are either thin (10mm wide) or thick (20 mm wide) separated by black tape. Reading from left to right, each white strip corresponds to 1-bit which is either a 0 or 1. The total width of the barcode is always 100mm. The barcode can represent binary numbers from 0000 to 1111 (which correspond to 0-15 in decimal number system).
+* The barcode consists of 4 white strips which are either thin (10mm wide) or thick (20 mm wide) separated by black tape.
+
+* Reading from left to right, each white strip corresponds to 1-bit which is either a 0 or 1. A thick strip corresponds to a 1 and a thin strip corresponds to a 0. The total width of the barcode is always 100mm. Further, the barcode is surrounded by a 5cm thick black boundary around it.
+
+* The barcode can represent binary numbers from 0000 to 1111 (which correspond to 0-15 in decimal number system).
 
 ##### Round 1
 
-* The arena consists of 2-D green circles and 2D non-green triangles and quadrilaterals. The circle will be of a 10cm diameter with an approximately equal 20cm distance between the centres of consecutive circles.
+* The arena consists of 2-D green circles and 2D non-green triangles and quadrilaterals. The circle will approximately be of a 10cm diameter with an approximately equal 20cm distance between the centres of consecutive circles.
 
-* The robot makes has to move from the start point to the endpoint moving along the circles. It has to move through each circle without straying from the path. The path is defined by always following the next closest circle.
+* The robot has to move from the start point to the endpoint moving along the circles. It has to move through each circle without straying from the path. The path is defined by always following the next closest circle.
 
-* The path branches after each 2D obstacle which can be either a triangle or a quadrilateral based on which, the bot has to decide which direction to proceed in- right or left. 
+* The path branches after each 2D obstacle which can be either a triangle or a quadrilateral based on which, the bot has to decide which direction to proceed in- right or left.  The directions can be different for different runs.. 
 
-* If it’s a triangle, the bot has to proceed towards the left and towards right if it’s a quadrilateral. It also has to blink an LED once if it’s a triangle and twice if it’s a quadrilateral obstacle. 
-
-* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different runs.
+* For example, if it’s a triangle, the bot has to proceed towards the left and towards right if it’s a quadrilateral. It also has to blink an LED once if it’s a triangle and twice if it’s a quadrilateral obstacle. 
 
 ##### Round 2
 
-* In the second round, the distance between the circles will vary and not remain uniform. Further, obstacles, which will also be quadrilaterals, will contain a barcode that the bot has to read.
+* In the second round, the distance between the circles will vary and not remain uniform. Further, obstacles, which will only be quadrilaterals, will contain a barcode that the bot has to read.
 
-* The paths branching from each of these obstacles will be of different colors. Depending on the information scanned, if the path to be followed is green, the bot has to blink an LED once, twice if it is blue and thrice if it is red.
+*  The paths branching from each of these obstacles will be of different colors. Depending on the information scanned, if the path to be followed is green, the bot has to blink an LED once, twice if it is blue and thrice if it is red. The number of times corresponding to a colour may change for different runs.
 
-* Then it has to scan the paths and has to either turn right, left or keep moving forward.
-
-* If it’s a triangle, the bot has to proceed towards the left and towards right if it’s a quadrilateral. It also has to blink an LED once if it’s a triangle and twice if it’s a quadrilateral obstacle. 
-
-* Note : The number of times the bot has to blink its LED as well as the direction of traversal can change in different runs.
+* Then it has to scan the paths and has to either turn right, left or keep moving forward. For example: 
 
 **No. on node**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Path to be chosen**<br /> 
 0,3,6,9,12,15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Green path <br /> 
 1,4,7,10,13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red path <br /> 
 2,5,8,11,14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blue path <br /> 
 
-The last node will be a plain black square. Taking the average of the numbers scanned so far, it has to either turn right, left or move forward. <br /> 
+* However, colour of path to be chosen may change for different runs.
+
+* The last node will be a plain black square. Taking the average of the numbers scanned so far, it has to either turn right, left or move forward. <br /> 
 
 **Average**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Turn**<br /> 
 0-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forward<br />
@@ -153,13 +155,11 @@ The last node will be a plain black square. Taking the average of the numbers sc
 
 ##### Round 1
 
-* Moving to the next closest circle: Landing on the circle: +20 points; if the circle is on a curved path: +40 points
+* Moving to the next closest circle: Landing on the circle: +20 points
 
-* Detecting the shape of the obstacle: +200 points
+* Detecting the shape of the obstacle: +100 points
 
-* Correct path identification after obstacle encounter: +200 points
-
-* Blinking LED correctly no. of times: +100 points
+* Correct path identification after obstacle encounter: +100 points
 
 * Time Bonus : +300 - Time taken(in s) 
 
@@ -177,25 +177,22 @@ The last node will be a plain black square. Taking the average of the numbers sc
 
 ##### Round 2
 
-* Moving to the next closest circle: Landing on the circle: +20 points; if the circle is on a curved path: +40 points
+* Moving to the next closest circle: Landing on the circle: +20 points
 
-* Detecting the shape of the obstacle: +200 points
 
-* Correct path identification after obstacle encounter: +200 points
-
-* Blinking LED correctly no. of times: +100 points
+* Correctly choosing the path after barcode reading: +200 points
 
 * Time Bonus : +300 - Time taken(in s) 
 
 * Correct identification of path color after reading the barcode: +100 points
 
-* Not moving to the next closest circle: -10 points
+* Correct turn identification after yellow node : +150 points
 
-* Incorrect shape detection of obstacle: -50 points
+* Not moving to the next closest circle: -10 points
 
 * Incorrect turn after obstacle encounter: -100 points
 
-* Incorrect turn after black node: -100 points
+* Incorrect turn after yellow node: -100 points
 
 * Slipping out of the line (based on Team Robotix discretion): -50 points
 
@@ -203,6 +200,62 @@ The last node will be a plain black square. Taking the average of the numbers sc
 
 * Timeout: -50 points
 
+##### Example Scoring
+
+**Case 1**: (Round 1) Robot correctly traverses all circles, making correct turns at the obstacles.
+
+Let’s say there are 30 circles in the shortest path and 3 obstacles (triangle or rectangle). The bot lands on each circle and correctly identifies the correct shapes and paths with 30 seconds left, the corresponding scoring will be:
+
+* +30 x 20 = 600 points for landing on each circle.
+
+* +3 x 100 = 300 points for correctly identifying shape by blinking LED.
+
+* +3 x 100 = 300 points for choosing the correct path.
+
+* +(300-270)  = 30 points as time bonus
+
+Hence, the final tally will be 1230 points.
+
+**Case 2**: (Round 1) The robot lands on 20 circles, making correct turns at 1 of the 3 obstacles, correctly identifying the shapes at 2 of the 3 obstacles and slips out of path one time.
+Let’s say that 15 of the 20 circles are the next closest ones in the path and there is exactly no time left.
+
+* +15 x 20 = 300 points for landing on each circle.
+
+* -5 x 10 = -50 points for correctly identifying shape by blinking LED.
+
+* +1 x 100 = 100 points for choosing the correct path.
+
+* -2 x 100 = -200 points for choosing the  incorrect paths.
+
+* +2 x 100 = 200 points for correctly identifying the shapes by blinking LED.
+
+* -1 x 50 = -50 points for incorrectly identifying one of the shapes.
+
+* -1 x 50 = -50 points for slipping out of the line.
+
+* +(300-300)  = 0 points as time bonus
+
+Hence, the final tally will be 300 points.
+
+**Case 3**: (Round 2) The robot lands on 25 circles, making correct turns at 3 of the 3 barcodes, correctly identifying the path colour at 2 of the 3 barcodes. The robot also makes the correct turn at the final node.
+
+Let’s say that 23 of the 25 circles are the next closest ones in the path and 20 seconds more than permitted.
+
+* +23 x 20 = 460 points for landing on each circle.
+
+* -2 x 10 = -20 points for correctly identifying shape by blinking LED.
+
+* +3 x 200 = 600 points for choosing the correct path.
+
+* +2 x 100 = 200 points for correctly identifying the path colours by blinking LED.
+
+* -1 x 50 = -50 points for  incorrect path colour detection.
+
+* +1 x 50 = 150 points for correct turn at final node.
+
+* +(300-320)  = -20 points as time bonus
+
+Hence, the final tally will be 1320 points
 
 ##### Contacts
 
