@@ -101,7 +101,7 @@ To build a robot that uses an onboard camera to detect a path formed by circles 
 #### Task
 
 ##### The Barcode
-![](/img/event/nexus/n1.jpg){:.img-responsive}
+![](/img/event/nexus/barcode.jpg){:.img-responsive}
 
 * The barcode consists of 4 white strips which are either thin (10mm wide) or thick (20 mm wide) separated by black tape.
 
@@ -145,11 +145,11 @@ To build a robot that uses an onboard camera to detect a path formed by circles 
 
 ##### Round 1
 
-![](/img/event/nexus/n2.png){:.img-responsive}
+![](/img/event/nexus/arena1.png){:.img-responsive}
 
 ##### Round 2
 
-![](/img/event/nexus/n3.png){:.img-responsive}
+![](/img/event/nexus/arena2.png){:.img-responsive}
 
 ##### Scoring
 
