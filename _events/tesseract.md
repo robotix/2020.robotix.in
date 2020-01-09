@@ -60,7 +60,7 @@ Note: Ambush points around a node means ambush points in the nodes in front, beh
 
 #### Arena
 
-##### Both Round1 and Round 2
+##### Both Round 1 and Round 2
 
 ![](/img/event/tesseract/arena.jpg){:.img-responsive}
 
