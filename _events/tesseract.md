@@ -46,25 +46,26 @@ To build an autonomous robot capable of traversing through the arena through a s
 
 *   The arena will be a 5x5 grid, with white lines on a black background.
 
-*   In Round 1, the arena will have one level, with each node(intersection of white lines) being a safe or an ambush point.
-
-*   Round 2 is a virtual bi-dimensional arena with two levels stacked one on top of the other, aligning perfectly.
-
 *   Each intersection of white paths, called a node, will have an RFID tag, transmitting integer data.
+
+*   Ambush points around a node means ambush points in the nodes in front, behind, left, right of that node (and above or below too for Round 2).
+
+*   In Round 1, the arena will have one level, with each node (intersection of white lines) being a safe or an ambush point.
+
+*   Round 2 is a virtual arena with two levels stacked one on top of the other, aligning perfectly.
 
 *   The data transmitted will be of the format- (number of points of ambush around it on Level 1, number of points of ambush around it on Level 2). For example, 24 at one node means on the 1st level, there are 2 ambush points around it and on the 2nd level, there are 4 ambush points all around it. The start node is safe.
 
-*   The maximum integer possible integer in the above format is 44, 4 ambush points around the node on level 1 and 4 ambush points around the same node on level 2.
-
-Note: Ambush points around a node means ambush points in the nodes in front, behind, to the left, right, above, and below that node.
+*   The maximum possible integer in the above format is 55, 5 ambush points around the node on level 1 and 5 ambush points around the same node on level 2.
+      
 
 #### Arena
 
-##### Both Round 1 and Round 2
+##### Both Round1 and Round 2
 
-![](/img/event/tesseract/arena.jpg){:.img-responsive}
+![](/img/event/tesseract/arenaupdated.jpg){:.img-responsive}
 
-All dimensions are in cms. All RFID Cards are placed beneath the arena (readable using the sensor from on the bot).
+All dimensions are in cms. All RFID Cards are placed beneath the arena (readable using the RFID Sensor placed beneath the participant's bot).
 
 ##### Arena specifications
 
@@ -78,7 +79,15 @@ All dimensions are in cms. All RFID Cards are placed beneath the arena (readable
 
 *   Universal readable using 13.56MHz RC522 RFID Reader Sensor.
 
-*   “Credit Card” sized plastic white MIFARE RFID Cards with approximate dimensions 8.2cm by 5.2cm.
+*   “Credit Card” sized plastic white MIFARE RFID Cards with approximate dimensions 8.2cm x 5.2cm x 1.4cm.
+
+*   Hint: The Bot can use RFID Card UID for distinguishing between different cards.
+
+##### RFID card Reading
+
+*   Use this library (https://github.com/miguelbalboa/rfid) for RFID reading. The output of the example code read_personal_data is shown below. The data field of the output will contain the required integer.
+
+![](/img/event/tesseract/serialmonitor.jpg){:.img-responsive}
 
 ##### Robot Specification
 
@@ -93,66 +102,70 @@ All dimensions are in cms. All RFID Cards are placed beneath the arena (readable
 
 *   The initial run can be traversed by the bot in whichever way it so chooses, beginning from the start node, storing data from all the nodes as it goes.
 
-*   Once the bot has traversed the entire arena, (it has reached the diagonal end) it has to display the correct location of all the nodes of ambush (found using data from all the nodes it traversed during its initial run) on an LCD display, for a time of 3 seconds.
+*   Once the bot has traversed the entire arena and reached the diagonal end, it has to display the correct location of all the nodes of ambush found using the data from all the nodes, on an LCD display for a period of 3 seconds per ambush point.
+
+*   The format in which the ambush points are to be displayed on the LCD one after the other is (x, y, z) where x-y coordinate system is marked in the image of the arena above and z coordinate represents the level of the ambush point being displayed.
 
 ##### Timeouts and Re-runs
-* A maximum of 6 re-runs can be taken. Penalty will be awarded for each re-run and the bot will start from the beginning of the arena.
-* A restart can only be taken in case of a genuine technical fault in the robot. Team ROBOTIX can refuse a restart if the reason does not sound genuine enough, and their decision will be binding and final.
+
+* A maximum of 4 re-runs can be taken. Penalty will be awarded for each re-run and the bot will start from the beginning of the arena. Participants are allowed to make as many changes to the hardware or software as they want.
+
+* A timeout can only be taken in case of a genuine technical fault in the robot. The bot will continue from the same point in that case without making any changes to the hardware or software. Team ROBOTIX can refuse a timeout if the reason does not sound genuine enough, and their decision will be binding and final.
   
 #### Round 1
 
 ##### Task
-
 *   The arena will consist of 1 level. The bot has to traverse the arena and read the data from the RFID tag on each node.
 
-*   After the first run, at the diagonally opposite point, the bot will have to display all the ambush points in the aforementioned format.
+*   The first round will be characterized into three checkpoints. While traversing the first 6 nodes, the bot will have to read the RFID card, and display the reading on the LCD display for 2 seconds each. This is to check the working of the RFID reader. 
 
-*   From the diagonally opposite point, the bot has to traverse the arena back, through a path free of ambush points and reach the end point (initially the start point).
+*   After traversing the arena, at the diagonally opposite end point, the bot will have to display all the ambush points in the aforementioned format one after the other for 2 seconds each. This is the second checkpoint, to check the accuracy of the ambush point-finding algorithm.
+ 
+*   From the end point, the bot has to traverse the arena back through a path free of ambush points and reach the start point. This will be the third checkpoint, to check the path planning algortihm of the participants.
 
-*   There will be one return path.
+*   There is only one safe return path. 
+
+*   In case of the bot failing at any of the checkpoints, the participant will be permitted to take a re-run, the rules of which are mentioned below.
 
 
 #### Round 2
 
 ##### Task
 
-*   The arena will consist of 2 virtual levels. The bot has to traverse the arena and read the data from the RFID tag on each node.
+*   The arena will consist of 2 virtual levels as shown in Example 2 below. The bot has to traverse the arena and read the data from the RFID tag on each node.
 
-*   After the first run, at the diagonally opposite point at level 1, the bot will have to display all the ambush points in the aforementioned format.
+*   After the first run, at end point at level 1, the bot will have to display all the ambush points in the aforementioned format.
 
-*   From the diagonally opposite point, the bot has to traverse the arena back through a path free of ambush points on both the levels and reach the end point (initially the start point).
+*   From the end point, the bot has to traverse the arena back through a path free of ambush points on both the levels and reach the start point.
 
-*   Throughout it's return journey, the bot will have to keep either 1 or 2 LED(s) glowing representing the level on which it is currently travelling.
+*   Throughout it's return journey, the bot will have to keep either 1 or 2 standard LED(s) glowing representing the level on which it is currently travelling respectively.
 
-* There will be 2 safe paths, one with higher energy, and one with lower energy, where energy increases with each level. The first level has lower energy than the second level. The bot that travels to the end through a lower energy path will be awarded higher points.
+*   There will be 2 safe paths, one with higher energy, and one with lower energy, where energy increases with each level. The first level has lower energy than the second level. The bot that travels to the end through a lower energy path will be awarded higher points.
 
 
 ##### Scoring Formula
 
 * **Positives**
 
-Base score - 500(A)
-Line following - 200(B)
-Detection/display of each correct ambush point - 50(C)
-Each safe node traversed while returning - 50(D)
-(Round 2) For traversing the path with lesser energy - 200(E)
+Base score - 500
+Line following - 200
+Checkpoint 1 (Display of first 6 RFID Readings) - 100
+Checkpoint 2 (Detection/display of each correct ambush point) - 200
+Each safe node traversed while returning - 50
+Checkpoint 3 (Successfully returning to the start point through the safe path) - 100
+For traversing the lesser energy path (Round 2) - 200
 
 * **Negatives**
-For each ambush point traversed while returning - 30(F)
-For each re-run -100(G)
-For damaging the arena - 400(H)
-
-**Formula:**
-
-{% highlight ruby %}
-A+B+50*C+50*D+200*E-30*F-100*G-400*H
-{% endhighlight %}
+For each ambush point touched while returning - 50
+For each re-run - 100
+For each timeout - 50
+For damaging the arena - 400
 
 **Note:**
 
 * **Example 1:**
-(
-Round 1 (uni-dimensional) trial demonstration for a 3x3 arena-
+
+Round 1 trial demonstration for a 3x3 arena-
 
 *   Readings from RFID Tags:
 ![](/img/event/tesseract/ex11.jpg){:.img-responsive}
@@ -164,6 +177,27 @@ Round 1 (uni-dimensional) trial demonstration for a 3x3 arena-
 
 *   Return path safe from the ambush points followed by the bot in the return journey:
 ![](/img/event/tesseract/ex13.jpg){:.img-responsive}
+
+* **Example 2:**
+
+Round 2 trial demonstration for a 5x5 arena-
+
+*   Imaginative view of the two levels of Round 2:
+![](/img/event/tesseract/ex21.jpg){:.img-responsive}
+
+
+*   Ambush points on the lower level:
+![](/img/event/tesseract/ex22.jpg){:.img-responsive}
+
+*   Ambush points on the upper level:
+![](/img/event/tesseract/ex23.jpg){:.img-responsive}
+
+*   Bot traversal after detection of ambush points and path planning:
+![](/img/event/tesseract/ex24.jpg){:.img-responsive}
+
+![](/img/event/tesseract/ex25.jpg){:.img-responsive}
+
+![](/img/event/tesseract/ex26.jpg){:.img-responsive}
 
 
 ##### General Rules
