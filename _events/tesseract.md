@@ -34,7 +34,7 @@ It’s a time fraught with tension for the Avengers, charged with bringing the T
 #### USP
 
 *   Line Following Mechanism
-*   RFID Cards Reading
+*   RFID Card Reading
 *   Path Planning and Optimization
 
 
@@ -44,13 +44,19 @@ To build an autonomous robot capable of traversing through the arena through a s
 
 #### General Description and Event Setup
 
-*   The arena will be a 6x6 grid, with white lines on a black arena.
+*   The arena will be a 5x5 grid, with white lines on a black background.
 
-*   It is a virtual multidimensional arena with multiple levels stacked one on top of the other, aligning perfectly.
+*   In Round 1, the arena will have one level, with each node(intersection of white lines) being a safe or an ambush point.
+
+*   Round 2 is a virtual bi-dimensional arena with two levels stacked one on top of the other, aligning perfectly.
 
 *   Each intersection of white paths, called a node, will have an RFID tag, transmitting integer data.
 
-*   The data transmitted will be of the format- (level number, number of points of ambush around, above and below it). For example, ((1,2), (2,1)) at one node means at the 1st level, there are 2 ambush points all around it and on the 2nd level, there is 1 ambush point all around it. (The start node is safe.)
+*   The data transmitted will be of the format- (number of points of ambush around it on Level 1, number of points of ambush around it on Level 2). For example, 24 at one node means on the 1st level, there are 2 ambush points around it and on the 2nd level, there are 4 ambush points all around it. The start node is safe.
+
+*   The maximum integer possible integer in the above format is 44, 4 ambush points around the node on level 1 and 4 ambush points around the same node on level 2.
+
+Note: Ambush points around a node means ambush points in the nodes in front, behind, to the left, right, above, and below that node.
 
 #### Arena
 
@@ -58,24 +64,25 @@ To build an autonomous robot capable of traversing through the arena through a s
 
 ![](/img/event/tesseract/arena.jpg){:.img-responsive}
 
-All dimensions are in cms. ALl RFID Cards are placed beneath the arena (readable using the sensor from above the arena).
+All dimensions are in cms. All RFID Cards are placed beneath the arena (readable using the sensor from on the bot).
 
 ##### Arena specifications
 
-*   The distance between each node will be 40 centimetres.
-*   The dimensions of each node will be 4x4 centimetres.
+*   The distance between each node will be 35 centimetres.
+*   The dimensions of each node will be 3.5 by 3.5 centimetres.
+*   The line width is 3.5 centimetres.
 *   The outer dimensions of the arena will be 200 x 200 cm.
 *   The dimensions are to be considered with a maximum tolerance of 10%.
 
 ##### RFID Card Specifications
 
-*   Universal readable using 13.56MHz RC522 RFID Reader Sensor
+*   Universal readable using 13.56MHz RC522 RFID Reader Sensor.
 
-*   “Credit Card” sized plastic white MIFARE RFID Cards
+*   “Credit Card” sized plastic white MIFARE RFID Cards with approximate dimensions 8.2cm by 5.2cm.
 
 ##### Robot Specification
 
-*   The robot must fit in a cube of side 17.5 centimetres with a tolerance of 10% in its dimensions.
+*   The robot must fit in a cube of side 20 centimetres with a tolerance of 10% in its dimensions.
 
 *   No part/mechanism of/on the bot should exceed the given dimensions before the commencement of the event.
 
@@ -84,102 +91,78 @@ All dimensions are in cms. ALl RFID Cards are placed beneath the arena (readable
 
 *   The bot has to traverse the arena using line following mechanism.
 
-*   The initial run can be traversed by the bot in whichever way it so chooses, starting from the start node, storing data from all the tags as it goes.
+*   The initial run can be traversed by the bot in whichever way it so chooses, beginning from the start node, storing data from all the nodes as it goes.
 
-*   Once the bot has traversed the entire arena, (it has reached the diagonal end) it has to display the correct location of all the points of ambush on the LCD display, in the format - (x,y,z) - where z is the level number.
+*   Once the bot has traversed the entire arena, (it has reached the diagonal end) it has to display the correct location of all the nodes of ambush (found using data from all the nodes it traversed during its initial run) on an LCD display, for a time of 3 seconds.
 
-
-##### Restarts and Timeouts
-
-* A maximum of **2 Timeouts** of **1 minute** each may be taken. **Penalty** will be awarded for each timeout and robot will start from its stopping position on the arena.
-
-* The participant’s robots can have a maximum of **2 restarts**. A penalty will be imposed on the team for every restart that they take.
-
-* After the restart, the participant’s robot will be set to its **initial** position. Timer will be set to zero and the run will start afresh with the addition of the **penalty** for **restart**.
-
-* A timeout can be taken **anytime** at the user’s discretion.
-
-* A restart can **only** be taken if there is a genuine **technical** fault in the robot. Team ROBOTIX may refuse a restart if the reason does not sound genuine enough, and their decision will be binding and final.
-
+##### Timeouts and Re-runs
+* A maximum of 6 re-runs can be taken. Penalty will be awarded for each re-run and the bot will start from the beginning of the arena.
+* A restart can only be taken in case of a genuine technical fault in the robot. Team ROBOTIX can refuse a restart if the reason does not sound genuine enough, and their decision will be binding and final.
+  
 #### Round 1
 
 ##### Task
 
 *   The arena will consist of 1 level. The bot has to traverse the arena and read the data from the RFID tag on each node.
 
-*   After the first run, at the end point, the bot will have to display all the ambush points in the aforementioned format.
+*   After the first run, at the diagonally opposite point, the bot will have to display all the ambush points in the aforementioned format.
 
-*   From the end point, the bot has to traverse the arena through a path free of ambush points and reach the starting point.
+*   From the diagonally opposite point, the bot has to traverse the arena back, through a path free of ambush points and reach the end point (initially the start point).
 
-*   There will be just one such path.
+*   There will be one return path.
 
 
 #### Round 2
 
 ##### Task
 
-*   The arena will consist of 3 virtual levels. The bot has to traverse the arena and read the data from the RFID tag on each node.
+*   The arena will consist of 2 virtual levels. The bot has to traverse the arena and read the data from the RFID tag on each node.
 
-*   After the first run, at the end point, the bot will have to display all the ambush points in the aforementioned format.
+*   After the first run, at the diagonally opposite point at level 1, the bot will have to display all the ambush points in the aforementioned format.
 
-*   From the end point, the bot has to traverse the arena through a path free of ambush points and reach the starting point.
+*   From the diagonally opposite point, the bot has to traverse the arena back through a path free of ambush points on both the levels and reach the end point (initially the start point).
 
-*   Every time the bot changes levels during its journey, the level to which it is going should be displayed on the seven segment display, in the format - (level number).
+*   Throughout it's return journey, the bot will have to keep either 1 or 2 LED(s) glowing representing the level on which it is currently travelling.
 
-*   There will be 2 paths, one with higher energy (where higher energy refers to using more nodes on the higher levels and every level has a 20% increase in its energy), and one with lower energy.
-
-*   The paths will have different number of segments (distance between two nodes ) and different number of turns.
-
-*   The bot has to traverse the arena using the lower energy path, or the fastest path (with lesser number of segments), depending on the total number of ambush points. If there are an odd number of points, the fastest path should be taken, and vice-versa.
+* There will be 2 safe paths, one with higher energy, and one with lower energy, where energy increases with each level. The first level has lower energy than the second level. The bot that travels to the end through a lower energy path will be awarded higher points.
 
 
 ##### Scoring Formula
 
 * **Positives**
 
-*   Base Score – 1000(A)
-
-*   Traversal – 200(B)
-
-*   Detection/display of each correct ambush point – 40(C)
-
-*   Each safe node traversed while returning- 30(D)
-
-*   Correct constraint followed in Round 2- 400(E)
-
-    
+Base score - 500(A)
+Line following - 200(B)
+Detection/display of each correct ambush point - 50(C)
+Each safe node traversed while returning - 50(D)
+(Round 2) For traversing the path with lesser energy - 200(E)
 
 * **Negatives**
-
-*   For each ambush point traversed while returning: 20(G)
-
-*   For each timeout: 100(F)
-
-*   For each restart: 150(G)
-
-*   For damaging arena: 400(H)
+For each ambush point traversed while returning - 30(F)
+For each re-run -100(G)
+For damaging the arena - 400(H)
 
 **Formula:**
 
 {% highlight ruby %}
-A+B+40*C+30*D+400*E-20*G-100*F-150*G-400*H
+A+B+50*C+50*D+200*E-30*F-100*G-400*H
 {% endhighlight %}
 
 **Note:**
 
 * **Example 1:**
-
-Trial demonstration for a 3x3 arena-
+(
+Round 1 (uni-dimensional) trial demonstration for a 3x3 arena-
 
 *   Readings from RFID Tags:
 ![](/img/event/tesseract/ex11.jpg){:.img-responsive}
 
 
-*   After analyzing and solving the readings from RFID, the ambush points to be safe from during the return journey are shown below.
+*   After analyzing and solving the readings from RFID, the nodes of ambush points are shown below.
 *   Row, Column indices displayed by the bot on the LCD display before the return journey: (1,2), (2,3), (3,1).
 ![](/img/event/tesseract/ex12.jpg){:.img-responsive}
 
-*   Return path followed by the bot:
+*   Return path safe from the ambush points followed by the bot in the return journey:
 ![](/img/event/tesseract/ex13.jpg){:.img-responsive}
 
 
@@ -220,7 +203,3 @@ Ph. no: **+91 9033034268**
 Email: **[royanirudh99@gmail.com](mailto:royanirudh99@gmail.com)**
 
 Ph. no: **+91 9891877561**
-
-
-
-
