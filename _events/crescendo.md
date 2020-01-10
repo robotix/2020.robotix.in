@@ -106,54 +106,41 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 ##### Arena for Round 1 (Top View)
 
-![](/img/event/crescendo/manual1.jpg){:.img-responsive}
+![](/img/event/crescendo/2.png){:.img-responsive}
 
 ##### Round 1
 
-* The time limit for this round is 4 minutes.
+* The time limit for this round is 5 minutes.
 
-* The bot has to start from the starting area (green colored area in the arena diagram).
-
-* The bot has to climb the stage (marked blue in the diagram on the left) near it and rotate the flagpole-shaped obstacle (using its extendable gripper) obstructing the path of the ball to clear the path. The cleared path will allow for the motion of a white ball in round 2.
+* The bot has to start from the starting area (green colored area in the top right of the arena diagram).
 
 ![](/img/event/crescendo/manual2.jpg){:.img-responsive}
+
+* The bot has to climb the stage near it and rotate the flagpole-shaped obstacle (using its extendable gripper) obstructing the path of the ball to clear the path. The cleared path will allow for the motion of a white ball in round 2.
+
 ![](/img/event/crescendo/manual3.jpg){:.img-responsive}
 
-* The bot then has to get inside the pit (shown as the blue region below) and pick up the green trapezoidal blocks one by one and has to place the green trapezoidal blocks one by one so as to fill up the 5 cm gap on the path to the stage (as shown by the gap in the ramped path below).
-
-![](/img/event/crescendo/manual4.jpg){:.img-responsive}
-![](/img/event/crescendo/manual5.jpg){:.img-responsive}
-
-* The bot will also have to get the green blocks out of the cave which is blocked by a giant blue door. The door must be opened by going up the ramp to the top of the platform over the blue door and then moving the door aside.
-
-![](/img/event/crescendo/manual6.jpg){:.img-responsive}
-![](/img/event/crescendo/manual7.jpg){:.img-responsive}
+* The bot has to pick up green blocks near it using its gripper mechanism, which will be used to fill up the gap just after the ramp.
 
 * After all the green blocks are out in the pit and the gap is filled adequately, the bot has to climb the first stage and traverse the filled gap to reach the upcoming stage. 
 
 * In this way, the bot has to come out of the pit using the stages provided to it.
 
-![](/img/event/crescendo/manual8.png){:.img-responsive}
-
-![](/img/event/crescendo/manual9.png){:.img-responsive}
-
 * Thus the First Round will end when the bot reaches the checked surface which is right outside the pit.
 
 ##### Arena for Round 2 
 
-Same as Round 1
+![](/img/event/crescendo/2.png){:.img-responsive}
 
 ##### Round 2
 
 * The time for this round is 6 minutes.
 
-* The bot has to start from the end of the First Round (The checked surface).
+* The bot has to start from the starting area (green colored area in the bottom left of the arena diagram).
 
 * It then has to traverse along the wooden path, climbing down and then up again so that it arrives at the elevated platform next to the white ball. The bot is expected to switch its plane of operation using a suitable mechanism.
 
-![](/img/event/crescendo/manual10.png){:.img-responsive}
-
-* The bot then has to pick up the ball and then drop it on the tilted surface beside it the initiating the journey of the ball.
+* The bot then has to pick up the ball and then drop it on the tilted surface beside it thus initiating the journey of the ball.
 
 ![](/img/event/crescendo/manual11.png){:.img-responsive}
 
@@ -168,28 +155,19 @@ Same as Round 1
 
 ![](/img/event/crescendo/manual14.jpg){:.img-responsive}
 
-* Further, the bot needs to get the yellow block down into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the Second Round.
-
-![](/img/event/crescendo/manual15.png){:.img-responsive}
+* Further, the bot needs to get the yellow block into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the Second Round.
 
 * Thus, when the white ball reaches the checked area, it signs off the completion of the Second Round.
 
 #### Different Views of Arena
 
-![](/img/event/crescendo/manual16.png){:.img-responsive}
-![](/img/event/crescendo/manual17.png){:.img-responsive}
-![](/img/event/crescendo/manual18.png){:.img-responsive}
-![](/img/event/crescendo/manual19.png){:.img-responsive}
-![](/img/event/crescendo/manual20.png){:.img-responsive}
-![](/img/event/crescendo/manual21.png){:.img-responsive}
+![](/img/event/crescendo/1.png){:.img-responsive}
+![](/img/event/crescendo/2.png){:.img-responsive}
+![](/img/event/crescendo/3.png){:.img-responsive}
 ![](/img/event/crescendo/manual22.png){:.img-responsive}
 ![](/img/event/crescendo/manual23.png){:.img-responsive}
 ![](/img/event/crescendo/manual24.png){:.img-responsive}
-![](/img/event/crescendo/manual25.png){:.img-responsive}
 ![](/img/event/crescendo/manual26.png){:.img-responsive}
-![](/img/event/crescendo/manual27.png){:.img-responsive}
-![](/img/event/crescendo/manual28.png){:.img-responsive}
-![](/img/event/crescendo/manual29.png){:.img-responsive}
 ![](/img/event/crescendo/manual30.png){:.img-responsive}
 ![](/img/event/crescendo/manual31.png){:.img-responsive}
 ![](/img/event/crescendo/manual32.png){:.img-responsive}
