@@ -183,11 +183,11 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Base score: **500**
 
-* Successfully rotating out the obstacle for the white ball: 100 (RO1)
-
-* Successfully opening the entrance of the cave(blue door): 200 (CD)
+* Successfully rotating the flag: 100 (RO1)
 
 * Taking out the green trapezoidal blocks from the cave: 50 per block (B)
+
+* Successfully filling the gap with the green blocks: 100 per block (CD)
 
 * Successfully crossing over the gap after placing the green blocks: 200 (G)
 
@@ -216,7 +216,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + RO1 * 100 + CD * 200 + B * 50 + G * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 200 - T * 100 - R * 200 - 2 * X  
+500 + RO1 * 100 + CD * 100 + B * 50 + G * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 200 - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Round 2
@@ -225,13 +225,11 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Base score: 500
 
-* Successfully rotating out the obstacle from the path of white ball: 100 (RO)
-
 * Successfully initiating the white ball on its path: 200 (WB)
 
 * Taking the yellow block to the seesaw: 100 (SS)
 
-* Successfully switch the position red block from one end to other of the podium: 200 (Q)
+* Successfully switch the position red block from one end to other of the podium: 300 (Q)
 
 * Time bonus: number of seconds left(t’) * 3
 
@@ -260,7 +258,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + RO * 100 + WB * 200 + SS * 100 + Q * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
+500 + WB * 200 + SS * 100 + Q * 300 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Contacts
