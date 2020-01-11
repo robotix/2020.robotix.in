@@ -50,17 +50,16 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 5. Skipping any part of the arena will be the participants choice and will be done only on the participant’s request and the approval of Team ROBOTIX. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding. The timer will not stop when the position of the robot is being changed by the participant, but the initial and final position will be decided by Team ROBOTIX.Also, if the participants choose to skip any part of the arena, no time bonus will be given to the team even if they complete the run before the timer runs out.
 
-6. Two teams can have one or more members in common.
 
-7. The team members can be from different institutes or colleges.
+6. The team members can be from different institutes or colleges.
 
-8. Teams qualifying the first round will go into the second round.
+7. Teams qualifying the first round will go into the second round.
 
-9. The teams cannot touch their robot during the course of the run, unless timeout is taken.
+8. The teams cannot touch their robot during the course of the run, unless timeout is taken.
 
-10. The best spirit of sportsmanship is expected from the participants.
+9. The best spirit of sportsmanship is expected from the participants.
 
-11. **The decision of Team ROBOTIX will be final and binding.**
+10. **The decision of Team ROBOTIX will be final and binding.**
 
 ##### Arena and Locomotion
 
@@ -104,13 +103,13 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 #### Task
 
-##### Arena for Round 1 (Top View)
+##### Arena for Round 1 (Isometric View)
 
-![](/img/event/crescendo/2.png){:.img-responsive}
+![](/img/event/crescendo/manual34.png){:.img-responsive}
 
 ##### Round 1
 
-* The time limit for this round is 5 minutes.
+* The time limit for this round is **5 minutes**.
 
 * The bot has to start from the starting area (green colored area in the top right of the arena diagram).
 
@@ -128,17 +127,17 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Thus the First Round will end when the bot reaches the checked surface which is right outside the pit.
 
-##### Arena for Round 2 
+##### Arena for Round 2 (Isometric View)
 
-![](/img/event/crescendo/2.png){:.img-responsive}
+![](/img/event/crescendo/manual34.png){:.img-responsive}
 
 ##### Round 2
 
-* The time for this round is 6 minutes.
+* The time limit for this round is **6 minutes**.
 
 * The bot has to start from the starting area (green colored area in the bottom left of the arena diagram).
 
-* It then has to traverse along the wooden path, climbing down and then up again so that it arrives at the elevated platform next to the white ball. The bot is expected to switch its plane of operation using a suitable mechanism.
+* It then has to use a suitable mechanism to shift itself to the platform to access the white ball.
 
 * The bot then has to pick up the ball and then drop it on the tilted surface beside it thus initiating the journey of the ball.
 
@@ -153,27 +152,30 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Then further traversing along the path the bot needs to climb down the stage. After that, there is a red cube on a small podium which the bot needs to pick up drop it at the next off on the next podium under the next stage.
 
-![](/img/event/crescendo/manual14.jpg){:.img-responsive}
+![](/img/event/crescendo/manual40.jpg){:.img-responsive}
 
-* Further, the bot needs to get the yellow block into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the Second Round.
+* Further, the bot needs to get the yellow block into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the second round.
 
-* Thus, when the white ball reaches the checked area, it signs off the completion of the Second Round.
+* Thus, when the white ball reaches the checked area, it signs off the completion of the second round.
 
 #### Different Views of Arena
 
 ![](/img/event/crescendo/1.png){:.img-responsive}
 ![](/img/event/crescendo/2.png){:.img-responsive}
-![](/img/event/crescendo/3.png){:.img-responsive}
+![](/img/event/crescendo/manual37.png){:.img-responsive}
 ![](/img/event/crescendo/manual22.png){:.img-responsive}
 ![](/img/event/crescendo/manual23.png){:.img-responsive}
 ![](/img/event/crescendo/manual24.png){:.img-responsive}
-![](/img/event/crescendo/manual26.png){:.img-responsive}
+![](/img/event/crescendo/manual39.png){:.img-responsive}
 ![](/img/event/crescendo/manual30.png){:.img-responsive}
 ![](/img/event/crescendo/manual31.png){:.img-responsive}
-![](/img/event/crescendo/manual32.png){:.img-responsive}
+![](/img/event/crescendo/manual41.png){:.img-responsive}
 ![](/img/event/crescendo/manual33.png){:.img-responsive}
+![](/img/event/crescendo/manual38.png){:.img-responsive}
+![](/img/event/crescendo/3.png){:.img-responsive}
+![](/img/event/crescendo/manual42.png){:.img-responsive}
 
-**Note** All the above dimensions are in cm.
+**Note** All the above dimensions are in **cm**.
 
 #### Scoring
 
