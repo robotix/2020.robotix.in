@@ -22,6 +22,10 @@ actions:
     link: https://www.youtube.com/watch?v=aHFUg_Ah8Co
 ---
 
+#### Introduction
+
+Set in a modified version of the middle earth world, hobbit Frodo Baggins and the Fellowship embark on a quest to destroy not one but multiple Rings, to ensure the destruction of the Dark Lord Sauron. Help Frodo navigate through the path of the green rings in order to destroy them and counter the obstacles present to deviate them from their path so as to win the War of the Rings by weakening Sauron's forces.
+
 #### USP
 
 * Colour Detection
