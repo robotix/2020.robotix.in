@@ -26,6 +26,10 @@ actions:
     link: https://www.youtube.com/watch?v=-E7RAfQoOx4
 ---
 
+
+#### Introduction:
+The Mission to colonize mars was well underway, but when those elected to save humanity touched down on the Red Planet is when disaster struck. Technical malfunction caused one of the fuel tanks to explode, creating a ton of debris and cracks in the oxygen tanks. With the precious gas leaking out into the thin Martian atmosphere, it’s upto the braniacs on board to devise a plan to get to the tanks and shut the tank valve before they find themselves suffocating. Put yourself in their shoes as you seek to build a robot that can find its way through debris, climbing over obstacles, and pick and place blocks to create a way and clear the area, ultimately releasing the spherical key to shut the valve!
+
 #### Problem Statement
 
 To build a manually controlled robot that can lift itself up vertically, initiate and continue translation on an elevated surface and also pick and place objects.
@@ -34,7 +38,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Mechanism to switch surface plane of movement
 
-* Picking and placing
+* Picking and placing objects at variable distances from the bot
 
 #### Rules and Specifications
 
@@ -46,7 +50,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 3. Only **2** members per team will be allowed to control the robot.
 
-4. The participants will be provided with 220 volts, 50 Hz standard AC supply. However, the participants cannot use this voltage apart from getting a 24V DC output through an adapter. This goes to say that no component on the robot may use a power supply higher than 24V DC. In case of any discrepancy, Team ROBOTIX will have the final say.
+4. The participants will be provided with 220 volts, 50 Hz standard AC supply. However, the participants cannot use this voltage apart from getting at max 24V DC output through an adapter. This goes to say that no component on the robot may use a power supply higher than 24V DC. In case of any discrepancy, Team ROBOTIX will have the final say.
 
 5. Skipping any part of the arena will be the participants choice and will be done only on the participant’s request and the approval of Team ROBOTIX. Any discrepancies will be handled by Team ROBOTIX and their decision will be final and binding. The timer will not stop when the position of the robot is being changed by the participant, but the initial and final position will be decided by Team ROBOTIX.Also, if the participants choose to skip any part of the arena, no time bonus will be given to the team even if they complete the run before the timer runs out.
 
@@ -103,58 +107,64 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 #### Task
 
-##### Arena for Round 1 (Isometric View)
+##### Arena (Isometric View)
 
-![](/img/event/crescendo/manual34.png){:.img-responsive}
+![](/img/event/crescendo/1.png){:.img-responsive}
 
 ##### Round 1
 
 * The time limit for this round is **5 minutes**.
 
-* The bot has to start from the starting area (green colored area in the top right of the arena diagram).
+* The bot has to start from the starting area (green colored square in the diagram).
 
-![](/img/event/crescendo/manual2.jpg){:.img-responsive}
+![](/img/event/crescendo/16.png){:.img-responsive}
 
-* The bot has to climb the stage near it and rotate the flagpole-shaped obstacle (using its extendable gripper) obstructing the path of the ball to clear the path. The cleared path will allow for the motion of a white ball in round 2.
+* The bot has to climb the stage near it and rotate the flagpole-shaped obstacle (using its extendable gripper) obstructing the path of a ball to clear the path--ramp sloping downwards, currently obstructed by the flag supported by the flagpole obstacle. The cleared path will allow for the motion of a white ball in round 2. 
 
-![](/img/event/crescendo/manual3.jpg){:.img-responsive}
+* The bot has to climb down into the pit, pick up green blocks near it in the pit using its gripper mechanism, which will be used to fill up the gap just after the ramp that it has to climb thereafter.
 
-* The bot has to pick up green blocks near it using its gripper mechanism, which will be used to fill up the gap just after the ramp.
-
-* After all the green blocks are out in the pit and the gap is filled adequately, the bot has to climb the first stage and traverse the filled gap to reach the upcoming stage. 
+* After all the green blocks are out in the pit and the gap is filled adequately, the bot has to climb the first stage and traverse the filled gap to reach the upcoming stage.
 
 * In this way, the bot has to come out of the pit using the stages provided to it.
 
-* Thus the First Round will end when the bot reaches the checked surface which is right outside the pit.
+* Thus, the First Round will end when the bot reaches the checked surface which is right outside the pit.
 
-##### Arena for Round 2 (Isometric View)
+##### Arena (Top View)
 
-![](/img/event/crescendo/manual34.png){:.img-responsive}
+![](/img/event/crescendo/2.png){:.img-responsive}
+
 
 ##### Round 2
 
 * The time limit for this round is **6 minutes**.
 
-* The bot has to start from the starting area (green colored area in the bottom left of the arena diagram).
+* The bot has to start from the starting block--green colored area at the bottom left in the arena diagram.
 
-* It then has to use a suitable mechanism to shift itself to the platform to access the white ball.
+![](/img/event/crescendo/4.png){:.img-responsive}
 
-* The bot then has to pick up the ball and then drop it on the tilted surface beside it thus initiating the journey of the ball.
+* It then has to use a suitable mechanism to shift itself up, i.e. mount three elevated platforms to the platform, go along the way on top to get to the white ball, kept on top of the small green cylindrical block on a platform jutting off from the main path, as shown.
 
-![](/img/event/crescendo/manual11.png){:.img-responsive}
+![](/img/event/crescendo/10.png){:.img-responsive}
 
-* The bot will then have to traverse along the path so as to reach a green block with a cuboidal extruded protrusion.
+* The bot then has to pick up the ball and then drop it on the tilted surface beside it, thus initiating the journey of the ball.
 
-![](/img/event/crescendo/manual12.png){:.img-responsive}
-![](/img/event/crescendo/manual13.png){:.img-responsive}
+![](/img/event/crescendo/8.png){:.img-responsive}
+
+* The bot will then have to traverse along the main path so as to reach a green block with a cuboidal extruded protrusion.
+
+![](/img/event/crescendo/m7.png){:.img-responsive}
 
 * The bot will have to grip the block and place it on the surface beside it such that the extruded protrusion faces the white ball present on that surface. Then bot needs to push the block with the extended gripper so that the white ball travels down through the pipe thus removing the obstacle out of its way.
 
+![](/img/event/crescendo/13.png){:.img-responsive}
+
 * Then further traversing along the path the bot needs to climb down the stage. After that, there is a red cube on a small podium which the bot needs to pick up drop it at the next off on the next podium under the next stage.
 
-![](/img/event/crescendo/manual40.jpg){:.img-responsive}
+![](/img/event/crescendo/11.png){:.img-responsive}
 
 * Further, the bot needs to get the yellow block into the cubical vessel of the seesaw so as to lift up the obstacle on the path of the white ball which was initiated at the beginning of the second round.
+
+![](/img/event/crescendo/3.png){:.img-responsive}
 
 * Thus, when the white ball reaches the checked area, it signs off the completion of the second round.
 
@@ -162,18 +172,23 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 ![](/img/event/crescendo/1.png){:.img-responsive}
 ![](/img/event/crescendo/2.png){:.img-responsive}
-![](/img/event/crescendo/manual37.png){:.img-responsive}
-![](/img/event/crescendo/manual22.png){:.img-responsive}
-![](/img/event/crescendo/manual23.png){:.img-responsive}
-![](/img/event/crescendo/manual24.png){:.img-responsive}
-![](/img/event/crescendo/manual39.png){:.img-responsive}
-![](/img/event/crescendo/manual30.png){:.img-responsive}
-![](/img/event/crescendo/manual31.png){:.img-responsive}
-![](/img/event/crescendo/manual41.png){:.img-responsive}
-![](/img/event/crescendo/manual33.png){:.img-responsive}
-![](/img/event/crescendo/manual38.png){:.img-responsive}
-![](/img/event/crescendo/3.png){:.img-responsive}
-![](/img/event/crescendo/manual42.png){:.img-responsive}
+![](/img/event/crescendo/4.png){:.img-responsive}
+![](/img/event/crescendo/16.png){:.img-responsive}
+![](/img/event/crescendo/10.png){:.img-responsive}
+![](/img/event/crescendo/1.png){:.img-responsive}
+![](/img/event/crescendo/5.png){:.img-responsive}
+![](/img/event/crescendo/6.png){:.img-responsive}
+![](/img/event/crescendo/7.png){:.img-responsive}
+![](/img/event/crescendo/12.png){:.img-responsive}
+![](/img/event/crescendo/14.png){:.img-responsive}
+![](/img/event/crescendo/15.png){:.img-responsive}
+![](/img/event/crescendo/17.png){:.img-responsive}
+![](/img/event/crescendo/18.png){:.img-responsive}
+![](/img/event/crescendo/20.png){:.img-responsive}
+![](/img/event/crescendo/21.png){:.img-responsive}
+![](/img/event/crescendo/9.png){:.img-responsive}
+![](/img/event/crescendo/11.png){:.img-responsive}
+
 
 **Note** All the above dimensions are in **cm**.
 
@@ -193,7 +208,9 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Successfully crossing over the gap after placing the green blocks: 200 (G)
 
-* Successful plane shifting: 50 per shift (P)
+* Successful plane shifting (Plane at a height greater than 18 cm: 150 per shift (P1)
+
+* Successful plane shifting (Plane at a height less than 18 cm: 100 per shift (P2)
 
 * Time bonus: **number of seconds left(t') x 3**
 
@@ -201,9 +218,9 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Disbalance or slipping out off the arena of the robot: -50 (E1)
 
-* Falling of the arena or in any of the gaps: -100 (E2)
+* Falling off the arena or in any of the gaps: -100 (E2)
 
-* Falling in the gaps: -200 (E3)
+* Unsucessful attempt at shifting the plane : -100 (E3)
 
 * Negative marks for each timeout: -100 (T)
 
@@ -218,7 +235,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + RO1 * 100 + CD * 100 + B * 50 + G * 200 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 200 - T * 100 - R * 200 - 2 * X  
+500 + RO1 * 100 + CD * 100 + B * 50 + G * 200 + P1 * 150 + P2 * 100 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 100 - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Round 2
@@ -227,7 +244,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Base score: 500
 
-* Successfully initiating the white ball on its path: 200 (WB)
+* Successfully initiating the white ball on its path: 100 (WB)
 
 * Taking the yellow block to the seesaw: 100 (SS)
 
@@ -260,7 +277,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + WB * 200 + SS * 100 + Q * 300 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
+500 + WB * 100 + SS * 100 + Q * 300 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Contacts
