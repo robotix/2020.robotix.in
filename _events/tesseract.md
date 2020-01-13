@@ -90,7 +90,7 @@ All RFID cards are placed at a depth of 6mm from the surface on which the arena 
 
 *   Use this library (https://github.com/miguelbalboa/rfid) for RFID reading. The output of the example code read_personal_data is shown below. The data field of the output will contain the required integer.
 
-*   Details on how to read the data from RFID Cards can be found in our tutorials (https://2020.robotix.in/event/tesseract/). The demo code given at the end of the tutorial, will return the value of the integer without having to specify the block number.
+*   Details on how to read the data from RFID Cards can be found in our tutorials (https://2020.robotix.in/tutorial/event/tesseract/). The demo code given at the end of the tutorial, will return the value of the integer without having to specify the block number.
 
 ![](/img/event/tesseract/24.png){:.img-responsive}
 
