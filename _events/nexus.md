@@ -109,7 +109,7 @@ To build a robot that uses an onboard camera to detect a path formed by circles 
 
 * The barcode consists of 4 white strips which are either thin (10mm wide) or thick (20 mm wide) separated by black tape.
 
-* Reading from left to right, each white strip corresponds to 1-bit which is either a 0 or 1. A thick strip corresponds to a 1 and a thin strip corresponds to a 0. The total width of the barcode is always 100mm. Further, the barcode is surrounded by a 5cm thick black boundary around it.
+* Reading from left to right, each white strip corresponds to 1-bit which is either a 0 or 1. A thick strip corresponds to a 1 and a thin strip corresponds to a 0. The total width of the barcode is always 100mm. Further, the barcode is surrounded by a 1cm thick black boundary around it.
 
 * The barcode can represent binary numbers from 0000 to 1111 (which correspond to 0-15 in decimal number system).
 
