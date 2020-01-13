@@ -91,36 +91,87 @@ The Block 3 of each sector is called Sector Trailer and contains information cal
 In order to read data from the card, we need to define an array of 18 bytes named readbackblock[18]. This can be used to read the written contents back.The MIFARE_Read method in MFRC522 library requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
 
 **Pseudo Code**
-1. Array used for reading out a block:
+The above are the internal details of how RFID Card readings work. However, using the library given in the event description (https://github.com/miguelbalboa/rfid), without specifying the block number the integer value can be obtained.
 
 ```c
-byte readbackblock[18];
-```
+#include <SPI.h>
+#include <MFRC522.h>
 
-2. Initialize	serial communications with the PC
-```c
-Init SPI bus
+#define RST_PIN         5           
+#define SS_PIN          53          
 
-Init MFRC522 card (PCD: proximity coupling device)
-```
+MFRC522 mfrc522(SS_PIN, RST_PIN);   
 
-3. Prepare the security key for the read and write functions.
-```c
-for (byte i = 0; i < 6; i++) 
-	{
-   		keyByte is defined in the "MIFARE_Key" 'struct' definition in the .h file of the library
-	}
+void setup() {
+  Serial.begin(9600);
+  SPI.begin();       
+  mfrc522.PCD_Init();
+  Serial.println(F("Read personal data on a MIFARE PICC:"));
+}
 
-```
+void loop() {
 
-4. In loop function: we first scan if there is a card in view, if yes, that card is selected for reading purpose.
-```c
-Look for new cards
-Select one of the cards
-Serial.println("card selected");
-```
+  MFRC522::MIFARE_Key key;
+  for (byte i = 0; i < 6; i++) key.keyByte[i] = 0xFF;
+  byte block;
+  byte len;
+  MFRC522::StatusCode status;
 
-5. This can be done using custom function called readBlock() which again takes two parameters – one is block number and other is array to store block contents.
-```c
-read the block back
+  if ( ! mfrc522.PICC_IsNewCardPresent()) {
+    return;
+  }
+
+  if ( ! mfrc522.PICC_ReadCardSerial()) {
+    return;
+  }
+
+  byte buffer1[18];
+
+  block = 4;
+  len = 18;
+
+  status = mfrc522.PCD_Authenticate(MFRC522::PICC_CMD_MF_AUTH_KEY_A, 4, &key, &(mfrc522.uid)); 
+  if (status != MFRC522::STATUS_OK) {
+    Serial.print(F("Authentication failed: "));
+    Serial.println(mfrc522.GetStatusCodeName(status));
+    return;
+  }
+
+  status = mfrc522.MIFARE_Read(block, buffer1, &len);
+  if (status != MFRC522::STATUS_OK) {
+    Serial.print(F("Reading failed: "));
+    Serial.println(mfrc522.GetStatusCodeName(status));
+    return;
+  }
+
+//int num = atoi((const char*) buffer1);
+
+//  Serial.print(num);		// This num will contain 0
+
+  byte buffer2[18];
+  block = 1;
+
+  status = mfrc522.PCD_Authenticate(MFRC522::PICC_CMD_MF_AUTH_KEY_A, 1, &key, &(mfrc522.uid)); //line 834
+  if (status != MFRC522::STATUS_OK) {
+    Serial.print(F("Authentication failed: "));
+    Serial.println(mfrc522.GetStatusCodeName(status));
+    return;
+  }
+
+  status = mfrc522.MIFARE_Read(block, buffer2, &len);
+  if (status != MFRC522::STATUS_OK) {
+    Serial.print(F("Reading failed: "));
+    Serial.println(mfrc522.GetStatusCodeName(status));
+    return;
+  }
+
+int num2 = atoi((const char*) buffer2); // num2 will contain the integer that is stored in the RFID card
+
+  Serial.println(num2);
+
+  delay(1000);
+
+  mfrc522.PICC_HaltA();
+  mfrc522.PCD_StopCrypto1();
+}
 ```
