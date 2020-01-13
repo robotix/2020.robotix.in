@@ -115,7 +115,7 @@ To build a robot that uses an onboard camera to detect a path formed by circles 
 
 ##### Round 1
 
-* The arena consists of 2-D green circles and 2D non-green triangles and quadrilaterals. The circle will approximately be of a 10cm diameter with an approximately equal 20cm distance between the centres of consecutive circles.
+* The arena consists of 2-D green circles and 2D non-green triangles and quadrilaterals. The circle will approximately be of a 7cm diameter with an approximately equal 15cm distance between the centres of consecutive circles.
 
 * The robot has to move from the start point to the endpoint moving along the circles. It has to move through each circle without straying from the path. The path is defined by always following the next closest circle.
 
