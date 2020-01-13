@@ -4,10 +4,30 @@ title: 'Nexus'
 subTitle: 'Computer Vision Event'
 logo: /img/event/nexus/logo.png
 actions:
+actions:
+  -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: https://www.facebook.com/groups/nexusrobotix/
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=aHFUg_Ah8Co
+  -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Nexus.pdf'
   -
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/nexus/'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: https://ktj.in/index.php/register
   -
     text: 'F'
     caption: 'F.A.Q.'
@@ -16,10 +36,6 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/nexus/components/'
-  -
-    icon: 'youtube'
-    caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=aHFUg_Ah8Co
 ---
 
 #### Introduction

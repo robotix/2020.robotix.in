@@ -5,6 +5,18 @@ subTitle: 'Autonomous Event'
 logo: /img/event/tesseract/logo.png
 actions:
   -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: https://www.facebook.com/groups/1518258028414691/
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=-z_I5_VtNgQ
+  -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Tesseract.pdf'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/tesseract/diy.png'
@@ -13,6 +25,13 @@ actions:
     caption: 'Tutorial'
     link: '../../tutorial/event/tesseract/'
   -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: https://ktj.in/index.php/register
+  -
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/tesseract/faq/'
@@ -20,10 +39,6 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/tesseract/components/'
-  -
-    icon: 'youtube'
-    caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=-z_I5_VtNgQ
 ---
 
 
