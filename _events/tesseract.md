@@ -122,7 +122,7 @@ All RFID cards are placed at a depth of 6mm from the surface on which the arena 
 ##### Task
 *   The arena will consist of 1 level. The bot has to traverse the arena and read the data from the RFID tag on each node.
 
-*   The first round will be characterized into three checkpoints. While traversing the first 6 nodes, the bot will have to read the RFID card, and display the reading on the LCD display for 2 seconds each. This is to check the working of the RFID reader. 
+*   The first round will be characterized into three checkpoints. While traversing the first 6 nodes, the bot will have to read the RFID cards, and display the readings on the LCD display for 2 seconds during which the bot is stationery. This is to check the working of the RFID reader. 
 
 *   After traversing the arena, at the diagonally opposite end point, the bot will have to display all the ambush points in the aforementioned format one after the other for 2 seconds each. This is the second checkpoint, to check the accuracy of the ambush point-finding algorithm.
  
@@ -131,6 +131,8 @@ All RFID cards are placed at a depth of 6mm from the surface on which the arena 
 *   There is only one safe return path. 
 
 *   In case of the bot failing at any of the checkpoints, the participant will be permitted to take a re-run, the rules of which are mentioned below.
+
+*   The time limit for Round 1 is 7 minutes. Penalty will be awarded for every minute exceeding the time limit.
 
 
 #### Round 2
@@ -146,6 +148,8 @@ All RFID cards are placed at a depth of 6mm from the surface on which the arena 
 *   Throughout it's return journey, the bot will have to keep either 1 or 2 standard LED(s) glowing representing the level on which it is currently travelling respectively.
 
 *   There will be 2 safe paths, one with higher energy, and one with lower energy, where energy increases with each level. The first level has 20% lower energy than the second level. The bot that travels to the end through a lower energy path will be awarded higher points.
+
+*   The time limit for Round 2 is 5 minutes. Penalty will be awarded for every minute exceeding the time limit.
 
 
 #### Bonus Round
@@ -185,6 +189,7 @@ All RFID cards are placed at a depth of 6mm from the surface on which the arena 
 * For each ambush point touched while returning - 50
 * For each re-run - 100
 * For each timeout - 50
+* For every minute exceeding the time limit - 100
 * For damaging the arena - 400
 
 * **Example 1:**
