@@ -38,11 +38,14 @@ actions:
   -
     text: 'L'
     caption: 'Components List'
-    link: '/event/crescendo/components/'
   -
-    text: 'W'
-    caption: 'Walkover'
-    link: https://www.youtube.com/watch?v=qgJEXwZdspk&feature=youtu.be&fbclid=IwAR07kBTIqydYVzYKbAryGYLAitvPFKIOto7RPGtvCy5D1hdjKJHOWLcHS_4
+    text: 'W1'
+    caption: 'Walkover for Round 1'
+    link: https://www.youtube.com/watch?v=QSOO7vdfAKw
+  -
+    text: 'W2'
+    caption: 'Walkover for Round 2'
+    link: https://www.youtube.com/watch?v=foDCGyaCjU4
 ---
 
 
