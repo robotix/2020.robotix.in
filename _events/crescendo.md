@@ -39,11 +39,11 @@ actions:
     text: 'L'
     caption: 'Components List'
   -
-    text: 'W1'
+    text: 'W'
     caption: 'Walkover for Round 1'
     link: https://www.youtube.com/watch?v=QSOO7vdfAKw
   -
-    text: 'W2'
+    text: 'W'
     caption: 'Walkover for Round 2'
     link: https://www.youtube.com/watch?v=foDCGyaCjU4
 ---
@@ -138,6 +138,8 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 * The time limit for this round is **5 minutes**.
 
 * The bot has to start from the starting area (green colored square in the diagram).
+
+* There are in total **5 green blocks** inside the pit among these, 1 block is inside the cave. 
 
 ![](/img/event/crescendo/16.png){:.img-responsive}
 
