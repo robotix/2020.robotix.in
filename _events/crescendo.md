@@ -139,7 +139,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * The bot has to start from the starting area (green colored square in the diagram).
 
-* There are in total **5 green blocks** inside the pit among these, 1 block is inside the cave. 
+* There are in total **5 green blocks** inside the pit among these, 1 block is inside the enclosure. 
 
 ![](/img/event/crescendo/16.png){:.img-responsive}
 
@@ -226,7 +226,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Successfully rotating the flag: 100 (RO1)
 
-* Taking out the green trapezoidal blocks from the cave: 50 per block (B)
+* Taking out the green trapezoidal blocks from the enclosure: 50 per block (B)
 
 * Successfully filling the gap with the green blocks: 100 per block (CD)
 
