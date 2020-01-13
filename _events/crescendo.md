@@ -39,6 +39,10 @@ actions:
     text: 'L'
     caption: 'Components List'
     link: '/event/crescendo/components/'
+  -
+    text: 'W'
+    caption: 'Walkover'
+    link: https://www.youtube.com/watch?v=qgJEXwZdspk&feature=youtu.be&fbclid=IwAR07kBTIqydYVzYKbAryGYLAitvPFKIOto7RPGtvCy5D1hdjKJHOWLcHS_4
 ---
 
 
