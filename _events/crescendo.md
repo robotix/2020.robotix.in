@@ -5,18 +5,6 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/crescendo/logo.png
 actions:
   -
-    icon: 'facebook'
-    caption: 'Discussion Forum'
-    link: https://www.facebook.com/groups/crescendoevent/
-  -
-    icon: 'youtube'
-    caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=-E7RAfQoOx4&t=5s
-  -
-    text: 'E'
-    caption: 'Event PDF'
-    link: '/assets/event/Crescendo.pdf'
-  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/crescendo/diy.png'
@@ -25,27 +13,17 @@ actions:
     caption: 'Tutorial'
     link: '../../tutorial/event/crescendo/'
   -
-    text: 'P'
-    caption: 'Total prize money worth Rs 45,000'
-  -
-    text: 'R'
-    caption: 'Register'
-    link: https://ktj.in/index.php/register
-  -
     text: 'F'
     caption: 'F.A.Q.'
     link: '/event/crescendo/faq/'
   -
     text: 'L'
     caption: 'Components List'
+    link: '/event/crescendo/components/'
   -
-    text: 'W'
-    caption: 'Walkover for Round 1'
-    link: https://www.youtube.com/watch?v=QSOO7vdfAKw
-  -
-    text: 'W'
-    caption: 'Walkover for Round 2'
-    link: https://www.youtube.com/watch?v=foDCGyaCjU4
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=-E7RAfQoOx4
 ---
 
 
@@ -139,8 +117,6 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * The bot has to start from the starting area (green colored square in the diagram).
 
-* There are in total **5 green blocks** inside the pit among these, 1 block is inside the enclosure. 
-
 ![](/img/event/crescendo/16.png){:.img-responsive}
 
 * The bot has to climb the stage near it and rotate the flagpole-shaped obstacle (using its extendable gripper) obstructing the path of a ball to clear the path--ramp sloping downwards, currently obstructed by the flag supported by the flagpole obstacle. The cleared path will allow for the motion of a white ball in round 2. 
@@ -226,25 +202,27 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Successfully rotating the flag: 100 (RO1)
 
-* Taking out the green trapezoidal blocks from the enclosure: 50 per block (B)
+* Taking out the green trapezoidal blocks from the cave: 50 per block (B)
 
 * Successfully filling the gap with the green blocks: 100 per block (CD)
 
 * Successfully crossing over the gap after placing the green blocks: 200 (G)
 
-* Successful plane shifting (Plane at a height greater than 18 cm: 150 per shift (P1)
+* Successful plane shifting (Plane at a height greater than 18 cm): 150 per shift (P1)
 
-* Successful plane shifting (Plane at a height less than 18 cm: 100 per shift (P2)
+* Successful plane shifting (Plane at a height less than 18 cm): 100 per shift (P2)
 
 * Time bonus: **number of seconds left(t') x 3**
 
 **Negatives**
 
-* Disbalance or slipping out off the arena of the robot: -50 (E1)
+* Disbalance or slipping of the robot: -50 (E1)
 
 * Falling off the arena or in any of the gaps: -100 (E2)
 
-* Unsucessful attempt at shifting the plane : -100 (E3)
+* Unsuccessful attempt at shifting the plane : -100 (E3)
+
+* Tumbling of block : -50 (E4)
 
 * Negative marks for each timeout: -100 (T)
 
@@ -259,7 +237,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + RO1 * 100 + CD * 100 + B * 50 + G * 200 + P1 * 150 + P2 * 100 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 100 - T * 100 - R * 200 - 2 * X  
+500 + RO1 * 100 + CD * 100 + B * 50 + G * 200 + P1 * 150 + P2 * 100 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 100 - E4 * 50 - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Round 2
@@ -280,9 +258,11 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 **Negatives**
 
-* Disbalance or slipping out off the arena of the robot: -50 (E1)
+* Disbalance or slipping of the robot: -50 (E1)
 
-* Falling of the arena: -100 (E2)
+* Falling off the arena: -100 (E2)
+
+* Tumbling of block : -50 (E3)
 
 * Negative marks for each timeout: -100 (T)
 
@@ -301,7 +281,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 **Scoring formula:**
 
 {% highlight ruby %}
-500 + WB * 100 + SS * 100 + Q * 300 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100  - T * 100 - R * 200 - 2 * X  
+500 + WB * 100 + SS * 100 + Q * 300 + P * 50 + t’ * 3 - E1 * 50 - E2 * 100 - E3 * 50 - T * 100 - R * 200 - 2 * X  
 {% endhighlight %}
 
 ##### Contacts
