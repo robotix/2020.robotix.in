@@ -9,10 +9,6 @@ actions:
     caption: 'Discussion Forum'
     link: https://www.facebook.com/groups/crescendoevent/
   -
-    icon: 'youtube'
-    caption: 'Tutorial Video'
-    link: https://www.youtube.com/watch?v=-E7RAfQoOx4&t=5s
-  -
     text: 'E'
     caption: 'Event PDF'
     link: '/assets/event/Crescendo.pdf'
@@ -229,7 +225,7 @@ To build a manually controlled robot that can lift itself up vertically, initiat
 
 * Successfully rotating the flag: 100 (RO1)
 
-* Taking out the green trapezoidal blocks from the cave: 50 per block (B)
+* Taking out the green trapezoidal blocks from the enclosure: 50 per block (B)
 
 * Successfully filling the gap with the green blocks: 100 per block (CD)
 
