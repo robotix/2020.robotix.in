@@ -5,6 +5,18 @@ subTitle: 'Manual Robotics Event'
 logo: /img/event/crescendo/logo.png
 actions:
   -
+    icon: 'facebook'
+    caption: 'Discussion Forum'
+    link: https://www.facebook.com/groups/crescendoevent/
+  -
+    icon: 'youtube'
+    caption: 'Tutorial Video'
+    link: https://www.youtube.com/watch?v=-E7RAfQoOx4&t=5s
+  -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Crescendo.pdf'
+  -
     text: 'D'
     caption: 'Do-It-Yourself'
     link: '/img/event/crescendo/diy.png'
@@ -12,6 +24,13 @@ actions:
     text: 'T'
     caption: 'Tutorial'
     link: '../../tutorial/event/crescendo/'
+  -
+    text: 'P'
+    caption: 'Total prize money worth Rs 45,000'
+  -
+    text: 'R'
+    caption: 'Register'
+    link: https://ktj.in/index.php/register
   -
     text: 'F'
     caption: 'F.A.Q.'
@@ -24,6 +43,14 @@ actions:
     icon: 'youtube'
     caption: 'Tutorial Video'
     link: https://www.youtube.com/watch?v=-E7RAfQoOx4
+  -
+    text: 'W'
+    caption: 'Walkover for Round 1'
+    link: https://www.youtube.com/watch?v=QSOO7vdfAKw
+  -
+    text: 'W'
+    caption: 'Walkover for Round 2'
+    link: https://www.youtube.com/watch?v=foDCGyaCjU4
 ---
 
 
