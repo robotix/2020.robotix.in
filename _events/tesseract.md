@@ -65,11 +65,13 @@ To build an autonomous robot capable of traversing through the arena through a s
 
 *   Ambush points around a node means ambush points in the nodes in front, behind, left, right of that node (and above or below too for Round 2).
 
+*   The start node is always safe.
+
 *   In Round 1, the arena will have one level, with each node (intersection of white lines) being a safe or an ambush point.
 
 *   Round 2 is a virtual arena with two levels stacked one on top of the other, aligning perfectly.
 
-*   The data transmitted will be of the format- (number of points of ambush around it on Level 1, number of points of ambush around it on Level 2). For example, 24 at one node means on the 1st level, there are 2 ambush points around it and on the 2nd level, there are 4 ambush points all around it. The start node is safe.
+*   The data transmitted will be of the format- (number of points of ambush around it on Level 1, number of points of ambush around it on Level 2). For example, 24 at one node means on the 1st level, there are 2 ambush points around it and on the 2nd level, there are 4 ambush points all around it.
 
 *   The maximum possible integer in the above format for Round 1 is 4 , i.e. 4 ambush points around the current node while for Round 2 it is 55, 5 ambush points around the node on level 1 and 5 ambush points around the same node on level 2.
       
