@@ -65,7 +65,7 @@ Plug the cables from the control panel into the circuit. The header goes to the 
 
 Plug in the arduino to the servos, close up the base circuit and play!
 
-![][4]![][5]{:.img-responsive} ![][6]
+![][4]{:.img-responsive} | ![][5]{:.img-responsive} | ![][6]{:.img-responsive}
 
 [1]: /img/tutorial/other/robotic_arm/arm.jpg
 [2]: /img/tutorial/other/robotic_arm/circuit.jpg
