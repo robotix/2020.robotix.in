@@ -1,3 +1,61 @@
+- title: "2020"
+  team:  
+    -
+      id: 37
+      name: Aman
+      surname: Chandra
+      thumbnailUrl: amanchandra.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/amanchandra333"}
+        - {name: "email", link: "mailto:aman.chandra@robotix.in"}
+        - {name: "site", link: "http://amanchandra.in/"} 
+    -
+      id: 40
+      name: Aditi
+      surname: Kambli
+      thumbnailUrl: aditikambli.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/aditi1997"}
+        - {name: "email", link: "mailto:aditi.kambli@robotix.in"}
+    -
+      id: 42
+      name: Ayush
+      surname: Patnaik
+      thumbnailUrl: ayushpatnaik.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ayushpat7"}
+        - {name: "email", link: "mailto:ayush.patnaik@robotix.in"}
+    -
+      id: 43
+      name: Rohan
+      surname: Sitaniya
+      thumbnailUrl: rohansitaniya.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/rohan.sitaniya"}
+        - {name: "email", link: "mailto:rohan.sitaniya@robotix.in"}
+    -
+      id: 45
+      name: Swadha
+      surname: Gupta
+      thumbnailUrl: swadhagupta.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/swadha.gupta.77736"}
+        - {name: "email", link: "mailto:swadha.gupta@robotix.in"}
+    -
+      id: 46
+      name: Aditi
+      surname: Singh
+      thumbnailUrl: aditisingh.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/aditi.singh.7503314"}
+        - {name: "github", link: "https://www.github.com/aditi1191998"}
+        - {name: "email", link: "mailto:aditi.singh@robotix.in"}
 - title: "2019"
   team:
     -
