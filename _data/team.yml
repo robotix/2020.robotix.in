@@ -105,18 +105,6 @@
         - {name: "github", link: "https://www.github.com/manthan99"}
         - {name: "email", link: "mailto:manthan.patel@robotix.in"}
     -
-      id: 58
-      name: Mohit
-      surname: Singh
-      title: "Coordinator"
-      thumbnailUrl: mohitsingh.jpg
-      team: true
-      tag: Autonomous
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100010079228375"}
-        - {name: "github", link: "https://www.github.com/mfsGit"}
-        - {name: "email", link: "mailto:mohit.singh@robotix.in"}
-    -
       id: 60
       name: Shivangi
       surname: Srivastava
