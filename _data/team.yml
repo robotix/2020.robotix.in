@@ -5,7 +5,6 @@
       name: Anvee
       surname: Naik
       title: "Coordinator"
-      tag: Governor
       thumbnailUrl: anveenaik.jpg
       team: true
       social:
@@ -62,7 +61,6 @@
       name: Vidit
       surname: Goel
       title: "Coordinator"
-      tag: Governor
       thumbnailUrl: viditgoel.jpg
       team: true
       social:
@@ -76,7 +74,6 @@
       title: "Coordinator"
       thumbnailUrl: anirudhroy.jpg
       team: true
-      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/anirudh.roy.552"}
         - {name: "github", link: "https://www.github.com/royanirudh99"}
@@ -100,7 +97,6 @@
       title: "Coordinator"
       thumbnailUrl: manthanpatel.jpg
       team: true
-      tag: Autonomous
       social:
         - {name: "github", link: "https://www.github.com/manthan99"}
         - {name: "email", link: "mailto:manthan.patel@robotix.in"}
@@ -111,7 +107,6 @@
       title: "Coordinator"
       thumbnailUrl: shivangisrivastava.jpg
       team: true
-      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100017668215282"}
         - {name: "github", link: "https://github.com/shivangi-29"}
@@ -123,7 +118,7 @@
       title: "Coordinator"
       thumbnailUrl: shreyanshvats.jpg
       team: true
-      tag: Manual
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/shreyansh.vats"}
         - {name: "github", link: "https://www.github.com/shrey-kgp"}
@@ -135,7 +130,7 @@
       title: "Coordinator"
       thumbnailUrl: tanyasneh.jpg
       team: true
-      tag: Computer Vision
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/tanya.sneh10"}
         - {name: "github", link: "https://www.github.com/tanya08"}
