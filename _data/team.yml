@@ -85,7 +85,6 @@
       title: "Coordinator"
       thumbnailUrl: jaydeepgodbole.jpg
       team: true
-      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/godbolejaydeep"}
         - {name: "github", link: "https://www.github.com/JaydeepGodbole"}        
