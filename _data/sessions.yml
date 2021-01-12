@@ -120,5 +120,15 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/p/e5j8fpn1lxqp/ip-kraig/"}
   banner: "/img/session/001/KRAIG301.png"
-
+-
+  id: 014
+  title: "Introductory Seminar"
+  description: "Introduction of TRS to Freshers"
+  subtype: presentation
+  speakers: [33,36,37]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/view/d0hkk3gPw6wacD4RtlNY/"}
+  banner: "/img/session/001/introworkshop2021.png"
     
