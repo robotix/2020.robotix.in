@@ -2,6 +2,17 @@ about: "The Kharagpur Robotics and Artificial Intelligence Group is the technica
 group: https://www.facebook.com/groups/1083042461785353/
 schedule:
   -
+    date: "2020-12-20"
+    dateReadable: "December 20"
+    tracks:
+      - {title: "Introductory Seminar", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "19:30",
+        sessionIds: [014]
+      }
+  -
     date: "2021-1-7"
     dateReadable: "January 7"
     tracks:
