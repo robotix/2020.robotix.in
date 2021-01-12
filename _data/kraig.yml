@@ -13,8 +13,8 @@ schedule:
         sessionIds: [001]
       }
   -
-    date: "2021-1-21"
-    dateReadable: "To be Decided"
+    date: "2019-9-6"
+    dateReadable: "September 6"
     tracks: 
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
@@ -25,7 +25,7 @@ schedule:
       }
   -
     date: "2019-9-28"
-    dateReadable: "To be Decided"
+    dateReadable: "September 6"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
@@ -36,7 +36,7 @@ schedule:
       }
   -
     date: "2019-10-28"
-    dateReadable: "To be Decided"
+    dateReadable: "October 28"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
