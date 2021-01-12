@@ -25,7 +25,7 @@ schedule:
       }
   -
     date: "2019-9-28"
-    dateReadable: "September 6"
+    dateReadable: "September 28"
     tracks:
       - {title: "Workshop", color: "#90be4e"}
     timeslots:
