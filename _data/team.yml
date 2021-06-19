@@ -220,7 +220,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/BludgerMist16850"}
-	      - {name: "github", link: "https://github.com/noble-platinate"}
+	- {name: "github", link: "https://github.com/noble-platinate"}
         - {name: "email", link: "mailto:akshatansh.nayak@kgpian.iitkgp.ac.in"}
     -
       id: 128
@@ -241,7 +241,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/ayush.deep.2308/"}
-	      - {name: "github", link: "https://github.com/Marteeen23"}
+	- {name: "github", link: "https://github.com/Marteeen23"}
         - {name: "email", link: "mailto:Ayushdeep2001@gmail.com"}
     -
       id: 130
@@ -262,7 +262,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/harmeet.singhrath/"}
-	      - {name: "github", link: "https://github.com/Harmeet-S-R"}
+	- {name: "github", link: "https://github.com/Harmeet-S-R"}
         - {name: "email", link: "mailto:Harmeet.s.rathore@gmail.com"}
     -
       id: 132
@@ -273,7 +273,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/manideep.sridhara"}
-	      - {name: "github", link: "https://github.com/manideep1108"}
+	- {name: "github", link: "https://github.com/manideep1108"}
         - {name: "email", link: "mailto:manideep.sridhara12@gmail.com"}
     -
       id: 133
@@ -284,7 +284,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/nikhil.giri.3572846"}
-	      - {name: "github", link: "https://github.com/NikhilGiri29"}
+	- {name: "github", link: "https://github.com/NikhilGiri29"}
         - {name: "email", link: "mailto:nikhu.irig29@gmail.com"}
     -
       id: 134
@@ -305,7 +305,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/tanmay.mohanty.96"}
-	      - {name: "github", link: "https://github.com/tanmay-mohanty-ignited"}
+        - {name: "github", link: "https://github.com/tanmay-mohanty-ignited"}
         - {name: "email", link: "mailto:tanmay.mohanty18112002@gmail.com"}
     -
       id: 136
@@ -316,7 +316,7 @@
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/tanushri.t.1"}
-	      - {name: "github", link: "https://github.com/Purple-Crystal"}
+	- {name: "github", link: "https://github.com/Purple-Crystal"}
         - {name: "email", link: "mailto:tanushri.tawari@gmail.com"}
     -
       id: 137
