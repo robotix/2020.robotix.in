@@ -1,150 +1,13 @@
 - title: "Coordinator"
   team:
-    -
-      id: 48
-      name: Anvee
-      surname: Naik
-      title: "Coordinator"
-      thumbnailUrl: anveenaik.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/anvee.naik"}
-        - {name: "github", link: "https://www.github.com/anveenaik99"}
-        - {name: "email", link: "mailto:anvee.naik@robotix.in"}
-    -
-      id: 50
-      name: Rohit
-      surname: Ner
-      title: "Coordinator"
-      thumbnailUrl: rohitner.png
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/rohitner"}
-        - {name: "github", link: "https://www.github.com/rohitner"}
-        - {name: "email", link: "mailto:rohit.ner@robotix.in"}
-    -
-      id: 51
-      name: Shivansh
-      surname: Mundra
-      title: "Coordinator"
-      thumbnailUrl: shivanshmundra.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/shivansh.cool.77"}
-        - {name: "github", link: "https://github.com/shivanshmundra"}
-        - {name: "email", link: "mailto:shivansh.mundra@robotix.in"}
-    -
-      id: 52
-      name: Shubhika
-      surname: Garg
-      title: "Coordinator"
-      thumbnailUrl: shubhikagarg.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/shubhika.garg.92"}
-        - {name: "github", link: "https://www.github.com/shubhika03"}
-        - {name: "email", link: "mailto:shubhika.garg@robotix.in"}
-    -
-      id: 53
-      name: Siddhartha
-      surname: Kapuria
-      title: "Coordinator"
-      thumbnailUrl: siddharthakapuria.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/siddhartha.kapuria"}
-        - {name: "github", link: "https://www.github.com/skapuria"}
-        - {name: "email", link: "mailto:siddhartha.kapuria@robotix.in"}
-    -
-      id: 54
-      name: Vidit
-      surname: Goel
-      title: "Coordinator"
-      thumbnailUrl: viditgoel.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/vidit.goel.524"}
-        - {name: "github", link: "https://www.github.com/vidit98"}
-        - {name: "email", link: "mailto:vidit.goel@robotix.in"}
-    -
-      id: 55
-      name: Anirudh
-      surname: Roy
-      title: "Coordinator"
-      thumbnailUrl: anirudhroy.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/anirudh.roy.552"}
-        - {name: "github", link: "https://www.github.com/royanirudh99"}
-        - {name: "email", link: "mailto:anirudh.roy@robotix.in"}
-    -
-      id: 56
-      name: Jaydeep
-      surname: Godbole
-      title: "Coordinator"
-      thumbnailUrl: jaydeepgodbole.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/godbolejaydeep"}
-        - {name: "github", link: "https://www.github.com/JaydeepGodbole"}        
-        - {name: "email", link: "mailto:jaydeep.godbole@robotix.in"}
-    -
-      id: 57
-      name: Manthan
-      surname: Patel
-      title: "Coordinator"
-      thumbnailUrl: manthanpatel.jpg
-      team: true
-      social:
-        - {name: "github", link: "https://www.github.com/manthan99"}
-        - {name: "email", link: "mailto:manthan.patel@robotix.in"}
-    -
-      id: 60
-      name: Shivangi
-      surname: Srivastava
-      title: "Coordinator"
-      thumbnailUrl: shivangisrivastava.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100017668215282"}
-        - {name: "github", link: "https://github.com/shivangi-29"}
-        - {name: "email", link: "mailto:shivangi.srivastava@robotix.in"}
-    -
-      id: 61
-      name: Shreyansh
-      surname: Vats
-      title: "Coordinator"
-      thumbnailUrl: shreyanshvats.jpg
-      team: true
-      tag: Governor
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/shreyansh.vats"}
-        - {name: "github", link: "https://www.github.com/shrey-kgp"}
-        - {name: "email", link: "mailto:shreyansh.vats@robotix.in"}
-    -
-      id: 62
-      name: Tanya
-      surname: Sneh
-      title: "Coordinator"
-      thumbnailUrl: tanyasneh.jpg
-      team: true
-      tag: Governor
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/tanya.sneh10"}
-        - {name: "github", link: "https://www.github.com/tanya08"}
-        - {name: "email", link: "mailto:tanya.sneh@robotix.in"}
 
-    
-- title: "Head"
-  team:
     -
       id: 108
       name: Abhay 
       surname: Shukla
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: abhayshukla.jpg
       team: true
-      tag: Autonomous
       social:
         - {name: "facebook", link: "https://www.facebook.com/abhay.shukla.31392"}
         - {name: "github", link: "https://github.com/AbhayShukla19"}
@@ -153,10 +16,9 @@
       id: 109
       name: Azad 
       surname: Jagtap
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: azadjagtap.jpg
       team: true
-      tag: Manual
       social:
         - {name: "facebook", link: "https://m.facebook.com/profile.php?refid=8"}
         - {name: "github", link: "https://github.com/jagtapazad"}        
@@ -165,10 +27,9 @@
       id: 110
       name: Divyanshu 
       surname: Sheth
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: divyanshusheth.jpg
       team: true
-      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/divyanshu.sheth"}
         - {name: "email", link: "mailto:shethdivyanshu2000@gmail.com"}
@@ -176,7 +37,7 @@
       id: 111
       name: Kartik 
       surname: Punjabi
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: kartikpunjabi.jpg
       team: true
       tag: Manual
@@ -188,10 +49,9 @@
       id: 112
       name: Kushal 
       surname: Kedia
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: kushalkedia.jpg
       team: true
-      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/kushal.kedia3"}
         - {name: "github", link: "https://github.com/kushal2000"}
@@ -200,10 +60,10 @@
       id: 113
       name: Kshitiz
       surname: Khandelwal
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: kshitizkhandelwal.jpg
       team: true
-      tag: Autonomous
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/kshitiz.khandelwal.90"}
         - {name: "github", link: "https://github.com/kshitizkhandelwal"}
@@ -212,10 +72,9 @@
       id: 114
       name: Nanda 
       surname: Vinod
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: nandavinod.jpg
       team: true
-      tag: Computer Vision
       social:
         - {name: "facebook", link: "https://www.facebook.com/nanda.vinod.5"}
         - {name: "github", link: "https://github.com/nanda17nuts/IPprog"}
@@ -224,10 +83,9 @@
       id: 115
       name: Rashmi  
       surname: Kashyap
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: rashmikashyap.jpg
       team: true
-      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/rashmi.kasyap.39"}
         - {name: "email", link: "mailto:rashmikvc@gmail.com"}
@@ -235,21 +93,21 @@
       id: 116
       name: Ruthu  
       surname: Sanketh
-      title: "Head"
+      title: "Coordinator"
       thumbnailUrl: ruthusanketh.jpg
       team: true
-      tag: Autonomous
+      tag: Governor
       social:
         - {name: "facebook", link: "https://www.facebook.com/ruthu.sanketh"}
         - {name: "email", link: "mailto:ruthu.sankethi@gmail.com"}
     
-- title: "Sub Head"
+- title: "Head"
   team:
     -
       id: 117
       name: Akshay 
       surname: Manoj
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: akshay.jpg
       team: true
       social:
@@ -259,7 +117,7 @@
       id: 118
       name: Ananta 
       surname:  Raj
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: anant.jpg
       team: true
       social:
@@ -270,7 +128,7 @@
       id: 119
       name: Arun 
       surname:  Nair
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: arun.jpg
       team: true
       social:
@@ -280,7 +138,7 @@
       id: 120
       name: Madhav 
       surname: Raju Nair
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: madhav.jpg
       team: true
       social:
@@ -290,7 +148,7 @@
       id: 121
       name: Manav 
       surname: Nitin Kapadnis
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: manav.jpg
       team: true
       social:
@@ -301,7 +159,7 @@
       id: 122
       name: Niranjana
       surname: Madathil
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: niranjana.jpeg
       team: true
       social:
@@ -311,7 +169,7 @@
       id: 123
       name: Samar 
       surname: Pratap Singh
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: samar.jpg
       team: true
       social:
@@ -322,7 +180,7 @@
       id: 124
       name: Sayan  
       surname: Maity
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: sayan.jpg
       team: true
       social:
@@ -332,12 +190,151 @@
       id: 125
       name: Vatsalya  
       surname: Rajaram
-      title: "Sub Head"
+      title: "Head"
       thumbnailUrl: vatsalya.jpg
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/vatsalya.rajaram"}
         - {name: "email", link: "mailto:vatsalya_rajaram@yahoo.com"}
 
+
+- title: "Sub Head"
+  team:
+    -
+      id: 126
+      name: Ajay
+      surname: Yogendra
+      title: "Sub Head"
+      thumbnailUrl: Ajay.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ajay.yogendra.3"}
+        - {name: "email", link: "mailto:ajay617181@gmail.com"}
     
-    
+-
+      id: 127
+      name: Akshat
+      surname: Ansh Nayak
+      title: "Sub Head"
+      thumbnailUrl: Akshat.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/BludgerMist16850"}
+	- {name: "github", link: "https://github.com/noble-platinate"}
+        - {name: "email", link: "mailto:akshatansh.nayak@kgpian.iitkgp.ac.in"}
+    -
+      id: 128
+      name: Ananya
+      surname: Das
+      title: "Sub Head"
+      thumbnailUrl: Ananya.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100049884940032"}
+        - {name: "email", link: "mailto:dasananya8303@gmail.com"}
+    -
+      id: 129
+      name: Ayush
+      surname: Deep
+      title: "Sub Head"
+      thumbnailUrl: Ayush.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/ayush.deep.2308/"}
+	- {name: "github", link: "https://github.com/Marteeen23"}
+        - {name: "email", link: "mailto:Ayushdeep2001@gmail.com"}
+    -
+      id: 130
+      name: Diya
+      surname: Chodnekar
+      title: "Sub Head"
+      thumbnailUrl: Diya.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/diya.chodnekar/"}
+        - {name: "email", link: "mailto:diya.chodnekar@gmail.com"}
+    -
+      id: 131
+      name: Harmeet
+      surname: Singh Rathore
+      title: "Sub Head"
+      thumbnailUrl: Harmeet.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/harmeet.singhrath/"}
+	- {name: "github", link: "https://github.com/Harmeet-S-R"}
+        - {name: "email", link: "mailto:Harmeet.s.rathore@gmail.com"}
+    -
+      id: 132
+      name: Manideep
+      surname: Sridhara
+      title: "Sub Head"
+      thumbnailUrl: Manideep.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/manideep.sridhara"}
+	- {name: "github", link: "https://github.com/manideep1108"}
+        - {name: "email", link: "mailto:manideep.sridhara12@gmail.com"}
+    -
+      id: 133
+      name: Nikhil
+      surname: Giri 
+      title: "Sub Head"
+      thumbnailUrl: Nikhil.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/nikhil.giri.3572846"}
+	- {name: "github", link: "https://github.com/NikhilGiri29"}
+        - {name: "email", link: "mailto:nikhu.irig29@gmail.com"}
+    -
+      id: 134
+      name: Roopsa
+      surname: Sen
+      title: "Sub Head"
+      thumbnailUrl: Roopsa.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/roopsa.sen.351"}
+        - {name: "email", link: "mailto:roopsa.sen@gmail.com"}
+    -
+      id: 135
+      name: Tanmay
+      surname: Mohanty
+      title: "Sub Head"
+      thumbnailUrl: Tanmay.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/tanmay.mohanty.96"}
+        - {name: "github", link: "https://github.com/tanmay-mohanty-ignited"}
+        - {name: "email", link: "mailto:tanmay.mohanty18112002@gmail.com"}
+    -
+      id: 136
+      name: Tanushri
+      surname: Rajesh Tiwari
+      title: "Sub Head"
+      thumbnailUrl: Tanushri.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/tanushri.t.1"}
+	- {name: "github", link: "https://github.com/Purple-Crystal"}
+        - {name: "email", link: "mailto:tanushri.tawari@gmail.com"}
+    -
+      id: 137
+      name: Vinayak
+      surname: Agrawal
+      title: "Sub Head"
+      thumbnailUrl: Vinayak.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/vinayak.aggarwal.564"}
+        - {name: "email", link: "mailto:vnkaggarwal1@gmail.com"}
+    -
+      id: 138
+      name: Yashi
+      surname: Gaur
+      title: "Sub Head"
+      thumbnailUrl: Yashi.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/yashi.gaur.104418"}
+        - {name: "email", link: "mailto:yashigaurbcgs@gmail.com"}
