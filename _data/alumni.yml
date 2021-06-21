@@ -62,16 +62,6 @@
         - {name: "github", link: "https://www.github.com/vidit98"}
         - {name: "email", link: "mailto:vidit.goel@robotix.in"}
     -
-      id: 55
-      name: Anirudh
-      surname: Roy
-      thumbnailUrl: anirudhroy.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/anirudh.roy.552"}
-        - {name: "github", link: "https://www.github.com/royanirudh99"}
-        - {name: "email", link: "mailto:anirudh.roy@robotix.in"}
-    -
       id: 56
       name: Jaydeep
       surname: Godbole

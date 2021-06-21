@@ -1,6 +1,16 @@
 - title: "Coordinator"
   team:
-
+    -
+      id: 55
+      name: Anirudh
+      surname: Roy
+      title: "Coordinator"
+      thumbnailUrl: anirudhroy.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/anirudh.roy.552"}
+        - {name: "github", link: "https://www.github.com/royanirudh99"}
+        - {name: "email", link: "mailto:anirudh.roy@robotix.in"}
     -
       id: 108
       name: Abhay 
@@ -40,7 +50,6 @@
       title: "Coordinator"
       thumbnailUrl: kartikpunjabi.jpg
       team: true
-      tag: Manual
       social:
         - {name: "facebook", link: "https://www.facebook.com/kartik.punjabi"}
         - {name: "github", link: "http://github.com/kartikpunjabi111"}
