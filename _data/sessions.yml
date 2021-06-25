@@ -3,12 +3,12 @@
   title: "KRAIG 101"
   description: "Dive into the world of hobby robotics."
   subtype: presentation
-  speakers: [25, 33, 34]
+  speakers: [41, 42, 43]
   language: en
   complexity: "Beginner"
   links:
-    - { title: "View presentation", src: "https://prezi.com/view/cXtyLmJizWH5eF9fmQsn/"}
-  banner: "/img/session/001/KRAIG101_9.png"
+    - { title: "View presentation", src: "https://prezi.com/p/1vvcdbncmlrt/kraig-101/"}
+  banner: "/img/session/001/kraig_101_2021.jpg"
 -
   id: 002
   title: "KRAIG 102"
@@ -120,5 +120,15 @@
   links:
     - { title: "View presentation", src: "https://prezi.com/p/e5j8fpn1lxqp/ip-kraig/"}
   banner: "/img/session/001/KRAIG301.png"
-
+-
+  id: 014
+  title: "Introductory Seminar"
+  description: "Introduction of TRS to Freshers"
+  subtype: presentation
+  speakers: [33,36,37]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/view/d0hkk3gPw6wacD4RtlNY/"}
+  banner: "/img/session/001/introworkshop2021.png"
     
