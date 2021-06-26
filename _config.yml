@@ -55,7 +55,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
 bottomNavigationLinks:
- - {link: "https://contact.robotix.in", text: "Contact Us"}
+ - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
 
 
 # Hero Block
@@ -128,7 +128,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "https://contact.robotix.in", text: "Contact Us"}
+   - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
  -
   title: "Archives"
   links:
