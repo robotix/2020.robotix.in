@@ -81,16 +81,6 @@
         - {name: "github", link: "https://www.github.com/manthan99"}
         - {name: "email", link: "mailto:manthan.patel@robotix.in"}
     -
-      id: 60
-      name: Shivangi
-      surname: Srivastava
-      thumbnailUrl: shivangisrivastava.jpg
-      team: true
-      social:
-        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100017668215282"}
-        - {name: "github", link: "https://github.com/shivangi-29"}
-        - {name: "email", link: "mailto:shivangi.srivastava@robotix.in"}
-    -
       id: 61
       name: Shreyansh
       surname: Vats
