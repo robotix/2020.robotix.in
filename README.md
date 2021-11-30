@@ -67,8 +67,10 @@ To minify CSS and JS run `minify_js.bat` (for Windows) and `minify_js.sh` (for L
 * Kushal Kedia
 * Kshitiz Khandelwal
 * Manad Mishra
+* Manav Kapadnis
 * Pranit Bauva
 * Rohit Ner
+* Samar Pratap Singh
 * Shivang Agrawal
 * Shubhika Garg
 * Sourish Ghosh
