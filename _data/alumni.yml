@@ -1,3 +1,45 @@
+- title: "2022"
+  team:
+    -
+      id: 60
+      name: Shivangi
+      surname: Srivastava
+      thumbnailUrl: shivangisrivastava.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100017668215282"}
+        - {name: "github", link: "https://github.com/shivangi-29"}
+        - {name: "email", link: "mailto:shivangi.srivastava@robotix.in"}
+    -
+      id: 55
+      name: Anirudh
+      surname: Roy
+      thumbnailUrl: anirudhroy.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/anirudh.roy.552"}
+        - {name: "github", link: "https://www.github.com/royanirudh99"}
+        - {name: "email", link: "mailto:anirudh.roy@robotix.in"}
+    -
+      id: 108
+      name: Abhay 
+      surname: Shukla
+      thumbnailUrl: abhayshukla.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/abhay.shukla.31392"}
+        - {name: "github", link: "https://github.com/AbhayShukla19"}
+        - {name: "email", link: "mailto:abhay.shukla@live.com"}
+    -
+      id: 112
+      name: Kushal 
+      surname: Kedia
+      thumbnailUrl: kushalkedia.jpg
+      team: true
+      social:
+        - {name: "facebook", link: "https://www.facebook.com/kushal.kedia3"}
+        - {name: "github", link: "https://github.com/kushal2000"}
+        - {name: "email", link: "mailto:kushal.k.2000@gmail.com"}
 
 - title: "2021"
   team:
