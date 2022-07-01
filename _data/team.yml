@@ -15,7 +15,7 @@
       name: Ananta 
       surname:  Raj
       title: "Coordinator"
-      thumbnailUrl: anant.jpg
+      thumbnailUrl: 2022_ananta.jpg
       team: true
       tag: Governor
       social:
@@ -27,7 +27,7 @@
       name: Arun 
       surname:  Nair
       title: "Coordinator"
-      thumbnailUrl: arun.jpg
+      thumbnailUrl: 2022_arun.jpg
       team: true
       tag: Governor
       social:
@@ -176,7 +176,7 @@
       name: Ayush
       surname: Deep
       title: "Head"
-      thumbnailUrl: Ayush.jpg
+      thumbnailUrl: 2022_ayush.jpg
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/ayush.deep.2308/"}
@@ -187,7 +187,7 @@
       name: Diya
       surname: Chodnekar
       title: "Head"
-      thumbnailUrl: Diya.jpg
+      thumbnailUrl: 2022_diya.jpg
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/diya.chodnekar/"}
@@ -219,7 +219,7 @@
       name: Nikhil
       surname: Giri 
       title: "Head"
-      thumbnailUrl: Nikhil.jpg
+      thumbnailUrl: 2022_nikhil.jpg
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/nikhil.giri.3572846"}
@@ -239,9 +239,9 @@
     -
       id: 136
       name: Tanushri
-      surname: Rajesh Tiwari
+      surname: Rajesh Tawari
       title: "Head"
-      thumbnailUrl: Tanushri.jpg
+      thumbnailUrl: 2022_tanushri.jpg
       team: true
       social:
         - {name: "facebook", link: "https://www.facebook.com/tanushri.t.1"}
@@ -250,7 +250,7 @@
     -
       id: 137
       name: Vinayak
-      surname: Agrawal
+      surname: Aggrawal
       title: "Head"
       thumbnailUrl: Vinayak.jpg
       team: true
