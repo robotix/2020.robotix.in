@@ -1,0 +1,29 @@
+-
+  id: 001
+  title: "Registrations will begin from 5:30 PM at Robotix Arena"
+  description: "Please bring your robots along with you for registration."
+-
+  id: 002
+  title: "Practice rounds for Summit"
+  description: "Participants are requested to proceed to the Summit arena for their practice rounds"
+-
+  id: 003
+  title: "RFID tags have been released for the event Sherlock"
+  banner: https://2016.robotix.in/img/event/warehouse/rfid.jpg
+-
+  id: 004
+  title: "Practice runs for all the events will start from 9 AM."
+-
+  id: 005
+  title: "Round 1 for the event S.H.E.L.D.O.N. will start from 1:30 PM."
+-
+  id: 006
+  title: "Round 1 for the event Sherlock will begin from 2:00 PM."
+-
+  id: 007
+  title: "Round 1 fir the events Summit and S.H.E.L.D.O.N. have begun. Participants must proceed to the respective arenas."
+-
+  id: 008
+  title: "IMPORTANT NOTICE for S.H.E.L.D.O.N. participants."
+  description: "Scoring rules and information about further rounds."
+  banner: https://2016.robotix.in/img/event/sheldon/rules.jpg

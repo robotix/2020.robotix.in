@@ -1,0 +1,68 @@
+-
+  date: "2017-01-27"
+  dateReadable: "January 27"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "18:00",
+        sessionIds: [001, 404, 404]
+    }
+    - {
+        startTime: "20:00",
+        sessionIds: [404, 013, 404]
+    }
+    - {
+        startTime: "21:00",
+        sessionIds: [404, 404, 012]
+    }
+-
+  date: "2017-01-28"
+  dateReadable: "January 28"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "08:00",
+        sessionIds: [404, 404, 011]
+    }
+    - {
+        startTime: "09:00",
+        sessionIds: [004, 007, 404]
+    }
+    - {
+        startTime: "19:00",
+        sessionIds: [002, 404, 404]
+    }
+    - {
+        startTime: "20:00",
+        sessionIds: [005, 404, 404]
+    }
+    - {
+        startTime: "21:00",
+        sessionIds: [404, 008, 404]
+    }
+-
+  date: "2017-01-29"
+  dateReadable: "January 29"
+  tracks:
+    - {title: "Bomb Disposal", color: "#03a9f4"}
+    - {title: "B.R.I.C.K.S.", color: "#03a9f4"}
+    - {title: "Conquest", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "08:00",
+        sessionIds: [003, 404, 014]
+    }
+    - {
+        startTime: "09:00",
+        sessionIds: [006, 015, 404]
+    }
+    - {
+        startTime: "17:00",
+        sessionIds: [016, 016, 016]
+    }

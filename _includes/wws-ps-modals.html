@@ -1,0 +1,39 @@
+<div class="modals">
+	{% for each_ps in site.data.wws.ps %}
+		<div class="modal fade text-left people-modal" id="ps-{{ each_ps.id }}" tabindex="-1" role="dialog" aria-labelledby="psDetailLabel-{{ each_ps.id }}" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icn icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+						<h4>{{ each_ps.title }}</h4>
+						<span class="theme-metadata"><span class="caption">Category: </span>
+						{% if each_ps.category == "auto" %}
+						Autonomous
+						{% else %}
+						Image Processing
+						{% endif %}
+						</span>
+						<hr>
+						{% if each_ps.doc != null%}
+						<a class="theme-link" href="{{ site.baseurl }}{{ each_ps.doc }}" title="{{ each_ps.title }}" target="_blank">Day-wise Documentation</a>
+						{% endif %}
+						{% if each_ps.attendees != null%}
+						<br />
+						<a class="theme-link" href="{{ site.baseurl }}{{ each_ps.attendees }}" title="{{ each_ps.title }}" target="_blank">List of Attendees</a>
+						{% endif %}
+						{% if each_ps.video %}
+						<div class="theme-video embed-responsive embed-responsive-16by9">
+						    <iframe class="embed-responsive-item" src="{{ each_ps.video }}" frameborder="0" allowfullscreen></iframe>
+						</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>

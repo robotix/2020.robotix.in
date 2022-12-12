@@ -1,0 +1,30 @@
+<!-- Begin tutorials List-->
+<section id="speakers">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            {% for category in categories %}
+            <div class="animated hiding" data-animation="fadeInUp">
+                <h4>{{ category | upcase }} Tutorials</h4>
+            </div>
+            {% assign animationDelay = 0 %}
+            {% for tutorial in site.tutorials %}
+            {% if tutorial.categories contains category %}
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                <div class="zoe-effect ribbon-activator" style="height: 50px;">
+                    <figure class="waves-effect waves-block waves-light">
+                        <figcaption>
+                            <h2 class="name"><a href="{{ site.baseurl }}{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
+                            <div class="clearfix"></div>
+                            <span class="position">{{ tutorial.subTitle }}</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            {% assign animationDelay = animationDelay | plus:100 %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End tutorials List

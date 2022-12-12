@@ -1,0 +1,47 @@
+---
+author: rbtxadmin
+comments: true
+date: 2014-04-02T15:01:53.000Z
+layout: post
+slug: '1365'
+title: 'DARPA and Drone Cars: How the US Military Spawned Self-Driving Car Revolution'
+wordpress_id: 1365
+categories:
+  - Around the World
+---
+
+The Defense Advanced Research Projects Agency (DARPA), the arm of the U.S. Department of Defense responsible for advancing military technology, is celebrating the 10th anniversary of the DARPA Grand Challenge, an ambitious, first-of-its-kind race between robotic, self-driving cars.
+
+[![darpa-grand-challenge-car]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg)]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg)
+
+The Grand Challenge, which occurred on March 13, 2004, involved 15 self-driving cars[ ]({{ site.baseurl }}/img/blog/2014/04/darpa-grand-challenge-car.jpeg) trying to navigate a 142-mile (228 kilometers) course between Barstow, Calif., and Primm, Nev. The contest, while seemingly primitive at the time, has since led to vast improvements in robotic technology, and has demonstrated the value of competitions as a way to drive innovation and collaboration among scientists and engineers.
+
+The DARPA Grand Challenge was designed to foster and accelerate the development of autonomous vehicles that could one day be used to transport cargo and other military supplies into combat zones without endangering the lives of human drivers, according agency officials. The contest was also DARPA's first major attempt to use prize money as an incentive for innovation within the research community.
+
+**Legacy of the Grand Challenge**
+
+As part of the DARPA Grand Challenge, the first team to pass a series of qualification tests and complete the course in less than 10 hours would win the $1 million top prize.
+
+But, the contest revealed an industry in its infancy, because none of the cars managed to finish the rugged desert course. In fact, the highest-scoring vehicle traveled only 7.5 miles (12 km), and none of the teams claimed the $1 million prize.
+
+Yet, the DARPA Grand Challenge proved to be an important milestone.
+
+"That first competition created a community of innovators, engineers, students, programmers, off-road racers, backyard mechanics, inventors and dreamers who came together to make history by trying to solve a tough technical problems," Lt. Col. Scott Wadle, DARPA's liaison to the U.S. Marine Corps, said in a statement. "The fresh thinking they brought was the spark that has triggered major advances in the development of autonomous robotic ground vehicle technology in the years since," Wadle said.
+
+DARPA's second Grand Challenge was held in the fall of 2005, with 195 teams vying for a $2 million prize. This time, five vehicles successfully completed the 132-mile (212 km) course across southern Nevada.
+
+A team from Stanford University claimed the top prize, after their car "Stanley" finished the course with a time of 6 hours and 53 minutes, DARPA officials said.
+
+In 2007, DARPA kicked off its third competition, the Urban Challenge. The contest involved driverless cars trying to maneuver through a complex course in Victorville, Calif., demonstrating the ability to manage obstacles and other moving traffic while simultaneously obeying the state's traffic regulations, DARPA officials said.
+
+Six of the 11 teams completed the course, and a team from Carnegie Mellon University in Pittsburgh won the $2 million prize.
+
+**Foundation for the future**
+
+The challenges have helped foster new and useful technologies for the military, including an autonomous utility vehicle used by the Marine Corps that was developed by one of the six finishers of the Urban Challenge, according to DARPA officials.
+
+The contests have also provided a model for other similar prize-based competitions, including the Spectrum Challenge, which involves teams competing to demonstrate how best to use reliable radio communication amid interfering signals.
+
+In December, DARPA also held its Robotics Challenge Trials in Homestead, Fla. The contest is designed to advance robotic technology in an effort to design machines that could someday work alongside humans in the aftermath of natural or man-made catastrophes, DARPA officials have said.
+
+A Google-owned Japanese robotics team, named SCHAFT Inc., claimed first place in the Trials, and the highest-scoring teams are now preparing for the third and final phase of the competition, the DARPA Robotics Finals.

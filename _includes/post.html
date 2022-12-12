@@ -1,0 +1,73 @@
+<!-- Begin Post-->
+<section id="post-section" class="post-section">
+    <div class="content-wrapper text-left">
+        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+            <div class="col-lg-8 col-md-10 col-xs-12">
+                <article class="row post">
+                    {% if include.isStaticPost == false %}
+                    <div class="post-header">
+                        <div class="published col-md-6 col-xs-6 pull-left">
+                            <span class="caption">Posted:</span>
+                            <span class="publish-date" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+                        </div>
+                        <div class="share col-md-6 col-xs-6 pull-right">
+                            <ul class="social-links">
+                            {% assign postUrl = page.url | prepend: site.baseurl  %} 
+                                <li>
+                                    <div onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                        <svg class="icn icon-google-plus" viewBox="0 0 30 32">
+                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-google-plus"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
+                                        <svg class="icn icon-twitter" viewBox="0 0 30 32">
+                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-twitter"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                        <svg class="icn icon-facebook" viewBox="0 0 30 32">
+                                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-facebook"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="post-body">{{ content }}</div>
+                    {% if page.url contains '/blog/' %}
+                      <ul class="pager col-lg-12">
+                        {% if page.next.url %}
+                        <li class="previous btn-lg"><a href="{{ page.next.url }}" title="{{ page.next.title | strip_html }}"><span aria-hidden="true">&larr;</span> {{page.next.title | strip_html | truncate: 15 }}</a></li>
+                        {% endif %}
+                        {% if page.previous.url %}
+                        <li class="next btn-lg"><a href="{{ page.previous.url }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} <span aria-hidden="true">&rarr;</span></a></li>
+                        {% endif %}
+                      </ul>
+                    {% endif %}
+
+                    {% if include.isStaticPost == false %}
+                        <div class="comments">
+                            {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
+                        </div>
+                    {% endif %}
+
+                </article>
+
+                {% if include.isStaticPost == false %}
+                    <div class="row text-center">
+                        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
+                        </p>
+                    </div>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Post -->

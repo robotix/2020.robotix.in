@@ -1,0 +1,57 @@
+about: "KRISS has been initiated by Technology Robotix Society with a view to bring together people across departments and years in KGP, to discuss and exchange ideas related to more mature and nuanced areas of robotics. The primary motivation is to encourage feedback and potential collaboration between interested individuals, and also to foster a general culture of research-oriented discussions.<br /><br />We do not wish to be particularly restrictive when it comes to the format of these talks and discussions. In general, we would like to keep it up to 1 hour in duration, from start to finish. This would include questions and discussions, which we would ideally like to take up at least half of the total time. To that end, the talks themselves would not exceed 30 minutes. For the sake of comprehensiveness, we do not wish to have more than one talk per session, and not more than two sessions a week, but we are more than happy to have a set of related talks should the speakers so desire."
+subscribe: https://groups.google.com/forum/#!forum/kriss2014/join
+schedule:
+  - 
+    date: "2014-8-13"
+    dateReadable: "August 13, 2014"
+    tracks: 
+      - {title: "Keynote", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [006]
+      }
+  - 
+    date: "2014-9-4"
+    dateReadable: "September 4, 2014"
+    tracks: 
+      - {title: "Keynote", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "19:00",
+        sessionIds: [007]
+      }
+      - {
+        startTime: "19:00",
+        endTime: "20:00",
+        sessionIds: [008]
+      }
+  - 
+    date: "2014-10-16"
+    dateReadable: "October 16, 2014"
+    tracks: 
+      - {title: "Keynote", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "19:00",
+        sessionIds: [009]
+      }
+      - {
+        startTime: "19:00",
+        endTime: "20:00",
+        sessionIds: [010]
+      }
+  - 
+    date: "2015-09-01"
+    dateReadable: "September 1, 2015"
+    tracks: 
+      - {title: "Keynote", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "18:00",
+        endTime: "20:00",
+        sessionIds: [011]
+      }

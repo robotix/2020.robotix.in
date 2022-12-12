@@ -1,0 +1,51 @@
+schedule:
+  -
+    date: "2016-1-21"
+    dateReadable: "January 21"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "17:30",
+        sessionIds: [001]
+      }
+      - {
+        startTime: "21:30",
+        sessionIds: [002]
+      }
+  -
+    date: "2016-1-22"
+    dateReadable: "January 22"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "01:00",
+        sessionIds: [003]
+      }
+      - {
+        startTime: "09:00",
+        sessionIds: [004]
+      }
+      - {
+        startTime: "11:00",
+        sessionIds: [005]
+      }
+      - {
+        startTime:  "11:45",
+        sessionIds: [006]
+      }
+      - {
+        startTime:  "13:30",
+        sessionIds: [007]
+      }
+  -
+    date: "2016-1-23"
+    dateReadable: "January 23"
+    tracks: 
+      - {title: "Notice", color: "#90be4e"}
+    timeslots:
+      - {
+        startTime: "11:50",
+        sessionIds: [008]
+      }

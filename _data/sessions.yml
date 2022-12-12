@@ -1,0 +1,124 @@
+-
+  id: 001
+  title: "KRAIG 101"
+  description: "Dive into the world of hobby robotics."
+  subtype: presentation
+  speakers: [25, 33, 34]
+  language: en
+  complexity: "Beginner"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/view/cXtyLmJizWH5eF9fmQsn/"}
+  banner: "/img/session/001/KRAIG101_9.png"
+-
+  id: 002
+  title: "KRAIG 102"
+  description: "Workshop on advanced manual robotics. Arm, Forklift, Shooting, Stair Climbing Mechanisms"
+  subtype: presentation
+  speakers: [33, 38, 40]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "http://prezi.com/kgbq90o0jtdm/?utm_campaign=share&utm_medium=copy&rc=ex0share"}
+  banner: "/img/session/001/KRAIG102.jpg"    
+-
+  id: 006
+  title: "Visual Pose Estimation for a Mobile Manipulator"
+  description: "Visual Pose Estimation for a Mobile Manipulator, by Shushman Chowdhury"
+  subtype: presentation
+  language: en
+  speakers: [6]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/13-08-2014/KRISS01.pdf"}
+  complexity: "Intermediate"
+-
+  id: 007
+  title: "Visual odometry in smoke-occluded environments"
+  description: "Visual odometry in smoke-occluded environments, by Aditya Agarwal"
+  subtype: presentation
+  language: en
+  speakers: [5]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02.pdf"}
+  complexity: "Intermediate"
+-
+  id: 008
+  title: "Visual Attributes for Enhanced Human-Machine Communication"
+  description: "Visual Attributes for Enhanced Human-Machine Communication and 'Modeling the shape of a scene : A holistic representation of the spatial envelope', by Anchit Navelkar"
+  subtype: presentation
+  language: en
+  speakers: [4]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/04-09-2014/KRISS02-1.pdf"}
+  complexity: "Intermediate"
+-
+  id: 009
+  title: "Fuzzy based PID Motor Control"
+  description: "Fuzzy based PID Motor Control, by Ashish Daga"
+  subtype: presentation
+  language: en
+  speakers: [9]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/16-10-2014/KRISS03.pdf"}
+  complexity: "Intermediate"
+-
+  id: 010
+  title: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots"
+  description: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots, by Kumar Krishna Agarwal"
+  subtype: presentation
+  language: en
+  speakers: [7]
+  complexity: "Intermediate"
+-
+  id: 011
+  title: "Quantization Noise in Advanced LIGO Digital Control Systems"
+  description: "Real-Time RGB-D based People Detection and Tracking for Mobile Robots, by Ayush Pandey"
+  subtype: presentation
+  language: en
+  speakers: [8]
+  links:
+    - { title: "View presentation", src: "https://www.robotix.in/assets/kriss/01-09-2015/KRISS04.pdf"}
+  complexity: "Intermediate"
+-
+  id: 003
+  title: "KRAIG 201"
+  description: "Workshop on Autonomous robotics"
+  subtype: presentation
+  speakers: [35, 36, 37]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/view/QB15UEDPzh0QYskLxRzd/"}
+  banner: "/img/session/001/KRAIG201.png" 
+
+-
+  id: 012
+  title: "Adamas University Workshop"
+  subtype: presentation
+  speakers: [18, 19]
+  language: en
+  complexity: "Beginner"
+  links:
+    - { title: "View Presentation", src: "/blog/Adamas-University-Workshop/" }
+
+-
+  id: 013
+  title: "Benett University Workshop"
+  subtype: presentation
+  speakers: [13, 16]
+  language: en
+  complexity: "Beginner"
+  links:
+    - {title: "View Presentation", src: "/blog/noida-workshop-2017/"}
+-
+  id: 004
+  title: "KRAIG 301"
+  description: "Introduction to Image Processing and Computer Vision"
+  subtype: presentation
+  speakers: [38,39]
+  language: en
+  complexity: "Intermediate"
+  links:
+    - { title: "View presentation", src: "https://prezi.com/p/e5j8fpn1lxqp/ip-kraig/"}
+  banner: "/img/session/001/KRAIG301.png"
+
+    

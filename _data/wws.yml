@@ -1,0 +1,47 @@
+about: The annual winter workshop is conducted each year after the conclusion of the autumn semester. The workshops are mentored by second year robotics enthusiasts including TRS members and interested students are taught the concepts of either autonomous robotics or computer vision, and through that knowledge, attempt to tackle a relevant problem statement. Students are selected through a common test organized by TRS, based on the results of which problem statements and mentors are assigned to the students, which they try to tackle together in one week of time.
+ps:
+  -
+    id: 001
+    title: "Step Counter and Heading Follower (Wireless Robot)"
+    description: To count the number of steps taken by a person using difference in acceleration components and following magnetic headings WRT north of the person wirelessly.
+    category: "auto"
+    doc: /assets/wws/docs/step_follower.pdf
+    attendees: /assets/wws/attendees/step_follower_people.pdf
+    video: https://www.youtube.com/embed/pElm_PjUD1A
+  -
+    id: 002
+    title: "Autonomous Person Follower Turret"
+    description: Build a turret that follows a person using a sonar sensor and targets him using a laser pointer.
+    category: "auto"
+    doc: /assets/wws/docs/person_follower.pdf
+    attendees: /assets/wws/attendees/person_follower_people.pdf
+  -
+    id: 003
+    title: "Signal Following Robot"
+    description: To read a video which instructs the bot to move in 3 directions or stop based on a lighted arrow or circle.
+    category: "ip"
+    doc: /assets/wws/docs/signal_follower.pdf
+    attendees: /assets/wws/attendees/signal_follower_people.pdf
+    video: https://www.youtube.com/embed/4vNinnJdKI8
+  -
+    id: 004
+    title: "Gesture Controlled Robot"
+    description: Control the relative movement and speed of a robot using your fingers / some object which is tracked by a camera feed.
+    category: "ip"
+    doc: /assets/wws/docs/gesture_robot.pdf
+    attendees: /assets/wws/attendees/gesture_robot_people.pdf
+    video: https://www.youtube.com/embed/c1H536V8BKY
+  -
+    id: 005
+    title: "Corridor Following Robot"
+    description: Make an omni-wheeled robot which can move in any direction and follow corridors using sonars as sensors.
+    category: "auto"
+    doc: /assets/wws/docs/corridor_following.pdf
+    attendees: /assets/wws/attendees/corridor_following_people.pdf
+  -
+    id: 006
+    title: "Wireless Gesture Recognition with Obstacle Avoidance"
+    description: "To make a wireless gesture controlled robot, with inputs from an accelerometer, using two Atmega16 boards, with USART and Bluetooth modules as the mode of communication between the microcontrollers."
+    category: "auto"
+    doc: /assets/wws/docs/wireless_gesture.pdf
+    attendees: /assets/wws/attendees/wireless_gesture_people.pdf

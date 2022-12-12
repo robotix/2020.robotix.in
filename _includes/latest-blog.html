@@ -1,0 +1,23 @@
+<!-- Begin Latest News Section -->
+<section id="latest-blog" class="latest-blog">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.latestNewsTitle }}</h3>
+            <article class="row">
+                {% assign animationDelay = 0 %}
+                {% for post in site.posts limit:site.latestNewsCount %}
+                {% assign postUrl = site.baseurl | append: post.url %}
+                <div class="post col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <h6><a href="{{ postUrl }}">{{ post.title }}</a></h6>
+                    <p class="post-body">{{ post.content | strip_html | truncate: 250 }} <a href="{{ postUrl }}">continue reading</a></p>
+                </div>
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% endfor %}
+            </article>
+            <span class="row center bordered">
+                <a href="{{ site.baseurl }}/blog/" class="btn btn-primary waves-effect waves-button waves-light waves-float animated hiding" data-animation="fadeInUp" data-delay="500">{{ site.latestNewsButtonText }}</a>
+            </span>
+        </div>
+    </div>
+</section>
+<!-- End Latest News Section -->

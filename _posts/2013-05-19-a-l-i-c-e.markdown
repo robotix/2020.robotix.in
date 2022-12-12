@@ -1,0 +1,29 @@
+---
+author: rbtxadmin
+comments: true
+date: 2013-05-19T14:48:08.000Z
+layout: post
+slug: a-l-i-c-e
+title: A.L.I.C.E.
+wordpress_id: 907
+categories:
+  - Experiments
+---
+
+ALICE detects quark-gluon plasma, a state of matter thought to have formed just after the big bang.
+
+![](http://home.web.cern.ch/sites/home.web.cern.ch/files/styles/medium/public/image/experiment/2013/01/alice.png?itok=T-3WNgEy)
+
+ALICE (A Large Ion Collider Experiment) is a heavy-ion detector on the Large Hadron Collider (LHC) ring. It is designed to study the physics of strongly interacting matter at extreme energy densities, where a phase of matter called quark-gluon plasma forms.
+
+All ordinary matter in today's universe is made up of atoms. Each atom contains a nucleus composed of protons and neutrons (except hydrogen, which has no neutrons), surrounded by a cloud of electrons. Protons and neutrons are in turn made of quarks bound together by other particles called gluons. No quark has ever been observed in isolation: the quarks, as well as the gluons, seem to be bound permanently together and confined inside composite particles, such as protons and neutrons. This is known as confinement.
+
+[![](http://aliceinfo.cern.ch/Public/Objects/Chapter1/pA/test6.png)](http://aliceinfo.cern.ch/Public/Objects/Chapter1/pA/test6.png)
+
+Collisions in the LHC generate temperatures more than 100,000 times hotter than the centre of the Sun. For part of each year the LHC provides collisions between lead ions, recreating in the laboratory conditions similar to those just after the big bang. Under these extreme conditions, protons and neutrons "melt", freeing the quarks from their bonds with the gluons. This is quark-gluon plasma. The existence of such a phase and its properties are key issues in the theory of quantum chromodynamics (QCD), for understanding the phenomenon of confinement, and for a physics problem called chiral-symmetry restoration. The ALICE collaboration studies the quark-gluon plasma as it expands and cools, observing how it progressively gives rise to the particles that constitute the matter of our universe today.
+
+The ALICE collaboration uses the 10,000-tonne ALICE detector – 26 m long, 16 m high, and 16 m wide – to study quark-gluon plasma. The detector sits in a vast cavern 100 m below ground close to the village of St Genis-Pouilly in France, receiving beams from the LHC.
+
+The collaboration counts more than 1000 scientists from over 100 physics institutes in 30 countries.
+
+Source: CERN

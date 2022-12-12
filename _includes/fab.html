@@ -1,0 +1,26 @@
+<!-- Begin Floating Action button-->
+<ul class="fab">
+	{% for action in page.actions %}
+	<li>
+		<div class="tooltip left" role="tooltip">
+			<div class="tooltip-arrow"></div>
+			<div class="tooltip-inner">{{ action.caption }}</div>
+		</div>
+		<a class="btn btn-primary waves-circle waves-effect waves-light waves-float" {% if action.bgcolor %}style="background: {{ action.bgcolor }};" {% endif %}{% if action.link %}href="{{ action.link }}" target="_blank"{% endif %}>
+		{% if action.icon %}
+		    <svg class="icn icon-fab icon-{{ action.icon }}" viewBox="0 0 40 40">
+		        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-{{ action.icon }}"></use>
+		    </svg>
+		{% else %}
+		    <h6 class="fab-text"><b>{{ action.text }}</b></h6>
+		{% endif %}
+		</a>
+	</li>
+	{% endfor %}
+	<li>
+		<input type="text" class="search input-sm form-control" placeholder="Search the site...">
+		<button class="btn btn-danger waves-circle waves-effect waves-light waves-float rotate">
+		    <h4 class="fab-text media-middle"><b>+</b></h4>
+		</button>
+	</li>
+</ul>

@@ -1,0 +1,61 @@
+<!-- Begin Blog-->
+<section id="blog" class="blog">
+    <div class="content-wrapper text-left">
+        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+            <div class="col-lg-8 col-md-10 col-xs-12">
+                {% for post in paginator.posts %}
+                    <article class="row post">
+                        <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}"><h4>{{ post.title }}</h4></a>
+                        <div class="post-header">
+                            <div class="published col-md-6 col-xs-6 pull-left">
+                                <span class="caption">Posted:</span>
+                                <span class="publish-date" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% for category in post.categories %} #{{ category }}{% endfor %}</span>
+                            </div>
+                            <div class="share col-md-6 col-xs-6 pull-right">
+                                <ul class="social-links">
+                                    {% assign postUrl = site.baseurl | append: post.url %}
+                                    <li>
+                                        <div href="" onclick="window.open('https://plus.google.com/share?url={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                            <svg class="icn icon-google-plus" viewBox="0 0 30 32">
+                                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-google-plus"></use>
+                                            </svg>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div onclick="window.open('https://twitter.com/home?status={{ postUrl }}', 'newwindow', 'width=600, height=250'); return false;">
+                                            <svg class="icn icon-twitter" viewBox="0 0 30 32">
+                                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-twitter"></use>
+                                            </svg>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                            <svg class="icn icon-facebook" viewBox="0 0 30 32">
+                                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-facebook"></use>
+                                            </svg>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="post-body">{{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl | append: post.url }}">continue reading</a></p>
+                    </article>
+                {% endfor %} 
+
+                  <ul class="pager col-lg-12">
+                    {% if paginator.previous_page %}
+                    <li class="previous btn-lg"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    {% else %}
+                    <li class="previous btn-lg disabled"><a><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    {% endif %}
+                    {% if paginator.next_page %}
+                    <li class="next btn-lg"><a href="{{ paginator.next_page_path }}">Next <span aria-hidden="true">&rarr;</span></a></li>
+                    {% else %}
+                    <li class="next btn-lg disabled"><a>Next <span aria-hidden="true">&rarr;</span></a></li>
+                    {% endif %}
+                  </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Blog -->
