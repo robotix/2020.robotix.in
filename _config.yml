@@ -20,7 +20,7 @@ sass:
 # Site Settings
 title: "Technology Robotix Society, IIT Kharagpur"
 description: "Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."
-baseurl: "https://2020.robotix.in"
+baseurl: "https://2023.robotix.in"
 permalink: "/blog/:title/"
 collections:
   events:
@@ -61,8 +61,8 @@ bottomNavigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "20th Jan - 21st Jan, 2023"
-typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2020"'
+eventDate: "20th Jan - 22nd Jan, 2023"
+typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2023"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
    - {permalink: "/event/", text: "Explore Events"}
@@ -132,6 +132,7 @@ footerBlocks:
  -
   title: "Archives"
   links:
+   - {link: "https://2020.robotix.in/", text: "Robotix 2020"}
    - {link: "https://2019.robotix.in/", text: "Robotix 2019"}
    - {link: "https://2018.robotix.in/", text: "Robotix 2018"}
    - {link: "https://2017.robotix.in/", text: "Robotix 2017"}
