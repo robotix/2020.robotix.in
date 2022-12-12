@@ -20,7 +20,7 @@ sass:
 # Site Settings
 title: "Technology Robotix Society, IIT Kharagpur"
 description: "Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."
-baseurl: "https://2023.robotix.in"
+baseurl: "https://www.robotix.in"
 permalink: "/blog/:title/"
 collections:
   events:
