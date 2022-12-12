@@ -61,7 +61,7 @@ bottomNavigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "20th Jan - 21st Jan, 2023"
+eventDate: "17th Jan - 19th Jan, 2020"
 typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2020"'
 typeoutFallback: "Technology Robotix Society"
 heroButtons:
